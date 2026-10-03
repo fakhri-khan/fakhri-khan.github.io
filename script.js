@@ -21,3 +21,11 @@ document.querySelectorAll('#main-menu a').forEach((link) => {
 
 const year = document.querySelector('#year');
 if (year) year.textContent = new Date().getFullYear();
+
+document.querySelectorAll('a.back-to-top, a[href="#top"]').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
+  });
+});
