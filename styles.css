@@ -38,6 +38,7 @@ button { font: inherit; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { line-height: 1.12; letter-spacing: -.045em; }
 h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp(3.1rem, 7vw, 6.35rem); font-weight: 770; }
+.hero h1 { max-width: 540px; font-size: clamp(2.8rem, 5vw, 5rem); }
 .hero-lede { max-width: 630px; margin-bottom: 24px; color: var(--muted); font-size: 1.06rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 19px; border-radius: 8px; border: 1px solid transparent; font-size: .88rem; font-weight: 760; cursor: pointer; transition: transform .2s ease, background .2s ease, border-color .2s ease; }
