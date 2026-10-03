@@ -58,6 +58,8 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .profile-kicker { margin-bottom: 10px; color: #92dfd9; font-size: .72rem; text-transform: uppercase; letter-spacing: .13em; font-weight: 800; }
 .profile-note { max-width: 320px; margin-bottom: 15px; font-size: .94rem; line-height: 1.28; letter-spacing: -.03em; }
 .profile-meta { display: grid; gap: 6px; color: rgba(255,255,255,.72); font-size: .78rem; }
+.profile-identity { display: grid; gap: 4px; color: rgba(255,255,255,.78); font-size: .72rem; line-height: 1.35; }
+.profile-identity strong { color: var(--white); font-size: 1rem; letter-spacing: -.02em; }
 .institution-link { color: var(--teal); text-decoration: underline; text-decoration-color: rgba(0,108,53,.28); text-underline-offset: 3px; }
 .institution-link:hover { color: var(--navy); text-decoration-color: currentColor; }
 .institution-link-light { color: #a9ebe3; text-decoration-color: rgba(169,235,227,.45); }
@@ -128,6 +130,10 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .teaching-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 60px; }
 .teaching-grid h2 { color: var(--navy); font-size: clamp(1.6rem, 3vw, 2.6rem); }
 .teaching-content { color: var(--muted); }
+.administrative-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.administrative-card { padding: 19px; border: 1px solid var(--line); border-top: 3px solid var(--gold); border-radius: 14px; background: var(--white); }
+.administrative-card h3 { margin: 22px 0 8px; color: var(--navy); font-size: 1rem; line-height: 1.25; }
+.administrative-card p { margin-bottom: 0; color: var(--muted); font-size: .78rem; line-height: 1.45; }
 .course-tags { display: flex; flex-wrap: wrap; gap: 7px; margin: 26px 0 30px; }
 .student-note { padding-top: 24px; border-top: 1px solid var(--line); }
 .student-note strong { color: var(--navy); }
@@ -189,7 +195,17 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .service-list-grid li { padding: 14px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; }
 .service-list-grid li:nth-child(-n+2) { border-top: 0; }
 .publication-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.publication-light { min-height: 205px; color: var(--ink); border: 1px solid var(--line); background: var(--white); box-shadow: 0 7px 18px rgba(13,43,69,.04); }
+.publications-page .publication-page-section { padding-top: 38px; }
+.publications-page .publication-note { padding: 12px 16px; margin-bottom: 18px; font-size: .76rem; }
+.publications-page .publication-toolbar input, .publications-page .publication-toolbar select { height: 40px; padding: 0 11px; font-size: .76rem; }
+.publications-page .publication-count { margin-bottom: 14px; }
+.publications-page .publication-light { min-height: 150px; padding: 16px; border-radius: 11px; color: var(--ink); border: 1px solid var(--line); background: var(--white); box-shadow: 0 5px 14px rgba(13,43,69,.04); }
+.publications-page .publication-light .publication-type { margin-bottom: 8px; font-size: .6rem; }
+.publications-page .publication-light h3 { margin-bottom: 8px; color: var(--navy); font-size: .88rem; line-height: 1.25; }
+.publications-page .publication-light p { font-size: .7rem; }
+.publications-page .publication-light .publication-venue { margin-bottom: 7px; }
+.publications-page .publication-light .publication-metrics { gap: 4px; margin-top: 9px; }
+.publications-page .publication-light .publication-metrics span { padding: 4px 6px; font-size: .58rem; }
 .publication-light h3 { color: var(--navy); }
 .publication-light p { color: var(--muted); }
 .publication-light a { color: var(--teal); }
@@ -201,6 +217,19 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .publication-metrics { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 15px; }
 .publication-metrics span { padding: 5px 8px; color: var(--navy-2); border-radius: 5px; background: var(--teal-soft); font-size: .66rem; font-weight: 750; }
 .publication-metrics span:last-child { color: var(--muted); background: #f1f0eb; font-weight: 600; }
+.teachings-hero { padding: 38px 0 34px; background: linear-gradient(135deg, var(--sand), var(--paper) 72%); }
+.teachings-hero .container { padding-left: 22px; border-left: 4px solid var(--teal); }
+.teachings-hero h1 { max-width: 550px; font-size: clamp(1.8rem, 3.2vw, 2.8rem); }
+.advisory-page .advisory-hero { padding: 38px 0 34px; background: linear-gradient(135deg, var(--navy), var(--navy-2) 68%, var(--teal)); }
+.advisory-page .advisory-hero h1 { max-width: 600px; font-size: clamp(1.8rem, 3.2vw, 2.8rem); }
+.advisory-page .section-heading { margin-bottom: 20px; }
+.advisory-page .service-grid { gap: 12px; }
+.advisory-page .service-card { padding: 20px; border-top: 3px solid var(--teal); box-shadow: 0 5px 14px rgba(13,43,69,.04); }
+.advisory-page .service-card h3 { margin-bottom: 12px; font-size: 1.06rem; }
+.advisory-page .service-card p, .advisory-page .service-card ul { font-size: .8rem; }
+.advisory-page .service-card li { margin-bottom: 6px; }
+.advisory-page .service-list-grid { gap: 8px 20px; }
+.advisory-page .service-list-grid li { padding: 10px 0; font-size: .8rem; }
 .page-contact { padding-top: 56px; padding-bottom: 56px; }
 .page-contact h1 { color: var(--white); font-size: clamp(2rem, 3.75vw, 3.7rem); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
@@ -211,7 +240,7 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
   .research-grid, .recognition-grid { grid-template-columns: repeat(2, 1fr); }
   .about-grid, .teaching-grid, .contact-grid { grid-template-columns: 1fr; gap: 38px; }
   .hero.container, .page-hero > .container { width: min(100% - 48px, 1160px); }
-  .course-panel-grid, .service-grid, .service-list-grid { grid-template-columns: 1fr; }
+  .course-panel-grid, .service-grid, .service-list-grid, .administrative-grid { grid-template-columns: 1fr; }
   .publication-toolbar { grid-template-columns: 1fr 1fr; }
   .split-heading { align-items: start; flex-direction: column; gap: 20px; }
   .section-intro { max-width: 550px; }
