@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Complete publication list of Dr. Fakhri Alam Khan with publication years, journal quartiles, and impact-factor metadata.">
+  <meta name="theme-color" content="#0d2b45"><title>Publications | Dr. Fakhri Alam Khan</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top"><nav class="nav container" aria-label="Primary navigation"><a class="brand" href="index.html#top"><span class="brand-mark">FAK</span><span>Dr. Fakhri Alam Khan</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">Menu</button><div class="nav-links" id="main-menu"><a href="about.html">About</a><a href="research.html">Research</a><a href="projects.html">Projects</a><a href="publications.html">Publications</a><a href="experience.html">Experience</a><a href="contact.html">Contact</a></div></nav></header>
+  <main>
+    <section class="page-hero page-hero-dark"><div class="container"><p class="eyebrow eyebrow-light">Publications</p><h1>Research that travels across disciplines.</h1><p class="page-lede">Journal and conference publications spanning AI healthcare, information security, provenance, cloud systems, and applied machine learning.</p></div></section>
+    <section class="section container publication-page-section">
+      <div class="publication-note"><strong>JCR 2026 release</strong><span>Metrics shown are for the 2025 metric year. Quartiles are category-specific; entries without a verified Journal Impact Factor are labeled transparently.</span></div>
+      <div class="publication-toolbar" aria-label="Publication tools"><label class="search-field"><span class="sr-only">Search publications</span><input id="publication-search" type="search" placeholder="Search title or journal…"></label><label><span class="sr-only">Sort publications</span><select id="sort-publications"><option value="year-desc">Year: newest first</option><option value="year-asc">Year: oldest first</option><option value="impact-desc">Impact factor: high to low</option><option value="impact-asc">Impact factor: low to high</option><option value="quartile">Journal quartile</option></select></label><label><span class="sr-only">Filter by quartile</span><select id="filter-quartile"><option value="all">All quartiles</option><option value="Q1">Q1</option><option value="Q2">Q2</option><option value="Q3">Q3</option><option value="Q4">Q4 / ESCI</option><option value="none">Not JIF-ranked</option></select></label><label><span class="sr-only">Filter by publication type</span><select id="filter-type"><option value="all">All types</option><option value="journal">Journals</option><option value="conference">Conferences</option></select></label></div>
+      <p class="publication-count" id="publication-count" aria-live="polite"></p>
+      <div class="publication-grid publication-list" id="publication-grid"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> Dr. Fakhri Alam Khan</span><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script><script src="publications.js"></script>
+</body>
+</html>
