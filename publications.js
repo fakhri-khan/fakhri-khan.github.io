@@ -1,5 +1,6 @@
 const publications = [
-  { type: 'journal', year: 2026, category: 'security', title: 'Towards Practical Migration to Post Quantum SSH: System-Level Design and Evaluation', venue: 'Frontiers in Computer Science', impactFactor: 3.4, quartile: 'Q3', jcr: 'JCR 2026 · 2025 metric year', link: '' },
+  { type: 'journal', year: 2026, category: 'security', authors: 'SA Baksh, IU Haq, T Helmy, FA Khan et al.', title: 'Towards Practical Migration to Post Quantum SSH: System-Level Design and Evaluation', venue: 'Frontiers in Computer Science', volume: '8', impactFactor: 3.4, quartile: 'Q3', jcr: 'JCR 2026 · 2025 metric year', doi: '10.3389/fcomp.2026.1844445', link: 'https://doi.org/10.3389/fcomp.2026.1844445' },
+  { type: 'journal', year: 2026, category: 'healthcare', authors: 'S Alissa, M Usman and FA Khan', title: 'Exploring 3D point clouds with multimodal large language model (MLLM): A review', venue: 'Image and Vision Computing', volume: '175', impactFactor: 5.0, quartile: 'Q1', jcr: 'JCR 2026 · 2025 metric year', doi: '10.1016/j.imavis.2026.106202', link: 'https://doi.org/10.1016/j.imavis.2026.106202' },
   { type: 'journal', year: 2026, category: 'security', title: 'An Optimal Acceleration Control for Collision Avoidance in VANETs Using Convex Optimization', venue: 'Computers, Materials and Continua', impactFactor: 2.4, quartile: 'Q3', jcr: 'JCR 2026 · 2025 metric year', link: 'https://doi.org/10.32604/cmc.2026.076104' },
   { type: 'journal', year: 2026, category: 'healthcare', title: 'Leveraging Multimodal LLMs and Metaverse Technologies for Early Diagnosis of Elderly Diseases', venue: 'IEEE Transactions on Computational Social Systems', impactFactor: 4.6, quartile: 'Q1', jcr: 'JCR 2026 · 2025 metric year', link: 'https://doi.org/10.1109/TCSS.2026.3665937' },
   { type: 'journal', year: 2025, category: 'healthcare', title: 'Multi scale self supervised learning for deep knowledge transfer in diabetic retinopathy grading', venue: 'Scientific Reports', impactFactor: 4.9, quartile: 'Q1', jcr: 'JCR 2026 · 2025 metric year', link: 'https://doi.org/10.1038/s41598-025-85685-w' },
@@ -70,11 +71,14 @@ const formatImpact = (value) => value === null ? 'No verified JIF' : `JIF ${valu
 const typeLabel = (type) => type === 'journal' ? 'Journal' : 'Conference';
 
 function publicationMarkup(item, dark = false) {
-  const link = item.link ? ` · <a href="${item.link}" target="_blank" rel="noreferrer">DOI / paper ↗</a>` : '';
+  const link = item.link ? ` · <a href="${item.link}" target="_blank" rel="noreferrer">${item.doi ? `DOI: ${item.doi}` : 'DOI / paper'} ↗</a>` : '';
+  const authors = item.authors ? `<p class="publication-authors">${item.authors}</p>` : '';
+  const volume = item.volume ? ` · Volume ${item.volume}` : '';
   return `<article class="publication ${dark ? '' : 'publication-light'}">
     <div class="publication-meta"><span class="publication-type">${typeLabel(item.type)} · ${item.year}</span><span class="publication-year">${item.year}</span></div>
     <h3>${item.title}</h3>
-    <p class="publication-venue"><strong>${item.venue}</strong>${link}</p>
+    ${authors}
+    <p class="publication-venue"><strong>${item.venue}</strong>${volume}${link}</p>
     <div class="publication-metrics"><span>${formatImpact(item.impactFactor)}</span><span>${item.quartile}</span><span>${item.jcr}</span></div>
   </article>`;
 }
