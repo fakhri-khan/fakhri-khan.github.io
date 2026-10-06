@@ -86,6 +86,7 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .section-intro { max-width: 350px; margin-bottom: 3px; color: var(--muted); font-size: .88rem; }
 .about-grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 52px; }
 .large-copy { max-width: 670px; margin-bottom: 0; color: var(--navy); font-size: clamp(1.45rem, 2.7vw, 2.2rem); line-height: 1.28; letter-spacing: -.04em; }
+.home-about-copy { max-width: 760px; font-size: clamp(1.15rem, 1.9vw, 1.7rem); line-height: 1.48; letter-spacing: -.018em; font-weight: 500; }
 .about-details { color: var(--muted); font-size: .99rem; }
 .about-details p { margin-bottom: 28px; }
 .text-link { display: inline-block; color: var(--navy); font-weight: 800; }
@@ -346,7 +347,6 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .merged-hero { padding: 42px 0 36px; background: linear-gradient(135deg, var(--sand), var(--paper) 70%); }
 .merged-hero h1 { max-width: 720px; margin-bottom: 12px; font-size: clamp(2rem, 3.7vw, 3.35rem); }
 .merged-hero .page-lede { max-width: 760px; }
-.awards-hero { background: linear-gradient(135deg, var(--navy), var(--navy-2) 68%, var(--teal)); }
 .awards-top .recognition-grid article { min-height: 222px; }
 .merged-page .section-heading { margin-bottom: 22px; }
 .teaching-summary { padding-bottom: 48px; }
@@ -376,5 +376,4 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
   .hero-lede { font-size: .8rem; line-height: 1.45; }
   .merged-hero { padding: 34px 0 30px; }
   .merged-hero h1 { font-size: clamp(1.75rem, 8vw, 2.6rem); }
-  .awards-hero h1 { font-size: clamp(1.7rem, 7.5vw, 2.4rem); }
 }
