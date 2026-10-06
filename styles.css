@@ -30,15 +30,18 @@ button { font: inherit; }
 .nav-links a:hover, .quick-links a:hover, .contact-links a:hover, .text-link:hover { color: var(--teal); }
 .menu-toggle { display: none; color: var(--navy); background: transparent; border: 1px solid var(--line); padding: 8px 12px; border-radius: 8px; }
 
-.hero { position: relative; isolation: isolate; min-height: 0; padding-top: 52px; padding-bottom: 52px; display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: 40px; }
-.hero.container, .page-hero > .container { width: min(870px, calc(100% - 48px)); }
+.hero { position: relative; isolation: isolate; min-height: 0; padding-top: 42px; padding-bottom: 42px; display: grid; grid-template-columns: minmax(150px, .72fr) minmax(360px, 1.55fr) minmax(245px, .93fr); align-items: center; gap: 34px; }
+.hero.container { width: min(1100px, calc(100% - 48px)); }
+.page-hero > .container { width: min(870px, calc(100% - 48px)); }
 .hero::before { content: ""; position: absolute; z-index: -1; top: 20px; right: -15vw; width: 58vw; height: 330px; opacity: .5; background: linear-gradient(30deg, transparent 46%, rgba(200,164,93,.18) 47%, rgba(200,164,93,.18) 49%, transparent 50%), linear-gradient(150deg, transparent 46%, rgba(0,108,53,.12) 47%, rgba(0,108,53,.12) 49%, transparent 50%); background-size: 64px 64px; transform: skewX(-12deg); pointer-events: none; }
 .eyebrow { margin: 0 0 18px; color: var(--teal); text-transform: uppercase; font-size: .73rem; font-weight: 800; letter-spacing: .15em; }
 .eyebrow-light { color: #78d6d0; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { line-height: 1.12; letter-spacing: -.045em; }
 h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp(3.1rem, 7vw, 6.35rem); font-weight: 770; }
-.hero h1 { max-width: 540px; font-size: clamp(2.1rem, 3.75vw, 3.75rem); }
+.hero-copy { text-align: center; }
+.hero h1 { max-width: 620px; margin-right: auto; margin-left: auto; font-size: clamp(2rem, 3.15vw, 3.25rem); }
+.hero h1 span { color: var(--teal); }
 .hero-lede { max-width: 630px; margin-bottom: 18px; color: var(--muted); font-size: .92rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 18px; }
 .button { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 19px; border-radius: 8px; border: 1px solid transparent; font-size: .88rem; font-weight: 760; cursor: pointer; transition: transform .2s ease, background .2s ease, border-color .2s ease; }
@@ -47,11 +50,11 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .button-primary:hover { background: #005326; }
 .button-secondary { color: var(--navy); border-color: var(--line); background: var(--white); }
 .button-secondary:hover { border-color: var(--teal); }
-.quick-links { display: flex; flex-wrap: wrap; gap: 21px; color: var(--muted); font-size: .82rem; font-weight: 700; }
+.quick-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 17px; color: var(--muted); font-size: .78rem; font-weight: 700; }
 .quick-links a::after { content: " ↗"; color: var(--teal); }
 .hero-aside { position: relative; }
 .profile-card { position: relative; overflow: hidden; border: 1px solid rgba(13,43,69,.1); border-radius: 20px; color: var(--white); background: var(--navy); box-shadow: var(--shadow); }
-.profile-photo { display: block; width: 100%; aspect-ratio: 1.7; object-fit: cover; object-position: 68% center; }
+.profile-photo { display: block; width: 100%; aspect-ratio: 1.18; object-fit: cover; object-position: 68% center; }
 .profile-card-copy { padding: 19px 22px 20px; background: linear-gradient(150deg, var(--navy) 10%, #164765 58%, var(--teal) 100%); }
 .profile-card::before, .profile-card::after { display: none; }
 .profile-initials { position: absolute; top: 40px; left: 38px; color: var(--gold); font-size: clamp(4rem, 11vw, 7rem); line-height: .9; font-weight: 850; letter-spacing: -.1em; }
@@ -333,12 +336,12 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 }
 
 /* Consolidated navigation and BASMIR homepage identity */
-.hero-lab-brand { display: grid; grid-template-columns: 132px 1fr; align-items: center; gap: 24px; }
-.hero-lab-logo { display: grid; place-items: center; padding: 10px; border: 1px solid rgba(13,43,69,.12); border-radius: 18px; background: rgba(255,255,255,.9); box-shadow: 0 12px 28px rgba(13,43,69,.1); }
+.hero-lab-panel { display: grid; justify-items: center; gap: 15px; }
+.hero-lab-logo { display: grid; place-items: center; width: min(100%, 190px); padding: 10px; border: 1px solid rgba(13,43,69,.12); border-radius: 18px; background: rgba(255,255,255,.9); box-shadow: 0 12px 28px rgba(13,43,69,.1); }
 .hero-lab-logo img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
-.hero-lab-brand .eyebrow { margin-bottom: 10px; }
-.hero-lab-brand h1 { margin-bottom: 14px; font-size: clamp(1.95rem, 3.35vw, 3.35rem); }
-.hero-lab-brand .hero-lede { max-width: 560px; margin-bottom: 0; }
+.hero-lab-button { width: 100%; max-width: 190px; min-height: 42px; padding: 0 12px; font-size: .76rem; text-align: center; }
+.hero-copy .eyebrow { margin-bottom: 12px; }
+.hero-copy .hero-lede { margin-right: auto; margin-left: auto; }
 .experience-teaching-page .nav-links a.is-active, .awards-advisory-page .nav-links a.is-active { color: var(--teal); }
 .merged-hero { padding: 42px 0 36px; background: linear-gradient(135deg, var(--sand), var(--paper) 70%); }
 .merged-hero h1 { max-width: 720px; margin-bottom: 12px; font-size: clamp(2rem, 3.7vw, 3.35rem); }
@@ -358,16 +361,19 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .advising-section { padding-top: 48px; }
 
 @media (max-width: 920px) {
-  .hero-lab-brand { grid-template-columns: 112px 1fr; gap: 20px; }
+  .hero { grid-template-columns: 150px 1fr; gap: 28px; }
+  .hero-lab-panel { grid-row: span 2; }
   .awards-top .recognition-grid article { min-height: 0; }
 }
 
 @media (max-width: 680px) {
-  .hero-lab-brand { grid-template-columns: 88px 1fr; gap: 14px; align-items: start; }
-  .hero-lab-logo { padding: 7px; border-radius: 13px; }
-  .hero-lab-brand h1 { font-size: clamp(1.55rem, 7.4vw, 2.35rem); }
-  .hero-lab-brand .eyebrow { margin-bottom: 7px; font-size: .62rem; }
-  .hero-lab-brand .hero-lede { font-size: .78rem; line-height: 1.45; }
+  .hero { grid-template-columns: 1fr; gap: 25px; padding-top: 32px; padding-bottom: 32px; }
+  .hero-lab-panel { order: 1; }
+  .hero-copy { order: 2; }
+  .hero-aside { order: 3; }
+  .hero-lab-logo { width: 150px; padding: 7px; border-radius: 13px; }
+  .hero h1 { font-size: clamp(1.7rem, 8vw, 2.5rem); }
+  .hero-lede { font-size: .8rem; line-height: 1.45; }
   .merged-hero { padding: 34px 0 30px; }
   .merged-hero h1 { font-size: clamp(1.75rem, 8vw, 2.6rem); }
   .awards-hero h1 { font-size: clamp(1.7rem, 7.5vw, 2.4rem); }
