@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daily research papers from selected BASMIR Lab venues, organized by research track and publication date.">
+  <meta name="theme-color" content="#0d2b45">
+  <title>Daily Research Papers | Dr. Fakhri Alam Khan</title>
+  <link rel="stylesheet" href="styles.css?v=20261007a">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html#top" aria-label="Dr. Fakhri Alam Khan home"><span class="brand-mark">Home</span><span>Dr. Fakhri Alam Khan</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">Menu</button>
+      <div class="nav-links" id="main-menu">
+        <a href="basmir-lab.html">BASMIR Lab</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a class="is-active" href="daily-research.html">Daily Research</a>
+        <a href="experience-teaching.html">Experience &amp; Teaching</a>
+        <a href="awards-advisory.html">Awards and Advisory Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-dark daily-research-hero">
+      <div class="container">
+        <p class="eyebrow eyebrow-light">BASMIR Lab reading desk</p>
+        <h1>Daily research papers.</h1>
+        <p class="page-lede">Two genuinely new papers per research track when available, with older daily editions kept below for a date-wise archive.</p>
+      </div>
+    </section>
+    <section class="section container daily-research-section" aria-labelledby="daily-research-heading">
+      <div class="daily-research-intro">
+        <div>
+          <p class="eyebrow">Five research tracks</p>
+          <h2 id="daily-research-heading">New work, organized for useful reading.</h2>
+        </div>
+        <p class="daily-research-status" id="daily-research-status" aria-live="polite">Loading the archive…</p>
+      </div>
+      <div id="daily-research-archive" class="daily-research-archive" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> Dr. Fakhri Alam Khan</span><a class="back-to-top" href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js?v=20261006b"></script>
+  <script src="daily-research.js?v=20261007a"></script>
+</body>
+</html>
