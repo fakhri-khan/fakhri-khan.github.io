@@ -1,0 +1,65 @@
+media: media
+
+content:
+  - name: pages
+    label: Website pages
+    type: group
+    items:
+      - name: homepage
+        label: Homepage
+        type: file
+        path: index.html
+        format: code
+      - name: projectsPage
+        label: Projects page
+        type: file
+        path: projects.html
+        format: code
+      - name: publicationsPage
+        label: Publications page
+        type: file
+        path: publications.html
+        format: code
+      - name: experienceTeaching
+        label: Experience and Teaching
+        type: file
+        path: experience-teaching.html
+        format: code
+      - name: awardsAdvisory
+        label: Awards and Advisory Services
+        type: file
+        path: awards-advisory.html
+        format: code
+      - name: basmirLab
+        label: BASMIR Lab
+        type: file
+        path: basmir-lab.html
+        format: code
+      - name: contact
+        label: Contact
+        type: file
+        path: contact.html
+        format: code
+
+  - name: data
+    label: Website data
+    type: group
+    items:
+      - name: projectData
+        label: Project data
+        type: file
+        path: projects.js
+        format: code
+      - name: publicationData
+        label: Publication data
+        type: file
+        path: publications.js
+        format: code
+
+settings:
+  commit:
+    identity: user
+    templates:
+      update: "Update {path} via Pages CMS"
+      delete: "Delete {path} via Pages CMS"
+      rename: "Rename {oldPath} to {newPath} via Pages CMS"
