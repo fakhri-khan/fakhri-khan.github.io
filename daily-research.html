@@ -6,7 +6,7 @@
   <meta name="description" content="Daily research papers from selected BASMIR Lab venues, organized by research track and publication date.">
   <meta name="theme-color" content="#0d2b45">
   <title>Daily Research Papers | Dr. Fakhri Alam Khan</title>
-  <link rel="stylesheet" href="styles.css?v=20261007a">
+  <link rel="stylesheet" href="styles.css?v=20261008b">
 </head>
 <body>
   <header class="site-header" id="top">
@@ -25,15 +25,11 @@
     </nav>
   </header>
 
-
-
-
   <main>
     <section class="page-hero page-hero-dark daily-research-hero">
       <div class="container">
         <p class="eyebrow eyebrow-light">BASMIR Lab reading desk</p>
         <h1>Research Pulse</h1>
-        
       </div>
     </section>
     <section class="section container daily-research-section" aria-labelledby="daily-research-heading">
@@ -44,18 +40,28 @@
         </div>
         <p class="daily-research-status" id="daily-research-status" aria-live="polite">Loading the archive…</p>
       </div>
-      <div id="daily-research-archive" class="daily-research-archive" aria-live="polite"></div>
+      <div class="daily-research-layout">
+        <aside class="daily-research-toc" aria-label="Research archive navigation">
+          <div class="daily-toc-card">
+            <div class="daily-toc-heading">
+              <p class="eyebrow">Navigate archive</p>
+              <h3>Research tracks</h3>
+            </div>
+            <button class="daily-toc-today" id="daily-research-today" type="button">Today</button>
+            <nav class="daily-toc-nav" id="daily-research-track-nav" aria-label="Research tracks"></nav>
+            <div class="daily-toc-dates">
+              <p class="eyebrow">Archive dates</p>
+              <nav class="daily-toc-date-nav" id="daily-research-date-nav" aria-label="Archive dates"></nav>
+            </div>
+          </div>
+        </aside>
+        <div id="daily-research-archive" class="daily-research-archive" aria-live="polite"></div>
+      </div>
     </section>
   </main>
 
-
-
-
   <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> Dr. Fakhri Alam Khan</span><a class="back-to-top" href="#top">Back to top ↑</a></div></footer>
   <script src="script.js?v=20261006b"></script>
-  <script src="daily-research.js?v=20261007a"></script>
+  <script src="daily-research.js?v=20261008b"></script>
 </body>
 </html>
-
-
-
