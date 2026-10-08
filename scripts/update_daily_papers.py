@@ -93,8 +93,11 @@ def authors(item: dict[str, Any]) -> list[str]:
 
 def fetch_venue(venue: dict[str, Any], start: date, end: date) -> list[dict[str, Any]]:
     query = venue.get("query", venue["name"])
-    query_key = "query.container-title" if venue.get("type") == "journal" else "query.bibliographic"
-    params = {query_key: query, "filter": f"from-pub-date:{start.isoformat()},until-pub-date:{end.isoformat()}", "sort": "published", "order": "desc", "rows": 50}
+    if venue.get("type") == "journal" and venue.get("issn"):
+        params = {"filter": f"issn:{venue['issn']},from-pub-date:{start.isoformat()},until-pub-date:{end.isoformat()}", "sort": "published", "order": "desc", "rows": 50}
+    else:
+        query_key = "query.bibliographic"
+        params = {query_key: query, "filter": f"from-pub-date:{start.isoformat()},until-pub-date:{end.isoformat()}", "sort": "published", "order": "desc", "rows": 50}
     mailto = os.getenv("CROSSREF_MAILTO", "")
     if mailto:
         params["mailto"] = mailto
@@ -107,7 +110,12 @@ def fetch_venue(venue: dict[str, Any], start: date, end: date) -> list[dict[str,
         container = text_value((item.get("container-title") or [""])[0]).strip()
         blob = normalized(f"{title} {container} {item.get('publisher', '')}")
         minimum = 1 if len(query_words) <= 2 else 2
-        if sum(word in blob for word in query_words) < minimum or not title or not in_window(published, start, end):
+        event = item.get("event") if isinstance(item.get("event"), dict) else {}
+        actual_venue = normalized(f"{container} {event.get('name', '')} {event.get('acronym', '')}")
+        conference_words = [word for word in normalized(venue["name"]).split() if len(word) >= 2 and word not in {"annual", "conference", "international", "meeting", "on", "and", "the", "of", "proceedings", "symposium"}]
+        required_matches = 1 if len(conference_words) <= 1 else 2
+        conference_ok = venue.get("type") != "conference" or sum(word in actual_venue for word in conference_words) >= required_matches
+        if sum(word in blob for word in query_words) < minimum or not conference_ok or not title or not in_window(published, start, end):
             continue
         doi = clean_doi(item.get("DOI"))
         if not doi:
@@ -188,7 +196,12 @@ def main() -> int:
         all_papers.extend(fetch_venue(venue, start, edition))
         time.sleep(0.15)
     candidates = [paper for paper in unique(all_papers) if paper["key"] not in seen]
-    chosen = select_for_tracks(candidates, tracks)
+    day = next((item for item in archive["days"] if item.get("date") == edition.isoformat()), None)
+    if day is not None and day.get("papers"):
+        chosen = []
+        log("edition already contains papers; keeping the existing daily set")
+    else:
+        chosen = select_for_tracks(candidates, tracks)
     log(f"found {len(candidates)} never-archived candidates and selected {len(chosen)} papers")
     if args.dry_run:
         return 0
