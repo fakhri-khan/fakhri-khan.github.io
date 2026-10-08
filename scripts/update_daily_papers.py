@@ -374,6 +374,17 @@ def main() -> int:
     log(f"wrote {len(new_papers)} new papers to {ARCHIVE_PATH}")
     return 0
 
+summarize_openai = summarize
+
+def summarize(candidate: dict[str, Any]) -> dict[str, str]:
+    if not os.getenv("OPENAI_API_KEY"):
+        abstract = strip_markup(candidate.get("abstract", ""))
+        sentences = [sentence.strip() for sentence in re.split(r"(?<=[.!?])\s+", abstract) if sentence.strip()]
+        summary = " ".join(sentences[:2]) or f"This paper examines {candidate['title']}."
+        methods = next((sentence for sentence in sentences if re.search(r"\b(propose|present|develop|design|introduce|method|framework|model|approach|experiment|evaluate)\w*\b", sentence, re.I)), "Not stated in the abstract.")
+        return {"summary": summary, "contribution": sentences[0] if sentences else "Not stated in the abstract.", "methods": methods, "relevance": f"Relevant to {candidate['trackName']} based on the paper metadata and abstract.", "limitations": "Not stated in the abstract."}
+    return summarize_openai(candidate)
+
 
 if __name__ == "__main__":
     try:
