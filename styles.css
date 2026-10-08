@@ -255,7 +255,8 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .daily-paper-meta { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 12px; color: var(--teal); font-size: .68rem; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; }
 .daily-paper-meta span:last-child { color: var(--muted); white-space: nowrap; }
 .daily-paper-card h4 { margin-bottom: 8px; color: var(--navy); font-size: 1.02rem; line-height: 1.28; letter-spacing: -.025em; }
-.daily-paper-authors { margin-bottom: 15px; color: var(--muted); font-size: .73rem; line-height: 1.45; }
+
+#about .large-copy { font-size: clamp(1.55rem, 2.3vw, 1.9rem); line-height: 1.45; font-weight: 500; letter-spacing: normal; }.daily-paper-authors { margin-bottom: 15px; color: var(--muted); font-size: .73rem; line-height: 1.45; }
 .daily-paper-details { display: grid; gap: 10px; margin-top: auto; }
 .daily-paper-detail { padding-top: 9px; border-top: 1px solid var(--line); }
 .daily-paper-detail span { display: block; margin-bottom: 2px; color: var(--teal); font-size: .63rem; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
