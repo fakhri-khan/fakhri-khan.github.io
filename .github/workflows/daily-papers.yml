@@ -47,13 +47,17 @@ jobs:
           for day in data.get("days", []):
               if not isinstance(day.get("date"), str) or not isinstance(day.get("papers"), list):
                   raise SystemExit("invalid daily edition")
+              counts = {}
               for paper in day["papers"]:
-                  if not paper.get("title") or not paper.get("doi"):
-                      raise SystemExit("paper is missing a title or DOI")
+                  if not paper.get("title") or not paper.get("doi") or not paper.get("trackId"):
+                      raise SystemExit("paper is missing a title, DOI, or track")
                   key = paper["doi"].lower().strip()
                   if key in seen:
                       raise SystemExit("duplicate DOI in archive")
                   seen.add(key)
+                  counts[paper["trackId"]] = counts.get(paper["trackId"], 0) + 1
+              if any(count > 2 for count in counts.values()):
+                  raise SystemExit("a daily edition contains more than two papers in a track")
           raw = Path("data/daily-papers.json").read_text(encoding="utf-8")
           if "OPENAI_API_KEY" in raw or re.search(r"sk-[A-Za-z0-9]{20,}", raw):
               raise SystemExit("secret-like material found in archive")
