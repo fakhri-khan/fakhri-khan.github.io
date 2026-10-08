@@ -7,6 +7,19 @@
   <meta name="theme-color" content="#0d2b45">
   <title>Daily Research Papers | Dr. Fakhri Alam Khan</title>
   <link rel="stylesheet" href="styles.css?v=20261008b">
+  <style>
+    .daily-research-section .daily-paper-card { display: block; padding: 0; }
+    .daily-research-section .daily-paper-card > summary { display: block; padding: 19px; cursor: pointer; list-style: none; }
+    .daily-research-section .daily-paper-card > summary::-webkit-details-marker { display: none; }
+    .daily-research-section .daily-paper-card > summary:focus-visible { outline: 2px solid rgba(0,108,53,.35); outline-offset: 4px; border-radius: 10px; }
+    .daily-research-section .daily-paper-card[open] > summary { border-bottom: 1px solid var(--line); background: rgba(228,240,231,.22); }
+    .daily-research-section .daily-paper-card > summary .daily-paper-authors { margin-bottom: 0; }
+    .daily-paper-card-trigger { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 15px; padding-top: 12px; border-top: 1px solid var(--line); color: var(--teal); font-size: .72rem; font-weight: 800; }
+    .daily-paper-card-trigger span:last-child { font-size: 1.1rem; font-weight: 500; line-height: 1; }
+    .daily-paper-card[open] .daily-paper-card-trigger span:last-child { transform: rotate(45deg); }
+    .daily-paper-card-body { padding: 0 19px 19px; }
+    .daily-paper-card-body .daily-paper-details { margin-top: 0; }
+  </style>
 </head>
 <body>
   <header class="site-header" id="top">
@@ -35,7 +48,6 @@
     <section class="section container daily-research-section" aria-labelledby="daily-research-heading">
       <div class="daily-research-intro">
         <div>
-          <p class="eyebrow">Five research tracks</p>
           <h2 id="daily-research-heading">New work, organized for useful reading.</h2>
         </div>
         <p class="daily-research-status" id="daily-research-status" aria-live="polite">Loading the archive…</p>
@@ -43,10 +55,6 @@
       <div class="daily-research-layout">
         <aside class="daily-research-toc" aria-label="Research archive navigation">
           <div class="daily-toc-card">
-            <div class="daily-toc-heading">
-              <p class="eyebrow">Navigate archive</p>
-              <h3>Research tracks</h3>
-            </div>
             <button class="daily-toc-today" id="daily-research-today" type="button">Today</button>
             <nav class="daily-toc-nav" id="daily-research-track-nav" aria-label="Research tracks"></nav>
             <div class="daily-toc-dates">
@@ -62,6 +70,6 @@
 
   <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> Dr. Fakhri Alam Khan</span><a class="back-to-top" href="#top">Back to top ↑</a></div></footer>
   <script src="script.js?v=20261006b"></script>
-  <script src="daily-research.js?v=20261008b"></script>
+  <script src="daily-research.js?v=20261008c"></script>
 </body>
 </html>
