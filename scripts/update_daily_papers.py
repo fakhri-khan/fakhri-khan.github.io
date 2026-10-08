@@ -204,7 +204,7 @@ def main() -> int:
         day["generatedAt"] = now.isoformat()
     archive["days"].sort(key=lambda item: str(item.get("date", "")), reverse=True)
     archive["updatedAt"] = now.isoformat()
-    ARCHIVE_PATH.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    ARCHIVE_PATH.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     log(f"wrote {len(new_papers)} new papers to {ARCHIVE_PATH}")
     return 0
 
