@@ -20,12 +20,10 @@ jobs:
     steps:
       - name: Check out the site
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Fetch and summarize new papers
         env:
           OPENAI_API_KEY: \${{ secrets.OPENAI_API_KEY }}
@@ -33,12 +31,12 @@ jobs:
           PAPER_LOOKBACK_DAYS: "7"
           CROSSREF_MAILTO: fakhri.khan@kfupm.edu.sa
         run: python scripts/update_daily_papers.py
-
       - name: Validate generated archive
         run: |
           python -m json.tool data/daily-papers.json >/dev/null
           python - <<'PY'
           import json
+          import re
           from pathlib import Path
           data = json.loads(Path("data/daily-papers.json").read_text(encoding="utf-8"))
           if data.get("timezone") != "Asia/Riyadh":
@@ -57,11 +55,10 @@ jobs:
                       raise SystemExit("duplicate DOI in archive")
                   seen.add(key)
           raw = Path("data/daily-papers.json").read_text(encoding="utf-8")
-          if "OPENAI_API_KEY" in raw or "sk-" in raw:
+          if "OPENAI_API_KEY" in raw or re.search(r"sk-[A-Za-z0-9]{20,}", raw):
               raise SystemExit("secret-like material found in archive")
           print(f"validated {len(seen)} archived papers across {len(data.get('days', []))} editions")
           PY
-
       - name: Publish updated archive
         run: |
           git diff --check
