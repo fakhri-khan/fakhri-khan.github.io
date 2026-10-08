@@ -13,10 +13,14 @@ if (menuToggle && menu) {
   }));
 }
 
-const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+const normalizePagePath = (value) => {
+  const path = new URL(value, window.location.origin).pathname.replace(/\/+$/, '');
+  return path || '/';
+};
+const currentPath = normalizePagePath(window.location.pathname);
 document.querySelectorAll('#main-menu a').forEach((link) => {
-  const linkPage = link.getAttribute('href').split('#')[0] || 'index.html';
-  link.classList.toggle('is-active', linkPage === currentPage);
+  const linkPath = normalizePagePath(link.getAttribute('href'));
+  link.classList.toggle('is-active', linkPath === currentPath);
 });
 
 const year = document.querySelector('#year');

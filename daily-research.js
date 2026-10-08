@@ -159,7 +159,7 @@
     if (latestDate) setActiveLink(".daily-toc-date-link", "data-date-target", latestDate);
   }
 
-  fetch("data/daily-papers.json?v=" + Date.now(), { cache: "no-store" })
+  fetch("/data/daily-papers.json?v=" + Date.now(), { cache: "no-store" })
     .then(function (response) {
       if (!response.ok) throw new Error("Archive request failed (" + response.status + ")");
       return response.json();

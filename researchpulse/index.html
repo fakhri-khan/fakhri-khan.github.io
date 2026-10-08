@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daily research papers from selected BASMIR Lab venues, organized by research track and publication date.">
+  <meta name="theme-color" content="#0d2b45">
+  <title>Daily Research Papers | Dr. Fakhri Alam Khan</title>
+  <link rel="stylesheet" href="/styles.css?v=20261008b">
+  <style>
+    .daily-research-section .daily-paper-card { display: block; padding: 0; }
+    .daily-research-section .daily-paper-card > summary { display: block; padding: 19px; cursor: pointer; list-style: none; }
+    .daily-research-section .daily-paper-card > summary::-webkit-details-marker { display: none; }
+    .daily-research-section .daily-paper-card > summary:focus-visible { outline: 2px solid rgba(0,108,53,.35); outline-offset: 4px; border-radius: 10px; }
+    .daily-research-section .daily-paper-card[open] > summary { border-bottom: 1px solid var(--line); background: rgba(228,240,231,.22); }
+    .daily-research-section .daily-paper-card > summary .daily-paper-authors { margin-bottom: 0; }
+    .daily-paper-card-trigger { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 15px; padding-top: 12px; border-top: 1px solid var(--line); color: var(--teal); font-size: .72rem; font-weight: 800; }
+    .daily-paper-card-trigger span:last-child { font-size: 1.1rem; font-weight: 500; line-height: 1; }
+    .daily-paper-card[open] .daily-paper-card-trigger span:last-child { transform: rotate(45deg); }
+    .daily-paper-card-body { padding: 0 19px 19px; }
+    .daily-paper-card-body .daily-paper-details { margin-top: 0; }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="https://fakhri.online" aria-label="Dr. Fakhri Alam Khan home"><span class="brand-mark">Home</span><span>Dr. Fakhri Alam Khan</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">Menu</button>
+      <div class="nav-links" id="main-menu">
+        <a href="/basmir/">BASMIR Lab</a>
+        <a href="/projects/">Projects</a>
+        <a href="/publications/">Publications</a>
+        <a class="is-active" href="/researchpulse/">Daily Research</a>
+        <a href="/experience/">Experience &amp; Teaching</a>
+        <a href="/awards/">Awards and Advisory Services</a>
+        <a href="/contact/">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-dark daily-research-hero">
+      <div class="container">
+        <p class="eyebrow eyebrow-light">BASMIR Lab reading desk</p>
+        <h1>Research Pulse</h1>
+      </div>
+    </section>
+    <section class="section container daily-research-section" aria-labelledby="daily-research-heading">
+      <div class="daily-research-intro">
+        <div>
+          <h2 id="daily-research-heading">New work, organized for useful reading.</h2>
+        </div>
+        <p class="daily-research-status" id="daily-research-status" aria-live="polite">Loading the archive…</p>
+      </div>
+      <div class="daily-research-layout">
+        <aside class="daily-research-toc" aria-label="Research archive navigation">
+          <div class="daily-toc-card">
+            <button class="daily-toc-today" id="daily-research-today" type="button">Today</button>
+            <nav class="daily-toc-nav" id="daily-research-track-nav" aria-label="Research tracks"></nav>
+            <div class="daily-toc-dates">
+              <p class="eyebrow">Archive dates</p>
+              <nav class="daily-toc-date-nav" id="daily-research-date-nav" aria-label="Archive dates"></nav>
+            </div>
+          </div>
+        </aside>
+        <div id="daily-research-archive" class="daily-research-archive" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> Dr. Fakhri Alam Khan</span><a class="back-to-top" href="#top">Back to top ↑</a></div></footer>
+  <script src="/script.js?v=20261006b"></script>
+  <script src="/daily-research.js?v=20261008c"></script>
+</body>
+</html>
