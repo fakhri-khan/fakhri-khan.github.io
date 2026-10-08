@@ -1,7 +1,219 @@
 {
   "version": 1,
   "timezone": "Asia/Riyadh",
-  "updatedAt": null,
-  "tracks": [],
-  "days": []
-}
+  "updatedAt": "2026-10-08T11:56:53.952996+03:00",
+  "tracks": [
+    {
+      "id": "retinal-ai",
+      "name": "Retinal AI and Computational Ophthalmology"
+    },
+    {
+      "id": "medical-imaging",
+      "name": "Medical Imaging and Multimodal Biomedical AI"
+    },
+    {
+      "id": "trustworthy-ai",
+      "name": "Trustworthy and Privacy-Preserving AI"
+    },
+    {
+      "id": "secure-healthcare",
+      "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+    },
+    {
+      "id": "pqc-embedded",
+      "name": "Post-Quantum Cryptography and Embedded Systems Security"
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-10-08",
+      "generatedAt": "2026-10-08T11:56:53.952996+03:00",
+      "papers": [
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Systemic privacy risks of personal data exposure through conversational large language model agents",
+          "authors": [
+            "Abdellah Ben yahia",
+            "Iman Kadir",
+            "El Fadil El Harrak",
+            "Sharon Chisembe",
+            "Abdelaziz Abdallaoui",
+            "Abdellah El-Hmaidi",
+            "Ali Dehbi"
+          ],
+          "venue": "Radiology: Artificial Intelligence",
+          "venueId": "J03",
+          "publishedDate": "2026-10-08",
+          "doi": "10.1007/s44163-026-02431-5",
+          "url": "https://doi.org/10.1007/s44163-026-02431-5",
+          "source": "Crossref",
+          "summary": "Abstract \n                   Conversational Large Language Model (LLM) agents, deployed quickly, have exposed unprecedented opportunities for personal information, from health data to financial information, to biometric identifiers. This critical enlightenment review investigates general privacy dangers in each of five areas: data leakage and memorization, adversarial extraction and prompt injection, inference and re-identification, surveillance and profiling and regulatory governance breakdown. We trace privacy threats from static data breaches to dynamic ones that have become part of an architecture, associated with neural memorization and contextual inference (2020–2026), using expert selection of primary studies and technical benchmark sources. Upon close examination, technical mitigations (differential privacy, federated learning and machine unlearning) prove successful to some extent when operating in controlled environments, but fail to provide complete protection in conversational environments. We combine classical theory on Privacy-Preserving Data Publishing (PPDP) with emerging threats from LLMs, and present a conflict-of-evidence analysis which reveals that privacy protections are particularly effective in structured environments with low risks, or with consumers actively responsible for maintaining them, but fail to adequately protect privacy in high-stakes domains without human control, technical safeguards, and legal liability. We systematically examine and analyze a dimension that has not been studied sufficiently: risks of data deletion and editing illusion, and introduce techniques for unlearning machines that leave behind traces that can be exploited by adversarial reconstruction. We support the multi-layered mitigation framework of PPDP principles, technical safeguards, and governance reform.",
+          "contribution": "Abstract \n                   Conversational Large Language Model (LLM) agents, deployed quickly, have exposed unprecedented opportunities for personal information, from health data to financial information, to biometric identifiers. This critical enlightenment review investigates general privacy dangers in each of five areas: data leakage and memorization, adversarial extraction and prompt injection, inference and re-identification, surveillance and profiling and regulatory governance breakdown. We trace privacy threats from static data breaches to dynamic ones that have become part of an architecture, associated with neural memorization and contextual inference (2020–2026), using expert selection of primary studies and technical benchmark sources. Upon close examination, technical mitigations (differential privacy, federated learning and machine unlearning) prove successful to some extent when operating in controlled environments, but fail to provide complete protection in conversational environments. We combine classical theory on Privacy-Preserving Data Publishing (PPDP) with emerging threats from LLMs, and present a conflict-of-evidence analysis which reveals that privacy protections are particularly effective in structured environments with low risks, or with consumers actively responsible for maintaining them, but fail to adequately protect privacy in high-stakes domains without human control, technical safeguards, and legal liability. We systematically examine and analyze a dimension that has not been studied sufficiently: risks of data deletion and editing illusion, and introduce techniques for unlearning machines that leave behind traces that can be exploited by adversarial reconstruction. We support the multi-layered mitigation framework of PPDP principles, technical safeguards, and governance reform.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Five‐Year Treatment Outcomes of Macular Oedema Secondary to\n                    <scp>Central Retinal Vein Occlusion</scp>\n                    in Routine Clinical Practice: The Fight Retinal Blindness! Registry",
+          "authors": [
+            "Katrin Rudolph",
+            "Marianna Rosso",
+            "Mark Gillies",
+            "Adrian Hunt",
+            "Louise O'Toole",
+            "Alessandro Invernizzi",
+            "David Squirrell",
+            "Hemal Mehta",
+            "Richard Barry",
+            "Pierre‐Henry Gabrielle",
+            "Daniel Barthelmes"
+          ],
+          "venue": "JAMA Ophthalmology",
+          "venueId": "J13",
+          "publishedDate": "2026-10-07",
+          "doi": "10.1111/ceo.70164",
+          "url": "https://doi.org/10.1111/ceo.70164",
+          "source": "Crossref",
+          "summary": "ABSTRACT \n                   \n                     Background \n                     To report 5‐year outcomes in a cohort of patients who received anti‐VEGF therapy for macular oedema secondary to central retinal vein occlusion (CRVO) in routine clinical practice. \n                   \n                   \n                     Methods \n                     In this retrospective observational study, 593 treatment‐naïve eyes that commenced anti‐VEGF treatment between 1 January 2010, and 2019 were analysed. Outcome measures included mean changes in visual acuity (VA) and central subfield thickness (CST). \n                   \n                   \n                     Results \n                     In the entire cohort (593), the mean VA changed by +8 letters and the mean CST by −298 μm. The entire cohort includes eyes with completed 5‐year follow‐up and non‐completers who dropped out before the end of the observation period. Eyes that completed the 5‐year follow‐up (202/593, 34%) had a mean VA and CST change of +11 letters and −320 μm with a median of 25.5 injections at 39.5 visits. Non‐completers with a final VA of &gt; 70 letters (95/593; 16%) experienced a change in mean VA of +23 letters. In non‐completers with a final VA between 35 and 70 letters (163/593; 27%), the mean VA increased by 12 letters. In non‐completers with a final VA of &lt; 35 letters (133/593; 22%), the mean VA declined by 12 letters. \n                   \n                   \n                     Conclusion \n                     Patients with macular oedema secondary to CRVO who continue treatment can achieve meaningful improvements in vision over an extended period. Patients with initially poor vision tend to have large improvements but the worst outcomes. In contrast, eyes with very good initial VA can achieve excellent functional results and may even stop treatment at some point with adequate therapy.",
+          "contribution": "ABSTRACT \n                   \n                     Background \n                     To report 5‐year outcomes in a cohort of patients who received anti‐VEGF therapy for macular oedema secondary to central retinal vein occlusion (CRVO) in routine clinical practice. \n                   \n                   \n                     Methods \n                     In this retrospective observational study, 593 treatment‐naïve eyes that commenced anti‐VEGF treatment between 1 January 2010, and 2019 were analysed. Outcome measures included mean changes in visual acuity (VA) and central subfield thickness (CST). \n                   \n                   \n                     Results \n                     In the entire cohort (593), the mean VA changed by +8 letters and the mean CST by −298 μm. The entire cohort includes eyes with completed 5‐year follow‐up and non‐completers who dropped out before the end of the observation period. Eyes that completed the 5‐year follow‐up (202/593, 34%) had a mean VA and CST change of +11 letters and −320 μm with a median of 25.5 injections at 39.5 visits. Non‐completers with a final VA of &gt; 70 letters (95/593; 16%) experienced a change in mean VA of +23 letters. In non‐completers with a final VA between 35 and 70 letters (163/593; 27%), the mean VA increased by 12 letters. In non‐completers with a final VA of &lt; 35 letters (133/593; 22%), the mean VA declined by 12 letters. \n                   \n                   \n                     Conclusion \n                     Patients with macular oedema secondary to CRVO who continue treatment can achieve meaningful improvements in vision over an extended period. Patients with initially poor vision tend to have large improvements but the worst outcomes. In contrast, eyes with very good initial VA can achieve excellent functional results and may even stop treatment at some point with adequate therapy.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Are There Grounds to Distinguish the So-Called “Migration Security” as a Separate Type of Security?",
+          "authors": [
+            "Aleksey A. Grishkovets"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-10-08",
+          "doi": "10.18572/2071-1166-2026-10-9-15",
+          "url": "https://doi.org/10.18572/2071-1166-2026-10-9-15",
+          "source": "Crossref",
+          "summary": "The article is devoted to the consideration of the validity of highlighting of “so-called migration security” as separate\ntype of security. It is noted that historically the emergence of the state as Political and Law institute was conditioned\nby necessity to ensure the safety of people. The problem of illegal migration is acute in modern Russia. This problem\nthreatens National security what gave a rise to some administrativists, mostly from enforcement agencies, to substantiate\nthe existence of migration security as separate type of security. Their views are critically evaluated. There are no legal\ngrounds for separation of migration security. A post mention of migration security in State Migration Policy Concept\nof the Russian Federation for 2026–2030 does not indicate about recognition of existence such type of security at the\nstate level. Theoretical construction of migration security is scientifically untenable. It should be about ensuring public\nsafety in the field of migration as element of National security or maybe even widely — National security in sphere\nof migration.",
+          "contribution": "The article is devoted to the consideration of the validity of highlighting of “so-called migration security” as separate\ntype of security. It is noted that historically the emergence of the state as Political and Law institute was conditioned\nby necessity to ensure the safety of people. The problem of illegal migration is acute in modern Russia. This problem\nthreatens National security what gave a rise to some administrativists, mostly from enforcement agencies, to substantiate\nthe existence of migration security as separate type of security. Their views are critically evaluated. There are no legal\ngrounds for separation of migration security. A post mention of migration security in State Migration Policy Concept\nof the Russian Federation for 2026–2030 does not indicate about recognition of existence such type of security at the\nstate level. Theoretical construction of migration security is scientifically untenable. It should be about ensuring public\nsafety in the field of migration as element of National security or maybe even widely — National security in sphere\nof migration.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "The Effect of Different Gadolinium Delivery Rates on Objective and Subjective Image Quality in Cardiac Perfusion Magnetic Resonance Imaging",
+          "authors": [
+            "Casper Mihl",
+            "Joey CJG Pernot",
+            "Bjorn Winkens",
+            "Martijn W. Smulders",
+            "Joachim E. Wildberger",
+            "Robert J. Holtackers",
+            "Bibi Martens"
+          ],
+          "venue": "Radiology",
+          "venueId": "J10",
+          "publishedDate": "2026-10-08",
+          "doi": "10.1097/rli.0000000000001317",
+          "url": "https://doi.org/10.1097/rli.0000000000001317",
+          "source": "Crossref",
+          "summary": "Background: \n                     Stress perfusion cardiac magnetic resonance imaging (MRI) enables accurate detection of myocardial ischemia. While contrast injection parameters, particularly iodine delivery rate, are known to influence image quality in CT, their impact in cardiac MRI remains insufficiently studied. This study aimed to evaluate the effect of different gadolinium-based contrast agent (GBCA) injection rates on objective and subjective image quality in perfusion cardiac MRI in patients with suspected ischemic heart disease. \n                   \n                   \n                     Methods: \n                     \n                      Ninety patients scheduled for a stress perfusion cardiac MRI were retrospectively included and allocated to 3 groups based on the GBCA injection rate used (eg, group 1: 6 mL/s, group 2: 4 mL/s, and group 3: 2 mL/s). Blood-pool signal intensity was extracted on a frame-by-frame basis to generate signal-intensity time curves. Signal-to-noise ratio (SNR) and contrast-to-noise ratio (CNR) were calculated for all relevant regions, including SNR\n                       ischemia \n                      , SNR\n                       blood \n                      , SNR\n                       myocardium \n                      , CNR\n                       ischemia–blood \n                      , CNR\n                       myocardium–blood \n                      , and CNR\n                       ischemia–myocardium \n                      . Subjective image quality was scored on a 5-point Likert scale, blindly assessed in consensus by 2 cardiovascular radiologists.\n                     \n                   \n                   \n                     Results: \n                     \n                      Blood-pool peak intensity was the highest in the group with flow rates of 6 mL/s. Peak signal intensity was for the 6, 4, and 2 mL/s group, respectively, 17525±3616, 15213±3416, and 15534±2990 a.u. (\n                       P \n                      =0.019) and post hoc comparison demonstrated a significant difference between the 6 mL/s and 4 mL/s group (\n                       P \n                      =0.027). No significant differences in signal intensity of the myocardium, blood pool and the infarcted region were found between groups (\n                       P \n                      =0.475, 0.399 and 0.519, respectively). Image noise was significantly higher in group 1 compared to group 3 (\n                       P \n                      value=0.036). SNR of myocardium, blood, and ischemia was not significantly different between groups (\n                       P \n                      =0.525, 0.595, and 0.453, respectively). CNR for ischemia-blood, myocardium-blood and ischemia-myocardium were the highest in group 3, but not significantly different (\n                       P \n                      =0.373, 0.896, and 0.346, respectively). Subjective image quality and reader confidence were not significantly different between groups (\n                       P \n                      values of 0.985 and 0.842). Although contrast quality demonstrated a statistically significant difference across groups (\n                       P \n                      =0.026), this finding was not considered clinically relevant.\n                     \n                   \n                   \n                     Conclusion: \n                     Higher GBCA injection rates resulted in higher blood-pool peak enhancement, yet did not translate into significant differences in objective image and subjective image quality. Lower injection rates appear sufficient to achieve adequate myocardial perfusion imaging, suggesting a plateau in image quality in which increasing flow rates do not show added benefit.",
+          "contribution": "Background: \n                     Stress perfusion cardiac magnetic resonance imaging (MRI) enables accurate detection of myocardial ischemia. While contrast injection parameters, particularly iodine delivery rate, are known to influence image quality in CT, their impact in cardiac MRI remains insufficiently studied. This study aimed to evaluate the effect of different gadolinium-based contrast agent (GBCA) injection rates on objective and subjective image quality in perfusion cardiac MRI in patients with suspected ischemic heart disease. \n                   \n                   \n                     Methods: \n                     \n                      Ninety patients scheduled for a stress perfusion cardiac MRI were retrospectively included and allocated to 3 groups based on the GBCA injection rate used (eg, group 1: 6 mL/s, group 2: 4 mL/s, and group 3: 2 mL/s). Blood-pool signal intensity was extracted on a frame-by-frame basis to generate signal-intensity time curves. Signal-to-noise ratio (SNR) and contrast-to-noise ratio (CNR) were calculated for all relevant regions, including SNR\n                       ischemia \n                      , SNR\n                       blood \n                      , SNR\n                       myocardium \n                      , CNR\n                       ischemia–blood \n                      , CNR\n                       myocardium–blood \n                      , and CNR\n                       ischemia–myocardium \n                      . Subjective image quality was scored on a 5-point Likert scale, blindly assessed in consensus by 2 cardiovascular radiologists.\n                     \n                   \n                   \n                     Results: \n                     \n                      Blood-pool peak intensity was the highest in the group with flow rates of 6 mL/s. Peak signal intensity was for the 6, 4, and 2 mL/s group, respectively, 17525±3616, 15213±3416, and 15534±2990 a.u. (\n                       P \n                      =0.019) and post hoc comparison demonstrated a significant difference between the 6 mL/s and 4 mL/s group (\n                       P \n                      =0.027). No significant differences in signal intensity of the myocardium, blood pool and the infarcted region were found between groups (\n                       P \n                      =0.475, 0.399 and 0.519, respectively). Image noise was significantly higher in group 1 compared to group 3 (\n                       P \n                      value=0.036). SNR of myocardium, blood, and ischemia was not significantly different between groups (\n                       P \n                      =0.525, 0.595, and 0.453, respectively). CNR for ischemia-blood, myocardium-blood and ischemia-myocardium were the highest in group 3, but not significantly different (\n                       P \n                      =0.373, 0.896, and 0.346, respectively). Subjective image quality and reader confidence were not significantly different between groups (\n                       P \n                      values of 0.985 and 0.842). Although contrast quality demonstrated a statistically significant difference across groups (\n                       P \n                      =0.026), this finding was not considered clinically relevant.\n                     \n                   \n                   \n                     Conclusion: \n                     Higher GBCA injection rates resulted in higher blood-pool peak enhancement, yet did not translate into significant differences in objective image and subjective image quality. Lower injection rates appear sufficient to achieve adequate myocardial perfusion imaging, suggesting a plateau in image quality in which increasing flow rates do not show added benefit.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "An attention guided local global feature fusion network for robust point cloud registration",
+          "authors": [
+            "Linggen Ren",
+            "Dong Zhang",
+            "Zhenhang Ying",
+            "Teng Wu",
+            "Qinghe Xu"
+          ],
+          "venue": "Network and Distributed System Security Symposium (NDSS)",
+          "venueId": "C14",
+          "publishedDate": "2026-10-08",
+          "doi": "10.1038/s41598-026-68790-2",
+          "url": "https://doi.org/10.1038/s41598-026-68790-2",
+          "source": "Crossref",
+          "summary": "Abstract \n                   \n                    Point cloud registration in complex environments remains challenging because measurement noise, partial overlap, and structural variations can reduce correspondence reliability and registration robustness, while computational efficiency is also critical for practical deployment. These difficulties are closely related to insufficient adaptive modeling of local geometric structures, inadequate suppression of weak global graph connections, and limited exploitation of inter-cloud similarity and discrepancy information. To address these issues, we propose AGLGNet, an attention guided local global feature fusion network for robust point cloud registration. First, the Adaptive Local Neighborhood Graph Calibration Module constructs geometry-guided neighborhood representations and adaptively recalibrates neighboring features, thereby enhancing local structural discrimination and reducing sensitivity to noise. Second, the Dynamic Weight Global Graph Learning Module adjusts graph connection weights according to inter-point correlations, suppressing weak relationships and strengthening long-range contextual modeling. Third, the Hybrid Attention Feature Fusion Module jointly models inter-cloud similarity and discrepancy information through cross-attention and further refines the fused representations using self-attention. Extensive experiments on 3DMatch, ModelNet40, KITTI, the Stanford 3D Scanning Repository, and real-world workpiece data demonstrate that the proposed method achieves low registration errors and strong robustness under complete, partial, and noisy point cloud conditions. It also maintains an inference time on the order of 10\n                     −2 \n                     s, providing a favorable balance among registration accuracy, robustness, and computational efficiency.",
+          "contribution": "Abstract \n                   \n                    Point cloud registration in complex environments remains challenging because measurement noise, partial overlap, and structural variations can reduce correspondence reliability and registration robustness, while computational efficiency is also critical for practical deployment. These difficulties are closely related to insufficient adaptive modeling of local geometric structures, inadequate suppression of weak global graph connections, and limited exploitation of inter-cloud similarity and discrepancy information. To address these issues, we propose AGLGNet, an attention guided local global feature fusion network for robust point cloud registration. First, the Adaptive Local Neighborhood Graph Calibration Module constructs geometry-guided neighborhood representations and adaptively recalibrates neighboring features, thereby enhancing local structural discrimination and reducing sensitivity to noise. Second, the Dynamic Weight Global Graph Learning Module adjusts graph connection weights according to inter-point correlations, suppressing weak relationships and strengthening long-range contextual modeling. Third, the Hybrid Attention Feature Fusion Module jointly models inter-cloud similarity and discrepancy information through cross-attention and further refines the fused representations using self-attention. Extensive experiments on 3DMatch, ModelNet40, KITTI, the Stanford 3D Scanning Repository, and real-world workpiece data demonstrate that the proposed method achieves low registration errors and strong robustness under complete, partial, and noisy point cloud conditions. It also maintains an inference time on the order of 10\n                     −2 \n                     s, providing a favorable balance among registration accuracy, robustness, and computational efficiency.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "The impact of iCare HOME tonometry on clinical decision-making in glaucoma management: a retrospective observational study",
+          "authors": [
+            "Irene Park Kim",
+            "Natasha Nayak Kolomeyer",
+            "Jonathan Myers",
+            "Reza Razeghinejad"
+          ],
+          "venue": "JAMA Ophthalmology",
+          "venueId": "J13",
+          "publishedDate": "2026-10-08",
+          "doi": "10.1007/s00417-026-07533-5",
+          "url": "https://doi.org/10.1007/s00417-026-07533-5",
+          "source": "Crossref",
+          "summary": "Abstract \n                   \n                     Purpose \n                     To evaluate the impact of iCare HOME tonometry on clinical decision-making in the management of glaucomatous eyes with acceptable office IOPs but high-risk clinical features. \n                   \n                   \n                     Methods \n                     This retrospective study includes 82 eyes from 46 patients that had iCare HOME tonometry between 2020 and 2023. Patient demographics, ocular characteristics, iCare HOME data, prior surgical interventions and baseline medications, and changes to glaucoma management were collected. “IOP spike” was defined as any elevated iCare HOME measurement 5 mm Hg greater or 30% greater than the baseline office IOP. Physician impressions of visual field testing and optical coherence tomography imaging were also recorded to determine whether eyes had evidence of “glaucoma progression” prior to home tonometry. Statistical analyses were conducted to evaluate the factors influencing clinical decision making. \n                   \n                   \n                     Results \n                     \n                      The 82 eyes in this study had generally normal office IOP and high-risk features on pre-home tonometry examination. 72% (59 eyes) of eyes demonstrated IOP spikes on home tonometry. Of eyes with home IOP spikes, 50.8% (30 eyes) had changes in their management. Eyes with management changes had higher trough home IOP (OR = 1.27 [1.04, 1.55],\n                       p \n                       = 0.017), better LogMAR BCVA (OR = 0.09 [0.02, 0.44],\n                       p \n                       = 0.003), and higher odds of glaucoma progression (OR = 2.59 [1.01, 6.61],\n                       p \n                       = 0.047). Among eyes without evidence of “glaucoma progression” but an “IOP spike” on home tonometry, a higher proportion of eyes did not have changes to their management (65.5% vs. 34.5%).\n                     \n                   \n                   \n                     Conclusion \n                     Our study found that 72% of eyes experienced a home IOP spike despite acceptable office IOPs, with roughly half of patients with home IOP spikes undergoing management changes. Among eyes with home IOP spikes but no evidence of glaucoma progression, a greater proportion had no management changes. These findings indicate that home IOP spikes are interpreted in the context of other clinical indicators, such as structural and functional imaging studies.",
+          "contribution": "Abstract \n                   \n                     Purpose \n                     To evaluate the impact of iCare HOME tonometry on clinical decision-making in the management of glaucomatous eyes with acceptable office IOPs but high-risk clinical features. \n                   \n                   \n                     Methods \n                     This retrospective study includes 82 eyes from 46 patients that had iCare HOME tonometry between 2020 and 2023. Patient demographics, ocular characteristics, iCare HOME data, prior surgical interventions and baseline medications, and changes to glaucoma management were collected. “IOP spike” was defined as any elevated iCare HOME measurement 5 mm Hg greater or 30% greater than the baseline office IOP. Physician impressions of visual field testing and optical coherence tomography imaging were also recorded to determine whether eyes had evidence of “glaucoma progression” prior to home tonometry. Statistical analyses were conducted to evaluate the factors influencing clinical decision making. \n                   \n                   \n                     Results \n                     \n                      The 82 eyes in this study had generally normal office IOP and high-risk features on pre-home tonometry examination. 72% (59 eyes) of eyes demonstrated IOP spikes on home tonometry. Of eyes with home IOP spikes, 50.8% (30 eyes) had changes in their management. Eyes with management changes had higher trough home IOP (OR = 1.27 [1.04, 1.55],\n                       p \n                       = 0.017), better LogMAR BCVA (OR = 0.09 [0.02, 0.44],\n                       p \n                       = 0.003), and higher odds of glaucoma progression (OR = 2.59 [1.01, 6.61],\n                       p \n                       = 0.047). Among eyes without evidence of “glaucoma progression” but an “IOP spike” on home tonometry, a higher proportion of eyes did not have changes to their management (65.5% vs. 34.5%).\n                     \n                   \n                   \n                     Conclusion \n                     Our study found that 72% of eyes experienced a home IOP spike despite acceptable office IOPs, with roughly half of patients with home IOP spikes undergoing management changes. Among eyes with home IOP spikes but no evidence of glaucoma progression, a greater proportion had no management changes. These findings indicate that home IOP spikes are interpreted in the context of other clinical indicators, such as structural and functional imaging studies.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Artificial Intelligence in National Security: Applications, Risks, and Governance Pathways",
+          "authors": [
+            "Qinghan Ji"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-10-08",
+          "doi": "10.54254/2754-1169/2026.37530",
+          "url": "https://doi.org/10.54254/2754-1169/2026.37530",
+          "source": "Crossref",
+          "summary": "With the rapid development of artificial intelligence (AI), its applications have gradually expanded from the commercial and civilian sectors to national security fields such as military security, cybersecurity, and critical infrastructure protection. Using a literature review and case analysis approach, this article examines the main applications of AI in different security scenarios and the risks they bring. The study finds that AI can improve the information processing and response capabilities of the national security system by enhancing the efficiency of multi-source information processing, strengthening threat identification and prediction capabilities, and increasing the autonomy of military systems. However, enhanced AI capabilities do not necessarily lead to higher levels of security. Its national security applications face three interconnected risks: technical unreliability, malicious use, and strategic instability arising from the security dilemma. Therefore, this article argues that AI governance cannot rely solely on technological improvements. Instead, it requires a governance path comprised of technical safeguards, risk-based regulation, and international cooperation. This should be achieved through testing, auditing, human-in-the-loop mechanisms, and confidence-building measures (CBMs) to mitigate the risks posed by technological errors, malicious misuse, and strategic miscalculations. Overall, the key to AI governance is not restricting AI's entry into the national security domain, but rather establishing corresponding control, oversight, and international coordination mechanisms while enhancing its security capabilities.",
+          "contribution": "With the rapid development of artificial intelligence (AI), its applications have gradually expanded from the commercial and civilian sectors to national security fields such as military security, cybersecurity, and critical infrastructure protection. Using a literature review and case analysis approach, this article examines the main applications of AI in different security scenarios and the risks they bring. The study finds that AI can improve the information processing and response capabilities of the national security system by enhancing the efficiency of multi-source information processing, strengthening threat identification and prediction capabilities, and increasing the autonomy of military systems. However, enhanced AI capabilities do not necessarily lead to higher levels of security. Its national security applications face three interconnected risks: technical unreliability, malicious use, and strategic instability arising from the security dilemma. Therefore, this article argues that AI governance cannot rely solely on technological improvements. Instead, it requires a governance path comprised of technical safeguards, risk-based regulation, and international cooperation. This should be achieved through testing, auditing, human-in-the-loop mechanisms, and confidence-building measures (CBMs) to mitigate the risks posed by technological errors, malicious misuse, and strategic miscalculations. Overall, the key to AI governance is not restricting AI's entry into the national security domain, but rather establishing corresponding control, oversight, and international coordination mechanisms while enhancing its security capabilities.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "A radiomics-clinical nomogram based on biparametric MRI for improved risk stratification of clinically significant prostate cancer",
+          "authors": [
+            "Yang Lv",
+            "Yangyang Liu",
+            "Wei Ji",
+            "Haiyan Yuan"
+          ],
+          "venue": "SPIE Medical Imaging",
+          "venueId": "C04",
+          "publishedDate": "2026-10-08",
+          "doi": "10.1186/s12880-026-02888-x",
+          "url": "https://doi.org/10.1186/s12880-026-02888-x",
+          "source": "Crossref",
+          "summary": "Abstract \n                   \n                     Background \n                     This study developed and validated a machine-learning model using biparametric MRI (bpMRI) that integrates clinical variables, Prostate Imaging Reporting and Data System (PI-RADS) scores, and radiomics features to distinguish clinically significant prostate cancer (csPCa). \n                   \n                   \n                     Methods \n                     This retrospective study included 458 patients with clinical and bpMRI data. Clinical predictors were identified via univariate and multivariate stepwise regression. Regions of interest (ROIs) were delineated on T2-weighted imaging (T2WI) and apparent diffusion coefficient (ADC) maps using 3D Slicer, and radiomics features were extracted with PyRadiomics. Optimal features were selected via dimensionality reduction and least absolute shrinkage and selection operator (LASSO) regression. Patients were split 7:3 into training and validation sets. LR, SVM, RF, and XGBoost were evaluated as candidate algorithms for the radiomics and combined models. The final algorithm was selected based on discrimination, calibration, and clinical utility. Model performance was assessed by discrimination (area under the receiver operating characteristic curve [AUC]), calibration (calibration slope and intercept), and clinical utility (decision curve analysis within the 10%–60% threshold range). The selected model was then used to build a nomogram. \n                   \n                   \n                     Results \n                     \n                      In the validation cohort, the clinical model, Radiomics LR, and Combined LR achieved AUCs of 0.843, 0.888, and 0.900, respectively. Combined LR significantly outperformed both the clinical model (\n                       p \n                       &lt; 0.001) and Radiomics LR (\n                       p \n                       = 0.032). Combined LR showed a sensitivity of 0.841 and a calibration slope of 0.950 (intercept = −0.759). After balancing discrimination, calibration, and clinical utility, Combined LR was selected to build a nomogram, which demonstrated good calibration and net benefit within the 10%–60% threshold range.\n                     \n                   \n                   \n                     Conclusion \n                     This nomogram integrates bpMRI radiomics, clinical variables, and PI-RADS scores and outperforms conventional radiomics and clinical models. It provides a non-invasive tool for risk stratification before biopsy and helps to reduce unnecessary biopsies.",
+          "contribution": "Abstract \n                   \n                     Background \n                     This study developed and validated a machine-learning model using biparametric MRI (bpMRI) that integrates clinical variables, Prostate Imaging Reporting and Data System (PI-RADS) scores, and radiomics features to distinguish clinically significant prostate cancer (csPCa). \n                   \n                   \n                     Methods \n                     This retrospective study included 458 patients with clinical and bpMRI data. Clinical predictors were identified via univariate and multivariate stepwise regression. Regions of interest (ROIs) were delineated on T2-weighted imaging (T2WI) and apparent diffusion coefficient (ADC) maps using 3D Slicer, and radiomics features were extracted with PyRadiomics. Optimal features were selected via dimensionality reduction and least absolute shrinkage and selection operator (LASSO) regression. Patients were split 7:3 into training and validation sets. LR, SVM, RF, and XGBoost were evaluated as candidate algorithms for the radiomics and combined models. The final algorithm was selected based on discrimination, calibration, and clinical utility. Model performance was assessed by discrimination (area under the receiver operating characteristic curve [AUC]), calibration (calibration slope and intercept), and clinical utility (decision curve analysis within the 10%–60% threshold range). The selected model was then used to build a nomogram. \n                   \n                   \n                     Results \n                     \n                      In the validation cohort, the clinical model, Radiomics LR, and Combined LR achieved AUCs of 0.843, 0.888, and 0.900, respectively. Combined LR significantly outperformed both the clinical model (\n                       p \n                       &lt; 0.001) and Radiomics LR (\n                       p \n                       = 0.032). Combined LR showed a sensitivity of 0.841 and a calibration slope of 0.950 (intercept = −0.759). After balancing discrimination, calibration, and clinical utility, Combined LR was selected to build a nomogram, which demonstrated good calibration and net benefit within the 10%–60% threshold range.\n                     \n                   \n                   \n                     Conclusion \n                     This nomogram integrates bpMRI radiomics, clinical variables, and PI-RADS scores and outperforms conventional radiomics and clinical models. It provides a non-invasive tool for risk stratification before biopsy and helps to reduce unnecessary biopsies.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    }
+  ]
+}\n
