@@ -6,12 +6,17 @@ on:
     - cron: "0 5 * * *"
   workflow_dispatch:
 
+concurrency:
+  group: daily-research-update
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Check out the site
         uses: actions/checkout@v4
@@ -22,16 +27,44 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch and summarize new papers
-        working-directory: .
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          PAPER_SUMMARY_MODEL: ${{ vars.PAPER_SUMMARY_MODEL }}
-          CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
-          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
+          OPENAI_API_KEY: \${{ secrets.OPENAI_API_KEY }}
+          PAPER_SUMMARY_MODEL: \${{ vars.PAPER_SUMMARY_MODEL }}
+          PAPER_LOOKBACK_DAYS: "7"
+          CROSSREF_MAILTO: fakhri.khan@kfupm.edu.sa
         run: python scripts/update_daily_papers.py
+
+      - name: Validate generated archive
+        run: |
+          python -m json.tool data/daily-papers.json >/dev/null
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("data/daily-papers.json").read_text(encoding="utf-8"))
+          if data.get("timezone") != "Asia/Riyadh":
+              raise SystemExit("archive timezone is not Asia/Riyadh")
+          if len(data.get("tracks", [])) != 5:
+              raise SystemExit("archive must contain five research tracks")
+          seen = set()
+          for day in data.get("days", []):
+              if not isinstance(day.get("date"), str) or not isinstance(day.get("papers"), list):
+                  raise SystemExit("invalid daily edition")
+              for paper in day["papers"]:
+                  if not paper.get("title") or not paper.get("doi"):
+                      raise SystemExit("paper is missing a title or DOI")
+                  key = paper["doi"].lower().strip()
+                  if key in seen:
+                      raise SystemExit("duplicate DOI in archive")
+                  seen.add(key)
+          raw = Path("data/daily-papers.json").read_text(encoding="utf-8")
+          if "OPENAI_API_KEY" in raw or "sk-" in raw:
+              raise SystemExit("secret-like material found in archive")
+          print(f"validated {len(seen)} archived papers across {len(data.get('days', []))} editions")
+          PY
 
       - name: Publish updated archive
         run: |
+          git diff --check
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/daily-papers.json
