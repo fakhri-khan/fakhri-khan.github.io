@@ -2,7 +2,11 @@
 """Fetch new papers, summarize them, and append a Riyadh-time daily edition."""
 
 
+
+
 from __future__ import annotations
+
+
 
 
 import argparse
@@ -22,6 +26,10 @@ from zoneinfo import ZoneInfo
 
 
 
+
+
+
+
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "data" / "venue-config.json"
 ARCHIVE_PATH = ROOT / "data" / "daily-papers.json"
@@ -31,8 +39,16 @@ USER_AGENT = "fakhri-khan.github.io daily research updater/1.0"
 
 
 
+
+
+
+
 def log(message: str) -> None:
     print(f"[daily-papers] {message}")
+
+
+
+
 
 
 
@@ -56,12 +72,20 @@ def request_json(url: str, method: str = "GET", payload: dict[str, Any] | None =
 
 
 
+
+
+
+
 def text_value(value: Any) -> str:
     if value is None:
         return ""
     if isinstance(value, list):
         return " ".join(text_value(item) for item in value)
     return str(value)
+
+
+
+
 
 
 
@@ -73,8 +97,16 @@ def strip_markup(value: Any) -> str:
 
 
 
+
+
+
+
 def normalized(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.lower()).strip()
+
+
+
+
 
 
 
@@ -83,6 +115,10 @@ def clean_doi(value: Any) -> str:
     doi = text_value(value).strip()
     doi = re.sub(r"^https?://doi.org/", "", doi, flags=re.I)
     return doi.rstrip(" .")
+
+
+
+
 
 
 
@@ -98,9 +134,17 @@ def date_from_crossref(item: dict[str, Any]) -> str:
 
 
 
+
+
+
+
 def date_from_openalex(item: dict[str, Any]) -> str:
     value = item.get("publication_date") or ""
     return value[:10]
+
+
+
+
 
 
 
@@ -117,12 +161,20 @@ def reconstruct_abstract(index: Any) -> str:
 
 
 
+
+
+
+
 def authors_from_openalex(item: dict[str, Any]) -> list[str]:
     return [
         text_value(authorship.get("author", {}).get("display_name"))
         for authorship in item.get("authorships", [])
         if authorship.get("author", {}).get("display_name")
     ]
+
+
+
+
 
 
 
@@ -138,6 +190,10 @@ def authors_from_crossref(item: dict[str, Any]) -> list[str]:
 
 
 
+
+
+
+
 def candidate_key(item: dict[str, Any]) -> str:
     doi = clean_doi(item.get("doi"))
     return f"doi:{doi.lower()}" if doi else f"title:{normalized(text_value(item.get('title')))}"
@@ -145,46 +201,14 @@ def candidate_key(item: dict[str, Any]) -> str:
 
 
 
-def in_window(published: str, start: date, end: date) -> bool:
-    try:
-        value = date.fromisoformat(published[:10])
-    except ValueError:
-        return False
-    return start <= value <= end
 
 
 
 
-def openalex_journal(venue: dict[str, Any], start: date, end: date) -> list[dict[str, Any]]:
-    mailto = os.getenv("OPENALEX_MAILTO", "")
-    query = {"mailto": mailto} if mailto else {}
-    source = request_json(f"https://api.openalex.org/sources/issn:{venue['issn']}?{urlencode(query)}")
-    source_id = (source or {}).get("id", "").rsplit("/", 1)[-1]
-    if not source_id:
-        return crossref_venue(venue, start, end)
-    filters = f"from_publication_date:{start.isoformat()},to_publication_date:{end.isoformat()},primary_location.source.id:{source_id}"
-    params = {"filter": filters, "sort": "publication_date:desc", "per-page": 50}
-    if mailto:
-        params["mailto"] = mailto
-    response = request_json(f"https://api.openalex.org/works?{urlencode(params)}") or {}
-    candidates = []
-    for item in response.get("results", []):
-        published = date_from_openalex(item)
-        if not published or not in_window(published, start, end):
-            continue
-        title = text_value(item.get("title")).strip()
-        doi = clean_doi(item.get("doi"))
-        if not title or not doi:
-            continue
-        landing = item.get("primary_location", {}).get("landing_page_url") or f"https://doi.org/{doi}"
-    now = datetime.now(RIYADH)
-    edition_date = date.fromisoformat(args.date) if args.date else now.date()
-    start = edition_date - timedelta(days=int(os.getenv("PAPER_LOOKBACK_DAYS", "7")))
-    end = edition_date
-    archive = load_json(ARCHIVE_PATH, {"version": 1, "timezone": "Asia/Riyadh", "tracks": tracks, "days": []})
-    archive.setdefault("days", [])
     archive["tracks"] = [{"id": track["id"], "name": track["name"]} for track in tracks]
     seen = {candidate_key(paper) for day in archive["days"] for paper in day.get("papers", [])}
+
+
 
 
     all_candidates: list[dict[str, Any]] = []
@@ -203,6 +227,8 @@ def openalex_journal(venue: dict[str, Any], start: date, end: date) -> list[dict
             log(f"{paper['trackName']}: {paper['title']} ({paper['venue']})")
         return 0
     # OpenAI summaries are optional; summarize() uses source-grounded fallbacks when no key is configured.
+
+
 
 
     new_papers = []
@@ -224,6 +250,8 @@ def openalex_journal(venue: dict[str, Any], start: date, end: date) -> list[dict
         })
 
 
+
+
     existing_day = next((day for day in archive["days"] if day.get("date") == edition_date.isoformat()), None)
     if existing_day is None:
         archive["days"].append({"date": edition_date.isoformat(), "generatedAt": now.isoformat(), "papers": new_papers})
@@ -237,17 +265,23 @@ def openalex_journal(venue: dict[str, Any], start: date, end: date) -> list[dict
     return 0
 
 
-summarize_openai = summarize
+
+
+
 
 
 def summarize(candidate: dict[str, Any]) -> dict[str, str]:
-    if not os.getenv("OPENAI_API_KEY"):
+    if True:
         abstract = strip_markup(candidate.get("abstract", ""))
         sentences = [sentence.strip() for sentence in re.split(r"(?<=[.!?])\s+", abstract) if sentence.strip()]
         summary = " ".join(sentences[:2]) or f"This paper examines {candidate['title']}."
         methods = next((sentence for sentence in sentences if re.search(r"\b(propose|present|develop|design|introduce|method|framework|model|approach|experiment|evaluate)\w*\b", sentence, re.I)), "Not stated in the abstract.")
         return {"summary": summary, "contribution": sentences[0] if sentences else "Not stated in the abstract.", "methods": methods, "relevance": f"Relevant to {candidate['trackName']} based on the paper metadata and abstract.", "limitations": "Not stated in the abstract."}
     return summarize_openai(candidate)
+
+
+
+
 
 
 
