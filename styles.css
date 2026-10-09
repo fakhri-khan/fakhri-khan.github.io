@@ -500,6 +500,12 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 /* Portfolio summary bars on Projects and Publications */
 .page-signal-strip { color: var(--white); background: var(--teal); }
 .page-signal-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; padding: 16px 0; }\n.projects-signal-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.projects-signal-grid { gap: 10px; }
+.projects-signal-grid div { min-width: 0; padding-left: 10px; }
+.projects-signal-grid strong { font-size: clamp(1rem, 1.45vw, 1.55rem); white-space: nowrap; }
+.projects-signal-grid span { font-size: clamp(.48rem, .64vw, .68rem); letter-spacing: .025em; white-space: nowrap; }
+@media (max-width: 920px) { .projects-signal-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; } .projects-signal-grid div { padding-left: 7px; } }
+@media (max-width: 680px) { .projects-signal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 8px; } .projects-signal-grid div { padding-left: 12px; } .projects-signal-grid span { font-size: .62rem; letter-spacing: .06em; } }
 .page-signal-grid div { display: grid; align-content: center; gap: 1px; min-height: 52px; border-left: 1px solid rgba(255,255,255,.28); padding-left: 18px; }
 .page-signal-grid strong { color: var(--gold); font-size: 1.55rem; line-height: 1.1; }
 .page-signal-grid span { color: rgba(255,255,255,.74); font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; }
