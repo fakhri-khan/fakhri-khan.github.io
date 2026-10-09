@@ -3,10 +3,6 @@
   "timezone": "Asia/Riyadh",
   "tracks": [
     {
-      "id": "retinal-ai",
-      "name": "Retinal AI and Computational Ophthalmology"
-    },
-    {
       "id": "medical-imaging",
       "name": "Medical Imaging and Multimodal Biomedical AI"
     },
@@ -21,6 +17,10 @@
     {
       "id": "pqc-embedded",
       "name": "Post-Quantum Cryptography and Embedded Systems Security"
+    },
+    {
+      "id": "retinal-ai",
+      "name": "Retinal AI and Computational Ophthalmology"
     }
   ],
   "days": [

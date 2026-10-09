@@ -2,73 +2,489 @@
   "timezone": "Asia/Riyadh",
   "tracks": [
     {
-      "id": "retinal-ai",
-      "name": "Retinal AI and Computational Ophthalmology",
-      "keywords": ["retina", "retinal", "ophthalm", "fundus", "diabetic retinopathy", "glaucoma", "macular", "oct", "optical coherence", "retinopathy of prematurity"]
-    },
-    {
       "id": "medical-imaging",
       "name": "Medical Imaging and Multimodal Biomedical AI",
-      "keywords": ["medical imaging", "biomedical", "radiology", "mri", "ct", "ultrasound", "segmentation", "multimodal", "clinical", "pathology", "medical image", "healthcare"]
+      "keywords": [
+        "medical imaging",
+        "biomedical",
+        "radiology",
+        "mri",
+        "ct",
+        "ultrasound",
+        "segmentation",
+        "multimodal",
+        "clinical",
+        "pathology",
+        "medical image",
+        "healthcare"
+      ]
     },
     {
       "id": "trustworthy-ai",
       "name": "Trustworthy and Privacy-Preserving AI",
-      "keywords": ["privacy", "private", "federated", "trustworthy", "robust", "explainable", "fairness", "secure ai", "adversarial", "reliable", "confidential"]
+      "keywords": [
+        "privacy",
+        "private",
+        "federated",
+        "trustworthy",
+        "robust",
+        "explainable",
+        "fairness",
+        "secure ai",
+        "adversarial",
+        "reliable",
+        "confidential"
+      ]
     },
     {
       "id": "secure-healthcare",
       "name": "AI-Driven Cybersecurity and Secure Healthcare Systems",
-      "keywords": ["cybersecurity", "security", "intrusion", "malware", "healthcare security", "secure system", "authentication", "threat", "attack detection", "forensics", "iot security"]
+      "keywords": [
+        "cybersecurity",
+        "security",
+        "intrusion",
+        "malware",
+        "healthcare security",
+        "secure system",
+        "authentication",
+        "threat",
+        "attack detection",
+        "forensics",
+        "iot security"
+      ]
     },
     {
       "id": "pqc-embedded",
       "name": "Post-Quantum Cryptography and Embedded Systems Security",
-      "keywords": ["post-quantum", "quantum-safe", "cryptograph", "lattice", "kyber", "dilithium", "embedded", "hardware security", "side-channel", "secure boot", "firmware", "pqc"]
+      "keywords": [
+        "post-quantum",
+        "quantum-safe",
+        "cryptograph",
+        "lattice",
+        "kyber",
+        "dilithium",
+        "embedded",
+        "hardware security",
+        "side-channel",
+        "secure boot",
+        "firmware",
+        "pqc"
+      ]
+    },
+    {
+      "id": "retinal-ai",
+      "name": "Retinal AI and Computational Ophthalmology",
+      "keywords": [
+        "retina",
+        "retinal",
+        "ophthalm",
+        "fundus",
+        "diabetic retinopathy",
+        "glaucoma",
+        "macular",
+        "oct",
+        "optical coherence",
+        "retinopathy of prematurity"
+      ]
     }
   ],
   "venues": [
-    {"id":"J01","name":"Medical Image Analysis","type":"journal","issn":"1361-8423","tracks":["medical-imaging"]},
-    {"id":"J02","name":"IEEE Transactions on Medical Imaging","type":"journal","issn":"1558-254X","tracks":["medical-imaging"]},
-    {"id":"J03","name":"Radiology: Artificial Intelligence","type":"journal","issn":"2638-6100","tracks":["medical-imaging"]},
-    {"id":"J04","name":"IEEE Transactions on Pattern Analysis and Machine Intelligence","type":"journal","issn":"1939-3539","tracks":["medical-imaging"]},
-    {"id":"J05","name":"Nature Machine Intelligence","type":"journal","issn":"2522-5839","tracks":["medical-imaging","trustworthy-ai"]},
-    {"id":"J06","name":"IEEE Transactions on Image Processing","type":"journal","issn":"1941-0042","tracks":["medical-imaging"]},
-    {"id":"J07","name":"Information Fusion","type":"journal","issn":"1872-6305","tracks":["medical-imaging"]},
-    {"id":"J08","name":"IEEE Transactions on Cybernetics","type":"journal","issn":"2168-2275","tracks":["medical-imaging"]},
-    {"id":"J09","name":"IEEE Journal of Biomedical and Health Informatics","type":"journal","issn":"2168-2208","tracks":["medical-imaging","secure-healthcare"]},
-    {"id":"J10","name":"Radiology","type":"journal","issn":"1527-1315","tracks":["medical-imaging"]},
-    {"id":"J11","name":"Progress in Retinal and Eye Research","type":"journal","issn":"1873-1635","tracks":["retinal-ai"]},
-    {"id":"J12","name":"Ophthalmology","type":"journal","issn":"1549-4713","tracks":["retinal-ai"]},
-    {"id":"J13","name":"JAMA Ophthalmology","type":"journal","issn":"2168-6173","tracks":["retinal-ai"]},
-    {"id":"J14","name":"ACM Computing Surveys","type":"journal","issn":"1557-7341","tracks":["trustworthy-ai","secure-healthcare","pqc-embedded"]},
-    {"id":"J15","name":"IEEE Transactions on Information Forensics and Security","type":"journal","issn":"1556-6021","tracks":["trustworthy-ai","secure-healthcare","pqc-embedded"]},
-    {"id":"J16","name":"IEEE Transactions on Dependable and Secure Computing","type":"journal","issn":"1941-0018","tracks":["trustworthy-ai","secure-healthcare","pqc-embedded"]},
-    {"id":"J17","name":"IEEE Communications Surveys & Tutorials","type":"journal","issn":"1553-877X","tracks":["secure-healthcare","pqc-embedded"]},
-    {"id":"J18","name":"IEEE Internet of Things Journal","type":"journal","issn":"2327-4662","tracks":["secure-healthcare","pqc-embedded"]},
-    {"id":"J19","name":"Pattern Recognition","type":"journal","issn":"1873-5142","tracks":["medical-imaging"]},
-    {"id":"C01","name":"MICCAI","type":"conference","query":"MICCAI","tracks":["retinal-ai","medical-imaging","secure-healthcare"]},
-    {"id":"C02","name":"MIDL","type":"conference","query":"MIDL medical imaging deep learning","tracks":["medical-imaging"]},
-    {"id":"C03","name":"IEEE International Symposium on Biomedical Imaging (ISBI)","type":"conference","query":"IEEE International Symposium on Biomedical Imaging","tracks":["retinal-ai","medical-imaging"]},
-    {"id":"C04","name":"SPIE Medical Imaging","type":"conference","query":"SPIE Medical Imaging","tracks":["retinal-ai","medical-imaging"]},
-    {"id":"C05","name":"CVPR","type":"conference","query":"CVPR","tracks":["medical-imaging"]},
-    {"id":"C06","name":"ICCV","type":"conference","query":"ICCV computer vision","tracks":["medical-imaging"]},
-    {"id":"C07","name":"ECCV","type":"conference","query":"ECCV computer vision","tracks":["medical-imaging"]},
-    {"id":"C08","name":"NeurIPS","type":"conference","query":"NeurIPS neural information processing","tracks":["medical-imaging"]},
-    {"id":"C09","name":"International Conference on Learning Representations (ICLR)","type":"conference","query":"International Conference on Learning Representations ICLR","tracks":["medical-imaging"]},
-    {"id":"C10","name":"International Conference on Pattern Recognition (ICPR)","type":"conference","query":"International Conference on Pattern Recognition ICPR","tracks":["medical-imaging"]},
-    {"id":"C11","name":"IEEE Symposium on Security and Privacy","type":"conference","query":"IEEE Symposium on Security and Privacy","tracks":["trustworthy-ai","secure-healthcare"]},
-    {"id":"C12","name":"ACM Conference on Computer and Communications Security (CCS)","type":"conference","query":"ACM Conference on Computer and Communications Security CCS","tracks":["trustworthy-ai","secure-healthcare"]},
-    {"id":"C13","name":"USENIX Security Symposium","type":"conference","query":"USENIX Security Symposium","tracks":["trustworthy-ai","secure-healthcare"]},
-    {"id":"C14","name":"Network and Distributed System Security Symposium (NDSS)","type":"conference","query":"Network and Distributed System Security Symposium NDSS","tracks":["trustworthy-ai","secure-healthcare"]},
-    {"id":"C15","name":"Annual Computer Security Applications Conference (ACSAC)","type":"conference","query":"Annual Computer Security Applications Conference ACSAC","tracks":["secure-healthcare"]},
-    {"id":"C16","name":"International Conference on Post-Quantum Cryptography (PQCrypto)","type":"conference","query":"International Conference on Post-Quantum Cryptography PQCrypto","tracks":["pqc-embedded"]},
-    {"id":"C17","name":"CRYPTO","type":"conference","query":"CRYPTO cryptography conference","tracks":["pqc-embedded"]},
-    {"id":"C18","name":"EUROCRYPT","type":"conference","query":"EUROCRYPT cryptography conference","tracks":["pqc-embedded"]},
-    {"id":"C19","name":"ARVO Annual Meeting","type":"conference","query":"ARVO Annual Meeting ophthalmology","tracks":["retinal-ai"]},
-    {"id":"C20","name":"Conference on Health, Inference, and Learning (CHIL)","type":"conference","query":"Conference on Health Inference and Learning CHIL","tracks":["medical-imaging","secure-healthcare"]},
-    {"id":"C21","name":"Privacy Enhancing Technologies Symposium (PETS)","type":"conference","query":"Privacy Enhancing Technologies Symposium PETS","tracks":["trustworthy-ai"]},
-    {"id":"C22","name":"International Conference on Cryptographic Hardware and Embedded Systems (CHES)","type":"conference","query":"International Conference on Cryptographic Hardware and Embedded Systems CHES","tracks":["pqc-embedded"]},
-    {"id":"C23","name":"IEEE International Symposium on Hardware Oriented Security and Trust (HOST)","type":"conference","query":"IEEE International Symposium on Hardware Oriented Security and Trust HOST","tracks":["pqc-embedded"]}
+    {
+      "id": "J01",
+      "name": "Medical Image Analysis",
+      "type": "journal",
+      "issn": "1361-8423",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "J02",
+      "name": "IEEE Transactions on Medical Imaging",
+      "type": "journal",
+      "issn": "1558-254X",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "J03",
+      "name": "Radiology: Artificial Intelligence",
+      "type": "journal",
+      "issn": "2638-6100",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "J04",
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "type": "journal",
+      "issn": "1939-3539",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "J05",
+      "name": "Nature Machine Intelligence",
+      "type": "journal",
+      "issn": "2522-5839",
+      "tracks": [
+        "medical-imaging",
+        "trustworthy-ai"
+      ]
+    },
+    {
+      "id": "J06",
+      "name": "IEEE Transactions on Image Processing",
+      "type": "journal",
+      "issn": "1941-0042",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "J07",
+      "name": "Information Fusion",
+      "type": "journal",
+      "issn": "1872-6305",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "J08",
+      "name": "IEEE Transactions on Cybernetics",
+      "type": "journal",
+      "issn": "2168-2275",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "J09",
+      "name": "IEEE Journal of Biomedical and Health Informatics",
+      "type": "journal",
+      "issn": "2168-2208",
+      "tracks": [
+        "medical-imaging",
+        "secure-healthcare"
+      ]
+    },
+    {
+      "id": "J10",
+      "name": "Radiology",
+      "type": "journal",
+      "issn": "1527-1315",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "J11",
+      "name": "Progress in Retinal and Eye Research",
+      "type": "journal",
+      "issn": "1873-1635",
+      "tracks": [
+        "retinal-ai"
+      ]
+    },
+    {
+      "id": "J12",
+      "name": "Ophthalmology",
+      "type": "journal",
+      "issn": "1549-4713",
+      "tracks": [
+        "retinal-ai"
+      ]
+    },
+    {
+      "id": "J13",
+      "name": "JAMA Ophthalmology",
+      "type": "journal",
+      "issn": "2168-6173",
+      "tracks": [
+        "retinal-ai"
+      ]
+    },
+    {
+      "id": "J14",
+      "name": "ACM Computing Surveys",
+      "type": "journal",
+      "issn": "1557-7341",
+      "tracks": [
+        "trustworthy-ai",
+        "secure-healthcare",
+        "pqc-embedded"
+      ]
+    },
+    {
+      "id": "J15",
+      "name": "IEEE Transactions on Information Forensics and Security",
+      "type": "journal",
+      "issn": "1556-6021",
+      "tracks": [
+        "trustworthy-ai",
+        "secure-healthcare",
+        "pqc-embedded"
+      ]
+    },
+    {
+      "id": "J16",
+      "name": "IEEE Transactions on Dependable and Secure Computing",
+      "type": "journal",
+      "issn": "1941-0018",
+      "tracks": [
+        "trustworthy-ai",
+        "secure-healthcare",
+        "pqc-embedded"
+      ]
+    },
+    {
+      "id": "J17",
+      "name": "IEEE Communications Surveys & Tutorials",
+      "type": "journal",
+      "issn": "1553-877X",
+      "tracks": [
+        "secure-healthcare",
+        "pqc-embedded"
+      ]
+    },
+    {
+      "id": "J18",
+      "name": "IEEE Internet of Things Journal",
+      "type": "journal",
+      "issn": "2327-4662",
+      "tracks": [
+        "secure-healthcare",
+        "pqc-embedded"
+      ]
+    },
+    {
+      "id": "J19",
+      "name": "Pattern Recognition",
+      "type": "journal",
+      "issn": "1873-5142",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "C01",
+      "name": "MICCAI",
+      "type": "conference",
+      "query": "MICCAI",
+      "tracks": [
+        "retinal-ai",
+        "medical-imaging",
+        "secure-healthcare"
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "MIDL",
+      "type": "conference",
+      "query": "MIDL medical imaging deep learning",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "IEEE International Symposium on Biomedical Imaging (ISBI)",
+      "type": "conference",
+      "query": "IEEE International Symposium on Biomedical Imaging",
+      "tracks": [
+        "retinal-ai",
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "C04",
+      "name": "SPIE Medical Imaging",
+      "type": "conference",
+      "query": "SPIE Medical Imaging",
+      "tracks": [
+        "retinal-ai",
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "C05",
+      "name": "CVPR",
+      "type": "conference",
+      "query": "CVPR",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "C06",
+      "name": "ICCV",
+      "type": "conference",
+      "query": "ICCV computer vision",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "C07",
+      "name": "ECCV",
+      "type": "conference",
+      "query": "ECCV computer vision",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "C08",
+      "name": "NeurIPS",
+      "type": "conference",
+      "query": "NeurIPS neural information processing",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "C09",
+      "name": "International Conference on Learning Representations (ICLR)",
+      "type": "conference",
+      "query": "International Conference on Learning Representations ICLR",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "C10",
+      "name": "International Conference on Pattern Recognition (ICPR)",
+      "type": "conference",
+      "query": "International Conference on Pattern Recognition ICPR",
+      "tracks": [
+        "medical-imaging"
+      ]
+    },
+    {
+      "id": "C11",
+      "name": "IEEE Symposium on Security and Privacy",
+      "type": "conference",
+      "query": "IEEE Symposium on Security and Privacy",
+      "tracks": [
+        "trustworthy-ai",
+        "secure-healthcare"
+      ]
+    },
+    {
+      "id": "C12",
+      "name": "ACM Conference on Computer and Communications Security (CCS)",
+      "type": "conference",
+      "query": "ACM Conference on Computer and Communications Security CCS",
+      "tracks": [
+        "trustworthy-ai",
+        "secure-healthcare"
+      ]
+    },
+    {
+      "id": "C13",
+      "name": "USENIX Security Symposium",
+      "type": "conference",
+      "query": "USENIX Security Symposium",
+      "tracks": [
+        "trustworthy-ai",
+        "secure-healthcare"
+      ]
+    },
+    {
+      "id": "C14",
+      "name": "Network and Distributed System Security Symposium (NDSS)",
+      "type": "conference",
+      "query": "Network and Distributed System Security Symposium NDSS",
+      "tracks": [
+        "trustworthy-ai",
+        "secure-healthcare"
+      ]
+    },
+    {
+      "id": "C15",
+      "name": "Annual Computer Security Applications Conference (ACSAC)",
+      "type": "conference",
+      "query": "Annual Computer Security Applications Conference ACSAC",
+      "tracks": [
+        "secure-healthcare"
+      ]
+    },
+    {
+      "id": "C16",
+      "name": "International Conference on Post-Quantum Cryptography (PQCrypto)",
+      "type": "conference",
+      "query": "International Conference on Post-Quantum Cryptography PQCrypto",
+      "tracks": [
+        "pqc-embedded"
+      ]
+    },
+    {
+      "id": "C17",
+      "name": "CRYPTO",
+      "type": "conference",
+      "query": "CRYPTO cryptography conference",
+      "tracks": [
+        "pqc-embedded"
+      ]
+    },
+    {
+      "id": "C18",
+      "name": "EUROCRYPT",
+      "type": "conference",
+      "query": "EUROCRYPT cryptography conference",
+      "tracks": [
+        "pqc-embedded"
+      ]
+    },
+    {
+      "id": "C19",
+      "name": "ARVO Annual Meeting",
+      "type": "conference",
+      "query": "ARVO Annual Meeting ophthalmology",
+      "tracks": [
+        "retinal-ai"
+      ]
+    },
+    {
+      "id": "C20",
+      "name": "Conference on Health, Inference, and Learning (CHIL)",
+      "type": "conference",
+      "query": "Conference on Health Inference and Learning CHIL",
+      "tracks": [
+        "medical-imaging",
+        "secure-healthcare"
+      ]
+    },
+    {
+      "id": "C21",
+      "name": "Privacy Enhancing Technologies Symposium (PETS)",
+      "type": "conference",
+      "query": "Privacy Enhancing Technologies Symposium PETS",
+      "tracks": [
+        "trustworthy-ai"
+      ]
+    },
+    {
+      "id": "C22",
+      "name": "International Conference on Cryptographic Hardware and Embedded Systems (CHES)",
+      "type": "conference",
+      "query": "International Conference on Cryptographic Hardware and Embedded Systems CHES",
+      "tracks": [
+        "pqc-embedded"
+      ]
+    },
+    {
+      "id": "C23",
+      "name": "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+      "type": "conference",
+      "query": "IEEE International Symposium on Hardware Oriented Security and Trust HOST",
+      "tracks": [
+        "pqc-embedded"
+      ]
+    }
   ]
 }

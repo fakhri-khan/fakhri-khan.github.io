@@ -7,11 +7,11 @@
   const dateNav = document.getElementById("daily-research-date-nav");
   const todayButton = document.getElementById("daily-research-today");
   const fallbackTracks = [
-    "Retinal AI and Computational Ophthalmology",
     "Medical Imaging and Multimodal Biomedical AI",
     "Trustworthy and Privacy-Preserving AI",
     "AI-Driven Cybersecurity and Secure Healthcare Systems",
-    "Post-Quantum Cryptography and Embedded Systems Security"
+    "Post-Quantum Cryptography and Embedded Systems Security",
+    "Retinal AI and Computational Ophthalmology"
   ];
   let latestDate = "";
 
