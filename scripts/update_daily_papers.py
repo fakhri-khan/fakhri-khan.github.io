@@ -136,21 +136,25 @@ def unique(papers: list[dict[str, Any]]) -> list[dict[str, Any]]:
             result[key] = paper
     return list(result.values())
 
-def score(paper: dict[str, Any], track: dict[str, Any]) -> int:
+def keyword_hits(paper: dict[str, Any], track: dict[str, Any]) -> int:
     haystack = normalized(f"{paper.get('title', '')} {paper.get('abstract', '')}")
-    keywords = sum(haystack.count(normalized(word)) for word in track.get("keywords", []))
-    return keywords * 100 + (80 if paper.get("abstract") else 0) + (20 if track["id"] in paper.get("trackIds", []) else 0) + int(paper.get("publishedDate", "0000-00-00").replace("-", "")[-4:])
+    return sum(haystack.count(normalized(word)) for word in track.get("keywords", []))
 
-def select_for_tracks(papers: list[dict[str, Any]], tracks: list[dict[str, Any]], existing_papers: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
-    available = {track["id"]: sorted([paper for paper in papers if track["id"] in paper.get("trackIds", [])], key=lambda paper: score(paper, track), reverse=True) for track in tracks}
+def score(paper: dict[str, Any], track: dict[str, Any]) -> int:
+    return keyword_hits(paper, track) * 100 + (80 if paper.get("abstract") else 0) + (20 if track["id"] in paper.get("trackIds", []) else 0) + int(paper.get("publishedDate", "0000-00-00").replace("-", "")[-4:])
+
+def select_for_tracks(papers: list[dict[str, Any]], tracks: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    available = {
+        track["id"]: sorted(
+            [paper for paper in papers if track["id"] in paper.get("trackIds", []) and keyword_hits(paper, track) > 0],
+            key=lambda paper: score(paper, track),
+            reverse=True,
+        )
+        for track in tracks
+    }
     chosen: list[dict[str, Any]] = []
     selected: set[str] = set()
     counts = {track["id"]: 0 for track in tracks}
-    for paper in existing_papers or []:
-        track_id = paper.get("trackId")
-        if track_id in counts:
-            counts[track_id] += 1
-            selected.add(key_for(paper))
     for _ in range(2):
         for track in sorted(tracks, key=lambda item: sum(paper["key"] not in selected for paper in available[item["id"]])):
             if counts[track["id"]] >= 2:
@@ -194,16 +198,20 @@ def main() -> int:
     archive = load_json(ARCHIVE_PATH, {"version": 1, "timezone": "Asia/Riyadh", "tracks": tracks, "days": []})
     archive.setdefault("days", [])
     archive["tracks"] = [{"id": track["id"], "name": track["name"]} for track in tracks]
-    seen = {key_for(paper) for day in archive["days"] for paper in day.get("papers", [])}
+    day = next((item for item in archive["days"] if item.get("date") == edition.isoformat()), None)
+    seen = {
+        key_for(paper)
+        for archived_day in archive["days"]
+        if archived_day.get("date") != edition.isoformat()
+        for paper in archived_day.get("papers", [])
+    }
     all_papers: list[dict[str, Any]] = []
     for index, venue in enumerate(venues, 1):
         log(f"checking {index}/{len(venues)} {venue['name']}")
         all_papers.extend(fetch_venue(venue, start, edition))
         time.sleep(0.15)
     candidates = [paper for paper in unique(all_papers) if paper["key"] not in seen]
-    day = next((item for item in archive["days"] if item.get("date") == edition.isoformat()), None)
-    existing_today = day.get("papers", []) if day is not None else []
-    chosen = select_for_tracks(candidates, tracks, existing_today)
+    chosen = select_for_tracks(candidates, tracks)
     log(f"found {len(candidates)} never-archived candidates and selected {len(chosen)} papers")
     if args.dry_run:
         return 0
@@ -218,7 +226,7 @@ def main() -> int:
     if day is None:
         archive["days"].append({"date": edition.isoformat(), "generatedAt": now.isoformat(), "papers": new_papers})
     else:
-        day.setdefault("papers", []).extend(new_papers)
+        day["papers"] = new_papers
         day["generatedAt"] = now.isoformat()
     archive["days"].sort(key=lambda item: str(item.get("date", "")), reverse=True)
     archive["updatedAt"] = now.isoformat()
