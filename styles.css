@@ -610,3 +610,8 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
   .lab-logo-panel { padding: 12px; }
   .lab-logo { width: min(100%, 220px); }
 }
+/* Keep an odd final team card centered on wider screens. */
+.lab-team-grid .lab-member-card:last-child { grid-column: 1 / -1; width: 100%; max-width: calc((100% - 16px) / 2); justify-self: center; }
+@media (max-width: 680px) {
+  .lab-team-grid .lab-member-card:last-child { max-width: none; }
+}
