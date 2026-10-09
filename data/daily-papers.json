@@ -25,6 +25,235 @@
   ],
   "days": [
     {
+      "date": "2026-10-09",
+      "generatedAt": "2026-10-09T12:11:42.721521+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Deep learning-based prediction of post-radiation nasopharyngeal necrosis using adaptive multimodal fusion of CT, MRI, and 3D dose",
+          "authors": [
+            "Jinnian Ge",
+            "Yuxin Feng",
+            "Xubin Xie",
+            "Ruihuan Gao",
+            "Dan Sun",
+            "Zijian Zhang",
+            "Qin Zhou",
+            "Liangfang Shen"
+          ],
+          "venue": "SPIE Medical Imaging",
+          "venueId": "C04",
+          "publishedDate": "2026-10-09",
+          "doi": "10.1186/s12880-026-02894-z",
+          "url": "https://doi.org/10.1186/s12880-026-02894-z",
+          "source": "Crossref",
+          "summary": "This paper examines Deep learning-based prediction of post-radiation nasopharyngeal necrosis using adaptive multimodal fusion of CT, MRI, and 3D dose.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "ARNAI: Artifact Removal Network Based on Autoencoding and Inpainting                     for Robust Spinal Image Segmentation and Measurement",
+          "authors": [
+            "Sang-Jin Park",
+            "Jinyoung Choi",
+            "Seokwon Kim",
+            "Seungeon Song",
+            "Insu Park",
+            "Dougho Park",
+            "Taeyeon Kim",
+            "Youjin Lee",
+            "Donghoon Yang",
+            "Jaeman Cho",
+            "Joongwon Yang",
+            "Mansu Kim",
+            "Heumdai Kwon",
+            "Hong Gyu Baek",
+            "Dae Chul Cho",
+            "Injung Kim"
+          ],
+          "venue": "Radiology: Artificial Intelligence",
+          "venueId": "J03",
+          "publishedDate": "2026-10-07",
+          "doi": "10.1148/ryai.251134",
+          "url": "https://doi.org/10.1148/ryai.251134",
+          "source": "Crossref",
+          "summary": "Purpose To develop an artificial intelligence framework, robust to spinal implants, for automated measurement of spinopelvic parameters on postoperative radiographs. Materials and Methods Lateral lumbar spine radiographs from two institutions (internal dataset [ n = 2486]: January 2017-December 2024; external dataset [ n = 217]: October 2021-September 2025) were retrospectively reviewed. The Restore, Segment, and Measure (RSM) framework was developed, incorporating a novel Artifact Removal Network based on Autoencoding and Inpainting (ARNAI) to mitigate implant-related artifacts. Segmentation and spinopelvic parameter (including segmental Cobb angle [SCA]) measurement performance relative to expert reference measurements were assessed using the Dice similarity coefficient (DSC), mean absolute error (MAE), Wilcoxon signed-rank tests, and Benjamini-Hochberg correction for multiple comparisons. Results With ARNAI added to the segmentation pipeline, the mean DSC increased to 0.870 from 0.814, with marked gains at L3-L5. For implant-containing radiographs in the internal test set, rejected radiographs decreased by 64.21% (95 to 34), and the L4-L5 SCA MAE decreased to 4.7° from 16.2°-15.6° (~ 70% reduction); this remained significant after correction. For the external test set, rejected radiographs decreased by 65.45% (110 to 38), and the L4-L5 SCA MAE decreased to 9.5°-9.7° from 14.2°-14.5° (~ 33% reduction); however, this improvement did not remain significant after correction, and agreement with expert references remained limited. Conclusion The RSM framework improved automated spinopelvic parameter measurement in implant-containing postoperative radiographs, with the greatest benefit observed for L4-L5 SCA estimation in the internal dataset. In the external dataset, error was reduced but agreement remained limited. © RSNA, 2026",
+          "contribution": "Purpose To develop an artificial intelligence framework, robust to spinal implants, for automated measurement of spinopelvic parameters on postoperative radiographs. Materials and Methods Lateral lumbar spine radiographs from two institutions (internal dataset [ n = 2486]: January 2017-December 2024; external dataset [ n = 217]: October 2021-September 2025) were retrospectively reviewed. The Restore, Segment, and Measure (RSM) framework was developed, incorporating a novel Artifact Removal Network based on Autoencoding and Inpainting (ARNAI) to mitigate implant-related artifacts. Segmentation and spinopelvic parameter (including segmental Cobb angle [SCA]) measurement performance relative to expert reference measurements were assessed using the Dice similarity coefficient (DSC), mean absolute error (MAE), Wilcoxon signed-rank tests, and Benjamini-Hochberg correction for multiple comparisons. Results With ARNAI added to the segmentation pipeline, the mean DSC increased to 0.870 from 0.814, with marked gains at L3-L5. For implant-containing radiographs in the internal test set, rejected radiographs decreased by 64.21% (95 to 34), and the L4-L5 SCA MAE decreased to 4.7° from 16.2°-15.6° (~ 70% reduction); this remained significant after correction. For the external test set, rejected radiographs decreased by 65.45% (110 to 38), and the L4-L5 SCA MAE decreased to 9.5°-9.7° from 14.2°-14.5° (~ 33% reduction); however, this improvement did not remain significant after correction, and agreement with expert references remained limited. Conclusion The RSM framework improved automated spinopelvic parameter measurement in implant-containing postoperative radiographs, with the greatest benefit observed for L4-L5 SCA estimation in the internal dataset. In the external dataset, error was reduced but agreement remained limited. © RSNA, 2026",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Vulnerabilities and Defenses in Audio-Visual Attacks: A Survey From Audio to Multimodal Models",
+          "authors": [
+            "Jinming Wen",
+            "Xinyi Wu",
+            "Yuwen Li",
+            "Yanhao Jia",
+            "Shuai Zhao"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-05",
+          "doi": "10.1145/3857219",
+          "url": "https://doi.org/10.1145/3857219",
+          "source": "Crossref",
+          "summary": "With the rapid development of multimodal large language models (MLLMs) and the cost of large amounts of data and resources, researchers are more inclined to use public datasets and fine-tune open-source MLLMs to achieve excellent performance in audiovisual related tasks. While this trend accelerates progress, it also introduces security risks. Empirical studies demonstrate that the latest MLLMs can be manipulated to generate harmful content through crafted inputs, including adversarial perturbations and malicious queries, bypassing internal safeguards. To gain a deeper comprehension of the inherent security vulnerabilities associated with audio-visual-based multimodal models, a series of surveys investigates various types of attacks, including adversarial and backdoor attacks. While existing surveys on audio-visual attacks provide a comprehensive overview, they are limited to specific types of attacks, which lack a unified review of various types of attacks. To bridge this gap, this paper presents a comprehensive and systematic review of audio-visual attacks, which include adversarial, backdoor, and jailbreak attacks. Furthermore, we also review various types of attacks in the latest audio-visual-based MLLMs, a dimension notably absent in existing surveys. Drawing from extensive literature, this paper delineates both challenges and emergent trends for future research on audio-visual attacks and defenses.",
+          "contribution": "With the rapid development of multimodal large language models (MLLMs) and the cost of large amounts of data and resources, researchers are more inclined to use public datasets and fine-tune open-source MLLMs to achieve excellent performance in audiovisual related tasks. While this trend accelerates progress, it also introduces security risks. Empirical studies demonstrate that the latest MLLMs can be manipulated to generate harmful content through crafted inputs, including adversarial perturbations and malicious queries, bypassing internal safeguards. To gain a deeper comprehension of the inherent security vulnerabilities associated with audio-visual-based multimodal models, a series of surveys investigates various types of attacks, including adversarial and backdoor attacks. While existing surveys on audio-visual attacks provide a comprehensive overview, they are limited to specific types of attacks, which lack a unified review of various types of attacks. To bridge this gap, this paper presents a comprehensive and systematic review of audio-visual attacks, which include adversarial, backdoor, and jailbreak attacks. Furthermore, we also review various types of attacks in the latest audio-visual-based MLLMs, a dimension notably absent in existing surveys. Drawing from extensive literature, this paper delineates both challenges and emergent trends for future research on audio-visual attacks and defenses.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Network Topology Obfuscation: Challenges, Solutions, and Comparisons",
+          "authors": [
+            "Changhao Qiu",
+            "Bangbang Ren",
+            "Lailong Luo",
+            "Deke Guo"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-08",
+          "doi": "10.1145/3857909",
+          "url": "https://doi.org/10.1145/3857909",
+          "source": "Crossref",
+          "summary": "Attackers infer the network topology to locate critical components and to plan cost-effective attacks with high success rates. Network topology obfuscation (NTO) counters this by exposing a well-designed fake topology that misleads the inference and raises the cost of attack. Existing surveys cover topology inference but give limited attention to proactive defense. We disassemble the NTO mechanisms into three workflow phases, identification, generation and deployment, and into four fundamental techniques, rerouting, virtual network, response fabricating and packet intervention, whose combination forms each of them. We then systematically analyze multiple NTO mechanisms by technique and design objective, and outline future research directions.",
+          "contribution": "Attackers infer the network topology to locate critical components and to plan cost-effective attacks with high success rates. Network topology obfuscation (NTO) counters this by exposing a well-designed fake topology that misleads the inference and raises the cost of attack. Existing surveys cover topology inference but give limited attention to proactive defense. We disassemble the NTO mechanisms into three workflow phases, identification, generation and deployment, and into four fundamental techniques, rerouting, virtual network, response fabricating and packet intervention, whose combination forms each of them. We then systematically analyze multiple NTO mechanisms by technique and design objective, and outline future research directions.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Critiquing AI Surveys with a Case Study on Temporal Features for Trustworthy Computer Vision",
+          "authors": [
+            "Jack Napier",
+            "Zhe Wang",
+            "Jin Song Dong",
+            "Kelvin Ross",
+            "Shiping Chen",
+            "Zhe Hou"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-03",
+          "doi": "10.1145/3849866",
+          "url": "https://doi.org/10.1145/3849866",
+          "source": "Crossref",
+          "summary": "A novel, thorough manual survey is presented, focusing on the trustworthy extraction and application of temporal features in drone video feeds for object detection and tracking. Trust stems from reducing the necessary scope of opaque, deep components, and externally accounting for hallucinations. This manual survey is used as a baseline for a first of its kind case study into the use of new end-to-end LLM based “Deep Research” tools for literature review purposes. It was found that such tools cannot currently be used to replace a manual survey on novel research topics, but may offer utility gauging method popularity.",
+          "contribution": "A novel, thorough manual survey is presented, focusing on the trustworthy extraction and application of temporal features in drone video feeds for object detection and tracking. Trust stems from reducing the necessary scope of opaque, deep components, and externally accounting for hallucinations. This manual survey is used as a baseline for a first of its kind case study into the use of new end-to-end LLM based “Deep Research” tools for literature review purposes. It was found that such tools cannot currently be used to replace a manual survey on novel research topics, but may offer utility gauging method popularity.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Comparative Performance of Federated and Centralized Learning for                     Brain Tumor Classification and Segmentation",
+          "authors": [
+            "Anish Narayan",
+            "Chun Goh",
+            "Frederick Mariajoseph",
+            "Shujie Cui",
+            "Enes Makalic",
+            "Justin Moore"
+          ],
+          "venue": "Radiology: Artificial Intelligence",
+          "venueId": "J03",
+          "publishedDate": "2026-10-07",
+          "doi": "10.1148/ryai.260515",
+          "url": "https://doi.org/10.1148/ryai.260515",
+          "source": "Crossref",
+          "summary": "Purpose To compare federated learning (FL) and centralized learning (CL) performance for brain tumor classification and segmentation and examine whether specific configurations confer measurable performance advantages. Materials and Methods In this systematic review and meta-analysis, Medline, EMBASE, PubMed, Web of Science, and Scopus were searched from inception to March 4, 2026. Classification accuracy was pooled using random-effects meta-analysis, with heterogeneity quantified using I\n                       2 \n                      ; other metrics were summarized descriptively. Paired differences in classification accuracy and Dice similarity coefficient (DSC) were assessed using the Wilcoxon signed-rank test. Mixed-effects meta-regression and subgroup analyses evaluated whether specific configurations were associated with performance differences. Results Of 3,880 records identified, 50 studies were included (26 classification/detection, 26 segmentation; 2 in both). Within-study differences between FL and CL performance were -0.87 percentage points (pp) for classification accuracy (95% CI [-3.32, +1.44]; P = .41, k = 13) and -1.29 pp for segmentation DSC (95% CI [-4.23, +0.81]; Holm-corrected P = .50, k = 11). In unmatched single-arm analyses, pooled classification accuracy was 96.77% for FL (k = 18) versus 96.86% for CL (k = 9); the pooled DSC for segmentation was 84.95% (k = 24) versus 84.61% (k = 11). Heterogeneity was high (I\n                       2 \n                      =93.3-96.5%); the 95% prediction interval for FL accuracy was 86.72-100%. Aggregation strategy, training sample size, task category, and independent and identically distributed (IID) versus non-IID partitioning were not associated with performance differences (all P ≥ .38). Conclusion There was no evidence of paired differences between FL and CL in brain tumor classification accuracy or segmentation DSC, and no specific configuration conferred a measurable performance advantage. © RSNA, 2026",
+          "contribution": "Purpose To compare federated learning (FL) and centralized learning (CL) performance for brain tumor classification and segmentation and examine whether specific configurations confer measurable performance advantages. Materials and Methods In this systematic review and meta-analysis, Medline, EMBASE, PubMed, Web of Science, and Scopus were searched from inception to March 4, 2026. Classification accuracy was pooled using random-effects meta-analysis, with heterogeneity quantified using I\n                       2 \n                      ; other metrics were summarized descriptively. Paired differences in classification accuracy and Dice similarity coefficient (DSC) were assessed using the Wilcoxon signed-rank test. Mixed-effects meta-regression and subgroup analyses evaluated whether specific configurations were associated with performance differences. Results Of 3,880 records identified, 50 studies were included (26 classification/detection, 26 segmentation; 2 in both). Within-study differences between FL and CL performance were -0.87 percentage points (pp) for classification accuracy (95% CI [-3.32, +1.44]; P = .41, k = 13) and -1.29 pp for segmentation DSC (95% CI [-4.23, +0.81]; Holm-corrected P = .50, k = 11). In unmatched single-arm analyses, pooled classification accuracy was 96.77% for FL (k = 18) versus 96.86% for CL (k = 9); the pooled DSC for segmentation was 84.95% (k = 24) versus 84.61% (k = 11). Heterogeneity was high (I\n                       2 \n                      =93.3-96.5%); the 95% prediction interval for FL accuracy was 86.72-100%. Aggregation strategy, training sample size, task category, and independent and identically distributed (IID) versus non-IID partitioning were not associated with performance differences (all P ≥ .38). Conclusion There was no evidence of paired differences between FL and CL in brain tumor classification accuracy or segmentation DSC, and no specific configuration conferred a measurable performance advantage. © RSNA, 2026",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "FPGA-Based Neural Network Accelerators for Space Missions: A Survey",
+          "authors": [
+            "Pedro Antunes",
+            "Artur Podobas"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-07",
+          "doi": "10.1145/3857797",
+          "url": "https://doi.org/10.1145/3857797",
+          "source": "Crossref",
+          "summary": "Space missions are growing ever more ambitious, placing greater demands on onboard computing. Field-programmable gate arrays (FPGAs) have garnered interest due to their reconfigurability and cost-effectiveness. At the same time, neural network (NN)-based methods are proving invaluable for critical spacecraft tasks such as autonomous operations, remote sensing, selective downlink, and data compression. This survey reviews and classifies the state of the art in FPGA-based NN accelerators for space missions. We examine current trends, highlight key challenges, and suggest directions for future research. This work highlights key aspects for integrating high-performance NN acceleration into next-generation spacecraft computing systems.",
+          "contribution": "Space missions are growing ever more ambitious, placing greater demands on onboard computing. Field-programmable gate arrays (FPGAs) have garnered interest due to their reconfigurability and cost-effectiveness. At the same time, neural network (NN)-based methods are proving invaluable for critical spacecraft tasks such as autonomous operations, remote sensing, selective downlink, and data compression. This survey reviews and classifies the state of the art in FPGA-based NN accelerators for space missions. We examine current trends, highlight key challenges, and suggest directions for future research. This work highlights key aspects for integrating high-performance NN acceleration into next-generation spacecraft computing systems.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "A Preview of Computational Animal Linguistics",
+          "authors": [
+            "Tuan Dang",
+            "Atrey Desai",
+            "Hridayesh Lekhak",
+            "Tirza Panunto",
+            "Lindsay Pike",
+            "Theron Wang",
+            "Kenny Q. Zhu"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-06",
+          "doi": "10.1145/3850160",
+          "url": "https://doi.org/10.1145/3850160",
+          "source": "Crossref",
+          "summary": "Computational animal linguistics is an emerging field that studies non-human animal vocal communication as a language system using data-driven computational approaches. This survey starts with humanity’s historical endeavor to understand animal communication and a background on the essential linguistic properties in human languages. It presents current evidence of animals possessing some of these properties previously thought to be unique to humans. Driven by advancements in deep learning and artificial intelligence, computational methods from natural language processing and large language modeling are playing a major role in processing and understanding animal communication on a larger scale moving forward beyond traditional approaches.",
+          "contribution": "Computational animal linguistics is an emerging field that studies non-human animal vocal communication as a language system using data-driven computational approaches. This survey starts with humanity’s historical endeavor to understand animal communication and a background on the essential linguistic properties in human languages. It presents current evidence of animals possessing some of these properties previously thought to be unique to humans. Driven by advancements in deep learning and artificial intelligence, computational methods from natural language processing and large language modeling are playing a major role in processing and understanding animal communication on a larger scale moving forward beyond traditional approaches.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Complementary-Label Learning: A Survey of Methods, an Open-Source Toolkit, and Fair Benchmarking Results",
+          "authors": [
+            "Ha Mai Tan",
+            "Nai-Xuan Ye",
+            "Wei Wang",
+            "Gang Niu",
+            "Takashi Ishida",
+            "Masashi Sugiyama",
+            "Hsuan-Tien Lin"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-03",
+          "doi": "10.1145/3847508",
+          "url": "https://doi.org/10.1145/3847508",
+          "source": "Crossref",
+          "summary": "Complementary-label learning \n                     (CLL) is a weakly supervised learning paradigm designed for multiclass classification tasks. In CLL, algorithms are provided with complementary labels, which indicate the classes an instance does not belong to, rather than specifying its true class. With the growing research interest in CLL and the unique challenges it presents, particularly in handling incomplete and indirect supervision, a comprehensive and systematic overview of existing methodologies, results, and research directions has become increasingly essential. In this survey, we provide the first systematic synthesis of recent advances in CLL and offer three major contributions. First, we establish a structured taxonomy that clarifies foundational concepts, distinctive algorithmic strategies, key contributions, and their inherent limitations. Second, to support reproducibility and accelerate future research, we introduce a publicly available\n                     open-source CLL toolkit \n                    that unifies key algorithm implementations and offers ready-to-use benchmarking pipelines. Third, we conduct an\n                     extensive benchmarking \n                    study covering a wide spectrum of CLL algorithms, using standardized evaluation protocols across both synthetic, human-annotated, and VLM-annotated complementary-label datasets. This provides the most complete performance comparison currently available. Finally, we discuss current open research challenges and identify promising avenues for future investigation, emphasizing improvements to the practical applicability and robustness of CLL in real-world scenarios. Overall, this survey provides an up-to-date, in-depth resource on the evolving CLL landscape.",
+          "contribution": "Complementary-label learning \n                     (CLL) is a weakly supervised learning paradigm designed for multiclass classification tasks. In CLL, algorithms are provided with complementary labels, which indicate the classes an instance does not belong to, rather than specifying its true class. With the growing research interest in CLL and the unique challenges it presents, particularly in handling incomplete and indirect supervision, a comprehensive and systematic overview of existing methodologies, results, and research directions has become increasingly essential. In this survey, we provide the first systematic synthesis of recent advances in CLL and offer three major contributions. First, we establish a structured taxonomy that clarifies foundational concepts, distinctive algorithmic strategies, key contributions, and their inherent limitations. Second, to support reproducibility and accelerate future research, we introduce a publicly available\n                     open-source CLL toolkit \n                    that unifies key algorithm implementations and offers ready-to-use benchmarking pipelines. Third, we conduct an\n                     extensive benchmarking \n                    study covering a wide spectrum of CLL algorithms, using standardized evaluation protocols across both synthetic, human-annotated, and VLM-annotated complementary-label datasets. This provides the most complete performance comparison currently available. Finally, we discuss current open research challenges and identify promising avenues for future investigation, emphasizing improvements to the practical applicability and robustness of CLL in real-world scenarios. Overall, this survey provides an up-to-date, in-depth resource on the evolving CLL landscape.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-08",
       "generatedAt": "2026-10-08T14:54:47.384550+03:00",
       "papers": [
@@ -257,5 +486,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-08T14:54:47.384550+03:00"
+  "updatedAt": "2026-10-09T12:11:42.721521+03:00"
 }
