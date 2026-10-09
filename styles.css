@@ -511,3 +511,13 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .page-signal-grid span { color: rgba(255,255,255,.74); font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; }
 @media (max-width: 920px) { .signal-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .page-signal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 680px) { .signal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .page-signal-grid { gap: 14px 8px; } .page-signal-grid div { padding-left: 12px; } }
+/* Keep the five Projects metrics aligned until the phone layout. */
+.projects-signal-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.projects-signal-grid div { min-width: 0; padding-left: 10px; }
+.projects-signal-grid strong { font-size: clamp(1rem, 1.45vw, 1.55rem); white-space: nowrap; }
+.projects-signal-grid span { font-size: clamp(.48rem, .64vw, .68rem); letter-spacing: .025em; white-space: nowrap; }
+@media (max-width: 680px) {
+  .projects-signal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 8px; }
+  .projects-signal-grid div { padding-left: 12px; }
+  .projects-signal-grid span { font-size: .62rem; letter-spacing: .06em; }
+}
