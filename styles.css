@@ -546,7 +546,7 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .lab-tree-link { display: block; padding: 5px 6px; border-radius: 5px; color: var(--muted); font-size: .68rem; line-height: 1.35; }
 .lab-tree-link:hover, .lab-tree-link:focus-visible { color: var(--teal); background: var(--teal-soft); }
 .lab-tree-link:focus-visible { outline: 2px solid var(--teal); outline-offset: 1px; }
-.lab-card[id] { scroll-margin-top: 108px; }
+.lab-card[id] { scroll-margin-top: 156px; }
 .lab-page-content .lab-card { padding: 23px; border: 1px solid var(--line); border-left: 3px solid var(--teal); border-radius: 12px; box-shadow: 0 4px 13px rgba(13,43,69,.045); }
 .lab-page-content .lab-card h3 { margin: 0 0 8px; font-size: 1.02rem; line-height: 1.28; }
 .lab-page-content .lab-card p { margin: 0; font-size: .79rem; line-height: 1.5; }
