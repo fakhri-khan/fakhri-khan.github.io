@@ -521,3 +521,36 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
   .projects-signal-grid div { padding-left: 12px; }
   .projects-signal-grid span { font-size: .62rem; letter-spacing: .06em; }
 }
+/* BASMIR page tree navigation and member cards */
+.lab-page-layout { display: grid; grid-template-columns: 245px minmax(0, 1fr); align-items: start; gap: 28px; }
+.lab-page-content { min-width: 0; }
+.lab-page-content .container { width: 100%; margin-left: 0; margin-right: 0; }
+.lab-side-tree { position: sticky; top: 96px; z-index: 5; max-height: calc(100vh - 112px); overflow-y: auto; margin-top: 24px; }
+.lab-tree-card { padding: 17px; border: 1px solid var(--line); border-top: 3px solid var(--teal); border-radius: 15px; background: var(--white); box-shadow: 0 9px 22px rgba(13,43,69,.055); }
+.lab-tree-card > .eyebrow { margin-bottom: 5px; font-size: .64rem; }
+.lab-tree-card h2 { margin: 0 0 12px; color: var(--navy); font-size: 1.14rem; }
+.lab-tree-group { border-top: 1px solid var(--line); }
+.lab-tree-group summary { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 0; color: var(--navy); font-size: .76rem; font-weight: 800; cursor: pointer; list-style: none; }
+.lab-tree-group summary::-webkit-details-marker { display: none; }
+.lab-tree-group summary::after { content: "+"; color: var(--teal); font-size: 1rem; font-weight: 500; }
+.lab-tree-group[open] summary::after { content: "−"; }
+.lab-tree-group summary span { margin-left: auto; color: var(--teal); font-size: .68rem; }
+.lab-tree-list { display: grid; gap: 4px; margin: 0 0 10px 4px; padding: 0 0 0 12px; border-left: 1px solid var(--line); list-style: none; }
+.lab-tree-link { display: block; padding: 5px 6px; border-radius: 5px; color: var(--muted); font-size: .69rem; line-height: 1.35; }
+.lab-tree-link:hover, .lab-tree-link:focus-visible { color: var(--teal); background: var(--teal-soft); }
+.lab-tree-link:focus-visible { outline: 2px solid var(--teal); outline-offset: 1px; }
+.lab-card[id] { scroll-margin-top: 108px; }
+.lab-member-consultant { border-top-color: #a6e7df; color: var(--white); background: linear-gradient(145deg, #006c35, #164765); }
+.lab-member-consultant h3, .lab-member-consultant p { color: var(--white); }
+.lab-member-consultant .member-role { color: #a6e7df; }
+.lab-member-focus { margin-top: 7px !important; color: var(--teal) !important; font-size: .72rem !important; font-weight: 650; line-height: 1.4 !important; }
+.lab-member-consultant .lab-member-focus { color: rgba(255,255,255,.86) !important; }
+@media (max-width: 920px) {
+  .lab-page-layout { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .lab-side-tree { position: static; max-height: 300px; margin-top: 20px; }
+  .lab-page-content > .section:first-child { padding-top: 26px; }
+}
+@media (max-width: 680px) {
+  .lab-page-layout.container { width: min(100% - 32px, 1160px); }
+  .lab-side-tree { max-height: 240px; margin-top: 16px; }
+}
