@@ -69,7 +69,7 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .institution-link-light:hover { color: var(--gold); }
 
 .signal-strip { color: var(--white); background: var(--teal); }
-.signal-grid { display: grid; grid-template-columns: repeat(4, 1fr); padding: 18px 0; gap: 20px; }
+.signal-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 18px 0; gap: 14px; }
 .signal-grid div { display: grid; gap: 2px; border-left: 1px solid rgba(255,255,255,.28); padding-left: 20px; }
 .signal-grid strong { color: var(--gold); font-size: 1.75rem; letter-spacing: -.04em; }
 .signal-grid span { color: rgba(255,255,255,.7); font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; }
