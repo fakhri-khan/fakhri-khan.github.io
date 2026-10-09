@@ -567,6 +567,9 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .lab-page-content .lab-member-consultant { border-left-color: #a6e7df; border-top-color: rgba(255,255,255,.18); color: var(--white); background: linear-gradient(145deg, #006c35, #164765); }
 .lab-page-content .lab-member-consultant h3, .lab-page-content .lab-member-consultant p { color: var(--white); }
 .lab-page-content .lab-member-consultant .member-role { color: #a6e7df; }
+.lab-member-consultant .member-profile-link { display: inline-block; color: inherit; }
+.lab-member-consultant .member-profile-link:hover { color: #a6e7df; }
+.lab-member-consultant .member-link-label { display: inline-block; margin-left: 7px; color: #a6e7df; font-size: .62rem; font-weight: 750; letter-spacing: .07em; text-transform: uppercase; white-space: nowrap; }
 .lab-page-content .lab-member-consultant .lab-member-focus { border-color: rgba(255,255,255,.25); color: rgba(255,255,255,.9) !important; }
 .lab-project-grid .lab-project-card { min-height: 186px; border-left-color: var(--teal); }
 .lab-project-grid .lab-project-card h3 { margin: 11px 0 12px; font-size: 1rem; }
@@ -592,4 +595,18 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
   .lab-track-grid .lab-card:last-child { grid-column: auto; grid-template-columns: 48px minmax(0, 1fr); min-height: 0; }
   .lab-track-grid .lab-card:last-child p { grid-column: 2; }
   .lab-team-grid .lab-member-card, .lab-project-grid .lab-project-card, .lab-publication-grid .lab-publication-card { min-height: 0; padding: 21px; }
+}
+/* Compact the BASMIR hero while keeping both logos clear. */
+.lab-hero { padding: 28px 0 24px; }
+.lab-hero-grid { gap: 32px; }
+.lab-logo-panel { padding: 14px; }
+.lab-logo { width: min(100%, 238px); }
+@media (max-width: 920px) {
+  .lab-hero-grid { gap: 26px; }
+}
+@media (max-width: 680px) {
+  .lab-hero { padding: 22px 0 20px; }
+  .lab-hero-grid { gap: 20px; }
+  .lab-logo-panel { padding: 12px; }
+  .lab-logo { width: min(100%, 220px); }
 }
