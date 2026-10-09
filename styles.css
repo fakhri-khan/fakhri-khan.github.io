@@ -481,3 +481,13 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .home-explore-card i { color: var(--teal); font-style: normal; }
 @media (max-width: 920px) { .home-explore-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 680px) { .home-explore-grid { grid-template-columns: 1fr; } .home-explore-card { min-height: 165px; } }
+
+
+/* Portfolio summary bars on Projects and Publications */
+.page-signal-strip { color: var(--white); background: var(--teal); }
+.page-signal-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; padding: 16px 0; }
+.page-signal-grid div { display: grid; align-content: center; gap: 1px; min-height: 52px; border-left: 1px solid rgba(255,255,255,.28); padding-left: 18px; }
+.page-signal-grid strong { color: var(--gold); font-size: 1.55rem; line-height: 1.1; }
+.page-signal-grid span { color: rgba(255,255,255,.74); font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; }
+@media (max-width: 920px) { .signal-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .page-signal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 680px) { .signal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .page-signal-grid { gap: 14px 8px; } .page-signal-grid div { padding-left: 12px; } }
