@@ -63,6 +63,9 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .profile-meta { display: grid; gap: 6px; color: rgba(255,255,255,.72); font-size: .78rem; }
 .profile-identity { display: grid; gap: 4px; color: rgba(255,255,255,.78); font-size: .72rem; line-height: 1.35; }
 .profile-identity strong { color: var(--white); font-size: 1rem; letter-spacing: -.02em; }
+.kfupm-logo-link { display: inline-flex; align-items: center; margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.22); }
+.kfupm-logo-link img { display: block; width: 152px; max-width: 100%; height: auto; }
+.kfupm-logo-link:focus-visible { outline: 2px solid rgba(255,255,255,.9); outline-offset: 4px; border-radius: 2px; }
 .institution-link { color: var(--teal); text-decoration: underline; text-decoration-color: rgba(0,108,53,.28); text-underline-offset: 3px; }
 .institution-link:hover { color: var(--navy); text-decoration-color: currentColor; }
 .institution-link-light { color: #a9ebe3; text-decoration-color: rgba(169,235,227,.45); }
