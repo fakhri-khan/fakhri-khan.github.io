@@ -141,11 +141,16 @@ def score(paper: dict[str, Any], track: dict[str, Any]) -> int:
     keywords = sum(haystack.count(normalized(word)) for word in track.get("keywords", []))
     return keywords * 100 + (80 if paper.get("abstract") else 0) + (20 if track["id"] in paper.get("trackIds", []) else 0) + int(paper.get("publishedDate", "0000-00-00").replace("-", "")[-4:])
 
-def select_for_tracks(papers: list[dict[str, Any]], tracks: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def select_for_tracks(papers: list[dict[str, Any]], tracks: list[dict[str, Any]], existing_papers: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
     available = {track["id"]: sorted([paper for paper in papers if track["id"] in paper.get("trackIds", [])], key=lambda paper: score(paper, track), reverse=True) for track in tracks}
     chosen: list[dict[str, Any]] = []
     selected: set[str] = set()
     counts = {track["id"]: 0 for track in tracks}
+    for paper in existing_papers or []:
+        track_id = paper.get("trackId")
+        if track_id in counts:
+            counts[track_id] += 1
+            selected.add(key_for(paper))
     for _ in range(2):
         for track in sorted(tracks, key=lambda item: sum(paper["key"] not in selected for paper in available[item["id"]])):
             if counts[track["id"]] >= 2:
@@ -197,13 +202,13 @@ def main() -> int:
         time.sleep(0.15)
     candidates = [paper for paper in unique(all_papers) if paper["key"] not in seen]
     day = next((item for item in archive["days"] if item.get("date") == edition.isoformat()), None)
-    if day is not None and day.get("papers"):
-        chosen = []
-        log("edition already contains papers; keeping the existing daily set")
-    else:
-        chosen = select_for_tracks(candidates, tracks)
+    existing_today = day.get("papers", []) if day is not None else []
+    chosen = select_for_tracks(candidates, tracks, existing_today)
     log(f"found {len(candidates)} never-archived candidates and selected {len(chosen)} papers")
     if args.dry_run:
+        return 0
+    if day is not None and not chosen:
+        log("no new eligible papers; preserving the existing daily edition")
         return 0
     new_papers = []
     for paper in chosen:
