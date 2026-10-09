@@ -184,6 +184,14 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .page-hero-dark { color: var(--white); background: var(--navy); border-bottom-color: var(--gold); }
 .page-hero-dark h1 { color: var(--white); }
 .page-hero-dark .page-lede { color: rgba(255,255,255,.7); }
+.page-hero-layout { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+.page-hero-copy { min-width: 0; flex: 1; }
+.hero-kfupm-logo-link { display: flex; flex: 0 0 auto; align-items: center; justify-content: flex-end; width: 160px; padding-left: 22px; border-left: 1px solid rgba(13,43,69,.18); }
+.hero-kfupm-logo-link img, .lab-kfupm-logo-link img, .contact-kfupm-logo-link img { display: block; width: 100%; height: auto; }
+.page-hero-dark .hero-kfupm-logo-link { border-left-color: rgba(255,255,255,.22); }
+.hero-kfupm-logo-link:focus-visible, .lab-kfupm-logo-link:focus-visible, .contact-kfupm-logo-link:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; border-radius: 2px; }
+.lab-kfupm-logo-link { display: block; width: min(100%, 155px); margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(13,43,69,.14); }
+.contact-kfupm-logo-link { display: inline-flex; width: 155px; margin-top: 20px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,.2); color: var(--white); }
 .publication-page-section { padding-top: 50px; }
 .publication-note { display: flex; gap: 16px; align-items: baseline; padding: 17px 20px; margin-bottom: 26px; color: var(--navy); border-left: 4px solid var(--gold); background: var(--sand); font-size: .84rem; }
 .publication-note strong { white-space: nowrap; color: var(--teal); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; }
@@ -357,6 +365,9 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
   .menu-toggle { display: block; }
   .nav-links { position: absolute; top: 65px; left: 16px; right: 16px; display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 8px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); box-shadow: var(--shadow); }
   .nav-links.is-open { display: flex; }
+  .page-hero-layout { align-items: flex-start; flex-direction: column; gap: 20px; }
+  .hero-kfupm-logo-link { align-self: flex-end; width: 138px; padding-left: 0; padding-top: 10px; border-left: 0; border-top: 1px solid rgba(13,43,69,.18); }
+  .page-hero-dark .hero-kfupm-logo-link { border-top-color: rgba(255,255,255,.22); }
   .nav-links a { padding: 11px 12px; }
   h1 { font-size: clamp(2.65rem, 13vw, 4.5rem); }
   .hero { min-height: auto; padding-top: 32px; padding-bottom: 32px; }
