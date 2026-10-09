@@ -33,7 +33,7 @@ button { font: inherit; }
 .hero { position: relative; isolation: isolate; min-height: 0; padding-top: 42px; padding-bottom: 42px; display: grid; grid-template-columns: minmax(150px, .72fr) minmax(360px, 1.55fr) minmax(245px, .93fr); align-items: center; gap: 34px; }
 .hero.container { width: min(1100px, calc(100% - 48px)); }
 .page-hero > .container { width: min(870px, calc(100% - 48px)); }
-.hero::before { content: ""; position: absolute; z-index: -1; top: 20px; right: -15vw; width: 58vw; height: 330px; opacity: .5; background: linear-gradient(30deg, transparent 46%, rgba(200,164,93,.18) 47%, rgba(200,164,93,.18) 49%, transparent 50%), linear-gradient(150deg, transparent 46%, rgba(0,108,53,.12) 47%, rgba(0,108,53,.12) 49%, transparent 50%); background-size: 64px 64px; transform: skewX(-12deg); pointer-events: none; }
+.hero::before { content: ""; position: absolute; z-index: -1; top: 20px; right: 0; width: 58%; height: 330px; opacity: .5; background: linear-gradient(30deg, transparent 46%, rgba(200,164,93,.18) 47%, rgba(200,164,93,.18) 49%, transparent 50%), linear-gradient(150deg, transparent 46%, rgba(0,108,53,.12) 47%, rgba(0,108,53,.12) 49%, transparent 50%); background-size: 64px 64px; transform: skewX(-12deg); pointer-events: none; }
 .eyebrow { margin: 0 0 18px; color: var(--teal); text-transform: uppercase; font-size: .73rem; font-weight: 800; letter-spacing: .15em; }
 .eyebrow-light { color: #78d6d0; }
 h1, h2, h3, p { margin-top: 0; }
