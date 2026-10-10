@@ -428,9 +428,9 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 
 @media (max-width: 680px) {
   .hero { grid-template-columns: 1fr; gap: 25px; padding-top: 32px; padding-bottom: 32px; }
-  .hero-lab-panel { order: 1; }
+  .hero-lab-panel { order: 3; grid-row: auto; }
   .hero-copy { order: 2; }
-  .hero-aside { order: 3; }
+  .hero-aside { order: 1; }
   .hero-lab-logo { width: 150px; padding: 7px; border-radius: 13px; }
   .hero h1 { font-size: clamp(1.7rem, 8vw, 2.5rem); }
   .hero-lede { font-size: .8rem; line-height: 1.45; }

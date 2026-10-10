@@ -20,6 +20,7 @@ ARCHIVE_PATH = ROOT / "data" / "daily-papers.json"
 RIYADH = ZoneInfo("Asia/Riyadh")
 USER_AGENT = "fakhri-khan.github.io daily research updater/1.0"
 FIELDS = ("summary", "contribution", "methods", "relevance", "limitations")
+CROSSREF_SUCCESSES = 0
 
 def log(message: str) -> None:
     print(f"[daily-papers] {message}")
@@ -37,18 +38,27 @@ def request_json(url: str, method: str = "GET", payload: dict[str, Any] | None =
             with urlopen(request, timeout=45) as response:
                 return json.loads(response.read().decode("utf-8"))
         except HTTPError as error:
-            if error.code == 429 and attempt < 2:
-                delay = min(max(int(error.headers.get("Retry-After", "2")), 2), 12)
-                log(f"rate limited, retrying in {delay}s")
+            retryable = error.code == 429 or 500 <= error.code < 600
+            if retryable and attempt < 2:
+                try:
+                    delay = int(error.headers.get("Retry-After", "2")) if error.code == 429 else 2 * (attempt + 1)
+                except (TypeError, ValueError):
+                    delay = 2
+                delay = min(max(delay, 2), 12)
+                log(f"HTTP {error.code}, retrying in {delay}s")
                 time.sleep(delay)
                 continue
-            log(f"request skipped: {url.split('?')[0]} ({error})")
+            log(f"request failed: {url.split('?')[0]} ({error})")
             return None
         except (URLError, TimeoutError, json.JSONDecodeError) as error:
-            log(f"request skipped: {url.split('?')[0]} ({error})")
+            if attempt < 2:
+                delay = 2 * (attempt + 1)
+                log(f"temporary request failure, retrying in {delay}s ({error})")
+                time.sleep(delay)
+                continue
+            log(f"request failed after retries: {url.split('?')[0]} ({error})")
             return None
     return None
-
 def text_value(value: Any) -> str:
     if value is None:
         return ""
@@ -92,6 +102,7 @@ def authors(item: dict[str, Any]) -> list[str]:
     return names
 
 def fetch_venue(venue: dict[str, Any], start: date, end: date) -> list[dict[str, Any]]:
+    global CROSSREF_SUCCESSES
     query = venue.get("query", venue["name"])
     if venue.get("type") == "journal" and venue.get("issn"):
         params = {"filter": f"issn:{venue['issn']},from-pub-date:{start.isoformat()},until-pub-date:{end.isoformat()}", "sort": "published", "order": "desc", "rows": 50}
@@ -101,7 +112,10 @@ def fetch_venue(venue: dict[str, Any], start: date, end: date) -> list[dict[str,
     mailto = os.getenv("CROSSREF_MAILTO", "")
     if mailto:
         params["mailto"] = mailto
-    response = request_json(f"https://api.crossref.org/works?{urlencode(params)}") or {}
+    response = request_json(f"https://api.crossref.org/works?{urlencode(params)}")
+    if response is None:
+        return []
+    CROSSREF_SUCCESSES += 1
     query_words = [word for word in normalized(query).split() if len(word) > 2]
     papers = []
     for item in response.get("message", {}).get("items", []):
@@ -210,6 +224,8 @@ def main() -> int:
         log(f"checking {index}/{len(venues)} {venue['name']}")
         all_papers.extend(fetch_venue(venue, start, edition))
         time.sleep(0.15)
+    if CROSSREF_SUCCESSES == 0:
+        raise SystemExit("Crossref requests failed for every venue; the existing archive was left unchanged")
     candidates = [paper for paper in unique(all_papers) if paper["key"] not in seen]
     chosen = select_for_tracks(candidates, tracks)
     log(f"found {len(candidates)} never-archived candidates and selected {len(chosen)} papers")

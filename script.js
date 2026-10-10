@@ -2,15 +2,32 @@ const menuToggle = document.querySelector('.menu-toggle');
 const menu = document.querySelector('#main-menu');
 
 if (menuToggle && menu) {
+  const closeMenu = () => {
+    menu.classList.remove('is-open');
+    menuToggle.setAttribute('aria-expanded', 'false');
+  };
+
   menuToggle.addEventListener('click', () => {
     const open = menu.classList.toggle('is-open');
     menuToggle.setAttribute('aria-expanded', String(open));
   });
 
-  menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
-    menu.classList.remove('is-open');
-    menuToggle.setAttribute('aria-expanded', 'false');
-  }));
+  menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
+
+  document.addEventListener('pointerdown', (event) => {
+    if (menu.classList.contains('is-open')
+      && !menu.contains(event.target)
+      && !menuToggle.contains(event.target)) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && menu.classList.contains('is-open')) {
+      closeMenu();
+      menuToggle.focus();
+    }
+  });
 }
 
 const normalizePagePath = (value) => {

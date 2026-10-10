@@ -1,9 +1,14 @@
 name: Update daily research papers
 
 on:
+  push:
+    paths:
+      - ".github/workflows/daily-papers.yml"
+      - "scripts/update_daily_papers.py"
+      - "data/venue-config.json"
   schedule:
-    # 05:17 UTC is 08:17 in Riyadh; 06:17 UTC is a same-day retry.
-    - cron: "17 5,6 * * *"
+    # 08:00 Riyadh is 05:00 UTC. Retry every 15 minutes through 09:45 Riyadh.
+    - cron: "0,15,30,45 5,6 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -20,18 +25,37 @@ jobs:
     steps:
       - name: Check out the site
         uses: actions/checkout@v4
+      - name: Check whether today's scheduled edition is already published
+        id: freshness
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          today = datetime.now(ZoneInfo("Asia/Riyadh")).date().isoformat()
+          archive = json.loads(Path("data/daily-papers.json").read_text(encoding="utf-8"))
+          already_published = any(day.get("date") == today for day in archive.get("days", []))
+          should_run = not (os.getenv("GITHUB_EVENT_NAME") == "schedule" and already_published)
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"run={str(should_run).lower()}\n")
+          print("Running today's paper update." if should_run else "Today's edition already exists; skipping this scheduled retry.")
+          PY
       - name: Set up Python
+        if: steps.freshness.outputs.run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Fetch and summarize new papers
+        if: steps.freshness.outputs.run == 'true'
         env:
-          OPENAI_API_KEY: \${{ secrets.OPENAI_API_KEY }}
-          PAPER_SUMMARY_MODEL: \${{ vars.PAPER_SUMMARY_MODEL }}
           PAPER_LOOKBACK_DAYS: "7"
           CROSSREF_MAILTO: fakhri.khan@kfupm.edu.sa
         run: python scripts/update_daily_papers.py
       - name: Validate generated archive
+        if: steps.freshness.outputs.run == 'true'
         run: |
           python -m json.tool data/daily-papers.json >/dev/null
           python - <<'PY'
@@ -64,6 +88,7 @@ jobs:
           print(f"validated {len(seen)} archived papers across {len(data.get('days', []))} editions")
           PY
       - name: Publish updated archive
+        if: steps.freshness.outputs.run == 'true'
         run: |
           git diff --check
           git config user.name "github-actions[bot]"
