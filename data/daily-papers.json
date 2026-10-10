@@ -25,6 +25,82 @@
   ],
   "days": [
     {
+      "date": "2026-10-10",
+      "generatedAt": "2026-10-10T13:51:55.905424+03:00",
+      "papers": [
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "From Information Security Governance to Data Protection Effectiveness: The Serial Mediating Roles of Security Policy Compliance and Cybersecurity Capability",
+          "authors": [
+            "Mohammad Imam Shalahudin",
+            "Achmad Benny Mutiara Qn",
+            "Abdullah Said Alkalbani",
+            "Arisantoso",
+            "Saipul Anwar",
+            "Muhamad Femy Mulya"
+          ],
+          "venue": "Network and Distributed System Security Symposium (NDSS)",
+          "venueId": "C14",
+          "publishedDate": "2026-10-10",
+          "doi": "10.59562/jessi.v7i4.15218",
+          "url": "https://doi.org/10.59562/jessi.v7i4.15218",
+          "source": "Crossref",
+          "summary": "Purpose - This study examines the relationship between Information Security Governance (ISG) and Data Protection Effectiveness (DPE), focusing on the serial mediating roles of Security Policy Compliance (SPC) and Cybersecurity Capability (CC).\nDesign/methods/approach – A quantitative explanatory approach was employed using a cross-sectional survey of 300 respondents selected through purposive sampling in Indonesia. Data were collected using a structured questionnaire comprising 33 indicators across four constructs and analyzed using Partial Least Squares Structural Equation Modeling (PLS-SEM) with SmartPLS 4.\nFindings – The results revealed significant positive relationships between ISG and SPC (β = 0.493, p &lt; 0.001), SPC and CC (β = 0.433, p &lt; 0.001), and CC and DPE (β = 0.404, p &lt; 0.001). The serial indirect relationship between ISG and DPE through SPC and CC was also significant (β = 0.086, p &lt; 0.001). The model explained 45.4% of the variance in DPE.\nResearch implications/limitations – The findings suggest that effective data protection requires coordinated governance, consistent security policy compliance, and organizational cybersecurity capabilities. However, the cross-sectional design, purposive sampling, and reliance on self-reported data limit causal interpretation and generalizability.\nOriginality/value – This study integrates the Information Security Governance and Dynamic Capability perspectives within a Governance–Behavior–Capability–Outcome Framework. It extends existing cybersecurity research by identifying behavioral compliance and organizational capability as sequential mechanisms linking security governance with data protection effectiveness.",
+          "contribution": "Purpose - This study examines the relationship between Information Security Governance (ISG) and Data Protection Effectiveness (DPE), focusing on the serial mediating roles of Security Policy Compliance (SPC) and Cybersecurity Capability (CC).\nDesign/methods/approach – A quantitative explanatory approach was employed using a cross-sectional survey of 300 respondents selected through purposive sampling in Indonesia. Data were collected using a structured questionnaire comprising 33 indicators across four constructs and analyzed using Partial Least Squares Structural Equation Modeling (PLS-SEM) with SmartPLS 4.\nFindings – The results revealed significant positive relationships between ISG and SPC (β = 0.493, p &lt; 0.001), SPC and CC (β = 0.433, p &lt; 0.001), and CC and DPE (β = 0.404, p &lt; 0.001). The serial indirect relationship between ISG and DPE through SPC and CC was also significant (β = 0.086, p &lt; 0.001). The model explained 45.4% of the variance in DPE.\nResearch implications/limitations – The findings suggest that effective data protection requires coordinated governance, consistent security policy compliance, and organizational cybersecurity capabilities. However, the cross-sectional design, purposive sampling, and reliance on self-reported data limit causal interpretation and generalizability.\nOriginality/value – This study integrates the Information Security Governance and Dynamic Capability perspectives within a Governance–Behavior–Capability–Outcome Framework. It extends existing cybersecurity research by identifying behavioral compliance and organizational capability as sequential mechanisms linking security governance with data protection effectiveness.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Cogenital double patella: two cases of a rare anatomical variant",
+          "authors": [
+            "Francesco Mantia",
+            "Giorgio Pantuso",
+            "Alessandro Barberi",
+            "Micol Terrasi",
+            "Eleonora Maria Iovane",
+            "Angelo Iovane"
+          ],
+          "venue": "SPIE Medical Imaging",
+          "venueId": "C04",
+          "publishedDate": "2026-10-10",
+          "doi": "10.1007/s44326-026-00123-z",
+          "url": "https://doi.org/10.1007/s44326-026-00123-z",
+          "source": "Crossref",
+          "summary": "Abstract \n                   Congenital double patella is an exceptionally rare anatomical anomaly, with fewer than 50 cases reported in the literature. Owing to its rarity and variable anatomical presentation, diagnosis may be challenging and requires careful imaging assessment. We report two cases of congenital double patella in male patients of different ages who presented with similar clinical symptoms but markedly different anatomical configurations. In the first case, magnetic resonance imaging (MRI) demonstrated a duplicated patella associated with abnormal tendon structures and morphological alterations of the femoral condyles. In the second case, conventional radiography revealed a second fully developed patella projecting over the expected location of the patellar tendon without evidence of previous trauma. In addition to describing the imaging findings, this report discusses the principal differential diagnoses and highlights the role of diagnostic imaging in establishing the diagnosis. These cases highlight the importance of MRI and conventional radiography in distinguishing congenital double patella from acquired conditions and emphasize the clinical relevance of recognizing this uncommon anatomical variant.",
+          "contribution": "Abstract \n                   Congenital double patella is an exceptionally rare anatomical anomaly, with fewer than 50 cases reported in the literature. Owing to its rarity and variable anatomical presentation, diagnosis may be challenging and requires careful imaging assessment. We report two cases of congenital double patella in male patients of different ages who presented with similar clinical symptoms but markedly different anatomical configurations. In the first case, magnetic resonance imaging (MRI) demonstrated a duplicated patella associated with abnormal tendon structures and morphological alterations of the femoral condyles. In the second case, conventional radiography revealed a second fully developed patella projecting over the expected location of the patellar tendon without evidence of previous trauma. In addition to describing the imaging findings, this report discusses the principal differential diagnoses and highlights the role of diagnostic imaging in establishing the diagnosis. These cases highlight the importance of MRI and conventional radiography in distinguishing congenital double patella from acquired conditions and emphasize the clinical relevance of recognizing this uncommon anatomical variant.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Characterizing the role of reasoning tokens in large language models as state over tokens",
+          "authors": [
+            "Mosh Levy",
+            "Zohar Elyoseph",
+            "Shauli Ravfogel",
+            "Yoav Goldberg"
+          ],
+          "venue": "Nature Machine Intelligence",
+          "venueId": "J05",
+          "publishedDate": "2026-10-07",
+          "doi": "10.1038/s42256-026-01303-y",
+          "url": "https://doi.org/10.1038/s42256-026-01303-y",
+          "source": "Crossref",
+          "summary": "This paper examines Characterizing the role of reasoning tokens in large language models as state over tokens.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-09",
       "generatedAt": "2026-10-09T12:16:03.994955+03:00",
       "papers": [
@@ -393,5 +469,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-09T12:16:03.994955+03:00"
+  "updatedAt": "2026-10-10T13:51:55.905424+03:00"
 }
