@@ -150,17 +150,50 @@ def unique(papers: list[dict[str, Any]]) -> list[dict[str, Any]]:
             result[key] = paper
     return list(result.values())
 
-def keyword_hits(paper: dict[str, Any], track: dict[str, Any]) -> int:
-    haystack = normalized(f"{paper.get('title', '')} {paper.get('abstract', '')}")
-    return sum(haystack.count(normalized(word)) for word in track.get("keywords", []))
+COMPUTATIONAL_METHODS = (
+    "machine learning", "deep learning", "artificial intelligence", "neural network",
+    "computer vision", "image analysis", "image processing", "image quality",
+    "image reconstruction", "image registration", "image acquisition", "segmentation",
+    "classification", "object detection", "radiomics", "transformer", "multimodal",
+    "large language model", "federated learning", "support vector machine",
+    "random forest", "gradient boosting", "algorithm", "computational",
+)
+AI_METHODS = (
+    "artificial intelligence", "machine learning", "deep learning", "neural network",
+    "computer vision", "transformer", "multimodal", "large language model",
+    "federated learning", "foundation model", "self-supervised learning",
+    "explainable ai", "xai", "support vector machine", "random forest",
+    "gradient boosting", "cnn", "vit", "ai",
+)
 
+
+def has_any_phrase(text: str, phrases: tuple[str, ...]) -> bool:
+    normalized_text = f" {normalized(text)} "
+    return any(f" {normalized(phrase)} " in normalized_text for phrase in phrases)
+
+
+def keyword_hits(paper: dict[str, Any], track: dict[str, Any]) -> int:
+    text = f"{paper.get('title', '')} {paper.get('abstract', '')}"
+    haystack = f" {normalized(text)} "
+    return sum(1 for word in track.get("keywords", []) if f" {normalized(word)} " in haystack)
+
+
+def eligible_for_track(paper: dict[str, Any], track: dict[str, Any]) -> bool:
+    text = f"{paper.get('title', '')} {paper.get('abstract', '')}"
+    if keyword_hits(paper, track) == 0:
+        return False
+    if track["id"] == "medical-imaging":
+        return has_any_phrase(text, COMPUTATIONAL_METHODS)
+    if track["id"] in {"trustworthy-ai", "retinal-ai"}:
+        return has_any_phrase(text, AI_METHODS)
+    return True
 def score(paper: dict[str, Any], track: dict[str, Any]) -> int:
     return keyword_hits(paper, track) * 100 + (80 if paper.get("abstract") else 0) + (20 if track["id"] in paper.get("trackIds", []) else 0) + int(paper.get("publishedDate", "0000-00-00").replace("-", "")[-4:])
 
 def select_for_tracks(papers: list[dict[str, Any]], tracks: list[dict[str, Any]]) -> list[dict[str, Any]]:
     available = {
         track["id"]: sorted(
-            [paper for paper in papers if track["id"] in paper.get("trackIds", []) and keyword_hits(paper, track) > 0],
+            [paper for paper in papers if track["id"] in paper.get("trackIds", []) and eligible_for_track(paper, track)],
             key=lambda paper: score(paper, track),
             reverse=True,
         )
@@ -201,6 +234,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--date")
+    parser.add_argument("--refresh-today", action="store_true", help="replace today's edition even when no new eligible papers remain")
     args = parser.parse_args()
     config = load_json(CONFIG_PATH, {})
     tracks, venues = config.get("tracks", []), config.get("venues", [])
@@ -231,7 +265,7 @@ def main() -> int:
     log(f"found {len(candidates)} never-archived candidates and selected {len(chosen)} papers")
     if args.dry_run:
         return 0
-    if day is not None and not chosen:
+    if day is not None and not chosen and not args.refresh_today:
         log("no new eligible papers; preserving the existing daily edition")
         return 0
     new_papers = []
