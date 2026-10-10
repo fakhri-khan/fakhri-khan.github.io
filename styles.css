@@ -615,3 +615,23 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 @media (max-width: 680px) {
   .lab-team-grid .lab-member-card:last-child { max-width: none; }
 }
+
+
+/* Compact the homepage hero while preserving its three-column layout. */
+.hero[aria-labelledby="hero-title"] { padding-top: 24px; padding-bottom: 24px; }
+.hero[aria-labelledby="hero-title"] .profile-photo { aspect-ratio: 1.45; }
+.hero[aria-labelledby="hero-title"] .profile-card-copy { padding: 14px 18px 16px; }
+.hero[aria-labelledby="hero-title"] .kfupm-logo-link { margin-top: 10px; padding-top: 10px; }
+
+@media (max-width: 920px) {
+  .hero[aria-labelledby="hero-title"] { padding-top: 24px; padding-bottom: 24px; }
+  .hero[aria-labelledby="hero-title"] .hero-lab-panel { gap: 12px; }
+  .hero[aria-labelledby="hero-title"] .hero-lab-logo { width: min(100%, 170px); }
+}
+
+@media (max-width: 680px) {
+  .hero[aria-labelledby="hero-title"] { gap: 16px; padding-top: 18px; padding-bottom: 18px; }
+  .hero[aria-labelledby="hero-title"] .hero-lab-logo { width: 130px; }
+  .hero[aria-labelledby="hero-title"] .profile-photo { aspect-ratio: 1.55; }
+  .hero[aria-labelledby="hero-title"] .profile-card-copy { padding: 14px 16px; }
+}
