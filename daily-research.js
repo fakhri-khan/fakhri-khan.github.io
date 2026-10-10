@@ -49,7 +49,7 @@
 
   function paperCard(paper) {
     const link = paper.url || (paper.doi ? "https://doi.org/" + encodeURIComponent(paper.doi) : "#");
-    const linkMarkup = link === "#" ? "" : "<a class=\"text-link\" href=\"" + escapeHtml(link) + "\" target=\"_blank\" rel=\"noreferrer\">Open paper <span aria-hidden=\"true\">↗</span></a>";
+    const linkMarkup = link === "#" ? "" : "<a class=\"text-link\" href=\"" + escapeHtml(link) + "\" target=\"_blank\" rel=\"noreferrer\">View Publication <span aria-hidden=\"true\">↗</span></a>";
     return "<details class=\"daily-paper-card\"><summary class=\"daily-paper-card-summary\"><div class=\"daily-paper-meta\"><span>" + escapeHtml(paper.venue || "Selected venue") + "</span><span>" + escapeHtml(paper.publishedDate || "New") + "</span></div><h4>" + escapeHtml(paper.title || "Untitled paper") + "</h4><p class=\"daily-paper-authors\">" + escapeHtml(formatAuthors(paper.authors)) + "</p><div class=\"daily-paper-card-trigger\"><span>Read summary</span><span aria-hidden=\"true\">+</span></div></summary><div class=\"daily-paper-card-body\"><div class=\"daily-paper-details\">" + detail("Summary", paper.summary) + detail("Key contribution", paper.contribution) + detail("Methods", paper.methods) + detail("BASMIR relevance", paper.relevance) + detail("Limitations", paper.limitations) + "</div><div class=\"daily-paper-footer\"><span class=\"daily-paper-badge\">AI-generated summary</span>" + linkMarkup + "</div></div></details>";
   }
 

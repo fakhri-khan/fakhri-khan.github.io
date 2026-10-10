@@ -72,7 +72,7 @@ const formatImpact = (value) => value === null ? 'No verified JIF' : `JIF ${valu
 const typeLabel = (type) => type === 'journal' ? 'Journal' : 'Conference';
 
 function publicationMarkup(item, dark = false) {
-  const link = item.link ? ` · <a href="${item.link}" target="_blank" rel="noreferrer">${item.doi ? `DOI: ${item.doi}` : 'DOI / paper'} ↗</a>` : '';
+  const link = item.link ? ` · <a href="${item.link}" target="_blank" rel="noreferrer">View Publication ↗</a>` : '';
   const authors = item.authors ? `<p class="publication-authors">${item.authors}</p>` : '';
   const volume = item.volume ? ` · Volume ${item.volume}` : '';
   const published = item.published ? ` · Published ${item.published}` : '';
