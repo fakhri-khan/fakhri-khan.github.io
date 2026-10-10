@@ -1,4 +1,5 @@
 const publications = [
+  { type: 'journal', year: 2026, category: 'security', authors: 'Muhammad Babar; Awais Ahmad; Sarah Kaleem; Fakhri Alam Khan; Syed Aziz Shah', title: 'Adaptive Federated Learning on Heterogeneous Consumer Devices: The Era of Next Generation AI', venue: 'IEEE Consumer Electronics Magazine', impactFactor: null, quartile: 'Not yet classified', jcr: 'Journal impact factor and quartile not verified', published: '08 October 2026', doi: '10.1109/MCE.2026.3740656', link: 'https://doi.org/10.1109/MCE.2026.3740656' },
   { type: 'journal', year: 2026, category: 'security', authors: 'SA Baksh, IU Haq, T Helmy, FA Khan et al.', title: 'Towards Practical Migration to Post Quantum SSH: System-Level Design and Evaluation', venue: 'Frontiers in Computer Science', volume: '8', impactFactor: 3.4, quartile: 'Q3', jcr: 'JCR 2026 · 2025 metric year', doi: '10.3389/fcomp.2026.1844445', link: 'https://doi.org/10.3389/fcomp.2026.1844445' },
   { type: 'journal', year: 2026, category: 'healthcare', authors: 'S Alissa, M Usman and FA Khan', title: 'Exploring 3D point clouds with multimodal large language model (MLLM): A review', venue: 'Image and Vision Computing', volume: '175', impactFactor: 5.0, quartile: 'Q1', jcr: 'JCR 2026 · 2025 metric year', doi: '10.1016/j.imavis.2026.106202', link: 'https://doi.org/10.1016/j.imavis.2026.106202' },
   { type: 'journal', year: 2026, category: 'security', title: 'An Optimal Acceleration Control for Collision Avoidance in VANETs Using Convex Optimization', venue: 'Computers, Materials and Continua', impactFactor: 2.4, quartile: 'Q3', jcr: 'JCR 2026 · 2025 metric year', link: 'https://doi.org/10.32604/cmc.2026.076104' },
@@ -74,11 +75,12 @@ function publicationMarkup(item, dark = false) {
   const link = item.link ? ` · <a href="${item.link}" target="_blank" rel="noreferrer">${item.doi ? `DOI: ${item.doi}` : 'DOI / paper'} ↗</a>` : '';
   const authors = item.authors ? `<p class="publication-authors">${item.authors}</p>` : '';
   const volume = item.volume ? ` · Volume ${item.volume}` : '';
+  const published = item.published ? ` · Published ${item.published}` : '';
   return `<article class="publication ${dark ? '' : 'publication-light'}">
     <div class="publication-meta"><span class="publication-type">${typeLabel(item.type)} · ${item.year}</span><span class="publication-year">${item.year}</span></div>
     <h3>${item.title}</h3>
     ${authors}
-    <p class="publication-venue"><strong>${item.venue}</strong>${volume}${link}</p>
+    <p class="publication-venue"><strong>${item.venue}</strong>${volume}${published}${link}</p>
     <div class="publication-metrics"><span>${formatImpact(item.impactFactor)}</span><span>${item.quartile}</span><span>${item.jcr}</span></div>
   </article>`;
 }
