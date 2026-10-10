@@ -638,6 +638,11 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 }
 
 
+/* Keep homepage summary labels on one line and reduce strip height. */
+.signal-strip .signal-grid { gap: 8px; padding-top: 8px; padding-bottom: 8px; }
+.signal-strip .signal-grid div { gap: 0; padding-left: 12px; }
+.signal-strip .signal-grid span { font-size: clamp(.58rem, .7vw, .68rem); letter-spacing: .035em; white-space: nowrap; }
+
 /* Reduce homepage summary bar height while preserving readable metric labels. */
 .signal-strip .signal-grid { padding-top: 10px; padding-bottom: 10px; }
 @media (max-width: 920px) {
@@ -645,7 +650,7 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
   .signal-strip .signal-grid div { gap: 0; }
 }
 @media (max-width: 680px) {
-  .signal-strip .signal-grid { row-gap: 8px; }
-  .signal-strip .signal-grid strong { font-size: 1.6rem; }
-  .signal-strip .signal-grid span { font-size: .7rem; letter-spacing: .07em; }
+  .signal-strip .signal-grid { row-gap: 6px; }
+  .signal-strip .signal-grid strong { font-size: 1.5rem; }
+  .signal-strip .signal-grid span { font-size: .58rem; letter-spacing: .035em; }
 }
