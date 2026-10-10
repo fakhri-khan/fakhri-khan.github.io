@@ -635,3 +635,16 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
   .hero[aria-labelledby="hero-title"] .profile-photo { aspect-ratio: 1.55; }
   .hero[aria-labelledby="hero-title"] .profile-card-copy { padding: 14px 16px; }
 }
+
+
+/* Reduce homepage summary bar height while preserving readable metric labels. */
+.signal-strip .signal-grid { padding-top: 10px; padding-bottom: 10px; }
+@media (max-width: 920px) {
+  .signal-strip .signal-grid { row-gap: 10px; }
+  .signal-strip .signal-grid div { gap: 0; }
+}
+@media (max-width: 680px) {
+  .signal-strip .signal-grid { row-gap: 8px; }
+  .signal-strip .signal-grid strong { font-size: 1.6rem; }
+  .signal-strip .signal-grid span { font-size: .7rem; letter-spacing: .07em; }
+}
