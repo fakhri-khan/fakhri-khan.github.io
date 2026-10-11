@@ -25,6 +25,108 @@
   ],
   "days": [
     {
+      "date": "2026-10-11",
+      "generatedAt": "2026-10-11T14:15:53.265435+03:00",
+      "papers": [
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Privacy Risks and Leakage Pathways in Agentic and Multi-Agent AI Systems",
+          "authors": [
+            "Arash Mahboubi",
+            "Seyit Camtepe",
+            "Keyvan Ansari",
+            "Thanh Hang Bui",
+            "Hamed Aboutorab"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-10-10",
+          "doi": "10.1145/3848128",
+          "url": "https://doi.org/10.1145/3848128",
+          "source": "Crossref",
+          "summary": "Agentic and multi-agent AI systems are increasingly deployed as part of operational systems, introducing autonomous planning, delegation, persistent memory, tool use, and inter-agent coordination into data-driven decision making. These architectural properties challenge prevailing privacy assumptions because leakage may arise structurally from autonomy, coordination, persistence, and composition rather than only from isolated model outputs. This article provides a structured synthesis of privacy risks and leakage pathways for agentic and multi-agent AI systems. We introduce a unifying abstraction that combines decentralized decision making with trace-based information-flow semantics, enabling reasoning about autonomy, coordination, persistent state, observability, and adversarial trace projections. Using this abstraction, we organize recurring privacy risks into five leakage pathways: autonomy-induced overexposure, coordination-driven information propagation, memory and persistent-state leakage, emergent and compositional inference, and observability and audit leakage. We further analyze why established privacy-enhancing technologies provide incomplete coverage in agentic settings, where static computation boundaries, single-agent assumptions, ephemeral state, and non-emergent behavior often fail. To ground the analysis, we implement a controlled multi-agent privacy sandbox with privacy-aware agents, tool-mediated workflows, adversarial trace projections, and LLM-backed validation. The results show that policy-checked privacy-aware execution reduces direct disclosure and adversarial inference advantage, while residual tool-mediated and semantic-hint leakage remains. The article concludes by proposing new privacy requirements for agentic and multi-agent AI systems.",
+          "contribution": "Agentic and multi-agent AI systems are increasingly deployed as part of operational systems, introducing autonomous planning, delegation, persistent memory, tool use, and inter-agent coordination into data-driven decision making. These architectural properties challenge prevailing privacy assumptions because leakage may arise structurally from autonomy, coordination, persistence, and composition rather than only from isolated model outputs. This article provides a structured synthesis of privacy risks and leakage pathways for agentic and multi-agent AI systems. We introduce a unifying abstraction that combines decentralized decision making with trace-based information-flow semantics, enabling reasoning about autonomy, coordination, persistent state, observability, and adversarial trace projections. Using this abstraction, we organize recurring privacy risks into five leakage pathways: autonomy-induced overexposure, coordination-driven information propagation, memory and persistent-state leakage, emergent and compositional inference, and observability and audit leakage. We further analyze why established privacy-enhancing technologies provide incomplete coverage in agentic settings, where static computation boundaries, single-agent assumptions, ephemeral state, and non-emergent behavior often fail. To ground the analysis, we implement a controlled multi-agent privacy sandbox with privacy-aware agents, tool-mediated workflows, adversarial trace projections, and LLM-backed validation. The results show that policy-checked privacy-aware execution reduces direct disclosure and adversarial inference advantage, while residual tool-mediated and semantic-hint leakage remains. The article concludes by proposing new privacy requirements for agentic and multi-agent AI systems.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "A deep learning-based study on automatic extraction and measurement of macular hole parameters",
+          "authors": [
+            "Zhiyuan Zhao",
+            "Xinqi Yu",
+            "Xiaochun Wang",
+            "Kunpeng Lu",
+            "Bin Wu",
+            "Sheng Zhou"
+          ],
+          "venue": "SPIE Medical Imaging",
+          "venueId": "C04",
+          "publishedDate": "2026-10-11",
+          "doi": "10.1186/s12880-026-02899-8",
+          "url": "https://doi.org/10.1186/s12880-026-02899-8",
+          "source": "Crossref",
+          "summary": "This paper examines A deep learning-based study on automatic extraction and measurement of macular hole parameters.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Prediction of early radiological response in esophageal cancer using CT radiomics and clinical factors: a single-center proof-of-concept study in an elderly cohort",
+          "authors": [
+            "Qing Zhou",
+            "Zhen-chao Tao",
+            "Hong-bo Zhang",
+            "Ling-ran Zhou",
+            "Hao-wu Liu"
+          ],
+          "venue": "SPIE Medical Imaging",
+          "venueId": "C04",
+          "publishedDate": "2026-10-11",
+          "doi": "10.1186/s12880-026-02903-1",
+          "url": "https://doi.org/10.1186/s12880-026-02903-1",
+          "source": "Crossref",
+          "summary": "Abstract \n                   \n                     Background \n                     To develop, as a proof-of-concept analysis, a machine learning model predicting early radiological treatment response in an elderly, single-center esophageal cancer (EC) cohort, and to test whether adding clinical factors to CT radiomics improves prediction. \n                   \n                   \n                     Methods \n                     We retrospectively reviewed 189 patients with EC treated with definitive radiotherapy. Radiomic features were extracted from baseline contrast-enhanced CT. Following TRIPOD recommendations, a LASSO-penalized logistic regression (LASSO-LR) on the radiomic feature set was pre-specified as the primary model, with the number of predictors capped at five (events per variable [EPV] ≥ 10; 50 events). Performance was estimated by 5 × 5 nested cross-validation and in an independent test set (8:2 split; 151 training, 38 test), with out-of-fold calibration; a sensitivity analysis repeating the full pipeline within each outer fold and a 200-resample feature-stability analysis were also performed. Five classifiers across clinical-only, radiomics-only and multimodal feature sets, including support vector machines (SVM), were exploratory comparisons only; incremental value was tested by bootstrap paired comparison (5,000 resamples). \n                   \n                   \n                     Results \n                     \n                      The cohort comprised 189 patients (126 responders, 63 non-responders). The pre-specified LASSO-LR primary model retained five radiomic predictors, selected from 21 LASSO features by absolute coefficient, and achieved a fully nested cross-validation AUC of 0.554 ± 0.108, obtained when univariable filtering, feature selection, and model fitting were re-executed within each outer training fold; a partially nested (development) estimate of 0.637 ± 0.105 (optimism 0.148; apparent 0.785), derived after univariable filtering had been performed once on the complete training cohort, and an independent test-set AUC of 0.716 in a very small test cohort (\n                       n \n                       = 38) are also reported; out-of-fold calibration gave a Brier score of 0.216 (intercept 0.328, slope 1.502). Exploratory clinical-only, radiomics-only and multimodal SVM models reached test AUCs of 0.603, 0.732 and 0.745; the multimodal model showed no statistically significant incremental value over clinical-only (ΔAUC + 0.142, 95% CI − 0.077 to 0.364,\n                       P \n                       = 0.212) or radiomics-only (ΔAUC + 0.012, 95% CI − 0.033 to 0.064,\n                       P \n                       = 0.520) models. Multimodal discrimination was similar across age strata (AUC 0.739 vs. 0.786).\n                     \n                   \n                   \n                     Conclusions \n                     This proof-of-concept study indicates that a pre-specified LASSO-LR model based on five radiomic features achieves limited and unstable discrimination (fully nested AUC 0.554 ± 0.108; test-set AUC 0.716 in a very small test cohort) for early radiological response in esophageal cancer. Exploratory SVM modeling reached a numerically higher but statistically non-significant multimodal AUC, providing no evidence of incremental value over radiomics or clinical factors alone. Prospective multicenter validation is required before any clinical application. \n                   \n                   \n                     Clinical trial number \n                     Not applicable.",
+          "contribution": "Abstract \n                   \n                     Background \n                     To develop, as a proof-of-concept analysis, a machine learning model predicting early radiological treatment response in an elderly, single-center esophageal cancer (EC) cohort, and to test whether adding clinical factors to CT radiomics improves prediction. \n                   \n                   \n                     Methods \n                     We retrospectively reviewed 189 patients with EC treated with definitive radiotherapy. Radiomic features were extracted from baseline contrast-enhanced CT. Following TRIPOD recommendations, a LASSO-penalized logistic regression (LASSO-LR) on the radiomic feature set was pre-specified as the primary model, with the number of predictors capped at five (events per variable [EPV] ≥ 10; 50 events). Performance was estimated by 5 × 5 nested cross-validation and in an independent test set (8:2 split; 151 training, 38 test), with out-of-fold calibration; a sensitivity analysis repeating the full pipeline within each outer fold and a 200-resample feature-stability analysis were also performed. Five classifiers across clinical-only, radiomics-only and multimodal feature sets, including support vector machines (SVM), were exploratory comparisons only; incremental value was tested by bootstrap paired comparison (5,000 resamples). \n                   \n                   \n                     Results \n                     \n                      The cohort comprised 189 patients (126 responders, 63 non-responders). The pre-specified LASSO-LR primary model retained five radiomic predictors, selected from 21 LASSO features by absolute coefficient, and achieved a fully nested cross-validation AUC of 0.554 ± 0.108, obtained when univariable filtering, feature selection, and model fitting were re-executed within each outer training fold; a partially nested (development) estimate of 0.637 ± 0.105 (optimism 0.148; apparent 0.785), derived after univariable filtering had been performed once on the complete training cohort, and an independent test-set AUC of 0.716 in a very small test cohort (\n                       n \n                       = 38) are also reported; out-of-fold calibration gave a Brier score of 0.216 (intercept 0.328, slope 1.502). Exploratory clinical-only, radiomics-only and multimodal SVM models reached test AUCs of 0.603, 0.732 and 0.745; the multimodal model showed no statistically significant incremental value over clinical-only (ΔAUC + 0.142, 95% CI − 0.077 to 0.364,\n                       P \n                       = 0.212) or radiomics-only (ΔAUC + 0.012, 95% CI − 0.033 to 0.064,\n                       P \n                       = 0.520) models. Multimodal discrimination was similar across age strata (AUC 0.739 vs. 0.786).\n                     \n                   \n                   \n                     Conclusions \n                     This proof-of-concept study indicates that a pre-specified LASSO-LR model based on five radiomic features achieves limited and unstable discrimination (fully nested AUC 0.554 ± 0.108; test-set AUC 0.716 in a very small test cohort) for early radiological response in esophageal cancer. Exploratory SVM modeling reached a numerically higher but statistically non-significant multimodal AUC, providing no evidence of incremental value over radiomics or clinical factors alone. Prospective multicenter validation is required before any clinical application. \n                   \n                   \n                     Clinical trial number \n                     Not applicable.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Integrating radiomic features and clinical variables from cervical lymph node CT to predict treatment response in advanced-stage nasopharyngeal carcinoma",
+          "authors": [
+            "Yang Long",
+            "Jiqing Su",
+            "Jidong Hong",
+            "Xuyang Zhao",
+            "Xiaoqian Wu",
+            "Zhiping Lv",
+            "Liang Deng",
+            "Rui Wei"
+          ],
+          "venue": "SPIE Medical Imaging",
+          "venueId": "C04",
+          "publishedDate": "2026-10-11",
+          "doi": "10.1186/s12880-026-02891-2",
+          "url": "https://doi.org/10.1186/s12880-026-02891-2",
+          "source": "Crossref",
+          "summary": "Abstract \n                   \n                     Purpose \n                     To develop a combined radiomic and clinical model based on pretreatment contrast-enhanced computed tomography (CECT) images of metastatic cervical lymph nodes(CLNs) for predicting complete response (CR) versus non-CR in patients with N2–N3M0 nasopharyngeal carcinoma (NPC). \n                   \n                   \n                     Methods \n                     \n                      This retrospective study included 493 patients with N2–N3M0 NPC, who were stratified by treatment response and divided into a development cohort (\n                       n \n                       = 345) and a held-out validation cohort (\n                       n \n                       = 148). Radiomic features were extracted from manually delineated metastatic CLNs on pretreatment CECT images. The clinical model was constructed using ridge logistic regression. Following reproducibility assessment and least absolute shrinkage and selection operator–based(LASSO) feature selection, six radiomics classifiers were compared. The combined model integrated clinical and radiomics predictions using logistic stacking. Model development and hyperparameter tuning were conducted using nested stratified five-fold cross-validation. Performance was evaluated using the area under the receiver operating characteristic curve (AUC), bootstrap confidence intervals, and DeLong tests.\n                     \n                   \n                   \n                     Results \n                     \n                      Gaussian naive Bayes was selected as the radiomics classifier based on the development nested out-of-fold AUC. In the held-out validation cohort, the clinical, radiomics, and combined models achieved AUCs of 0.695 (95% confidence interval [CI], 0.612–0.776), 0.805 (95% CI, 0.733–0.873), and 0.806 (95% CI, 0.729–0.872), respectively. The radiomics and combined models outperformed the clinical model (Holm-adjusted\n                       p \n                       = 0.027 and 0.018, respectively), whereas the combined model did not outperform the radiomics model (\n                       p \n                       = 0.831).\n                     \n                   \n                   \n                     Conclusions \n                     Pretreatment CECT radiomics of metastatic CLNs provided better discrimination of CR versus non-CR than clinical variables alone. Combining clinical and radiomics predictions produced no material improvement over the radiomics model, warranting further external validation.",
+          "contribution": "Abstract \n                   \n                     Purpose \n                     To develop a combined radiomic and clinical model based on pretreatment contrast-enhanced computed tomography (CECT) images of metastatic cervical lymph nodes(CLNs) for predicting complete response (CR) versus non-CR in patients with N2–N3M0 nasopharyngeal carcinoma (NPC). \n                   \n                   \n                     Methods \n                     \n                      This retrospective study included 493 patients with N2–N3M0 NPC, who were stratified by treatment response and divided into a development cohort (\n                       n \n                       = 345) and a held-out validation cohort (\n                       n \n                       = 148). Radiomic features were extracted from manually delineated metastatic CLNs on pretreatment CECT images. The clinical model was constructed using ridge logistic regression. Following reproducibility assessment and least absolute shrinkage and selection operator–based(LASSO) feature selection, six radiomics classifiers were compared. The combined model integrated clinical and radiomics predictions using logistic stacking. Model development and hyperparameter tuning were conducted using nested stratified five-fold cross-validation. Performance was evaluated using the area under the receiver operating characteristic curve (AUC), bootstrap confidence intervals, and DeLong tests.\n                     \n                   \n                   \n                     Results \n                     \n                      Gaussian naive Bayes was selected as the radiomics classifier based on the development nested out-of-fold AUC. In the held-out validation cohort, the clinical, radiomics, and combined models achieved AUCs of 0.695 (95% confidence interval [CI], 0.612–0.776), 0.805 (95% CI, 0.733–0.873), and 0.806 (95% CI, 0.729–0.872), respectively. The radiomics and combined models outperformed the clinical model (Holm-adjusted\n                       p \n                       = 0.027 and 0.018, respectively), whereas the combined model did not outperform the radiomics model (\n                       p \n                       = 0.831).\n                     \n                   \n                   \n                     Conclusions \n                     Pretreatment CECT radiomics of metastatic CLNs provided better discrimination of CR versus non-CR than clinical variables alone. Combining clinical and radiomics predictions produced no material improvement over the radiomics model, warranting further external validation.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-10",
       "generatedAt": "2026-10-10T13:59:46.121595+03:00",
       "papers": [
@@ -423,5 +525,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-10T13:59:46.121595+03:00"
+  "updatedAt": "2026-10-11T14:15:53.265435+03:00"
 }
