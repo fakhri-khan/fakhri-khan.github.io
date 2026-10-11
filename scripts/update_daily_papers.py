@@ -297,6 +297,7 @@ def select_for_tracks(papers: list[dict[str, Any]], tracks: list[dict[str, Any]]
     chosen: list[dict[str, Any]] = []
     selected: set[str] = set()
     counts = {track["id"]: 0 for track in tracks}
+    arxiv_counts = {track["id"]: 0 for track in tracks}
     for _ in range(2):
         for track in sorted(tracks, key=lambda item: sum(paper["key"] not in selected for paper in available[item["id"]])):
             if counts[track["id"]] >= 2:
@@ -304,8 +305,12 @@ def select_for_tracks(papers: list[dict[str, Any]], tracks: list[dict[str, Any]]
             for paper in available[track["id"]]:
                 if paper["key"] in selected:
                     continue
+                if paper.get("source") == "arXiv" and arxiv_counts[track["id"]] >= 1:
+                    continue
                 selected.add(paper["key"])
                 counts[track["id"]] += 1
+                if paper.get("source") == "arXiv":
+                    arxiv_counts[track["id"]] += 1
                 chosen_paper = dict(paper)
                 chosen_paper["trackId"] = track["id"]
                 chosen_paper["trackName"] = track["name"]
