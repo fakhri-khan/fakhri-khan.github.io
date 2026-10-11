@@ -37,7 +37,7 @@
 .conference-view-switch { display: inline-flex; padding: 3px; border: 1px solid var(--line); border-radius: 9px; background: var(--white); }
 .conference-view-switch button { padding: 7px 13px; border: 0; border-radius: 6px; color: var(--muted); background: transparent; font-size: .74rem; font-weight: 750; cursor: pointer; }
 .conference-view-switch button[aria-pressed="true"] { color: var(--white); background: var(--navy); }
-.conference-main-grid { display: grid; grid-template-columns: minmax(0, 2.45fr) minmax(195px, .78fr); gap: 14px; align-items: start; }
+.conference-main-grid { display: grid; grid-template-columns: minmax(0, 2.3fr) minmax(255px, .9fr); gap: 14px; align-items: start; }
 .conference-calendar-panel, .conference-agenda-panel, .conference-panel { border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); box-shadow: 0 10px 28px rgba(13,43,69,.045); }
 .conference-calendar-panel { padding: 20px; }
 .conference-month-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 17px; }
