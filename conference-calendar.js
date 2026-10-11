@@ -5,7 +5,9 @@
   const yearSelect = document.querySelector("#conference-year");
   const resultCount = document.querySelector("#conference-result-count");
   const calendarGrid = document.querySelector("#conference-calendar-grid");
-  const monthTitle = document.querySelector("#conference-month-title");
+  const monthPicker = document.querySelector("#conference-month-picker");
+  const previousMonthButton = document.querySelector("#conference-previous-month");
+  const nextMonthButton = document.querySelector("#conference-next-month");
   const calendarView = document.querySelector("#conference-calendar-view");
   const agendaView = document.querySelector("#conference-agenda-view");
   const agendaList = document.querySelector("#conference-agenda-list");
@@ -15,6 +17,8 @@
   const dialog = document.querySelector("#conference-dialog");
   const today = new Date();
   const todayString = today.getFullYear() + "-" + String(today.getMonth() + 1).padStart(2, "0") + "-" + String(today.getDate()).padStart(2, "0");
+  const latestMonth = new Date(today.getFullYear() + 1, 11, 1);
+  monthPicker.max = String(latestMonth.getFullYear()) + "-12";
   const state = {
     data: null,
     track: "all",
@@ -158,7 +162,7 @@
     const location = document.createElement("span");
     location.textContent = item.location || "Location to be announced";
     const rating = document.createElement("span");
-    rating.className = "conference-rating";
+    rating.className = "conference-rating " + ratingClass(item);
     rating.textContent = item.rating || "Rating not listed";
     meta.append(date, location, rating);
     const tags = document.createElement("div");
@@ -173,14 +177,12 @@
     all.forEach(([id, name]) => {
       const button = document.createElement("button");
       button.type = "button";
-      button.className = "conference-track-chip";
+      button.className = "conference-track-node" + (id === "all" ? " is-root" : "");
       button.setAttribute("aria-pressed", String(state.track === id));
-      if (id !== "all") {
-        button.dataset.track = id;
-        const dot = document.createElement("i");
-        dot.className = "conference-track-dot";
-        button.append(dot);
-      }
+      if (id !== "all") button.dataset.track = id;
+      const dot = document.createElement("i");
+      dot.className = "conference-track-dot" + (id === "all" ? " is-all" : "");
+      button.append(dot);
       const label = document.createElement("span");
       label.textContent = name;
       button.append(label);
@@ -194,9 +196,11 @@
   const renderCalendar = (items) => {
     const year = state.month.getFullYear();
     const month = state.month.getMonth();
-    monthTitle.textContent = new Intl.DateTimeFormat("en", { month: "long", year: "numeric" }).format(state.month);
+    monthPicker.value = String(year) + "-" + String(month + 1).padStart(2, "0");
+    monthPicker.max = String(latestMonth.getFullYear()) + "-12";
+    nextMonthButton.disabled = state.month >= latestMonth;
     calendarGrid.replaceChildren();
-    calendarGrid.setAttribute("aria-label", "Conference dates for " + monthTitle.textContent);
+    calendarGrid.setAttribute("aria-label", "Conference dates for " + new Intl.DateTimeFormat("en", { month: "long", year: "numeric" }).format(state.month));
     const offset = new Date(year, month, 1).getDay();
     const days = new Date(year, month + 1, 0).getDate();
     for (let i = 0; i < offset; i += 1) {
@@ -348,7 +352,7 @@
   };
   const setYear = (value) => {
     state.year = value;
-    if (value !== "all" && value !== "pending") {
+    if (value !== "all" && value !== "pending" && Number(value) <= latestMonth.getFullYear()) {
       state.month = new Date(Number(value), 0, 1);
     }
     render();
@@ -356,13 +360,23 @@
 
   searchInput.addEventListener("input", () => { state.search = searchInput.value; render(); });
   yearSelect.addEventListener("change", () => setYear(yearSelect.value));
-  document.querySelector("#conference-previous-month").addEventListener("click", () => {
+  monthPicker.addEventListener("change", () => {
+    if (!monthPicker.value) return;
+    const [year, month] = monthPicker.value.split("-").map(Number);
+    state.month = new Date(year, month - 1, 1);
+    state.year = "all";
+    yearSelect.value = "all";
+    render();
+  });
+  previousMonthButton.addEventListener("click", () => {
     state.month = new Date(state.month.getFullYear(), state.month.getMonth() - 1, 1);
     render();
   });
-  document.querySelector("#conference-next-month").addEventListener("click", () => {
-    state.month = new Date(state.month.getFullYear(), state.month.getMonth() + 1, 1);
-    render();
+  nextMonthButton.addEventListener("click", () => {
+    if (state.month < latestMonth) {
+      state.month = new Date(state.month.getFullYear(), state.month.getMonth() + 1, 1);
+      render();
+    }
   });
   document.querySelectorAll(".conference-view-switch button").forEach((button) => {
     button.addEventListener("click", () => { state.view = button.dataset.view; render(); });
