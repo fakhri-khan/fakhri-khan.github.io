@@ -1,0 +1,1111 @@
+{
+  "tracks": [
+    {
+      "id": "T1",
+      "name": "Medical Imaging and Multimodal Biomedical AI"
+    },
+    {
+      "id": "T2",
+      "name": "Trustworthy and Privacy-Preserving AI"
+    },
+    {
+      "id": "T3",
+      "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+    },
+    {
+      "id": "T4",
+      "name": "Post-Quantum Cryptography and Embedded Systems Security"
+    },
+    {
+      "id": "T5",
+      "name": "Retinal AI and Computational Ophthalmology"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conf-01",
+      "name": "Medical Image Computing and Computer Assisted Intervention (MICCAI)",
+      "shortName": "MICCAI",
+      "organizer": "The MICCAI Society",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T5"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T5",
+          "name": "Retinal AI and Computational Ophthalmology"
+        }
+      ],
+      "officialUrl": "https://miccai.org/upcoming-conferences/",
+      "nextDateText": "26 Sep–1 Oct 2027",
+      "startDate": "2027-09-26",
+      "endDate": "2027-10-01",
+      "yearHint": 2027,
+      "location": "Auckland, New Zealand",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-02",
+      "name": "IEEE International Symposium on Biomedical Imaging (ISBI)",
+      "shortName": "ISBI",
+      "organizer": "IEEE Signal Processing Society / IEEE Engineering in Medicine and Biology Society",
+      "rating": "A",
+      "trackIds": [
+        "T1",
+        "T5"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T5",
+          "name": "Retinal AI and Computational Ophthalmology"
+        }
+      ],
+      "officialUrl": "https://biomedicalimaging.org/2027/",
+      "nextDateText": "25–28 May 2027",
+      "startDate": "2027-05-25",
+      "endDate": "2027-05-28",
+      "yearHint": 2027,
+      "location": "Lausanne, Switzerland",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-03",
+      "name": "SPIE Medical imaging",
+      "shortName": "SPIE MI",
+      "organizer": "SPIE Conferences",
+      "rating": "A",
+      "trackIds": [
+        "T1",
+        "T5"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T5",
+          "name": "Retinal AI and Computational Ophthalmology"
+        }
+      ],
+      "officialUrl": "https://spie.org/conferences-and-exhibitions/medical-imaging",
+      "nextDateText": "14–18 Feb 2027",
+      "startDate": "2027-02-14",
+      "endDate": "2027-02-18",
+      "yearHint": 2027,
+      "location": "Vancouver, Canada",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-04",
+      "name": "IEEE International Conference on Image Processing (ICIP)",
+      "shortName": "ICIP",
+      "organizer": "IEEE Signal Processing Society / IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T5"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T5",
+          "name": "Retinal AI and Computational Ophthalmology"
+        }
+      ],
+      "officialUrl": "https://2027.ieeeicip.org/",
+      "nextDateText": "29 Nov–3 Dec 2027",
+      "startDate": "2027-11-29",
+      "endDate": "2027-12-03",
+      "yearHint": 2027,
+      "location": "Singapore",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-05",
+      "name": "ICPR : International Conference on Pattern Recognition",
+      "shortName": "ICPR",
+      "organizer": "IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T5"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T5",
+          "name": "Retinal AI and Computational Ophthalmology"
+        }
+      ],
+      "officialUrl": "https://iapr.org/conferences/international-conference-on-pattern-recognition/",
+      "nextDateText": "Not announced",
+      "startDate": null,
+      "endDate": null,
+      "yearHint": null,
+      "location": "Not announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-06",
+      "name": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "shortName": "CVPR",
+      "organizer": "IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T5"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T5",
+          "name": "Retinal AI and Computational Ophthalmology"
+        }
+      ],
+      "officialUrl": "https://cvpr.thecvf.com/Conferences/2027",
+      "nextDateText": "22–25 Jun 2027 (main conference)",
+      "startDate": "2027-06-22",
+      "endDate": "2027-06-25",
+      "yearHint": 2027,
+      "location": "Seattle, Washington, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-07",
+      "name": "ICCV : IEEE International Conference on Computer Vision",
+      "shortName": "ICCV",
+      "organizer": "IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T5"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T5",
+          "name": "Retinal AI and Computational Ophthalmology"
+        }
+      ],
+      "officialUrl": "https://iccv.thecvf.com/Conferences/2027",
+      "nextDateText": "2–8 Oct 2027",
+      "startDate": "2027-10-02",
+      "endDate": "2027-10-08",
+      "yearHint": 2027,
+      "location": "Hong Kong",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-08",
+      "name": "ECCV : European Conference on Computer Vision",
+      "shortName": "ECCV",
+      "organizer": "ECCV",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T5"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T5",
+          "name": "Retinal AI and Computational Ophthalmology"
+        }
+      ],
+      "officialUrl": "https://eccv.ecva.net/",
+      "nextDateText": "Not announced",
+      "startDate": null,
+      "endDate": null,
+      "yearHint": null,
+      "location": "Not announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-09",
+      "name": "ACCV : Asian Conference on Computer Vision",
+      "shortName": "ACCV",
+      "organizer": "AFCV",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T5"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T5",
+          "name": "Retinal AI and Computational Ophthalmology"
+        }
+      ],
+      "officialUrl": "https://accv2026.org/",
+      "nextDateText": "14–18 Dec 2026",
+      "startDate": "2026-12-14",
+      "endDate": "2026-12-18",
+      "yearHint": 2026,
+      "location": "Osaka, Japan",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-10",
+      "name": "AIME : Artificial Intelligence in Medicine",
+      "shortName": "AIME",
+      "organizer": "AIME",
+      "rating": "A",
+      "trackIds": [
+        "T1"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        }
+      ],
+      "officialUrl": "https://aime27.aimedicine.info/",
+      "nextDateText": "5–8 Jul 2027",
+      "startDate": "2027-07-05",
+      "endDate": "2027-07-08",
+      "yearHint": 2027,
+      "location": "Amsterdam, The Netherlands",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-11",
+      "name": "IEEE International Conference on Healthcare Informatics (IEEE ICHI)",
+      "shortName": "ICHI",
+      "organizer": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T5"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T5",
+          "name": "Retinal AI and Computational Ophthalmology"
+        }
+      ],
+      "officialUrl": "https://ichi2027.github.io/ICHI2027/",
+      "nextDateText": "11–14 Jun 2027",
+      "startDate": "2027-06-11",
+      "endDate": "2027-06-14",
+      "yearHint": 2027,
+      "location": "Washington, DC, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-12",
+      "name": "International Conference on Bioinformatics and Biomedicine (BIBM)",
+      "shortName": "BIBM",
+      "organizer": "IEEE",
+      "rating": "A",
+      "trackIds": [
+        "T1"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        }
+      ],
+      "officialUrl": "https://ieeebibm.org/BIBM2026/",
+      "nextDateText": "1–4 Dec 2026",
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-04",
+      "yearHint": 2026,
+      "location": "Dallas, Texas, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-13",
+      "name": "IEEE Symposium on Bioinformatics and Bioengineering (BIBE)",
+      "shortName": "BIBE",
+      "organizer": "IEEE Computer Society",
+      "rating": "A",
+      "trackIds": [
+        "T1"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        }
+      ],
+      "officialUrl": "https://bibeconference.com/",
+      "nextDateText": "27–29 Nov 2026",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-29",
+      "yearHint": 2026,
+      "location": "Shanghai, China",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-14",
+      "name": "IUPESM World Congress on Medical Physics and Biomedical Engineering",
+      "shortName": "IUPESM",
+      "organizer": "International Union for Physical and Engineering Sciences in Medicine (IUPESM)",
+      "rating": "A*",
+      "trackIds": [
+        "T1"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        }
+      ],
+      "officialUrl": "https://iupesm.org/world-congresses/",
+      "nextDateText": "Not announced (2031 edition)",
+      "startDate": null,
+      "endDate": null,
+      "yearHint": 2031,
+      "location": "Athens, Greece",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-15",
+      "name": "ICIAP: International Conference on Image Analysis and Processing",
+      "shortName": "ICIAP",
+      "organizer": "IAPR",
+      "rating": "A",
+      "trackIds": [
+        "T1"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        }
+      ],
+      "officialUrl": "https://www.iciap.org/",
+      "nextDateText": "Not announced",
+      "startDate": null,
+      "endDate": null,
+      "yearHint": null,
+      "location": "Not announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-16",
+      "name": "CAIP: International Conference on Computer Analysis of Images and Patterns",
+      "shortName": "CAIP",
+      "organizer": "CAIP",
+      "rating": "A",
+      "trackIds": [
+        "T1"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        }
+      ],
+      "officialUrl": "https://caip2025.com/",
+      "nextDateText": "Not announced",
+      "startDate": null,
+      "endDate": null,
+      "yearHint": null,
+      "location": "Not announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-17",
+      "name": "AAAI : AAAI Conference on Artificial Intelligence",
+      "shortName": "AAAI",
+      "organizer": "AAAI",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T2"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        }
+      ],
+      "officialUrl": "https://aaai.org/conference/aaai/aaai-27/",
+      "nextDateText": "16–23 Feb 2027",
+      "startDate": "2027-02-16",
+      "endDate": "2027-02-23",
+      "yearHint": 2027,
+      "location": "Montréal, Canada",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-18",
+      "name": "IJCAI : International Joint Conference on Artificial Intelligence",
+      "shortName": "IJCAI",
+      "organizer": "IJCAI",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T2"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        }
+      ],
+      "officialUrl": "https://2027.ijcai.org/",
+      "nextDateText": "7–13 Aug 2027",
+      "startDate": "2027-08-07",
+      "endDate": "2027-08-13",
+      "yearHint": 2027,
+      "location": "Kyoto, Japan",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-19",
+      "name": "ICML : International Conference on Machine Learning",
+      "shortName": "ICML",
+      "organizer": "International Conference on Machine Learning (ICML)",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T2"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        }
+      ],
+      "officialUrl": "https://icml.cc/Conferences/FutureMeetings",
+      "nextDateText": "Not announced (2027)",
+      "startDate": null,
+      "endDate": null,
+      "yearHint": 2027,
+      "location": "South America (city/country not announced)",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-20",
+      "name": "NIPS : Neural Information Processing Systems (NIPS)",
+      "shortName": "NeurIPS",
+      "organizer": "NIPS",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T2"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        }
+      ],
+      "officialUrl": "https://neurips.cc/Conferences/2026",
+      "nextDateText": "6–12 Dec 2026",
+      "startDate": "2026-12-06",
+      "endDate": "2026-12-12",
+      "yearHint": 2026,
+      "location": "Sydney, Australia",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-21",
+      "name": "AISTATS : International Conference on Artificial Intelligence and Statistics",
+      "shortName": "AISTATS",
+      "organizer": "AISTATS",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T2"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        }
+      ],
+      "officialUrl": "https://virtual.aistats.org/Conferences/2027",
+      "nextDateText": "3–6 May 2027",
+      "startDate": "2027-05-03",
+      "endDate": "2027-05-06",
+      "yearHint": 2027,
+      "location": "Montréal, Canada",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-22",
+      "name": "IEEE Symposium on Security and Privacy (S&P)",
+      "shortName": "IEEE S&P",
+      "organizer": "IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://sp2027.ieee-security.org/",
+      "nextDateText": "17–20 May 2027",
+      "startDate": "2027-05-17",
+      "endDate": "2027-05-20",
+      "yearHint": 2027,
+      "location": "Montréal, Canada",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-23",
+      "name": "ACM Conference on Computer and Communication Security (CCS)",
+      "shortName": "CCS",
+      "organizer": "ACM Special Interest Group on Security, Audit and Control (SIGSAC)",
+      "rating": "A*",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://www.sigsac.org/ccs/CCS2027/",
+      "nextDateText": "11–15 Oct 2027",
+      "startDate": "2027-10-11",
+      "endDate": "2027-10-15",
+      "yearHint": 2027,
+      "location": "Atlanta, Georgia, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-24",
+      "name": "The Network and Distributed System Security Symposium (NDSS)",
+      "shortName": "NDSS",
+      "organizer": "Internet Society (ISOC)",
+      "rating": "A*",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://www.ndss-symposium.org/ndss2027/",
+      "nextDateText": "22–26 Mar 2027",
+      "startDate": "2027-03-22",
+      "endDate": "2027-03-26",
+      "yearHint": 2027,
+      "location": "Seoul, Republic of Korea",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-25",
+      "name": "USENIX Security Symposium",
+      "shortName": "USENIX",
+      "organizer": "USENIX - The Advanced Computing Systems Association",
+      "rating": "A*",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://www.usenix.org/conference/usenixsecurity27",
+      "nextDateText": "11–13 Aug 2027",
+      "startDate": "2027-08-11",
+      "endDate": "2027-08-13",
+      "yearHint": 2027,
+      "location": "Denver, Colorado, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-26",
+      "name": "ACSAC : Computer Security Applications Conference",
+      "shortName": "ACSAC",
+      "organizer": "ACSA",
+      "rating": "A*",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://www.acsac.org/2026/",
+      "nextDateText": "7–11 Dec 2026",
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-11",
+      "yearHint": 2026,
+      "location": "Los Angeles, California, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-27",
+      "name": "CSF : IEEE Computer Security Foundations Symposium",
+      "shortName": "CSF",
+      "organizer": "IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://csf2027.ieee-security.org/",
+      "nextDateText": "13–17 Sep 2027",
+      "startDate": "2027-09-13",
+      "endDate": "2027-09-17",
+      "yearHint": 2027,
+      "location": "Tokyo, Japan",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-28",
+      "name": "DSN : IEEE/IFIP International Conference on Dependable Systems and Networks",
+      "shortName": "DSN",
+      "organizer": "IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://dsn2027-berlin.github.io/",
+      "nextDateText": "22–25 Jun 2027",
+      "startDate": "2027-06-22",
+      "endDate": "2027-06-25",
+      "yearHint": 2027,
+      "location": "Berlin, Germany",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-29",
+      "name": "IEEE/IFIP International Symposium on Trusted Computing and Communications",
+      "shortName": "IEEE TCC",
+      "organizer": "IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://ieeexplore.ieee.org/xpl/conhome/1800729/all-proceedings",
+      "nextDateText": "Not announced",
+      "startDate": null,
+      "endDate": null,
+      "yearHint": null,
+      "location": "Not announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-30",
+      "name": "ACNS: International Conference on Applied Cryptography and Network Security",
+      "shortName": "ACNS",
+      "organizer": "ACNS",
+      "rating": "A",
+      "trackIds": [
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://acns2027.isg.rhul.ac.uk/",
+      "nextDateText": "28 Jun–1 Jul 2027",
+      "startDate": "2027-06-28",
+      "endDate": "2027-07-01",
+      "yearHint": 2027,
+      "location": "Egham, United Kingdom",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-31",
+      "name": "CANS: International Conference on Cryptology and Network Security",
+      "shortName": "CANS",
+      "organizer": "CANS",
+      "rating": "A*",
+      "trackIds": [
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://uow-ic2.github.io/cans2026/",
+      "nextDateText": "23–25 Nov 2026",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-25",
+      "yearHint": 2026,
+      "location": "Wollongong, Australia",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-32",
+      "name": "International Cryptology Conference (CRYPTO)",
+      "shortName": "CRYPTO",
+      "organizer": "International Association for Cryptologic Research (IACR)",
+      "rating": "A*",
+      "trackIds": [
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://crypto.iacr.org/2027/",
+      "nextDateText": "Not announced (2027)",
+      "startDate": null,
+      "endDate": null,
+      "yearHint": 2027,
+      "location": "Santa Barbara, California, USA",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-33",
+      "name": "ASIACRYPT : International Conference on The Theory and Application of Cryptology and Information Security",
+      "shortName": "ASIACRYPT",
+      "organizer": "IACR",
+      "rating": "A*",
+      "trackIds": [
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://asiacrypt.iacr.org/2026/",
+      "nextDateText": "7–11 Dec 2026",
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-11",
+      "yearHint": 2026,
+      "location": "Hong Kong, China",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-34",
+      "name": "International Conference on Theory and Applications of Cryptographic Techniques",
+      "shortName": "EUROCRYPT",
+      "organizer": "IACR",
+      "rating": "A*",
+      "trackIds": [
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://eurocrypt.iacr.org/2027/",
+      "nextDateText": "11–15 Apr 2027",
+      "startDate": "2027-04-11",
+      "endDate": "2027-04-15",
+      "yearHint": 2027,
+      "location": "Eindhoven, The Netherlands",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-35",
+      "name": "TCC : Theory of Cryptography Conference (TCC)",
+      "shortName": "TCC",
+      "organizer": "IACR",
+      "rating": "A*",
+      "trackIds": [
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://iacr.org/workshops/tcc/",
+      "nextDateText": "Not announced",
+      "startDate": null,
+      "endDate": null,
+      "yearHint": null,
+      "location": "Not announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-36",
+      "name": "IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+      "shortName": "HOST",
+      "organizer": "IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://host.conferences.computer.org/2027/",
+      "nextDateText": "3–6 May 2027",
+      "startDate": "2027-05-03",
+      "endDate": "2027-05-06",
+      "yearHint": 2027,
+      "location": "Washington, DC, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-37",
+      "name": "ACM Conference on Embedded Software",
+      "shortName": "EMSOFT",
+      "organizer": "ACM",
+      "rating": "A*",
+      "trackIds": [
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://esweek.hosting2.acm.org/emsoft/",
+      "nextDateText": "Not announced",
+      "startDate": null,
+      "endDate": null,
+      "yearHint": null,
+      "location": "Not announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-38",
+      "name": "ACM Conference on Embedded Networked Sensor Systems (SENSYS)",
+      "shortName": "SenSys",
+      "organizer": "ACM",
+      "rating": "A*",
+      "trackIds": [
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://sensys.acm.org/2027/",
+      "nextDateText": "17–20 May 2027",
+      "startDate": "2027-05-17",
+      "endDate": "2027-05-20",
+      "yearHint": 2027,
+      "location": "Boulder, Colorado, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-39",
+      "name": "IEEE World Forum on Internet of Things (WF-IoT)",
+      "shortName": "WF-IoT",
+      "organizer": "IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://www.comsoc.org/conferences-events/ieee-world-forum-internet-things-2026",
+      "nextDateText": "26–29 Oct 2026",
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-29",
+      "yearHint": 2026,
+      "location": "Abu Dhabi, United Arab Emirates",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-40",
+      "name": "IEEE IoT Summit",
+      "shortName": "IoT Summit",
+      "organizer": "IEEE ComSoC",
+      "rating": "A*",
+      "trackIds": [
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://www.radiowirelessweek.org/conferences/iot-summit/",
+      "nextDateText": "19–20 Jan 2027",
+      "startDate": "2027-01-19",
+      "endDate": "2027-01-20",
+      "yearHint": 2027,
+      "location": "Tampa, Florida, USA",
+      "dateStatus": "scheduled"
+    }
+  ]
+}

@@ -20,6 +20,11 @@ content:
         type: file
         path: publications.html
         format: code
+      - name: conferencesPage
+        label: Conference calendar
+        type: file
+        path: conferences/index.html
+        format: code
       - name: experienceTeaching
         label: Experience and Teaching
         type: file
@@ -54,6 +59,11 @@ content:
         label: Publication data
         type: file
         path: publications.js
+        format: code
+      - name: conferenceData
+        label: Conference data
+        type: file
+        path: data/flagship-conferences.json
         format: code
 
 settings:

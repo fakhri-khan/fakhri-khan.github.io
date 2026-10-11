@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore flagship conferences related to BASMIR Lab research tracks and plan around upcoming conference dates.">
+  <meta name="theme-color" content="#0d2b45">
+  <title>Conference Calendar | Dr. Fakhri Alam Khan</title>
+  <link rel="stylesheet" href="/styles.css?v=20261009s">
+  <link rel="stylesheet" href="/conference-calendar.css?v=20261012a">
+</head>
+<body class="conference-page">
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="https://fakhri.online" aria-label="Dr. Fakhri Alam Khan home"><span class="brand-mark">Home</span><span>Dr. Fakhri Alam Khan</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">Menu</button>
+      <div class="nav-links" id="main-menu">
+        <a href="/basmir/">BASMIR Lab</a>
+        <a href="/projects/">Projects</a>
+        <a href="/publications/">Publications</a>
+        <a href="/researchpulse/">Research Pulse</a>
+        <a class="is-active" href="/conferences/">Conferences</a>
+        <a href="/experience/">Experience &amp; Teaching</a>
+        <a href="/awards/">Awards &amp; Advisory</a>
+        <a href="/contact/">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero-dark conference-hero">
+      <div class="container">
+        <div class="page-hero-layout">
+          <div class="page-hero-copy">
+            <p class="eyebrow eyebrow-light">Plan ahead</p>
+            <h1>Flagship Conference Calendar</h1>
+            <p class="page-lede">Find conferences connected to BASMIR Lab’s five research tracks and plan your year ahead.</p>
+          </div>
+          <a class="hero-kfupm-logo-link" href="https://www.kfupm.edu.sa" target="_blank" rel="noreferrer" aria-label="Visit KFUPM website">
+            <img src="/kfupm-logo-white.webp?v=20261009a" width="900" height="285" decoding="async" alt="KFUPM logo, King Fahd University of Petroleum and Minerals">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-signal-strip" aria-label="Conference calendar summary">
+      <div class="container page-signal-grid conference-signal-grid">
+        <div><strong id="conference-total">40</strong><span>Conferences</span></div>
+        <div><strong id="conference-track-total">05</strong><span>Research tracks</span></div>
+        <div><strong id="conference-dated-total">30</strong><span>Dates announced</span></div>
+        <div><strong id="conference-pending-total">10</strong><span>Dates to confirm</span></div>
+      </div>
+    </section>
+
+    <section class="section container conference-section" aria-labelledby="conference-heading">
+      <div class="conference-intro">
+        <div>
+          <p class="eyebrow">BASMIR conference planner</p>
+          <h2 id="conference-heading">Map the year ahead.</h2>
+        </div>
+        <p class="conference-source-note">Dates and venues reflect the supplied conference list. Check each official site for updates and submission deadlines.</p>
+      </div>
+
+      <div class="conference-controls" aria-label="Conference filters">
+        <label class="conference-search">
+          <span>Search conferences</span>
+          <input id="conference-search" type="search" placeholder="Search name, organizer, or location">
+        </label>
+        <label>
+          <span>Year</span>
+          <select id="conference-year">
+            <option value="all">All years</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2031">2031</option>
+            <option value="pending">Dates pending</option>
+          </select>
+        </label>
+        <label>
+          <span>DR rating</span>
+          <select id="conference-rating">
+            <option value="all">All ratings</option>
+            <option value="A*">A*</option>
+            <option value="A">A</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="conference-track-filter-wrap">
+        <span class="conference-filter-label">Research track</span>
+        <div class="conference-track-filters" id="conference-track-filters" role="group" aria-label="Filter by research track"></div>
+      </div>
+
+      <div class="conference-toolbar">
+        <p class="conference-result-count" id="conference-result-count" aria-live="polite">Loading conference list…</p>
+        <div class="conference-view-switch" role="group" aria-label="Choose calendar view">
+          <button type="button" data-view="calendar" aria-pressed="true">Calendar</button>
+          <button type="button" data-view="agenda" aria-pressed="false">Agenda</button>
+        </div>
+      </div>
+
+      <div class="conference-main-grid">
+        <section class="conference-calendar-panel" id="conference-calendar-view" aria-label="Monthly conference calendar">
+          <div class="conference-month-heading">
+            <button class="conference-month-button" id="conference-previous-month" type="button" aria-label="Previous month">‹</button>
+            <h2 id="conference-month-title">October 2026</h2>
+            <button class="conference-month-button" id="conference-next-month" type="button" aria-label="Next month">›</button>
+          </div>
+          <div class="conference-weekdays" aria-hidden="true">
+            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+          </div>
+          <div class="conference-calendar-grid" id="conference-calendar-grid" role="grid" aria-label="Conference dates"></div>
+          <p class="conference-calendar-hint">Conference bars span the event dates. Select a name for details.</p>
+        </section>
+
+        <section class="conference-agenda-panel" id="conference-agenda-view" aria-labelledby="conference-agenda-heading" hidden>
+          <div class="conference-panel-heading">
+            <p class="eyebrow">All matching events</p>
+            <h2 id="conference-agenda-heading">Conference agenda</h2>
+          </div>
+          <div id="conference-agenda-list" class="conference-agenda-list"></div>
+        </section>
+
+        <aside class="conference-side-stack">
+          <section class="conference-panel" aria-labelledby="conference-upcoming-heading">
+            <div class="conference-panel-heading">
+              <p class="eyebrow">Plan next</p>
+              <h2 id="conference-upcoming-heading">Coming up</h2>
+            </div>
+            <div id="conference-upcoming-list" class="conference-compact-list"></div>
+          </section>
+          <section class="conference-panel conference-planning-note">
+            <p class="eyebrow">Planning note</p>
+            <h2>Check the call for papers.</h2>
+            <p>The list shows conference dates, not submission deadlines. Open the official conference site to check CFP, registration, and travel dates.</p>
+          </section>
+        </aside>
+      </div>
+
+      <section class="conference-lower-grid" aria-label="Conference planning details">
+        <section class="conference-panel conference-track-panel" aria-labelledby="conference-coverage-heading">
+          <div class="conference-panel-heading">
+            <p class="eyebrow">Research alignment</p>
+            <h2 id="conference-coverage-heading">Track coverage</h2>
+            <p>Counts show conference matches. Some conferences match more than one BASMIR track.</p>
+          </div>
+          <div id="conference-track-coverage" class="conference-track-coverage"></div>
+        </section>
+        <section class="conference-panel conference-pending-panel" aria-labelledby="conference-pending-heading">
+          <div class="conference-panel-heading">
+            <p class="eyebrow">Keep an eye on</p>
+            <h2 id="conference-pending-heading">Dates to confirm</h2>
+          </div>
+          <div id="conference-pending-list" class="conference-pending-list"></div>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <dialog class="conference-dialog" id="conference-dialog" aria-labelledby="conference-dialog-title">
+    <form method="dialog">
+      <button class="conference-dialog-close" type="submit" aria-label="Close conference details">×</button>
+    </form>
+    <p class="eyebrow">Conference details</p>
+    <h2 id="conference-dialog-title"></h2>
+    <dl class="conference-detail-list">
+      <div><dt>Dates</dt><dd id="conference-dialog-dates"></dd></div>
+      <div><dt>Location</dt><dd id="conference-dialog-location"></dd></div>
+      <div><dt>Organizing body</dt><dd id="conference-dialog-organizer"></dd></div>
+      <div><dt>DR rating</dt><dd id="conference-dialog-rating"></dd></div>
+      <div><dt>Research tracks</dt><dd id="conference-dialog-tracks" class="conference-dialog-tracks"></dd></div>
+    </dl>
+    <a class="button button-primary conference-dialog-link" id="conference-dialog-link" href="#" target="_blank" rel="noreferrer">Official conference site</a>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>© <span id="year"></span> Dr. Fakhri Alam Khan</span><a class="back-to-top" href="#top">Back to top ↑</a></div>
+  </footer>
+  <script src="/script.js?v=20261010a"></script>
+  <script src="/conference-calendar.js?v=20261012a"></script>
+</body>
+</html>
