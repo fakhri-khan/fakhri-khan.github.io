@@ -12,6 +12,7 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+import xml.etree.ElementTree as ET
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +22,7 @@ RIYADH = ZoneInfo("Asia/Riyadh")
 USER_AGENT = "fakhri-khan.github.io daily research updater/1.0"
 FIELDS = ("summary", "contribution", "methods", "relevance", "limitations")
 CROSSREF_SUCCESSES = 0
+ARXIV_SUCCESSES = 0
 
 def log(message: str) -> None:
     print(f"[daily-papers] {message}")
@@ -59,6 +61,36 @@ def request_json(url: str, method: str = "GET", payload: dict[str, Any] | None =
             log(f"request failed after retries: {url.split('?')[0]} ({error})")
             return None
     return None
+def request_text(url: str) -> str | None:
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/atom+xml, application/xml"}
+    for attempt in range(3):
+        try:
+            request = Request(url, headers=headers, method="GET")
+            with urlopen(request, timeout=45) as response:
+                return response.read().decode("utf-8")
+        except HTTPError as error:
+            retryable = error.code == 429 or 500 <= error.code < 600
+            if retryable and attempt < 2:
+                try:
+                    delay = int(error.headers.get("Retry-After", "3")) if error.code == 429 else 3 * (attempt + 1)
+                except (TypeError, ValueError):
+                    delay = 3
+                delay = min(max(delay, 3), 15)
+                log(f"arXiv HTTP {error.code}, retrying in {delay}s")
+                time.sleep(delay)
+                continue
+            log(f"arXiv request failed: {error}")
+            return None
+        except (URLError, TimeoutError, UnicodeDecodeError) as error:
+            if attempt < 2:
+                delay = 3 * (attempt + 1)
+                log(f"temporary arXiv request failure, retrying in {delay}s ({error})")
+                time.sleep(delay)
+                continue
+            log(f"arXiv request failed after retries: {error}")
+            return None
+    return None
+
 def text_value(value: Any) -> str:
     if value is None:
         return ""
@@ -91,7 +123,10 @@ def in_window(value: str, start: date, end: date) -> bool:
 
 def key_for(paper: dict[str, Any]) -> str:
     doi = clean_doi(paper.get("doi"))
-    return f"doi:{doi.lower()}" if doi else f"title:{normalized(text_value(paper.get('title')))}"
+    if doi:
+        return f"doi:{doi.lower()}"
+    arxiv_id = text_value(paper.get("arxivId")).strip()
+    return f"arxiv:{arxiv_id.lower()}" if arxiv_id else f"title:{normalized(text_value(paper.get('title')))}"
 
 def authors(item: dict[str, Any]) -> list[str]:
     names = []
@@ -135,6 +170,66 @@ def fetch_venue(venue: dict[str, Any], start: date, end: date) -> list[dict[str,
         if not doi:
             continue
         papers.append({"key": f"doi:{doi.lower()}", "title": title, "abstract": strip_markup(item.get("abstract")), "authors": authors(item), "doi": doi, "url": item.get("URL") or f"https://doi.org/{doi}", "venue": venue["name"], "venueId": venue["id"], "publishedDate": published, "source": "Crossref", "trackIds": venue["tracks"]})
+    return papers
+
+def fetch_arxiv(venue: dict[str, Any], start: date, end: date, tracks: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Fetch recent arXiv records from the official Atom API and map them to research tracks."""
+    global ARXIV_SUCCESSES
+    categories = venue.get("categories", [])
+    if not categories:
+        log("arXiv source has no subject categories configured")
+        return []
+    category_query = " OR ".join(f"cat:{category}" for category in categories)
+    date_query = f"submittedDate:[{start:%Y%m%d}0000 TO {end:%Y%m%d}2359]"
+    search_query = f"({category_query}) AND {date_query}"
+    papers: list[dict[str, Any]] = []
+    page_size = 1000
+    for offset in range(0, 10000, page_size):
+        params = {"search_query": search_query, "start": offset, "max_results": page_size, "sortBy": "submittedDate", "sortOrder": "descending"}
+        feed = request_text(f"https://export.arxiv.org/api/query?{urlencode(params)}")
+        if feed is None:
+            return papers
+        try:
+            root = ET.fromstring(feed)
+        except ET.ParseError as error:
+            log(f"arXiv returned invalid Atom XML ({error})")
+            return papers
+        if offset == 0:
+            ARXIV_SUCCESSES += 1
+        atom = "{http://www.w3.org/2005/Atom}"
+        arxiv_ns = "{http://arxiv.org/schemas/atom}"
+        opensearch = "{http://a9.com/-/spec/opensearch/1.1/}"
+        entries = root.findall(f"{atom}entry")
+        try:
+            total = int(root.findtext(f"{opensearch}totalResults", "0"))
+        except ValueError:
+            total = 0
+        for entry in entries:
+            title = strip_markup(entry.findtext(f"{atom}title", ""))
+            abstract = strip_markup(entry.findtext(f"{atom}summary", ""))
+            identifier = entry.findtext(f"{atom}id", "")
+            match = re.search(r"arxiv\.org/abs/([^?#]+)", identifier, re.I)
+            arxiv_id = re.sub(r"v\d+$", "", match.group(1)) if match else ""
+            published = entry.findtext(f"{atom}published", "")[:10]
+            if not title or not arxiv_id or not in_window(published, start, end):
+                continue
+            paper_doi = clean_doi(entry.findtext(f"{arxiv_ns}doi", ""))
+            paper = {
+                "key": f"doi:{paper_doi.lower()}" if paper_doi else f"arxiv:{arxiv_id.lower()}",
+                "title": title, "abstract": abstract,
+                "authors": [name.text or "" for name in entry.findall(f"{atom}author/{atom}name") if name.text],
+                "doi": paper_doi, "arxivId": arxiv_id,
+                "url": f"https://arxiv.org/abs/{arxiv_id}",
+                "venue": venue.get("name", "arXiv") + " preprint", "venueId": venue["id"],
+                "publishedDate": published, "source": "arXiv", "trackIds": [],
+            }
+            paper["trackIds"] = [track["id"] for track in tracks if eligible_for_track(paper, track)]
+            if paper["trackIds"]:
+                papers.append(paper)
+        if not entries or offset + len(entries) >= total or offset + len(entries) >= 10000:
+            break
+        # arXiv asks API clients to leave at least three seconds between requests.
+        time.sleep(3.1)
     return papers
 
 def unique(papers: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -256,10 +351,13 @@ def main() -> int:
     all_papers: list[dict[str, Any]] = []
     for index, venue in enumerate(venues, 1):
         log(f"checking {index}/{len(venues)} {venue['name']}")
-        all_papers.extend(fetch_venue(venue, start, edition))
-        time.sleep(0.15)
-    if CROSSREF_SUCCESSES == 0:
-        raise SystemExit("Crossref requests failed for every venue; the existing archive was left unchanged")
+        if venue.get("source") == "arxiv":
+            all_papers.extend(fetch_arxiv(venue, start, edition, tracks))
+        else:
+            all_papers.extend(fetch_venue(venue, start, edition))
+            time.sleep(0.15)
+    if CROSSREF_SUCCESSES == 0 and ARXIV_SUCCESSES == 0:
+        raise SystemExit("All Crossref and arXiv requests failed; the existing archive was left unchanged")
     candidates = [paper for paper in unique(all_papers) if paper["key"] not in seen]
     chosen = select_for_tracks(candidates, tracks)
     log(f"found {len(candidates)} never-archived candidates and selected {len(chosen)} papers")
@@ -271,7 +369,11 @@ def main() -> int:
     new_papers = []
     for paper in chosen:
         summary = summarize(paper)
-        new_papers.append({key: paper[key] for key in ("trackId", "trackName", "title", "authors", "venue", "venueId", "publishedDate", "doi", "url", "source")} | summary)
+        record = {key: paper[key] for key in ("trackId", "trackName", "title", "authors", "venue", "venueId", "publishedDate", "url", "source") if key in paper}
+        for optional_key in ("doi", "arxivId"):
+            if paper.get(optional_key):
+                record[optional_key] = paper[optional_key]
+        new_papers.append(record | summary)
     day = next((item for item in archive["days"] if item.get("date") == edition.isoformat()), None)
     if day is None:
         archive["days"].append({"date": edition.isoformat(), "generatedAt": now.isoformat(), "papers": new_papers})

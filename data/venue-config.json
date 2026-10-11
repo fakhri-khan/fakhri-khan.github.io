@@ -483,6 +483,34 @@
       "tracks": [
         "pqc-embedded"
       ]
+    },
+    {
+      "id": "P01",
+      "name": "arXiv",
+      "type": "preprint repository",
+      "source": "arxiv",
+      "tracks": [
+        "medical-imaging",
+        "trustworthy-ai",
+        "secure-healthcare",
+        "pqc-embedded",
+        "retinal-ai"
+      ],
+      "categories": [
+        "cs.CV",
+        "eess.IV",
+        "q-bio.QM",
+        "cs.AI",
+        "cs.LG",
+        "stat.ML",
+        "cs.CR",
+        "cs.CY",
+        "cs.SE",
+        "cs.IT",
+        "cs.AR",
+        "eess.SP",
+        "q-bio.TO"
+      ]
     }
   ]
 }

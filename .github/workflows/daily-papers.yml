@@ -73,9 +73,9 @@ jobs:
                   raise SystemExit("invalid daily edition")
               counts = {}
               for paper in day["papers"]:
-                  if not paper.get("title") or not paper.get("doi") or not paper.get("trackId"):
-                      raise SystemExit("paper is missing a title, DOI, or track")
-                  key = paper["doi"].lower().strip()
+                  if not paper.get("title") or not (paper.get("doi") or paper.get("arxivId")) or not paper.get("trackId"):
+                      raise SystemExit("paper is missing a title, DOI/arXiv ID, or track")
+                  key = ("doi:" + paper["doi"].lower().strip()) if paper.get("doi") else ("arxiv:" + paper["arxivId"].lower().strip())
                   if key in seen:
                       raise SystemExit("duplicate DOI in archive")
                   seen.add(key)
