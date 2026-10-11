@@ -25,6 +25,243 @@
   ],
   "days": [
     {
+      "date": "2026-10-12",
+      "generatedAt": "2026-10-12T00:34:36.227095+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "MedCORE: Criteria-Grounded Clinical Reasoning for Interpretable Medical Image Diagnosis",
+          "authors": [
+            "Asim Khan",
+            "Samee Ullah Khan",
+            "Dwarikanath Mahapatra"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-06",
+          "url": "https://arxiv.org/abs/2610.08528",
+          "source": "arXiv",
+          "arxivId": "2610.08528",
+          "summary": "Clinical diagnosis is inherently a structured reasoning process, yet existing deep learning models often bypass this structure by mapping image features directly to disease labels without explicitly interrogating the morphological and textural criteria that clinicians systematically evaluate. This limits diagnostic transparency and may compromise safe clinical deployment. We present MedCORE (Medical Criteria-Oriented Reasoning and Evidence), a structured diagnostic framework that operationalizes clinical reasoning within a vision-language architecture. For each input image, MedCORE decomposes the diagnostic process into clinically defined criteria, spatially localizes each criterion to diagnostically relevant image regions, encodes evidence through multi-scale representations that capture macro-structural and micro-textural pathological characteristics, and refines criterion representations using a Graph Attention Network that explicitly models inter-criteria dependencies. Criterion representations are further aligned with clinical text descriptors, reinforced through class-wise visual prototypes, and aggregated using uncertainty-calibrated weighting that proportionally discounts low-confidence diagnostic evidence. MedCORE is validated across three clinically heterogeneous imaging modalities, including dermoscopic lesion classification on ISIC 2018, breast ultrasound lesion characterization on BUSI, and diabetic retinopathy grading on IDRiD. Quantitatively, MedCORE achieves 89.2% accuracy, 85.7% macro-F1, and 96.4% AUC on ISIC 2018; 96.1% accuracy, 95.2% macro-F1, and 98.4% AUC on BUSI; and 84.3% accuracy, 80.2% macro-F1, and 92.8% AUC on IDRiD. These results demonstrate consistent improvements over strong CNN, transformer, biomedical vision-language, concept-based, and prototype-based baselines.",
+          "contribution": "Clinical diagnosis is inherently a structured reasoning process, yet existing deep learning models often bypass this structure by mapping image features directly to disease labels without explicitly interrogating the morphological and textural criteria that clinicians systematically evaluate. This limits diagnostic transparency and may compromise safe clinical deployment. We present MedCORE (Medical Criteria-Oriented Reasoning and Evidence), a structured diagnostic framework that operationalizes clinical reasoning within a vision-language architecture. For each input image, MedCORE decomposes the diagnostic process into clinically defined criteria, spatially localizes each criterion to diagnostically relevant image regions, encodes evidence through multi-scale representations that capture macro-structural and micro-textural pathological characteristics, and refines criterion representations using a Graph Attention Network that explicitly models inter-criteria dependencies. Criterion representations are further aligned with clinical text descriptors, reinforced through class-wise visual prototypes, and aggregated using uncertainty-calibrated weighting that proportionally discounts low-confidence diagnostic evidence. MedCORE is validated across three clinically heterogeneous imaging modalities, including dermoscopic lesion classification on ISIC 2018, breast ultrasound lesion characterization on BUSI, and diabetic retinopathy grading on IDRiD. Quantitatively, MedCORE achieves 89.2% accuracy, 85.7% macro-F1, and 96.4% AUC on ISIC 2018; 96.1% accuracy, 95.2% macro-F1, and 98.4% AUC on BUSI; and 84.3% accuracy, 80.2% macro-F1, and 92.8% AUC on IDRiD. These results demonstrate consistent improvements over strong CNN, transformer, biomedical vision-language, concept-based, and prototype-based baselines.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "A Zero-Knowledge Signature Framework for Efficient Post-Quantum Message Authentication in Cooperative Automated Driving",
+          "authors": [
+            "Takahito Yoshizawa",
+            "Aysajan Abidin",
+            "Edoardo Pena-Gonzalez",
+            "Bart Preneel"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-08",
+          "url": "https://arxiv.org/abs/2610.11490",
+          "source": "arXiv",
+          "arxivId": "2610.11490",
+          "summary": "Connected and Automated Vehicles (CAV) rely on authenticated Vehicle-to-Everything (V2X) communications to exchange safety-critical information among vehicles and roadside infrastructure. As the automotive industry transitions toward post-quantum cryptography (PQC), the significantly larger public keys and signatures of standardized PQC digital signature algorithms introduce substantial communication overhead, which challenges the scalability of certificate-based V2X authentication, particularly for high-frequency cooperative awareness messages (CAM). This paper presents ZKS-PQC, a zero-knowledge signature framework that enables communication-efficient post-quantum message authentication for cooperative V2X systems. Instead of transmitting complete post-quantum public keys and signatures, the proposed framework replaces this authentication material with a compact Zero-Knowledge Proof (ZKP) while preserving compatibility with existing certificate-based trust architectures. This approach supports incremental migration and backward compatibility with the legacy ECDSA. The framework is implemented using the Open Quantum Safe (liboqs) and ZKP (Bulletproofs) libraries, and we evaluated the performance of standardized NIST PQC signature algorithms and additional candidate algorithms. Experimental validation on both a Linux platform and a commercial On-Board Unit (OBU) demonstrates substantial reductions in message size exceeding 95% for all algorithms, while limiting additional processing overhead by staying within the order of milliseconds at both sender and receiver in many algorithms, consistent with the latency requirements of real-time V2X operation. By decoupling communication overhead from the size characteristics of post-quantum signature algorithms, ZKS-PQC offers a practical migration strategy for scalable, quantum-resilient message authentication in future CAV systems.",
+          "contribution": "Connected and Automated Vehicles (CAV) rely on authenticated Vehicle-to-Everything (V2X) communications to exchange safety-critical information among vehicles and roadside infrastructure. As the automotive industry transitions toward post-quantum cryptography (PQC), the significantly larger public keys and signatures of standardized PQC digital signature algorithms introduce substantial communication overhead, which challenges the scalability of certificate-based V2X authentication, particularly for high-frequency cooperative awareness messages (CAM). This paper presents ZKS-PQC, a zero-knowledge signature framework that enables communication-efficient post-quantum message authentication for cooperative V2X systems. Instead of transmitting complete post-quantum public keys and signatures, the proposed framework replaces this authentication material with a compact Zero-Knowledge Proof (ZKP) while preserving compatibility with existing certificate-based trust architectures. This approach supports incremental migration and backward compatibility with the legacy ECDSA. The framework is implemented using the Open Quantum Safe (liboqs) and ZKP (Bulletproofs) libraries, and we evaluated the performance of standardized NIST PQC signature algorithms and additional candidate algorithms. Experimental validation on both a Linux platform and a commercial On-Board Unit (OBU) demonstrates substantial reductions in message size exceeding 95% for all algorithms, while limiting additional processing overhead by staying within the order of milliseconds at both sender and receiver in many algorithms, consistent with the latency requirements of real-time V2X operation. By decoupling communication overhead from the size characteristics of post-quantum signature algorithms, ZKS-PQC offers a practical migration strategy for scalable, quantum-resilient message authentication in future CAV systems.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "A Deployment-Aware Feasibility Framework for Machine Learning-Based IoT Intrusion Detection Across Edge, Fog, and Cloud Architectures",
+          "authors": [
+            "Shaker Nawasra",
+            "Munther Abualkibash"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-06",
+          "url": "https://arxiv.org/abs/2610.08867",
+          "source": "arXiv",
+          "doi": "10.1109/CSNT69054.2026.11502111",
+          "arxivId": "2610.08867",
+          "summary": "The rapid growth and heterogeneity of Internet of Things (IoT) environments have exposed fundamental limitations in traditional rule-based and signature-based intrusion detection systems. This paper presents a quantitative deployment-aware analysis of machine learning (ML)-based intrusion detection approaches across edge, fog/gateway, and cloud architectures. Unlike prior surveys that primarily emphasize detection accuracy, this work defines representative quantitative deployment capability envelopes extracted from experimental and system-level studies and introduces a structured Deployment Feasibility Score (DFS) model. The proposed framework maps ML techniques to architectural layers based on computational demand, memory footprint, and latency sensitivity using a weighted ordinal scoring mechanism. The analysis demonstrates that lightweight statistical and linear models are most suitable for edge deployment, ensemble and clustering-based methods align with fog/gateway environments, while deep and optimization-driven models are best suited for cloud infrastructures. By formalizing deployment feasibility through quantitative grounding and structured evaluation, this work provides practical guidance for selecting intrusion detection solutions under real-world architectural constraints, supporting more informed and deployment-conscious IoT security design.",
+          "contribution": "The rapid growth and heterogeneity of Internet of Things (IoT) environments have exposed fundamental limitations in traditional rule-based and signature-based intrusion detection systems. This paper presents a quantitative deployment-aware analysis of machine learning (ML)-based intrusion detection approaches across edge, fog/gateway, and cloud architectures. Unlike prior surveys that primarily emphasize detection accuracy, this work defines representative quantitative deployment capability envelopes extracted from experimental and system-level studies and introduces a structured Deployment Feasibility Score (DFS) model. The proposed framework maps ML techniques to architectural layers based on computational demand, memory footprint, and latency sensitivity using a weighted ordinal scoring mechanism. The analysis demonstrates that lightweight statistical and linear models are most suitable for edge deployment, ensemble and clustering-based methods align with fog/gateway environments, while deep and optimization-driven models are best suited for cloud infrastructures. By formalizing deployment feasibility through quantitative grounding and structured evaluation, this work provides practical guidance for selecting intrusion detection solutions under real-world architectural constraints, supporting more informed and deployment-conscious IoT security design.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "EIFL: Efficiently Protecting Global Model Privacy and Integrity Against an Untrusted Server in Federated Learning",
+          "authors": [
+            "Zehui Liao",
+            "Qiang Li",
+            "Binghui Wang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-08",
+          "url": "https://arxiv.org/abs/2610.11511",
+          "source": "arXiv",
+          "arxivId": "2610.11511",
+          "summary": "Federated learning (FL) typically adopts a server-client architecture, where the server aggregates clients' local models (i.e., the input) and returns the aggregated global model (i.e., the output) to clients. An untrusted server may return a tampered global model to compromise the output integrity. Some existing schemes focus on verifying the output integrity. However, these schemes mostly rely on clients pre-negotiating a set of identical auxiliary information among themselves and keeping it confidential from the server. This dependency creates a verification vulnerability: if the auxiliary information is leaked, the verification method may be circumvented. Additionally, in some privacy-sensitive scenarios (e.g., commercial federated learning), the global model may need to be kept confidential from an untrusted server. However, only a few works achieve the output privacy while addressing verification vulnerability, at the cost of prohibitive computation and communication overhead. To address these challenges simultaneously, we propose a novel provably privacy-preserving FL method called EIFL. Specifically, we adopt a two-stage aggregation and combine it with symmetric encryption to protect the output privacy. To address the verification vulnerability, we propose an efficient verification method based on vector inner product for output integrity, and a random vector generation method for clients to agree on auxiliary information. EIFL innovatively binds the auxiliary information to the output integrity, and eliminates the need to keep the auxiliary information confidential from the server. Moreover, EIFL is robust against client dropout during the verification phase through a simple resending operation. Evaluation results validate the advantages of EIFL over state-of-the-art schemes in terms of computation and communication overhead.",
+          "contribution": "Federated learning (FL) typically adopts a server-client architecture, where the server aggregates clients' local models (i.e., the input) and returns the aggregated global model (i.e., the output) to clients. An untrusted server may return a tampered global model to compromise the output integrity. Some existing schemes focus on verifying the output integrity. However, these schemes mostly rely on clients pre-negotiating a set of identical auxiliary information among themselves and keeping it confidential from the server. This dependency creates a verification vulnerability: if the auxiliary information is leaked, the verification method may be circumvented. Additionally, in some privacy-sensitive scenarios (e.g., commercial federated learning), the global model may need to be kept confidential from an untrusted server. However, only a few works achieve the output privacy while addressing verification vulnerability, at the cost of prohibitive computation and communication overhead. To address these challenges simultaneously, we propose a novel provably privacy-preserving FL method called EIFL. Specifically, we adopt a two-stage aggregation and combine it with symmetric encryption to protect the output privacy. To address the verification vulnerability, we propose an efficient verification method based on vector inner product for output integrity, and a random vector generation method for clients to agree on auxiliary information. EIFL innovatively binds the auxiliary information to the output integrity, and eliminates the need to keep the auxiliary information confidential from the server. Moreover, EIFL is robust against client dropout during the verification phase through a simple resending operation. Evaluation results validate the advantages of EIFL over state-of-the-art schemes in terms of computation and communication overhead.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Quantifying Volumetric Risk: Class-Aware Asymmetric Weighted Conformal Prediction for 3D Medical Image Segmentation",
+          "authors": [
+            "Shadi Alijani",
+            "Fereshteh Aghaee Meibodi",
+            "Homayoun Najjaran"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-07",
+          "url": "https://arxiv.org/abs/2610.09392",
+          "source": "arXiv",
+          "arxivId": "2610.09392",
+          "summary": "Reliable volumetric segmentation is critical for clinical diagnostics, yet foundation models such as MedSAM remain deterministic and lack calibrated uncertainty under distribution shift. Existing conformal prediction methods offer statistical guarantees but are frequently applied in 2D and assume symmetric error distributions, so they do not capture the class-specific biases that arise in 3D multi-class segmentation. We propose Class-Aware Asymmetric Weighted Conformal Prediction (CA-WCP), which combines latent-space density-ratio weighting for covariate shift with directional quantiles for the lower and upper volume bounds, and scales each bound by a class-specific asymmetry factor derived from validation-set false-positive and false-negative rates. We prove that CA-WCP retains the weighted-exchangeability marginal coverage guarantee for every class, and we evaluate it on 3D brain tumor segmentation (BraTS 2020) and on a synthetic multi-organ CT benchmark constructed under covariate shift. On both benchmarks the 95\\% Clopper--Pearson interval for the observed coverage of CA-WCP contains the nominal 90\\% level for every semantic class, while interval width is reduced by 8--14\\% relative to symmetric weighted conformal prediction. We further encode the calibrated intervals into structured prompts for a multimodal large language model to produce uncertainty-conditioned radiology reports, linking distribution-shift-aware uncertainty quantification to interpretable clinical communication.",
+          "contribution": "Reliable volumetric segmentation is critical for clinical diagnostics, yet foundation models such as MedSAM remain deterministic and lack calibrated uncertainty under distribution shift. Existing conformal prediction methods offer statistical guarantees but are frequently applied in 2D and assume symmetric error distributions, so they do not capture the class-specific biases that arise in 3D multi-class segmentation. We propose Class-Aware Asymmetric Weighted Conformal Prediction (CA-WCP), which combines latent-space density-ratio weighting for covariate shift with directional quantiles for the lower and upper volume bounds, and scales each bound by a class-specific asymmetry factor derived from validation-set false-positive and false-negative rates. We prove that CA-WCP retains the weighted-exchangeability marginal coverage guarantee for every class, and we evaluate it on 3D brain tumor segmentation (BraTS 2020) and on a synthetic multi-organ CT benchmark constructed under covariate shift. On both benchmarks the 95\\% Clopper--Pearson interval for the observed coverage of CA-WCP contains the nominal 90\\% level for every semantic class, while interval width is reduced by 8--14\\% relative to symmetric weighted conformal prediction. We further encode the calibrated intervals into structured prompts for a multimodal large language model to produce uncertainty-conditioned radiology reports, linking distribution-shift-aware uncertainty quantification to interpretable clinical communication.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "ReGraph: A Computational Account of Emergent Generalization in the \"what\" and \"where\" Dual Visual Streams",
+          "authors": [
+            "Hyewon Kang",
+            "Jungmin Lee",
+            "Ilgyu Lee",
+            "Seok-Jun Hong"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-06",
+          "url": "https://arxiv.org/abs/2610.07962",
+          "source": "arXiv",
+          "arxivId": "2610.07962",
+          "summary": "Where generalization capacity--the ability to extract context-invariant relational structures--first emerges remains a central question in AI and neuroscience. The foundation for this capacity lies upstream of the hippocampus, within the entorhinal cortex, where parallel pathways dissociate relational structure in the medial entorhinal cortex (MEC) from sensory content in the lateral entorhinal cortex. However, as Eichenbaum argued, such factorization likely originates earlier, driven by the segregation of the dorsal ('where') and ventral ('what') visual streams. Supporting this, grid-like firing patterns--a signature of MEC (context-invariant codes)--also appear in preceding neocortical regions along the dorsal pathway. Yet, how such representations are computationally formed along upstream pathways remains unknown. To investigate this in silico, we developed ReGraph, a recurrent dual-stream graph model with biological inductive biases, including retina-driven stream-specialized encoding, dorsal-to-ventral modulation, and dynamic lateral connectivity. Trained on the action benchmark Something-Something V2, ReGraph revealed a pathway-specific emergence of relational mapping: context-invariant codes and grid-like spatial bases uniquely co-emerged along the extended dorsal stream. In contrast, their absence in single-stream, unmodulated variants, and standard baselines implies that these inductive biases are prerequisites for relational structures. Crucially, our post-hoc analyses demonstrated that these grid-like bases serve as reusable routing templates for information processing via lateral connectivity. Together, our findings provide a computational account that generalization may not be a faculty that emerges abruptly within a dedicated region, but a property that already takes shape as sensory information is parsed into factorized streams of hierarchical visual processing.",
+          "contribution": "Where generalization capacity--the ability to extract context-invariant relational structures--first emerges remains a central question in AI and neuroscience. The foundation for this capacity lies upstream of the hippocampus, within the entorhinal cortex, where parallel pathways dissociate relational structure in the medial entorhinal cortex (MEC) from sensory content in the lateral entorhinal cortex. However, as Eichenbaum argued, such factorization likely originates earlier, driven by the segregation of the dorsal ('where') and ventral ('what') visual streams. Supporting this, grid-like firing patterns--a signature of MEC (context-invariant codes)--also appear in preceding neocortical regions along the dorsal pathway. Yet, how such representations are computationally formed along upstream pathways remains unknown. To investigate this in silico, we developed ReGraph, a recurrent dual-stream graph model with biological inductive biases, including retina-driven stream-specialized encoding, dorsal-to-ventral modulation, and dynamic lateral connectivity. Trained on the action benchmark Something-Something V2, ReGraph revealed a pathway-specific emergence of relational mapping: context-invariant codes and grid-like spatial bases uniquely co-emerged along the extended dorsal stream. In contrast, their absence in single-stream, unmodulated variants, and standard baselines implies that these inductive biases are prerequisites for relational structures. Crucially, our post-hoc analyses demonstrated that these grid-like bases serve as reusable routing templates for information processing via lateral connectivity. Together, our findings provide a computational account that generalization may not be a faculty that emerges abruptly within a dedicated region, but a property that already takes shape as sensory information is parsed into factorized streams of hierarchical visual processing.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Provable Subexponential Algorithms for NIST Third-Round Lattice Families",
+          "authors": [
+            "Yiming Gao",
+            "Xuyuan Han",
+            "Honggang Hu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-08",
+          "url": "https://arxiv.org/abs/2610.11254",
+          "source": "arXiv",
+          "arxivId": "2610.11254",
+          "summary": "We give provable classical subexponential algorithms for secret recovery in growing parameter families associated with NIST third-round lattice candidates. For the Kyber/ML-KEM, FrodoKEM, SABER, NTRU LPRime, and Dilithium/ML-DSA families studied here, polynomial moduli and polylogarithmic coefficient scales yield recovery of the short secret component in expected time and space $2^{(1/2+o(1))n/\\ln\\ln n}$.\n  For noisy or rounded linear relations, we exploit an exact gap in the squared Euclidean norm of a comparison vector defined by each coordinate guess. One Gaussian list suffices to identify every secret coordinate by binary search, without enumerating the others. We establish the required sampling guarantees through new geometric bounds for structured public operators over prime and power of two moduli. The construction builds on the Wagner-style Gaussian sampling framework of Ducas, Engelberts, and Loyer (CRYPTO 2025) and the low-error decision-LWE algorithm of Han, Gao, and Hu (2026).\n  For quotient relations of NTRU type, we develop an affine slice search: fixing coordinates restricts candidate pairs to slices of the public lattice, and their estimated Gaussian masses guide the choice of each next coordinate. In the stated modulus window, Falcon's key generation quality condition supplies the required mass bound. The algorithm then recovers an equivalent signing key with high probability in time and space $2^{O(n/\\ln\\ln n)}$. The same search recovers the short key core for cyclic NTRU-HPS/HRSS.\n  Together, these results give subexponential algorithms for problem families associated with all seven NIST third-round lattice candidates. Despite the subexponential complexity, our results do not establish a reduction in the concrete security of the currently specified parameter sets.",
+          "contribution": "We give provable classical subexponential algorithms for secret recovery in growing parameter families associated with NIST third-round lattice candidates. For the Kyber/ML-KEM, FrodoKEM, SABER, NTRU LPRime, and Dilithium/ML-DSA families studied here, polynomial moduli and polylogarithmic coefficient scales yield recovery of the short secret component in expected time and space $2^{(1/2+o(1))n/\\ln\\ln n}$.\n  For noisy or rounded linear relations, we exploit an exact gap in the squared Euclidean norm of a comparison vector defined by each coordinate guess. One Gaussian list suffices to identify every secret coordinate by binary search, without enumerating the others. We establish the required sampling guarantees through new geometric bounds for structured public operators over prime and power of two moduli. The construction builds on the Wagner-style Gaussian sampling framework of Ducas, Engelberts, and Loyer (CRYPTO 2025) and the low-error decision-LWE algorithm of Han, Gao, and Hu (2026).\n  For quotient relations of NTRU type, we develop an affine slice search: fixing coordinates restricts candidate pairs to slices of the public lattice, and their estimated Gaussian masses guide the choice of each next coordinate. In the stated modulus window, Falcon's key generation quality condition supplies the required mass bound. The algorithm then recovers an equivalent signing key with high probability in time and space $2^{O(n/\\ln\\ln n)}$. The same search recovers the short key core for cyclic NTRU-HPS/HRSS.\n  Together, these results give subexponential algorithms for problem families associated with all seven NIST third-round lattice candidates. Despite the subexponential complexity, our results do not establish a reduction in the concrete security of the currently specified parameter sets.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "From Sandbox to Enforcement: Confidence-Qualified Threat Intelligence for Critical Infrastructure",
+          "authors": [
+            "Nikolaos Kekatos",
+            "Mihaela Curcă",
+            "Georgios Koutidis",
+            "Mihai Nena",
+            "Tom Nianios",
+            "Robert-Ştefan Şandru",
+            "Michael Ioannou",
+            "Charalambos Bratsas"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-05",
+          "url": "https://arxiv.org/abs/2610.07310",
+          "source": "arXiv",
+          "arxivId": "2610.07310",
+          "summary": "Security operations centres and national incident-response teams defending critical infrastructure collect abundant threat data yet struggle to turn it into actionable intelligence. A malware sandbox produces detailed behavioural evidence, but as a large, unranked report whose confidence is unstated. We present CG-CTI, an operational pipeline that converts live sandbox output (CAPEv2) into STIX 2.1, correlates it in a knowledge graph with other critical-infrastructure sensors, and attaches to every intelligence object an explicit confidence status derived from provenance, cross-source corroboration, and observation durability. This status gates automated action: only corroborated intelligence is eligible for automated enforcement, while lower-confidence objects are routed to analyst review or kept as context. A grounded language-model stage then narrates the confidence-qualified evidence, where each statement either cites a supporting object or is marked unsupported, so fabricated references are removed before analyst review. We implement CG-CTI within the CYBERGUARD project, whose consortium includes Romania's national cyber-security directorate, and evaluate it against the live sandbox on a labelled malware corpus, measuring conversion validity, indicator yield, technique coverage, corroboration, enforcement eligibility, latency, and summary grounding. CG-CTI turns fragmented sandbox output into corroborated, confidence-ranked, and auditable intelligence for critical-infrastructure defence.",
+          "contribution": "Security operations centres and national incident-response teams defending critical infrastructure collect abundant threat data yet struggle to turn it into actionable intelligence. A malware sandbox produces detailed behavioural evidence, but as a large, unranked report whose confidence is unstated. We present CG-CTI, an operational pipeline that converts live sandbox output (CAPEv2) into STIX 2.1, correlates it in a knowledge graph with other critical-infrastructure sensors, and attaches to every intelligence object an explicit confidence status derived from provenance, cross-source corroboration, and observation durability. This status gates automated action: only corroborated intelligence is eligible for automated enforcement, while lower-confidence objects are routed to analyst review or kept as context. A grounded language-model stage then narrates the confidence-qualified evidence, where each statement either cites a supporting object or is marked unsupported, so fabricated references are removed before analyst review. We implement CG-CTI within the CYBERGUARD project, whose consortium includes Romania's national cyber-security directorate, and evaluate it against the live sandbox on a labelled malware corpus, measuring conversion validity, indicator yield, technique coverage, corroboration, enforcement eligibility, latency, and summary grounding. CG-CTI turns fragmented sandbox output into corroborated, confidence-ranked, and auditable intelligence for critical-infrastructure defence.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Temporal transformer CAN encoder with federated lightweight heads for anomaly detection",
+          "authors": [
+            "Konstantinos Gyftodimos",
+            "Kyriakos Chiotis",
+            "Elena Politi",
+            "George Dimitrakopoulos",
+            "Eirini Liotou"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-07",
+          "url": "https://arxiv.org/abs/2610.10613",
+          "source": "arXiv",
+          "arxivId": "2610.10613",
+          "summary": "Modern vehicles rely on large numbers of Electronic Control Units (ECUs) that constantly exchange information over the Controller Area Network (CAN) bus. Due to the rapidity, structure, and repetition of this communication, even slight variations in timing, payload values, or message patterns can point to unusual activity. Whether due to errors, malfunctions, or deliberate interference, these anomalies are frequently subtle and challenging to identify with conventional methods that handle messages separately or rely on manually created rules. Motivated by this gap, we present a privacy-preserving framework for anomaly detection in in-vehicle networks, based on a Temporal Transformer CAN Encoder with Federated Lightweight Heads, to better capture these irregularities. The detection of subtle temporal and contextual anomalies is made possible by a lightweight Transformer encoder that learns how these signals evolve over time, while a federated learning mechanism enables several vehicles or ECUs to work together to improve a shared model without exchanging raw CAN data. This combination of federated learning and temporal sequence modeling provides robust anomaly detection performance while maintaining efficiency and privacy, according to experiments conducted on open-source datasets.",
+          "contribution": "Modern vehicles rely on large numbers of Electronic Control Units (ECUs) that constantly exchange information over the Controller Area Network (CAN) bus. Due to the rapidity, structure, and repetition of this communication, even slight variations in timing, payload values, or message patterns can point to unusual activity. Whether due to errors, malfunctions, or deliberate interference, these anomalies are frequently subtle and challenging to identify with conventional methods that handle messages separately or rely on manually created rules. Motivated by this gap, we present a privacy-preserving framework for anomaly detection in in-vehicle networks, based on a Temporal Transformer CAN Encoder with Federated Lightweight Heads, to better capture these irregularities. The detection of subtle temporal and contextual anomalies is made possible by a lightweight Transformer encoder that learns how these signals evolve over time, while a federated learning mechanism enables several vehicles or ECUs to work together to improve a shared model without exchanging raw CAN data. This combination of federated learning and temporal sequence modeling provides robust anomaly detection performance while maintaining efficiency and privacy, according to experiments conducted on open-source datasets.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Anatomy-aware Fine-grained Multimodal Fusion for Laryngopharyngeal Cancer T-Staging Prediction Using CT and Radiology Report",
+          "authors": [
+            "Xingyue Zhao",
+            "Yanzhou Su",
+            "Fang Zhang",
+            "Zhanghexuan Ji",
+            "Yirui Wang",
+            "Dazhou Guo",
+            "Sibo Ju",
+            "Yuehua Cheng",
+            "Yuzhen Chen",
+            "Ming Feng",
+            "Le Lu",
+            "Tsung-Ying Ho",
+            "Jian Wang",
+            "Dakai Jin",
+            "Na Shen"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-05",
+          "url": "https://arxiv.org/abs/2610.06837",
+          "source": "arXiv",
+          "arxivId": "2610.06837",
+          "summary": "Accurate T-staging is crucial for guiding personalized treatment strategies for laryngopharyngeal cancer. However, current clinical practice relies on invasive biopsy procedures, whereas CT-based staging remains challenging due to the complex patterns of tumor invasion. Recent computer-aided approaches face two key challenges: 1) Structural relationship modeling: existing methods underrepresent anatomically structured patterns of tumor invasion, as they either process whole CT volumes without tumor-specific anatomical constraints or rely on labor-intensive tumor segmentation. 2) Fine-grained cross-modal alignment: while radiology reports contain organ-specific invasion details, current methods that apply global feature fusion struggle to accurately align individual anatomical structures with their corresponding textual descriptions. To address these issues, we propose an anatomy-aware multimodal framework that integrates organ-level CT context and radiology reports into a unified representation for laryngopharyngeal T-staging. The framework first constructs an Anatomy-Structured Organ Graph (AOG) that captures invasion patterns between primary sites and surrounding organs, then performs Organ-Anchored Cross-Modal Alignment (OCA) so that each organ node aggregates textual evidence from the radiology report, and finally refines this graph representation by injecting organ-specific invasion cues extracted from the report via Report-Enhanced Graph-Refinement (REG), yielding a multimodal organ graph that combines spatial and textual evidence. Extensive experiments demonstrate that the proposed framework achieves superior performance in T-staging of laryngopharyngeal cancer.",
+          "contribution": "Accurate T-staging is crucial for guiding personalized treatment strategies for laryngopharyngeal cancer. However, current clinical practice relies on invasive biopsy procedures, whereas CT-based staging remains challenging due to the complex patterns of tumor invasion. Recent computer-aided approaches face two key challenges: 1) Structural relationship modeling: existing methods underrepresent anatomically structured patterns of tumor invasion, as they either process whole CT volumes without tumor-specific anatomical constraints or rely on labor-intensive tumor segmentation. 2) Fine-grained cross-modal alignment: while radiology reports contain organ-specific invasion details, current methods that apply global feature fusion struggle to accurately align individual anatomical structures with their corresponding textual descriptions. To address these issues, we propose an anatomy-aware multimodal framework that integrates organ-level CT context and radiology reports into a unified representation for laryngopharyngeal T-staging. The framework first constructs an Anatomy-Structured Organ Graph (AOG) that captures invasion patterns between primary sites and surrounding organs, then performs Organ-Anchored Cross-Modal Alignment (OCA) so that each organ node aggregates textual evidence from the radiology report, and finally refines this graph representation by injecting organ-specific invasion cues extracted from the report via Report-Enhanced Graph-Refinement (REG), yielding a multimodal organ graph that combines spatial and textual evidence. Extensive experiments demonstrate that the proposed framework achieves superior performance in T-staging of laryngopharyngeal cancer.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-11",
       "generatedAt": "2026-10-11T14:15:53.265435+03:00",
       "papers": [
@@ -525,5 +762,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-11T14:15:53.265435+03:00"
+  "updatedAt": "2026-10-12T00:34:36.227095+03:00"
 }
