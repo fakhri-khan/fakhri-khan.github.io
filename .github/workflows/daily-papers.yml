@@ -78,7 +78,9 @@ jobs:
           python - <<'PY'
           import json
           import re
+          from datetime import datetime
           from pathlib import Path
+          from zoneinfo import ZoneInfo
           data = json.loads(Path("data/daily-papers.json").read_text(encoding="utf-8"))
           if data.get("timezone") != "Asia/Riyadh":
               raise SystemExit("archive timezone is not Asia/Riyadh")
@@ -99,6 +101,16 @@ jobs:
                   counts[paper["trackId"]] = counts.get(paper["trackId"], 0) + 1
               if any(count > 2 for count in counts.values()):
                   raise SystemExit("a daily edition contains more than two papers in a track")
+          today = datetime.now(ZoneInfo("Asia/Riyadh")).date().isoformat()
+          today_edition = next((day for day in data.get("days", []) if day.get("date") == today), None)
+          if today_edition is not None:
+              arxiv_counts = {}
+              for paper in today_edition.get("papers", []):
+                  if str(paper.get("source", "")).lower() == "arxiv":
+                      track_id = paper.get("trackId")
+                      arxiv_counts[track_id] = arxiv_counts.get(track_id, 0) + 1
+              if any(count > 1 for count in arxiv_counts.values()):
+                  raise SystemExit("today's edition contains more than one arXiv paper in a track")
           raw = Path("data/daily-papers.json").read_text(encoding="utf-8")
           if "OPENAI_API_KEY" in raw or re.search(r"sk-[A-Za-z0-9]{20,}", raw):
               raise SystemExit("secret-like material found in archive")
