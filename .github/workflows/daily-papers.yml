@@ -7,8 +7,9 @@ on:
       - "scripts/update_daily_papers.py"
       - "data/venue-config.json"
   schedule:
-    # 08:00 Riyadh is 05:00 UTC. Retry every 15 minutes through 09:45 Riyadh.
-    - cron: "0,15,30,45 5,6 * * *"
+    # Start at 08:00 Riyadh, then retry off the hour through 09:50 Riyadh.
+    - cron: "0 5 * * *"
+    - cron: "5,20,35,50 5,6 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -35,13 +36,29 @@ jobs:
           from pathlib import Path
           from zoneinfo import ZoneInfo
 
-          today = datetime.now(ZoneInfo("Asia/Riyadh")).date().isoformat()
+          now = datetime.now(ZoneInfo("Asia/Riyadh"))
+          today = now.date().isoformat()
+          scheduled_cutoff = now.replace(hour=8, minute=0, second=0, microsecond=0)
           archive = json.loads(Path("data/daily-papers.json").read_text(encoding="utf-8"))
-          already_published = any(day.get("date") == today for day in archive.get("days", []))
-          should_run = not (os.getenv("GITHUB_EVENT_NAME") == "schedule" and already_published)
+          already_published_after_cutoff = False
+          for day in archive.get("days", []):
+              if day.get("date") != today:
+                  continue
+              generated_at = day.get("generatedAt")
+              if not generated_at:
+                  continue
+              try:
+                  generated_at = datetime.fromisoformat(generated_at)
+              except (TypeError, ValueError):
+                  continue
+              if generated_at.tzinfo is None:
+                  generated_at = generated_at.replace(tzinfo=ZoneInfo("Asia/Riyadh"))
+              already_published_after_cutoff = generated_at.astimezone(ZoneInfo("Asia/Riyadh")) >= scheduled_cutoff
+              break
+          should_run = not (os.getenv("GITHUB_EVENT_NAME") == "schedule" and already_published_after_cutoff)
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"run={str(should_run).lower()}\n")
-          print("Running today's paper update." if should_run else "Today's edition already exists; skipping this scheduled retry.")
+          print("Running today's paper update." if should_run else "Today's edition was generated after 08:00 Riyadh; skipping this scheduled retry.")
           PY
       - name: Set up Python
         if: steps.freshness.outputs.run == 'true'
