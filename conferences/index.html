@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#0d2b45">
   <title>Conference Calendar | Dr. Fakhri Alam Khan</title>
   <link rel="stylesheet" href="/styles.css?v=20261009s">
-  <link rel="stylesheet" href="/conference-calendar.css?v=20261012a">
+  <link rel="stylesheet" href="/conference-calendar.css?v=20261012b">
 </head>
 <body class="conference-page">
   <header class="site-header" id="top">
@@ -52,11 +52,10 @@
       </div>
     </section>
 
-    <section class="section container conference-section" aria-labelledby="conference-heading">
+    <section class="section container conference-section" aria-label="BASMIR conference planner">
       <div class="conference-intro">
         <div>
           <p class="eyebrow">BASMIR conference planner</p>
-          <h2 id="conference-heading">Map the year ahead.</h2>
         </div>
         <p class="conference-source-note">Dates and venues reflect the supplied conference list. Check each official site for updates and submission deadlines.</p>
       </div>
@@ -74,14 +73,6 @@
             <option value="2027">2027</option>
             <option value="2031">2031</option>
             <option value="pending">Dates pending</option>
-          </select>
-        </label>
-        <label>
-          <span>DR rating</span>
-          <select id="conference-rating">
-            <option value="all">All ratings</option>
-            <option value="A*">A*</option>
-            <option value="A">A</option>
           </select>
         </label>
       </div>
@@ -110,6 +101,11 @@
             <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
           </div>
           <div class="conference-calendar-grid" id="conference-calendar-grid" role="grid" aria-label="Conference dates"></div>
+          <div class="conference-rating-legend" aria-label="Calendar color key">
+            <span><i class="rating-swatch rating-a-star"></i>A* rated</span>
+            <span><i class="rating-swatch rating-a"></i>A rated</span>
+            <span><i class="rating-swatch rating-other"></i>Other or unlisted</span>
+          </div>
           <p class="conference-calendar-hint">Conference bars span the event dates. Select a name for details.</p>
         </section>
 
@@ -128,11 +124,6 @@
               <h2 id="conference-upcoming-heading">Coming up</h2>
             </div>
             <div id="conference-upcoming-list" class="conference-compact-list"></div>
-          </section>
-          <section class="conference-panel conference-planning-note">
-            <p class="eyebrow">Planning note</p>
-            <h2>Check the call for papers.</h2>
-            <p>The list shows conference dates, not submission deadlines. Open the official conference site to check CFP, registration, and travel dates.</p>
           </section>
         </aside>
       </div>
@@ -177,6 +168,6 @@
     <div class="container footer-inner"><span>© <span id="year"></span> Dr. Fakhri Alam Khan</span><a class="back-to-top" href="#top">Back to top ↑</a></div>
   </footer>
   <script src="/script.js?v=20261010a"></script>
-  <script src="/conference-calendar.js?v=20261012a"></script>
+  <script src="/conference-calendar.js?v=20261012b"></script>
 </body>
 </html>

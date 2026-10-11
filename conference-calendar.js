@@ -3,7 +3,6 @@
   const trackFilters = document.querySelector("#conference-track-filters");
   const searchInput = document.querySelector("#conference-search");
   const yearSelect = document.querySelector("#conference-year");
-  const ratingSelect = document.querySelector("#conference-rating");
   const resultCount = document.querySelector("#conference-result-count");
   const calendarGrid = document.querySelector("#conference-calendar-grid");
   const monthTitle = document.querySelector("#conference-month-title");
@@ -20,7 +19,6 @@
     data: null,
     track: "all",
     year: "all",
-    rating: "all",
     search: "",
     view: window.matchMedia("(max-width: 680px)").matches ? "agenda" : "calendar",
     month: new Date(today.getFullYear(), today.getMonth(), 1)
@@ -73,7 +71,6 @@
     const term = state.search.trim().toLocaleLowerCase();
     return state.data.conferences.filter((item) => {
       if (state.track !== "all" && !item.trackIds.includes(state.track)) return false;
-      if (state.rating !== "all" && item.rating !== state.rating) return false;
       if (state.year === "pending" && item.startDate) return false;
       if (state.year !== "all" && state.year !== "pending") {
         const itemYear = item.startDate ? String(dateAtNoon(item.startDate).getFullYear()) : String(item.yearHint || "");
@@ -104,16 +101,24 @@
     }
     if (typeof dialog.showModal === "function") dialog.showModal();
   };
+  dialog.addEventListener("click", (event) => {
+    if (event.target !== dialog) return;
+    const rect = dialog.getBoundingClientRect();
+    const clickedOutsideCard = event.clientX < rect.left || event.clientX > rect.right
+      || event.clientY < rect.top || event.clientY > rect.bottom;
+    if (clickedOutsideCard) dialog.close();
+  });
+  const ratingClass = (item) => item.rating === "A*" ? "rating-a-star" : item.rating === "A" ? "rating-a" : "rating-other";
   const eventButton = (item, continuation) => {
     if (continuation) {
       const span = document.createElement("span");
-      span.className = "calendar-span";
+      span.className = "calendar-span " + ratingClass(item);
       span.setAttribute("aria-hidden", "true");
       return span;
     }
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "calendar-event";
+    button.className = "calendar-event " + ratingClass(item);
     button.title = item.name + " · " + formatRange(item);
     button.setAttribute("aria-label", item.name + ", " + formatRange(item));
     button.addEventListener("click", () => openDetails(item));
@@ -351,7 +356,6 @@
 
   searchInput.addEventListener("input", () => { state.search = searchInput.value; render(); });
   yearSelect.addEventListener("change", () => setYear(yearSelect.value));
-  ratingSelect.addEventListener("change", () => { state.rating = ratingSelect.value; render(); });
   document.querySelector("#conference-previous-month").addEventListener("click", () => {
     state.month = new Date(state.month.getFullYear(), state.month.getMonth() - 1, 1);
     render();
