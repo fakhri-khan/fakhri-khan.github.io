@@ -39,7 +39,7 @@
 .conference-view-switch button[aria-pressed="true"] { color: var(--white); background: var(--navy); }
 .conference-main-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; align-items: start; }
 .conference-calendar-panel, .conference-agenda-panel, .conference-panel { border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); box-shadow: 0 10px 28px rgba(13,43,69,.045); }
-.conference-calendar-panel { padding: 20px; }
+.conference-calendar-panel { width: 85%; margin-inline: auto; padding: 17px; }
 .conference-month-heading { display: grid; grid-template-columns: 38px minmax(0, 1fr) 38px; align-items: center; gap: 12px; margin: 0 0 17px; }
 .conference-date-controls { display: flex; justify-content: center; align-items: end; gap: 10px; min-width: 0; }
 .conference-month-picker-wrap, .conference-year-picker-wrap { display: grid; gap: 4px; color: var(--muted); font-size: .6rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
@@ -53,8 +53,8 @@
 .conference-month-button:disabled:hover { border-color: var(--line); color: var(--navy); }
 .conference-weekdays, .conference-calendar-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
 .conference-weekdays { margin-bottom: 5px; color: var(--muted); font-size: .65rem; font-weight: 800; text-align: center; text-transform: uppercase; letter-spacing: .06em; }
-.conference-calendar-grid { gap: 4px; }
-.conference-day { min-width: 0; min-height: 103px; padding: 7px 5px 6px; overflow: hidden; border: 1px solid #e7e8e2; border-radius: 7px; background: #fff; }
+.conference-calendar-grid { gap: 3px; }
+.conference-day { min-width: 0; min-height: 88px; padding: 6px 4px 5px; overflow: hidden; border: 1px solid #e7e8e2; border-radius: 7px; background: #fff; }
 .conference-day.is-today { border-color: var(--teal); box-shadow: inset 0 0 0 1px var(--teal); }
 .conference-day-number { display: flex; align-items: center; justify-content: space-between; min-height: 19px; margin-bottom: 6px; color: var(--navy); font-size: .68rem; font-weight: 800; }
 .conference-day-number time { color: inherit; }
@@ -123,6 +123,7 @@
   .conference-intro { align-items: flex-start; flex-direction: column; gap: 10px; }
   .conference-planner-layout { grid-template-columns: minmax(175px, .42fr) minmax(0, 1.58fr); gap: 14px; }
   .conference-main-grid { grid-template-columns: minmax(0, 1fr); }
+  .conference-calendar-panel { width: 100%; }
   .conference-lower-grid { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 680px) {
@@ -147,9 +148,9 @@
   .conference-toolbar { align-items: flex-start; flex-direction: column-reverse; }
   .conference-view-switch { align-self: stretch; }
   .conference-view-switch button { flex: 1; }
-  .conference-calendar-panel { padding: 12px; overflow-x: auto; }
+  .conference-calendar-panel { width: 100%; padding: 10px; overflow-x: auto; }
   .conference-calendar-panel > .conference-weekdays, .conference-calendar-panel > .conference-calendar-grid { min-width: 520px; }
-  .conference-day { min-height: 84px; padding: 5px 3px; }
+  .conference-day { min-height: 71px; padding: 4px 3px; }
   .conference-day-number { font-size: .61rem; }
   .calendar-event { padding: 4px 2px; font-size: .52rem; }
   .conference-side-stack { grid-template-columns: minmax(0,1fr); }
