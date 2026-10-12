@@ -1250,11 +1250,12 @@
           "name": "Trustworthy and Privacy-Preserving AI"
         }
       ],
-      "officialUrl": "https://www.cikmconference.org/",
-      "nextDateText": "Dates to be announced for 2027",
-      "yearHint": 2027,
-      "location": "Sydney, Australia",
-      "dateStatus": "tentative"
+      "officialUrl": "https://cikm2026.diag.uniroma1.it/",
+      "yearHint": 2026,
+      "location": "Rome, Italy",
+      "dateStatus": "scheduled",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-11"
     },
     {
       "id": "conf-49",
@@ -1298,9 +1299,12 @@
           "name": "Medical Imaging and Multimodal Biomedical AI"
         }
       ],
-      "officialUrl": "https://ieeevis.org/",
-      "nextDateText": "Date to be announced",
-      "dateStatus": "pending"
+      "officialUrl": "https://www.ieeevis.org/year/2026/",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-13",
+      "location": "Boston, Massachusetts, USA"
     },
     {
       "id": "conf-51",
@@ -1541,11 +1545,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://www.acmmm.org/",
-      "yearHint": 2027,
-      "nextDateText": "Dates to be announced for 2027",
-      "location": "Hong Kong",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://2026.acmmm.org/",
+      "yearHint": 2026,
+      "location": "Rio de Janeiro, Brazil",
+      "dateStatus": "scheduled",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-14"
     },
     {
       "id": "conf-62",
@@ -1602,10 +1607,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/apsec-2026",
+      "location": "Bali, Indonesia",
+      "dateStatus": "scheduled",
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-10",
+      "yearHint": 2026
     },
     {
       "id": "conf-65",
@@ -1644,10 +1651,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://acis.aaisnet.org/",
+      "location": "Perth, Western Australia, Australia",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-12-02",
+      "endDate": "2026-12-04"
     },
     {
       "id": "conf-67",
@@ -1850,10 +1859,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://date27.date-conference.com/",
+      "location": "Dresden, Germany",
+      "dateStatus": "scheduled",
+      "startDate": "2027-03-22",
+      "endDate": "2027-03-24",
+      "yearHint": 2027
     },
     {
       "id": "conf-77",
@@ -1996,10 +2007,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://etaps.org/2027/",
+      "location": "Copenhagen, Denmark",
+      "dateStatus": "scheduled",
+      "startDate": "2027-04-10",
+      "endDate": "2027-04-15",
+      "yearHint": 2027
     },
     {
       "id": "conf-84",
@@ -2080,10 +2093,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://etaps.org/2027/conferences/fossacs/",
+      "location": "Copenhagen, Denmark",
+      "dateStatus": "scheduled",
+      "startDate": "2027-04-10",
+      "endDate": "2027-04-15",
+      "yearHint": 2027
     },
     {
       "id": "conf-88",
@@ -2378,7 +2393,7 @@
     {
       "id": "conf-102",
       "name": "IEEE International Conference on Data Mining",
-      "shortName": "DM",
+      "shortName": "ICDM",
       "organizer": "",
       "rating": "A*",
       "trackIds": [
@@ -2390,10 +2405,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://icdm2026.neu.edu.cn/",
+      "location": "Shenyang, China",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-15"
     },
     {
       "id": "conf-103",
@@ -2962,10 +2979,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/ease-2027",
+      "location": "Hanoi, Vietnam",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-15",
+      "endDate": "2027-06-18",
+      "yearHint": 2027
     },
     {
       "id": "conf-131",
@@ -3122,10 +3141,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/saner-2027",
+      "location": "Richmond, Virginia, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-03-09",
+      "endDate": "2027-03-12",
+      "yearHint": 2027
     },
     {
       "id": "conf-139",
@@ -3454,10 +3475,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www2027.thewebconf.org/",
+      "location": "Dublin, Ireland",
+      "dateStatus": "scheduled",
+      "startDate": "2027-05-10",
+      "endDate": "2027-05-14",
+      "yearHint": 2027
     },
     {
       "id": "conf-155",
@@ -3578,12 +3601,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://www.sigmobile.org/mobicom/2027/",
-      "yearHint": 2027,
-      "location": "Location to be announced",
+      "officialUrl": "https://www.sigmobile.org/mobicom/2026/",
+      "yearHint": 2026,
+      "location": "Austin, Texas, USA",
       "dateStatus": "scheduled",
-      "startDate": "2027-10-18",
-      "endDate": "2027-10-22"
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-30"
     },
     {
       "id": "conf-161",
@@ -3682,10 +3705,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://pakdd2027.org/",
+      "location": "Wellington, New Zealand",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-29",
+      "endDate": "2027-07-02",
+      "yearHint": 2027
     },
     {
       "id": "conf-166",
