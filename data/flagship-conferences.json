@@ -1348,9 +1348,12 @@
           "name": "Trustworthy and Privacy-Preserving AI"
         }
       ],
-      "officialUrl": "https://ptais.apsi.pt/capsi/",
-      "nextDateText": "Date to be announced",
-      "dateStatus": "pending"
+      "officialUrl": "https://capsi2026.apsi.pt/",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-10",
+      "location": "Coimbra, Portugal"
     },
     {
       "id": "conf-53",
@@ -1779,10 +1782,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://cist2026.github.io/",
+      "location": "San Francisco, California, USA",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01"
     },
     {
       "id": "conf-73",
@@ -1829,7 +1834,7 @@
     {
       "id": "conf-75",
       "name": "DCOSS : IEEE International Conference on Distributed Computing in Sensor Systems",
-      "shortName": "DCOSS",
+      "shortName": "DCOSS-IoT",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -1841,10 +1846,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://dcoss.org/",
+      "location": "Montreal, Canada",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-06-21",
+      "endDate": "2027-06-23"
     },
     {
       "id": "conf-76",
@@ -1893,7 +1900,7 @@
     {
       "id": "conf-78",
       "name": "ECMLPKDD : European Conference on Machine learning and knowledge discovery in databases",
-      "shortName": "ECMLPKDD",
+      "shortName": "ECML PKDD",
       "organizer": "",
       "rating": "A*",
       "trackIds": [
@@ -1905,10 +1912,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://ecmlpkdd.org/2027/",
+      "location": "Eindhoven, The Netherlands",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-08-30",
+      "endDate": "2027-09-03"
     },
     {
       "id": "conf-79",
@@ -3007,10 +3016,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://enase.scitevents.org/?y=2027",
+      "location": "Rome, Italy",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-04-20",
+      "endDate": "2027-04-22"
     },
     {
       "id": "conf-132",
