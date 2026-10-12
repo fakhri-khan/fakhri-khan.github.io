@@ -2005,7 +2005,7 @@
     {
       "id": "conf-81",
       "name": "Euromicro Conference on Software Engineering and Advanced Applications",
-      "shortName": "ESEAA",
+      "shortName": "SEAA",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -2017,10 +2017,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://dsd-seaa.com/seaa2026/",
+      "location": "Kraków, Poland",
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-04",
+      "yearHint": 2026
     },
     {
       "id": "conf-82",
@@ -3186,10 +3188,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://xn--80ae1bo.xn--p1ai/2026/",
+      "location": "Ufa, Russia",
+      "dateStatus": "scheduled",
+      "startDate": "2026-04-07",
+      "endDate": "2026-04-09",
+      "yearHint": 2026
     },
     {
       "id": "conf-135",
@@ -3807,8 +3811,8 @@
     },
     {
       "id": "conf-163",
-      "name": "Optimization in Artificial Intelligence and Data Sciences The Annual Conference on machine Learning, Optimization and Data science (LOD)",
-      "shortName": "LOD",
+      "name": "International Artificial Intelligence Symposium (formerly LOD)",
+      "shortName": "AIS (LOD)",
       "organizer": "",
       "rating": "A*",
       "trackIds": [
@@ -3820,10 +3824,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://ais2026.icas.events/",
+      "location": "Tuscany, Italy",
+      "dateStatus": "scheduled",
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-07",
+      "yearHint": 2026
     },
     {
       "id": "conf-164",
@@ -4276,10 +4282,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://wire.auburn.edu/content/cosam/2026/05/291000-34th-cumberland-conference.php",
+      "location": "Auburn, Alabama, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2026-05-16",
+      "endDate": "2026-05-17",
+      "yearHint": 2026
     },
     {
       "id": "conf-185",
@@ -4340,10 +4348,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.i-somet.org/iea-aie2026/",
+      "location": "Kuala Lumpur, Malaysia",
+      "dateStatus": "scheduled",
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-08",
+      "yearHint": 2026
     },
     {
       "id": "conf-188",
@@ -4423,10 +4433,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://2027.refsq.org/",
+      "location": "Basel, Switzerland",
+      "dateStatus": "scheduled",
+      "startDate": "2027-04-12",
+      "endDate": "2027-04-15",
+      "yearHint": 2027
     },
     {
       "id": "conf-192",
