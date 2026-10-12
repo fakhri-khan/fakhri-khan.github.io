@@ -3611,7 +3611,7 @@
     {
       "id": "conf-161",
       "name": "MOBIHOC : ACM International Symposium on Mobile Ad Hoc Networking and Computing",
-      "shortName": "MOBIHOC",
+      "shortName": "MobiHoc",
       "organizer": "",
       "rating": "A*",
       "trackIds": [
@@ -3623,10 +3623,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.sigmobile.org/mobihoc/2026/",
+      "location": "Tokyo, Japan",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-26"
     },
     {
       "id": "conf-162",
@@ -3871,10 +3873,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://roboticsconference.org/",
+      "location": "Athens, Greece (venue to be announced)",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-07-06",
+      "endDate": "2027-07-11"
     },
     {
       "id": "conf-174",
