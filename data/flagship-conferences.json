@@ -978,9 +978,13 @@
           "name": "Post-Quantum Cryptography and Embedded Systems Security"
         }
       ],
-      "officialUrl": "https://esweek.hosting2.acm.org/emsoft/",
+      "officialUrl": "https://esweek.org/emsoft/",
       "nextDateText": "Date to be announced",
-      "dateStatus": "pending"
+      "dateStatus": "scheduled",
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-09",
+      "yearHint": 2026,
+      "location": "Barcelona, Spain"
     },
     {
       "id": "conf-38",
@@ -1833,10 +1837,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://conf.researchr.org/home/xp-2027",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Tampere, Finland",
+      "dateStatus": "scheduled",
+      "startDate": "2027-05-31",
+      "endDate": "2027-06-03",
+      "yearHint": 2027
     },
     {
       "id": "conf-74",
@@ -4175,10 +4182,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://www.vlsisymposium.org/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Kyoto, Japan",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-20",
+      "endDate": "2027-06-24",
+      "yearHint": 2027
     },
     {
       "id": "conf-182",
