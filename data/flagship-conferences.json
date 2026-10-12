@@ -1693,10 +1693,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://conf.researchr.org/home/ase-2026",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Munich, Germany",
+      "dateStatus": "scheduled",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-16",
+      "yearHint": 2026
     },
     {
       "id": "conf-68",
@@ -2020,7 +2023,7 @@
       "location": "Athens, Greece",
       "dateStatus": "scheduled",
       "startDate": "2027-10-02",
-      "endDate": "2027-10-06",
+      "endDate": "2027-10-07",
       "yearHint": 2027
     },
     {
@@ -2213,10 +2216,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://hpdc.sci.utah.edu/2026/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Cleveland, Ohio, United States",
+      "dateStatus": "scheduled",
+      "startDate": "2026-07-13",
+      "endDate": "2026-07-16",
+      "yearHint": 2026
     },
     {
       "id": "conf-92",
@@ -2922,10 +2928,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://arcs-conference.org/history/arcs-2026/home",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Mainz, Germany",
+      "dateStatus": "scheduled",
+      "startDate": "2026-03-24",
+      "endDate": "2026-03-26",
+      "yearHint": 2026
     },
     {
       "id": "conf-125",
@@ -2942,10 +2951,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://www.aied-conference.org/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Seoul, South Korea",
+      "dateStatus": "scheduled",
+      "startDate": "2026-06-27",
+      "endDate": "2026-07-03",
+      "yearHint": 2026
     },
     {
       "id": "conf-126",
