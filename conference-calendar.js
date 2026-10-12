@@ -2,27 +2,32 @@
   const dataUrl = "/data/flagship-conferences.json";
   const trackFilters = document.querySelector("#conference-track-filters");
   const searchInput = document.querySelector("#conference-search");
-  const yearSelect = document.querySelector("#conference-year");
   const resultCount = document.querySelector("#conference-result-count");
   const calendarGrid = document.querySelector("#conference-calendar-grid");
-  const monthPicker = document.querySelector("#conference-month-picker");
+  const monthSelect = document.querySelector("#conference-month-select");
+  const yearPicker = document.querySelector("#conference-year-select");
   const previousMonthButton = document.querySelector("#conference-previous-month");
   const nextMonthButton = document.querySelector("#conference-next-month");
   const calendarView = document.querySelector("#conference-calendar-view");
   const agendaView = document.querySelector("#conference-agenda-view");
   const agendaList = document.querySelector("#conference-agenda-list");
-  const monthAgenda = document.querySelector("#conference-upcoming-list");
   const pendingList = document.querySelector("#conference-pending-list");
   const coverageList = document.querySelector("#conference-track-coverage");
   const dialog = document.querySelector("#conference-dialog");
   const today = new Date();
   const todayString = today.getFullYear() + "-" + String(today.getMonth() + 1).padStart(2, "0") + "-" + String(today.getDate()).padStart(2, "0");
   const latestMonth = new Date(today.getFullYear() + 1, 11, 1);
-  monthPicker.max = String(latestMonth.getFullYear()) + "-12";
+  const firstMonth = new Date(today.getFullYear(), 0, 1);
+  Array.from({ length: latestMonth.getFullYear() - today.getFullYear() + 1 }, (_, index) => {
+    const year = today.getFullYear() + index;
+    const option = document.createElement("option");
+    option.value = String(year);
+    option.textContent = String(year);
+    yearPicker.append(option);
+  });
   const state = {
     data: null,
     track: "all",
-    year: "all",
     search: "",
     view: window.matchMedia("(max-width: 680px)").matches ? "agenda" : "calendar",
     month: new Date(today.getFullYear(), today.getMonth(), 1)
@@ -75,11 +80,6 @@
     const term = state.search.trim().toLocaleLowerCase();
     return state.data.conferences.filter((item) => {
       if (state.track !== "all" && !item.trackIds.includes(state.track)) return false;
-      if (state.year === "pending" && item.startDate) return false;
-      if (state.year !== "all" && state.year !== "pending") {
-        const itemYear = item.startDate ? String(dateAtNoon(item.startDate).getFullYear()) : String(item.yearHint || "");
-        if (itemYear !== state.year) return false;
-      }
       if (term) {
         const haystack = [item.name, item.organizer, item.location, item.rating, item.nextDateText, item.trackIds.map(trackName).join(" ")].join(" ").toLocaleLowerCase();
         if (!haystack.includes(term)) return false;
@@ -196,8 +196,9 @@
   const renderCalendar = (items) => {
     const year = state.month.getFullYear();
     const month = state.month.getMonth();
-    monthPicker.value = String(year) + "-" + String(month + 1).padStart(2, "0");
-    monthPicker.max = String(latestMonth.getFullYear()) + "-12";
+    monthSelect.value = String(month);
+    yearPicker.value = String(year);
+    previousMonthButton.disabled = state.month <= firstMonth;
     nextMonthButton.disabled = state.month >= latestMonth;
     calendarGrid.replaceChildren();
     calendarGrid.setAttribute("aria-label", "Conference dates for " + new Intl.DateTimeFormat("en", { month: "long", year: "numeric" }).format(state.month));
@@ -232,26 +233,6 @@
       });
       calendarGrid.append(cell);
     }
-  };
-  const renderUpcoming = (items) => {
-    monthAgenda.replaceChildren();
-    const upcoming = items.filter((item) => item.startDate && item.endDate >= todayString).sort((a, b) => a.startDate.localeCompare(b.startDate)).slice(0, 4);
-    if (!upcoming.length) {
-      monthAgenda.append(makeEmpty("No upcoming conferences match these filters."));
-      return;
-    }
-    upcoming.forEach((item) => {
-      const entry = document.createElement("div");
-      entry.className = "conference-compact-item";
-      const button = document.createElement("button");
-      button.type = "button";
-      button.textContent = item.shortName + " · " + item.name;
-      button.addEventListener("click", () => openDetails(item));
-      const meta = document.createElement("span");
-      meta.textContent = formatRange(item) + " · " + (item.location || "Location to be announced");
-      entry.append(button, meta);
-      monthAgenda.append(entry);
-    });
   };
   const renderAgenda = (items) => {
     agendaList.replaceChildren();
@@ -340,7 +321,6 @@
     const pending = items.filter((item) => !item.startDate);
     resultCount.textContent = items.length + " conferences · " + dated.length + " with dates · " + pending.length + " to confirm";
     renderCalendar(dated);
-    renderUpcoming(items);
     renderAgenda(items);
     renderPending(items);
     document.querySelectorAll(".conference-view-switch button").forEach((button) => {
@@ -350,27 +330,20 @@
     calendarView.hidden = state.view !== "calendar";
     agendaView.hidden = state.view !== "agenda";
   };
-  const setYear = (value) => {
-    state.year = value;
-    if (value !== "all" && value !== "pending" && Number(value) <= latestMonth.getFullYear()) {
-      state.month = new Date(Number(value), 0, 1);
-    }
-    render();
-  };
-
   searchInput.addEventListener("input", () => { state.search = searchInput.value; render(); });
-  yearSelect.addEventListener("change", () => setYear(yearSelect.value));
-  monthPicker.addEventListener("change", () => {
-    if (!monthPicker.value) return;
-    const [year, month] = monthPicker.value.split("-").map(Number);
-    state.month = new Date(year, month - 1, 1);
-    state.year = "all";
-    yearSelect.value = "all";
+  monthSelect.addEventListener("change", () => {
+    state.month = new Date(state.month.getFullYear(), Number(monthSelect.value), 1);
+    render();
+  });
+  yearPicker.addEventListener("change", () => {
+    state.month = new Date(Number(yearPicker.value), state.month.getMonth(), 1);
     render();
   });
   previousMonthButton.addEventListener("click", () => {
-    state.month = new Date(state.month.getFullYear(), state.month.getMonth() - 1, 1);
-    render();
+    if (state.month > firstMonth) {
+      state.month = new Date(state.month.getFullYear(), state.month.getMonth() - 1, 1);
+      render();
+    }
   });
   nextMonthButton.addEventListener("click", () => {
     if (state.month < latestMonth) {

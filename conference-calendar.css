@@ -5,7 +5,7 @@
 .conference-intro h2 { margin: 0; color: var(--navy); font-size: clamp(1.7rem, 3vw, 2.45rem); }
 .conference-source-note { max-width: 420px; margin: 0 0 3px; color: var(--muted); font-size: .78rem; }
 .conference-signal-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-.conference-controls { display: grid; grid-template-columns: minmax(240px, 1.5fr) minmax(150px, .65fr); gap: 12px; }
+.conference-controls { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
 .conference-planner-layout { display: grid; grid-template-columns: minmax(205px, .42fr) minmax(0, 1.58fr); gap: 18px; align-items: start; }
 .conference-track-sidebar { position: sticky; top: 96px; padding: 18px 14px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); box-shadow: 0 10px 28px rgba(13,43,69,.045); }
 .conference-track-sidebar > .eyebrow { margin-bottom: 7px; color: var(--teal); font-size: .68rem; font-weight: 850; letter-spacing: .11em; text-transform: uppercase; }
@@ -37,14 +37,16 @@
 .conference-view-switch { display: inline-flex; padding: 3px; border: 1px solid var(--line); border-radius: 9px; background: var(--white); }
 .conference-view-switch button { padding: 7px 13px; border: 0; border-radius: 6px; color: var(--muted); background: transparent; font-size: .74rem; font-weight: 750; cursor: pointer; }
 .conference-view-switch button[aria-pressed="true"] { color: var(--white); background: var(--navy); }
-.conference-main-grid { display: grid; grid-template-columns: minmax(0, 2.3fr) minmax(255px, .9fr); gap: 14px; align-items: start; }
+.conference-main-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; align-items: start; }
 .conference-calendar-panel, .conference-agenda-panel, .conference-panel { border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); box-shadow: 0 10px 28px rgba(13,43,69,.045); }
 .conference-calendar-panel { padding: 20px; }
-.conference-month-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 17px; }
-.conference-month-picker-wrap { display: grid; place-items: center; }
-.conference-month-picker-wrap input { width: 190px; max-width: 100%; padding: 7px 8px; border: 1px solid transparent; border-radius: 8px; color: var(--navy); background: transparent; font: inherit; font-size: 1.18rem; font-weight: 850; text-align: center; cursor: pointer; }
-.conference-month-picker-wrap input:hover, .conference-month-picker-wrap input:focus { border-color: var(--line); background: var(--paper); outline: none; }
-.conference-month-picker-wrap input::-webkit-calendar-picker-indicator { margin-left: 6px; cursor: pointer; }
+.conference-month-heading { display: grid; grid-template-columns: 38px minmax(0, 1fr) 38px; align-items: center; gap: 12px; margin: 0 0 17px; }
+.conference-date-controls { display: flex; justify-content: center; align-items: end; gap: 10px; min-width: 0; }
+.conference-month-picker-wrap, .conference-year-picker-wrap { display: grid; gap: 4px; color: var(--muted); font-size: .6rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.conference-month-picker-wrap { width: min(100%, 180px); }
+.conference-year-picker-wrap { width: 104px; }
+.conference-month-picker-wrap select, .conference-year-picker-wrap select { width: 100%; height: 40px; padding: 0 28px 0 10px; border: 1px solid var(--line); border-radius: 8px; color: var(--navy); background: var(--paper); font: inherit; font-size: .82rem; font-weight: 800; letter-spacing: normal; text-transform: none; cursor: pointer; }
+.conference-month-picker-wrap select:focus, .conference-year-picker-wrap select:focus { outline: 2px solid rgba(0,108,53,.24); outline-offset: 1px; border-color: var(--teal); }
 .conference-month-button { display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 9px; color: var(--navy); background: var(--paper); font-size: 1.4rem; line-height: 1; cursor: pointer; }
 .conference-month-button:hover { border-color: var(--teal); color: var(--teal); }
 .conference-month-button:disabled { opacity: .42; cursor: not-allowed; }
@@ -63,7 +65,6 @@
 .calendar-track-dots i { width: 5px; height: 5px; border-radius: 50%; background: var(--track-color); }
 .calendar-span { display: block; height: 4px; margin: 4px 0; border-radius: 4px; background: #b8c9d0; }
 .conference-calendar-hint { margin: 12px 0 0; color: var(--muted); font-size: .69rem; }
-.conference-side-stack { display: grid; gap: 14px; }
 .conference-panel { padding: 20px; }
 .conference-panel-heading { margin-bottom: 13px; }
 .conference-panel-heading .eyebrow { margin-bottom: 8px; font-size: .65rem; }
@@ -120,10 +121,8 @@
 .conference-dialog-link[hidden] { display: none; }
 @media (max-width: 920px) {
   .conference-intro { align-items: flex-start; flex-direction: column; gap: 10px; }
-  .conference-controls { grid-template-columns: minmax(0, 1fr) minmax(140px, .6fr); }
   .conference-planner-layout { grid-template-columns: minmax(175px, .42fr) minmax(0, 1.58fr); gap: 14px; }
   .conference-main-grid { grid-template-columns: minmax(0, 1fr); }
-  .conference-side-stack { grid-template-columns: minmax(0, 1fr); }
   .conference-lower-grid { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 680px) {
@@ -133,7 +132,11 @@
   .conference-track-tree { grid-template-columns: repeat(2, minmax(0, 1fr)); padding-left: 0; }
   .conference-track-tree::before, .conference-track-node::before { display: none !important; }
   .conference-track-node.is-root { grid-column: 1 / -1; margin-left: 0; }
-  .conference-month-picker-wrap input { width: 160px; font-size: 1.05rem; }
+  .conference-month-heading { grid-template-columns: 34px minmax(0, 1fr) 34px; gap: 7px; }
+  .conference-date-controls { gap: 7px; }
+  .conference-month-picker-wrap { width: min(100%, 150px); }
+  .conference-year-picker-wrap { width: 88px; }
+  .conference-month-picker-wrap select, .conference-year-picker-wrap select { height: 38px; padding-left: 8px; padding-right: 22px; font-size: .76rem; }
   .conference-intro { margin-bottom: 20px; }
   .conference-controls { grid-template-columns: minmax(0, 1fr); }
   .conference-search { grid-column: 1 / -1; }
