@@ -1593,10 +1593,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://sites.ohio.edu/mwais/",
+      "location": "Athens, Ohio, USA",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-05-21",
+      "endDate": "2026-05-22"
     },
     {
       "id": "conf-64",
@@ -2527,10 +2529,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.ieeesmc2026.org/",
+      "location": "Bellevue, Washington, USA",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-10-04",
+      "endDate": "2026-10-07"
     },
     {
       "id": "conf-108",
