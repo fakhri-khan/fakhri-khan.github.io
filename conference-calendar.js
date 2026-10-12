@@ -2,7 +2,7 @@
   const dataUrl = "/data/flagship-conferences.json?v=20261012a";
   const trackFilters = document.querySelector("#conference-track-filters");
   const searchInput = document.querySelector("#conference-search");
-  const ratingFilter = document.querySelector("#conference-rating-filter");
+  const ratingButtons = Array.from(document.querySelectorAll(".rating-filter-button"));
   const resultCount = document.querySelector("#conference-result-count");
   const calendarGrid = document.querySelector("#conference-calendar-grid");
   const monthSelect = document.querySelector("#conference-month-select");
@@ -82,8 +82,7 @@
     const term = state.search.trim().toLocaleLowerCase();
     return state.data.conferences.filter((item) => {
       if (state.track !== "all" && !item.trackIds.includes(state.track)) return false;
-      if (state.rating === "unrated" && item.rating) return false;
-      if (state.rating !== "all" && state.rating !== "unrated" && item.rating !== state.rating) return false;
+      if (state.rating !== "all" && item.rating !== state.rating) return false;
       if (term) {
         const haystack = [item.name, item.organizer, item.location, item.rating, item.nextDateText, item.trackIds.map(trackName).join(" ")].join(" ").toLocaleLowerCase();
         if (!haystack.includes(term)) return false;
@@ -331,11 +330,19 @@
       const selected = button.dataset.view === state.view;
       button.setAttribute("aria-pressed", String(selected));
     });
+    ratingButtons.forEach((button) => {
+      const selected = button.dataset.rating === state.rating;
+      button.setAttribute("aria-pressed", String(selected));
+      button.classList.toggle("is-selected", selected);
+    });
     calendarView.hidden = state.view !== "calendar";
     agendaView.hidden = state.view !== "agenda";
   };
   searchInput.addEventListener("input", () => { state.search = searchInput.value; render(); });
-  ratingFilter.addEventListener("change", () => { state.rating = ratingFilter.value; render(); });
+  ratingButtons.forEach((button) => button.addEventListener("click", () => {
+    state.rating = state.rating === button.dataset.rating ? "all" : button.dataset.rating;
+    render();
+  }));
   monthSelect.addEventListener("change", () => {
     state.month = new Date(state.month.getFullYear(), Number(monthSelect.value), 1);
     render();

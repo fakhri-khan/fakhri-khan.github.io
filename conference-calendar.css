@@ -23,6 +23,18 @@
 .conference-planner-content { min-width: 0; }
 
 .conference-controls label { display: grid; gap: 6px; color: var(--navy); font-size: .72rem; font-weight: 750; }
+.conference-filter-label { display: block; margin-bottom: 6px; color: var(--navy); font-size: .72rem; font-weight: 750; }
+.conference-rating-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.rating-filter-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; padding: 8px 12px; border: 1px solid; border-radius: 9px; font: inherit; font-size: .82rem; font-weight: 850; cursor: pointer; transition: transform .16s ease, box-shadow .16s ease, background-color .16s ease; }
+.rating-filter-button:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(13,43,69,.1); }
+.rating-filter-button:focus-visible { outline: 3px solid rgba(0,108,53,.26); outline-offset: 2px; }
+.rating-filter-a-star { color: #684900; border-color: #d7ad43; background: #fff7df; }
+.rating-filter-a-star.is-selected { color: #fff; border-color: #9b6e05; background: #a7771e; box-shadow: 0 0 0 3px rgba(167,119,30,.2); }
+.rating-filter-a { color: #244f69; border-color: #8bb6cd; background: #eaf5fa; }
+.rating-filter-a.is-selected { color: #fff; border-color: #23527a; background: #23527a; box-shadow: 0 0 0 3px rgba(35,82,122,.18); }
+.rating-filter-dot { width: 9px; height: 9px; border: 2px solid currentColor; border-radius: 50%; background: transparent; }
+.rating-filter-button.is-selected .rating-filter-dot { background: currentColor; box-shadow: inset 0 0 0 2px #fff; }
+.conference-rating-hint { display: block; margin-top: 6px; color: var(--muted); font-size: .62rem; line-height: 1.35; }
 .conference-controls input, .conference-controls select { width: 100%; height: 46px; padding: 0 13px; color: var(--navy); border: 1px solid var(--line); border-radius: 8px; background: var(--white); font: inherit; font-size: .83rem; }
 .conference-controls input:focus, .conference-controls select:focus { outline: 2px solid rgba(0,108,53,.24); outline-offset: 1px; border-color: var(--teal); }
 
