@@ -26,7 +26,7 @@
   "days": [
     {
       "date": "2026-10-12",
-      "generatedAt": "2026-10-12T00:54:53.949526+03:00",
+      "generatedAt": "2026-10-12T15:43:53.725192+03:00",
       "papers": [
         {
           "trackId": "retinal-ai",
@@ -95,20 +95,18 @@
         {
           "trackId": "trustworthy-ai",
           "trackName": "Trustworthy and Privacy-Preserving AI",
-          "title": "EIFL: Efficiently Protecting Global Model Privacy and Integrity Against an Untrusted Server in Federated Learning",
+          "title": "Quantization-Tolerant Gradient Auditing for Active Inference-Attack Detection in Federated Learning",
           "authors": [
-            "Zehui Liao",
-            "Qiang Li",
-            "Binghui Wang"
+            "Michael Kuehne-Schlinkert"
           ],
           "venue": "arXiv preprint",
           "venueId": "P01",
-          "publishedDate": "2026-10-08",
-          "url": "https://arxiv.org/abs/2610.11511",
+          "publishedDate": "2026-10-09",
+          "url": "https://arxiv.org/abs/2610.13311",
           "source": "arXiv",
-          "arxivId": "2610.11511",
-          "summary": "Federated learning (FL) typically adopts a server-client architecture, where the server aggregates clients' local models (i.e., the input) and returns the aggregated global model (i.e., the output) to clients. An untrusted server may return a tampered global model to compromise the output integrity. Some existing schemes focus on verifying the output integrity. However, these schemes mostly rely on clients pre-negotiating a set of identical auxiliary information among themselves and keeping it confidential from the server. This dependency creates a verification vulnerability: if the auxiliary information is leaked, the verification method may be circumvented. Additionally, in some privacy-sensitive scenarios (e.g., commercial federated learning), the global model may need to be kept confidential from an untrusted server. However, only a few works achieve the output privacy while addressing verification vulnerability, at the cost of prohibitive computation and communication overhead. To address these challenges simultaneously, we propose a novel provably privacy-preserving FL method called EIFL. Specifically, we adopt a two-stage aggregation and combine it with symmetric encryption to protect the output privacy. To address the verification vulnerability, we propose an efficient verification method based on vector inner product for output integrity, and a random vector generation method for clients to agree on auxiliary information. EIFL innovatively binds the auxiliary information to the output integrity, and eliminates the need to keep the auxiliary information confidential from the server. Moreover, EIFL is robust against client dropout during the verification phase through a simple resending operation. Evaluation results validate the advantages of EIFL over state-of-the-art schemes in terms of computation and communication overhead.",
-          "contribution": "Federated learning (FL) typically adopts a server-client architecture, where the server aggregates clients' local models (i.e., the input) and returns the aggregated global model (i.e., the output) to clients. An untrusted server may return a tampered global model to compromise the output integrity. Some existing schemes focus on verifying the output integrity. However, these schemes mostly rely on clients pre-negotiating a set of identical auxiliary information among themselves and keeping it confidential from the server. This dependency creates a verification vulnerability: if the auxiliary information is leaked, the verification method may be circumvented. Additionally, in some privacy-sensitive scenarios (e.g., commercial federated learning), the global model may need to be kept confidential from an untrusted server. However, only a few works achieve the output privacy while addressing verification vulnerability, at the cost of prohibitive computation and communication overhead. To address these challenges simultaneously, we propose a novel provably privacy-preserving FL method called EIFL. Specifically, we adopt a two-stage aggregation and combine it with symmetric encryption to protect the output privacy. To address the verification vulnerability, we propose an efficient verification method based on vector inner product for output integrity, and a random vector generation method for clients to agree on auxiliary information. EIFL innovatively binds the auxiliary information to the output integrity, and eliminates the need to keep the auxiliary information confidential from the server. Moreover, EIFL is robust against client dropout during the verification phase through a simple resending operation. Evaluation results validate the advantages of EIFL over state-of-the-art schemes in terms of computation and communication overhead.",
+          "arxivId": "2610.13311",
+          "summary": "Inside a federated learning system a participant can quietly study the shared model and learn about others' private data. The usual defense, differential privacy, often adds so much noise that the model is no longer worth training. In cross-silo FL, where participants are a few accountable organizations and the server is trusted, we ask whether the server can instead interrogate clients. Each round it sends a secret challenge batch and asks every client to return a checksum of the gradient that batch induces, together with a timing. A client that mutated the model state, as an active generative-adversarial-network discriminator attacker does, returns a wrong checksum. We make this checksum robust to benign cross-platform floating-point non-determinism with a quantized fingerprint compared under a small tolerance. It flags two distinct active attacks at a true-positive rate of $1.0$ with no false positives on the checksum axis, stable across the fingerprint's parameters and up to $50$ clients at malicious ratios to $40\\%$, for $32\\,\\mathrm{ms}$ of server work and $4.35\\,\\mathrm{kB}$ per response. Against a purely passive attacker the only signal is timing, and it is not robust: a cohort-relative test detects only in low-jitter conditions while a false-positive-free per-client baseline is blind, so no configuration delivers both. An attacker that answers the challenge on an untouched copy of the model while tampering with a replica evades the audit entirely. Therefore the checksum is a reliable in-band signal against attackers that do not decouple the audited computation from the attacked one, and it composes with differential privacy, whose accuracy cost we quantify on Texas100, rather than replacing it.",
+          "contribution": "Inside a federated learning system a participant can quietly study the shared model and learn about others' private data. The usual defense, differential privacy, often adds so much noise that the model is no longer worth training. In cross-silo FL, where participants are a few accountable organizations and the server is trusted, we ask whether the server can instead interrogate clients. Each round it sends a secret challenge batch and asks every client to return a checksum of the gradient that batch induces, together with a timing. A client that mutated the model state, as an active generative-adversarial-network discriminator attacker does, returns a wrong checksum. We make this checksum robust to benign cross-platform floating-point non-determinism with a quantized fingerprint compared under a small tolerance. It flags two distinct active attacks at a true-positive rate of $1.0$ with no false positives on the checksum axis, stable across the fingerprint's parameters and up to $50$ clients at malicious ratios to $40\\%$, for $32\\,\\mathrm{ms}$ of server work and $4.35\\,\\mathrm{kB}$ per response. Against a purely passive attacker the only signal is timing, and it is not robust: a cohort-relative test detects only in low-jitter conditions while a false-positive-free per-client baseline is blind, so no configuration delivers both. An attacker that answers the challenge on an untouched copy of the model while tampering with a replica evades the audit entirely. Therefore the checksum is a reliable in-band signal against attackers that do not decouple the audited computation from the attacked one, and it composes with differential privacy, whose accuracy cost we quantify on Texas100, rather than replacing it.",
           "methods": "Not stated in the abstract.",
           "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
           "limitations": "Not stated in the abstract."
@@ -116,20 +114,34 @@
         {
           "trackId": "medical-imaging",
           "trackName": "Medical Imaging and Multimodal Biomedical AI",
-          "title": "Quantifying Volumetric Risk: Class-Aware Asymmetric Weighted Conformal Prediction for 3D Medical Image Segmentation",
+          "title": "A4-MR: Abnormality-aware Anatomical Alignment for MR",
           "authors": [
-            "Shadi Alijani",
-            "Fereshteh Aghaee Meibodi",
-            "Homayoun Najjaran"
+            "Noel D'souza",
+            "Zhijian Yang",
+            "Nishank Singla",
+            "Pranay Doshi",
+            "Krisztian Koos",
+            "Fei Tan",
+            "Bruno Nunes",
+            "Laszlo Rusko",
+            "Bernadett Kolozsvari",
+            "Eszter Sabo",
+            "Emanuele Valeriano",
+            "Vikash Gupta",
+            "Seyed Iman Zare Estakhraji",
+            "Marc Lebel",
+            "Farzin Haddadpour",
+            "Taha Kass-Hout",
+            "Erhan Bas"
           ],
           "venue": "arXiv preprint",
           "venueId": "P01",
-          "publishedDate": "2026-10-07",
-          "url": "https://arxiv.org/abs/2610.09392",
+          "publishedDate": "2026-10-09",
+          "url": "https://arxiv.org/abs/2610.13056",
           "source": "arXiv",
-          "arxivId": "2610.09392",
-          "summary": "Reliable volumetric segmentation is critical for clinical diagnostics, yet foundation models such as MedSAM remain deterministic and lack calibrated uncertainty under distribution shift. Existing conformal prediction methods offer statistical guarantees but are frequently applied in 2D and assume symmetric error distributions, so they do not capture the class-specific biases that arise in 3D multi-class segmentation. We propose Class-Aware Asymmetric Weighted Conformal Prediction (CA-WCP), which combines latent-space density-ratio weighting for covariate shift with directional quantiles for the lower and upper volume bounds, and scales each bound by a class-specific asymmetry factor derived from validation-set false-positive and false-negative rates. We prove that CA-WCP retains the weighted-exchangeability marginal coverage guarantee for every class, and we evaluate it on 3D brain tumor segmentation (BraTS 2020) and on a synthetic multi-organ CT benchmark constructed under covariate shift. On both benchmarks the 95\\% Clopper--Pearson interval for the observed coverage of CA-WCP contains the nominal 90\\% level for every semantic class, while interval width is reduced by 8--14\\% relative to symmetric weighted conformal prediction. We further encode the calibrated intervals into structured prompts for a multimodal large language model to produce uncertainty-conditioned radiology reports, linking distribution-shift-aware uncertainty quantification to interpretable clinical communication.",
-          "contribution": "Reliable volumetric segmentation is critical for clinical diagnostics, yet foundation models such as MedSAM remain deterministic and lack calibrated uncertainty under distribution shift. Existing conformal prediction methods offer statistical guarantees but are frequently applied in 2D and assume symmetric error distributions, so they do not capture the class-specific biases that arise in 3D multi-class segmentation. We propose Class-Aware Asymmetric Weighted Conformal Prediction (CA-WCP), which combines latent-space density-ratio weighting for covariate shift with directional quantiles for the lower and upper volume bounds, and scales each bound by a class-specific asymmetry factor derived from validation-set false-positive and false-negative rates. We prove that CA-WCP retains the weighted-exchangeability marginal coverage guarantee for every class, and we evaluate it on 3D brain tumor segmentation (BraTS 2020) and on a synthetic multi-organ CT benchmark constructed under covariate shift. On both benchmarks the 95\\% Clopper--Pearson interval for the observed coverage of CA-WCP contains the nominal 90\\% level for every semantic class, while interval width is reduced by 8--14\\% relative to symmetric weighted conformal prediction. We further encode the calibrated intervals into structured prompts for a multimodal large language model to produce uncertainty-conditioned radiology reports, linking distribution-shift-aware uncertainty quantification to interpretable clinical communication.",
+          "arxivId": "2610.13056",
+          "summary": "Recent advances in large-scale foundation models have enabled strong generalization across a wide range of clinical and research tasks in magnetic resonance imaging (MRI). However, existing vision-language MRI models remain limited in anatomy-specific localization and pathology-aware representation, particularly in real-world settings. We introduce A4-MR, a 3D vision-language foundation model trained on approximately 50,000 MRI studies comprising 491,000 series, roughly half of which are paired with radiology reports. A4-MR is designed to: (1) learn anatomy localization through large-scale pretraining with noisy labels; (2) align image and text representations at the anatomical level; and (3) learn distinct representations of healthy and abnormal anatomy. Across a diverse set of downstream tasks, A4-MR outperforms existing foundation models, including a +1.7 AUROC improvement over MedSigLIP for abnormality detection. Using a frozen encoder, A4-MR also surpasses an end-to-end task-specific MedNeXt model for knee segmentation by +1.4 Dice and performs comparably to the best task-specific model for abdominal organ segmentation on AMOS, within 0.4 Dice. Finally, without anatomical prompts, A4-MR localizes 3D anatomy comparably to MedSAM2 provided with ground-truth bounding boxes. Together, these results demonstrate that anatomy-level multimodal alignment and abnormality-aware representation learning can enable a single MRI foundation model to support localization, segmentation, and pathology-related tasks.",
+          "contribution": "Recent advances in large-scale foundation models have enabled strong generalization across a wide range of clinical and research tasks in magnetic resonance imaging (MRI). However, existing vision-language MRI models remain limited in anatomy-specific localization and pathology-aware representation, particularly in real-world settings. We introduce A4-MR, a 3D vision-language foundation model trained on approximately 50,000 MRI studies comprising 491,000 series, roughly half of which are paired with radiology reports. A4-MR is designed to: (1) learn anatomy localization through large-scale pretraining with noisy labels; (2) align image and text representations at the anatomical level; and (3) learn distinct representations of healthy and abnormal anatomy. Across a diverse set of downstream tasks, A4-MR outperforms existing foundation models, including a +1.7 AUROC improvement over MedSigLIP for abnormality detection. Using a frozen encoder, A4-MR also surpasses an end-to-end task-specific MedNeXt model for knee segmentation by +1.4 Dice and performs comparably to the best task-specific model for abdominal organ segmentation on AMOS, within 0.4 Dice. Finally, without anatomical prompts, A4-MR localizes 3D anatomy comparably to MedSAM2 provided with ground-truth bounding boxes. Together, these results demonstrate that anatomy-level multimodal alignment and abnormality-aware representation learning can enable a single MRI foundation model to support localization, segmentation, and pathology-related tasks.",
           "methods": "Not stated in the abstract.",
           "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
           "limitations": "Not stated in the abstract."
@@ -137,20 +149,21 @@
         {
           "trackId": "medical-imaging",
           "trackName": "Medical Imaging and Multimodal Biomedical AI",
-          "title": "Multimodal integration of deep learning and radiomics enables early detection of subjective cognitive decline",
+          "title": "Phantom-based accuracy validation of multimodal ultrasound and C-arm cone-beam CT image fusion for spine navigation",
           "authors": [
-            "Zhuoyuan Li",
-            "Xingxing Cen",
-            "Junyi Yuan",
-            "Linhui Mi"
+            "Zerui Sun",
+            "Yingdong Hu",
+            "Yuyu Fan",
+            "Jiaxing Wang",
+            "Hongxing Song"
           ],
           "venue": "SPIE Medical Imaging",
           "venueId": "C04",
-          "publishedDate": "2026-10-11",
-          "url": "https://doi.org/10.1186/s12880-026-02893-0",
+          "publishedDate": "2026-10-12",
+          "url": "https://doi.org/10.1186/s12880-026-02889-w",
           "source": "Crossref",
-          "doi": "10.1186/s12880-026-02893-0",
-          "summary": "This paper examines Multimodal integration of deep learning and radiomics enables early detection of subjective cognitive decline.",
+          "doi": "10.1186/s12880-026-02889-w",
+          "summary": "This paper examines Phantom-based accuracy validation of multimodal ultrasound and C-arm cone-beam CT image fusion for spine navigation.",
           "contribution": "Not stated in the abstract.",
           "methods": "Not stated in the abstract.",
           "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
@@ -659,5 +672,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-12T00:54:53.949526+03:00"
+  "updatedAt": "2026-10-12T15:43:53.725192+03:00"
 }
