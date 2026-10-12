@@ -497,11 +497,13 @@
           "name": "Trustworthy and Privacy-Preserving AI"
         }
       ],
-      "officialUrl": "https://icml.cc/Conferences/FutureMeetings",
+      "officialUrl": "https://icml.cc/Conferences/2026",
       "nextDateText": "Not announced (2027)",
-      "yearHint": 2027,
-      "location": "South America (city/country not announced)",
-      "dateStatus": "pending"
+      "yearHint": 2026,
+      "location": "Seoul, South Korea",
+      "dateStatus": "scheduled",
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-11"
     },
     {
       "id": "conf-20",
@@ -2576,10 +2578,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://mwscas2026.org/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Cincinnati, Ohio, United States",
+      "dateStatus": "scheduled",
+      "startDate": "2026-08-09",
+      "endDate": "2026-08-12",
+      "yearHint": 2026
     },
     {
       "id": "conf-109",
@@ -2596,10 +2601,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://conf.researchr.org/home/RE-2026",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Montréal, Canada",
+      "dateStatus": "scheduled",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-21",
+      "yearHint": 2026
     },
     {
       "id": "conf-110",
@@ -2720,10 +2728,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://ieee-cas.org/event/conference/2026-39th-ieee-international-system-chip-conference",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Heidelberg, Germany",
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-30",
+      "endDate": "2026-10-02",
+      "yearHint": 2026
     },
     {
       "id": "conf-116",
