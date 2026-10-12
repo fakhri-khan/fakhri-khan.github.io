@@ -1201,8 +1201,11 @@
         }
       ],
       "officialUrl": "https://cisisconference.eu/",
-      "nextDateText": "Date to be announced",
-      "dateStatus": "pending"
+      "dateStatus": "scheduled",
+      "startDate": "2026-06-18",
+      "endDate": "2026-06-19",
+      "yearHint": 2026,
+      "location": "Marbella, Spain"
     },
     {
       "id": "conf-46",
@@ -3335,10 +3338,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://ksiresearch.org/seke/sekeproc.html",
+      "location": "Toronto, Canada (in person) and online",
+      "dateStatus": "scheduled",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-07",
+      "yearHint": 2026
     },
     {
       "id": "conf-142",
@@ -3407,8 +3412,8 @@
     },
     {
       "id": "conf-145",
-      "name": "International Conference on Ubiquitous Robots and Ambient Intelligence, URAI",
-      "shortName": "URAI",
+      "name": "International Conference on Ubiquitous Robots (formerly URAI)",
+      "shortName": "UR",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -3420,10 +3425,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://2026.ubiquitousrobots.org/",
+      "location": "Ibaraki, Osaka, Japan",
+      "dateStatus": "scheduled",
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-18",
+      "yearHint": 2026
     },
     {
       "id": "conf-146",
@@ -3596,10 +3603,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://iwcmc.net/2026/",
+      "location": "Shanghai, China",
+      "dateStatus": "scheduled",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-06",
+      "yearHint": 2026
     },
     {
       "id": "conf-154",
@@ -4309,10 +4318,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.icecet.com/2026/",
+      "location": "Rome, Italy",
+      "dateStatus": "scheduled",
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-09",
+      "yearHint": 2026
     },
     {
       "id": "conf-187",
