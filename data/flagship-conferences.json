@@ -856,11 +856,13 @@
           "name": "Post-Quantum Cryptography and Embedded Systems Security"
         }
       ],
-      "officialUrl": "https://crypto.iacr.org/2027/",
+      "officialUrl": "https://crypto.iacr.org/2026/",
       "nextDateText": "Not announced (2027)",
-      "yearHint": 2027,
-      "location": "Santa Barbara, California, USA",
-      "dateStatus": "pending"
+      "yearHint": 2026,
+      "location": "Santa Barbara, California, United States",
+      "dateStatus": "scheduled",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-20"
     },
     {
       "id": "conf-33",
@@ -921,9 +923,13 @@
           "name": "Post-Quantum Cryptography and Embedded Systems Security"
         }
       ],
-      "officialUrl": "https://iacr.org/workshops/tcc/",
+      "officialUrl": "https://tcc.iacr.org/2026/",
       "nextDateText": "Date to be announced",
-      "dateStatus": "pending"
+      "dateStatus": "scheduled",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-13",
+      "yearHint": 2026,
+      "location": "New York City, United States"
     },
     {
       "id": "conf-36",
@@ -2714,10 +2720,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://www.ubicomp.org/ubicomp-iswc-2026/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Shanghai, China",
+      "dateStatus": "scheduled",
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-15",
+      "yearHint": 2026
     },
     {
       "id": "conf-115",
@@ -4505,10 +4514,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://ec26.sigecom.org/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Rome, Italy",
+      "dateStatus": "scheduled",
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-10",
+      "yearHint": 2026
     }
   ]
 }
