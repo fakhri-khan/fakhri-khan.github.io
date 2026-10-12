@@ -2251,7 +2251,7 @@
       "id": "conf-92",
       "name": "IADIS International Conference on Applied Computing",
       "shortName": "IADIS AC",
-      "organizer": "",
+      "organizer": "International Association for Development of the Information Society (IADIS)",
       "rating": "A",
       "trackIds": [
         "Misc"
@@ -2262,10 +2262,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.computing-conf.org/",
+      "nextDateText": "October 24–26, 2026",
+      "location": "Lisbon, Portugal",
+      "dateStatus": "scheduled",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-26",
+      "yearHint": 2026
     },
     {
       "id": "conf-93",
@@ -3351,9 +3354,9 @@
     },
     {
       "id": "conf-142",
-      "name": "International Conference on Software Reuse",
-      "shortName": "SR",
-      "organizer": "",
+      "name": "International Conference on Software and Systems Reuse, Product Lines, and Configuration",
+      "shortName": "VARIABILITY (ICSR)",
+      "organizer": "VARIABILITY 2026 Organizing Committee",
       "rating": "A*",
       "trackIds": [
         "Misc"
@@ -3364,10 +3367,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/variability-2026",
+      "nextDateText": "September 29–October 2, 2026",
+      "location": "Limassol, Cyprus",
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-29",
+      "endDate": "2026-10-02",
+      "yearHint": 2026
     },
     {
       "id": "conf-143",
@@ -4367,7 +4373,7 @@
       "id": "conf-188",
       "name": "The International Conference on Information Systems Development (ISD)",
       "shortName": "ISD",
-      "organizer": "",
+      "organizer": "Czech Technical University in Prague",
       "rating": "A",
       "trackIds": [
         "Misc"
@@ -4378,10 +4384,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://isd2026.ksi.fit.cvut.cz/",
+      "nextDateText": "September 2–4, 2026",
+      "location": "Prague, Czechia",
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-04",
+      "yearHint": 2026
     },
     {
       "id": "conf-189",
