@@ -2091,10 +2091,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://fmcad.org/FMCAD26/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Graz, Austria",
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-18",
+      "yearHint": 2026
     },
     {
       "id": "conf-86",
@@ -3360,10 +3363,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://sites.google.com/view/cpaior2026/home",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Rabat, Morocco",
+      "dateStatus": "scheduled",
+      "startDate": "2026-05-26",
+      "endDate": "2026-05-29",
+      "yearHint": 2026
     },
     {
       "id": "conf-145",
@@ -3400,10 +3406,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://event.asme.org/IDETC-CIE-2026",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Houston, Texas, United States",
+      "dateStatus": "scheduled",
+      "startDate": "2026-08-23",
+      "endDate": "2026-08-26",
+      "yearHint": 2026
     },
     {
       "id": "conf-147",
@@ -3484,10 +3493,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://isfpga.org/past/fpga2026/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Seaside, California, United States",
+      "dateStatus": "scheduled",
+      "startDate": "2026-02-22",
+      "endDate": "2026-02-24",
+      "yearHint": 2026
     },
     {
       "id": "conf-151",
