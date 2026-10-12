@@ -1970,10 +1970,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.esann.org/",
+      "location": "Bruges, Belgium",
+      "dateStatus": "scheduled",
+      "startDate": "2027-04-21",
+      "endDate": "2027-04-23",
+      "yearHint": 2027
     },
     {
       "id": "conf-80",
@@ -2546,7 +2548,7 @@
     {
       "id": "conf-106",
       "name": "IEEE International Conference on Software Maintenance and Evolution",
-      "shortName": "SME",
+      "shortName": "ICSME",
       "organizer": "",
       "rating": "A*",
       "trackIds": [
@@ -2558,10 +2560,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/icsme-2026",
+      "location": "Benevento, Italy",
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-18",
+      "yearHint": 2026
     },
     {
       "id": "conf-107",
@@ -2633,8 +2637,8 @@
     },
     {
       "id": "conf-110",
-      "name": "IEEE International Symposium on Computer Architecture and High Performance Computing",
-      "shortName": "CAHPC",
+      "name": "IEEE/SBC International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD)",
+      "shortName": "SBAC-PAD",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -2646,10 +2650,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://coco-arcos.github.io/sbac-pad2026/",
+      "location": "Madrid, Spain",
+      "dateStatus": "scheduled",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-16",
+      "yearHint": 2026
     },
     {
       "id": "conf-111",
@@ -2710,10 +2716,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.nca-ieee.org/2026/",
+      "location": "Syracuse, Sicily, Italy",
+      "dateStatus": "scheduled",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-13",
+      "yearHint": 2026
     },
     {
       "id": "conf-114",
@@ -3262,8 +3270,8 @@
     },
     {
       "id": "conf-139",
-      "name": "International Conference on Software Architecture (was previously WICSA)",
-      "shortName": "WICSA",
+      "name": "International Conference on Software Architecture (formerly WICSA)",
+      "shortName": "ICSA",
       "organizer": "",
       "rating": "A*",
       "trackIds": [
@@ -3275,10 +3283,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/icsa-2027",
+      "location": "Sydney, Australia",
+      "dateStatus": "scheduled",
+      "startDate": "2027-03-08",
+      "endDate": "2027-03-12",
+      "yearHint": 2027
     },
     {
       "id": "conf-140",
@@ -4412,10 +4422,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.auai.org/uai2026/",
+      "location": "Amsterdam, The Netherlands",
+      "dateStatus": "scheduled",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-21",
+      "yearHint": 2026
     },
     {
       "id": "conf-193",
@@ -4442,7 +4454,7 @@
     {
       "id": "conf-194",
       "name": "USENIX Symposium on Operating Systems Design and Implementation",
-      "shortName": "UOSDI",
+      "shortName": "OSDI",
       "organizer": "",
       "rating": "A*",
       "trackIds": [
@@ -4454,10 +4466,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.usenix.org/conference/osdi27",
+      "location": "Baltimore, Maryland, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-07",
+      "endDate": "2027-07-09",
+      "yearHint": 2027
     },
     {
       "id": "conf-195",
