@@ -1999,9 +1999,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://dsd-seaa.com/seaa2026/",
-      "dateStatus": "to-be-confirmed",
-      "nextDateText": "Next occurrence not announced"
+      "officialUrl": "https://www.euromicro.org/cms/index.php/events-and-conferences/seaa",
+      "dateStatus": "scheduled",
+      "startDate": "2027-09-01",
+      "endDate": "2027-09-03",
+      "yearHint": 2027,
+      "location": "Graz, Austria"
     },
     {
       "id": "conf-82",
@@ -2947,8 +2950,11 @@
         }
       ],
       "officialUrl": "https://www.aied-conference.org/",
-      "nextDateText": "Next occurrence not announced",
-      "dateStatus": "to-be-confirmed"
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-18",
+      "endDate": "2027-07-23",
+      "yearHint": 2027,
+      "location": "Adelaide, Australia"
     },
     {
       "id": "conf-126",
@@ -3460,7 +3466,8 @@
       ],
       "officialUrl": "https://conf.researchr.org/home/eseiw-2026",
       "dateStatus": "to-be-confirmed",
-      "nextDateText": "Next occurrence not announced"
+      "nextDateText": "2027 edition; dates and location not announced",
+      "yearHint": 2027
     },
     {
       "id": "conf-150",
