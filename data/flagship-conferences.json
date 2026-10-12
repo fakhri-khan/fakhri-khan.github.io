@@ -136,7 +136,7 @@
     },
     {
       "id": "conf-05",
-      "name": "ICPR : International Conference on Pattern Recognition",
+      "name": "ICPR: International Conference on Pattern Recognition",
       "shortName": "ICPR",
       "organizer": "IEEE",
       "rating": "A*",
@@ -155,10 +155,11 @@
         }
       ],
       "officialUrl": "https://icpr2028.org/",
-      "nextDateText": "Dates to be announced for 2028",
-      "dateStatus": "pending",
+      "dateStatus": "scheduled",
       "yearHint": 2028,
-      "location": "Sydney, Australia"
+      "location": "Sydney, Australia",
+      "startDate": "2028-08-20",
+      "endDate": "2028-08-24"
     },
     {
       "id": "conf-06",
@@ -415,8 +416,9 @@
         }
       ],
       "officialUrl": "https://caip2025.com/",
-      "nextDateText": "Date to be announced",
-      "dateStatus": "pending"
+      "nextDateText": "Expected in 2027; exact dates and location are not announced",
+      "dateStatus": "pending",
+      "yearHint": 2027
     },
     {
       "id": "conf-17",
@@ -1187,9 +1189,12 @@
           "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
         }
       ],
-      "officialUrl": "https://cisisconference.eu/",
-      "dateStatus": "to-be-confirmed",
-      "nextDateText": "Next occurrence not announced"
+      "officialUrl": "https://voyager.ce.fit.ac.jp/conf/cisis/2027/",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-07",
+      "endDate": "2027-07-09",
+      "yearHint": 2027,
+      "location": "Kitakyushu, Japan"
     },
     {
       "id": "conf-46",
@@ -1490,10 +1495,9 @@
         }
       ],
       "officialUrl": "https://www.acm.org/data-science-summit",
-      "nextDateText": "Date and venue to be confirmed",
+      "nextDateText": "No next edition announced",
       "location": "",
-      "dateStatus": "to-be-confirmed",
-      "yearHint": 2027
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-59",
@@ -1708,9 +1712,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://sbsi.sbc.org.br/2026/",
-      "nextDateText": "Next occurrence not announced",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://sbsi.sbc.org.br/2027/",
+      "dateStatus": "scheduled",
+      "startDate": "2027-05-17",
+      "endDate": "2027-05-20",
+      "yearHint": 2027,
+      "location": "Campo Grande, Mato Grosso do Sul, Brazil"
     },
     {
       "id": "conf-69",
@@ -2726,8 +2733,10 @@
         }
       ],
       "officialUrl": "https://ieee-cas.org/event/conference/2026-39th-ieee-international-system-chip-conference",
-      "nextDateText": "Next occurrence not announced",
-      "dateStatus": "to-be-confirmed"
+      "nextDateText": "September 2027; exact dates to be announced",
+      "dateStatus": "to-be-confirmed",
+      "yearHint": 2027,
+      "location": "Las Vegas, Nevada, USA"
     },
     {
       "id": "conf-116",
@@ -2744,11 +2753,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://conf.researchr.org/home/msr-2027",
-      "nextDateText": "Dates to be announced for 2027",
-      "dateStatus": "pending",
+      "officialUrl": "https://2027.msrconf.org/",
+      "dateStatus": "scheduled",
       "yearHint": 2027,
-      "location": "Dublin, Ireland"
+      "location": "Dublin, Ireland",
+      "startDate": "2027-04-26",
+      "endDate": "2027-04-27"
     },
     {
       "id": "conf-117",
@@ -3022,9 +3032,11 @@
         }
       ],
       "officialUrl": "https://iceis.scitevents.org/Home.aspx?y=2027",
-      "nextDateText": "Dates and location to be announced for 2027",
-      "dateStatus": "pending",
-      "yearHint": 2027
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-04-20",
+      "endDate": "2027-04-22",
+      "location": "Rome, Italy"
     },
     {
       "id": "conf-130",
@@ -3126,9 +3138,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://xn--80ae1bo.xn--p1ai/2026/",
-      "dateStatus": "to-be-confirmed",
-      "nextDateText": "Next occurrence not announced"
+      "officialUrl": "https://xn--80ae1bo.xn--p1ai/2027/",
+      "dateStatus": "scheduled",
+      "startDate": "2027-04-06",
+      "endDate": "2027-04-08",
+      "yearHint": 2027,
+      "location": "Moscow, Russia"
     },
     {
       "id": "conf-135",
@@ -3336,9 +3351,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://sites.google.com/view/cpaior2026/home",
-      "nextDateText": "Next occurrence not announced",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://sites.google.com/view/cpaior2027/",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-01",
+      "endDate": "2027-06-04",
+      "yearHint": 2027,
+      "location": "Toulouse, France"
     },
     {
       "id": "conf-145",
@@ -3459,9 +3477,11 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://isfpga.org/past/fpga2026/",
-      "nextDateText": "Next occurrence not announced",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://isfpga.org/",
+      "nextDateText": "2027 edition confirmed; city and dates to be announced",
+      "dateStatus": "to-be-confirmed",
+      "yearHint": 2027,
+      "location": "California, USA"
     },
     {
       "id": "conf-151",
@@ -3522,9 +3542,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://iwcmc.net/2026/",
-      "dateStatus": "to-be-confirmed",
-      "nextDateText": "Next occurrence not announced"
+      "officialUrl": "https://iwcmc.org/2027/",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-13",
+      "endDate": "2027-06-18",
+      "yearHint": 2027,
+      "location": "Barcelona, Spain"
     },
     {
       "id": "conf-154",
@@ -3755,9 +3778,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://pacis2026.aisconferences.org/",
-      "nextDateText": "Next occurrence not announced",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://pacis2027.aisconferences.org/",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-05",
+      "endDate": "2027-07-09",
+      "yearHint": 2027,
+      "location": "Auckland, New Zealand"
     },
     {
       "id": "conf-165",
@@ -4226,9 +4252,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://www.icecet.com/2026/",
-      "dateStatus": "to-be-confirmed",
-      "nextDateText": "Next occurrence not announced"
+      "officialUrl": "https://www.icecet.com/home",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-09",
+      "endDate": "2027-07-12",
+      "yearHint": 2027,
+      "location": "",
+      "nextDateText": "Dates announced for 9–12 July 2027; location not confirmed"
     },
     {
       "id": "conf-187",
@@ -4245,9 +4275,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://www.i-somet.org/iea-aie2026/",
-      "dateStatus": "to-be-confirmed",
-      "nextDateText": "Next occurrence not announced"
+      "officialUrl": "https://www.i-somet.org/iea-aie2027/",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-20",
+      "endDate": "2027-07-22",
+      "yearHint": 2027,
+      "location": "Naples, Italy"
     },
     {
       "id": "conf-188",
@@ -4264,9 +4297,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://isd2026.ksi.fit.cvut.cz/",
-      "nextDateText": "Next occurrence not announced",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://isd2027.kau.se/",
+      "dateStatus": "scheduled",
+      "startDate": "2027-08-23",
+      "endDate": "2027-08-25",
+      "yearHint": 2027,
+      "location": "Karlstad, Sweden"
     },
     {
       "id": "conf-189",
