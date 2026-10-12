@@ -154,13 +154,11 @@
           "name": "Retinal AI and Computational Ophthalmology"
         }
       ],
-      "officialUrl": "https://icpr2026.org/",
-      "nextDateText": "Date to be announced",
-      "dateStatus": "scheduled",
-      "startDate": "2026-08-17",
-      "endDate": "2026-08-22",
-      "yearHint": 2026,
-      "location": "Lyon, France"
+      "officialUrl": "https://icpr2028.org/",
+      "nextDateText": "Dates to be announced for 2028",
+      "dateStatus": "pending",
+      "yearHint": 2028,
+      "location": "Sydney, Australia"
     },
     {
       "id": "conf-06",
@@ -236,13 +234,10 @@
           "name": "Retinal AI and Computational Ophthalmology"
         }
       ],
-      "officialUrl": "https://eccv.ecva.net/Conferences/2026",
-      "nextDateText": "Date to be announced",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-08",
-      "endDate": "2026-09-12",
-      "yearHint": 2026,
-      "location": "Malmö, Sweden"
+      "officialUrl": "https://eccv.ecva.net/",
+      "nextDateText": "Expected in 2028; dates and location to be announced",
+      "dateStatus": "pending",
+      "yearHint": 2028
     },
     {
       "id": "conf-09",
@@ -497,13 +492,11 @@
           "name": "Trustworthy and Privacy-Preserving AI"
         }
       ],
-      "officialUrl": "https://icml.cc/Conferences/2026",
-      "nextDateText": "Not announced (2027)",
-      "yearHint": 2026,
-      "location": "Seoul, South Korea",
-      "dateStatus": "scheduled",
-      "startDate": "2026-07-06",
-      "endDate": "2026-07-11"
+      "officialUrl": "https://icml.cc/Conferences/FutureMeetings",
+      "nextDateText": "2027, dates and city to be announced",
+      "dateStatus": "pending",
+      "yearHint": 2027,
+      "location": "South America (city to be announced)"
     },
     {
       "id": "conf-20",
@@ -856,13 +849,11 @@
           "name": "Post-Quantum Cryptography and Embedded Systems Security"
         }
       ],
-      "officialUrl": "https://crypto.iacr.org/2026/",
-      "nextDateText": "Not announced (2027)",
-      "yearHint": 2026,
-      "location": "Santa Barbara, California, United States",
-      "dateStatus": "scheduled",
-      "startDate": "2026-08-17",
-      "endDate": "2026-08-20"
+      "officialUrl": "https://crypto.iacr.org/2027/",
+      "nextDateText": "Dates to be announced for 2027",
+      "dateStatus": "pending",
+      "yearHint": 2027,
+      "location": "Santa Barbara, California, USA"
     },
     {
       "id": "conf-33",
@@ -979,12 +970,8 @@
         }
       ],
       "officialUrl": "https://esweek.org/emsoft/",
-      "nextDateText": "Date to be announced",
-      "dateStatus": "scheduled",
-      "startDate": "2026-10-04",
-      "endDate": "2026-10-09",
-      "yearHint": 2026,
-      "location": "Barcelona, Spain"
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-38",
@@ -1201,11 +1188,8 @@
         }
       ],
       "officialUrl": "https://cisisconference.eu/",
-      "dateStatus": "scheduled",
-      "startDate": "2026-06-18",
-      "endDate": "2026-06-19",
-      "yearHint": 2026,
-      "location": "Marbella, Spain"
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-46",
@@ -1223,11 +1207,8 @@
         }
       ],
       "officialUrl": "https://euvip2026.github.io/",
-      "dateStatus": "scheduled",
-      "yearHint": 2026,
-      "startDate": "2026-09-28",
-      "endDate": "2026-10-01",
-      "location": "Luxembourg City, Luxembourg"
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-47",
@@ -1375,11 +1356,8 @@
         }
       ],
       "officialUrl": "https://capsi2026.apsi.pt/",
-      "dateStatus": "scheduled",
-      "yearHint": 2026,
-      "startDate": "2026-10-08",
-      "endDate": "2026-10-10",
-      "location": "Coimbra, Portugal"
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-53",
@@ -1541,8 +1519,8 @@
     },
     {
       "id": "conf-60",
-      "name": "ACM/SPIE Multimedia Computing and Networking",
-      "shortName": "MMCN",
+      "name": "ACM Multimedia Systems Conference (MMSys; successor to MMCN)",
+      "shortName": "MMSys",
       "organizer": "ACM / SPIE",
       "rating": "A*",
       "trackIds": [
@@ -1554,10 +1532,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://2027.acmmmsys.org/",
+      "location": "Ghent, Belgium",
+      "dateStatus": "scheduled",
+      "startDate": "2027-03-30",
+      "endDate": "2027-04-02",
+      "yearHint": 2027
     },
     {
       "id": "conf-61",
@@ -1596,7 +1576,7 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://ifipaiai.org/2026/",
+      "officialUrl": "https://ifipaiai.org/2027/",
       "location": "Rome, Italy",
       "dateStatus": "scheduled",
       "yearHint": 2027,
@@ -1618,12 +1598,11 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://sites.ohio.edu/mwais/",
-      "location": "Athens, Ohio, USA",
-      "dateStatus": "scheduled",
-      "yearHint": 2026,
-      "startDate": "2026-05-21",
-      "endDate": "2026-05-22"
+      "officialUrl": "https://communities.aisnet.org/mwais/conferences/future-conferences",
+      "dateStatus": "pending",
+      "nextDateText": "Dates to be announced for 2027",
+      "yearHint": 2027,
+      "location": "Springfield, Illinois, USA"
     },
     {
       "id": "conf-64",
@@ -1730,12 +1709,8 @@
         }
       ],
       "officialUrl": "https://sbsi.sbc.org.br/2026/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Vitória, Brazil",
-      "dateStatus": "scheduled",
-      "startDate": "2026-05-25",
-      "endDate": "2026-05-28",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-69",
@@ -2018,11 +1993,8 @@
         }
       ],
       "officialUrl": "https://dsd-seaa.com/seaa2026/",
-      "location": "Kraków, Poland",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-02",
-      "endDate": "2026-09-04",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-82",
@@ -2106,12 +2078,8 @@
         }
       ],
       "officialUrl": "https://fmcad.org/FMCAD26/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Graz, Austria",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-14",
-      "endDate": "2026-09-18",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-86",
@@ -2181,9 +2149,9 @@
     },
     {
       "id": "conf-89",
-      "name": "Fundamental Approaches to Software Engineering",
-      "shortName": "FASE",
-      "organizer": "",
+      "name": "Integrated Formal Methods and Software Engineering (iFS, successor to FASE/iFM)",
+      "shortName": "iFS (FASE/iFM)",
+      "organizer": "ETAPS 2027",
       "rating": "A*",
       "trackIds": [
         "Misc"
@@ -2194,13 +2162,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://etaps.org/2026/conferences/fase/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Turin, Italy",
+      "officialUrl": "https://etaps.org/2027/",
       "dateStatus": "scheduled",
-      "startDate": "2026-04-13",
-      "endDate": "2026-04-16",
-      "yearHint": 2026
+      "startDate": "2027-04-12",
+      "endDate": "2027-04-15",
+      "yearHint": 2027,
+      "location": "Copenhagen, Denmark"
     },
     {
       "id": "conf-90",
@@ -2239,13 +2206,9 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://hpdc.sci.utah.edu/2026/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Cleveland, Ohio, United States",
-      "dateStatus": "scheduled",
-      "startDate": "2026-07-13",
-      "endDate": "2026-07-16",
-      "yearHint": 2026
+      "officialUrl": "https://hpdc.org/",
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-92",
@@ -2285,7 +2248,7 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://iadisportal.org/conferences",
       "nextDateText": "Date and venue to be confirmed",
       "location": "",
       "dateStatus": "to-be-confirmed"
@@ -2327,13 +2290,10 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://e-nns.org/icann2026/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Padua, Italy",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-14",
-      "endDate": "2026-09-17",
-      "yearHint": 2026
+      "officialUrl": "https://e-nns.org/icanns/",
+      "nextDateText": "2027, dates and location to be announced",
+      "dateStatus": "pending",
+      "yearHint": 2027
     },
     {
       "id": "conf-96",
@@ -2439,11 +2399,10 @@
         }
       ],
       "officialUrl": "https://www.ieeelcn.org/",
-      "location": "Coimbra, Portugal",
-      "dateStatus": "scheduled",
-      "yearHint": 2026,
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-09"
+      "dateStatus": "pending",
+      "nextDateText": "Dates to be announced for 2027",
+      "yearHint": 2027,
+      "location": "Daytona Beach, Florida, USA"
     },
     {
       "id": "conf-101",
@@ -2513,8 +2472,8 @@
     },
     {
       "id": "conf-104",
-      "name": "IEEE International Conference on Multimedia Computing and Systems",
-      "shortName": "MCS",
+      "name": "IEEE International Conference on Multimedia Computing and Systems (ICMCS)",
+      "shortName": "ICMCS",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -2526,7 +2485,7 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://ieeexplore.ieee.org/xpl/conhome/1000479/all-proceedings",
       "nextDateText": "Date and venue to be confirmed",
       "location": "",
       "dateStatus": "to-be-confirmed"
@@ -2568,12 +2527,11 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://conf.researchr.org/home/icsme-2026",
-      "location": "Benevento, Italy",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-14",
-      "endDate": "2026-09-18",
-      "yearHint": 2026
+      "officialUrl": "https://conf.researchr.org/home/icsme-2027",
+      "dateStatus": "pending",
+      "nextDateText": "Dates to be announced for 2027",
+      "yearHint": 2027,
+      "location": "Toronto, Canada"
     },
     {
       "id": "conf-107",
@@ -2590,12 +2548,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://www.ieeesmc2026.org/",
-      "location": "Bellevue, Washington, USA",
+      "officialUrl": "https://www.ieee-smc2027.org/",
       "dateStatus": "scheduled",
-      "yearHint": 2026,
-      "startDate": "2026-10-04",
-      "endDate": "2026-10-07"
+      "startDate": "2027-10-06",
+      "endDate": "2027-10-10",
+      "yearHint": 2027,
+      "location": "Ho Chi Minh City, Vietnam"
     },
     {
       "id": "conf-108",
@@ -2612,13 +2570,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://mwscas2026.org/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Cincinnati, Ohio, United States",
+      "officialUrl": "https://ieee-cas.org/event/conference/2027-ieee-international-midwest-symposium-circuits-and-systems",
       "dateStatus": "scheduled",
-      "startDate": "2026-08-09",
-      "endDate": "2026-08-12",
-      "yearHint": 2026
+      "startDate": "2027-08-08",
+      "endDate": "2027-08-12",
+      "yearHint": 2027,
+      "location": "Lafayette, Louisiana, USA"
     },
     {
       "id": "conf-109",
@@ -2635,13 +2592,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://conf.researchr.org/home/RE-2026",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Montréal, Canada",
+      "officialUrl": "https://conf.researchr.org/home/RE-2027",
       "dateStatus": "scheduled",
-      "startDate": "2026-08-17",
-      "endDate": "2026-08-21",
-      "yearHint": 2026
+      "startDate": "2027-08-23",
+      "endDate": "2027-08-27",
+      "yearHint": 2027,
+      "location": "Milan, Italy"
     },
     {
       "id": "conf-110",
@@ -2770,12 +2726,8 @@
         }
       ],
       "officialUrl": "https://ieee-cas.org/event/conference/2026-39th-ieee-international-system-chip-conference",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Heidelberg, Germany",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-30",
-      "endDate": "2026-10-02",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-116",
@@ -2792,13 +2744,11 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://2026.msrconf.org/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Rio de Janeiro, Brazil",
-      "dateStatus": "scheduled",
-      "startDate": "2026-04-13",
-      "endDate": "2026-04-14",
-      "yearHint": 2026
+      "officialUrl": "https://conf.researchr.org/home/msr-2027",
+      "nextDateText": "Dates to be announced for 2027",
+      "dateStatus": "pending",
+      "yearHint": 2027,
+      "location": "Dublin, Ireland"
     },
     {
       "id": "conf-117",
@@ -2816,11 +2766,8 @@
         }
       ],
       "officialUrl": "https://2026.flins.cc/",
-      "location": "Sydney, Australia",
-      "dateStatus": "scheduled",
-      "startDate": "2026-07-15",
-      "endDate": "2026-07-19",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-118",
@@ -2934,8 +2881,8 @@
     },
     {
       "id": "conf-123",
-      "name": "International Conference of Software and Systems Process",
-      "shortName": "SSP",
+      "name": "International Conference on Software and Systems Process (ICSSP)",
+      "shortName": "ICSSP",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -2947,15 +2894,15 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
+      "officialUrl": "https://isspa-process.org/",
+      "nextDateText": "Next occurrence not announced",
       "location": "",
       "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-124",
-      "name": "International Conference on Architecture of Computing Systems",
-      "shortName": "ACS",
+      "name": "International Conference on Architecture of Computing Systems (ARCS)",
+      "shortName": "ARCS",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -2967,13 +2914,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://arcs-conference.org/history/arcs-2026/home",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Mainz, Germany",
+      "officialUrl": "https://arcs-conference.org/2027/",
       "dateStatus": "scheduled",
-      "startDate": "2026-03-24",
-      "endDate": "2026-03-26",
-      "yearHint": 2026
+      "startDate": "2027-03-09",
+      "endDate": "2027-03-11",
+      "yearHint": 2027,
+      "location": "Magdeburg, Germany"
     },
     {
       "id": "conf-125",
@@ -2991,12 +2937,8 @@
         }
       ],
       "officialUrl": "https://www.aied-conference.org/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Seoul, South Korea",
-      "dateStatus": "scheduled",
-      "startDate": "2026-06-27",
-      "endDate": "2026-07-03",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-126",
@@ -3035,12 +2977,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://icccn.org/ICCCN26/index.html",
-      "location": "Honolulu, Hawaii, USA",
+      "officialUrl": "https://www.icccn.org/ICCCN27/",
       "dateStatus": "scheduled",
-      "startDate": "2026-07-27",
-      "endDate": "2026-07-30",
-      "yearHint": 2026
+      "startDate": "2027-07-12",
+      "endDate": "2027-07-15",
+      "yearHint": 2027,
+      "location": "Rome, Italy"
     },
     {
       "id": "conf-128",
@@ -3057,13 +2999,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://www.conf-icnc.org/2026/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Honolulu, Hawaii, United States",
+      "officialUrl": "https://www.conf-icnc.org/2027/",
       "dateStatus": "scheduled",
-      "startDate": "2026-02-17",
-      "endDate": "2026-02-20",
-      "yearHint": 2026
+      "startDate": "2027-02-15",
+      "endDate": "2027-02-18",
+      "yearHint": 2027,
+      "location": "Honolulu, Hawaii, USA"
     },
     {
       "id": "conf-129",
@@ -3080,13 +3021,10 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://iceis.scitevents.org/Home.aspx?y=2026",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Benidorm, Spain",
-      "dateStatus": "scheduled",
-      "startDate": "2026-05-22",
-      "endDate": "2026-05-24",
-      "yearHint": 2026
+      "officialUrl": "https://iceis.scitevents.org/Home.aspx?y=2027",
+      "nextDateText": "Dates and location to be announced for 2027",
+      "dateStatus": "pending",
+      "yearHint": 2027
     },
     {
       "id": "conf-130",
@@ -3148,11 +3086,8 @@
         }
       ],
       "officialUrl": "https://2026.fpl.org/",
-      "location": "Ghent, Belgium",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-07",
-      "endDate": "2026-09-11",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-133",
@@ -3192,11 +3127,8 @@
         }
       ],
       "officialUrl": "https://xn--80ae1bo.xn--p1ai/2026/",
-      "location": "Ufa, Russia",
-      "dateStatus": "scheduled",
-      "startDate": "2026-04-07",
-      "endDate": "2026-04-09",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-135",
@@ -3213,18 +3145,17 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://qomex2026.itec.aau.at/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Cardiff, Wales, United Kingdom",
+      "officialUrl": "https://qomex2027.itec.aau.at/",
       "dateStatus": "scheduled",
-      "startDate": "2026-06-29",
-      "endDate": "2026-07-03",
-      "yearHint": 2026
+      "startDate": "2027-07-06",
+      "endDate": "2027-07-09",
+      "yearHint": 2027,
+      "location": "Shanghai, China"
     },
     {
       "id": "conf-136",
-      "name": "International Conference on Quality Software",
-      "shortName": "QS",
+      "name": "International Conference on Software Quality, Reliability, and Security (QRS; successor to QSIC)",
+      "shortName": "QRS",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -3236,15 +3167,16 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
+      "officialUrl": "https://qrs26.techconf.org/",
+      "nextDateText": "Dates and location to be announced for 2027",
       "location": "",
-      "dateStatus": "to-be-confirmed"
+      "dateStatus": "pending",
+      "yearHint": 2027
     },
     {
       "id": "conf-137",
-      "name": "International Conference on Reliable Software Technologies",
-      "shortName": "RST",
+      "name": "Ada-Europe International Conference on Reliable Software Technologies (AEiC)",
+      "shortName": "AEiC",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -3256,13 +3188,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://www.ada-europe.org/conference2026/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Västerås, Sweden",
+      "officialUrl": "https://www.ada-europe.org/conference2027/",
       "dateStatus": "scheduled",
-      "startDate": "2026-06-09",
-      "endDate": "2026-06-12",
-      "yearHint": 2026
+      "startDate": "2027-06-08",
+      "endDate": "2027-06-11",
+      "yearHint": 2027,
+      "location": "Berlin, Germany"
     },
     {
       "id": "conf-138",
@@ -3345,12 +3276,9 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://ksiresearch.org/seke/sekeproc.html",
-      "location": "Toronto, Canada (in person) and online",
-      "dateStatus": "scheduled",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-07",
-      "yearHint": 2026
+      "officialUrl": "https://ksiresearch.org/seke/",
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-142",
@@ -3368,12 +3296,8 @@
         }
       ],
       "officialUrl": "https://conf.researchr.org/home/variability-2026",
-      "nextDateText": "September 29–October 2, 2026",
-      "location": "Limassol, Cyprus",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-29",
-      "endDate": "2026-10-02",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-143",
@@ -3413,12 +3337,8 @@
         }
       ],
       "officialUrl": "https://sites.google.com/view/cpaior2026/home",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Rabat, Morocco",
-      "dateStatus": "scheduled",
-      "startDate": "2026-05-26",
-      "endDate": "2026-05-29",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-145",
@@ -3436,11 +3356,8 @@
         }
       ],
       "officialUrl": "https://2026.ubiquitousrobots.org/",
-      "location": "Ibaraki, Osaka, Japan",
-      "dateStatus": "scheduled",
-      "startDate": "2026-07-15",
-      "endDate": "2026-07-18",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-146",
@@ -3457,13 +3374,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://event.asme.org/IDETC-CIE-2026",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Houston, Texas, United States",
+      "officialUrl": "https://event.asme.org/IDETC-CIE",
       "dateStatus": "scheduled",
-      "startDate": "2026-08-23",
-      "endDate": "2026-08-26",
-      "yearHint": 2026
+      "startDate": "2027-08-01",
+      "endDate": "2027-08-04",
+      "yearHint": 2027,
+      "location": "Philadelphia, Pennsylvania, USA"
     },
     {
       "id": "conf-147",
@@ -3525,11 +3441,8 @@
         }
       ],
       "officialUrl": "https://conf.researchr.org/home/eseiw-2026",
-      "location": "Munich, Germany",
-      "dateStatus": "scheduled",
-      "startDate": "2026-10-08",
-      "endDate": "2026-10-09",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-150",
@@ -3547,12 +3460,8 @@
         }
       ],
       "officialUrl": "https://isfpga.org/past/fpga2026/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Seaside, California, United States",
-      "dateStatus": "scheduled",
-      "startDate": "2026-02-22",
-      "endDate": "2026-02-24",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-151",
@@ -3614,11 +3523,8 @@
         }
       ],
       "officialUrl": "https://iwcmc.net/2026/",
-      "location": "Shanghai, China",
-      "dateStatus": "scheduled",
-      "startDate": "2026-06-01",
-      "endDate": "2026-06-06",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-154",
@@ -3724,7 +3630,7 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://aisel.aisnet.org/mcis/",
       "nextDateText": "Date and venue to be confirmed",
       "location": "",
       "dateStatus": "to-be-confirmed"
@@ -3744,7 +3650,7 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://communities.aisnet.org/menachapter/menaconferences",
       "nextDateText": "Date and venue to be confirmed",
       "location": "",
       "dateStatus": "to-be-confirmed"
@@ -3831,11 +3737,8 @@
         }
       ],
       "officialUrl": "https://ais2026.icas.events/",
-      "location": "Tuscany, Italy",
-      "dateStatus": "scheduled",
-      "startDate": "2026-10-04",
-      "endDate": "2026-10-07",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-164",
@@ -3853,12 +3756,8 @@
         }
       ],
       "officialUrl": "https://pacis2026.aisconferences.org/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Jakarta, Indonesia",
-      "dateStatus": "scheduled",
-      "startDate": "2026-07-04",
-      "endDate": "2026-07-08",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-165",
@@ -3963,13 +3862,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://2026.sigmod.org/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Bengaluru, India",
+      "officialUrl": "https://2027.sigmod.org/",
       "dateStatus": "scheduled",
-      "startDate": "2026-05-31",
-      "endDate": "2026-06-05",
-      "yearHint": 2026
+      "startDate": "2027-06-13",
+      "endDate": "2027-06-19",
+      "yearHint": 2027,
+      "location": "Huntington Beach, California, USA"
     },
     {
       "id": "conf-170",
@@ -4009,11 +3907,8 @@
         }
       ],
       "officialUrl": "https://conference.eurospi.net/index.php/en/",
-      "location": "Giza, Egypt",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-08",
-      "endDate": "2026-09-10",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-172",
@@ -4097,11 +3992,8 @@
         }
       ],
       "officialUrl": "https://www.irisscis.com/",
-      "location": "Varmaland, Iceland",
-      "dateStatus": "scheduled",
-      "startDate": "2026-08-02",
-      "endDate": "2026-08-05",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-176",
@@ -4275,11 +4167,8 @@
         }
       ],
       "officialUrl": "https://mlcad.org/symposium/2026/",
-      "location": "Jeju Island, South Korea",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-07",
-      "endDate": "2026-09-09",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-184",
@@ -4297,11 +4186,8 @@
         }
       ],
       "officialUrl": "https://wire.auburn.edu/content/cosam/2026/05/291000-34th-cumberland-conference.php",
-      "location": "Auburn, Alabama, USA",
-      "dateStatus": "scheduled",
-      "startDate": "2026-05-16",
-      "endDate": "2026-05-17",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-185",
@@ -4341,11 +4227,8 @@
         }
       ],
       "officialUrl": "https://www.icecet.com/2026/",
-      "location": "Rome, Italy",
-      "dateStatus": "scheduled",
-      "startDate": "2026-07-06",
-      "endDate": "2026-07-09",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-187",
@@ -4363,11 +4246,8 @@
         }
       ],
       "officialUrl": "https://www.i-somet.org/iea-aie2026/",
-      "location": "Kuala Lumpur, Malaysia",
-      "dateStatus": "scheduled",
-      "startDate": "2026-07-06",
-      "endDate": "2026-07-08",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-188",
@@ -4385,16 +4265,12 @@
         }
       ],
       "officialUrl": "https://isd2026.ksi.fit.cvut.cz/",
-      "nextDateText": "September 2–4, 2026",
-      "location": "Prague, Czechia",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-02",
-      "endDate": "2026-09-04",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-189",
-      "name": "The International Conference on Machine Learning and Data Mining MLDM",
+      "name": "International Conference on Machine Learning and Data Mining in Pattern Recognition (MLDM)",
       "shortName": "MLDM",
       "organizer": "",
       "rating": "A",
@@ -4407,8 +4283,8 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
+      "officialUrl": "https://link.springer.com/conference/mldm",
+      "nextDateText": "Next occurrence not announced",
       "location": "",
       "dateStatus": "to-be-confirmed"
     },
@@ -4428,12 +4304,8 @@
         }
       ],
       "officialUrl": "https://www.isncc-conf.org/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Bristol, United Kingdom",
-      "dateStatus": "scheduled",
-      "startDate": "2026-09-08",
-      "endDate": "2026-09-10",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-191",
@@ -4473,11 +4345,8 @@
         }
       ],
       "officialUrl": "https://www.auai.org/uai2026/",
-      "location": "Amsterdam, The Netherlands",
-      "dateStatus": "scheduled",
-      "startDate": "2026-08-17",
-      "endDate": "2026-08-21",
-      "yearHint": 2026
+      "dateStatus": "to-be-confirmed",
+      "nextDateText": "Next occurrence not announced"
     },
     {
       "id": "conf-193",
@@ -4561,12 +4430,8 @@
         }
       ],
       "officialUrl": "https://whiceb.cug.edu.cn/",
-      "nextDateText": "May 28–31, 2026",
-      "location": "Wuhan, China",
-      "dateStatus": "scheduled",
-      "startDate": "2026-05-28",
-      "endDate": "2026-05-31",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     },
     {
       "id": "conf-197",
@@ -4628,12 +4493,8 @@
         }
       ],
       "officialUrl": "https://ec26.sigecom.org/",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "Rome, Italy",
-      "dateStatus": "scheduled",
-      "startDate": "2026-07-06",
-      "endDate": "2026-07-10",
-      "yearHint": 2026
+      "nextDateText": "Next occurrence not announced",
+      "dateStatus": "to-be-confirmed"
     }
   ]
 }

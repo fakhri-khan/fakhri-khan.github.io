@@ -1,5 +1,5 @@
 (() => {
-  const dataUrl = "/data/flagship-conferences.json?v=20261012ab";
+  const dataUrl = "/data/flagship-conferences.json?v=20261012aj";
   const trackFilters = document.querySelector("#conference-track-filters");
   const searchInput = document.querySelector("#conference-search");
   const ratingButtons = Array.from(document.querySelectorAll(".rating-filter-button"));
@@ -374,10 +374,6 @@
     })
     .then((data) => {
       state.data = data;
-      document.querySelector("#conference-total").textContent = String(data.conferences.length).padStart(2, "0");
-      document.querySelector("#conference-track-total").textContent = String(data.tracks.length).padStart(2, "0");
-      document.querySelector("#conference-dated-total").textContent = String(data.conferences.filter((item) => item.startDate).length).padStart(2, "0");
-      document.querySelector("#conference-pending-total").textContent = String(data.conferences.filter((item) => !item.startDate).length).padStart(2, "0");
       renderCoverage();
       render();
     })
@@ -386,3 +382,4 @@
       calendarGrid.replaceChildren(makeEmpty("Reload the page to try again."));
     });
 })();
+
