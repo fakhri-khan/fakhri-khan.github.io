@@ -176,7 +176,7 @@
   };
   const buildTrackFilters = () => {
     trackFilters.replaceChildren();
-    const all = [["all", "All tracks"], ...state.data.tracks.map((track) => [track.id, track.id + " · " + track.name])];
+    const all = [["all", "All tracks"], ...state.data.tracks.map((track) => [track.id, track.id === "Misc" ? track.name : track.id + " · " + track.name])];
     all.forEach(([id, name]) => {
       const button = document.createElement("button");
       button.type = "button";

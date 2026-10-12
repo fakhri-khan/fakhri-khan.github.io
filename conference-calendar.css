@@ -45,6 +45,7 @@
 [data-track="T3"] { --track-color: #a7771e; }
 [data-track="T4"] { --track-color: #66528b; }
 [data-track="T5"] { --track-color: #16817d; }
+[data-track="Misc"] { --track-color: #8b4c76; }
 .conference-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 13px; }
 .conference-result-count { margin: 0; color: var(--muted); font-size: .78rem; font-weight: 700; }
 .conference-view-switch { display: inline-flex; padding: 3px; border: 1px solid var(--line); border-radius: 9px; background: var(--white); }

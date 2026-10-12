@@ -19,6 +19,10 @@
     {
       "id": "T5",
       "name": "Retinal AI and Computational Ophthalmology"
+    },
+    {
+      "id": "Misc",
+      "name": "Miscellaneous - CS/SWE/COE/IS"
     }
   ],
   "conferences": [
@@ -1436,6 +1440,2893 @@
       "yearHint": 2027,
       "location": "Baltimore, Maryland, USA",
       "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-57",
+      "name": "ACM Virtual Reality Software and Technology",
+      "shortName": "VRST",
+      "organizer": "ACM SIGCHI",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://vrst.acm.org/vrst2026/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "Sendai, Japan",
+      "dateStatus": "scheduled",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-18"
+    },
+    {
+      "id": "conf-58",
+      "name": "ACM–IMS Interdisciplinary Summit on the Foundations of Data Science",
+      "shortName": "ACM-IMS",
+      "organizer": "ACM / Institute of Mathematical Statistics",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://www.acm.org/data-science-summit",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-59",
+      "name": "ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
+      "shortName": "HRI",
+      "organizer": "ACM / IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://humanrobotinteraction.org/2027/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "Santa Clara, California, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-03-08",
+      "endDate": "2027-03-12"
+    },
+    {
+      "id": "conf-60",
+      "name": "ACM/SPIE Multimedia Computing and Networking",
+      "shortName": "MMCN",
+      "organizer": "ACM / SPIE",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-61",
+      "name": "ACMMM : ACM Multimedia",
+      "shortName": "ACM MM",
+      "organizer": "ACM SIGMM",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://www.acmmm.org/",
+      "yearHint": 2027,
+      "nextDateText": "Dates to be announced for 2027",
+      "location": "Hong Kong",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-62",
+      "name": "AIAI: Conference on Artificial Intelligence for Applications",
+      "shortName": "AIAI",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-63",
+      "name": "Annual Conference of the Midwest Association for Information Systems (MWAIS)",
+      "shortName": "MWAIS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-64",
+      "name": "Asia-Pacific Software Engineering Conference",
+      "shortName": "APSEC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-65",
+      "name": "ASPLOS : International Conference on Architectural Support for Programming Languages and Operating Systems",
+      "shortName": "ASPLOS",
+      "organizer": "ACM SIGARCH / SIGPLAN / SIGOPS",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://www.asplos-conference.org/asplos2027/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "Heraklion, Crete, Greece",
+      "dateStatus": "scheduled",
+      "startDate": "2027-04-11",
+      "endDate": "2027-04-15"
+    },
+    {
+      "id": "conf-66",
+      "name": "Australasian Conference on Information Systems (ACIS)",
+      "shortName": "ACIS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-67",
+      "name": "Automated Software Engineering Conference",
+      "shortName": "ASE",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-68",
+      "name": "Brazilian Symposium on Information Systems (SBSI)",
+      "shortName": "SBSI",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-69",
+      "name": "CAV: Computer Aided Verification",
+      "shortName": "CAV",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-70",
+      "name": "CHI : Computer Human Interaction (CHI)",
+      "shortName": "CHI",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-71",
+      "name": "COLING : International Conference on Computational Linguistics",
+      "shortName": "COLING",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-72",
+      "name": "Conference of Information Systems and Technology (CIST)",
+      "shortName": "CIST",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-73",
+      "name": "Conference on Agile Software Development",
+      "shortName": "XP",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-74",
+      "name": "CSCW : ACM Conference on Computer-Supported Cooperative Work & Social Computing",
+      "shortName": "CSCW",
+      "organizer": "ACM SIGCHI",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://cscw.acm.org/2026/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "Salt Lake City, Utah, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-14"
+    },
+    {
+      "id": "conf-75",
+      "name": "DCOSS : IEEE International Conference on Distributed Computing in Sensor Systems",
+      "shortName": "DCOSS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-76",
+      "name": "Design Automation and Test Europe (DATE)",
+      "shortName": "DATE",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-77",
+      "name": "Design Automation Conference (DAC)",
+      "shortName": "DAC",
+      "organizer": "ACM / IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://dac.com/2027/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "San Jose, California, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-11",
+      "endDate": "2027-07-14"
+    },
+    {
+      "id": "conf-78",
+      "name": "ECMLPKDD : European Conference on Machine learning and knowledge discovery in databases",
+      "shortName": "ECMLPKDD",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-79",
+      "name": "ESANN: European Symposium on Artificial Neural Networks",
+      "shortName": "ESANN",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-80",
+      "name": "ESEC/FSE : ACM SIGSOFT International Symposium on Foundations of Software Engineering",
+      "shortName": "ESEC/FSE",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-81",
+      "name": "Euromicro Conference on Software Engineering and Advanced Applications",
+      "shortName": "ESEAA",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-82",
+      "name": "European Conference on Artificial Intelligence",
+      "shortName": "ECAI",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-83",
+      "name": "European Joint Conferences on Theory and Practice of Software",
+      "shortName": "ETAPS",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-84",
+      "name": "EuroSys : ACM European Conference on Computer Systems",
+      "shortName": "ECS",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-85",
+      "name": "FMCAD: Formal Methods in Computer-Aided Design",
+      "shortName": "FMCAD",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-86",
+      "name": "FOCS : IEEE Symposium on Foundations of Computer Science",
+      "shortName": "FOCS",
+      "organizer": "IEEE Computer Society",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://focs.computer.org/2026/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "New York City, New York, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-11"
+    },
+    {
+      "id": "conf-87",
+      "name": "Foundations of Software Science and Computational Structures",
+      "shortName": "FoSSaCS",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-88",
+      "name": "Foundations of Software Technology and Theoretical Computer Science",
+      "shortName": "FSTTCS",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-89",
+      "name": "Fundamental Approaches to Software Engineering",
+      "shortName": "FASE",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-90",
+      "name": "HPCA : IEEE International Symposium on High Performance Computer Architecture",
+      "shortName": "HPCA",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-91",
+      "name": "HPDC : ACM International Symposium on High Performance Distributed Computing",
+      "shortName": "HPDC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-92",
+      "name": "IADIS International Conference on Applied Computing",
+      "shortName": "IADIS AC",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-93",
+      "name": "IADIS International Conference on e-Commerce",
+      "shortName": "IEC",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-94",
+      "name": "IADIS International Conference on e-Society",
+      "shortName": "IES",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-95",
+      "name": "ICANN: International Conference on Artificial Neural Networks",
+      "shortName": "ICANN",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-96",
+      "name": "ICME : IEEE International Conference on Multimedia and Expo",
+      "shortName": "ICME",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-97",
+      "name": "ICMR : ACM International Conference on Multimedia Retrieval",
+      "shortName": "ICMR",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-98",
+      "name": "IEEE Conference on Data Engineering (ICDE)",
+      "shortName": "ICDE",
+      "organizer": "IEEE Computer Society",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://icde2027.github.io/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "Copenhagen, Denmark",
+      "dateStatus": "scheduled",
+      "startDate": "2027-05-17",
+      "endDate": "2027-05-21"
+    },
+    {
+      "id": "conf-99",
+      "name": "IEEE Conference on Distributed Computing Systems (ICDCS)",
+      "shortName": "ICDCS",
+      "organizer": "IEEE Computer Society",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://icdcs2027.icdcs.org/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "Melbourne, Australia",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-05",
+      "endDate": "2027-07-08"
+    },
+    {
+      "id": "conf-100",
+      "name": "IEEE Conference on Local Computer Networks",
+      "shortName": "LCN",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-101",
+      "name": "IEEE International Conference on Computer Communications (INFOCOM)",
+      "shortName": "INFOCOM",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-102",
+      "name": "IEEE International Conference on Data Mining",
+      "shortName": "DM",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-103",
+      "name": "IEEE International Conference on Metaverse Computing, Networking and Applications (IEEE MetaCom)",
+      "shortName": "MCNAM",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-104",
+      "name": "IEEE International Conference on Multimedia Computing and Systems",
+      "shortName": "MCS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-105",
+      "name": "IEEE International Conference on Robotics and Automation (ICRA)",
+      "shortName": "ICRA",
+      "organizer": "IEEE Robotics and Automation Society",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://2027.ieee-icra.org/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "Seoul, South Korea",
+      "dateStatus": "scheduled",
+      "startDate": "2027-05-24",
+      "endDate": "2027-05-28"
+    },
+    {
+      "id": "conf-106",
+      "name": "IEEE International Conference on Software Maintenance and Evolution",
+      "shortName": "SME",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-107",
+      "name": "IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+      "shortName": "SMC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-108",
+      "name": "IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)",
+      "shortName": "MWSCAS",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-109",
+      "name": "IEEE International Requirements Engineering Conference",
+      "shortName": "RE",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-110",
+      "name": "IEEE International Symposium on Computer Architecture and High Performance Computing",
+      "shortName": "CAHPC",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-111",
+      "name": "IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)",
+      "shortName": "FCCM",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-112",
+      "name": "IEEE International Symposium on Intelligent Systems and Informatics",
+      "shortName": "ISI",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-113",
+      "name": "IEEE International Symposium on Network Computing and Applications",
+      "shortName": "NCA",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-114",
+      "name": "IEEE International Symposium on Wearable Computing",
+      "shortName": "WC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-115",
+      "name": "IEEE International System-on-Chip Conference (SOCC)",
+      "shortName": "SOCC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-116",
+      "name": "IEEE International Working Conference on Mining Software Repositories",
+      "shortName": "WMSR",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-117",
+      "name": "IEEE ISKE: International Conference on Intelligent Systems and Knowledge Engineering",
+      "shortName": "ISKE",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-118",
+      "name": "IEEE Quantum Week — The IEEE International Conference on Quantum Computing and Engineering (QCE)",
+      "shortName": "QCE",
+      "organizer": "IEEE",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://qce.quantum.ieee.org/2026/",
+      "nextDateText": "Next occurrence to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-119",
+      "name": "IEEE Workshop on Applications of Computer Vision",
+      "shortName": "WACV",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-120",
+      "name": "IFAC Workshop on Cyber-Physical Human Systems (CPHS)",
+      "shortName": "CPHS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-121",
+      "name": "IJCNN : International Joint Conference on Neural Networks",
+      "shortName": "IJCNN",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-122",
+      "name": "International Computer Software and Applications Conference (COMPSAC)",
+      "shortName": "COMPSAC",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-123",
+      "name": "International Conference of Software and Systems Process",
+      "shortName": "SSP",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-124",
+      "name": "International Conference on Architecture of Computing Systems",
+      "shortName": "ACS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-125",
+      "name": "International Conference on Artificial Intelligence in Education",
+      "shortName": "AIED",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-126",
+      "name": "International Conference On Computer Aided Design (ICCAD)",
+      "shortName": "ICCAD",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-127",
+      "name": "International Conference on Computer Communication and Networks",
+      "shortName": "CCN",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-128",
+      "name": "International Conference on Computing, Networking and Communications (ICNC)",
+      "shortName": "ICNC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-129",
+      "name": "International Conference on Enterprise Information Systems (ICEIS)",
+      "shortName": "ICEIS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-130",
+      "name": "International Conference on Evaluation and Assessment in Software Engineering",
+      "shortName": "EASE",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-131",
+      "name": "International Conference on Evaluation of Novel Approaches to Software Engineering",
+      "shortName": "ENASE",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-132",
+      "name": "International Conference on Field-Programmable Logic and Applications (FPL)",
+      "shortName": "FPL",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-133",
+      "name": "International Conference on Neural Information Processing",
+      "shortName": "ICONIP",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-134",
+      "name": "International Conference on Parallel Computing Technologies",
+      "shortName": "PCT",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-135",
+      "name": "International Conference on Quality of Multimedia Experience (QoMEX)",
+      "shortName": "QMEQ",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-136",
+      "name": "International Conference on Quality Software",
+      "shortName": "QS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-137",
+      "name": "International Conference on Reliable Software Technologies",
+      "shortName": "RST",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-138",
+      "name": "International Conference on Software Analysis, Evolution and Reengineering",
+      "shortName": "SANER",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-139",
+      "name": "International Conference on Software Architecture (was previously WICSA)",
+      "shortName": "WICSA",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-140",
+      "name": "International Conference on Software Engineering",
+      "shortName": "ICSE",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-141",
+      "name": "International Conference on Software Engineering and Knowledge Engineering",
+      "shortName": "SEKE",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-142",
+      "name": "International Conference on Software Reuse",
+      "shortName": "SR",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-143",
+      "name": "International Conference on Software Testing, Verification and Validation",
+      "shortName": "ICST",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-144",
+      "name": "International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR)",
+      "shortName": "CPAIOR",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-145",
+      "name": "International Conference on Ubiquitous Robots and Ambient Intelligence, URAI",
+      "shortName": "URAI",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-146",
+      "name": "International Design Engineering Technical Conferences & Computers and Information in Engineering",
+      "shortName": "DETCCI",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-147",
+      "name": "International Symposium on Circuits and Systems (ISCAS)",
+      "shortName": "ISCAS",
+      "organizer": "IEEE Circuits and Systems Society",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://2027.ieee-iscas.org/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "Bordeaux, France",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-06",
+      "endDate": "2027-06-09"
+    },
+    {
+      "id": "conf-148",
+      "name": "International Symposium on Computer Architecture (ISCA)",
+      "shortName": "ISCA",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-149",
+      "name": "International Symposium on Empirical Software Engineering and Measurement",
+      "shortName": "ESEM",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-150",
+      "name": "International Symposium on Field-Programmable Gate Arrays (FPGA)",
+      "shortName": "FPGA",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-151",
+      "name": "International Symposium on Software Reliability Engineering",
+      "shortName": "ISSRE",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-152",
+      "name": "International Symposium on Software Testing and Analysis",
+      "shortName": "ISSTA",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-153",
+      "name": "International Wireless Communications and Mobile Computing Conference (IWCMC)",
+      "shortName": "IWCMC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-154",
+      "name": "International World Wide Web Conferences",
+      "shortName": "WWW",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-155",
+      "name": "IROS : IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "shortName": "IROS",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-156",
+      "name": "JCDL : International ACM/IEEE Joint Conference on Digital Libraries",
+      "shortName": "JCDL",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-157",
+      "name": "LICS : IEEE Symposium on Logic in Computer Science",
+      "shortName": "LICS",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-158",
+      "name": "Mediterranean Conference on Information Systems (MCIS)",
+      "shortName": "MCIS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-159",
+      "name": "Middle East and North Africa Conference for Information Systems (MENACIS)",
+      "shortName": "MENACIS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-160",
+      "name": "MobiCom : Annual International Conference on Mobile Computing and Networking",
+      "shortName": "MobiCom",
+      "organizer": "ACM SIGMOBILE",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://www.sigmobile.org/mobicom/2027/",
+      "yearHint": 2027,
+      "nextDateText": "Dates to be announced for 2027",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-161",
+      "name": "MOBIHOC : ACM International Symposium on Mobile Ad Hoc Networking and Computing",
+      "shortName": "MOBIHOC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-162",
+      "name": "NSDI : USENIX Conference on Networked Systems Design and Implementation",
+      "shortName": "NSDI",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-163",
+      "name": "Optimization in Artificial Intelligence and Data Sciences The Annual Conference on machine Learning, Optimization and Data science (LOD)",
+      "shortName": "LOD",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-164",
+      "name": "Pacific Asia Conference on Information Systems (PACIS)",
+      "shortName": "PACIS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-165",
+      "name": "PAKDD : Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)",
+      "shortName": "PAKDD",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-166",
+      "name": "PERCOM : IEEE International Conference on Pervasive Computing and Communications",
+      "shortName": "PERCOM",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-167",
+      "name": "PLDI : ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+      "shortName": "PLDI",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-168",
+      "name": "PODC : ACM Symposium on Principles of Distributed Computing",
+      "shortName": "PODC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-169",
+      "name": "PODS : ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems",
+      "shortName": "PODS",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-170",
+      "name": "POPL : ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL)",
+      "shortName": "POPL",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-171",
+      "name": "Product Focused Software Process Improvement",
+      "shortName": "PFSPI",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-172",
+      "name": "RecSys : ACM Conference on Recommender Systems",
+      "shortName": "RRS",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-173",
+      "name": "RSS : Robotics: Science and Systems",
+      "shortName": "RSS",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-174",
+      "name": "SAC : ACM Symposium on Applied Computing",
+      "shortName": "SAC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-175",
+      "name": "Scandinavian Conference on Information Systems (SCIS)",
+      "shortName": "SCIS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-176",
+      "name": "SDM : SIAM International Conference on Data Mining",
+      "shortName": "SDM",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-177",
+      "name": "SIAM Conference on Mathematics of Data Science (MDS)",
+      "shortName": "MDS",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-178",
+      "name": "SIGIR : ACM SIGIR Conference on Research and development in information retrieval",
+      "shortName": "SIGIR",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-179",
+      "name": "SIGKDD : ACM SIGKDD International Conference on Knowledge discovery and data mining",
+      "shortName": "SIGKDD",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-180",
+      "name": "STOC : ACM Symposium on Theory of Computing",
+      "shortName": "STOC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-181",
+      "name": "Symposia on VLSI Technology and Circuits",
+      "shortName": "VLSI",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-182",
+      "name": "The ACM International Joint Conference on Pervasive and Ubiquitous Computing (Ubi Comp)",
+      "shortName": "UbiComp",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-183",
+      "name": "The ACM/IEEE International Symposium on Machine Learning for CAD",
+      "shortName": "CAD",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-184",
+      "name": "The Cumberland Conference on Combinatorics, Graph Theory and Computing",
+      "shortName": "CCGTC",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-185",
+      "name": "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)Supercomputing conference",
+      "shortName": "SC",
+      "organizer": "ACM / IEEE Computer Society",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://sc26.supercomputing.org/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "Chicago, Illinois, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2026-11-15",
+      "endDate": "2026-11-20"
+    },
+    {
+      "id": "conf-186",
+      "name": "The International Conference on Electrical, Computer and Energy Technologies (ICECET)",
+      "shortName": "ICECET",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-187",
+      "name": "The International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE)",
+      "shortName": "IEA/AIE",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-188",
+      "name": "The International Conference on Information Systems Development (ISD)",
+      "shortName": "ISD",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-189",
+      "name": "The International Conference on Machine Learning and Data Mining MLDM",
+      "shortName": "MLDM",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-190",
+      "name": "The International Symposium on Networks, Computers and Communications (ISNCC)",
+      "shortName": "ISNCC",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-191",
+      "name": "The International Working Conference on Requirement Engineering: Foundation for Software Quality (REFSQ)",
+      "shortName": "REFSQ",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-192",
+      "name": "UAI : Conference on Uncertainty in Artificial Intelligence (UAI)",
+      "shortName": "UAI",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-193",
+      "name": "UIST : ACM Symposium on User Interface Software and Technology",
+      "shortName": "UIST",
+      "organizer": "ACM SIGCHI / SIGGRAPH",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "https://uist.acm.org/2026/",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "Detroit, Michigan, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-05"
+    },
+    {
+      "id": "conf-194",
+      "name": "USENIX Symposium on Operating Systems Design and Implementation",
+      "shortName": "UOSDI",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-195",
+      "name": "VLDB : International Conference on Very Large Databases",
+      "shortName": "VLDB",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-196",
+      "name": "Wuhan International Conference on e-Business",
+      "shortName": "WEB",
+      "organizer": "",
+      "rating": "A",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-197",
+      "name": "ACM SIGCOMM",
+      "shortName": "SIGCOMM",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-198",
+      "name": "SIGMOD : ACM SIGMOD International Conference on Management of Data",
+      "shortName": "SIGMOD",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
+    },
+    {
+      "id": "conf-199",
+      "name": "ACM Conference on Economics and Computation",
+      "shortName": "EC",
+      "organizer": "",
+      "rating": "A*",
+      "trackIds": [
+        "Misc"
+      ],
+      "tracks": [
+        {
+          "id": "Misc",
+          "name": "Miscellaneous - CS/SWE/COE/IS"
+        }
+      ],
+      "officialUrl": "",
+      "nextDateText": "Date and venue to be confirmed",
+      "location": "",
+      "dateStatus": "to-be-confirmed"
     }
-  ]
+  ],
+  "updatedAt": "2026-10-12"
 }
