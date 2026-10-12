@@ -3633,10 +3633,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://2026.jcdl.org/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Dallas, Texas, United States",
+      "dateStatus": "scheduled",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-16",
+      "yearHint": 2026
     },
     {
       "id": "conf-157",
@@ -3801,10 +3804,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://pacis2026.aisconferences.org/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Jakarta, Indonesia",
+      "dateStatus": "scheduled",
+      "startDate": "2026-07-04",
+      "endDate": "2026-07-08",
+      "yearHint": 2026
     },
     {
       "id": "conf-165",
@@ -3909,10 +3915,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://2026.sigmod.org/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Bengaluru, India",
+      "dateStatus": "scheduled",
+      "startDate": "2026-05-31",
+      "endDate": "2026-06-05",
+      "yearHint": 2026
     },
     {
       "id": "conf-170",
@@ -4057,10 +4066,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://www.siam.org/conferences-events/siam-conferences/sdm26/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Salt Lake City, Utah, United States",
+      "dateStatus": "scheduled",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-20",
+      "yearHint": 2026
     },
     {
       "id": "conf-177",
