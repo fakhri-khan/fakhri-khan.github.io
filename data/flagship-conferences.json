@@ -3989,8 +3989,8 @@
     },
     {
       "id": "conf-171",
-      "name": "Product Focused Software Process Improvement",
-      "shortName": "PFSPI",
+      "name": "European Conference on Systems, Software and Services Process Improvement and Innovation (formerly PFSPI)",
+      "shortName": "EuroSPI",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -4002,10 +4002,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conference.eurospi.net/index.php/en/",
+      "location": "Giza, Egypt",
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-08",
+      "endDate": "2026-09-10",
+      "yearHint": 2026
     },
     {
       "id": "conf-172",
@@ -4088,10 +4090,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.irisscis.com/",
+      "location": "Varmaland, Iceland",
+      "dateStatus": "scheduled",
+      "startDate": "2026-08-02",
+      "endDate": "2026-08-05",
+      "yearHint": 2026
     },
     {
       "id": "conf-176",
@@ -4131,10 +4135,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.siam.org/conferences-events/siam-conferences/mds26/",
+      "location": "Salt Lake City, Utah, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-20",
+      "yearHint": 2026
     },
     {
       "id": "conf-178",
@@ -4249,8 +4255,8 @@
     },
     {
       "id": "conf-183",
-      "name": "The ACM/IEEE International Symposium on Machine Learning for CAD",
-      "shortName": "CAD",
+      "name": "ACM/IEEE International Symposium on Machine Learning for CAD (MLCAD)",
+      "shortName": "MLCAD",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -4262,10 +4268,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://mlcad.org/symposium/2026/",
+      "location": "Jeju Island, South Korea",
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-09",
+      "yearHint": 2026
     },
     {
       "id": "conf-184",
