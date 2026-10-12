@@ -154,9 +154,13 @@
           "name": "Retinal AI and Computational Ophthalmology"
         }
       ],
-      "officialUrl": "https://iapr.org/conferences/international-conference-on-pattern-recognition/",
+      "officialUrl": "https://icpr2026.org/",
       "nextDateText": "Date to be announced",
-      "dateStatus": "pending"
+      "dateStatus": "scheduled",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-22",
+      "yearHint": 2026,
+      "location": "Lyon, France"
     },
     {
       "id": "conf-06",
@@ -232,9 +236,13 @@
           "name": "Retinal AI and Computational Ophthalmology"
         }
       ],
-      "officialUrl": "https://eccv.ecva.net/",
+      "officialUrl": "https://eccv.ecva.net/Conferences/2026",
       "nextDateText": "Date to be announced",
-      "dateStatus": "pending"
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-08",
+      "endDate": "2026-09-12",
+      "yearHint": 2026,
+      "location": "Malmö, Sweden"
     },
     {
       "id": "conf-09",
@@ -1703,10 +1711,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://sbsi.sbc.org.br/2026/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Vitória, Brazil",
+      "dateStatus": "scheduled",
+      "startDate": "2026-05-25",
+      "endDate": "2026-05-28",
+      "yearHint": 2026
     },
     {
       "id": "conf-69",
@@ -2155,10 +2166,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://etaps.org/2026/conferences/fase/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Turin, Italy",
+      "dateStatus": "scheduled",
+      "startDate": "2026-04-13",
+      "endDate": "2026-04-16",
+      "yearHint": 2026
     },
     {
       "id": "conf-90",
@@ -2279,10 +2293,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://e-nns.org/icann2026/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Padua, Italy",
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-17",
+      "yearHint": 2026
     },
     {
       "id": "conf-96",
@@ -2723,10 +2740,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://2026.msrconf.org/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Rio de Janeiro, Brazil",
+      "dateStatus": "scheduled",
+      "startDate": "2026-04-13",
+      "endDate": "2026-04-14",
+      "yearHint": 2026
     },
     {
       "id": "conf-117",
@@ -2973,10 +2993,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
+      "officialUrl": "https://www.conf-icnc.org/2026/",
       "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Honolulu, Hawaii, United States",
+      "dateStatus": "scheduled",
+      "startDate": "2026-02-17",
+      "endDate": "2026-02-20",
+      "yearHint": 2026
     },
     {
       "id": "conf-129",
