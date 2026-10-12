@@ -1,5 +1,5 @@
 (() => {
-  const dataUrl = "/data/flagship-conferences.json";
+  const dataUrl = "/data/flagship-conferences.json?v=20261012a";
   const trackFilters = document.querySelector("#conference-track-filters");
   const searchInput = document.querySelector("#conference-search");
   const resultCount = document.querySelector("#conference-result-count");

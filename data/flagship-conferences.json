@@ -43,7 +43,6 @@
         }
       ],
       "officialUrl": "https://miccai.org/upcoming-conferences/",
-      "nextDateText": "26 Sep–1 Oct 2027",
       "startDate": "2027-09-26",
       "endDate": "2027-10-01",
       "yearHint": 2027,
@@ -71,7 +70,6 @@
         }
       ],
       "officialUrl": "https://biomedicalimaging.org/2027/",
-      "nextDateText": "25–28 May 2027",
       "startDate": "2027-05-25",
       "endDate": "2027-05-28",
       "yearHint": 2027,
@@ -99,7 +97,6 @@
         }
       ],
       "officialUrl": "https://spie.org/conferences-and-exhibitions/medical-imaging",
-      "nextDateText": "14–18 Feb 2027",
       "startDate": "2027-02-14",
       "endDate": "2027-02-18",
       "yearHint": 2027,
@@ -127,7 +124,6 @@
         }
       ],
       "officialUrl": "https://2027.ieeeicip.org/",
-      "nextDateText": "29 Nov–3 Dec 2027",
       "startDate": "2027-11-29",
       "endDate": "2027-12-03",
       "yearHint": 2027,
@@ -155,11 +151,7 @@
         }
       ],
       "officialUrl": "https://iapr.org/conferences/international-conference-on-pattern-recognition/",
-      "nextDateText": "Not announced",
-      "startDate": null,
-      "endDate": null,
-      "yearHint": null,
-      "location": "Not announced",
+      "nextDateText": "Date to be announced",
       "dateStatus": "pending"
     },
     {
@@ -183,7 +175,6 @@
         }
       ],
       "officialUrl": "https://cvpr.thecvf.com/Conferences/2027",
-      "nextDateText": "22–25 Jun 2027 (main conference)",
       "startDate": "2027-06-22",
       "endDate": "2027-06-25",
       "yearHint": 2027,
@@ -211,7 +202,6 @@
         }
       ],
       "officialUrl": "https://iccv.thecvf.com/Conferences/2027",
-      "nextDateText": "2–8 Oct 2027",
       "startDate": "2027-10-02",
       "endDate": "2027-10-08",
       "yearHint": 2027,
@@ -239,11 +229,7 @@
         }
       ],
       "officialUrl": "https://eccv.ecva.net/",
-      "nextDateText": "Not announced",
-      "startDate": null,
-      "endDate": null,
-      "yearHint": null,
-      "location": "Not announced",
+      "nextDateText": "Date to be announced",
       "dateStatus": "pending"
     },
     {
@@ -267,7 +253,6 @@
         }
       ],
       "officialUrl": "https://accv2026.org/",
-      "nextDateText": "14–18 Dec 2026",
       "startDate": "2026-12-14",
       "endDate": "2026-12-18",
       "yearHint": 2026,
@@ -290,7 +275,6 @@
         }
       ],
       "officialUrl": "https://aime27.aimedicine.info/",
-      "nextDateText": "5–8 Jul 2027",
       "startDate": "2027-07-05",
       "endDate": "2027-07-08",
       "yearHint": 2027,
@@ -318,7 +302,6 @@
         }
       ],
       "officialUrl": "https://ichi2027.github.io/ICHI2027/",
-      "nextDateText": "11–14 Jun 2027",
       "startDate": "2027-06-11",
       "endDate": "2027-06-14",
       "yearHint": 2027,
@@ -341,7 +324,6 @@
         }
       ],
       "officialUrl": "https://ieeebibm.org/BIBM2026/",
-      "nextDateText": "1–4 Dec 2026",
       "startDate": "2026-12-01",
       "endDate": "2026-12-04",
       "yearHint": 2026,
@@ -364,7 +346,6 @@
         }
       ],
       "officialUrl": "https://bibeconference.com/",
-      "nextDateText": "27–29 Nov 2026",
       "startDate": "2026-11-27",
       "endDate": "2026-11-29",
       "yearHint": 2026,
@@ -388,8 +369,6 @@
       ],
       "officialUrl": "https://iupesm.org/world-congresses/",
       "nextDateText": "Not announced (2031 edition)",
-      "startDate": null,
-      "endDate": null,
       "yearHint": 2031,
       "location": "Athens, Greece",
       "dateStatus": "pending"
@@ -410,11 +389,7 @@
         }
       ],
       "officialUrl": "https://www.iciap.org/",
-      "nextDateText": "Not announced",
-      "startDate": null,
-      "endDate": null,
-      "yearHint": null,
-      "location": "Not announced",
+      "nextDateText": "Date to be announced",
       "dateStatus": "pending"
     },
     {
@@ -433,11 +408,7 @@
         }
       ],
       "officialUrl": "https://caip2025.com/",
-      "nextDateText": "Not announced",
-      "startDate": null,
-      "endDate": null,
-      "yearHint": null,
-      "location": "Not announced",
+      "nextDateText": "Date to be announced",
       "dateStatus": "pending"
     },
     {
@@ -461,7 +432,6 @@
         }
       ],
       "officialUrl": "https://aaai.org/conference/aaai/aaai-27/",
-      "nextDateText": "16–23 Feb 2027",
       "startDate": "2027-02-16",
       "endDate": "2027-02-23",
       "yearHint": 2027,
@@ -489,7 +459,6 @@
         }
       ],
       "officialUrl": "https://2027.ijcai.org/",
-      "nextDateText": "7–13 Aug 2027",
       "startDate": "2027-08-07",
       "endDate": "2027-08-13",
       "yearHint": 2027,
@@ -518,8 +487,6 @@
       ],
       "officialUrl": "https://icml.cc/Conferences/FutureMeetings",
       "nextDateText": "Not announced (2027)",
-      "startDate": null,
-      "endDate": null,
       "yearHint": 2027,
       "location": "South America (city/country not announced)",
       "dateStatus": "pending"
@@ -545,7 +512,6 @@
         }
       ],
       "officialUrl": "https://neurips.cc/Conferences/2026",
-      "nextDateText": "6–12 Dec 2026",
       "startDate": "2026-12-06",
       "endDate": "2026-12-12",
       "yearHint": 2026,
@@ -573,7 +539,6 @@
         }
       ],
       "officialUrl": "https://virtual.aistats.org/Conferences/2027",
-      "nextDateText": "3–6 May 2027",
       "startDate": "2027-05-03",
       "endDate": "2027-05-06",
       "yearHint": 2027,
@@ -601,7 +566,6 @@
         }
       ],
       "officialUrl": "https://sp2027.ieee-security.org/",
-      "nextDateText": "17–20 May 2027",
       "startDate": "2027-05-17",
       "endDate": "2027-05-20",
       "yearHint": 2027,
@@ -629,7 +593,6 @@
         }
       ],
       "officialUrl": "https://www.sigsac.org/ccs/CCS2027/",
-      "nextDateText": "11–15 Oct 2027",
       "startDate": "2027-10-11",
       "endDate": "2027-10-15",
       "yearHint": 2027,
@@ -657,7 +620,6 @@
         }
       ],
       "officialUrl": "https://www.ndss-symposium.org/ndss2027/",
-      "nextDateText": "22–26 Mar 2027",
       "startDate": "2027-03-22",
       "endDate": "2027-03-26",
       "yearHint": 2027,
@@ -685,7 +647,6 @@
         }
       ],
       "officialUrl": "https://www.usenix.org/conference/usenixsecurity27",
-      "nextDateText": "11–13 Aug 2027",
       "startDate": "2027-08-11",
       "endDate": "2027-08-13",
       "yearHint": 2027,
@@ -713,7 +674,6 @@
         }
       ],
       "officialUrl": "https://www.acsac.org/2026/",
-      "nextDateText": "7–11 Dec 2026",
       "startDate": "2026-12-07",
       "endDate": "2026-12-11",
       "yearHint": 2026,
@@ -741,7 +701,6 @@
         }
       ],
       "officialUrl": "https://csf2027.ieee-security.org/",
-      "nextDateText": "13–17 Sep 2027",
       "startDate": "2027-09-13",
       "endDate": "2027-09-17",
       "yearHint": 2027,
@@ -769,7 +728,6 @@
         }
       ],
       "officialUrl": "https://dsn2027-berlin.github.io/",
-      "nextDateText": "22–25 Jun 2027",
       "startDate": "2027-06-22",
       "endDate": "2027-06-25",
       "yearHint": 2027,
@@ -802,11 +760,7 @@
         }
       ],
       "officialUrl": "https://ieeexplore.ieee.org/xpl/conhome/1800729/all-proceedings",
-      "nextDateText": "Not announced",
-      "startDate": null,
-      "endDate": null,
-      "yearHint": null,
-      "location": "Not announced",
+      "nextDateText": "Date to be announced",
       "dateStatus": "pending"
     },
     {
@@ -835,7 +789,6 @@
         }
       ],
       "officialUrl": "https://acns2027.isg.rhul.ac.uk/",
-      "nextDateText": "28 Jun–1 Jul 2027",
       "startDate": "2027-06-28",
       "endDate": "2027-07-01",
       "yearHint": 2027,
@@ -868,7 +821,6 @@
         }
       ],
       "officialUrl": "https://uow-ic2.github.io/cans2026/",
-      "nextDateText": "23–25 Nov 2026",
       "startDate": "2026-11-23",
       "endDate": "2026-11-25",
       "yearHint": 2026,
@@ -892,8 +844,6 @@
       ],
       "officialUrl": "https://crypto.iacr.org/2027/",
       "nextDateText": "Not announced (2027)",
-      "startDate": null,
-      "endDate": null,
       "yearHint": 2027,
       "location": "Santa Barbara, California, USA",
       "dateStatus": "pending"
@@ -914,7 +864,6 @@
         }
       ],
       "officialUrl": "https://asiacrypt.iacr.org/2026/",
-      "nextDateText": "7–11 Dec 2026",
       "startDate": "2026-12-07",
       "endDate": "2026-12-11",
       "yearHint": 2026,
@@ -937,7 +886,6 @@
         }
       ],
       "officialUrl": "https://eurocrypt.iacr.org/2027/",
-      "nextDateText": "11–15 Apr 2027",
       "startDate": "2027-04-11",
       "endDate": "2027-04-15",
       "yearHint": 2027,
@@ -960,11 +908,7 @@
         }
       ],
       "officialUrl": "https://iacr.org/workshops/tcc/",
-      "nextDateText": "Not announced",
-      "startDate": null,
-      "endDate": null,
-      "yearHint": null,
-      "location": "Not announced",
+      "nextDateText": "Date to be announced",
       "dateStatus": "pending"
     },
     {
@@ -988,7 +932,6 @@
         }
       ],
       "officialUrl": "https://host.conferences.computer.org/2027/",
-      "nextDateText": "3–6 May 2027",
       "startDate": "2027-05-03",
       "endDate": "2027-05-06",
       "yearHint": 2027,
@@ -1016,11 +959,7 @@
         }
       ],
       "officialUrl": "https://esweek.hosting2.acm.org/emsoft/",
-      "nextDateText": "Not announced",
-      "startDate": null,
-      "endDate": null,
-      "yearHint": null,
-      "location": "Not announced",
+      "nextDateText": "Date to be announced",
       "dateStatus": "pending"
     },
     {
@@ -1044,7 +983,6 @@
         }
       ],
       "officialUrl": "https://sensys.acm.org/2027/",
-      "nextDateText": "17–20 May 2027",
       "startDate": "2027-05-17",
       "endDate": "2027-05-20",
       "yearHint": 2027,
@@ -1072,7 +1010,6 @@
         }
       ],
       "officialUrl": "https://www.comsoc.org/conferences-events/ieee-world-forum-internet-things-2026",
-      "nextDateText": "26–29 Oct 2026",
       "startDate": "2026-10-26",
       "endDate": "2026-10-29",
       "yearHint": 2026,
@@ -1100,11 +1037,404 @@
         }
       ],
       "officialUrl": "https://www.radiowirelessweek.org/conferences/iot-summit/",
-      "nextDateText": "19–20 Jan 2027",
       "startDate": "2027-01-19",
       "endDate": "2027-01-20",
       "yearHint": 2027,
       "location": "Tampa, Florida, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-41",
+      "name": "FC : International Conference on Financial Cryptography and Data Security",
+      "shortName": "FC",
+      "organizer": "Stichting Financial Cryptography / IFCA (in cooperation with IACR)",
+      "rating": "A*",
+      "trackIds": [
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://fc27.ifca.ai/",
+      "startDate": "2027-02-08",
+      "endDate": "2027-02-12",
+      "yearHint": 2027,
+      "location": "Rockley, Christ Church, Barbados",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-42",
+      "name": "International Conference on Internet of Things, Big Data and Security (IoTBDS)",
+      "shortName": "IoTBDS",
+      "organizer": "Institute for Systems and Technologies of Information, Control and Communication (INSTICC)",
+      "rating": "A*",
+      "trackIds": [
+        "T1",
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://iotbds.scitevents.org/home.aspx",
+      "startDate": "2027-04-18",
+      "endDate": "2027-04-20",
+      "yearHint": 2027,
+      "location": "Rome, Italy",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-43",
+      "name": "The IEEE International Carnahan Conference on Security Technology (ICCST)",
+      "shortName": "ICCST",
+      "organizer": "IEEE (technically co-sponsored by IEEE AESS)",
+      "rating": "A",
+      "trackIds": [
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://ieee-aess.org/event/conference/2026-ieee-international-carnahan-conference-security-technology",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-16",
+      "yearHint": 2026,
+      "location": "Las Palmas de Gran Canaria, Spain",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-44",
+      "name": "International Conference on Advanced Information Networking and Applications (AINA)",
+      "shortName": "AINA",
+      "organizer": "AINA 2027 Organizing Committee / Polytechnic University of Tirana",
+      "rating": "A",
+      "trackIds": [
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://voyager.ce.fit.ac.jp/conf/aina/2027/",
+      "startDate": "2027-03-24",
+      "endDate": "2027-03-26",
+      "yearHint": 2027,
+      "location": "Tirana, Albania",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-45",
+      "name": "CISIS: International Conference on Computational Intelligence in Security for Information Systems",
+      "shortName": "CISIS",
+      "organizer": "CISIS Organizing Committee (University of Salamanca and University of A Coruña)",
+      "rating": "A",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://cisisconference.eu/",
+      "nextDateText": "Date to be announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-46",
+      "name": "European Conference on Visual Information Processing (EUVIP)",
+      "shortName": "EUVIP",
+      "organizer": "EUVIP Organizing Committee",
+      "rating": "A",
+      "trackIds": [
+        "T1"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        }
+      ],
+      "officialUrl": "https://euvip2026.github.io/",
+      "nextDateText": "Date to be announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-47",
+      "name": "HCist: International Conference on Health and Social Care Information Systems and Technologies",
+      "shortName": "HCist",
+      "organizer": "SciKA / Polytechnic University of Cávado and Ave (AIS-affiliated conference)",
+      "rating": "A",
+      "trackIds": [
+        "T1",
+        "T3",
+        "T4"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        },
+        {
+          "id": "T4",
+          "name": "Post-Quantum Cryptography and Embedded Systems Security"
+        }
+      ],
+      "officialUrl": "https://hcist.scika.org/",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-13",
+      "yearHint": 2026,
+      "location": "Seville, Spain",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-48",
+      "name": "ACM International Conference on Information and Knowledge Management (CIKM)",
+      "shortName": "CIKM",
+      "organizer": "Association for Computing Machinery (ACM)",
+      "rating": "A*",
+      "trackIds": [
+        "T2"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        }
+      ],
+      "officialUrl": "https://www.cikmconference.org/",
+      "nextDateText": "October 2027 (tentative; exact dates unconfirmed)",
+      "yearHint": 2027,
+      "location": "Sydney, Australia (tentative)",
+      "dateStatus": "tentative"
+    },
+    {
+      "id": "conf-49",
+      "name": "International Conference on Information Systems (ICIS)",
+      "shortName": "ICIS",
+      "organizer": "Association for Information Systems (AIS)",
+      "rating": "A*",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://aisnet.org/conferences/the-international-conference-on-information-systems/",
+      "startDate": "2027-12-12",
+      "endDate": "2027-12-15",
+      "yearHint": 2027,
+      "location": "Orlando, Florida, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-50",
+      "name": "IEEE Information Visualization Conference (IEEE VIS)",
+      "shortName": "IEEE VIS",
+      "organizer": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "rating": "A*",
+      "trackIds": [
+        "T1"
+      ],
+      "tracks": [
+        {
+          "id": "T1",
+          "name": "Medical Imaging and Multimodal Biomedical AI"
+        }
+      ],
+      "officialUrl": "https://ieeevis.org/",
+      "nextDateText": "Date to be announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-51",
+      "name": "Americas Conference on Information Systems (AMCIS)",
+      "shortName": "AMCIS",
+      "organizer": "Association for Information Systems (AIS)",
+      "rating": "A",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://amcis2027.aisconferences.org/",
+      "startDate": "2027-07-28",
+      "endDate": "2027-07-30",
+      "yearHint": 2027,
+      "location": "São Paulo, Brazil",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-52",
+      "name": "Annual Conference of the Portuguese Association for Information Systems (CAPSI)",
+      "shortName": "CAPSI",
+      "organizer": "Portuguese Association for Information Systems (APSI)",
+      "rating": "A",
+      "trackIds": [
+        "T2"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        }
+      ],
+      "officialUrl": "https://ptais.apsi.pt/capsi/",
+      "nextDateText": "Date to be announced",
+      "dateStatus": "pending"
+    },
+    {
+      "id": "conf-53",
+      "name": "European Conference on Information Systems (ECIS)",
+      "shortName": "ECIS",
+      "organizer": "Association for Information Systems (AIS), Region 2",
+      "rating": "A",
+      "trackIds": [
+        "T2",
+        "T3"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        },
+        {
+          "id": "T3",
+          "name": "AI-Driven Cybersecurity and Secure Healthcare Systems"
+        }
+      ],
+      "officialUrl": "https://ecis2027.uni.lu/",
+      "startDate": "2027-05-24",
+      "endDate": "2027-05-26",
+      "yearHint": 2027,
+      "location": "Luxembourg City, Luxembourg",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-54",
+      "name": "International Conference on Geographic Information Science (GIScience)",
+      "shortName": "GIScience",
+      "organizer": "GIScience 2027 Organizing Committee / Tongji University",
+      "rating": "A*",
+      "trackIds": [
+        "T2"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        }
+      ],
+      "officialUrl": "https://giscience2027.org/",
+      "startDate": "2027-10-18",
+      "endDate": "2027-10-22",
+      "yearHint": 2027,
+      "location": "Shanghai, China",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-55",
+      "name": "Annual Conference of the Southern Association for Information Systems (SAIS)",
+      "shortName": "SAIS",
+      "organizer": "Southern Association for Information Systems (AIS chapter)",
+      "rating": "A",
+      "trackIds": [
+        "T2"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        }
+      ],
+      "officialUrl": "https://communities.aisnet.org/southernusa/annual-conference",
+      "startDate": "2027-03-18",
+      "endDate": "2027-03-20",
+      "yearHint": 2027,
+      "location": "Birmingham, Alabama, USA",
+      "dateStatus": "scheduled"
+    },
+    {
+      "id": "conf-56",
+      "name": "Conference on Information Sciences and Systems (CISS)",
+      "shortName": "CISS",
+      "organizer": "Johns Hopkins University, Department of Electrical and Computer Engineering (technical co-sponsor: IEEE Information Theory Society)",
+      "rating": "A",
+      "trackIds": [
+        "T2"
+      ],
+      "tracks": [
+        {
+          "id": "T2",
+          "name": "Trustworthy and Privacy-Preserving AI"
+        }
+      ],
+      "officialUrl": "https://ciss.jhu.edu/",
+      "startDate": "2027-03-24",
+      "endDate": "2027-03-26",
+      "yearHint": 2027,
+      "location": "Baltimore, Maryland, USA",
       "dateStatus": "scheduled"
     }
   ]
