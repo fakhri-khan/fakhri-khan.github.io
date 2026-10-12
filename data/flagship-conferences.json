@@ -1200,8 +1200,11 @@
         }
       ],
       "officialUrl": "https://euvip2026.github.io/",
-      "nextDateText": "Date to be announced",
-      "dateStatus": "pending"
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-01",
+      "location": "Luxembourg City, Luxembourg"
     },
     {
       "id": "conf-47",
@@ -2428,7 +2431,7 @@
     {
       "id": "conf-103",
       "name": "IEEE International Conference on Metaverse Computing, Networking and Applications (IEEE MetaCom)",
-      "shortName": "MCNAM",
+      "shortName": "MetaCom",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -2440,10 +2443,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.metacomm.org/2026/index.php",
+      "location": "Xi'an, China",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-10"
     },
     {
       "id": "conf-104",
