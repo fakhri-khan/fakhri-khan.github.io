@@ -1573,10 +1573,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://ifipaiai.org/2026/",
+      "location": "Rome, Italy",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-09-15",
+      "endDate": "2027-09-18"
     },
     {
       "id": "conf-63",
@@ -2243,7 +2245,7 @@
     {
       "id": "conf-94",
       "name": "IADIS International Conference on e-Society",
-      "shortName": "IES",
+      "shortName": "e-Society",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -2255,10 +2257,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.esociety-conf.org/",
+      "location": "Porto, Portugal",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-03-13",
+      "endDate": "2027-03-15"
     },
     {
       "id": "conf-95",
@@ -2383,10 +2387,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.ieeelcn.org/",
+      "location": "Coimbra, Portugal",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-10-07",
+      "endDate": "2026-10-09"
     },
     {
       "id": "conf-101",
@@ -2623,7 +2629,7 @@
     {
       "id": "conf-112",
       "name": "IEEE International Symposium on Intelligent Systems and Informatics",
-      "shortName": "ISI",
+      "shortName": "NCA",
       "organizer": "",
       "rating": "A",
       "trackIds": [
@@ -2635,10 +2641,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.nca-ieee.org/2026/",
+      "location": "Ortigia–Syracuse, Sicily, Italy",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-13"
     },
     {
       "id": "conf-113",
