@@ -1,5 +1,5 @@
 (() => {
-  const dataUrl = "/data/flagship-conferences.json?v=20261012j";
+  const dataUrl = "/data/flagship-conferences.json?v=20261012k";
   const trackFilters = document.querySelector("#conference-track-filters");
   const searchInput = document.querySelector("#conference-search");
   const ratingButtons = Array.from(document.querySelectorAll(".rating-filter-button"));
