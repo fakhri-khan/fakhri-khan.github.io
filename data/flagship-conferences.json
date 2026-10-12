@@ -3771,10 +3771,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.podc.org/",
+      "location": "Reykjavik, Iceland",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-06-21",
+      "endDate": "2027-06-25"
     },
     {
       "id": "conf-169",
@@ -4061,10 +4063,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://ubicomp.hosting.acm.org/ubicompiswc2026_wp/",
+      "location": "Shanghai, China",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-10-11",
+      "endDate": "2026-10-15"
     },
     {
       "id": "conf-183",
@@ -4325,10 +4329,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.vldb.org/2027/",
+      "location": "Athens, Greece",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-08-23",
+      "endDate": "2027-08-27"
     },
     {
       "id": "conf-196",
