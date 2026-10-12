@@ -2807,10 +2807,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://2026.flins.cc/",
+      "location": "Sydney, Australia",
+      "dateStatus": "scheduled",
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-19",
+      "yearHint": 2026
     },
     {
       "id": "conf-118",
@@ -2871,10 +2873,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.cphs2026.org/",
+      "location": "Redondo Beach, California, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2026-12-11",
+      "endDate": "2026-12-12",
+      "yearHint": 2026
     },
     {
       "id": "conf-121",
@@ -3011,7 +3015,7 @@
     {
       "id": "conf-127",
       "name": "International Conference on Computer Communication and Networks",
-      "shortName": "CCN",
+      "shortName": "ICCCN",
       "organizer": "",
       "rating": "A*",
       "trackIds": [
@@ -3023,10 +3027,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://icccn.org/ICCCN26/index.html",
+      "location": "Honolulu, Hawaii, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2026-07-27",
+      "endDate": "2026-07-30",
+      "yearHint": 2026
     },
     {
       "id": "conf-128",
@@ -3133,10 +3139,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://2026.fpl.org/",
+      "location": "Ghent, Belgium",
+      "dateStatus": "scheduled",
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-11",
+      "yearHint": 2026
     },
     {
       "id": "conf-133",
@@ -3499,10 +3507,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/eseiw-2026",
+      "location": "Munich, Germany",
+      "dateStatus": "scheduled",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-09",
+      "yearHint": 2026
     },
     {
       "id": "conf-150",
