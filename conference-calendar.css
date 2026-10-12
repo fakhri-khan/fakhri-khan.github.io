@@ -1,5 +1,6 @@
 
 /* Conference calendar */
+.conference-hero { padding: 30px 0 26px; }
 .conference-section { padding-top: 44px; }
 .conference-intro { display: flex; align-items: end; justify-content: space-between; gap: 28px; margin-bottom: 26px; }
 .conference-intro h2 { margin: 0; color: var(--navy); font-size: clamp(1.7rem, 3vw, 2.45rem); }
@@ -139,6 +140,8 @@
   .conference-lower-grid { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 680px) {
+  .conference-hero { padding: 26px 0 22px; }
+  .conference-hero .page-hero-layout { gap: 16px; }
   .conference-section { padding-top: 30px; }
   .conference-planner-layout { grid-template-columns: minmax(0, 1fr); }
   .conference-track-sidebar { position: static; }
@@ -174,12 +177,12 @@
 @media (max-width: 920px) { .conference-signal-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
 /* Conference rating colors */
-.conference-rating-legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 0 0 10px; color: var(--muted); font-size: .68rem; font-weight: 700; }
-.conference-rating-legend span { display: inline-flex; align-items: center; gap: 6px; }
-.rating-swatch { display: inline-block; width: 13px; height: 13px; border-radius: 3px; }
-.rating-swatch.rating-a-star { background: #f2d891; border: 1px solid #a97500; }
-.rating-swatch.rating-a { background: #d3e7f1; border: 1px solid #356d8b; }
-.rating-swatch.rating-other { background: #e2e8e9; border: 1px solid #88999e; }
+
+
+
+
+
+
 .calendar-event.rating-a-star { color: #4e3600; background: #f2d891; border-left-color: #a97500; }
 .calendar-event.rating-a { color: #173d52; background: #d3e7f1; border-left-color: #356d8b; }
 .calendar-event.rating-other { border-left-color: #88999e; }
