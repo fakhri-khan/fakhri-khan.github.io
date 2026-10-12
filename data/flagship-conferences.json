@@ -4549,7 +4549,7 @@
       "id": "conf-196",
       "name": "Wuhan International Conference on e-Business",
       "shortName": "WEB",
-      "organizer": "",
+      "organizer": "Wuhan International Conference on E-Business Organizing Committee",
       "rating": "A",
       "trackIds": [
         "Misc"
@@ -4560,10 +4560,13 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://whiceb.cug.edu.cn/",
+      "nextDateText": "May 28–31, 2026",
+      "location": "Wuhan, China",
+      "dateStatus": "scheduled",
+      "startDate": "2026-05-28",
+      "endDate": "2026-05-31",
+      "yearHint": 2026
     },
     {
       "id": "conf-197",
