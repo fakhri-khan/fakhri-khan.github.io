@@ -1757,10 +1757,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://2027.coling-iccl.org/",
+      "location": "Macau, China",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-05-09",
+      "endDate": "2027-05-14"
     },
     {
       "id": "conf-72",
@@ -2115,10 +2117,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.fsttcs.org.in/2026/",
+      "location": "Delhi, India",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-12-16",
+      "endDate": "2026-12-18"
     },
     {
       "id": "conf-89",
@@ -2899,10 +2903,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://iccad.com/2026",
+      "location": "San Jose, California, USA",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-12"
     },
     {
       "id": "conf-127",
@@ -3041,10 +3047,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://iconip2026.org/",
+      "location": "Melbourne, Australia",
+      "dateStatus": "scheduled",
+      "yearHint": 2026,
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-27"
     },
     {
       "id": "conf-134",
@@ -3717,7 +3725,7 @@
     {
       "id": "conf-166",
       "name": "PERCOM : IEEE International Conference on Pervasive Computing and Communications",
-      "shortName": "PERCOM",
+      "shortName": "PerCom",
       "organizer": "",
       "rating": "A*",
       "trackIds": [
@@ -3729,10 +3737,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://percom.org/",
+      "location": "Goa, India",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-03-08",
+      "endDate": "2027-03-12"
     },
     {
       "id": "conf-167",
@@ -3813,10 +3823,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://popl27.sigplan.org/",
+      "location": "Mexico City, Mexico",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-01-10",
+      "endDate": "2027-01-16"
     },
     {
       "id": "conf-171",
@@ -3897,10 +3909,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.sigapp.org/sac/sac2027/",
+      "location": "Gwangju, South Korea",
+      "dateStatus": "scheduled",
+      "yearHint": 2027,
+      "startDate": "2027-04-05",
+      "endDate": "2027-04-09"
     },
     {
       "id": "conf-175",
