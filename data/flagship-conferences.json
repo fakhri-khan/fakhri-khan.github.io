@@ -1251,9 +1251,9 @@
         }
       ],
       "officialUrl": "https://www.cikmconference.org/",
-      "nextDateText": "October 2027 (tentative; exact dates unconfirmed)",
+      "nextDateText": "Dates to be announced for 2027",
       "yearHint": 2027,
-      "location": "Sydney, Australia (tentative)",
+      "location": "Sydney, Australia",
       "dateStatus": "tentative"
     },
     {
@@ -1481,7 +1481,8 @@
       "officialUrl": "https://www.acm.org/data-science-summit",
       "nextDateText": "Date and venue to be confirmed",
       "location": "",
-      "dateStatus": "to-be-confirmed"
+      "dateStatus": "to-be-confirmed",
+      "yearHint": 2027
     },
     {
       "id": "conf-59",
@@ -1703,10 +1704,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conferences.i-cav.org/2027/",
+      "location": "Amsterdam, Netherlands",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-19",
+      "endDate": "2027-07-23",
+      "yearHint": 2027
     },
     {
       "id": "conf-70",
@@ -1723,10 +1726,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://chi2027.acm.org/",
+      "location": "Pittsburgh, Pennsylvania, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-05-10",
+      "endDate": "2027-05-14",
+      "yearHint": 2027
     },
     {
       "id": "conf-71",
@@ -1927,10 +1932,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.esec-fse.org/upcoming_events",
+      "location": "Shenzhen, China",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-12",
+      "endDate": "2027-07-16",
+      "yearHint": 2027
     },
     {
       "id": "conf-81",
@@ -1967,10 +1974,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://ecai2027.org/",
+      "location": "Athens, Greece",
+      "dateStatus": "scheduled",
+      "startDate": "2027-10-02",
+      "endDate": "2027-10-06",
+      "yearHint": 2027
     },
     {
       "id": "conf-83",
@@ -2007,10 +2016,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://2027.eurosys.org/",
+      "location": "Rabat, Morocco",
+      "dateStatus": "scheduled",
+      "startDate": "2027-04-19",
+      "endDate": "2027-04-23",
+      "yearHint": 2027
     },
     {
       "id": "conf-85",
@@ -2129,10 +2140,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/hpca-2027",
+      "location": "Salt Lake City, Utah, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-03-20",
+      "endDate": "2027-03-24",
+      "yearHint": 2027
     },
     {
       "id": "conf-91",
@@ -2269,10 +2282,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.icmr2027.org/",
+      "location": "Singapore",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-07",
+      "endDate": "2027-06-10",
+      "yearHint": 2027
     },
     {
       "id": "conf-98",
@@ -2353,10 +2368,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://infocom2027.ieee-infocom.org/",
+      "location": "Honolulu, Hawaii, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-05-24",
+      "endDate": "2027-05-27",
+      "yearHint": 2027
     },
     {
       "id": "conf-102",
@@ -2555,10 +2572,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.fccm.org/",
+      "location": "Provo, Utah, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-05-09",
+      "endDate": "2027-05-12",
+      "yearHint": 2027
     },
     {
       "id": "conf-112",
@@ -2695,10 +2714,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "https://qce.quantum.ieee.org/2026/",
-      "nextDateText": "Next occurrence to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://qce.quantum.ieee.org/2027/",
+      "location": "Raleigh, North Carolina, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-10-10",
+      "endDate": "2027-10-15",
+      "yearHint": 2027
     },
     {
       "id": "conf-119",
@@ -2715,10 +2736,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://wacv.thecvf.com/Conferences/2027",
+      "location": "Lake Buena Vista, Florida, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-01-04",
+      "endDate": "2027-01-08",
+      "yearHint": 2027
     },
     {
       "id": "conf-120",
@@ -2755,10 +2778,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://ijcnn.org/2027/",
+      "location": "Cape Town, South Africa",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-14",
+      "endDate": "2027-06-18",
+      "yearHint": 2027
     },
     {
       "id": "conf-122",
@@ -2775,10 +2800,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://ieeecompsac.computer.org/2027/",
+      "location": "Tokyo, Japan",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-13",
+      "endDate": "2027-07-16",
+      "yearHint": 2027
     },
     {
       "id": "conf-123",
@@ -3135,10 +3162,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/icse-2027",
+      "location": "Dublin, Ireland",
+      "dateStatus": "scheduled",
+      "startDate": "2027-04-25",
+      "endDate": "2027-05-01",
+      "yearHint": 2027
     },
     {
       "id": "conf-141",
@@ -3195,10 +3224,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/icst-2027",
+      "location": "San Sebastián, Spain",
+      "dateStatus": "scheduled",
+      "startDate": "2027-05-17",
+      "endDate": "2027-05-21",
+      "yearHint": 2027
     },
     {
       "id": "conf-144",
@@ -3297,10 +3328,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://iscaconf.org/isca2027/",
+      "location": "Atlanta, Georgia, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-05",
+      "endDate": "2027-06-09",
+      "yearHint": 2027
     },
     {
       "id": "conf-149",
@@ -3357,10 +3390,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/series/issre",
+      "location": "Taipa, Macao SAR, China",
+      "dateStatus": "scheduled",
+      "startDate": "2027-10-19",
+      "endDate": "2027-10-22",
+      "yearHint": 2027
     },
     {
       "id": "conf-152",
@@ -3377,10 +3412,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conf.researchr.org/home/issta-2027",
+      "location": "Singapore",
+      "dateStatus": "scheduled",
+      "startDate": "2027-09-07",
+      "endDate": "2027-09-10",
+      "yearHint": 2027
     },
     {
       "id": "conf-153",
@@ -3437,10 +3474,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://2027.ieee-iros.org/",
+      "location": "Florence, Italy",
+      "dateStatus": "scheduled",
+      "startDate": "2027-09-27",
+      "endDate": "2027-10-01",
+      "yearHint": 2027
     },
     {
       "id": "conf-156",
@@ -3477,10 +3516,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://lics.siglog.org/lics27/",
+      "location": "Montreal, Canada",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-21",
+      "endDate": "2027-06-24",
+      "yearHint": 2027
     },
     {
       "id": "conf-158",
@@ -3539,9 +3580,10 @@
       ],
       "officialUrl": "https://www.sigmobile.org/mobicom/2027/",
       "yearHint": 2027,
-      "nextDateText": "Dates to be announced for 2027",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "location": "Location to be announced",
+      "dateStatus": "scheduled",
+      "startDate": "2027-10-18",
+      "endDate": "2027-10-22"
     },
     {
       "id": "conf-161",
@@ -3578,10 +3620,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://www.usenix.org/conference/nsdi27",
+      "location": "Providence, Rhode Island, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-05-11",
+      "endDate": "2027-05-13",
+      "yearHint": 2027
     },
     {
       "id": "conf-163",
@@ -3678,10 +3722,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://pldi27.sigplan.org/",
+      "location": "Atlanta, Georgia, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-05",
+      "endDate": "2027-06-11",
+      "yearHint": 2027
     },
     {
       "id": "conf-168",
@@ -3778,10 +3824,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://recsys.acm.org/",
+      "location": "Hawaii, USA (city to be announced)",
+      "dateStatus": "scheduled",
+      "startDate": "2027-08-23",
+      "endDate": "2027-08-27",
+      "yearHint": 2027
     },
     {
       "id": "conf-173",
@@ -3898,10 +3946,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://sigir2027.org/",
+      "location": "San Jose, California, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-07-18",
+      "endDate": "2027-07-24",
+      "yearHint": 2027
     },
     {
       "id": "conf-179",
@@ -3918,10 +3968,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://kdd2027.kdd.org/",
+      "location": "San Jose, California, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-08-01",
+      "endDate": "2027-08-05",
+      "yearHint": 2027
     },
     {
       "id": "conf-180",
@@ -3938,10 +3990,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://acm-stoc.org/stoc2027/",
+      "location": "Atlanta, Georgia, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-06",
+      "endDate": "2027-06-11",
+      "yearHint": 2027
     },
     {
       "id": "conf-181",
@@ -4282,10 +4336,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://conferences.sigcomm.org/sigcomm/2027/",
+      "location": "Bangkok, Thailand",
+      "dateStatus": "scheduled",
+      "startDate": "2027-08-08",
+      "endDate": "2027-08-12",
+      "yearHint": 2027
     },
     {
       "id": "conf-198",
@@ -4302,10 +4358,12 @@
           "name": "Miscellaneous - CS/SWE/COE/IS"
         }
       ],
-      "officialUrl": "",
-      "nextDateText": "Date and venue to be confirmed",
-      "location": "",
-      "dateStatus": "to-be-confirmed"
+      "officialUrl": "https://2027.sigmod.org/",
+      "location": "Huntington Beach, California, USA",
+      "dateStatus": "scheduled",
+      "startDate": "2027-06-13",
+      "endDate": "2027-06-19",
+      "yearHint": 2027
     },
     {
       "id": "conf-199",
