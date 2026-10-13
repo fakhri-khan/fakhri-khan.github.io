@@ -35,6 +35,19 @@ const normalizePagePath = (value) => {
   return path || '/';
 };
 const currentPath = normalizePagePath(window.location.pathname);
+
+// Count each site page load with the Contact-page FlagCounter. The visible counter
+// supplies the request on /contact/ so that page is not counted twice.
+if (currentPath !== normalizePagePath('/contact/')) {
+  const sitewideVisitorBeacon = new Image(1, 1);
+  sitewideVisitorBeacon.alt = '';
+  sitewideVisitorBeacon.setAttribute('aria-hidden', 'true');
+  sitewideVisitorBeacon.referrerPolicy = 'no-referrer';
+  sitewideVisitorBeacon.loading = 'eager';
+  sitewideVisitorBeacon.style.cssText = 'position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;';
+  sitewideVisitorBeacon.src = 'https://flagcounter.me/kHJ';
+  document.body.append(sitewideVisitorBeacon);
+}
 document.querySelectorAll('#main-menu a').forEach((link) => {
   const linkPath = normalizePagePath(link.getAttribute('href'));
   link.classList.toggle('is-active', linkPath === currentPath);
