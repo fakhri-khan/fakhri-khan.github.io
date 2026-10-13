@@ -3940,8 +3940,11 @@
         }
       ],
       "officialUrl": "https://conference.eurospi.net/index.php/en/",
-      "dateStatus": "to-be-confirmed",
-      "nextDateText": "Next occurrence not announced"
+      "dateStatus": "scheduled",
+      "startDate": "2027-09-15",
+      "endDate": "2027-09-17",
+      "yearHint": 2027,
+      "location": "Budapest, Hungary"
     },
     {
       "id": "conf-172",
