@@ -25,6 +25,159 @@
   ],
   "days": [
     {
+      "date": "2026-10-13",
+      "generatedAt": "2026-10-13T15:27:00.291943+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "ReGraph: A Computational Account of Emergent Generalization in the \"what\" and \"where\" Dual Visual Streams",
+          "authors": [
+            "Hyewon Kang",
+            "Jungmin Lee",
+            "Ilgyu Lee",
+            "Seok-Jun Hong"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-06",
+          "url": "https://arxiv.org/abs/2610.07962",
+          "source": "arXiv",
+          "arxivId": "2610.07962",
+          "summary": "Where generalization capacity--the ability to extract context-invariant relational structures--first emerges remains a central question in AI and neuroscience. The foundation for this capacity lies upstream of the hippocampus, within the entorhinal cortex, where parallel pathways dissociate relational structure in the medial entorhinal cortex (MEC) from sensory content in the lateral entorhinal cortex. However, as Eichenbaum argued, such factorization likely originates earlier, driven by the segregation of the dorsal ('where') and ventral ('what') visual streams. Supporting this, grid-like firing patterns--a signature of MEC (context-invariant codes)--also appear in preceding neocortical regions along the dorsal pathway. Yet, how such representations are computationally formed along upstream pathways remains unknown. To investigate this in silico, we developed ReGraph, a recurrent dual-stream graph model with biological inductive biases, including retina-driven stream-specialized encoding, dorsal-to-ventral modulation, and dynamic lateral connectivity. Trained on the action benchmark Something-Something V2, ReGraph revealed a pathway-specific emergence of relational mapping: context-invariant codes and grid-like spatial bases uniquely co-emerged along the extended dorsal stream. In contrast, their absence in single-stream, unmodulated variants, and standard baselines implies that these inductive biases are prerequisites for relational structures. Crucially, our post-hoc analyses demonstrated that these grid-like bases serve as reusable routing templates for information processing via lateral connectivity. Together, our findings provide a computational account that generalization may not be a faculty that emerges abruptly within a dedicated region, but a property that already takes shape as sensory information is parsed into factorized streams of hierarchical visual processing.",
+          "contribution": "Where generalization capacity--the ability to extract context-invariant relational structures--first emerges remains a central question in AI and neuroscience. The foundation for this capacity lies upstream of the hippocampus, within the entorhinal cortex, where parallel pathways dissociate relational structure in the medial entorhinal cortex (MEC) from sensory content in the lateral entorhinal cortex. However, as Eichenbaum argued, such factorization likely originates earlier, driven by the segregation of the dorsal ('where') and ventral ('what') visual streams. Supporting this, grid-like firing patterns--a signature of MEC (context-invariant codes)--also appear in preceding neocortical regions along the dorsal pathway. Yet, how such representations are computationally formed along upstream pathways remains unknown. To investigate this in silico, we developed ReGraph, a recurrent dual-stream graph model with biological inductive biases, including retina-driven stream-specialized encoding, dorsal-to-ventral modulation, and dynamic lateral connectivity. Trained on the action benchmark Something-Something V2, ReGraph revealed a pathway-specific emergence of relational mapping: context-invariant codes and grid-like spatial bases uniquely co-emerged along the extended dorsal stream. In contrast, their absence in single-stream, unmodulated variants, and standard baselines implies that these inductive biases are prerequisites for relational structures. Crucially, our post-hoc analyses demonstrated that these grid-like bases serve as reusable routing templates for information processing via lateral connectivity. Together, our findings provide a computational account that generalization may not be a faculty that emerges abruptly within a dedicated region, but a property that already takes shape as sensory information is parsed into factorized streams of hierarchical visual processing.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Provable Subexponential Algorithms for NIST Third-Round Lattice Families",
+          "authors": [
+            "Yiming Gao",
+            "Xuyuan Han",
+            "Honggang Hu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-08",
+          "url": "https://arxiv.org/abs/2610.11254",
+          "source": "arXiv",
+          "arxivId": "2610.11254",
+          "summary": "We give provable classical subexponential algorithms for secret recovery in growing parameter families associated with NIST third-round lattice candidates. For the Kyber/ML-KEM, FrodoKEM, SABER, NTRU LPRime, and Dilithium/ML-DSA families studied here, polynomial moduli and polylogarithmic coefficient scales yield recovery of the short secret component in expected time and space $2^{(1/2+o(1))n/\\ln\\ln n}$.\n  For noisy or rounded linear relations, we exploit an exact gap in the squared Euclidean norm of a comparison vector defined by each coordinate guess. One Gaussian list suffices to identify every secret coordinate by binary search, without enumerating the others. We establish the required sampling guarantees through new geometric bounds for structured public operators over prime and power of two moduli. The construction builds on the Wagner-style Gaussian sampling framework of Ducas, Engelberts, and Loyer (CRYPTO 2025) and the low-error decision-LWE algorithm of Han, Gao, and Hu (2026).\n  For quotient relations of NTRU type, we develop an affine slice search: fixing coordinates restricts candidate pairs to slices of the public lattice, and their estimated Gaussian masses guide the choice of each next coordinate. In the stated modulus window, Falcon's key generation quality condition supplies the required mass bound. The algorithm then recovers an equivalent signing key with high probability in time and space $2^{O(n/\\ln\\ln n)}$. The same search recovers the short key core for cyclic NTRU-HPS/HRSS.\n  Together, these results give subexponential algorithms for problem families associated with all seven NIST third-round lattice candidates. Despite the subexponential complexity, our results do not establish a reduction in the concrete security of the currently specified parameter sets.",
+          "contribution": "We give provable classical subexponential algorithms for secret recovery in growing parameter families associated with NIST third-round lattice candidates. For the Kyber/ML-KEM, FrodoKEM, SABER, NTRU LPRime, and Dilithium/ML-DSA families studied here, polynomial moduli and polylogarithmic coefficient scales yield recovery of the short secret component in expected time and space $2^{(1/2+o(1))n/\\ln\\ln n}$.\n  For noisy or rounded linear relations, we exploit an exact gap in the squared Euclidean norm of a comparison vector defined by each coordinate guess. One Gaussian list suffices to identify every secret coordinate by binary search, without enumerating the others. We establish the required sampling guarantees through new geometric bounds for structured public operators over prime and power of two moduli. The construction builds on the Wagner-style Gaussian sampling framework of Ducas, Engelberts, and Loyer (CRYPTO 2025) and the low-error decision-LWE algorithm of Han, Gao, and Hu (2026).\n  For quotient relations of NTRU type, we develop an affine slice search: fixing coordinates restricts candidate pairs to slices of the public lattice, and their estimated Gaussian masses guide the choice of each next coordinate. In the stated modulus window, Falcon's key generation quality condition supplies the required mass bound. The algorithm then recovers an equivalent signing key with high probability in time and space $2^{O(n/\\ln\\ln n)}$. The same search recovers the short key core for cyclic NTRU-HPS/HRSS.\n  Together, these results give subexponential algorithms for problem families associated with all seven NIST third-round lattice candidates. Despite the subexponential complexity, our results do not establish a reduction in the concrete security of the currently specified parameter sets.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
+          "authors": [
+            "Ayesha Siddiqua Dina",
+            "Ebisa D. Wollega",
+            "Afzal Hossain Sohag"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-09",
+          "url": "https://arxiv.org/abs/2610.13853",
+          "source": "arXiv",
+          "arxivId": "2610.13853",
+          "summary": "Power grid cyber-physical security requires intrusion detection methods that account for the operational consequences of detection errors. However, the existing intrusion detection approaches primarily focus on the predictive performance of learning algorithms, while downstream operational costs are often optimized independently, which can lead to inferior operational performance. To help alleviate this problem, we propose a novel optimization-learning cyber-physical-risk-informed framework that communicates iteratively to minimize power grid operational costs. This framework translates machine learning prediction errors into power grid operational cyber-physical-risk costs. Experimental results on two power grid operation datasets, Industrial Control System (ICS) Cyber Attack and Sherlock, show that the proposed approach improves power grid operation costs compared with the traditional approach.",
+          "contribution": "Power grid cyber-physical security requires intrusion detection methods that account for the operational consequences of detection errors. However, the existing intrusion detection approaches primarily focus on the predictive performance of learning algorithms, while downstream operational costs are often optimized independently, which can lead to inferior operational performance. To help alleviate this problem, we propose a novel optimization-learning cyber-physical-risk-informed framework that communicates iteratively to minimize power grid operational costs. This framework translates machine learning prediction errors into power grid operational cyber-physical-risk costs. Experimental results on two power grid operation datasets, Industrial Control System (ICS) Cyber Attack and Sherlock, show that the proposed approach improves power grid operation costs compared with the traditional approach.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Private and Distributionally Robust Federated Multiclass Classification",
+          "authors": [
+            "Andrea P. Hernandez",
+            "Michael Ibrahim",
+            "Nagi Gebraeel"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-09",
+          "url": "https://arxiv.org/abs/2610.13631",
+          "source": "arXiv",
+          "arxivId": "2610.13631",
+          "summary": "Fault diagnosis in asset-intensive industries requires multiclass models trained on noisy, sensitive data collected across geographically distributed client sites. Federated learning enables collaborative training without centralizing data, but most approaches do not provide formal privacy guarantees for individual records stored at client sites and can degrade under label noise. To address these limitations, we develop a differentially private, distributionally robust framework for federated multiclass classification that provides sample-level privacy for records stored at each client. We build on a federated Wasserstein distributionally robust multiclass objective with the Crammer-Singer loss, solved using an Alternating Direction Method of Multipliers (ADMM)-based algorithm. To protect the released client updates, our method injects calibrated Gaussian noise into the proximal linearized client updates of both the local model and the local distributionally robust variable before aggregation at the central server, and we quantify the cumulative privacy loss using the moments accountant. We provide per-round sample-level $(ε,δ)$-differential privacy guarantees and an overall composed privacy guarantee across all training rounds, together with convergence results and an explicit privacy-utility tradeoff. Experiments on simulated industrial fault data and UCI benchmark datasets show that our method outperforms differentially private federated empirical risk minimization and stochastic gradient descent baselines in most tested settings, with the largest gains under strong privacy-induced noise.",
+          "contribution": "Fault diagnosis in asset-intensive industries requires multiclass models trained on noisy, sensitive data collected across geographically distributed client sites. Federated learning enables collaborative training without centralizing data, but most approaches do not provide formal privacy guarantees for individual records stored at client sites and can degrade under label noise. To address these limitations, we develop a differentially private, distributionally robust framework for federated multiclass classification that provides sample-level privacy for records stored at each client. We build on a federated Wasserstein distributionally robust multiclass objective with the Crammer-Singer loss, solved using an Alternating Direction Method of Multipliers (ADMM)-based algorithm. To protect the released client updates, our method injects calibrated Gaussian noise into the proximal linearized client updates of both the local model and the local distributionally robust variable before aggregation at the central server, and we quantify the cumulative privacy loss using the moments accountant. We provide per-round sample-level $(ε,δ)$-differential privacy guarantees and an overall composed privacy guarantee across all training rounds, together with convergence results and an explicit privacy-utility tradeoff. Experiments on simulated industrial fault data and UCI benchmark datasets show that our method outperforms differentially private federated empirical risk minimization and stochastic gradient descent baselines in most tested settings, with the largest gains under strong privacy-induced noise.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Quantifying Volumetric Risk: Class-Aware Asymmetric Weighted Conformal Prediction for 3D Medical Image Segmentation",
+          "authors": [
+            "Shadi Alijani",
+            "Fereshteh Aghaee Meibodi",
+            "Homayoun Najjaran"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-07",
+          "url": "https://arxiv.org/abs/2610.09392",
+          "source": "arXiv",
+          "arxivId": "2610.09392",
+          "summary": "Reliable volumetric segmentation is critical for clinical diagnostics, yet foundation models such as MedSAM remain deterministic and lack calibrated uncertainty under distribution shift. Existing conformal prediction methods offer statistical guarantees but are frequently applied in 2D and assume symmetric error distributions, so they do not capture the class-specific biases that arise in 3D multi-class segmentation. We propose Class-Aware Asymmetric Weighted Conformal Prediction (CA-WCP), which combines latent-space density-ratio weighting for covariate shift with directional quantiles for the lower and upper volume bounds, and scales each bound by a class-specific asymmetry factor derived from validation-set false-positive and false-negative rates. We prove that CA-WCP retains the weighted-exchangeability marginal coverage guarantee for every class, and we evaluate it on 3D brain tumor segmentation (BraTS 2020) and on a synthetic multi-organ CT benchmark constructed under covariate shift. On both benchmarks the 95\\% Clopper--Pearson interval for the observed coverage of CA-WCP contains the nominal 90\\% level for every semantic class, while interval width is reduced by 8--14\\% relative to symmetric weighted conformal prediction. We further encode the calibrated intervals into structured prompts for a multimodal large language model to produce uncertainty-conditioned radiology reports, linking distribution-shift-aware uncertainty quantification to interpretable clinical communication.",
+          "contribution": "Reliable volumetric segmentation is critical for clinical diagnostics, yet foundation models such as MedSAM remain deterministic and lack calibrated uncertainty under distribution shift. Existing conformal prediction methods offer statistical guarantees but are frequently applied in 2D and assume symmetric error distributions, so they do not capture the class-specific biases that arise in 3D multi-class segmentation. We propose Class-Aware Asymmetric Weighted Conformal Prediction (CA-WCP), which combines latent-space density-ratio weighting for covariate shift with directional quantiles for the lower and upper volume bounds, and scales each bound by a class-specific asymmetry factor derived from validation-set false-positive and false-negative rates. We prove that CA-WCP retains the weighted-exchangeability marginal coverage guarantee for every class, and we evaluate it on 3D brain tumor segmentation (BraTS 2020) and on a synthetic multi-organ CT benchmark constructed under covariate shift. On both benchmarks the 95\\% Clopper--Pearson interval for the observed coverage of CA-WCP contains the nominal 90\\% level for every semantic class, while interval width is reduced by 8--14\\% relative to symmetric weighted conformal prediction. We further encode the calibrated intervals into structured prompts for a multimodal large language model to produce uncertainty-conditioned radiology reports, linking distribution-shift-aware uncertainty quantification to interpretable clinical communication.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Exploring Backdoor Vulnerabilities and Fairness Challenges in Generative Models: A Survey",
+          "authors": [
+            "Ryan Holland",
+            "Shantanu Pal",
+            "Lei Pan"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-12",
+          "url": "https://doi.org/10.1145/3847107",
+          "source": "Crossref",
+          "doi": "10.1145/3847107",
+          "summary": "Global connectivity has increased societal diversity worldwide, fostering growth and dispelling negative stereotypes. However, ensuring equality remains challenging, with some groups favoured and others facing unequal opportunities. The evolution of Artificial Intelligence (AI) promises automation, innovation, and industry transformation. Yet, as AI becomes pervasive, establishing trust in algorithmic decision-making is crucial to eliminate bias and ensure fair outcomes. Adversarial attacks, particularly backdoor attacks, pose significant threats to AI systems. Research must focus on mitigating discrimination and bias in AI models, emphasising ethical considerations and model interpretability. Accordingly, this article surveys the critical aspects of fairness, bias, and backdoor attacks in AI systems, integrating significant and state-of-the-art research. This article begins by defining key concepts, including fairness, bias, and backdoor attacks, and exploring related elements. A thorough survey highlights key studies on fairness and bias analysis, metrics for measurement, and various fairness attacks. This article further examines methodologies for performing backdoor attacks and their implications for AI systems. Additionally, this article explores the latest defence mechanisms addressing fairness and bias issues and mitigating backdoor attacks, showcasing advancements in safeguarding AI integrity. The survey concludes with discussions on popular datasets, future research directions, and potential limitations in ongoing developments. This is the first study combining surveys of backdoor attacks and fairness in AI models to examine security vulnerabilities that can lead to bias susceptibility and unfair outcomes. By consolidating crucial research insights, this survey provides a comprehensive understanding of the challenges and progress in ensuring fairness and security in AI systems, offering valuable perspectives for researchers and practitioners.",
+          "contribution": "Global connectivity has increased societal diversity worldwide, fostering growth and dispelling negative stereotypes. However, ensuring equality remains challenging, with some groups favoured and others facing unequal opportunities. The evolution of Artificial Intelligence (AI) promises automation, innovation, and industry transformation. Yet, as AI becomes pervasive, establishing trust in algorithmic decision-making is crucial to eliminate bias and ensure fair outcomes. Adversarial attacks, particularly backdoor attacks, pose significant threats to AI systems. Research must focus on mitigating discrimination and bias in AI models, emphasising ethical considerations and model interpretability. Accordingly, this article surveys the critical aspects of fairness, bias, and backdoor attacks in AI systems, integrating significant and state-of-the-art research. This article begins by defining key concepts, including fairness, bias, and backdoor attacks, and exploring related elements. A thorough survey highlights key studies on fairness and bias analysis, metrics for measurement, and various fairness attacks. This article further examines methodologies for performing backdoor attacks and their implications for AI systems. Additionally, this article explores the latest defence mechanisms addressing fairness and bias issues and mitigating backdoor attacks, showcasing advancements in safeguarding AI integrity. The survey concludes with discussions on popular datasets, future research directions, and potential limitations in ongoing developments. This is the first study combining surveys of backdoor attacks and fairness in AI models to examine security vulnerabilities that can lead to bias susceptibility and unfair outcomes. By consolidating crucial research insights, this survey provides a comprehensive understanding of the challenges and progress in ensuring fairness and security in AI systems, offering valuable perspectives for researchers and practitioners.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "UltraGANet: a class-conditional GAN framework for breast tumor classification in ultrasound imaging",
+          "authors": [
+            "Ali Hamza",
+            "Martin Mezl"
+          ],
+          "venue": "SPIE Medical Imaging",
+          "venueId": "C04",
+          "publishedDate": "2026-10-13",
+          "url": "https://doi.org/10.1186/s12880-026-02841-y",
+          "source": "Crossref",
+          "doi": "10.1186/s12880-026-02841-y",
+          "summary": "This paper examines UltraGANet: a class-conditional GAN framework for breast tumor classification in ultrasound imaging.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-12",
       "generatedAt": "2026-10-12T15:43:53.725192+03:00",
       "papers": [
@@ -672,5 +825,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-12T15:43:53.725192+03:00"
+  "updatedAt": "2026-10-13T15:27:00.291943+03:00"
 }
