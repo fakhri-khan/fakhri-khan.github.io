@@ -25,6 +25,187 @@
   ],
   "days": [
     {
+      "date": "2026-10-14",
+      "generatedAt": "2026-10-14T12:55:03.009304+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Exploring the Latent Structure of AMD Severity Using Retinal Foundation Models",
+          "authors": [
+            "Niccolò Fineschi",
+            "Jovana Panic",
+            "Atsushi Watanabe",
+            "Hideaki Hayashi",
+            "Kazuya Nishimura",
+            "Yuki Maeno",
+            "Samanta Rosati",
+            "Gabriella Balestra",
+            "Kohji Nishida",
+            "Hajime Nagahara"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-09",
+          "url": "https://arxiv.org/abs/2610.14138",
+          "source": "arXiv",
+          "arxivId": "2610.14138",
+          "summary": "Retinal foundation models have demonstrated strong performance across a wide range of ophthalmic tasks, yet relatively little is known about how disease-related information is represented within their learned embeddings and whether this distribution influences downstream prediction performance. In this work, we use Age-related Macular Degeneration (AMD) as a case study to investigate how disease severity is represented within the embedding space of RET-CLIP, a retinal vision-language foundation model, using bilateral fundus images from the AREDS dataset, benchmarked against non-retinal encoders. We first characterize the distribution of AMD severity within the learned representation space and then evaluate how this structure influences classification performance across three clinically relevant task formulations of increasing granularity. Finally, we analyze the most influential latent dimensions combining feature attribution, statistical phenotype association, and qualitative image analyses. Our results show that RET-CLIP represents AMD severity as a continuous spectrum rather than a set of discrete categories, with healthy and advanced disease stages exhibiting clearer separation than intermediate ones. This organization was reflected in downstream performance, which decreased from a balanced accuracy of 0.844 and 0.814 for binary AMD and Late-AMD detection respectively to 0.446 for six-class grading. Furthermore, the most influential latent dimensions were statistically associated to distinct retinal phenotypes, including drusen accumulation, pigmentary alterations, and advanced retinal lesions. These findings suggest that the structure of retinal foundation-model representations influences the difficulty of clinically relevant prediction tasks and demonstrate the potential of representation-level analysis for understanding disease organization and improving interpretability.",
+          "contribution": "Retinal foundation models have demonstrated strong performance across a wide range of ophthalmic tasks, yet relatively little is known about how disease-related information is represented within their learned embeddings and whether this distribution influences downstream prediction performance. In this work, we use Age-related Macular Degeneration (AMD) as a case study to investigate how disease severity is represented within the embedding space of RET-CLIP, a retinal vision-language foundation model, using bilateral fundus images from the AREDS dataset, benchmarked against non-retinal encoders. We first characterize the distribution of AMD severity within the learned representation space and then evaluate how this structure influences classification performance across three clinically relevant task formulations of increasing granularity. Finally, we analyze the most influential latent dimensions combining feature attribution, statistical phenotype association, and qualitative image analyses. Our results show that RET-CLIP represents AMD severity as a continuous spectrum rather than a set of discrete categories, with healthy and advanced disease stages exhibiting clearer separation than intermediate ones. This organization was reflected in downstream performance, which decreased from a balanced accuracy of 0.844 and 0.814 for binary AMD and Late-AMD detection respectively to 0.446 for six-class grading. Furthermore, the most influential latent dimensions were statistically associated to distinct retinal phenotypes, including drusen accumulation, pigmentary alterations, and advanced retinal lesions. These findings suggest that the structure of retinal foundation-model representations influences the difficulty of clinically relevant prediction tasks and demonstrate the potential of representation-level analysis for understanding disease organization and improving interpretability.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Closed-loop evaluation of LLM agents for embedded software development",
+          "authors": [
+            "Jorge García-Carrasco",
+            "Sergio García-Carrasco",
+            "Alejandro Maté",
+            "Juan Trujillo"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-08",
+          "url": "https://arxiv.org/abs/2610.11447",
+          "source": "arXiv",
+          "doi": "10.1016/j.sysarc.2026.103937",
+          "arxivId": "2610.11447",
+          "summary": "Large language models (LLMs) are increasingly deployed as coding agents that edit files, run builds and tests, inspect execution results, and repair software iteratively. Embedded firmware is a demanding target because correctness depends on closed-loop behavior under sensing, timing, and safety constraints, not only on static source quality. Yet embedded-agent evaluation remains limited and often emphasizes one-shot synthesis or offline correctness.\n  We present a benchmark for closed-loop evaluation of embedded coding agents. Each task provides a plain-text engineering description, constrained workspace, and visible build-and-runtime surface. The agent must translate requirements into implementation and self-verification steps, then iterate until the required device behavior is achieved. The suite contains five embedded-control tasks and four feedback scenarios: one-shot generation, realistic self-verification, CI-style red/green feedback, and oracle-style detailed feedback.\n  The implementation targets simulated ESP32 firmware for reproducibility. We evaluate seven GPT-family and Qwen-family configurations across five tasks and four scenarios, with three repetitions per condition for 420 runs. gpt-5.4 has the highest pass rate among evaluated configurations but does not saturate the benchmark; qwen3.5-27B is the strongest observed local model; and smaller local models degrade sharply in pass rate and search efficiency. These results suggest that capable local embedded coding agents are emerging.",
+          "contribution": "Large language models (LLMs) are increasingly deployed as coding agents that edit files, run builds and tests, inspect execution results, and repair software iteratively. Embedded firmware is a demanding target because correctness depends on closed-loop behavior under sensing, timing, and safety constraints, not only on static source quality. Yet embedded-agent evaluation remains limited and often emphasizes one-shot synthesis or offline correctness.\n  We present a benchmark for closed-loop evaluation of embedded coding agents. Each task provides a plain-text engineering description, constrained workspace, and visible build-and-runtime surface. The agent must translate requirements into implementation and self-verification steps, then iterate until the required device behavior is achieved. The suite contains five embedded-control tasks and four feedback scenarios: one-shot generation, realistic self-verification, CI-style red/green feedback, and oracle-style detailed feedback.\n  The implementation targets simulated ESP32 firmware for reproducibility. We evaluate seven GPT-family and Qwen-family configurations across five tasks and four scenarios, with three repetitions per condition for 420 runs. gpt-5.4 has the highest pass rate among evaluated configurations but does not saturate the benchmark; qwen3.5-27B is the strongest observed local model; and smaller local models degrade sharply in pass rate and search efficiency. These results suggest that capable local embedded coding agents are emerging.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Tanchun: Robust Flow-Based HTTP(S) DDoS Detection via Behavioral Attribute Guidance",
+          "authors": [
+            "Qingyang Li",
+            "Yunpeng Tan",
+            "Mingxin Yang",
+            "Yannan Hu",
+            "Lei Zhang",
+            "Yong Cui",
+            "Zongming Guo",
+            "Xinggong Zhang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-13",
+          "url": "https://arxiv.org/abs/2610.18406",
+          "source": "arXiv",
+          "arxivId": "2610.18406",
+          "summary": "HTTP(S) DDoS attacks have surged in frequency and scale, posing a significant threat to network security. Flow-based detection is a promising solution for large-scale HTTP(S) DDoS detection due to its decryption-free operation and scalability. However, the coarse-grained numerical statistics in flow data limit accurate attack detection and lack robustness when benign and attack traffic patterns drift over time.\n  In this paper, we present Tanchun, a drift-aware flow-based HTTP(S) DDoS detection system that relies solely on decryption-free flow data. Specifically, Tanchun groups flows by IP-pair and aggregates them over consecutive time slots into behavior sequences, capturing temporal access patterns to compensate for the limited information in individual flows. It further abstracts these sequences into human-understandable behavioral attributes that capture stable behavioral semantics. Tanchun then aligns behavior sequences with their corresponding behavioral attributes to guide representation learning, enabling robust detection under traffic drift.\n  We evaluate Tanchun across diverse HTTP(S) DDoS scenarios. Tanchun achieves the best overall performance, with an average F1-score of 0.988, and outperforms the second-best method by 5.3\\% and 9.6\\% under benign-traffic and attack-traffic drift, respectively. Experiments on real-world traffic traces further demonstrate its practical effectiveness.",
+          "contribution": "HTTP(S) DDoS attacks have surged in frequency and scale, posing a significant threat to network security. Flow-based detection is a promising solution for large-scale HTTP(S) DDoS detection due to its decryption-free operation and scalability. However, the coarse-grained numerical statistics in flow data limit accurate attack detection and lack robustness when benign and attack traffic patterns drift over time.\n  In this paper, we present Tanchun, a drift-aware flow-based HTTP(S) DDoS detection system that relies solely on decryption-free flow data. Specifically, Tanchun groups flows by IP-pair and aggregates them over consecutive time slots into behavior sequences, capturing temporal access patterns to compensate for the limited information in individual flows. It further abstracts these sequences into human-understandable behavioral attributes that capture stable behavioral semantics. Tanchun then aligns behavior sequences with their corresponding behavioral attributes to guide representation learning, enabling robust detection under traffic drift.\n  We evaluate Tanchun across diverse HTTP(S) DDoS scenarios. Tanchun achieves the best overall performance, with an average F1-score of 0.988, and outperforms the second-best method by 5.3\\% and 9.6\\% under benign-traffic and attack-traffic drift, respectively. Experiments on real-world traffic traces further demonstrate its practical effectiveness.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "DeFiRank: Federated Pairwise Ranking for Governance in Decentralized Financial Networks",
+          "authors": [
+            "Zahra Batool",
+            "Michael Duchesne",
+            "Kaiwen Zhang",
+            "Ulrich Aivodji"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-09",
+          "url": "https://arxiv.org/abs/2610.12916",
+          "source": "arXiv",
+          "arxivId": "2610.12916",
+          "summary": "Existing governance approaches in decentralized financial networks rely on manual review processes conducted by human committees, which introduces subjective bias, creates a scalability bottleneck under high network volume, and fails to capture complex behavioural patterns and evolving network dynamics. To address these limitations, we propose \\name, a federated learning-based pairwise ranking framework in which multiple institutions collaboratively train a ranking model without sharing their private transaction data. This collaborative learning enables the model to capture network-wide behavioural patterns that signify strong network participation and directly contribute to the network effect, including diversity of counterparties, usage of multiple applications, and frequency of transactions. The proposed system ranks providers based on the authenticity of their actions, promoting genuine contributors and demoting those exhibiting suspicious behaviour. We evaluate \\name\\ on a real-world blockchain transaction dataset. Results demonstrate that the federated approach achieves ranking performance modestly below the centralized baseline (NDCG@15: $\\approx$0.87 vs.\\ $\\approx$0.92) while preserving data privacy and matching its ranking stability (Kendall $τ$: $\\approx$0.70 for both regimes), producing reliable governance decisions, including provider promotion and demotion (648 and 39 unique providers, respectively), without requiring centralized access to sensitive transaction data.",
+          "contribution": "Existing governance approaches in decentralized financial networks rely on manual review processes conducted by human committees, which introduces subjective bias, creates a scalability bottleneck under high network volume, and fails to capture complex behavioural patterns and evolving network dynamics. To address these limitations, we propose \\name, a federated learning-based pairwise ranking framework in which multiple institutions collaboratively train a ranking model without sharing their private transaction data. This collaborative learning enables the model to capture network-wide behavioural patterns that signify strong network participation and directly contribute to the network effect, including diversity of counterparties, usage of multiple applications, and frequency of transactions. The proposed system ranks providers based on the authenticity of their actions, promoting genuine contributors and demoting those exhibiting suspicious behaviour. We evaluate \\name\\ on a real-world blockchain transaction dataset. Results demonstrate that the federated approach achieves ranking performance modestly below the centralized baseline (NDCG@15: $\\approx$0.87 vs.\\ $\\approx$0.92) while preserving data privacy and matching its ranking stability (Kendall $τ$: $\\approx$0.70 for both regimes), producing reliable governance decisions, including provider promotion and demotion (648 and 39 unique providers, respectively), without requiring centralized access to sensitive transaction data.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "The Federated Tumor Segmentation and Classification (FeTS++) Challenge",
+          "authors": [
+            "Wenyi Tang",
+            "Carla Pitarch-Abaigar",
+            "Siddhesh Thakur",
+            "Verena Chung",
+            "Konstantinos Koukoutegos",
+            "Alexandros Karargyris",
+            "Holger R. Roth",
+            "Spyridon Bakas"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-13",
+          "url": "https://arxiv.org/abs/2610.18771",
+          "source": "arXiv",
+          "arxivId": "2610.18771",
+          "summary": "International challenges have become the standard for developing and benchmarking biomedical image analysis methods using centralized multi-institutional data. Federated learning (FL) describes a paradigm-shift on multi-institutional collaborations, where models are trained across institutions while their data are always retained locally. The Federated Tumor Segmentation (FeTS) challenge, first held in 2021, was the first challenge dedicated to FL in medical imaging and editions in 2022 and 2024 pushed the frontiers of real-world method validation. FeTS++ 2027 returns after a two-year gap with a substantially larger and more diverse cohort, and with the two \"pluses\" that name the challenge: an official classification task alongside segmentation, and a move of the infrastructure to NVIDIA FLARE (NVFlare). Built on the clinically acquired, multi-institutional multi-parametric MRI data of the BraTS 2025 Lighthouse challenge, FeTS++ spans gliomas and meningiomas across patient cohorts from institutions in North America, Europe, Asia, and Africa, and focuses on ranking submitted methodological approaches according to their model utility and an efficiency-aware score. Task 1 asks participants to find the best strategy for aggregating knowledge from per-institution segmentation models, while Task 2 asks them to distinguish glioma from meningioma under the same federated protocol, in which the entity label is heavily confounded with the site of origin.",
+          "contribution": "International challenges have become the standard for developing and benchmarking biomedical image analysis methods using centralized multi-institutional data. Federated learning (FL) describes a paradigm-shift on multi-institutional collaborations, where models are trained across institutions while their data are always retained locally. The Federated Tumor Segmentation (FeTS) challenge, first held in 2021, was the first challenge dedicated to FL in medical imaging and editions in 2022 and 2024 pushed the frontiers of real-world method validation. FeTS++ 2027 returns after a two-year gap with a substantially larger and more diverse cohort, and with the two \"pluses\" that name the challenge: an official classification task alongside segmentation, and a move of the infrastructure to NVIDIA FLARE (NVFlare). Built on the clinically acquired, multi-institutional multi-parametric MRI data of the BraTS 2025 Lighthouse challenge, FeTS++ spans gliomas and meningiomas across patient cohorts from institutions in North America, Europe, Asia, and Africa, and focuses on ranking submitted methodological approaches according to their model utility and an efficiency-aware score. Task 1 asks participants to find the best strategy for aggregating knowledge from per-institution segmentation models, while Task 2 asks them to distinguish glioma from meningioma under the same federated protocol, in which the entity label is heavily confounded with the site of origin.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Explanation User Interfaces: A Systematic Literature Review",
+          "authors": [
+            "Eleonora Cappuccio",
+            "Andrea Esposito",
+            "Francesco Greco",
+            "Giuseppe Desolda",
+            "Rosa Lanzilotti",
+            "Salvatore Rinzivillo"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-13",
+          "url": "https://doi.org/10.1145/3834765",
+          "source": "Crossref",
+          "doi": "10.1145/3834765",
+          "summary": "Artificial Intelligence is one of the major technological advancements of this century, bearing incredible potential for users through AI-powered applications and tools in numerous domains. Being often black-box (i.e., its decision-making process is unintelligible), developers typically resort to eXplainable Artificial Intelligence (XAI) techniques to interpret the behavior of AI models to produce systems that are transparent, fair, reliable, and trustworthy. However, presenting explanations to the user is not trivial and is often left as a secondary aspect of the system’s design process, leading to AI systems that are not useful to end-users. This paper presents a Systematic Literature Review on Explanation User Interfaces (XUIs) to gain a deeper understanding of the solutions and design guidelines employed in the academic literature to effectively present explanations to users. To improve the contribution and real-world impact of this survey, we also present a platform to support Human-cEnteRed developMent of Explainable user interfaceS (HERMES) and guide practitioners and scholars in the design and evaluation of XUIs.",
+          "contribution": "Artificial Intelligence is one of the major technological advancements of this century, bearing incredible potential for users through AI-powered applications and tools in numerous domains. Being often black-box (i.e., its decision-making process is unintelligible), developers typically resort to eXplainable Artificial Intelligence (XAI) techniques to interpret the behavior of AI models to produce systems that are transparent, fair, reliable, and trustworthy. However, presenting explanations to the user is not trivial and is often left as a secondary aspect of the system’s design process, leading to AI systems that are not useful to end-users. This paper presents a Systematic Literature Review on Explanation User Interfaces (XUIs) to gain a deeper understanding of the solutions and design guidelines employed in the academic literature to effectively present explanations to users. To improve the contribution and real-world impact of this survey, we also present a platform to support Human-cEnteRed developMent of Explainable user interfaceS (HERMES) and guide practitioners and scholars in the design and evaluation of XUIs.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "An all-in-one foundation model for multimodal medical image restoration and enhancement",
+          "authors": [
+            "Luyang Cao",
+            "Zhijian Wu",
+            "Jian Zhang",
+            "Lei Qi",
+            "Yang Gao",
+            "Hairong Zheng",
+            "Yefeng Zheng",
+            "Yinghuan Shi"
+          ],
+          "venue": "Nature Machine Intelligence",
+          "venueId": "J05",
+          "publishedDate": "2026-10-13",
+          "url": "https://doi.org/10.1038/s42256-026-01310-z",
+          "source": "Crossref",
+          "doi": "10.1038/s42256-026-01310-z",
+          "summary": "This paper examines An all-in-one foundation model for multimodal medical image restoration and enhancement.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-13",
       "generatedAt": "2026-10-13T15:27:00.291943+03:00",
       "papers": [
@@ -825,5 +1006,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-13T15:27:00.291943+03:00"
+  "updatedAt": "2026-10-14T12:55:03.009304+03:00"
 }
