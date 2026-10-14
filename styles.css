@@ -23,7 +23,8 @@ button { font: inherit; }
 
 .site-header { position: sticky; top: 0; z-index: 20; background: rgba(247, 246, 241, .94); border-bottom: 3px solid var(--teal); backdrop-filter: blur(14px); }
 .nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
-.brand { display: inline-flex; align-items: center; gap: 12px; font-size: .94rem; font-weight: 750; letter-spacing: -.02em; }
+.brand { display: inline-flex; align-items: center; gap: 12px; padding: 6px 8px; margin: -6px -8px; border-radius: 9px; transition: color .2s ease, background-color .2s ease; font-size: .94rem; font-weight: 750; letter-spacing: -.02em; }
+.brand:hover, .brand:focus-visible, .brand.is-active { background-color: rgba(0,108,53,.18); }
 .brand-mark { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 11px; color: var(--white); background: var(--navy); font-size: .68rem; letter-spacing: .05em; }
 .nav-links { display: flex; align-items: center; gap: 24px; color: var(--muted); font-size: .87rem; font-weight: 650; }
 .nav-links a, .quick-links a, .contact-links a, .text-link { transition: color .2s ease, background-color .2s ease; }

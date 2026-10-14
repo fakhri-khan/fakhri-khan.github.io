@@ -52,6 +52,8 @@ document.querySelectorAll('#main-menu a').forEach((link) => {
   const linkPath = normalizePagePath(link.getAttribute('href'));
   link.classList.toggle('is-active', linkPath === currentPath);
 });
+const homeLink = document.querySelector('.nav .brand');
+if (homeLink) homeLink.classList.toggle('is-active', currentPath === '/');
 
 const year = document.querySelector('#year');
 if (year) year.textContent = new Date().getFullYear();
