@@ -342,7 +342,7 @@ h1 { max-width: 730px; margin-bottom: 26px; color: var(--navy); font-size: clamp
 .lab-recruitment p { max-width: 650px; color: rgba(255,255,255,.72); font-size: .88rem; }
 .lab-recruitment .button { margin-top: 7px; }
 .page-hero .container, .section-heading, .section-intro, .about-details, .timeline, .project-list, .course-panel, .service-card, .recognition-grid article, .contact-section, .lab-page { text-align: left; }
-.page-contact { padding-top: 56px; padding-bottom: 56px; }
+.page-contact { padding-top: 44.8px; padding-bottom: 44.8px; }
 .page-contact h1 { color: var(--white); font-size: clamp(2rem, 3.75vw, 3.7rem); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 
