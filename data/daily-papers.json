@@ -25,6 +25,169 @@
   ],
   "days": [
     {
+      "date": "2026-10-15",
+      "generatedAt": "2026-10-15T12:35:43.916499+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Neuromorphic Decoding and Dynamical Image Reconstruction from Populations of Spiking Retinal Ganglion Cells",
+          "authors": [
+            "Ning Zhang",
+            "Arto Nurmikko"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-12",
+          "url": "https://arxiv.org/abs/2610.17154",
+          "source": "arXiv",
+          "arxivId": "2610.17154",
+          "summary": "Decoding visual stimuli from the spiking activity of retinal ganglion cells (RGCs) informs both our understanding of the retinal code and the design of visual prostheses. Natural vision is dynamic, yet state-of-the-art decoders mostly reconstruct single frames with artificial neural networks that process dense, continuous-valued signals rather than the retina's sparse, asynchronous spikes. We asked whether dynamic scenes can be reconstructed and tracked entirely within the spike domain, and at what computational cost. We built an end-to-end spiking neural network (SNN) whose neurons integrate the recorded RGC spikes over time. Populations of up to 1836 RGCs were recorded ex vivo from mouse retina on high-density microelectrode arrays while flashed images, moving bars, drifting gratings and randomly moving handwritten digits were presented. For moving digits, one shared spiking encoder fed two readouts, one reconstructing the image and one decoding the digit's position. Compute energy was estimated from counted synaptic operations. The SNN decoded what and where at once. It reconstructed the stimuli with a structural similarity (SSIM) of up to 0.93, refining the reconstruction as spikes accumulated, and tracked a randomly moving target with a mean error of 1.33 pixels on a $32\\times32$ grid. Its fidelity nearly matched that of the best of 17 larger spiking and artificial decoders (5.9 million to 1.7 billion parameters, versus 5.4 million), and at a mean firing rate of 14.2% it needed an estimated $ im$70-fold less compute energy than a dense artificial network of the same architecture. Dynamic visual scenes can thus be decoded from retinal population activity in the spike domain, with a compact network and at a compute cost compatible with implantable and wearable neural interfaces, supporting spike-native decoders for visual prostheses.",
+          "contribution": "Decoding visual stimuli from the spiking activity of retinal ganglion cells (RGCs) informs both our understanding of the retinal code and the design of visual prostheses. Natural vision is dynamic, yet state-of-the-art decoders mostly reconstruct single frames with artificial neural networks that process dense, continuous-valued signals rather than the retina's sparse, asynchronous spikes. We asked whether dynamic scenes can be reconstructed and tracked entirely within the spike domain, and at what computational cost. We built an end-to-end spiking neural network (SNN) whose neurons integrate the recorded RGC spikes over time. Populations of up to 1836 RGCs were recorded ex vivo from mouse retina on high-density microelectrode arrays while flashed images, moving bars, drifting gratings and randomly moving handwritten digits were presented. For moving digits, one shared spiking encoder fed two readouts, one reconstructing the image and one decoding the digit's position. Compute energy was estimated from counted synaptic operations. The SNN decoded what and where at once. It reconstructed the stimuli with a structural similarity (SSIM) of up to 0.93, refining the reconstruction as spikes accumulated, and tracked a randomly moving target with a mean error of 1.33 pixels on a $32\\times32$ grid. Its fidelity nearly matched that of the best of 17 larger spiking and artificial decoders (5.9 million to 1.7 billion parameters, versus 5.4 million), and at a mean firing rate of 14.2% it needed an estimated $ im$70-fold less compute energy than a dense artificial network of the same architecture. Dynamic visual scenes can thus be decoded from retinal population activity in the spike domain, with a compact network and at a compute cost compatible with implantable and wearable neural interfaces, supporting spike-native decoders for visual prostheses.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Quantum-Resilient Secure Protocol for Decentralized Edge-IoT Peer-to-Peer Energy Trading Systems",
+          "authors": [
+            "Ali Shahidinejad",
+            "Jamshid Aghaei",
+            "Mahdi Jalili"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-14",
+          "url": "https://arxiv.org/abs/2610.19491",
+          "source": "arXiv",
+          "arxivId": "2610.19491",
+          "summary": "The rise of quantum computing presents substantial challenges to the security of Peer-to-Peer (P2P) energy trading systems. This paper introduces an innovative mutual authenticated session key agreement protocol aimed at protecting edge-IoT P2P energy trading communications in the quantum era. Each peer is an IoT-enabled smart metering device that is registered by an edge registration authority and acts as both producer and consumer. The proposed protocol incorporates CRYSTALS-Kyber's quantum-resistant cryptographic suite to guarantee the authenticity and confidentiality of negotiated session keys in the presence of quantum threats. Furthermore, it leverages the Hedera Hashgraph public blockchain, which is recognized for its quantum-resilient design, to ensure transparency and support efficient revocation mechanisms. Extensive comparative analyses have been conducted to demonstrate the protocol's superiority over existing alternatives, including both traditional schemes based on classical cryptography and emerging early-stage post-quantum approaches, in terms of performance and security features. By combining robust security and high efficiency, the proposed protocol fosters the development of resilient decentralized energy markets, paving the way for secure and sustainable energy distribution in the future.",
+          "contribution": "The rise of quantum computing presents substantial challenges to the security of Peer-to-Peer (P2P) energy trading systems. This paper introduces an innovative mutual authenticated session key agreement protocol aimed at protecting edge-IoT P2P energy trading communications in the quantum era. Each peer is an IoT-enabled smart metering device that is registered by an edge registration authority and acts as both producer and consumer. The proposed protocol incorporates CRYSTALS-Kyber's quantum-resistant cryptographic suite to guarantee the authenticity and confidentiality of negotiated session keys in the presence of quantum threats. Furthermore, it leverages the Hedera Hashgraph public blockchain, which is recognized for its quantum-resilient design, to ensure transparency and support efficient revocation mechanisms. Extensive comparative analyses have been conducted to demonstrate the protocol's superiority over existing alternatives, including both traditional schemes based on classical cryptography and emerging early-stage post-quantum approaches, in terms of performance and security features. By combining robust security and high efficiency, the proposed protocol fosters the development of resilient decentralized energy markets, paving the way for secure and sustainable energy distribution in the future.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Securing artificial intelligence in human resource management: a systematic review and the AI-HRM cybersecurity architecture (AHCA)",
+          "authors": [
+            "Sharif Arif",
+            "José María Fernández-Crehuet"
+          ],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-10-15",
+          "url": "https://doi.org/10.1108/ics-03-2026-0154",
+          "source": "Crossref",
+          "doi": "10.1108/ics-03-2026-0154",
+          "summary": "Purpose \n                     This study aims to address the information security governance issues associated with the use of AI in HRM by developing the artificial intelligence–human resource management (AI-HRM) cybersecurity architecture (AHCA), a novel domain-specific architecture. \n                   \n                   \n                     Design/methodology/approach \n                     The review followed the PRISMA 2020 principles, and 72 peer-reviewed papers were obtained from journals indexed in Scopus and IEEE Xplore, or from CORE-ranked journals, for the years 2020–2025, with citation chaining in Google Scholar. Three research questions guided the synthesis, covering threat conceptualisation, security implications and governance. This study then created the AHCA following an iterative design science process, using each component directly from literature reviews, and constructed a structured rubric with explicit anchoring examples to enable replication of the comparative evaluation. \n                   \n                   \n                     Findings \n                     The review identified six categories of AI-HRM security threats: data breaches (T1), exploitation of algorithmic bias (T2), insider threat amplification (T3), model poisoning attacks (T4), regulatory non-compliance (T5) and governance and audit failures (T6). There is a wide disparity in the attention these subjects receive in the literature: algorithmic bias (43.1 %) and governance and audit failure (51.4 %) together account for 94.4 % of the corpus whose primary focus could be coded, while data breaches (1.4 %), insider threat (1.4 %) and regulatory non-compliance (2.8 %) sit at the margins, and no study takes model poisoning as its primary focus. In addition, most governance-oriented research identifies accountability gaps but stops short of architectural solutions. The AHCA is designed to address this structural deficit, pairing four-layer architecture with a 14-indicator security performance indicator (SPI) framework. \n                   \n                   \n                     Research limitations/implications \n                     The corpus is limited to English-language publications from 2020 to 2025 that appear in journals in the AHCA’s Q1 or Q2 tiers, and the AHCA itself is a design artefact that will be tested in practice through Delphi panels of experts and longitudinal case studies. The technical security literature emerged when searching IEEE Xplore and Scopus; a complementary search of the ACM Digital Library is planned as a future extension. \n                   \n                   \n                     Practical implications \n                     The AHCA and its SPI framework offer HR practitioners and policymakers an AI-HRM-specific blueprint for general data protection regulation (GDPR) compliant, high-risk employment systems in accordance with the provisions of the European Union AI Act. \n                   \n                   \n                     Originality/value \n                     The AHCA incorporates GDPR and EU AI Act compliance-by-design principles into a single HRM-specific security architecture that is currently in the early phases of development. It is the only benchmark that addresses the HRM-specific and EU AI Act dimensions, which are not addressed by sector-agnostic comparators, and it performs well in the generic HRM security dimensions on a replicable nine-dimension rubric, benchmarked against NIST AI RMF, MITRE ATLAS, ISO 27001 and NIST CSF.",
+          "contribution": "Purpose \n                     This study aims to address the information security governance issues associated with the use of AI in HRM by developing the artificial intelligence–human resource management (AI-HRM) cybersecurity architecture (AHCA), a novel domain-specific architecture. \n                   \n                   \n                     Design/methodology/approach \n                     The review followed the PRISMA 2020 principles, and 72 peer-reviewed papers were obtained from journals indexed in Scopus and IEEE Xplore, or from CORE-ranked journals, for the years 2020–2025, with citation chaining in Google Scholar. Three research questions guided the synthesis, covering threat conceptualisation, security implications and governance. This study then created the AHCA following an iterative design science process, using each component directly from literature reviews, and constructed a structured rubric with explicit anchoring examples to enable replication of the comparative evaluation. \n                   \n                   \n                     Findings \n                     The review identified six categories of AI-HRM security threats: data breaches (T1), exploitation of algorithmic bias (T2), insider threat amplification (T3), model poisoning attacks (T4), regulatory non-compliance (T5) and governance and audit failures (T6). There is a wide disparity in the attention these subjects receive in the literature: algorithmic bias (43.1 %) and governance and audit failure (51.4 %) together account for 94.4 % of the corpus whose primary focus could be coded, while data breaches (1.4 %), insider threat (1.4 %) and regulatory non-compliance (2.8 %) sit at the margins, and no study takes model poisoning as its primary focus. In addition, most governance-oriented research identifies accountability gaps but stops short of architectural solutions. The AHCA is designed to address this structural deficit, pairing four-layer architecture with a 14-indicator security performance indicator (SPI) framework. \n                   \n                   \n                     Research limitations/implications \n                     The corpus is limited to English-language publications from 2020 to 2025 that appear in journals in the AHCA’s Q1 or Q2 tiers, and the AHCA itself is a design artefact that will be tested in practice through Delphi panels of experts and longitudinal case studies. The technical security literature emerged when searching IEEE Xplore and Scopus; a complementary search of the ACM Digital Library is planned as a future extension. \n                   \n                   \n                     Practical implications \n                     The AHCA and its SPI framework offer HR practitioners and policymakers an AI-HRM-specific blueprint for general data protection regulation (GDPR) compliant, high-risk employment systems in accordance with the provisions of the European Union AI Act. \n                   \n                   \n                     Originality/value \n                     The AHCA incorporates GDPR and EU AI Act compliance-by-design principles into a single HRM-specific security architecture that is currently in the early phases of development. It is the only benchmark that addresses the HRM-specific and EU AI Act dimensions, which are not addressed by sector-agnostic comparators, and it performs well in the generic HRM security dimensions on a replicable nine-dimension rubric, benchmarked against NIST AI RMF, MITRE ATLAS, ISO 27001 and NIST CSF.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Byzantine-Resilient Federated Large Language Model via Hypergraph Message Passing",
+          "authors": [
+            "Kai Li",
+            "Hanlin Cai",
+            "Zihao Liu",
+            "Yichen Li",
+            "Jose Alcaraz Calero",
+            "Wei Ni",
+            "Falko Dressler",
+            "Özgür B. Akan"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-08",
+          "url": "https://arxiv.org/abs/2610.12711",
+          "source": "arXiv",
+          "arxivId": "2610.12711",
+          "summary": "Federated Large Language Models (FedLLMs) are promising to deliver privacy-preserving, collaborative intelligence. The decentralized training process is vulnerable to Byzantine attacks that corrupt semantic consistency and factual resilience through malicious model updates. This paper presents a new resilience strategy that prevents semantically corrupted knowledge from propagating during federated aggregation. A defense problem is formulated to jointly maximize global accuracy and suppress manipulated model updates, enabling trustworthy knowledge aggregation without accessing private local data. To strengthen the resilience of FedLLMs, we develop a novel Hypergraph Message Passing Graph Autoencoder (HMP-GAE) framework, where low-rank model updates are represented as nodes in a hypergraph and high-order semantic relationships among multiple agents are exploited through iterative message passing. By leveraging historical checkpoints and cross-agent relational reasoning, HMP-GAE identifies and suppresses semantically inconsistent updates while preserving knowledge alignment among agents throughout federated training. HMP-GAE is implemented using Qwen-2.5 and Llama-3.2 as pretrained FedLLM backbones and evaluated on AG News and Yahoo! Answers datasets. Compared to existing defenses, HMP-GAE improves global accuracy by $1.21$\\%, reduces final-model classification semantic entropy by $44.08$\\%, and lowers perplexity by $13.34$\\%. HMP-GAE outperforms the GAE-based defense by improving the accuracy $1.39$\\%, reducing the semantic entropy by $54.5$\\%, and lowering perplexity by $35.5$\\%.",
+          "contribution": "Federated Large Language Models (FedLLMs) are promising to deliver privacy-preserving, collaborative intelligence. The decentralized training process is vulnerable to Byzantine attacks that corrupt semantic consistency and factual resilience through malicious model updates. This paper presents a new resilience strategy that prevents semantically corrupted knowledge from propagating during federated aggregation. A defense problem is formulated to jointly maximize global accuracy and suppress manipulated model updates, enabling trustworthy knowledge aggregation without accessing private local data. To strengthen the resilience of FedLLMs, we develop a novel Hypergraph Message Passing Graph Autoencoder (HMP-GAE) framework, where low-rank model updates are represented as nodes in a hypergraph and high-order semantic relationships among multiple agents are exploited through iterative message passing. By leveraging historical checkpoints and cross-agent relational reasoning, HMP-GAE identifies and suppresses semantically inconsistent updates while preserving knowledge alignment among agents throughout federated training. HMP-GAE is implemented using Qwen-2.5 and Llama-3.2 as pretrained FedLLM backbones and evaluated on AG News and Yahoo! Answers datasets. Compared to existing defenses, HMP-GAE improves global accuracy by $1.21$\\%, reduces final-model classification semantic entropy by $44.08$\\%, and lowers perplexity by $13.34$\\%. HMP-GAE outperforms the GAE-based defense by improving the accuracy $1.39$\\%, reducing the semantic entropy by $54.5$\\%, and lowering perplexity by $35.5$\\%.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "MID: Mask-Image Distributional Divergence for Evaluating Medical Image Segmentation",
+          "authors": [
+            "Vincenzo Marcianò",
+            "Xiaoming Zhang",
+            "Gianluca Guglielmo",
+            "Sebastien Ourselin",
+            "Michela Antonelli",
+            "Maria A. Zuluaga"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-12",
+          "url": "https://arxiv.org/abs/2610.17354",
+          "source": "arXiv",
+          "arxivId": "2610.17354",
+          "summary": "Current evaluation protocols for medical image segmentation remain largely anchored in sample-wise comparisons, e.g., Dice and Hausdorff distance, which require each prediction to be paired with a ground-truth mask. Yet two limitations arise in practice: they are inapplicable when predictions are made on unlabeled data; and even when annotations are available, they cannot assess whether a collection of predictions matches the distributional structure of the ground-truth population. We introduce MID (Mask-Image Distributional Divergence), a distribution-level evaluation metric for medical image segmentation. MID builds upon the observation that segmentation quality is a property of the joint image-mask distribution: a mask may be anatomically plausible in isolation yet incorrect for the image it accompanies. MID compares the joint distribution of images and masks between a reference set and a set of predictions, without requiring sample-wise correspondence. This captures both mask realism and image-mask consistency. We evaluate MID across 13 publicly available datasets spanning CT, MRI, and MRA. Under anatomically realistic corruptions across 56 organ groups, MID tracks mean Dice and Hausdorff distance without per-sample ground-truth pairing. MID also detects distributional shifts across modalities and anatomies, identifies image-mask misalignment through controlled shuffling experiments, and produces reliable model rankings across real segmentation models. Official implementation available at github.com/erc-caravel/pytorch-mid",
+          "contribution": "Current evaluation protocols for medical image segmentation remain largely anchored in sample-wise comparisons, e.g., Dice and Hausdorff distance, which require each prediction to be paired with a ground-truth mask. Yet two limitations arise in practice: they are inapplicable when predictions are made on unlabeled data; and even when annotations are available, they cannot assess whether a collection of predictions matches the distributional structure of the ground-truth population. We introduce MID (Mask-Image Distributional Divergence), a distribution-level evaluation metric for medical image segmentation. MID builds upon the observation that segmentation quality is a property of the joint image-mask distribution: a mask may be anatomically plausible in isolation yet incorrect for the image it accompanies. MID compares the joint distribution of images and masks between a reference set and a set of predictions, without requiring sample-wise correspondence. This captures both mask realism and image-mask consistency. We evaluate MID across 13 publicly available datasets spanning CT, MRI, and MRA. Under anatomically realistic corruptions across 56 organ groups, MID tracks mean Dice and Hausdorff distance without per-sample ground-truth pairing. MID also detects distributional shifts across modalities and anatomies, identifies image-mask misalignment through controlled shuffling experiments, and produces reliable model rankings across real segmentation models. Official implementation available at github.com/erc-caravel/pytorch-mid",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Towards Efficient Threat Intelligence Instruction Tuning via Quality-Aware and Optimal Transport-Guided Data Selection",
+          "authors": [
+            "Jiyu Tian",
+            "Mingchu Li",
+            "Xiangwei Chen",
+            "Liming Chen"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-14",
+          "url": "https://arxiv.org/abs/2610.20284",
+          "source": "arXiv",
+          "arxivId": "2610.20284",
+          "summary": "High-quality data is essential for improving instruction tuning in threat intelligence analysis. However, existing methods for generating cybersecurity instruction data lack reliable quality assessment mechanisms, and gradient influence-based data selection methods primarily focus on single-sample matching, failing to cover diverse and complex security capabilities. To address these issues, we propose CTI-TDS, a Targeted Data Selection method for instruction tuning in Cyber Threat Intelligence analysis. Specifically, we first filter high-quality CTI instructions by integrating instruction style consistency and security knowledge verification. Furthermore, we formulate gradient influence as a distribution alignment problem, learning a gradient subspace of target tasks and applying entropic regularized optimal transport to optimize distribution matching between training samples and target tasks, enabling diversity-aware data selection. We conduct extensive experiments on CTIBench across multiple large language models. Experimental results demonstrate that when fine-tuning with only a small set of high-value instruction data, CTI-TDS outperforms existing data selection methods and achieves competitive performance on threat intelligence analysis tasks.",
+          "contribution": "High-quality data is essential for improving instruction tuning in threat intelligence analysis. However, existing methods for generating cybersecurity instruction data lack reliable quality assessment mechanisms, and gradient influence-based data selection methods primarily focus on single-sample matching, failing to cover diverse and complex security capabilities. To address these issues, we propose CTI-TDS, a Targeted Data Selection method for instruction tuning in Cyber Threat Intelligence analysis. Specifically, we first filter high-quality CTI instructions by integrating instruction style consistency and security knowledge verification. Furthermore, we formulate gradient influence as a distribution alignment problem, learning a gradient subspace of target tasks and applying entropic regularized optimal transport to optimize distribution matching between training samples and target tasks, enabling diversity-aware data selection. We conduct extensive experiments on CTIBench across multiple large language models. Experimental results demonstrate that when fine-tuning with only a small set of high-value instruction data, CTI-TDS outperforms existing data selection methods and achieves competitive performance on threat intelligence analysis tasks.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Federated Distillation: A Survey",
+          "authors": [
+            "Lin Li",
+            "Jianping Gou",
+            "Baosheng Yu",
+            "Lan Du",
+            "Yi Zhang",
+            "Dacheng Tao"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-14",
+          "url": "https://doi.org/10.1145/3857792",
+          "source": "Crossref",
+          "doi": "10.1145/3857792",
+          "summary": "Federated learning (FL) enables collaborative model training without centralizing clients’ raw data, but parameter exchange can impose substantial communication costs and usually requires compatible model architectures. Federated distillation (FD) instead transfers predictive or intermediate knowledge through knowledge distillation (KD), which can support heterogeneous models and reduce communication in suitable settings. These benefits are not automatic: their magnitude depends on the transmitted knowledge, reference data, communication schedule, and threat model. This survey provides a challenge-centered synthesis of FD. We first formalize a representative public-data, response-based FD protocol and then organize existing methods by the FL challenges they address, including data, system, and model heterogeneity, client drift, catastrophic forgetting, communication cost, and privacy risk. We further review applications in industrial engineering, computer vision, natural language processing, and healthcare, including recent federated adaptation of large language models. Finally, we identify five research priorities: richer transferred knowledge, joint treatment of interacting forms of heterogeneity, communication-aware distillation, threat-model-driven privacy protection, and standardized theory, benchmarks, and evaluation.",
+          "contribution": "Federated learning (FL) enables collaborative model training without centralizing clients’ raw data, but parameter exchange can impose substantial communication costs and usually requires compatible model architectures. Federated distillation (FD) instead transfers predictive or intermediate knowledge through knowledge distillation (KD), which can support heterogeneous models and reduce communication in suitable settings. These benefits are not automatic: their magnitude depends on the transmitted knowledge, reference data, communication schedule, and threat model. This survey provides a challenge-centered synthesis of FD. We first formalize a representative public-data, response-based FD protocol and then organize existing methods by the FL challenges they address, including data, system, and model heterogeneity, client drift, catastrophic forgetting, communication cost, and privacy risk. We further review applications in industrial engineering, computer vision, natural language processing, and healthcare, including recent federated adaptation of large language models. Finally, we identify five research priorities: richer transferred knowledge, joint treatment of interacting forms of heterogeneity, communication-aware distillation, threat-model-driven privacy protection, and standardized theory, benchmarks, and evaluation.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-14",
       "generatedAt": "2026-10-14T12:55:03.009304+03:00",
       "papers": [
@@ -1006,5 +1169,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-14T12:55:03.009304+03:00"
+  "updatedAt": "2026-10-15T12:35:43.916499+03:00"
 }
