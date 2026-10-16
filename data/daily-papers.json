@@ -25,6 +25,185 @@
   ],
   "days": [
     {
+      "date": "2026-10-16",
+      "generatedAt": "2026-10-16T12:28:55.209639+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "International Multi-Centre Validation of Unsupervised Domain Adaptation for Precise Discrimination between Normal and Abnormal Retinal Development",
+          "authors": [
+            "Zhanhan Tu",
+            "Nikhil Reddy",
+            "Helen J. Kuht",
+            "Ha-Jun Yoon",
+            "Gail D. E. Maconachie",
+            "Ravi Purohit",
+            "Prateek Pani",
+            "Line Kessel",
+            "Jinu Han",
+            "Jing Jin",
+            "Shui-Hua Wang",
+            "Karthik Bharadwaj",
+            "Viral Sheth",
+            "Michael Hisaund",
+            "Rebecca J. McLean",
+            "George Garratt",
+            "Chetan Kantibhai Patel",
+            "Kanmin Xue",
+            "Callum Hunt",
+            "Zisen Zhou",
+            "Ian De Silva",
+            "Seema Teli",
+            "Sonal Shah",
+            "Vanessa Rodwell",
+            "Aarti Patel",
+            "Irene Gottlob",
+            "Yu-Dong Zhang",
+            "Zedong Zheng",
+            "Girish Varma",
+            "Mervyn G. Thomas"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.21719",
+          "source": "arXiv",
+          "arxivId": "2610.21719",
+          "summary": "Arrested retinal development can cause childhood visual impairment, but grading optical coherence tomography scans is difficult to standardise across devices and centres. We developed and evaluated an unsupervised domain adaptation model to classify normal and abnormal retinal development across different OCT systems. This retrospective multicentre study used OCT scans from five centres in four countries and the UK Biobank. Data covered four OCT devices, including table mounted and handheld systems. A ResNet50 based Domain Adversarial Neural Network was trained using labelled images from a source device and unlabelled images from a target device. We evaluated six source to target pairings and compared model performance with seven clinician graders. A separate Heidelberg Spectralis dataset was reserved for external evaluation. Across validation sets, accuracy ranged from 87.75% to 96.06%, sensitivity from 88.68% to 98.38%, and specificity from 78.00% to 98.02%. The best performing model, adapted from TM OCT1 to HH OCT1, achieved 96.06% accuracy and an area under the receiver operating characteristic curve of 0.994, with a 95% confidence interval from 0.981 to 0.999. Several models also maintained discrimination on the unseen Heidelberg device. Unsupervised domain adaptation enabled OCT classification across devices without labelled target device data. The approach may support more consistent assessment of retinal development and large scale analysis of existing imaging datasets.",
+          "contribution": "Arrested retinal development can cause childhood visual impairment, but grading optical coherence tomography scans is difficult to standardise across devices and centres. We developed and evaluated an unsupervised domain adaptation model to classify normal and abnormal retinal development across different OCT systems. This retrospective multicentre study used OCT scans from five centres in four countries and the UK Biobank. Data covered four OCT devices, including table mounted and handheld systems. A ResNet50 based Domain Adversarial Neural Network was trained using labelled images from a source device and unlabelled images from a target device. We evaluated six source to target pairings and compared model performance with seven clinician graders. A separate Heidelberg Spectralis dataset was reserved for external evaluation. Across validation sets, accuracy ranged from 87.75% to 96.06%, sensitivity from 88.68% to 98.38%, and specificity from 78.00% to 98.02%. The best performing model, adapted from TM OCT1 to HH OCT1, achieved 96.06% accuracy and an area under the receiver operating characteristic curve of 0.994, with a 95% confidence interval from 0.981 to 0.999. Several models also maintained discrimination on the unseen Heidelberg device. Unsupervised domain adaptation enabled OCT classification across devices without labelled target device data. The approach may support more consistent assessment of retinal development and large scale analysis of existing imaging datasets.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Combining Post-Quantum Cryptography and Quantum Key Distribution: Taxonomy, Constructions, Proofs, Standards, Deployments and Open Problems",
+          "authors": [
+            "Mona Alotaibi",
+            "Noora Fetais",
+            "Saif Al-Kuwari"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-13",
+          "url": "https://arxiv.org/abs/2610.19039",
+          "source": "arXiv",
+          "arxivId": "2610.19039",
+          "summary": "Post-quantum cryptography (PQC) and quantum key distribution (QKD) address the quantum threat from opposite directions: PQC replaces vulnerable public-key algorithms with schemes believed to resist quantum cryptanalysis, while QKD derives keys whose secrecy rests on physical assumptions rather than computational ones. Because each approach has a distinct failure mode, a growing body of work combines them so that a session key remains secure if either component holds. We first establish the deployed baseline, hybrid classical-plus-PQC key exchange, against which QKD-augmented designs must be judged. We then propose a taxonomy of hybrid PQC-QKD designs along eight dimensions (integration layer, combiner construction, authentication scope and source, QKD topology, trusted entities, key-delivery interface, classical component, and evidence type), and use it to compare published protocols, including Muckle and its successors, MACsec and TLS integrations, and IKEv2 mechanisms standardised in RFCs 8784, 9370, and 9867. We examine key-combiner constructions in light of the KEM-combiner literature and of NIST, ETSI, and ITU-T guidance, and map the security arguments for hybrid PQC-QKD protocols onto a common grid of security model, assumptions, permitted compromise, established guarantee, and limitations. We synthesise deployment evidence from metropolitan and national QKD networks, distinguishing the few testbeds that have run PQC in the key path from pure-QKD deployments, and summarise the standards and policy landscape, including the positions of national security agencies that recommend against relying on QKD alone. We close with open problems: authentication of the QKD classical channel, shared-infrastructure threat models, device certification versus formal proofs, formal verification of hybrid handshakes, and the lack of peer-reviewed deployment economics.",
+          "contribution": "Post-quantum cryptography (PQC) and quantum key distribution (QKD) address the quantum threat from opposite directions: PQC replaces vulnerable public-key algorithms with schemes believed to resist quantum cryptanalysis, while QKD derives keys whose secrecy rests on physical assumptions rather than computational ones. Because each approach has a distinct failure mode, a growing body of work combines them so that a session key remains secure if either component holds. We first establish the deployed baseline, hybrid classical-plus-PQC key exchange, against which QKD-augmented designs must be judged. We then propose a taxonomy of hybrid PQC-QKD designs along eight dimensions (integration layer, combiner construction, authentication scope and source, QKD topology, trusted entities, key-delivery interface, classical component, and evidence type), and use it to compare published protocols, including Muckle and its successors, MACsec and TLS integrations, and IKEv2 mechanisms standardised in RFCs 8784, 9370, and 9867. We examine key-combiner constructions in light of the KEM-combiner literature and of NIST, ETSI, and ITU-T guidance, and map the security arguments for hybrid PQC-QKD protocols onto a common grid of security model, assumptions, permitted compromise, established guarantee, and limitations. We synthesise deployment evidence from metropolitan and national QKD networks, distinguishing the few testbeds that have run PQC in the key path from pure-QKD deployments, and summarise the standards and policy landscape, including the positions of national security agencies that recommend against relying on QKD alone. We close with open problems: authentication of the QKD classical channel, shared-infrastructure threat models, device certification versus formal proofs, formal verification of hybrid handshakes, and the lack of peer-reviewed deployment economics.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Mind the gap: a mixed-methods analysis of the cybersecurity knowledge–behavior discrepancy in public Wi-Fi usage",
+          "authors": [
+            "Miloslav Hub",
+            "Oldřich Horák",
+            "Václav Krtek"
+          ],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-10-16",
+          "url": "https://doi.org/10.1108/ics-03-2026-0156",
+          "source": "Crossref",
+          "doi": "10.1108/ics-03-2026-0156",
+          "summary": "Purpose \n                     This paper aims to examine whether perceived public Wi-Fi risk and declarative familiarity with wireless-network security concepts translate into consistent protective behavior. It focuses on the cybersecurity knowledge–behavior discrepancy in public Wi-Fi usage and contextualizes this discrepancy alongside exposure to rogue access points (RAPs). \n                   \n                   \n                     Design/methodology/approach \n                     The study applies an exploratory mixed-methods design consisting of two analytically separate components: a cross-sectional survey of primarily working-age respondents (n = 177) and a zero-payload observational field experiment. The survey examined perceived public Wi-Fi risk, wireless-security familiarity, virtual private network (VPN) usage, service set identifier (SSID) verification and auto-connect configuration. The field component deployed non-capturing RAPs in public locations to observe aggregate Layer-2 device-association events without linking observed devices to survey respondents or collecting credentials, payload content, direct personal identifiers or application-layer traffic. \n                   \n                   \n                     Findings \n                     Although 71.2% of respondents identified unsecured public Wi-Fi as a cybersecurity risk, many risk-aware respondents still reported inconsistent protective behavior, including irregular VPN usage and infrequent SSID verification. Non-parametric analyses indicated significant behavioral differences across threat-perception categories, but stronger threat perception did not eliminate risky operational behavior. The field component recorded 27 device-association events, including both user-initiated and automated association events. These observations are interpreted as contextual evidence of exposure mechanisms, not as prevalence estimates or population-level susceptibility rates. \n                   \n                   \n                     Practical implications \n                     The paper contributes to behavioral information security by distinguishing between user-level mitigation inconsistency and device-level structural exposure in public Wi-Fi environments. \n                   \n                   \n                     Originality/value \n                     The paper contributes to behavioral information security by contextualizing the cybersecurity knowledge–behavior discrepancy in public Wi-Fi environments. It juxtaposes survey-based evidence of self-reported awareness and mitigation behavior with contextual observational evidence of RAP associations, while explicitly distinguishing between user-level mitigation inconsistency and device-level structural exposure.",
+          "contribution": "Purpose \n                     This paper aims to examine whether perceived public Wi-Fi risk and declarative familiarity with wireless-network security concepts translate into consistent protective behavior. It focuses on the cybersecurity knowledge–behavior discrepancy in public Wi-Fi usage and contextualizes this discrepancy alongside exposure to rogue access points (RAPs). \n                   \n                   \n                     Design/methodology/approach \n                     The study applies an exploratory mixed-methods design consisting of two analytically separate components: a cross-sectional survey of primarily working-age respondents (n = 177) and a zero-payload observational field experiment. The survey examined perceived public Wi-Fi risk, wireless-security familiarity, virtual private network (VPN) usage, service set identifier (SSID) verification and auto-connect configuration. The field component deployed non-capturing RAPs in public locations to observe aggregate Layer-2 device-association events without linking observed devices to survey respondents or collecting credentials, payload content, direct personal identifiers or application-layer traffic. \n                   \n                   \n                     Findings \n                     Although 71.2% of respondents identified unsecured public Wi-Fi as a cybersecurity risk, many risk-aware respondents still reported inconsistent protective behavior, including irregular VPN usage and infrequent SSID verification. Non-parametric analyses indicated significant behavioral differences across threat-perception categories, but stronger threat perception did not eliminate risky operational behavior. The field component recorded 27 device-association events, including both user-initiated and automated association events. These observations are interpreted as contextual evidence of exposure mechanisms, not as prevalence estimates or population-level susceptibility rates. \n                   \n                   \n                     Practical implications \n                     The paper contributes to behavioral information security by distinguishing between user-level mitigation inconsistency and device-level structural exposure in public Wi-Fi environments. \n                   \n                   \n                     Originality/value \n                     The paper contributes to behavioral information security by contextualizing the cybersecurity knowledge–behavior discrepancy in public Wi-Fi environments. It juxtaposes survey-based evidence of self-reported awareness and mitigation behavior with contextual observational evidence of RAP associations, while explicitly distinguishing between user-level mitigation inconsistency and device-level structural exposure.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Federated Art Chase: Privacy Leakage and Data Poisoning in Federated Fine-Tuning",
+          "authors": [
+            "Vasileios Perifanis",
+            "Nikolaos Pavlidis"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.21547",
+          "source": "arXiv",
+          "arxivId": "2610.21547",
+          "summary": "Federated learning (FL) is increasingly used to adapt a pretrained, centrally fine-tuned model to data that remain on user devices, beyond training a model from scratch. In this report, prepared for the 4th Federated Machine Learning International Summer School, we study the privacy and integrity of this approach with a reproducible pipeline. An ImageNet-pretrained MobileNetV4-Conv-Small model is fine-tuned centrally on ten Quick, Draw! classes (97.50% test accuracy) and then adapted with head-only FedAvg over ten non-IID clients, which raises client training accuracy from 90.34% to 91.49% while preserving global accuracy. We evaluate four adversarial scenarios. First, from a single one-step client update, an honest-but-curious server recovers the complete private label set, but its reconstructions follow class prototypes rather than the private drawings (mean SSIM 0.130). Second, from a one-round FedAvg aggregate, label-count recovery falls from 87.5% with one client to 75.0% with five and ten clients, below the 80.0% of an uninformed uniform guess. Third, under FedAvg, a backdoor injected by 30%, 50%, and 100% of the clients reaches an attack success rate (ASR) of 21.9%, 31.3%, and 54.7% at a cost of at most 0.8 percentage points of clean accuracy, whereas label flipping is effective only when most of the source-class data are relabeled. Fourth, FLTrust with a root set retained from centralized fine-tuning lowers the backdoor ASR to 1.8% and 4.0% at 30% and 50% malicious clients and the label-flipping ASR from 12.6% to 0.8% without measurable clean-accuracy loss, but provides no protection when every client is malicious. The report closes with a live session in which participants draw, fine-tune, and poison the model through Indigma's FedMaestro orchestrator. Code and executed notebooks, runnable on Google Colab, are at https://github.com/Indigma-Innovations/fl-summer-school.",
+          "contribution": "Federated learning (FL) is increasingly used to adapt a pretrained, centrally fine-tuned model to data that remain on user devices, beyond training a model from scratch. In this report, prepared for the 4th Federated Machine Learning International Summer School, we study the privacy and integrity of this approach with a reproducible pipeline. An ImageNet-pretrained MobileNetV4-Conv-Small model is fine-tuned centrally on ten Quick, Draw! classes (97.50% test accuracy) and then adapted with head-only FedAvg over ten non-IID clients, which raises client training accuracy from 90.34% to 91.49% while preserving global accuracy. We evaluate four adversarial scenarios. First, from a single one-step client update, an honest-but-curious server recovers the complete private label set, but its reconstructions follow class prototypes rather than the private drawings (mean SSIM 0.130). Second, from a one-round FedAvg aggregate, label-count recovery falls from 87.5% with one client to 75.0% with five and ten clients, below the 80.0% of an uninformed uniform guess. Third, under FedAvg, a backdoor injected by 30%, 50%, and 100% of the clients reaches an attack success rate (ASR) of 21.9%, 31.3%, and 54.7% at a cost of at most 0.8 percentage points of clean accuracy, whereas label flipping is effective only when most of the source-class data are relabeled. Fourth, FLTrust with a root set retained from centralized fine-tuning lowers the backdoor ASR to 1.8% and 4.0% at 30% and 50% malicious clients and the label-flipping ASR from 12.6% to 0.8% without measurable clean-accuracy loss, but provides no protection when every client is malicious. The report closes with a live session in which participants draw, fine-tune, and poison the model through Indigma's FedMaestro orchestrator. Code and executed notebooks, runnable on Google Colab, are at https://github.com/Indigma-Innovations/fl-summer-school.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "MedPAO-VL: Interpretable and Protocol-Compliant Agent for Structured Radiology Report Generation",
+          "authors": [
+            "Shrish Shrinath Vaidya",
+            "Gowthamaan Palani",
+            "Minmini Selvam",
+            "Gokulraja Srinivasaraja",
+            "Ganapathy Krishnamurthi"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.21794",
+          "source": "arXiv",
+          "arxivId": "2610.21794",
+          "summary": "Despite the remarkable generalization capabilities of Large Language Models, generating clinically accurate and structured radiology reports from medical images remains a significant challenge. Current end-to-end approaches function as black boxes, prone to factual hallucinations and generating ungrounded findings. This lack of reliability and failure to adhere to domain-specific structuring protocols, fundamentally limits their clinical utility. We present MedPAO-VL, a multimodal agent that shifts the paradigm from monolithic generation to explainable, iterative, protocol-compliant structured report generation. Unlike deterministic models, our plan-act-observe loop functions as a goal-oriented agent: it first perceives the Chest X-Ray through an explainable vision module designed to capture inherent diagnostic uncertainty, then iteratively refines the generated report by observing semantic discrepancies and self-correcting its generation for better alignment with visually detected clinical findings. Evaluation of our framework demonstrates that this agentic reasoning improves clinical correctness and completeness, achieving an expert-rated accuracy score of 3.5/5 and a structural score of 4.3/5. By prioritizing pathology specific explainability and iterative refinement over opaque end-to-end mapping, MedPAO-VL offers a transparent and clinically viable alternative for automated structured radiology report generation.",
+          "contribution": "Despite the remarkable generalization capabilities of Large Language Models, generating clinically accurate and structured radiology reports from medical images remains a significant challenge. Current end-to-end approaches function as black boxes, prone to factual hallucinations and generating ungrounded findings. This lack of reliability and failure to adhere to domain-specific structuring protocols, fundamentally limits their clinical utility. We present MedPAO-VL, a multimodal agent that shifts the paradigm from monolithic generation to explainable, iterative, protocol-compliant structured report generation. Unlike deterministic models, our plan-act-observe loop functions as a goal-oriented agent: it first perceives the Chest X-Ray through an explainable vision module designed to capture inherent diagnostic uncertainty, then iteratively refines the generated report by observing semantic discrepancies and self-correcting its generation for better alignment with visually detected clinical findings. Evaluation of our framework demonstrates that this agentic reasoning improves clinical correctness and completeness, achieving an expert-rated accuracy score of 3.5/5 and a structural score of 4.3/5. By prioritizing pathology specific explainability and iterative refinement over opaque end-to-end mapping, MedPAO-VL offers a transparent and clinically viable alternative for automated structured radiology report generation.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Performance Characterization of Pulsar's Software-defined Watermark Verifier",
+          "authors": [
+            "Jason Anderson",
+            "Kaz Gunning"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-14",
+          "url": "https://arxiv.org/abs/2610.20827",
+          "source": "arXiv",
+          "arxivId": "2610.20827",
+          "summary": "Pulsar provides the world's most secure PNT service by incorporating a Combinatorial Watermark into its ranging service. Under conservative signal conditions, Pulsar's Combinatorial Watermark, where 21 ranging code chips are inverted among the 1023, provides 32-bit authentication security each second. In this work, we present our software-defined radio (SDR) implementation of the Pulsar watermark processor. We discuss various threat models, multiple receiver architectures, implications to the receiver, and results from using Pulsar's SDR processing watermarked signals daily from the Pulsar-0 mission. Our results demonstrate the feasible implementation of Pulsar's watermark verification process in commercial GNSS receivers. This is an important milestone in making Xona's Pulsar service available to customers later this year after deployment of our first four production satellites.",
+          "contribution": "Pulsar provides the world's most secure PNT service by incorporating a Combinatorial Watermark into its ranging service. Under conservative signal conditions, Pulsar's Combinatorial Watermark, where 21 ranging code chips are inverted among the 1023, provides 32-bit authentication security each second. In this work, we present our software-defined radio (SDR) implementation of the Pulsar watermark processor. We discuss various threat models, multiple receiver architectures, implications to the receiver, and results from using Pulsar's SDR processing watermarked signals daily from the Pulsar-0 mission. Our results demonstrate the feasible implementation of Pulsar's watermark verification process in commercial GNSS receivers. This is an important milestone in making Xona's Pulsar service available to customers later this year after deployment of our first four production satellites.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Facial Expression and Behavior Modeling from Digital Avatars to Expressive Humanoid Robots: A Review",
+          "authors": [
+            "Xu Zhang",
+            "Longbing Cao"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-15",
+          "url": "https://doi.org/10.1145/3856804",
+          "source": "Crossref",
+          "doi": "10.1145/3856804",
+          "summary": "Endowing humanoid robots with expressive, controllable, and robust facial expressions and behaviors is essential for advancing human-like humanoid-human interaction across social, healthcare, and service domains. However, transforming the semantic richness and flexibility of virtual avatars into the mechanical, real-time, and calibration constraints of physical humanoids remains a fundamental challenge. This survey reviews facial expression and behavior modeling for both and analyzes their virtual-to-physical gaps from a deployment-oriented perspective. Our review is organized along three axes: (i)\n                     modeling paradigms \n                    , with emphasis on actuator compatibility and transferability; (ii)\n                     expression control strategies \n                    , assessed for their potential to enable robust robotic deployment; and (iii)\n                     deployment dimensions \n                    , which examine the challenges of parameter-to-actuator mapping, calibration, and real-time operation. This survey provides a critical synthesis of the trade-offs between expressive fidelity and hardware feasibility. We analyze persistent gaps between algorithmic advances and embodied realization, and review the datasets, metrics, and evaluation frameworks necessary for advancing expressive humanoids and their facial expression and behavior modeling. Finally, we identify open challenges and future research directions, including multimodal coordination, adaptive personalization, and standardized evaluation, providing guidance for next-generation expressive human-like humanoids, and systematically integrating advances in humanoid modeling with actionable deployment of humanoid facial expressions and behaviors.",
+          "contribution": "Endowing humanoid robots with expressive, controllable, and robust facial expressions and behaviors is essential for advancing human-like humanoid-human interaction across social, healthcare, and service domains. However, transforming the semantic richness and flexibility of virtual avatars into the mechanical, real-time, and calibration constraints of physical humanoids remains a fundamental challenge. This survey reviews facial expression and behavior modeling for both and analyzes their virtual-to-physical gaps from a deployment-oriented perspective. Our review is organized along three axes: (i)\n                     modeling paradigms \n                    , with emphasis on actuator compatibility and transferability; (ii)\n                     expression control strategies \n                    , assessed for their potential to enable robust robotic deployment; and (iii)\n                     deployment dimensions \n                    , which examine the challenges of parameter-to-actuator mapping, calibration, and real-time operation. This survey provides a critical synthesis of the trade-offs between expressive fidelity and hardware feasibility. We analyze persistent gaps between algorithmic advances and embodied realization, and review the datasets, metrics, and evaluation frameworks necessary for advancing expressive humanoids and their facial expression and behavior modeling. Finally, we identify open challenges and future research directions, including multimodal coordination, adaptive personalization, and standardized evaluation, providing guidance for next-generation expressive human-like humanoids, and systematically integrating advances in humanoid modeling with actionable deployment of humanoid facial expressions and behaviors.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-15",
       "generatedAt": "2026-10-15T12:35:43.916499+03:00",
       "papers": [
@@ -1169,5 +1348,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-15T12:35:43.916499+03:00"
+  "updatedAt": "2026-10-16T12:28:55.209639+03:00"
 }
