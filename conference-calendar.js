@@ -1,5 +1,5 @@
 (() => {
-  const dataUrl = "/data/flagship-conferences.json?v=20261013c";
+  const dataUrl = "/data/flagship-conferences.json?v=20261017a";
   const worldMapUrl = "/data/world-countries.json?v=20261013a";
   const trackFilters = document.querySelector("#conference-track-filters");
   const searchInput = document.querySelector("#conference-search");
@@ -21,15 +21,18 @@
   const mapPopover = document.querySelector("#conference-map-popover");
   const today = new Date();
   const todayString = today.getFullYear() + "-" + String(today.getMonth() + 1).padStart(2, "0") + "-" + String(today.getDate()).padStart(2, "0");
-  const latestMonth = new Date(today.getFullYear() + 1, 11, 1);
+  let latestMonth = new Date(today.getFullYear() + 1, 11, 1);
   const firstMonth = new Date(today.getFullYear(), 0, 1);
-  Array.from({ length: latestMonth.getFullYear() - today.getFullYear() + 1 }, (_, index) => {
-    const year = today.getFullYear() + index;
-    const option = document.createElement("option");
-    option.value = String(year);
-    option.textContent = String(year);
-    yearPicker.append(option);
-  });
+  const populateYearPicker = (lastYear) => {
+    yearPicker.replaceChildren();
+    for (let year = today.getFullYear(); year <= lastYear; year += 1) {
+      const option = document.createElement("option");
+      option.value = String(year);
+      option.textContent = String(year);
+      yearPicker.append(option);
+    }
+  };
+  populateYearPicker(latestMonth.getFullYear());
   const state = {
     data: null,
     mapData: null,
@@ -588,6 +591,12 @@
     })
     .then((data) => {
       state.data = data;
+      const eventYears = data.conferences
+        .filter((item) => item.startDate)
+        .map((item) => Number((item.endDate || item.startDate).slice(0, 4)));
+      const lastCalendarYear = Math.max(today.getFullYear() + 1, ...eventYears);
+      latestMonth = new Date(lastCalendarYear, 11, 1);
+      populateYearPicker(lastCalendarYear);
       renderCoverage();
       render();
     })

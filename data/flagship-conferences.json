@@ -2409,10 +2409,11 @@
         }
       ],
       "officialUrl": "https://www.ieeelcn.org/",
-      "dateStatus": "pending",
-      "nextDateText": "Dates to be announced for 2027",
+      "dateStatus": "scheduled",
       "yearHint": 2027,
-      "location": "Daytona Beach, Florida, USA"
+      "location": "Daytona Beach, Florida, USA",
+      "startDate": "2027-10-18",
+      "endDate": "2027-10-21"
     },
     {
       "id": "conf-101",
@@ -2538,10 +2539,11 @@
         }
       ],
       "officialUrl": "https://conf.researchr.org/home/icsme-2027",
-      "dateStatus": "pending",
-      "nextDateText": "Dates to be announced for 2027",
+      "dateStatus": "scheduled",
       "yearHint": 2027,
-      "location": "Toronto, Canada"
+      "location": "Toronto, Canada",
+      "startDate": "2027-09-07",
+      "endDate": "2027-09-11"
     },
     {
       "id": "conf-107",
@@ -3485,10 +3487,11 @@
         }
       ],
       "officialUrl": "https://isfpga.org/",
-      "nextDateText": "2027 edition confirmed; city and dates to be announced",
-      "dateStatus": "to-be-confirmed",
+      "dateStatus": "scheduled",
       "yearHint": 2027,
-      "location": "California, USA"
+      "location": "California, USA",
+      "startDate": "2027-03-14",
+      "endDate": "2027-03-16"
     },
     {
       "id": "conf-151",
