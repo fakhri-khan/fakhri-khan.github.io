@@ -25,6 +25,130 @@
   ],
   "days": [
     {
+      "date": "2026-10-17",
+      "generatedAt": "2026-10-17T11:59:44.632285+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "LightHybridNet: A Lightweight Hybrid Deep Learning Framework for Efficient Multi-Label Ophthalmic Disease Classification in Imbalanced Fundus Images",
+          "authors": [
+            "Hem Raj Dadral Najam Ul Hasan",
+            "Naveed Ejaz",
+            "Muhammad Aslam Jarwar"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-14",
+          "url": "https://arxiv.org/abs/2610.20671",
+          "source": "arXiv",
+          "arxivId": "2610.20671",
+          "summary": "Eye diseases are a major global cause of blindness and vision impairment, highlighting the need for accurate and early diagnosis to prevent further deterioration. Despite advances in medical imaging, classifying retinal diseases from fundus images remains challenging due to the complexity and subtlety of visual features. This study aims to develop and validate LightHybridNet, a novel lightweight hybrid deep learning framework, to improve the classification of eye diseases from fundus images. The model incorporates architectural features, such as depthwise separable convolutions and compound scaling mechanisms, to enhance diagnostic accuracy and robustness. To validate the model, the ODIR-5K dataset, comprising 8 disease categories, was used. To enhance image quality, pre-processing approaches were applied, including histogram equalisation, colour space conversion, and contrast adjustment, resulting in high-resolution images. Furthermore, image augmentation was employed to increase the dataset size, thereby improving the model's ability to generalise during training. The hybrid architecture helps the model concentrate on relevant image regions while capturing and integrating details at different scales, significantly improving classification performance. To evaluate its effectiveness, the model was compared with transfer-learning models. The results show that LightHybridNet outperforms the baselines, achieving a weighted F1-score of 91.51%, a macro AUC of 98.26%, and a Cohen's Kappa of 90.14% on the validation set. Furthermore, model interpretability was enhanced using explainable AI methods, including Grad-CAM, to identify and emphasise features influencing the decision-making process. LightHybridNet represents a promising advancement in automated ocular disease detection, offering improved diagnostic reliability for clinical use.",
+          "contribution": "Eye diseases are a major global cause of blindness and vision impairment, highlighting the need for accurate and early diagnosis to prevent further deterioration. Despite advances in medical imaging, classifying retinal diseases from fundus images remains challenging due to the complexity and subtlety of visual features. This study aims to develop and validate LightHybridNet, a novel lightweight hybrid deep learning framework, to improve the classification of eye diseases from fundus images. The model incorporates architectural features, such as depthwise separable convolutions and compound scaling mechanisms, to enhance diagnostic accuracy and robustness. To validate the model, the ODIR-5K dataset, comprising 8 disease categories, was used. To enhance image quality, pre-processing approaches were applied, including histogram equalisation, colour space conversion, and contrast adjustment, resulting in high-resolution images. Furthermore, image augmentation was employed to increase the dataset size, thereby improving the model's ability to generalise during training. The hybrid architecture helps the model concentrate on relevant image regions while capturing and integrating details at different scales, significantly improving classification performance. To evaluate its effectiveness, the model was compared with transfer-learning models. The results show that LightHybridNet outperforms the baselines, achieving a weighted F1-score of 91.51%, a macro AUC of 98.26%, and a Cohen's Kappa of 90.14% on the validation set. Furthermore, model interpretability was enhanced using explainable AI methods, including Grad-CAM, to identify and emphasise features influencing the decision-making process. LightHybridNet represents a promising advancement in automated ocular disease detection, offering improved diagnostic reliability for clinical use.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Backward Compatibility in Zero-Bit Neural Audio Watermarking",
+          "authors": [
+            "Admir Krnić",
+            "Kosta Pavlović",
+            "Petar Nedić",
+            "Željko Bolević",
+            "Slavko Kovačević",
+            "Igor Djurović"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.22296",
+          "source": "arXiv",
+          "arxivId": "2610.22296",
+          "summary": "Neural watermarking systems are typically trained as tightly coupled embedder-detector pairs and implicitly assume static deployment. In real-world deployments, embedders and detectors are frequently updated and selectively decoupled for security and versioning purposes, which can break detection in previously embedded content and, more critically, increase false-positive rates on embedders that a given detector is intentionally not intended to recognize.\n  In this paper the concept of backward compatibility in zero-bit audio watermarking is formalized. A training framework is proposed that pairs a new detector with a sequence of frozen legacy embedders (its legacy chain), using a performance-weighted sampling strategy so that the detector retains accuracy across all earlier versions. This coupling, while necessary for backward compatibility, is shown to induce an embedder-collapse effect that catastrophically degrades the true negative rate (TNR) against out-of-chain embedders. To counteract this, a Angular Diversity Loss (ADL) is introduced that explicitly forces each new embedder to occupy a distinct region of the output space. The combined approach restores near-perfect TNR with no measurable cost to detection accuracy or perceptual audio quality.",
+          "contribution": "Neural watermarking systems are typically trained as tightly coupled embedder-detector pairs and implicitly assume static deployment. In real-world deployments, embedders and detectors are frequently updated and selectively decoupled for security and versioning purposes, which can break detection in previously embedded content and, more critically, increase false-positive rates on embedders that a given detector is intentionally not intended to recognize.\n  In this paper the concept of backward compatibility in zero-bit audio watermarking is formalized. A training framework is proposed that pairs a new detector with a sequence of frozen legacy embedders (its legacy chain), using a performance-weighted sampling strategy so that the detector retains accuracy across all earlier versions. This coupling, while necessary for backward compatibility, is shown to induce an embedder-collapse effect that catastrophically degrades the true negative rate (TNR) against out-of-chain embedders. To counteract this, a Angular Diversity Loss (ADL) is introduced that explicitly forces each new embedder to occupy a distinct region of the output space. The combined approach restores near-perfect TNR with no measurable cost to detection accuracy or perceptual audio quality.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "CWE-bench: Refocusing Agentic Security from Exploitation to Defense",
+          "authors": [
+            "Gonzalo Gonzalez-Pumariega",
+            "Ajay Jagannath",
+            "Adit Jain",
+            "Guram Gogia",
+            "Soumyadeep Bakshi",
+            "Nazneen Rajani"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-12",
+          "url": "https://arxiv.org/abs/2610.17020",
+          "source": "arXiv",
+          "arxivId": "2610.17020",
+          "summary": "Cybersecurity evaluations of AI agents have focused largely on offense, yet a working exploit does not show that an agent can make software safe. An attacker needs to exploit only one vulnerability; a defender must find and fix all of them. We introduce CWE-bench, a private benchmark of 120 held-out repository audit-and-repair tasks spanning 73 CWE types, eight languages, and all OWASP Top 10 2025 categories. Agents are given a repository to audit and a description of its threat model, but are not told the weakness, where it occurs, or how many vulnerable sites there are. Each patch must block the exploit while preserving original functionality, as checked by a programmatic verifier. We validated the verifier against a panel of agentic judges, manually reviewing disagreements during development and refining the checks. The best agents reach 68% pass@1 and 81% pass@4. We further conduct analyses showing that (i) agents with the same pass@1 differ widely in retry gains and cost, and (ii) no single agent is best across languages or vulnerability categories, and difficulty varies far more by vulnerability category than by language. As the offensive capabilities of agents improve, CWE-bench provides a broad and rigorous measure of whether their defensive capabilities keep pace.",
+          "contribution": "Cybersecurity evaluations of AI agents have focused largely on offense, yet a working exploit does not show that an agent can make software safe. An attacker needs to exploit only one vulnerability; a defender must find and fix all of them. We introduce CWE-bench, a private benchmark of 120 held-out repository audit-and-repair tasks spanning 73 CWE types, eight languages, and all OWASP Top 10 2025 categories. Agents are given a repository to audit and a description of its threat model, but are not told the weakness, where it occurs, or how many vulnerable sites there are. Each patch must block the exploit while preserving original functionality, as checked by a programmatic verifier. We validated the verifier against a panel of agentic judges, manually reviewing disagreements during development and refining the checks. The best agents reach 68% pass@1 and 81% pass@4. We further conduct analyses showing that (i) agents with the same pass@1 differ widely in retry gains and cost, and (ii) no single agent is best across languages or vulnerability categories, and difficulty varies far more by vulnerability category than by language. As the offensive capabilities of agents improve, CWE-bench provides a broad and rigorous measure of whether their defensive capabilities keep pace.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Hybrid DeepXAI Fusion Network for Interpretable Big Data Analytics and Secure Cloud Decision-Making Systems",
+          "authors": [
+            "B. Nancharaiah",
+            "Ramakrishna Kolikipogu",
+            "J. Sulthan Alikhan",
+            "Lakshmana Phaneendra Maguluri",
+            "Elangovan Muniyandy",
+            "D. Baburao"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-14",
+          "url": "https://arxiv.org/abs/2610.20661",
+          "source": "arXiv",
+          "doi": "10.1142/S0218213026400154",
+          "arxivId": "2610.20661",
+          "summary": "Big data analytics supports modern intelligent systems, but model complexity and limited transparency can undermine interpretability, trust, and security in decision-making. This paper presents the Hybrid DeepXAI Fusion Network, a deep learning framework that integrates temporal, relational, and contextual features with explainable artificial intelligence (XAI) mechanisms. The architecture combines one-dimensional convolutional neural networks (1D-CNNs) for temporal feature extraction, Transformer encoders for contextual modeling, and graph neural networks (GNNs) for inter-feature dependency analysis. An attention-based fusion mechanism integrates these representations. Class Activation Mapping (CAM) and an explanation loss are incorporated to improve interpretability and explanation consistency. The framework is designed for deployment in a federated cloud architecture, using homomorphic encryption and blockchain-based auditing to support data privacy and accountability. Experimental evaluations across healthcare, finance, and energy datasets report 98.42% accuracy, 97.9% precision, 98.1% recall, and a 98.0% F1-score, outperforming the evaluated CNN-LSTM, Transformer-only, and XGBoost baselines. Under projected gradient descent (PGD) adversarial perturbations, the model reportedly retains accuracy above 91.5%. Scalability experiments report throughput of 80,000 messages per second with latency below 200 milliseconds. These results suggest that the proposed framework has potential for interpretable and secure cloud-based decision-support systems.",
+          "contribution": "Big data analytics supports modern intelligent systems, but model complexity and limited transparency can undermine interpretability, trust, and security in decision-making. This paper presents the Hybrid DeepXAI Fusion Network, a deep learning framework that integrates temporal, relational, and contextual features with explainable artificial intelligence (XAI) mechanisms. The architecture combines one-dimensional convolutional neural networks (1D-CNNs) for temporal feature extraction, Transformer encoders for contextual modeling, and graph neural networks (GNNs) for inter-feature dependency analysis. An attention-based fusion mechanism integrates these representations. Class Activation Mapping (CAM) and an explanation loss are incorporated to improve interpretability and explanation consistency. The framework is designed for deployment in a federated cloud architecture, using homomorphic encryption and blockchain-based auditing to support data privacy and accountability. Experimental evaluations across healthcare, finance, and energy datasets report 98.42% accuracy, 97.9% precision, 98.1% recall, and a 98.0% F1-score, outperforming the evaluated CNN-LSTM, Transformer-only, and XGBoost baselines. Under projected gradient descent (PGD) adversarial perturbations, the model reportedly retains accuracy above 91.5%. Scalability experiments report throughput of 80,000 messages per second with latency below 200 milliseconds. These results suggest that the proposed framework has potential for interpretable and secure cloud-based decision-support systems.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Continual pretraining Prostate MRI ViT Encoder for task alignment",
+          "authors": [
+            "Bilal A. Sidiqi",
+            "Yipei Wang",
+            "Shaheer U. Saeed",
+            "Shiqi Huang",
+            "Daniel C. Alexander",
+            "Yipeng Hu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-14",
+          "url": "https://arxiv.org/abs/2610.20217",
+          "source": "arXiv",
+          "arxivId": "2610.20217",
+          "summary": "Building foundation models for MRI has emerged as a promising direction for advancing medical image analysis and improving accessibility of task specific models. Existing approaches primarily focus on effective pretraining strategies and evaluating their performance across diverse downstream tasks. While these methods show performance gains, limited attention has been given to understanding task alignment between pretraining and downstream objectives. Unlike language models, where the two stages are naturally aligned, such alignment is less evident in vision based applications. Motivated by this gap, we explore continual pretraining. Specifically, continually pretraining a pretrained ViT encoder using Low-Rank Adaptation (LoRA) on a prostate segmentation task to enhance task alignment and downstream performance. We further perform layer-wise representational analysis using Centered Kernel Alignment (CKA) to assess representational shifts and their correlation with task outcomes. Our experiments show improved performance in 3 of 6 downstream tasks and comparable results in the others. Our Feature analysis reveals that, for segmentation tasks, continually pretrained encoder features exhibit greater similarity to those of the finetuned encoder than the original pretrained encoder, correlating with observed performance gains.",
+          "contribution": "Building foundation models for MRI has emerged as a promising direction for advancing medical image analysis and improving accessibility of task specific models. Existing approaches primarily focus on effective pretraining strategies and evaluating their performance across diverse downstream tasks. While these methods show performance gains, limited attention has been given to understanding task alignment between pretraining and downstream objectives. Unlike language models, where the two stages are naturally aligned, such alignment is less evident in vision based applications. Motivated by this gap, we explore continual pretraining. Specifically, continually pretraining a pretrained ViT encoder using Low-Rank Adaptation (LoRA) on a prostate segmentation task to enhance task alignment and downstream performance. We further perform layer-wise representational analysis using Centered Kernel Alignment (CKA) to assess representational shifts and their correlation with task outcomes. Our experiments show improved performance in 3 of 6 downstream tasks and comparable results in the others. Our Feature analysis reveals that, for segmentation tasks, continually pretrained encoder features exhibit greater similarity to those of the finetuned encoder than the original pretrained encoder, correlating with observed performance gains.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-16",
       "generatedAt": "2026-10-16T12:28:55.209639+03:00",
       "papers": [
@@ -1348,5 +1472,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-16T12:28:55.209639+03:00"
+  "updatedAt": "2026-10-17T11:59:44.632285+03:00"
 }
