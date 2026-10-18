@@ -25,6 +25,122 @@
   ],
   "days": [
     {
+      "date": "2026-10-18",
+      "generatedAt": "2026-10-18T12:19:02.846818+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Robust Detection of Directional Adversarial Attacks in Deep Neural Networks for Radiological Imaging",
+          "authors": [
+            "Tristan Malatyński",
+            "Joanna Jaworek-Korjakowska"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-11",
+          "url": "https://arxiv.org/abs/2610.15628",
+          "source": "arXiv",
+          "arxivId": "2610.15628",
+          "summary": "Deep learning is now central to radiology, helping detect changes on X-rays, CTs, and MRIs. However, these systems are highly vulnerable to adversarial attacks - small, crafted perturbations that mislead models while appearing unchanged to humans. Such errors risk missed cancers or false positives. Studies show over 90% attack success on medical scans. Almost 30% of US hospitals use AI in imaging in 2023. Thus, an effective method of detecting such attacks and their directionality is crucial to ensure the credibility and reliability of medical systems based on DNNs. We propose a novel detection framework that leverages subsequent attacks using random noise to identify adversarial perturbations. Our approach uses the analysis of variations in the Sigmoid function to distinguish genuine medical images from adversarially manipulated ones. Specifically, we compare prediction differences between clean and attacked images, as well as between different adversarially altered versions, to improve detection accuracy. We evaluated our method on three popular medical datasets including 'Chest X-Ray Images for Classification', 'Retinal Fundus Multi-disease Image Dataset' and 'Brain Tumor Dataset' under various attack scenarios, including random noise. Our framework achieved up to 99.8% ACC in identifying adversarial directional attacks, significantly outperforming existing defense mechanisms. It consistently identified adversarial samples across varying attack strengths while keeping false positives low, showing strong reliability and potential for clinical use. Furthermore, our proposal highlights its potential for real-world deployment.",
+          "contribution": "Deep learning is now central to radiology, helping detect changes on X-rays, CTs, and MRIs. However, these systems are highly vulnerable to adversarial attacks - small, crafted perturbations that mislead models while appearing unchanged to humans. Such errors risk missed cancers or false positives. Studies show over 90% attack success on medical scans. Almost 30% of US hospitals use AI in imaging in 2023. Thus, an effective method of detecting such attacks and their directionality is crucial to ensure the credibility and reliability of medical systems based on DNNs. We propose a novel detection framework that leverages subsequent attacks using random noise to identify adversarial perturbations. Our approach uses the analysis of variations in the Sigmoid function to distinguish genuine medical images from adversarially manipulated ones. Specifically, we compare prediction differences between clean and attacked images, as well as between different adversarially altered versions, to improve detection accuracy. We evaluated our method on three popular medical datasets including 'Chest X-Ray Images for Classification', 'Retinal Fundus Multi-disease Image Dataset' and 'Brain Tumor Dataset' under various attack scenarios, including random noise. Our framework achieved up to 99.8% ACC in identifying adversarial directional attacks, significantly outperforming existing defense mechanisms. It consistently identified adversarial samples across varying attack strengths while keeping false positives low, showing strong reliability and potential for clinical use. Furthermore, our proposal highlights its potential for real-world deployment.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "FALCON: FPGA-Accelerated Latency-Certifiable Occupancy Networks for Camera-Based Autonomous Driving",
+          "authors": [
+            "Haohua Que",
+            "Mingkai Liu",
+            "Handong Yao"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.22143",
+          "source": "arXiv",
+          "arxivId": "2610.22143",
+          "summary": "A perception system that must brake for a pedestrian does not need a low average latency. It must deliver an answer before the deadline on every frame, the worst case included. Commodity edge accelerators optimize the mean through dynamic scheduling, OS jitter, thermal throttling, and contention, so their per-frame latency can be measured but not bounded. We build FALCON, a camera-based 3D occupancy front-end on the AMD Kria KR260, an embedded FPGA drawing 4.3 W idle and up to 6.6 W under inference, and make the latency guarantee layered and explicit: programmable-logic (PL) compute is cycle-bounded analytically; inference is a measured envelope over 100k-frame traces; and a watchdog enforces output delivery, publishing the previous output flagged stale when a frame is late. The deadline runs use a fixed-work proxy of six ResNet-50 DPU inferences per frame, not the full occupancy network: across three 100k-frame enforced runs, all 300k proxy frames delivered an output within the 100 ms deadline plus at most 10.2 ms, the worst of the three runs. The full six-camera FlashOcc pipeline composes to about 1.3 s per frame on the board and is not yet a 10 Hz system. The two operations the DPU cannot run, a view-transform gather and a bilinear resize, become fixed-trip-count PL IPs numerically matched to their software references. On the full Occ3D-nuScenes validation set the board reaches mIoU 29.88, 92.8% of an FP32 baseline the DPU cannot run. On a ResNet-50 probe over 100k frames the KR260 tail stays within 1.5 times its median (2.0 times for the six-inference proxy), where Jetson Orin reaches 4.4 times and the worst datacenter GPU run (NVIDIA L4) 23.6 times. The deployment recipe, HLS sources, and raw timing traces are released.",
+          "contribution": "A perception system that must brake for a pedestrian does not need a low average latency. It must deliver an answer before the deadline on every frame, the worst case included. Commodity edge accelerators optimize the mean through dynamic scheduling, OS jitter, thermal throttling, and contention, so their per-frame latency can be measured but not bounded. We build FALCON, a camera-based 3D occupancy front-end on the AMD Kria KR260, an embedded FPGA drawing 4.3 W idle and up to 6.6 W under inference, and make the latency guarantee layered and explicit: programmable-logic (PL) compute is cycle-bounded analytically; inference is a measured envelope over 100k-frame traces; and a watchdog enforces output delivery, publishing the previous output flagged stale when a frame is late. The deadline runs use a fixed-work proxy of six ResNet-50 DPU inferences per frame, not the full occupancy network: across three 100k-frame enforced runs, all 300k proxy frames delivered an output within the 100 ms deadline plus at most 10.2 ms, the worst of the three runs. The full six-camera FlashOcc pipeline composes to about 1.3 s per frame on the board and is not yet a 10 Hz system. The two operations the DPU cannot run, a view-transform gather and a bilinear resize, become fixed-trip-count PL IPs numerically matched to their software references. On the full Occ3D-nuScenes validation set the board reaches mIoU 29.88, 92.8% of an FP32 baseline the DPU cannot run. On a ResNet-50 probe over 100k frames the KR260 tail stays within 1.5 times its median (2.0 times for the six-inference proxy), where Jetson Orin reaches 4.4 times and the worst datacenter GPU run (NVIDIA L4) 23.6 times. The deployment recipe, HLS sources, and raw timing traces are released.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Trigger Value Selection in Clean-Label Malware Backdoors: An Effectiveness-Detectability Analysis",
+          "authors": [
+            "Tri Budi Sabdo Utomo",
+            "Kazushi Okamoto",
+            "Koki Karube",
+            "Kei Harada",
+            "Atsushi Shibata"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.21269",
+          "source": "arXiv",
+          "arxivId": "2610.21269",
+          "summary": "Clean-label backdoor poisoning is a threat to machine learning-based malware classifiers because poisoned samples can be inserted into training data without changing their labels. Previous explanation-guided attacks mainly focus on selecting important trigger features, but the values assigned to these features can also affect the attack behavior. In this paper, we study trigger value selection as an independent design factor in clean-label backdoor attacks against feature-based malware classifiers. We evaluate several value-selection strategies on EMBER 2018 and a Win64 PE subset of EMBER 2024 using LightGBM classifiers. We compare rare-value, SHAP-based, frequency-bounded, co-occurrence-aware, and quantile-based selectors under random and distribution-based malware-similar benign sampling. The results show that aggressive selectors such as MinPopulation and CountAbsSHAP can achieve high attack success rate, especially under distribution-based sampling, but they are also easier to detect by sanitization methods such as Isolation Forest. In contrast, selectors such as CorrCountAbsSHAP and Quantile95 can reduce poison recall while keeping useful attack effectiveness. These findings show that trigger value selection is not merely an implementation detail, but an important design choice that shapes the effectiveness and detectability profile of clean-label malware backdoor attacks.",
+          "contribution": "Clean-label backdoor poisoning is a threat to machine learning-based malware classifiers because poisoned samples can be inserted into training data without changing their labels. Previous explanation-guided attacks mainly focus on selecting important trigger features, but the values assigned to these features can also affect the attack behavior. In this paper, we study trigger value selection as an independent design factor in clean-label backdoor attacks against feature-based malware classifiers. We evaluate several value-selection strategies on EMBER 2018 and a Win64 PE subset of EMBER 2024 using LightGBM classifiers. We compare rare-value, SHAP-based, frequency-bounded, co-occurrence-aware, and quantile-based selectors under random and distribution-based malware-similar benign sampling. The results show that aggressive selectors such as MinPopulation and CountAbsSHAP can achieve high attack success rate, especially under distribution-based sampling, but they are also easier to detect by sanitization methods such as Isolation Forest. In contrast, selectors such as CorrCountAbsSHAP and Quantile95 can reduce poison recall while keeping useful attack effectiveness. These findings show that trigger value selection is not merely an implementation detail, but an important design choice that shapes the effectiveness and detectability profile of clean-label malware backdoor attacks.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Uncertainty-Aware Federated Learning for Joint Communication and Computation in XR Systems",
+          "authors": [
+            "Robert-Jeron Reifert",
+            "Hayssam Dahrouj",
+            "Alaa Alameer Ahmad",
+            "Haris Gacanin",
+            "Aydin Sezgin"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.21969",
+          "source": "arXiv",
+          "doi": "10.1109/TMC.2026.3740612",
+          "arxivId": "2610.21969",
+          "summary": "The convergence of communication and computation, empowered by artificial intelligence (AI) enhanced capabilities, emerges as a key enabler for realizing the promising functionalities of the sixth-generation of communication systems (6G). To this end, this paper investigates an AI-native, robust network, where multiple base stations (BSs) simultaneously serve several extended reality (XR) devices. The paper then presents an innovative distributed deep learning-based approach to simultaneously manage the transmit and computing powers, and computation allocation, amidst uncertainties in both channel and computing states information. Under such an interference network scenario, the paper proposes a robust approach for minimizing the worst-case delay across the served XR devices, subject to computation and power constraints. The paper leverages a deep neural network (DNN) that can be trained either centrally or in a federated manner to map estimated channels and computation requirements to optimized resource allocations per BS. During training, uncertainty samples, reflecting both channel and computing estimation errors, are injected after the DNN output to account for such joint uncertainties. Our results validate the enhanced robust delay performance and scalability of joint uncertainty injection as compared to uncertainty-agnostic methods and state-of-the-art benchmarks, with federated learning-based solutions achieving near-centralized performance while enhancing efficiency, privacy, and adaptability.",
+          "contribution": "The convergence of communication and computation, empowered by artificial intelligence (AI) enhanced capabilities, emerges as a key enabler for realizing the promising functionalities of the sixth-generation of communication systems (6G). To this end, this paper investigates an AI-native, robust network, where multiple base stations (BSs) simultaneously serve several extended reality (XR) devices. The paper then presents an innovative distributed deep learning-based approach to simultaneously manage the transmit and computing powers, and computation allocation, amidst uncertainties in both channel and computing states information. Under such an interference network scenario, the paper proposes a robust approach for minimizing the worst-case delay across the served XR devices, subject to computation and power constraints. The paper leverages a deep neural network (DNN) that can be trained either centrally or in a federated manner to map estimated channels and computation requirements to optimized resource allocations per BS. During training, uncertainty samples, reflecting both channel and computing estimation errors, are injected after the DNN output to account for such joint uncertainties. Our results validate the enhanced robust delay performance and scalability of joint uncertainty injection as compared to uncertainty-agnostic methods and state-of-the-art benchmarks, with federated learning-based solutions achieving near-centralized performance while enhancing efficiency, privacy, and adaptability.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Parameter-Efficient Multimodal Brain Tumor Segmentation With Stage-Wise Shared Adapters",
+          "authors": [
+            "Milad Rostamian",
+            "Mohammadreza Mohammadi",
+            "Ender Konukoglu",
+            "Mohsen Soryani"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-13",
+          "url": "https://arxiv.org/abs/2610.18571",
+          "source": "arXiv",
+          "arxivId": "2610.18571",
+          "summary": "Different MRI modalities reveal different parts of a brain tumor. Segmentation models combine information from these modalities to outline tumor regions. Many models use a separate encoder for each modality. However, exchanging features among these encoders at several stages can increase model complexity. We introduce the Block-Wise Shared Adapter (BWSA), which combines compressed features from the modality encoders in a shared path and returns adapted features to each stream. In its fixed-blending form, BWSA adds the adapted features to the original features. Its trainable-gated variant (TG-BWSA) instead learns separate weights for the original and adapted features at each modality and encoder stage. We evaluate both variants on BraTS 2020 and BraTS 2023 with four segmentation backbones. On the official BraTS 2023 online validation set, BWSA increases average region-wise Dice by 1.3--7.6 percentage points relative to the corresponding unmodified backbones. TG-BWSA increases it by 2.8--7.7 points. Both variants add approximately 0.85--3.73% parameters and reduce average HD95 relative to the unmodified backbones.",
+          "contribution": "Different MRI modalities reveal different parts of a brain tumor. Segmentation models combine information from these modalities to outline tumor regions. Many models use a separate encoder for each modality. However, exchanging features among these encoders at several stages can increase model complexity. We introduce the Block-Wise Shared Adapter (BWSA), which combines compressed features from the modality encoders in a shared path and returns adapted features to each stream. In its fixed-blending form, BWSA adds the adapted features to the original features. Its trainable-gated variant (TG-BWSA) instead learns separate weights for the original and adapted features at each modality and encoder stage. We evaluate both variants on BraTS 2020 and BraTS 2023 with four segmentation backbones. On the official BraTS 2023 online validation set, BWSA increases average region-wise Dice by 1.3--7.6 percentage points relative to the corresponding unmodified backbones. TG-BWSA increases it by 2.8--7.7 points. Both variants add approximately 0.85--3.73% parameters and reduce average HD95 relative to the unmodified backbones.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-17",
       "generatedAt": "2026-10-17T11:59:44.632285+03:00",
       "papers": [
@@ -1472,5 +1588,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-17T11:59:44.632285+03:00"
+  "updatedAt": "2026-10-18T12:19:02.846818+03:00"
 }
