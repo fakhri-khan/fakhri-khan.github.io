@@ -25,6 +25,129 @@
   ],
   "days": [
     {
+      "date": "2026-10-19",
+      "generatedAt": "2026-10-19T13:29:50.184539+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Beyond Multi-Stage Pipelines: A Label-Correlation Ensemble for Multi-Label Retinal Fundus Disease Classification",
+          "authors": [
+            "Md Asif Uddin",
+            "Jannatul Ferdous",
+            "Asif Islam",
+            "Zobaer Mahmud Zisan",
+            "Promit Ghosh",
+            "Shah Ahafik Arman",
+            "Niloy Farhan",
+            "Rafeed Rahman"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-16",
+          "url": "https://arxiv.org/abs/2610.23747",
+          "source": "arXiv",
+          "arxivId": "2610.23747",
+          "summary": "Retinal fundus images frequently carry more than one disease, and public fundus datasets are heterogeneous and severely long-tailed. Clinical triage suggests a staged design, in which a screening gate, a disease-group router and group-specific classifiers operate in sequence, but it is unclear whether this hierarchy earns its complexity. We present a controlled comparison of three architectures on a unified 39-target label space built from RFMiD 1.0, RFMiD 2.0 and ODIR-5K (12,652 images): (i) a three-stage gated cascade of eight models, (ii) a flat model with 39 independent sigmoid outputs, and (iii) a label-correlation model that replaces the flat linear head with 39 learned label queries and a two-layer transformer decoder. All three share one Swin-V2-B backbone, one preprocessing pipeline and one training protocol, so differences are attributable to the architecture. Staging offers no consistent advantage: tracing every missed disease instance to the stage that lost it shows that the two coarse gates discard 34.2% of true instances while the fine-grained classifiers lose only 6.7%, and the gates' hard zeros depress the cascade's macro-AUC to 0.747. Label-correlation modeling gives the largest single gain, raising the detection rate from 0.621 to 0.682 (0.689 with test-time augmentation). Blending the flat and label-correlation models under four-view test-time augmentation is the best configuration on six of eight metrics (exact match 0.694, micro-F1 0.678, macro-F1 0.456, macro-AUC 0.972). On definition-matched class subsets it matches or exceeds four recent studies on macro- and micro-F1, most clearly on low-support pathologies. We also show that ensembling a gated cascade with continuous-output models is harmful, and that per-source negative sampling is needed to remove a dataset shortcut that otherwise yields a spurious AUC of 1.000.",
+          "contribution": "Retinal fundus images frequently carry more than one disease, and public fundus datasets are heterogeneous and severely long-tailed. Clinical triage suggests a staged design, in which a screening gate, a disease-group router and group-specific classifiers operate in sequence, but it is unclear whether this hierarchy earns its complexity. We present a controlled comparison of three architectures on a unified 39-target label space built from RFMiD 1.0, RFMiD 2.0 and ODIR-5K (12,652 images): (i) a three-stage gated cascade of eight models, (ii) a flat model with 39 independent sigmoid outputs, and (iii) a label-correlation model that replaces the flat linear head with 39 learned label queries and a two-layer transformer decoder. All three share one Swin-V2-B backbone, one preprocessing pipeline and one training protocol, so differences are attributable to the architecture. Staging offers no consistent advantage: tracing every missed disease instance to the stage that lost it shows that the two coarse gates discard 34.2% of true instances while the fine-grained classifiers lose only 6.7%, and the gates' hard zeros depress the cascade's macro-AUC to 0.747. Label-correlation modeling gives the largest single gain, raising the detection rate from 0.621 to 0.682 (0.689 with test-time augmentation). Blending the flat and label-correlation models under four-view test-time augmentation is the best configuration on six of eight metrics (exact match 0.694, micro-F1 0.678, macro-F1 0.456, macro-AUC 0.972). On definition-matched class subsets it matches or exceeds four recent studies on macro- and micro-F1, most clearly on low-support pathologies. We also show that ensembling a gated cascade with continuous-output models is harmful, and that per-source negative sampling is needed to remove a dataset shortcut that otherwise yields a spurious AUC of 1.000.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Sampling the XY model with an attention-based neural network",
+          "authors": [
+            "Piotr Białas",
+            "Christian D. Morales",
+            "Tomasz Stebel",
+            "Dawid Zapolski"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-16",
+          "url": "https://arxiv.org/abs/2610.23783",
+          "source": "arXiv",
+          "arxivId": "2610.23783",
+          "summary": "We present a transformer-based variational autoregressive network for sampling lattice systems with continuous degrees of freedom and apply it to the two-dimensional XY model near the Berezinskii-Kosterlitz-Thouless transition. The architecture is combined with physics-informed ingredients: locality-informed attention and approximate probabilities. The resulting sampler significantly outperforms existing neural samplers. We train the model on lattices up to $96\\times96$, verify with a mode-dropping estimator that no parts of the configuration space are missed, and reproduce the energy, magnetization and helicity modulus obtained with the traditional Markov Chain Monte Carlo algorithm.",
+          "contribution": "We present a transformer-based variational autoregressive network for sampling lattice systems with continuous degrees of freedom and apply it to the two-dimensional XY model near the Berezinskii-Kosterlitz-Thouless transition. The architecture is combined with physics-informed ingredients: locality-informed attention and approximate probabilities. The resulting sampler significantly outperforms existing neural samplers. We train the model on lattices up to $96\\times96$, verify with a mode-dropping estimator that no parts of the configuration space are missed, and reproduce the energy, magnetization and helicity modulus obtained with the traditional Markov Chain Monte Carlo algorithm.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "HardEval: An Execution-Verified Benchmark for AI-Driven Security Hardening and Compliance Remediation",
+          "authors": [
+            "Manohar Vellala",
+            "Soumya Banerjee",
+            "Sandip Roy",
+            "Ross Gore",
+            "Sachin Shetty"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-16",
+          "url": "https://arxiv.org/abs/2610.23685",
+          "source": "arXiv",
+          "arxivId": "2610.23685",
+          "summary": "Implementing Security Technical Implementation Guide (STIG) controls remains a demanding operating-system administration task. Each natural-language security requirement must be translated into a precise and persistent configuration change. These changes span Secure Shell (SSH) configuration, authentication policy, audit rules, and kernel parameters. Existing benchmarks do not measure whether a model can perform this task on a live system. Code benchmarks evaluate isolated programs without persistent system state, while agent benchmarks largely focus on applications rather than operating-system configuration. In this paper, we introduce \\textbf{HardEval}, an execution-verified benchmark for evaluating language-model-assisted security hardening. HardEval is built from Red Hat Enterprise Linux 8 STIG controls that fail on an unhardened baseline system. Expert-written reference remediations and Open Vulnerability and Assessment Language (OVAL) checks serve as hidden ground truth for grading; they are never shown to the model, and each task states only the required security outcome while withholding the implementation. The model produces a Bash script, which is executed on a live virtual machine and graded from fail to pass using the corresponding OpenSCAP/OVAL compliance check. Evaluation of fourteen frontier and open-weight configurations reveals large and uneven capability differences across security domains. A recurring failure mode is plausible security code that does not satisfy the exact compliance condition. For four open-weight configurations, multi-run Wilson confidence intervals preserve the observed ordering. HardEval is publicly available.",
+          "contribution": "Implementing Security Technical Implementation Guide (STIG) controls remains a demanding operating-system administration task. Each natural-language security requirement must be translated into a precise and persistent configuration change. These changes span Secure Shell (SSH) configuration, authentication policy, audit rules, and kernel parameters. Existing benchmarks do not measure whether a model can perform this task on a live system. Code benchmarks evaluate isolated programs without persistent system state, while agent benchmarks largely focus on applications rather than operating-system configuration. In this paper, we introduce \\textbf{HardEval}, an execution-verified benchmark for evaluating language-model-assisted security hardening. HardEval is built from Red Hat Enterprise Linux 8 STIG controls that fail on an unhardened baseline system. Expert-written reference remediations and Open Vulnerability and Assessment Language (OVAL) checks serve as hidden ground truth for grading; they are never shown to the model, and each task states only the required security outcome while withholding the implementation. The model produces a Bash script, which is executed on a live virtual machine and graded from fail to pass using the corresponding OpenSCAP/OVAL compliance check. Evaluation of fourteen frontier and open-weight configurations reveals large and uneven capability differences across security domains. A recurring failure mode is plausible security code that does not satisfy the exact compliance condition. For four open-weight configurations, multi-run Wilson confidence intervals preserve the observed ordering. HardEval is publicly available.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "FedSkillGit: Federated Skill Evolution via Version Control",
+          "authors": [
+            "Boxun Lan",
+            "Jiamei Li",
+            "Weijian Li",
+            "Chengyu Yang",
+            "Zhuang Qi",
+            "Chengcheng Wan",
+            "Xiaohong Chen",
+            "Ming Hu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.21348",
+          "source": "arXiv",
+          "arxivId": "2610.21348",
+          "summary": "Large language model agents can improve their capabilities by evolving reusable natural-language skills from execution experience. In real-world deployments, this experience is distributed across data owners who cannot pool their raw data, which motivates federated skill evolution. The natural first design lets each client evolve the whole skill document and upload the result for server-side aggregation. That design is poorly matched to skill evolution for three reasons. An evolved document can still carry client-specific content distilled from private traces, repeated transmission of a nearly unchanged document spends communication on knowledge that the population already holds and the contribution of a single client is buried in a document that the server cannot meaningfully attribute. We propose FedSkillGit, a federated skill evolution framework that replaces full-document updates with commits. Each participating client submits a bounded set of patches over named rules together with its local experience, which summarizes what the round taught it, and the pair passes a two-stage privacy filter before it leaves the client. The server deduplicates the submitted patches and the local experience of all participants, updates a global experience document that only the optimizers read, and merges the surviving patches into a candidate skill. The candidate is distributed to the clients, which score it on their own validation sets and report the results, and it is published only when the reported scores improve on the current version. Experiments on three datasets and three language model families show that FedSkillGit outperforms state-of-the-art baselines by up to 22% and approaches centralized evolution without sharing raw client data.",
+          "contribution": "Large language model agents can improve their capabilities by evolving reusable natural-language skills from execution experience. In real-world deployments, this experience is distributed across data owners who cannot pool their raw data, which motivates federated skill evolution. The natural first design lets each client evolve the whole skill document and upload the result for server-side aggregation. That design is poorly matched to skill evolution for three reasons. An evolved document can still carry client-specific content distilled from private traces, repeated transmission of a nearly unchanged document spends communication on knowledge that the population already holds and the contribution of a single client is buried in a document that the server cannot meaningfully attribute. We propose FedSkillGit, a federated skill evolution framework that replaces full-document updates with commits. Each participating client submits a bounded set of patches over named rules together with its local experience, which summarizes what the round taught it, and the pair passes a two-stage privacy filter before it leaves the client. The server deduplicates the submitted patches and the local experience of all participants, updates a global experience document that only the optimizers read, and merges the surviving patches into a candidate skill. The candidate is distributed to the clients, which score it on their own validation sets and report the results, and it is published only when the reported scores improve on the current version. Experiments on three datasets and three language model families show that FedSkillGit outperforms state-of-the-art baselines by up to 22% and approaches centralized evolution without sharing raw client data.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "CRUX: Clinical-Text Anchoring for Cross-Institutional CT-Pathology Fusion in Non-Small Cell Lung Cancer Survival Prediction",
+          "authors": [
+            "Kyungwon Kim",
+            "Dosik Hwang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.22419",
+          "source": "arXiv",
+          "arxivId": "2610.22419",
+          "summary": "Accurate prognosis in non-small cell lung cancer (NSCLC) benefits from integrating computed tomography (CT) and histopathological whole-slide images (WSIs), which capture complementary macroscopic and microscopic disease characteristics. Fusing these modalities is difficult: their features come from different pretrained foundation-model encoders and lack spatial correspondence, and both are sensitive to institution-specific acquisition and staining, causing multimodal models to overfit site-specific artifacts and generalize poorly. We present CRUX (CRoss-modal Unification via teXt anchoring), a fusion framework that uses clinical text---encoded by a biomedical language model---as an institution-invariant semantic anchor. Because clinical variables follow standardized classification systems, their embeddings occupy a representation space that is consistent across institutions, providing a stable reference frame for aligning heterogeneous imaging features. CRUX introduces a text-mediated cross-modal bridge in which CT- and pathology-derived text-query summaries exchange information within a compact text semantic space through a learnable hub token, avoiding direct image-space cross-attention that would propagate domain-specific artifacts. We evaluate on 2,157 NSCLC patients from five hospitals, holding out one hospital (N=446) entirely for external validation. CRUX attains an external concordance index (C-index) of 0.761, the highest among all unimodal, bimodal, and trimodal configurations. Notably, direct CT-WSI fusion degrades under distribution shift, whereas text anchoring restores and improves cross-institutional generalization. These results indicate that language-model-encoded clinical text is an effective structured prior for robust, generalizable multimodal cancer prognosis.",
+          "contribution": "Accurate prognosis in non-small cell lung cancer (NSCLC) benefits from integrating computed tomography (CT) and histopathological whole-slide images (WSIs), which capture complementary macroscopic and microscopic disease characteristics. Fusing these modalities is difficult: their features come from different pretrained foundation-model encoders and lack spatial correspondence, and both are sensitive to institution-specific acquisition and staining, causing multimodal models to overfit site-specific artifacts and generalize poorly. We present CRUX (CRoss-modal Unification via teXt anchoring), a fusion framework that uses clinical text---encoded by a biomedical language model---as an institution-invariant semantic anchor. Because clinical variables follow standardized classification systems, their embeddings occupy a representation space that is consistent across institutions, providing a stable reference frame for aligning heterogeneous imaging features. CRUX introduces a text-mediated cross-modal bridge in which CT- and pathology-derived text-query summaries exchange information within a compact text semantic space through a learnable hub token, avoiding direct image-space cross-attention that would propagate domain-specific artifacts. We evaluate on 2,157 NSCLC patients from five hospitals, holding out one hospital (N=446) entirely for external validation. CRUX attains an external concordance index (C-index) of 0.761, the highest among all unimodal, bimodal, and trimodal configurations. Notably, direct CT-WSI fusion degrades under distribution shift, whereas text anchoring restores and improves cross-institutional generalization. These results indicate that language-model-encoded clinical text is an effective structured prior for robust, generalizable multimodal cancer prognosis.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-18",
       "generatedAt": "2026-10-18T12:19:02.846818+03:00",
       "papers": [
@@ -1588,5 +1711,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-18T12:19:02.846818+03:00"
+  "updatedAt": "2026-10-19T13:29:50.184539+03:00"
 }
