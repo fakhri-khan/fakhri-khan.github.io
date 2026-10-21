@@ -25,6 +25,100 @@
   ],
   "days": [
     {
+      "date": "2026-10-21",
+      "generatedAt": "2026-10-21T12:48:50.671085+03:00",
+      "papers": [
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Testing TLS 1.3 PQC on constrained devices and microcontrollers",
+          "authors": [
+            "Olivier Gillot",
+            "William J. Buchanan",
+            "Callum Turino"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-20",
+          "url": "https://arxiv.org/abs/2610.27766",
+          "source": "arXiv",
+          "arxivId": "2610.27766",
+          "summary": "The UK, EU and US governments have set timelines for post-quantum cryptography migration of critical systems, with deadlines ranging from 2028 to 2035. This paper focuses on IoT-class devices and microcontrollers and the viability of using PQC to connect these devices in secure TLS 1.3 connections. Using wolfSSL, we benchmark a 36-combination TLS 1.3 algorithm matrix, pairing ML-KEM-512/768/1024 and X25519/ECC P-256 key exchange with ML-DSA-44/65/87, Ed25519, ECDSA, and RSA-PSS authentication, across four devices (Raspberry Pi Pico W & Pico 2 W, ESP32, and a Raspberry Pi Zero), measuring both handshake latency and energy consumption. We found that in capable devices, all choices in the TLS matrix gave similar results, but that in IoT-class devices, PQC performance is highly implementation- and architecture-dependent: the common assumption that elliptic-curve key exchange must be cheaper than post-quantum lattice-based key exchange does not hold in this wolfSSL-based implementation, where the best full-PQC combination (ML-KEM-512 + ML-DSA-44) completes TLS handshakes 41% faster than the equivalent classical-modern pairing (X25519 + RSA-PSS) on the Pico W (up to 2.12x as energy-efficient, depending on the paired authentication algorithm), and 8.9x faster on the ESP32. Full-PQC, ML-KEM-512/ML-DSA-44, is not only possible but energy-competitive with or superior to Hybrid or Elliptic Curve alternatives on the most constrained devices, though ML-DSA's variable signing time means applications with strict latency-predictability budgets must accept this variance as the cost of full quantum-safe authentication. We further show that the IETF's draft-specified X25519+ML-KEM-768 hybrid incurs approximately the combined cost of its two components, rather than offering a performance compromise, making pure ML-KEM the more practical choice on hardware lacking Curve25519 assembly support.",
+          "contribution": "The UK, EU and US governments have set timelines for post-quantum cryptography migration of critical systems, with deadlines ranging from 2028 to 2035. This paper focuses on IoT-class devices and microcontrollers and the viability of using PQC to connect these devices in secure TLS 1.3 connections. Using wolfSSL, we benchmark a 36-combination TLS 1.3 algorithm matrix, pairing ML-KEM-512/768/1024 and X25519/ECC P-256 key exchange with ML-DSA-44/65/87, Ed25519, ECDSA, and RSA-PSS authentication, across four devices (Raspberry Pi Pico W & Pico 2 W, ESP32, and a Raspberry Pi Zero), measuring both handshake latency and energy consumption. We found that in capable devices, all choices in the TLS matrix gave similar results, but that in IoT-class devices, PQC performance is highly implementation- and architecture-dependent: the common assumption that elliptic-curve key exchange must be cheaper than post-quantum lattice-based key exchange does not hold in this wolfSSL-based implementation, where the best full-PQC combination (ML-KEM-512 + ML-DSA-44) completes TLS handshakes 41% faster than the equivalent classical-modern pairing (X25519 + RSA-PSS) on the Pico W (up to 2.12x as energy-efficient, depending on the paired authentication algorithm), and 8.9x faster on the ESP32. Full-PQC, ML-KEM-512/ML-DSA-44, is not only possible but energy-competitive with or superior to Hybrid or Elliptic Curve alternatives on the most constrained devices, though ML-DSA's variable signing time means applications with strict latency-predictability budgets must accept this variance as the cost of full quantum-safe authentication. We further show that the IETF's draft-specified X25519+ML-KEM-768 hybrid incurs approximately the combined cost of its two components, rather than offering a performance compromise, making pure ML-KEM the more practical choice on hardware lacking Curve25519 assembly support.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "A Digital Twin to Improve Cyber-Social Impact",
+          "authors": [
+            "Vita Santa Barletta",
+            "Danilo Caivano",
+            "Gabriel Cellammare",
+            "Andrea Dimauro",
+            "Pasquale Mesagna",
+            "Massimiliano Morga"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-20",
+          "url": "https://arxiv.org/abs/2610.28430",
+          "source": "arXiv",
+          "arxivId": "2610.28430",
+          "summary": "The increasing complexity of Industrial Control Systems (ICS) and their integration with IT infrastructures has significantly expanded the cyber threat landscape. Traditional cybersecurity models, primarily based on the Confidentiality, Integrity, and Availability (CIA triad), fail to capture the broader societal and operational impacts of cyberattacks. This paper proposes a novel framework that integrates Digital Twin technology with a Cyber-Social Security model to simulate, analyze, and quantify cyber threats in critical infrastructures. Virtualized ICS environments built with Mininet and MiniCPS are used to model attack scenarios and assess their consequences across technical and social dimensions. At the core of the framework lies the Cyber-Social Vulnerability Scoring System (CSVSS), a quantitative metric that extends CVSS with a Social Impact dimension grounded in the Entity and Place pillars, producing a single, reproducible severity score that reflects real-world consequences. Crucially, the framework does not automate risk assessment but keeps the human analyst at its center: a Large Language Model (LLM) performs a first-pass analysis, mapping vulnerabilities and drafting risk reports, while the analyst, supported by explainable AI feedback, validates the findings and retains decision authority over critical cases. Experimental results demonstrate the framework's ability to model and score cyber-social impact, while the human-in-the-loop design is presented as a conceptual principle to preserve oversight.",
+          "contribution": "The increasing complexity of Industrial Control Systems (ICS) and their integration with IT infrastructures has significantly expanded the cyber threat landscape. Traditional cybersecurity models, primarily based on the Confidentiality, Integrity, and Availability (CIA triad), fail to capture the broader societal and operational impacts of cyberattacks. This paper proposes a novel framework that integrates Digital Twin technology with a Cyber-Social Security model to simulate, analyze, and quantify cyber threats in critical infrastructures. Virtualized ICS environments built with Mininet and MiniCPS are used to model attack scenarios and assess their consequences across technical and social dimensions. At the core of the framework lies the Cyber-Social Vulnerability Scoring System (CSVSS), a quantitative metric that extends CVSS with a Social Impact dimension grounded in the Entity and Place pillars, producing a single, reproducible severity score that reflects real-world consequences. Crucially, the framework does not automate risk assessment but keeps the human analyst at its center: a Large Language Model (LLM) performs a first-pass analysis, mapping vulnerabilities and drafting risk reports, while the analyst, supported by explainable AI feedback, validates the findings and retains decision authority over critical cases. Experimental results demonstrate the framework's ability to model and score cyber-social impact, while the human-in-the-loop design is presented as a conceptual principle to preserve oversight.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Privacy-Preserving Personalized Federated Learning (PPP-FL) for Medical Imaging",
+          "authors": [
+            "Md Morshedul Islam",
+            "Hossain Shahriar",
+            "Alfredo Cuzzocrea"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-20",
+          "url": "https://arxiv.org/abs/2610.27470",
+          "source": "arXiv",
+          "arxivId": "2610.27470",
+          "summary": "Federated learning (FL) is a distributed machine learning paradigm that reduces transmission costs, mitigates cross-border data sharing restrictions, and enhances privacy by keeping raw data on local devices. Clients in FL systems train local models and share only updates, which are aggregated by a central server. While this setup limits direct data exposure, FL remains vulnerable to privacy attacks. Existing attack and defense strategies have largely been developed for centralized systems, and adapting them to FL introduces new challenges due to its unique architecture and training workflow. In this work, we first propose a model inversion attack on FL systems using Deep Convolutional Generative Adversarial Networks (DCGANs) in the context of large-scale medical imaging. Our method operates under realistic assumptions about the attacker's knowledge and capabilities. We then examine the effect of client-side differential privacy (DP) in mitigating privacy leakage and incorporate personalized FL to improve model performance under DP settings. Experiments on the Brain MRI ND-5 dataset show that DCGAN-based attacks can reconstruct semantically meaningful synthetic images, revealing significant risks to the privacy of training data. Applying DP reduces attack success but introduces an accuracy trade-off, which is further overcome by personalized FL at each client side. We also evaluate how different aggregation algorithms affect both attack vulnerability and defense effectiveness, underscoring the critical role of aggregation strategies. The proposed attack-and-defense framework is model-agnostic and applicable to a wide range of FL-based systems.",
+          "contribution": "Federated learning (FL) is a distributed machine learning paradigm that reduces transmission costs, mitigates cross-border data sharing restrictions, and enhances privacy by keeping raw data on local devices. Clients in FL systems train local models and share only updates, which are aggregated by a central server. While this setup limits direct data exposure, FL remains vulnerable to privacy attacks. Existing attack and defense strategies have largely been developed for centralized systems, and adapting them to FL introduces new challenges due to its unique architecture and training workflow. In this work, we first propose a model inversion attack on FL systems using Deep Convolutional Generative Adversarial Networks (DCGANs) in the context of large-scale medical imaging. Our method operates under realistic assumptions about the attacker's knowledge and capabilities. We then examine the effect of client-side differential privacy (DP) in mitigating privacy leakage and incorporate personalized FL to improve model performance under DP settings. Experiments on the Brain MRI ND-5 dataset show that DCGAN-based attacks can reconstruct semantically meaningful synthetic images, revealing significant risks to the privacy of training data. Applying DP reduces attack success but introduces an accuracy trade-off, which is further overcome by personalized FL at each client side. We also evaluate how different aggregation algorithms affect both attack vulnerability and defense effectiveness, underscoring the critical role of aggregation strategies. The proposed attack-and-defense framework is model-agnostic and applicable to a wide range of FL-based systems.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Reliability-Preserving Compression for Deployable Medical Image Segmentation",
+          "authors": [
+            "Sagar Kumar",
+            "Shailja Sharma",
+            "Tirthajit Baruah",
+            "Punit Rathore"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-18",
+          "url": "https://arxiv.org/abs/2610.25460",
+          "source": "arXiv",
+          "arxivId": "2610.25460",
+          "summary": "Post-training compression of pretrained medical segmentation models commonly uses quantization, pruning, or distillation to reduce model size and computational cost. Existing medical segmentation quantization studies mainly evaluate Dice, model size, memory, and latency, but this is incomplete for safety-critical use because compressed models should also preserve uncertainty signals that indicate unreliable predictions. We study this problem in compressed MRI/CT segmentation and formalize why Dice can remain stable while uncertainty changes. Motivated by this failure mode, we propose score-guided aggregate-validated mixed precision (SGAV-MP), a post-training compression framework that selects layer precisions under reliability constraints. SGAV-MP ranks quantization actions with a compact benefit-risk score and accepts them only after full-model reliability validation on a calibration set. Across five 2D backbones and three 3D benchmarks, SGAV-MP preserves FP32-level Dice and high uncertainty-map agreement, achieving $3.59\\times$--$7.8\\times$ compression in 2D and $4.73\\times$--$7.82\\times$ in 3D. We also report backend-supported TensorRT deployment measurements separately to distinguish runtime execution from reliability-preserving storage compression.",
+          "contribution": "Post-training compression of pretrained medical segmentation models commonly uses quantization, pruning, or distillation to reduce model size and computational cost. Existing medical segmentation quantization studies mainly evaluate Dice, model size, memory, and latency, but this is incomplete for safety-critical use because compressed models should also preserve uncertainty signals that indicate unreliable predictions. We study this problem in compressed MRI/CT segmentation and formalize why Dice can remain stable while uncertainty changes. Motivated by this failure mode, we propose score-guided aggregate-validated mixed precision (SGAV-MP), a post-training compression framework that selects layer precisions under reliability constraints. SGAV-MP ranks quantization actions with a compact benefit-risk score and accepts them only after full-model reliability validation on a calibration set. Across five 2D backbones and three 3D benchmarks, SGAV-MP preserves FP32-level Dice and high uncertainty-map agreement, achieving $3.59\\times$--$7.8\\times$ compression in 2D and $4.73\\times$--$7.82\\times$ in 3D. We also report backend-supported TensorRT deployment measurements separately to distinguish runtime execution from reliability-preserving storage compression.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-20",
       "generatedAt": "2026-10-20T12:47:58.315613+03:00",
       "papers": [
@@ -1872,5 +1966,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-20T12:47:58.315613+03:00"
+  "updatedAt": "2026-10-21T12:48:50.671085+03:00"
 }
