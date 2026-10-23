@@ -25,6 +25,158 @@
   ],
   "days": [
     {
+      "date": "2026-10-23",
+      "generatedAt": "2026-10-23T12:44:05.311834+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "A Visual Grounding Benchmark for Retinal OCT with Multimodal Large Language Models",
+          "authors": [
+            "Ronald Fecso",
+            "José Morano",
+            "Botond Fazekas",
+            "Paul Widmann-Sedlnitzky",
+            "Dorota Himel",
+            "Laetita Hinterhuber",
+            "Virginia Mares",
+            "Andreas Pollreisz",
+            "Hrvoje Bogunović"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-22",
+          "url": "https://arxiv.org/abs/2610.31205",
+          "source": "arXiv",
+          "arxivId": "2610.31205",
+          "summary": "Multimodal large language models (MLLMs) can answer clinical questions about medical images, but trustworthy use requires visual grounding: models should localize the pathology they report rather than rely on spurious shortcuts. Whether MLLMs can visually ground clinical findings in retinal optical coherence tomography (OCT), the most widely used imaging modality in ophthalmology, remains largely unexplored. To address this gap, we introduce RetinaGroundBench, the first benchmark for biomarker visual grounding in retinal OCT. It comprises 815 B-scans exhaustively annotated by ophthalmologists with 4,537 bounding boxes covering 13 biomarkers across 8 diseases. Because MLLMs often fragment a single lesion into multiple partial predictions, we propose AggIoU, a metric that evaluates whether the union of overlapping predicted boxes covers the annotated region. Across 27 open-source MLLMs (0.8-38B parameters), we find that visual grounding remains largely unsolved: the best general-purpose model achieves a macro F1 of just 23.7%, with consistently low recall, despite reaching up to 73% balanced accuracy on biomarker presence questions. To narrow this gap, we developed RetGrounder, an MLLM fine-tuned using an OCT-specific strategy integrating grounding and textual information. Despite its relatively small size (8B), RetGrounder improves grounding F1 to 33.9%, a 43% relative improvement. Our benchmark provides a reference point for measuring progress in the field of OCT diagnosis with MLLMs.",
+          "contribution": "Multimodal large language models (MLLMs) can answer clinical questions about medical images, but trustworthy use requires visual grounding: models should localize the pathology they report rather than rely on spurious shortcuts. Whether MLLMs can visually ground clinical findings in retinal optical coherence tomography (OCT), the most widely used imaging modality in ophthalmology, remains largely unexplored. To address this gap, we introduce RetinaGroundBench, the first benchmark for biomarker visual grounding in retinal OCT. It comprises 815 B-scans exhaustively annotated by ophthalmologists with 4,537 bounding boxes covering 13 biomarkers across 8 diseases. Because MLLMs often fragment a single lesion into multiple partial predictions, we propose AggIoU, a metric that evaluates whether the union of overlapping predicted boxes covers the annotated region. Across 27 open-source MLLMs (0.8-38B parameters), we find that visual grounding remains largely unsolved: the best general-purpose model achieves a macro F1 of just 23.7%, with consistently low recall, despite reaching up to 73% balanced accuracy on biomarker presence questions. To narrow this gap, we developed RetGrounder, an MLLM fine-tuned using an OCT-specific strategy integrating grounding and textual information. Despite its relatively small size (8B), RetGrounder improves grounding F1 to 33.9%, a 43% relative improvement. Our benchmark provides a reference point for measuring progress in the field of OCT diagnosis with MLLMs.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Rank Ceiling for Twiddle-Perturbation Faults on the Forward NTT",
+          "authors": [
+            "Chakshu Gupta"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-21",
+          "url": "https://arxiv.org/abs/2610.30383",
+          "source": "arXiv",
+          "arxivId": "2610.30383",
+          "summary": "NIST standardised ML-KEM and ML-DSA in 2024 for post-quantum key establishment and digital signatures. Both compute forward number-theoretic transforms (NTTs) on secret polynomials. Published attacks zero every fixed multiplier, or twiddle, during Kyber key generation with a single fault, or individual twiddles in one Dilithium signing variant; countermeasures detect or mask these faults. Nonzero replacements preserve invertibility, but the uncompressed correct-minus-faulted transform difference can still expose input information. This paper characterises the linear map from a secret polynomial to this difference under arbitrary static twiddle replacements, including bit-flips. For one fault, rank equals the number of butterflies sharing its twiddle, halving by layer from 128 to 2 for ML-KEM and to 1 for ML-DSA. Known positions, replacement values and the difference determine that many independent linear combinations of input coefficients. With one fault per layer, all but the constant and linear coefficients for ML-KEM, or the constant for ML-DSA, are determined; Lean 4 certifies this rank-and-kernel result. Those coefficients cancel for every fault set and choice of replacement values. NIST permits seed storage, motivating comparison of a known correct key with a released faulty key from the same seed. If only one ML-KEM secret-polynomial NTT is faulted, the key difference is a known matrix column times the transform difference; an invertible column entry reconstructs the latter. For ML-DSA, neither reconstruction nor the number of secret-polynomial candidates from compressed key differences is established. The per-layer ranks give a closed-form measure of raw exposure for countermeasure design.",
+          "contribution": "NIST standardised ML-KEM and ML-DSA in 2024 for post-quantum key establishment and digital signatures. Both compute forward number-theoretic transforms (NTTs) on secret polynomials. Published attacks zero every fixed multiplier, or twiddle, during Kyber key generation with a single fault, or individual twiddles in one Dilithium signing variant; countermeasures detect or mask these faults. Nonzero replacements preserve invertibility, but the uncompressed correct-minus-faulted transform difference can still expose input information. This paper characterises the linear map from a secret polynomial to this difference under arbitrary static twiddle replacements, including bit-flips. For one fault, rank equals the number of butterflies sharing its twiddle, halving by layer from 128 to 2 for ML-KEM and to 1 for ML-DSA. Known positions, replacement values and the difference determine that many independent linear combinations of input coefficients. With one fault per layer, all but the constant and linear coefficients for ML-KEM, or the constant for ML-DSA, are determined; Lean 4 certifies this rank-and-kernel result. Those coefficients cancel for every fault set and choice of replacement values. NIST permits seed storage, motivating comparison of a known correct key with a released faulty key from the same seed. If only one ML-KEM secret-polynomial NTT is faulted, the key difference is a known matrix column times the transform difference; an invertible column entry reconstructs the latter. For ML-DSA, neither reconstruction nor the number of secret-polynomial candidates from compressed key differences is established. The per-layer ranks give a closed-form measure of raw exposure for countermeasure design.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "AIRO: A Streaming-Based Machine Learning Framework for Threat Detection and Security in Industrial Internet of Things",
+          "authors": [
+            "Raima Deb",
+            "Pranav M Pawar",
+            "Mithun Mukherjee",
+            "Raja Muthalagu",
+            "Mian Guo"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-22",
+          "url": "https://arxiv.org/abs/2610.30713",
+          "source": "arXiv",
+          "arxivId": "2610.30713",
+          "summary": "Modern Industrial Internet of Things (IIoT) im- plementations now connect edge gateways, cloud dashboards and business applications. This improves visibility and remote monitoring. However it simultaneously exposes industrial traffic to various cyber threats including scanning, web attacks and Structured Query Language (SQL) injection (SQLi), phishing- driven credential theft, and command-and-control (C2) activity. Although rule-based tools remain useful for detecting known signatures, their efficacy decreases with minimally altered attacks or when alerts require manual investigation. This paper presents AIRO (Autonomous Intelligence-Driven Cybersecurity Risk Re- duction System), an efficient framework for IIoT monitoring and response. AIRO combines Apache Kafka streaming, attack- specific feature extraction, machine learning (ML) inference, confidence-based decision logic and risk reduction measures such as Internet Protocol (IP) blocking, account suspension and traffic limiting. We developed four specialized datasets for C2 beaconing, reconnaissance, SQLi, and phishing to evaluate AIRO. These datasets include noisy and overlapping characteristic distribu- tions to minimize label leakage. The best-performing models, primarily Gradient Boosting and LightGBM, achieve F1-scores up to 0.9229 while ensuring low-latency from event input to mitigation",
+          "contribution": "Modern Industrial Internet of Things (IIoT) im- plementations now connect edge gateways, cloud dashboards and business applications. This improves visibility and remote monitoring. However it simultaneously exposes industrial traffic to various cyber threats including scanning, web attacks and Structured Query Language (SQL) injection (SQLi), phishing- driven credential theft, and command-and-control (C2) activity. Although rule-based tools remain useful for detecting known signatures, their efficacy decreases with minimally altered attacks or when alerts require manual investigation. This paper presents AIRO (Autonomous Intelligence-Driven Cybersecurity Risk Re- duction System), an efficient framework for IIoT monitoring and response. AIRO combines Apache Kafka streaming, attack- specific feature extraction, machine learning (ML) inference, confidence-based decision logic and risk reduction measures such as Internet Protocol (IP) blocking, account suspension and traffic limiting. We developed four specialized datasets for C2 beaconing, reconnaissance, SQLi, and phishing to evaluate AIRO. These datasets include noisy and overlapping characteristic distribu- tions to minimize label leakage. The best-performing models, primarily Gradient Boosting and LightGBM, achieve F1-scores up to 0.9229 while ensuring low-latency from event input to mitigation",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Navigating human-robot interaction challenges in private and residential aged care homes",
+          "authors": [
+            "David Ahmedt-Aristizabal",
+            "Mohammad Ali Armin",
+            "Akila Pemasiri",
+            "Harshala Gammulle",
+            "Tharindu Fernando",
+            "David Silvera-Tawil",
+            "Simon Denman"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-22",
+          "url": "https://arxiv.org/abs/2610.31149",
+          "source": "arXiv",
+          "doi": "10.1016/B978-0-443-29266-8.00010-4",
+          "arxivId": "2610.31149",
+          "summary": "This chapter explores how robotic systems and ambient intelligence can enhance care for older adults in residential aged care (RAC) homes and private homes. Although these settings differ, we frame both as extreme and challenging environments for human-robot interaction (HRI), characterised by cluttered and dynamic layouts, diverse resident needs, and limited on-site technical support. We review embodied and non-embodied systems that assist with daily living, safety monitoring, and social engagement, highlighting hybrid deployments where robots complement fixed and wearable sensors. To ensure these technologies are usable and effective, design considerations consider the cognitive, physical, and social needs of older adults. Interaction design prioritises accessibility for older adults with low digital literacy, using robust but simple voice interfaces, small sets of non-verbal cues, accessible screen-based companions, and safe object handovers. Privacy, trust, and acceptability are addressed via practical strategies such as on-device inference, data minimisation, visible consent controls, and transparent data handling aligned with emerging artificial intelligence (AI) and privacy regulation. Evaluation emphasises real-world metrics including false alarms per day, time to recover from faults, staff workload, and long-term system reliability. We close by outlining open research challenges and future directions for scalable, regulation-ready deployments that support aging with dignity, safety, and independence.",
+          "contribution": "This chapter explores how robotic systems and ambient intelligence can enhance care for older adults in residential aged care (RAC) homes and private homes. Although these settings differ, we frame both as extreme and challenging environments for human-robot interaction (HRI), characterised by cluttered and dynamic layouts, diverse resident needs, and limited on-site technical support. We review embodied and non-embodied systems that assist with daily living, safety monitoring, and social engagement, highlighting hybrid deployments where robots complement fixed and wearable sensors. To ensure these technologies are usable and effective, design considerations consider the cognitive, physical, and social needs of older adults. Interaction design prioritises accessibility for older adults with low digital literacy, using robust but simple voice interfaces, small sets of non-verbal cues, accessible screen-based companions, and safe object handovers. Privacy, trust, and acceptability are addressed via practical strategies such as on-device inference, data minimisation, visible consent controls, and transparent data handling aligned with emerging artificial intelligence (AI) and privacy regulation. Evaluation emphasises real-world metrics including false alarms per day, time to recover from faults, staff workload, and long-term system reliability. We close by outlining open research challenges and future directions for scalable, regulation-ready deployments that support aging with dignity, safety, and independence.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "nnInteractive Agent: General-Purpose AI Agents as 3D Image Annotators",
+          "authors": [
+            "Fabian Isensee",
+            "Constantin Ulrich Harsy",
+            "Maximilian Rokuss",
+            "Benjamin Hamm",
+            "Philipp Vollmuth",
+            "Klaus H. Maier-Hein"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-22",
+          "url": "https://arxiv.org/abs/2610.31080",
+          "source": "arXiv",
+          "arxivId": "2610.31080",
+          "summary": "Interactive 3D segmentation models such as nnInteractive turn a few spatial prompts (points, scribbles, boxes) into accurate volumetric masks, but a human still does the annotation work: finding each structure, placing prompts, checking the result and correcting it. General-purpose AI agents can now interpret images, call tools and write code. We show that such agents can take over this work without additional training: the user makes a request in plain language, and the agent works out what has to be segmented, locates the targets, prompts nnInteractive, inspects the 3D result, corrects it and responds to feedback. Asked for 'the muscles used for chewing', an agent identifies and segments the masseters and pterygoids; asked to count liver lesions, it writes its own code to find candidates and splits a merged lesion on request. Our open-source nninteractive-agent provides nnInteractive as tools over the Model Context Protocol (MCP), together with a skill that encodes how experienced users prompt it. On a benchmark spanning CT, MRI, PET and micro-CT of humans, a mouse and an ant (14 images; 51 targets from organs and tumours to muscles, foot bones, vessel trees and an insect brain), Claude Code and Codex reach a mean Dice of 0.81 and 0.84 from the request alone; when told where each target is, both reach 0.85 and prompt nearly as effectively as an oracle that places prompts using the reference segmentation. A text-prompted 3D model (VoxTell) is more accurate on most standard radiological targets but less robust: it returns an empty mask for one of them and fails on the leg muscles, the foot bones, the mouse and the ant, where the agents remain accurate. Code: https://github.com/MIC-DKFZ/nninteractive-agent",
+          "contribution": "Interactive 3D segmentation models such as nnInteractive turn a few spatial prompts (points, scribbles, boxes) into accurate volumetric masks, but a human still does the annotation work: finding each structure, placing prompts, checking the result and correcting it. General-purpose AI agents can now interpret images, call tools and write code. We show that such agents can take over this work without additional training: the user makes a request in plain language, and the agent works out what has to be segmented, locates the targets, prompts nnInteractive, inspects the 3D result, corrects it and responds to feedback. Asked for 'the muscles used for chewing', an agent identifies and segments the masseters and pterygoids; asked to count liver lesions, it writes its own code to find candidates and splits a merged lesion on request. Our open-source nninteractive-agent provides nnInteractive as tools over the Model Context Protocol (MCP), together with a skill that encodes how experienced users prompt it. On a benchmark spanning CT, MRI, PET and micro-CT of humans, a mouse and an ant (14 images; 51 targets from organs and tumours to muscles, foot bones, vessel trees and an insect brain), Claude Code and Codex reach a mean Dice of 0.81 and 0.84 from the request alone; when told where each target is, both reach 0.85 and prompt nearly as effectively as an oracle that places prompts using the reference segmentation. A text-prompted 3D model (VoxTell) is more accurate on most standard radiological targets but less robust: it returns an empty mask for one of them and fails on the leg muscles, the foot bones, the mouse and the ant, where the agents remain accurate. Code: https://github.com/MIC-DKFZ/nninteractive-agent",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Agentic Automation of BT-RADS Scoring Using an End-to-End System for                     Standardized Glioma Follow-up Assessment",
+          "authors": [
+            "Mohamed Sobhi Jabal",
+            "Jikai Zhang",
+            "Dominic LaBella",
+            "Jessica L. Houk",
+            "Dylan Zhang",
+            "Jeffrey D. Rudie",
+            "Maciej A. Mazurowski",
+            "Kirti Magudia",
+            "Evan Calabrese"
+          ],
+          "venue": "Radiology: Artificial Intelligence",
+          "venueId": "J03",
+          "publishedDate": "2026-10-21",
+          "url": "https://doi.org/10.1148/ryai.260234",
+          "source": "Crossref",
+          "doi": "10.1148/ryai.260234",
+          "summary": "The Brain Tumor Reporting and Data System (BT-RADS) standardizes posttreatment MRI response assessment in patients with diffuse gliomas but requires complex integration of imaging trends, medication effects, and radiation timing. An end-to-end multiagent large language model and convolutional neural network system for automated BTRADS classification was developed and evaluated. Five hundred nine consecutive posttreatment glioma MRI examinations (March 2017-July 2021) from a single center were retrospectively evaluated. An extractor agent identified clinical variables from notes using gpt-oss (OpenAI, 20-billion parameters). A scorer agent applied BTRADS decision logic integrating these with quantitative volumetrics. System accuracy was compared against initial assessments, using expert annotation as the reference standard. Four hundred ninety-two examinations were evaluable. Overall system accuracy was 76.0% (374/492) versus 57.5% (283/492) for initial assessments, an absolute difference of +18.5 percentage points ( P &lt; .001). Cohen kappa between the system and the reference standard was 0.71. The system achieved high sensitivity in context-dependent categories (BT-1b; 100%; BT-1a, 92.7%; BT-3a, 87.5%) and moderate sensitivity for threshold-dependent categories (BT-3c, 74.8%; BT-2, 69.2%; BT-4, 69.3%; BT-3b, 57.1%). The BT-4 positive predictive value was 92.9%. These results support further evaluation of this system as a clinical decision-support tool, with local open-weight inference preserving data privacy. \n                   ©RSNA, 2026",
+          "contribution": "The Brain Tumor Reporting and Data System (BT-RADS) standardizes posttreatment MRI response assessment in patients with diffuse gliomas but requires complex integration of imaging trends, medication effects, and radiation timing. An end-to-end multiagent large language model and convolutional neural network system for automated BTRADS classification was developed and evaluated. Five hundred nine consecutive posttreatment glioma MRI examinations (March 2017-July 2021) from a single center were retrospectively evaluated. An extractor agent identified clinical variables from notes using gpt-oss (OpenAI, 20-billion parameters). A scorer agent applied BTRADS decision logic integrating these with quantitative volumetrics. System accuracy was compared against initial assessments, using expert annotation as the reference standard. Four hundred ninety-two examinations were evaluable. Overall system accuracy was 76.0% (374/492) versus 57.5% (283/492) for initial assessments, an absolute difference of +18.5 percentage points ( P &lt; .001). Cohen kappa between the system and the reference standard was 0.71. The system achieved high sensitivity in context-dependent categories (BT-1b; 100%; BT-1a, 92.7%; BT-3a, 87.5%) and moderate sensitivity for threshold-dependent categories (BT-3c, 74.8%; BT-2, 69.2%; BT-4, 69.3%; BT-3b, 57.1%). The BT-4 positive predictive value was 92.9%. These results support further evaluation of this system as a clinical decision-support tool, with local open-weight inference preserving data privacy. \n                   ©RSNA, 2026",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-22",
       "generatedAt": "2026-10-22T12:50:03.024723+03:00",
       "papers": [
@@ -2148,5 +2300,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-22T12:50:03.024723+03:00"
+  "updatedAt": "2026-10-23T12:44:05.311834+03:00"
 }
