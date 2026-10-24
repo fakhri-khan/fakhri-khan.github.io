@@ -25,6 +25,165 @@
   ],
   "days": [
     {
+      "date": "2026-10-24",
+      "generatedAt": "2026-10-24T12:17:17.934809+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Two for One: Privileged Learning for Resource-Constrained Screening",
+          "authors": [
+            "Lisa Y. W. Tang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-21",
+          "url": "https://arxiv.org/abs/2610.29126",
+          "source": "arXiv",
+          "arxivId": "2610.29126",
+          "summary": "Machine learning systems are often developed under data-rich conditions but deployed when only incomplete information is available. A natural example arises in colour fundus photography (CFP), where both eyes are commonly imaged because they can provide complementary information for ocular disease assessment. Prior approaches that exploit bilateral information either fuse both eyes in a single model or use knowledge distillation to compress a dual-eye teacher into a lightweight student that still requires both images at test time. However, bilateral acquisition may not always be feasible. We thus propose a privileged learning framework in which a teacher model has access to bilateral CFP images during training and learns representations informed by information from both eyes, while the student is trained to transfer this knowledge from the bilateral teacher using only a single-eye image as input. At inference, the student operates exclusively on this single-eye input and does not require the contralateral image. Experimental results show consistent improvements in area under the receiver operating characteristic curve over conventional monocular training, with the largest gains observed for left-eye images for the detection of age-related macular degeneration (0.931 vs. 0.966) and diabetic retinopathy (0.789 vs. 0.836).%, while requiring only a single-eye image at inference. By enabling models to benefit from bilateral information during training while requiring only a single-eye image at inference, our approach may support more reliable deployment in resource-constrained clinical and screening environments.",
+          "contribution": "Machine learning systems are often developed under data-rich conditions but deployed when only incomplete information is available. A natural example arises in colour fundus photography (CFP), where both eyes are commonly imaged because they can provide complementary information for ocular disease assessment. Prior approaches that exploit bilateral information either fuse both eyes in a single model or use knowledge distillation to compress a dual-eye teacher into a lightweight student that still requires both images at test time. However, bilateral acquisition may not always be feasible. We thus propose a privileged learning framework in which a teacher model has access to bilateral CFP images during training and learns representations informed by information from both eyes, while the student is trained to transfer this knowledge from the bilateral teacher using only a single-eye image as input. At inference, the student operates exclusively on this single-eye input and does not require the contralateral image. Experimental results show consistent improvements in area under the receiver operating characteristic curve over conventional monocular training, with the largest gains observed for left-eye images for the detection of age-related macular degeneration (0.931 vs. 0.966) and diabetic retinopathy (0.789 vs. 0.836).%, while requiring only a single-eye image at inference. By enabling models to benefit from bilateral information during training while requiring only a single-eye image at inference, our approach may support more reliable deployment in resource-constrained clinical and screening environments.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "HAWC-Leak: Heterogeneous Architecture Workload Classification utilizing Side-Channel Leakage",
+          "authors": [
+            "Muhtasim Alam Chowdhury",
+            "Arthur Kim",
+            "Rozhin Yasaei",
+            "Soheil Salehi"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-21",
+          "url": "https://arxiv.org/abs/2610.30400",
+          "source": "arXiv",
+          "arxivId": "2610.30400",
+          "summary": "Modern heterogeneous computing platforms, which integrate general-purpose processors with specialized accelerators such as FPGAs, have become the standard for high-performance and embedded applications. However, the shared physical resources of these systems introduce critical security vulnerabilities, where power consumption patterns can leak sensitive runtime information. While side-channel analysis is well established for extracting cryptographic keys from isolated algorithms, existing methods struggle to profile complex, dynamic systems where diverse workloads coexist on shared hardware resources. This paper presents HAWC-Leak, a dynamic workload classification framework designed to identify specific hardware accelerator tasks in real time using non-invasive power analysis. Unlike prior studies focused on extracting cryptographic secrets from isolated implementations, our approach profiles heterogeneous runtime behavior using machine learning to predict active workloads from features extracted from power traces. We implement a complete hardware-in-the-loop measurement testbed using the ChipWhisperer CW305 Artix-7 FPGA platform to capture high-resolution power signatures of diverse workloads including Advanced Encryption Standard (AES-128), Elliptic Curve Cryptography (ECC P-256), Secure Hash Algorithm (SHA-256), Convolutional Neural Network (CNN), and a system idle state. We develop a Hierarchical Random Forest classifier that processes real-time power data to identify the executing application in controlled mixed-activity scenarios where multiple accelerators are instantiated but only one executes at a time. Experimental results demonstrate that this framework achieves 100% classification accuracy across all evaluated scenarios, confirming that power consumption patterns serve as a reliable and distinctive fingerprint for profiling heterogeneous runtime behavior.",
+          "contribution": "Modern heterogeneous computing platforms, which integrate general-purpose processors with specialized accelerators such as FPGAs, have become the standard for high-performance and embedded applications. However, the shared physical resources of these systems introduce critical security vulnerabilities, where power consumption patterns can leak sensitive runtime information. While side-channel analysis is well established for extracting cryptographic keys from isolated algorithms, existing methods struggle to profile complex, dynamic systems where diverse workloads coexist on shared hardware resources. This paper presents HAWC-Leak, a dynamic workload classification framework designed to identify specific hardware accelerator tasks in real time using non-invasive power analysis. Unlike prior studies focused on extracting cryptographic secrets from isolated implementations, our approach profiles heterogeneous runtime behavior using machine learning to predict active workloads from features extracted from power traces. We implement a complete hardware-in-the-loop measurement testbed using the ChipWhisperer CW305 Artix-7 FPGA platform to capture high-resolution power signatures of diverse workloads including Advanced Encryption Standard (AES-128), Elliptic Curve Cryptography (ECC P-256), Secure Hash Algorithm (SHA-256), Convolutional Neural Network (CNN), and a system idle state. We develop a Hierarchical Random Forest classifier that processes real-time power data to identify the executing application in controlled mixed-activity scenarios where multiple accelerators are instantiated but only one executes at a time. Experimental results demonstrate that this framework achieves 100% classification accuracy across all evaluated scenarios, confirming that power consumption patterns serve as a reliable and distinctive fingerprint for profiling heterogeneous runtime behavior.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure",
+          "authors": [
+            "Pellegrino Casoria",
+            "Simon Pietro Romano"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-22",
+          "url": "https://arxiv.org/abs/2610.31573",
+          "source": "arXiv",
+          "arxivId": "2610.31573",
+          "summary": "In the post-API landscape, social-media profiling has become inexpensive and automated: Large Language Models (LLMs) can extract structured information from unstructured content and deduce attributes users never disclosed. A person's true exposure is not what they post but what can be inferred from it. As these practices become routine, exposure to social engineering attacks becomes an operational certainty, demanding a shared framework for assessment and mitigation.\n  We make this exposure measurable by quantifying how accurately a target can be profiled, and how far that profile enables social engineering attacks. Because no existing model fully spans this continuum, we unify Social Media Intelligence (SOCMINT) and Cyber Human Intelligence (Cyber-HUMINT), two individual-focused disciplines that evolved separately, into a single doctrine-grounded taxonomy of 38 capabilities across the Cyber Threat Intelligence lifecycle, where user profiling bridges passive collection and active engagement. Domain experts validated the taxonomy (Fleiss' $κ$ = 0.92).\n  We operationalize its core path (extraction, inference, and susceptibility assessment) as an LLM-augmented multi-agent pipeline, evaluated on real participants' public data. Susceptibility is assessed indirectly: the pipeline predicts how each target would rank personalized engagement options, matching their actual choices significantly above chance. This ranking capacity captures the personalization on which tailored attacks depend. The underlying profiles are accurate: extraction reaches F1 = 97.3%, and inferred attributes score 4.73/5, both far above rule-based and NER-based baselines at negligible cost. The framework augments security analysts' tradecraft rather than replacing it and enables defenders to gauge their own exposure before an adversary does.",
+          "contribution": "In the post-API landscape, social-media profiling has become inexpensive and automated: Large Language Models (LLMs) can extract structured information from unstructured content and deduce attributes users never disclosed. A person's true exposure is not what they post but what can be inferred from it. As these practices become routine, exposure to social engineering attacks becomes an operational certainty, demanding a shared framework for assessment and mitigation.\n  We make this exposure measurable by quantifying how accurately a target can be profiled, and how far that profile enables social engineering attacks. Because no existing model fully spans this continuum, we unify Social Media Intelligence (SOCMINT) and Cyber Human Intelligence (Cyber-HUMINT), two individual-focused disciplines that evolved separately, into a single doctrine-grounded taxonomy of 38 capabilities across the Cyber Threat Intelligence lifecycle, where user profiling bridges passive collection and active engagement. Domain experts validated the taxonomy (Fleiss' $κ$ = 0.92).\n  We operationalize its core path (extraction, inference, and susceptibility assessment) as an LLM-augmented multi-agent pipeline, evaluated on real participants' public data. Susceptibility is assessed indirectly: the pipeline predicts how each target would rank personalized engagement options, matching their actual choices significantly above chance. This ranking capacity captures the personalization on which tailored attacks depend. The underlying profiles are accurate: extraction reaches F1 = 97.3%, and inferred attributes score 4.73/5, both far above rule-based and NER-based baselines at negligible cost. The framework augments security analysts' tradecraft rather than replacing it and enables defenders to gauge their own exposure before an adversary does.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "AdaFedXplain: Adaptive Federated Learning with Explainable AI for Ransomware Detection",
+          "authors": [
+            "Md. Emran Biswas",
+            "Md. Delowar Hossain",
+            "Mst. Tanbin Yasmin Tanny",
+            "Muhammad Aminur Rahaman",
+            "Md Al Amin",
+            "Tangina Sultana"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-18",
+          "url": "https://arxiv.org/abs/2610.25318",
+          "source": "arXiv",
+          "arxivId": "2610.25318",
+          "summary": "Attacks using ransomware have developed into complex multiphase campaigns that target vital infrastructure, resulting in annual damages of billions of dollars. Conventional detection techniques are ineffective against zero-day variations, and privacy issues are raised by centralized machine learning algorithms. Federated learning allows for cooperative model training without data sharing, however current FL approaches suffer from explainability issues, high communication cost, and non-IID data heterogeneity. In this study, we present AdaFedXplain, an explainable AI-based adaptive federated learning system for ransomware detection. Our approach includes progressive XGBoost complexity to avoid overfitting, a decaying learning rate schedule for stable convergence, and dynamic client grading based on ransomware prevalence and data sufficiency. Using 62,485 real-world ransomware samples from four OS-based non-IID clients, we compare AdaFedXplain against FedAvg, FedProx, and SCAFFOLD. According to experimental data, AdaFedXplain outperforms all baselines with 99.59% detection accuracy and 99.64% F1-score while cutting energy usage by 75%, latency by 65%, and communication overhead by 75%. The ablation investigation demonstrates that every element enhances performance. Security analysts can use SHAP explainability to identify important PE header characteristics that influence detection decisions. Our system provides a collaborative ransomware detection solution that is efficient and interpretable, while reducing privacy risks through federated learnings data-local training paradigm.",
+          "contribution": "Attacks using ransomware have developed into complex multiphase campaigns that target vital infrastructure, resulting in annual damages of billions of dollars. Conventional detection techniques are ineffective against zero-day variations, and privacy issues are raised by centralized machine learning algorithms. Federated learning allows for cooperative model training without data sharing, however current FL approaches suffer from explainability issues, high communication cost, and non-IID data heterogeneity. In this study, we present AdaFedXplain, an explainable AI-based adaptive federated learning system for ransomware detection. Our approach includes progressive XGBoost complexity to avoid overfitting, a decaying learning rate schedule for stable convergence, and dynamic client grading based on ransomware prevalence and data sufficiency. Using 62,485 real-world ransomware samples from four OS-based non-IID clients, we compare AdaFedXplain against FedAvg, FedProx, and SCAFFOLD. According to experimental data, AdaFedXplain outperforms all baselines with 99.59% detection accuracy and 99.64% F1-score while cutting energy usage by 75%, latency by 65%, and communication overhead by 75%. The ablation investigation demonstrates that every element enhances performance. Security analysts can use SHAP explainability to identify important PE header characteristics that influence detection decisions. Our system provides a collaborative ransomware detection solution that is efficient and interpretable, while reducing privacy risks through federated learnings data-local training paradigm.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "SciFusion: Physics-Guided Compositional Diffusion for Multimodal 3D Scientific Image Generation",
+          "authors": [
+            "Luoxi Wang",
+            "Alessio Quercia",
+            "Hanno Scharr",
+            "Arya Bangun"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-21",
+          "url": "https://arxiv.org/abs/2610.30313",
+          "source": "arXiv",
+          "arxivId": "2610.30313",
+          "summary": "Existing 3D generative approaches are typically developed for individual imaging modalities, requiring substantial modality-specific data and limiting their ability to exploit shared structure across scientific imaging domains. We present SciFusion, a multimodal framework for unified 3D scientific image generation built on a latent diffusion backbone, with two key contributions. First, we introduce a compositional conditioning scheme that factorizes each modality into domain, object, and contrast representations. Sharing these factors across related modalities enables knowledge transfer across heterogeneous imaging domains and allows the factors to be recombined at inference time to synthesize unseen domain-object-contrast compositions in a zero-shot manner. Second, we incorporate domain-specific physics-informed objectives: Fourier spectral consistency for MRI, Radon projection consistency for CT, and multislice diffraction consistency for electron microscopy, to encourage generated samples to respect modality-dependent image formation processes. Extensive experiments across 15 medical and scientific imaging modalities demonstrate that SciFusion improves generation fidelity and cross-domain generalization over modality-specific and flattened multimodal conditioning strategies, while enabling zero-shot synthesis of unseen compositions without training on those target compositions. These results demonstrate that compositional, physics-guided conditioning provides a scalable framework for unified 3D scientific image generation, particularly for emerging modalities where large-scale training data are difficult to obtain.",
+          "contribution": "Existing 3D generative approaches are typically developed for individual imaging modalities, requiring substantial modality-specific data and limiting their ability to exploit shared structure across scientific imaging domains. We present SciFusion, a multimodal framework for unified 3D scientific image generation built on a latent diffusion backbone, with two key contributions. First, we introduce a compositional conditioning scheme that factorizes each modality into domain, object, and contrast representations. Sharing these factors across related modalities enables knowledge transfer across heterogeneous imaging domains and allows the factors to be recombined at inference time to synthesize unseen domain-object-contrast compositions in a zero-shot manner. Second, we incorporate domain-specific physics-informed objectives: Fourier spectral consistency for MRI, Radon projection consistency for CT, and multislice diffraction consistency for electron microscopy, to encourage generated samples to respect modality-dependent image formation processes. Extensive experiments across 15 medical and scientific imaging modalities demonstrate that SciFusion improves generation fidelity and cross-domain generalization over modality-specific and flattened multimodal conditioning strategies, while enabling zero-shot synthesis of unseen compositions without training on those target compositions. These results demonstrate that compositional, physics-guided conditioning provides a scalable framework for unified 3D scientific image generation, particularly for emerging modalities where large-scale training data are difficult to obtain.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "“I’m trying not to get hacked:” How Adults with Intellectual and Developmental Disabilities Navigate Security and Privacy Notifications",
+          "authors": [
+            "Hailey L Johnson",
+            "Julia Nonnenkamp",
+            "Bilge Mutlu",
+            "Rahul Chatterjee"
+          ],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-10-24",
+          "url": "https://doi.org/10.1145/3797867.3828996",
+          "source": "Crossref",
+          "doi": "10.1145/3797867.3828996",
+          "summary": "This paper examines “I’m trying not to get hacked:” How Adults with Intellectual and Developmental Disabilities Navigate Security and Privacy Notifications.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "An Explainable Ensemble Deep Learning Model for Multiclass Skin Disease Classification Using Dermoscopic Images",
+          "authors": [
+            "Ekramul Hasib",
+            "Touhidul Islam Masfi",
+            "S. M. Abdullah Shafi",
+            "Abhijit Bhowmik",
+            "Md. Saef Ullah Miah",
+            "S. A. M. Manzur H. Khan"
+          ],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-10-24",
+          "url": "https://doi.org/10.1007/978-3-032-42348-1_21",
+          "source": "Crossref",
+          "doi": "10.1007/978-3-032-42348-1_21",
+          "summary": "This paper examines An Explainable Ensemble Deep Learning Model for Multiclass Skin Disease Classification Using Dermoscopic Images.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-23",
       "generatedAt": "2026-10-23T12:44:05.311834+03:00",
       "papers": [
@@ -2300,5 +2459,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-23T12:44:05.311834+03:00"
+  "updatedAt": "2026-10-24T12:17:17.934809+03:00"
 }
