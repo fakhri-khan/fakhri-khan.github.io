@@ -25,6 +25,127 @@
   ],
   "days": [
     {
+      "date": "2026-10-25",
+      "generatedAt": "2026-10-25T12:33:43.427347+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "From Canon to Nikon: Camera Domain Shift and Potential Equity Implications in Retinal AI",
+          "authors": [
+            "Lisa Y. W. Tang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-21",
+          "url": "https://arxiv.org/abs/2610.29104",
+          "source": "arXiv",
+          "arxivId": "2610.29104",
+          "summary": "Diabetic retinopathy is a leading cause of preventable blindness, yet access to regular screening remains limited worldwide. AI offers a scalable approach, but its performance can be sensitive to image quality and acquisition conditions. In a Brazilian cohort of 8,524 patients, retinal images acquired with the Nikon NF5050 were more than twice as likely to have inadequate image quality compared with those acquired with the Canon CR-2, despite refurbished Canon systems costing more than twice as much as Nikon systems. This potential cost-quality trade-off highlights an important consideration for the reliability of AI systems deployed across heterogeneous imaging systems. Using a frozen pretrained retinal foundation model, we systematically evaluate whether camera-associated performance differences persist across 12 retinal disease classification tasks, four input resolutions, and five downstream classifiers. We find that camera-associated performance differences vary substantially across tasks, and that neither higher input resolution nor classifier choice consistently mitigates cross-camera variation. These findings identify camera platform as a potentially overlooked source of performance variability, with implications for the safety and reliability of retinal AI when deployed across heterogeneous imaging systems. We release all source code, evaluation scripts, and per-task results on GitHub to support reproducible benchmarking.",
+          "contribution": "Diabetic retinopathy is a leading cause of preventable blindness, yet access to regular screening remains limited worldwide. AI offers a scalable approach, but its performance can be sensitive to image quality and acquisition conditions. In a Brazilian cohort of 8,524 patients, retinal images acquired with the Nikon NF5050 were more than twice as likely to have inadequate image quality compared with those acquired with the Canon CR-2, despite refurbished Canon systems costing more than twice as much as Nikon systems. This potential cost-quality trade-off highlights an important consideration for the reliability of AI systems deployed across heterogeneous imaging systems. Using a frozen pretrained retinal foundation model, we systematically evaluate whether camera-associated performance differences persist across 12 retinal disease classification tasks, four input resolutions, and five downstream classifiers. We find that camera-associated performance differences vary substantially across tasks, and that neither higher input resolution nor classifier choice consistently mitigates cross-camera variation. These findings identify camera platform as a potentially overlooked source of performance variability, with implications for the safety and reliability of retinal AI when deployed across heterogeneous imaging systems. We release all source code, evaluation scripts, and per-task results on GitHub to support reproducible benchmarking.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Stop Paying by the Letter: Accelerating Full-Chip RTL Simulation with Host-Side Tokenized Logging",
+          "authors": [
+            "Daniel Keller",
+            "Rohit Kumar"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-19",
+          "url": "https://arxiv.org/abs/2610.27356",
+          "source": "arXiv",
+          "arxivId": "2610.27356",
+          "summary": "Firmware diagnostic logging (printf) is an essential debug instrument in full-chip SoC design verification, yet it imposes a heavy tax on cycle-accurate RTL simulation: formatting a 30-character, 1-argument message on a simulated CPU and serializing it through an MMIO aperture costs 3.04 to 15.23 $μ$s per call (15.27 $μ$s unweighted / 15.08 $μ$s print-weighted critical-path mean on Suite A). Unlike embedded tokenizers that target flash footprint and wire bytes with offline decoding, RTL simulation is governed by a two-regime cost function---cross-fabric SoC paths are dominated by MMIO bus stalls (84.7% of call latency) whereas local subsystem paths are dominated by on-core vsprintf formatting (61.7%)---and requires live, zero-simulation-time string reconstruction to drive UVM scoreboards.\n  We present a host-side in-simulation tokenized logging architecture for heterogeneous multi-core SoCs that eliminates both bottlenecks with zero firmware call-site edits. Using link-time ELF format-string virtual addresses as tokens over a fixed 32-bit word-aligned slot protocol across Arm, RISC-V, and DSP cores, on-core logging collapses to a single-pass specifier scan and $(1+S)$ MMIO word writes. This removes all on-core radix conversion ($C_{\\mathrm{fmt}} \\to 0$), 85.0%--94.5% of deployed bus transactions, 84.6%--93.3% of MMIO bus-stall cycles, and 63.5%--90.9% of total on-core logging cycles ($2.74\\times$--$11.03\\times$), while a SystemVerilog monitor reconstructs bit-exact strings in zero simulated cycles ($Δt_{\\mathrm{sim}} = 0$). Across 858 matched full-chip test pairs (1,716 paired runs across 1,972 runs), we achieve 100% output parity with zero simulator memory overhead, saving 1,314.85 CPU hours (-26.18%) per regression pass, cutting median test CPU time by 41.51% (Suite A) and 21.33% (Suite B), and shrinking traces by 42.84% and waveforms by 28.82%.",
+          "contribution": "Firmware diagnostic logging (printf) is an essential debug instrument in full-chip SoC design verification, yet it imposes a heavy tax on cycle-accurate RTL simulation: formatting a 30-character, 1-argument message on a simulated CPU and serializing it through an MMIO aperture costs 3.04 to 15.23 $μ$s per call (15.27 $μ$s unweighted / 15.08 $μ$s print-weighted critical-path mean on Suite A). Unlike embedded tokenizers that target flash footprint and wire bytes with offline decoding, RTL simulation is governed by a two-regime cost function---cross-fabric SoC paths are dominated by MMIO bus stalls (84.7% of call latency) whereas local subsystem paths are dominated by on-core vsprintf formatting (61.7%)---and requires live, zero-simulation-time string reconstruction to drive UVM scoreboards.\n  We present a host-side in-simulation tokenized logging architecture for heterogeneous multi-core SoCs that eliminates both bottlenecks with zero firmware call-site edits. Using link-time ELF format-string virtual addresses as tokens over a fixed 32-bit word-aligned slot protocol across Arm, RISC-V, and DSP cores, on-core logging collapses to a single-pass specifier scan and $(1+S)$ MMIO word writes. This removes all on-core radix conversion ($C_{\\mathrm{fmt}} \\to 0$), 85.0%--94.5% of deployed bus transactions, 84.6%--93.3% of MMIO bus-stall cycles, and 63.5%--90.9% of total on-core logging cycles ($2.74\\times$--$11.03\\times$), while a SystemVerilog monitor reconstructs bit-exact strings in zero simulated cycles ($Δt_{\\mathrm{sim}} = 0$). Across 858 matched full-chip test pairs (1,716 paired runs across 1,972 runs), we achieve 100% output parity with zero simulator memory overhead, saving 1,314.85 CPU hours (-26.18%) per regression pass, cutting median test CPU time by 41.51% (Suite A) and 21.33% (Suite B), and shrinking traces by 42.84% and waveforms by 28.82%.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Secure Agentic AI and Multimodal Intelligence in 6G Communication Systems",
+          "authors": [
+            "Satyam Gaba",
+            "Devanshu Motwani",
+            "Siva Sai",
+            "Vineet Suri",
+            "Vikas Ranjan",
+            "Vinay Chamola"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-21",
+          "url": "https://arxiv.org/abs/2610.30436",
+          "source": "arXiv",
+          "doi": "10.1109/OJCOMS.2026.3717323",
+          "arxivId": "2610.30436",
+          "summary": "Sixth-generation (6G) communication systems are expected to support immersive, intent-driven, and latency-critical services through tight integration of multimodal intelligence, edge computing, and autonomous network control. In this setting, agentic AI systems can reason over heterogeneous inputs, use tools and network functions, coordinate across distributed entities, and adapt to dynamic environments. These capabilities make agentic multimodal intelligence promising for 6G applications such as semantic communications, digital twins, and zero-touch network management, but they also introduce security and privacy risks that extend beyond conventional AI and network security models. Vulnerabilities can propagate across multimodal data pipelines, memory, tools, communication interfaces, and inter-agent coordination loops. We survey multimodal intelligence and agentic AI for 6G cross-layered communication systems from the perspectives of privacy and security. We present a 6G-oriented system view spanning perception, memory, tool use, and multi-agent orchestration; analyze threat models and attack surfaces across sensing, cognition, action, memory, and communication layers; organize existing attacks into a structured taxonomy; and review mitigation strategies including prompt and memory defenses, inter-agent trust mechanisms, secure orchestration, and privacy-preserving learning. We conclude by outlining open research directions for trustworthy multimodal multi-agent 6G systems.",
+          "contribution": "Sixth-generation (6G) communication systems are expected to support immersive, intent-driven, and latency-critical services through tight integration of multimodal intelligence, edge computing, and autonomous network control. In this setting, agentic AI systems can reason over heterogeneous inputs, use tools and network functions, coordinate across distributed entities, and adapt to dynamic environments. These capabilities make agentic multimodal intelligence promising for 6G applications such as semantic communications, digital twins, and zero-touch network management, but they also introduce security and privacy risks that extend beyond conventional AI and network security models. Vulnerabilities can propagate across multimodal data pipelines, memory, tools, communication interfaces, and inter-agent coordination loops. We survey multimodal intelligence and agentic AI for 6G cross-layered communication systems from the perspectives of privacy and security. We present a 6G-oriented system view spanning perception, memory, tool use, and multi-agent orchestration; analyze threat models and attack surfaces across sensing, cognition, action, memory, and communication layers; organize existing attacks into a structured taxonomy; and review mitigation strategies including prompt and memory defenses, inter-agent trust mechanisms, secure orchestration, and privacy-preserving learning. We conclude by outlining open research directions for trustworthy multimodal multi-agent 6G systems.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+          "authors": [
+            "Xinping Wang",
+            "Jie Ma",
+            "Rui Xing",
+            "Wensong Guo",
+            "Xiayi Zhang",
+            "Jianhao Deng",
+            "Zihao Zhou",
+            "Boqian Yang",
+            "Feijuan He"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-18",
+          "url": "https://arxiv.org/abs/2610.26943",
+          "source": "arXiv",
+          "arxivId": "2610.26943",
+          "summary": "Mathematical reasoning is a fundamental capability for educational applications of Large Language Models (LLMs), where reliable problem solving requires not only correct answers but also coherent and verifiable reasoning processes. Multi-agent systems (MASs) have shown growing potential in this domain by leveraging collaboration and verification among multiple LLM agents. However, existing evaluations primarily focus on the correctness of final answers in text-only settings, offering limited insight into multimodal reasoning capabilities, the reliability of intermediate reasoning steps, and robustness against reasoning errors. To address these limitations, we introduce MAMath-Bench, a process-aware benchmark designed to evaluate the multimodal mathematical reasoning capabilities of MASs. MAMath-Bench comprises 1,003 problems spanning 11 mathematical categories, multiple difficulty levels, and several modalities, including text, images, and audio. It features fine-grained milestone annotations to evaluate systems across three dimensions: problem-solving correctness, reasoning-process reliability, and robustness to adversarial reasoning-chain perturbations. Our evaluation yields three key findings. First, multi-agent collaboration does not consistently improve final-answer accuracy over strong single LLMs. Second, collaboration can substantially enhance the coverage of intermediate reasoning, but such gains may come at the cost of increased reasoning redundancy. Third, current systems remain vulnerable to adversarial reasoning errors, particularly those involving subtle structural perturbations. The dataset is available at https://github.com/mira-ai-lab/AgentMath.",
+          "contribution": "Mathematical reasoning is a fundamental capability for educational applications of Large Language Models (LLMs), where reliable problem solving requires not only correct answers but also coherent and verifiable reasoning processes. Multi-agent systems (MASs) have shown growing potential in this domain by leveraging collaboration and verification among multiple LLM agents. However, existing evaluations primarily focus on the correctness of final answers in text-only settings, offering limited insight into multimodal reasoning capabilities, the reliability of intermediate reasoning steps, and robustness against reasoning errors. To address these limitations, we introduce MAMath-Bench, a process-aware benchmark designed to evaluate the multimodal mathematical reasoning capabilities of MASs. MAMath-Bench comprises 1,003 problems spanning 11 mathematical categories, multiple difficulty levels, and several modalities, including text, images, and audio. It features fine-grained milestone annotations to evaluate systems across three dimensions: problem-solving correctness, reasoning-process reliability, and robustness to adversarial reasoning-chain perturbations. Our evaluation yields three key findings. First, multi-agent collaboration does not consistently improve final-answer accuracy over strong single LLMs. Second, collaboration can substantially enhance the coverage of intermediate reasoning, but such gains may come at the cost of increased reasoning redundancy. Third, current systems remain vulnerable to adversarial reasoning errors, particularly those involving subtle structural perturbations. The dataset is available at https://github.com/mira-ai-lab/AgentMath.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "MedBOE: Optimization-Based Estimation of Complete Patient Body Models from Whole-Body Medical Imaging",
+          "authors": [
+            "Hoijoon Jung",
+            "Yuhao Wei",
+            "Mingxiao Tu",
+            "Younhyun Jung",
+            "Michael Fulham",
+            "Jinman Kim"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-20",
+          "url": "https://arxiv.org/abs/2610.28985",
+          "source": "arXiv",
+          "arxivId": "2610.28985",
+          "summary": "True whole-body medical imaging captures a patient from head to toe and provides comprehensive anatomical and/or functional information. This coverage enables reconstruction of the external body surface, yielding patient body models. However, scanner geometry (e.g., bore diameter), patient characteristics, and positioning can leave body regions missing (e.g., lateral arms/torso, hands, forearms, elbows), producing incomplete patient body models. Such incompleteness limits downstream medical analyses, including derivation of body-habitus metrics (BHMs), such as body volume and surface area, for injected radiotracer activity regimens, cardiometabolic risk assessment, and computational anatomical modeling for medical imaging simulation and radiation dosimetry. We present the Medical Body model Optimization-based Estimator (MedBOE), an automated, training-free framework for estimating complete patient body models from whole-body images with missing body regions. Our innovation is to leverage the Skinned Multi-Person Linear (SMPL) template, a parametric body mesh representing a broad range of body shapes and poses, in medical imaging. MedBOE aligns the SMPL template to the incomplete patient body models via attribute-guided optimization and estimates missing body regions through geometrically and volumetrically constrained deformation. We evaluated MedBOE using two public datasets: AutoPET (91 whole-body PET-CT images) and Human Implicit Tissues (HIT; 40 whole-body segmentations from MRI images). MedBOE achieved the best overall volumetric and geometric performance among evaluated methods. BHMs derived from MedBOE were within 2% error, suggesting low percentage errors for downstream analyses. MedBOE offers an automated, training-free method for estimating complete patient body models from whole-body images with missing body regions.",
+          "contribution": "True whole-body medical imaging captures a patient from head to toe and provides comprehensive anatomical and/or functional information. This coverage enables reconstruction of the external body surface, yielding patient body models. However, scanner geometry (e.g., bore diameter), patient characteristics, and positioning can leave body regions missing (e.g., lateral arms/torso, hands, forearms, elbows), producing incomplete patient body models. Such incompleteness limits downstream medical analyses, including derivation of body-habitus metrics (BHMs), such as body volume and surface area, for injected radiotracer activity regimens, cardiometabolic risk assessment, and computational anatomical modeling for medical imaging simulation and radiation dosimetry. We present the Medical Body model Optimization-based Estimator (MedBOE), an automated, training-free framework for estimating complete patient body models from whole-body images with missing body regions. Our innovation is to leverage the Skinned Multi-Person Linear (SMPL) template, a parametric body mesh representing a broad range of body shapes and poses, in medical imaging. MedBOE aligns the SMPL template to the incomplete patient body models via attribute-guided optimization and estimates missing body regions through geometrically and volumetrically constrained deformation. We evaluated MedBOE using two public datasets: AutoPET (91 whole-body PET-CT images) and Human Implicit Tissues (HIT; 40 whole-body segmentations from MRI images). MedBOE achieved the best overall volumetric and geometric performance among evaluated methods. BHMs derived from MedBOE were within 2% error, suggesting low percentage errors for downstream analyses. MedBOE offers an automated, training-free method for estimating complete patient body models from whole-body images with missing body regions.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-24",
       "generatedAt": "2026-10-24T12:17:17.934809+03:00",
       "papers": [
@@ -2459,5 +2580,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-24T12:17:17.934809+03:00"
+  "updatedAt": "2026-10-25T12:33:43.427347+03:00"
 }
