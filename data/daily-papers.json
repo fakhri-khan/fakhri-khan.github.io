@@ -25,6 +25,191 @@
   ],
   "days": [
     {
+      "date": "2026-10-26",
+      "generatedAt": "2026-10-26T13:44:49.160561+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Augmentation Strategy for DINO in Glaucoma Classification",
+          "authors": [
+            "Ashish Kumar Meena",
+            "Chandra Sekhar Seelamantula"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-23",
+          "url": "https://arxiv.org/abs/2610.32511",
+          "source": "arXiv",
+          "arxivId": "2610.32511",
+          "summary": "Self-supervised learning (SSL) offers a promising approach to medical image representation learning, yet augmentation strategies of SSL frameworks validated on natural images do not reliably transfer to specialized medical imaging domains. We analyze DINO, a knowledge-distillation based SSL framework, and empirically demonstrate that its default augmentation strategy produces unreliable representations for retinal fundus images, degrading downstream glaucoma classification performance. Guided by the principle that effective cropped views should share minimal redundant information while retaining clinically relevant signal, we redesign DINO's augmentation strategy. Our approach biases the learned representations toward diagnostically critical features rather than low-level image statistics. We evaluate our method for glaucoma classification by training a linear classifier on the frozen representations, achieving strong generalization across seven benchmark datasets. URL for code and weights: https://github.com/ashish-256/task_dino",
+          "contribution": "Self-supervised learning (SSL) offers a promising approach to medical image representation learning, yet augmentation strategies of SSL frameworks validated on natural images do not reliably transfer to specialized medical imaging domains. We analyze DINO, a knowledge-distillation based SSL framework, and empirically demonstrate that its default augmentation strategy produces unreliable representations for retinal fundus images, degrading downstream glaucoma classification performance. Guided by the principle that effective cropped views should share minimal redundant information while retaining clinically relevant signal, we redesign DINO's augmentation strategy. Our approach biases the learned representations toward diagnostically critical features rather than low-level image statistics. We evaluate our method for glaucoma classification by training a linear classifier on the frozen representations, achieving strong generalization across seven benchmark datasets. URL for code and weights: https://github.com/ashish-256/task_dino",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Embedding Large PQC KEMs in IKEv2",
+          "authors": [
+            "Daniel Herzinger",
+            "Marco Thomas",
+            "Tobias Handirk",
+            "Stefan-Lukas Gazdag",
+            "Daniel Loebenberger",
+            "Marian Margraf"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-23",
+          "url": "https://arxiv.org/abs/2610.32356",
+          "source": "arXiv",
+          "arxivId": "2610.32356",
+          "summary": "Post-quantum key encapsulation mechanisms carry public keys far larger than the established VPN handshake protocol IKEv2 was designed for. At the same time, its initial exchange comprising the public keys cannot be fragmented. In response, the IETF discusses a range of protocol adjustments, yet these proposals have never been compared in terms of their performance and stability under identical conditions. We systematically screened the IETF document corpus for such proposals, added three of our own (one using forward error correction and two using IKEv2 with QUIC, namely QUIKE and QUIKE with a composite key exchange), identified two specification gaps in existing acknowledgment drafts, and implemented all eight on the same open-source codebase. Measurements across different bandwidths, latencies, and packet loss rates, and with ML-KEM, FrodoKEM, and Classic McEliece, total 126 500 handshakes in 1296 different configurations and show that no mechanism fully compensates for the effect of the key size on performance. For Classic McEliece, no approach handles challenging conditions acceptably. The approaches either congest the link or take up to nearly two minutes per handshake on average. For ML-KEM and FrodoKEM, there are two ways forward: building on already standardized extensions or delegating the transport. The former requires the larger implementation change and needs further optimization, such as acknowledgment mechanisms or error-correcting codes, but grants continuity and compatibility. The latter can use a composite key exchange to avoid these drawbacks and achieve a faster, more resilient handshake and leaner implementation, with QUIKE-composite offering the best overall performance.",
+          "contribution": "Post-quantum key encapsulation mechanisms carry public keys far larger than the established VPN handshake protocol IKEv2 was designed for. At the same time, its initial exchange comprising the public keys cannot be fragmented. In response, the IETF discusses a range of protocol adjustments, yet these proposals have never been compared in terms of their performance and stability under identical conditions. We systematically screened the IETF document corpus for such proposals, added three of our own (one using forward error correction and two using IKEv2 with QUIC, namely QUIKE and QUIKE with a composite key exchange), identified two specification gaps in existing acknowledgment drafts, and implemented all eight on the same open-source codebase. Measurements across different bandwidths, latencies, and packet loss rates, and with ML-KEM, FrodoKEM, and Classic McEliece, total 126 500 handshakes in 1296 different configurations and show that no mechanism fully compensates for the effect of the key size on performance. For Classic McEliece, no approach handles challenging conditions acceptably. The approaches either congest the link or take up to nearly two minutes per handshake on average. For ML-KEM and FrodoKEM, there are two ways forward: building on already standardized extensions or delegating the transport. The former requires the larger implementation change and needs further optimization, such as acknowledgment mechanisms or error-correcting codes, but grants continuity and compatibility. The latter can use a composite key exchange to avoid these drawbacks and achieve a faster, more resilient handshake and leaner implementation, with QUIKE-composite offering the best overall performance.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "A Reproducible Pure-Python Cyber Range for Generating Labelled Modbus/TCP Datasets and Benchmarking Machine-Learning Intrusion Detection in Electrical Substations",
+          "authors": [
+            "Dimitar Rangelov",
+            "Radoslav Miltchev"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-10-26",
+          "url": "https://doi.org/10.3390/jcp6060185",
+          "source": "Crossref",
+          "doi": "10.3390/jcp6060185",
+          "summary": "Electrical substations increasingly depend on industrial control systems that communicate over legacy protocols, such as Modbus/TCP, which offer no authentication or integrity protection, and yet progress in machine-learning intrusion detection is constrained by a scarcity of labelled data. We developed a fully reproducible cyber range that simulates a 110 kV substation controlled over Modbus/TCP entirely in the Python standard library, requiring no virtualisation, container runtime, or third-party dependency. Six attack scenarios spanning the industrial cyber kill chain were executed, and seventy-two independent campaigns, each initialised at a random point of the diurnal load cycle, produced 3256 one-second observation windows spanning the full daily load curve with automatic ground-truth labels. Classifiers were evaluated with campaign-grouped repeated holdouts and 95% confidence intervals, so that all windows of a campaign fell entirely in either the training or test partition and no information leaked between them. Attack detection reached approximately 96% accuracy, with a random forest reaching an ROC-AUC of 0.967 and a sequence-aware autoencoder reaching 0.984, all while attack-type classification reached approximately 92% accuracy. A feature-set ablation, used as the primary evidence, showed that fusing network and physical-process features raised the binary F1-score from 0.891 to 0.934 and the multi-class macro F1-score from 0.589 to 0.770, and a window-size analysis justified the one-second resolution. Process-derived features contributed little to detect when an attack is occurring but were decisive for identifying which attack it is, and the released, regenerable testbed and dataset provide an extensible foundation for reproducible research in industrial intrusion detection.",
+          "contribution": "Electrical substations increasingly depend on industrial control systems that communicate over legacy protocols, such as Modbus/TCP, which offer no authentication or integrity protection, and yet progress in machine-learning intrusion detection is constrained by a scarcity of labelled data. We developed a fully reproducible cyber range that simulates a 110 kV substation controlled over Modbus/TCP entirely in the Python standard library, requiring no virtualisation, container runtime, or third-party dependency. Six attack scenarios spanning the industrial cyber kill chain were executed, and seventy-two independent campaigns, each initialised at a random point of the diurnal load cycle, produced 3256 one-second observation windows spanning the full daily load curve with automatic ground-truth labels. Classifiers were evaluated with campaign-grouped repeated holdouts and 95% confidence intervals, so that all windows of a campaign fell entirely in either the training or test partition and no information leaked between them. Attack detection reached approximately 96% accuracy, with a random forest reaching an ROC-AUC of 0.967 and a sequence-aware autoencoder reaching 0.984, all while attack-type classification reached approximately 92% accuracy. A feature-set ablation, used as the primary evidence, showed that fusing network and physical-process features raised the binary F1-score from 0.891 to 0.934 and the multi-class macro F1-score from 0.589 to 0.770, and a window-size analysis justified the one-second resolution. Process-derived features contributed little to detect when an attack is occurring but were decisive for identifying which attack it is, and the released, regenerable testbed and dataset provide an extensible foundation for reproducible research in industrial intrusion detection.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Democratizing LLM Training with the Edge: Challenges, Systems, and the Road Ahead",
+          "authors": [
+            "Ziyue Luo",
+            "Jiaxuan Cai",
+            "Cedric LeDenmat",
+            "Srijith Nair",
+            "Fatemeh Nourzad",
+            "Rohith Krishnan",
+            "Qinhang Wu",
+            "Jifan Zhang",
+            "Sungjae Lee",
+            "Zhe Li",
+            "Peiwen Qiu",
+            "Siddharth Shah",
+            "Rishabh Sharma",
+            "Sundararajan Srinivasan",
+            "Yinglun Xia",
+            "Xue Zheng",
+            "Zidong Liu",
+            "Bicheng Ying",
+            "Kaushik Chowdhury",
+            "Gauri Joshi",
+            "Yingbin Liang",
+            "Robert Nowak",
+            "Srinivasan Parthasarathy",
+            "Saurav Prakash",
+            "Balaraman Ravindran",
+            "Sanjay Shakkottai",
+            "Ness B. Shroff",
+            "Haibo Yang",
+            "Aylin Yener",
+            "Jia Liu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-23",
+          "url": "https://arxiv.org/abs/2610.32215",
+          "source": "arXiv",
+          "arxivId": "2610.32215",
+          "summary": "The growing computational power of modern GPU data centers has let a few industrial giants train and deploy large language models (LLMs) on massive amounts of data. Yet the sheer scale of these models and their training data makes centralized development increasingly hard to sustain, and at the same time shuts out smaller institutions that hold relevant private data but lack comparable infrastructure. In this paper, we organize our positions on distributed LLM training around the pretraining and fine-tuning paradigms, covering federated learning, split learning, and decentralized approaches, and we assess their readiness for geo-distributed settings with heterogeneous hardware and unreliable connectivity. We then present a {\\em unified} system architecture built around a cloud-hosted parameter server that coordinates heterogeneous clients over outbound gRPC connections, reusing one communication, compression, and fault-tolerance stack for both pretraining and a family of fine-tuning methods. We validate the design with real geo-distributed experiments on GPT-2 Medium and Llama3-1B pretraining across multiple university sites, showing stable convergence under realistic conditions. Finally, we chart the road ahead, identifying open problems that span frontier model support, elastic fault tolerance, adaptive compression, federated alignment, privacy and trust, incentive design, and system--algorithm co-design, all of which must be addressed to make democratized LLM training a reality.",
+          "contribution": "The growing computational power of modern GPU data centers has let a few industrial giants train and deploy large language models (LLMs) on massive amounts of data. Yet the sheer scale of these models and their training data makes centralized development increasingly hard to sustain, and at the same time shuts out smaller institutions that hold relevant private data but lack comparable infrastructure. In this paper, we organize our positions on distributed LLM training around the pretraining and fine-tuning paradigms, covering federated learning, split learning, and decentralized approaches, and we assess their readiness for geo-distributed settings with heterogeneous hardware and unreliable connectivity. We then present a {\\em unified} system architecture built around a cloud-hosted parameter server that coordinates heterogeneous clients over outbound gRPC connections, reusing one communication, compression, and fault-tolerance stack for both pretraining and a family of fine-tuning methods. We validate the design with real geo-distributed experiments on GPT-2 Medium and Llama3-1B pretraining across multiple university sites, showing stable convergence under realistic conditions. Finally, we chart the road ahead, identifying open problems that span frontier model support, elastic fault tolerance, adaptive compression, federated alignment, privacy and trust, incentive design, and system--algorithm co-design, all of which must be addressed to make democratized LLM training a reality.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "A Multi-Agent Framework for Automated Machine Learning with Evidence-based Planning for Medical Image Analysis",
+          "authors": [
+            "Yiqing Shen",
+            "Mathias Unberath"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-20",
+          "url": "https://arxiv.org/abs/2610.28410",
+          "source": "arXiv",
+          "arxivId": "2610.28410",
+          "summary": "Deep learning has become the default tool for medical image analysis, driven by the open-source movement. However, achieving the best performance on a given task remains difficult, with architecture selection and hyperparameter optimization (HPO) still considered \"more of an art than a science\". Automated machine learning (AutoML) automates parts of model training, yet helps little in medical imaging: general-purpose approaches lack medical architectures and preprocessing, and medical-focused ones demand engineering expertise and remain confined to narrow tasks such as 3D segmentation. We introduce MedicalMLOmni, a multi-agent AutoML framework that automates model training for diverse single- and multi-modal medical tasks through a natural language interface. Specifically, MedicalMLOmni performs evidence-based planning by retrieving published results to guide model selection and configuration, and employs parallel HPO where multiple agents explore adjustment strategies concurrently. MedicalMLOmni achieves the best score on 19 of 20 benchmarks; PMC-VQA is the exception, where a vision-language model with broader pre-training leads. Backbone-matched controls attribute the gains to the framework, not the backbone. By removing coding requirements, MedicalMLOmni lowers the barrier for domain experts with rich datasets but limited engineering expertise.",
+          "contribution": "Deep learning has become the default tool for medical image analysis, driven by the open-source movement. However, achieving the best performance on a given task remains difficult, with architecture selection and hyperparameter optimization (HPO) still considered \"more of an art than a science\". Automated machine learning (AutoML) automates parts of model training, yet helps little in medical imaging: general-purpose approaches lack medical architectures and preprocessing, and medical-focused ones demand engineering expertise and remain confined to narrow tasks such as 3D segmentation. We introduce MedicalMLOmni, a multi-agent AutoML framework that automates model training for diverse single- and multi-modal medical tasks through a natural language interface. Specifically, MedicalMLOmni performs evidence-based planning by retrieving published results to guide model selection and configuration, and employs parallel HPO where multiple agents explore adjustment strategies concurrently. MedicalMLOmni achieves the best score on 19 of 20 benchmarks; PMC-VQA is the exception, where a vision-language model with broader pre-training leads. Backbone-matched controls attribute the gains to the framework, not the backbone. By removing coding requirements, MedicalMLOmni lowers the barrier for domain experts with rich datasets but limited engineering expertise.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Agentic AI Defense: Decode-Time Provenance Binding for MCP",
+          "authors": [
+            "Eric Yocam",
+            "Varghese Vaidyan",
+            "Paris Kalathas",
+            "Patrick Tague",
+            "Bruce DeBruhl",
+            "Yong Wang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-22",
+          "url": "https://arxiv.org/abs/2610.31974",
+          "source": "arXiv",
+          "arxivId": "2610.31974",
+          "summary": "Agentic AI systems using the Model Context Protocol (MCP) are vulnerable to indirect prompt injection through untrusted tool outputs. We demonstrate cross-modal trust laundering, in which instructions concealed in an email-signature image using least-significant-bit (LSB), discrete cosine transform (DCT), or metadata steganography bypass text scanners and enter a multi-agent workflow when decoded by a tool. To counter this threat, we propose decode-time provenance binding, which combines HMAC-authenticated trust labels with an MCP-maintained provenance ledger and context-taint tracking. The mechanism labels decoded content as untrusted and blocks critical tool calls influenced by that content, even when a compromised agent substitutes a valid trusted label. We evaluate the approach using a real MCP testbed with three steganographic carriers and 24 adaptive payloads. The undefended pipeline exhibits 100% attack success, while keyword and regex defenses each permit 62.5% of attacks. Our mechanism blocks all attacks (0% success), including adversarial label substitution across mediated agent boundaries. A four-component ablation validates the roles of decode marking, cryptographic authentication, lineage tracking, and sink enforcement. An audited trusted-promotion mechanism increases legitimate-task completion from 67% to 100% without compromising protection. The approach provides carrier-independent containment within fully mediated MCP execution environments. Code and data are publicly available.",
+          "contribution": "Agentic AI systems using the Model Context Protocol (MCP) are vulnerable to indirect prompt injection through untrusted tool outputs. We demonstrate cross-modal trust laundering, in which instructions concealed in an email-signature image using least-significant-bit (LSB), discrete cosine transform (DCT), or metadata steganography bypass text scanners and enter a multi-agent workflow when decoded by a tool. To counter this threat, we propose decode-time provenance binding, which combines HMAC-authenticated trust labels with an MCP-maintained provenance ledger and context-taint tracking. The mechanism labels decoded content as untrusted and blocks critical tool calls influenced by that content, even when a compromised agent substitutes a valid trusted label. We evaluate the approach using a real MCP testbed with three steganographic carriers and 24 adaptive payloads. The undefended pipeline exhibits 100% attack success, while keyword and regex defenses each permit 62.5% of attacks. Our mechanism blocks all attacks (0% success), including adversarial label substitution across mediated agent boundaries. A four-component ablation validates the roles of decode marking, cryptographic authentication, lineage tracking, and sink enforcement. An audited trusted-promotion mechanism increases legitimate-task completion from 67% to 100% without compromising protection. The approach provides carrier-independent containment within fully mediated MCP execution environments. Code and data are publicly available.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "The Lens Is Not the Problem: Understanding Potential Privacy Risks and User Concerns in AI Glasses",
+          "authors": [
+            "Mohammed Aldeen",
+            "Jingwen Yan",
+            "Zixun Xiong",
+            "Yicheng Zhang",
+            "Long Cheng"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-10-26",
+          "url": "https://doi.org/10.1145/3842203.3844596",
+          "source": "Crossref",
+          "doi": "10.1145/3842203.3844596",
+          "summary": "This paper examines The Lens Is Not the Problem: Understanding Potential Privacy Risks and User Concerns in AI Glasses.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-25",
       "generatedAt": "2026-10-25T12:33:43.427347+03:00",
       "papers": [
@@ -2580,5 +2765,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-25T12:33:43.427347+03:00"
+  "updatedAt": "2026-10-26T13:44:49.160561+03:00"
 }
