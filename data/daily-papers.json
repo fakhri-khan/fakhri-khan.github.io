@@ -25,6 +25,171 @@
   ],
   "days": [
     {
+      "date": "2026-10-27",
+      "generatedAt": "2026-10-27T13:11:40.736207+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Compression of Vision Foundation Models for Retinal OCT via Growing-Neural-Gas Codebooks and Graph-Guided Masked Image Modeling",
+          "authors": [
+            "Ali Yavari",
+            "Tilman Schmoll",
+            "Rainer A. Leitgeb",
+            "Wolfgang Drexler",
+            "Thomas Schlegl"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-23",
+          "url": "https://arxiv.org/abs/2610.33340",
+          "source": "arXiv",
+          "arxivId": "2610.33340",
+          "summary": "Vision foundation models for retinal imaging are large and computationally demanding, limiting point-of-care deployment. We ask how much of such a model's downstream utility survives compression into a smaller network. We propose a topology-aware discretization framework that distills a continuous foundation model into a discrete codebook, then uses it as the reconstruction target for masked image modeling (MIM). It combines gradient-free codebook learning via Growing Neural Gas, which yields an adjacency graph over the codes, with a graph-distance soft cross-entropy loss that replaces one-hot MIM targets with topologically graded supervision. With student pretraining on 383 public Duke iAMD optical coherence tomography (OCT) volumes, the pipeline distills an 86M-parameter teacher into a 22M-parameter student with at least 3.6x fewer FLOPs. The student performs close to, and in some settings above, its teacher across three classification and two segmentation benchmarks, with the magnitude and direction of the difference depending on the teacher, task, metric, and student capacity. On the external OLIVES benchmark, it surpasses its MIRAGE teacher on every metric (98.06% vs. 95.22% balanced accuracy). It works with two Vision Transformer (ViT-Base) teachers, retinal (MIRAGE) and natural-image (DINOv3); with the out-of-domain teacher, the student outperforms it on retinal-layer segmentation, indicating that the added value of retina-specific pretraining is task-dependent: largest for segmentation, while a general-domain teacher is competitive for classification. These results yield compact retinal models potentially suitable for deployment, transferring across OCT datasets, devices, and clinical tasks, including three datasets not used in the student's pretraining.",
+          "contribution": "Vision foundation models for retinal imaging are large and computationally demanding, limiting point-of-care deployment. We ask how much of such a model's downstream utility survives compression into a smaller network. We propose a topology-aware discretization framework that distills a continuous foundation model into a discrete codebook, then uses it as the reconstruction target for masked image modeling (MIM). It combines gradient-free codebook learning via Growing Neural Gas, which yields an adjacency graph over the codes, with a graph-distance soft cross-entropy loss that replaces one-hot MIM targets with topologically graded supervision. With student pretraining on 383 public Duke iAMD optical coherence tomography (OCT) volumes, the pipeline distills an 86M-parameter teacher into a 22M-parameter student with at least 3.6x fewer FLOPs. The student performs close to, and in some settings above, its teacher across three classification and two segmentation benchmarks, with the magnitude and direction of the difference depending on the teacher, task, metric, and student capacity. On the external OLIVES benchmark, it surpasses its MIRAGE teacher on every metric (98.06% vs. 95.22% balanced accuracy). It works with two Vision Transformer (ViT-Base) teachers, retinal (MIRAGE) and natural-image (DINOv3); with the out-of-domain teacher, the student outperforms it on retinal-layer segmentation, indicating that the added value of retina-specific pretraining is task-dependent: largest for segmentation, while a general-domain teacher is competitive for classification. These results yield compact retinal models potentially suitable for deployment, transferring across OCT datasets, devices, and clinical tasks, including three datasets not used in the student's pretraining.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Securing Edge & Physical AI: Post-Quantum IoT Blockchain for Mission-Critical Cyber-Physical Agents",
+          "authors": [
+            "Kürşat Çakal",
+            "Suat Özdemir"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-24",
+          "url": "https://arxiv.org/abs/2610.33862",
+          "source": "arXiv",
+          "arxivId": "2610.33862",
+          "summary": "Distributed Cyber-Physical Systems (CPS) and Edge AI networks increasingly depend on public-key authentication and key-establishment mechanisms that are vulnerable to cryptographically relevant Quantum Computers (QC). Shor's algorithm threatens widely deployed asymmetric primitives, while Grover's algorithm reduces the effective security margins of symmetric and hash-based mechanisms. Although Post-Quantum Cryptography (PQC) provides a migration path, its larger public keys, ciphertexts, and signatures introduce additional computation, memory, communication, storage, and packet-fragmentation costs that can constrain dynamic multi-agent systems. In this article, we introduce rotational secrecy, an architectural objective that limits temporal key exposure through authenticated transitions between cryptographic epochs. We present Private Authentication for Rotational Secrecy (PARS), a reference mechanism that coordinates policy-triggered key establishment, rotation, and reconciliation among authorized Physical AI agents. For deployments that need distributed agreement on security state, we further develop the PARS-Enabled Edge Security Ledger (PARS-ESL), an optional permissioned architecture maintained by authorized validators or capable edge gateways. PARS-ESL does not store high-volume operational transactions. Instead, it records authenticated state for key epochs, group membership, revocation, algorithm-suite policies, challenge validation, and recovery checkpoints. As a result, resource-constrained agents can take part as lightweight clients, and low-latency operational traffic stays outside the ledger consensus path, protected by the currently active symmetric epoch keys. Our results show that ledger-assisted post-quantum key-epoch management is feasible for selected Edge AI and CPS security-control workloads under the stated trust, compromise, connectivity, and resource assumptions.",
+          "contribution": "Distributed Cyber-Physical Systems (CPS) and Edge AI networks increasingly depend on public-key authentication and key-establishment mechanisms that are vulnerable to cryptographically relevant Quantum Computers (QC). Shor's algorithm threatens widely deployed asymmetric primitives, while Grover's algorithm reduces the effective security margins of symmetric and hash-based mechanisms. Although Post-Quantum Cryptography (PQC) provides a migration path, its larger public keys, ciphertexts, and signatures introduce additional computation, memory, communication, storage, and packet-fragmentation costs that can constrain dynamic multi-agent systems. In this article, we introduce rotational secrecy, an architectural objective that limits temporal key exposure through authenticated transitions between cryptographic epochs. We present Private Authentication for Rotational Secrecy (PARS), a reference mechanism that coordinates policy-triggered key establishment, rotation, and reconciliation among authorized Physical AI agents. For deployments that need distributed agreement on security state, we further develop the PARS-Enabled Edge Security Ledger (PARS-ESL), an optional permissioned architecture maintained by authorized validators or capable edge gateways. PARS-ESL does not store high-volume operational transactions. Instead, it records authenticated state for key epochs, group membership, revocation, algorithm-suite policies, challenge validation, and recovery checkpoints. As a result, resource-constrained agents can take part as lightweight clients, and low-latency operational traffic stays outside the ledger consensus path, protected by the currently active symmetric epoch keys. Our results show that ledger-assisted post-quantum key-epoch management is feasible for selected Edge AI and CPS security-control workloads under the stated trust, compromise, connectivity, and resource assumptions.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
+          "authors": [
+            "Amine Lbath",
+            "Massih-Reza Amini"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-26",
+          "url": "https://arxiv.org/abs/2610.35829",
+          "source": "arXiv",
+          "arxivId": "2610.35829",
+          "summary": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of finding real-world vulnerabilities by working as a security expert would: they run analysis tools, explore the surrounding code, test hypotheses and weigh the evidence before forming their own judgement. This reasoning, however, spans many model calls, so that each verdict takes minutes of compute, far too long for real-time screening. Faster detectors, which fine-tune deep learning models or prompt an LLM for a direct verdict, are less accurate: they judge a function without the context an agent gathers, and an LLM's generated verdict is unreliable even when given some of it.\n  We present REVA (REal-time Vulnerability Analysis), an AI vulnerability detector that brings the security context and code understanding components behind agentic detectors into a single forward pass of an LLM. For each new function, REVA gives the LLM a pre-computed threat model of its module, lightweight static analysis findings and call-graph information. REVA leverages a trained probe to read the LLM's internal representations of the new function in this context. On PrimeVul's held-out test set, REVA on GLM-5.3-Flash reaches 60.0% accuracy in about one second per function. This matches VulTriage (59.2%), the state-of-the-art agentic detector, run on the same LLM, while being over 250 times faster and less than a tenth as costly. On the same prompt, the probe is 14% to 17% more accurate than the LLM's own direct verdict. Across three open LLMs, REVA is at least as accurate as VulTriage, and about 10% more accurate on two of them. An LLM's internal representations thus encode much of what agentic detectors obtain through reasoning.",
+          "contribution": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of finding real-world vulnerabilities by working as a security expert would: they run analysis tools, explore the surrounding code, test hypotheses and weigh the evidence before forming their own judgement. This reasoning, however, spans many model calls, so that each verdict takes minutes of compute, far too long for real-time screening. Faster detectors, which fine-tune deep learning models or prompt an LLM for a direct verdict, are less accurate: they judge a function without the context an agent gathers, and an LLM's generated verdict is unreliable even when given some of it.\n  We present REVA (REal-time Vulnerability Analysis), an AI vulnerability detector that brings the security context and code understanding components behind agentic detectors into a single forward pass of an LLM. For each new function, REVA gives the LLM a pre-computed threat model of its module, lightweight static analysis findings and call-graph information. REVA leverages a trained probe to read the LLM's internal representations of the new function in this context. On PrimeVul's held-out test set, REVA on GLM-5.3-Flash reaches 60.0% accuracy in about one second per function. This matches VulTriage (59.2%), the state-of-the-art agentic detector, run on the same LLM, while being over 250 times faster and less than a tenth as costly. On the same prompt, the probe is 14% to 17% more accurate than the LLM's own direct verdict. Across three open LLMs, REVA is at least as accurate as VulTriage, and about 10% more accurate on two of them. An LLM's internal representations thus encode much of what agentic detectors obtain through reasoning.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
+          "authors": [
+            "Jiayue Pu",
+            "Ang Gao",
+            "Jinyi Bai",
+            "Qipeng Wang",
+            "Tongyu Wen",
+            "Jiahao Zhao",
+            "Keyu Qu",
+            "Junhao Zhang",
+            "Chenglei Shen",
+            "Zhongxiang Sun",
+            "Jun Xu",
+            "Xiao Zhang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-26",
+          "url": "https://arxiv.org/abs/2610.35193",
+          "source": "arXiv",
+          "arxivId": "2610.35193",
+          "summary": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee trustworthy improvement. Reported gains may reflect flawed evaluations, previously acquired capabilities may deteriorate, and compliance with behavioral constraints may weaken. Compromised artifacts or sensitive information may also persist in successor systems. Changes to improvement mechanisms may invalidate earlier verification results and make human oversight less effective. This survey presents an operational definition and process framework for RSI and organizes the requirements for trustworthy RSI into four interconnected themes: genuine and sustained improvement; behavioral constraints, alignment, and fairness; system security and privacy; and transparency and controllability. We examine these themes from three perspectives: Improvement Validity, Constraint Preservation, and Effective Oversight. This analysis covers improvement diagnosis, proposal generation, proposal evaluation, and update implementation (S1--S4), including the recursive application of these stages to improvement mechanisms (RI). We review risks, safeguards, and evaluation evidence for individual updates, effects inherited by successor systems, and revisions to improvement mechanisms, while distinguishing direct RSI findings from evidence in related systems. Finally, we examine evaluation settings, identify requirements for independent and longitudinal assessment, and discuss applications and open research problems.",
+          "contribution": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can themselves be revised and reused across improvement cycles. Yet self-modification alone does not guarantee trustworthy improvement. Reported gains may reflect flawed evaluations, previously acquired capabilities may deteriorate, and compliance with behavioral constraints may weaken. Compromised artifacts or sensitive information may also persist in successor systems. Changes to improvement mechanisms may invalidate earlier verification results and make human oversight less effective. This survey presents an operational definition and process framework for RSI and organizes the requirements for trustworthy RSI into four interconnected themes: genuine and sustained improvement; behavioral constraints, alignment, and fairness; system security and privacy; and transparency and controllability. We examine these themes from three perspectives: Improvement Validity, Constraint Preservation, and Effective Oversight. This analysis covers improvement diagnosis, proposal generation, proposal evaluation, and update implementation (S1--S4), including the recursive application of these stages to improvement mechanisms (RI). We review risks, safeguards, and evaluation evidence for individual updates, effects inherited by successor systems, and revisions to improvement mechanisms, while distinguishing direct RSI findings from evidence in related systems. Finally, we examine evaluation settings, identify requirements for independent and longitudinal assessment, and discuss applications and open research problems.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "MedAdaptAgent: An Automatic Harness for Adapting Medical Imaging Models to New Sites",
+          "authors": [
+            "Hanxue Gu",
+            "Zhonghao Liu",
+            "Xingrui Gu",
+            "Kang Wang",
+            "Yang Yang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-26",
+          "url": "https://arxiv.org/abs/2610.34884",
+          "source": "arXiv",
+          "arxivId": "2610.34884",
+          "summary": "Reusing pretrained medical-imaging models offers an alternative to training from scratch. A model trained for the same task may perform poorly at a new hospital because imaging protocols and preprocessing differ. Effective adaptation depends on the model architecture, domain shift, and available labels and compute. Adaptation can improve scores on a small labeled set yet reduce performance on unseen data. We present MedAdaptAgent, an automatic harness that turns a supplied model, target data, and a free-text request into a new-site adaptation workflow. Its LLM-driven Adaptation Planner uses model-site evidence to choose compatible experiments and revise subsequent adjustments. The harness requires evidence of improvement over the pretrained model, then delivers the selected model as a complete, runnable package. Evaluation spans 26 segmentation and classification transfers across architectures and compute settings, with segmentation annotation budgets ranging from zero-shot transfer to few-shot adaptation. With 20 local annotations, mean segmentation Dice rises from 0.483 to 0.774 across 10 transfers, a 60.1% relative gain, with no harmful replacements. Mean classification AUROC rises from 0.810 to 0.837 across 13 transfers, a 3.4% relative gain. Comparing adapted models with the pretrained model reduces harmful classification replacements by 30.8% versus selecting the highest-scoring model on the available labels, using identical candidates. Seven public-model deployments demonstrate adaptation and reproducible package delivery across contrast and modality shifts. A CT-to-MRI study extends the evaluation to four LLM planners, including two open-weight models. We release the code on GitHub.",
+          "contribution": "Reusing pretrained medical-imaging models offers an alternative to training from scratch. A model trained for the same task may perform poorly at a new hospital because imaging protocols and preprocessing differ. Effective adaptation depends on the model architecture, domain shift, and available labels and compute. Adaptation can improve scores on a small labeled set yet reduce performance on unseen data. We present MedAdaptAgent, an automatic harness that turns a supplied model, target data, and a free-text request into a new-site adaptation workflow. Its LLM-driven Adaptation Planner uses model-site evidence to choose compatible experiments and revise subsequent adjustments. The harness requires evidence of improvement over the pretrained model, then delivers the selected model as a complete, runnable package. Evaluation spans 26 segmentation and classification transfers across architectures and compute settings, with segmentation annotation budgets ranging from zero-shot transfer to few-shot adaptation. With 20 local annotations, mean segmentation Dice rises from 0.483 to 0.774 across 10 transfers, a 60.1% relative gain, with no harmful replacements. Mean classification AUROC rises from 0.810 to 0.837 across 13 transfers, a 3.4% relative gain. Comparing adapted models with the pretrained model reduces harmful classification replacements by 30.8% versus selecting the highest-scoring model on the available labels, using identical candidates. Seven public-model deployments demonstrate adaptation and reproducible package delivery across contrast and modality shifts. A CT-to-MRI study extends the evaluation to four LLM planners, including two open-weight models. We release the code on GitHub.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "AI-enabled cryptographic scheme for securing the Internet of Medical Things in the post-quantum era",
+          "authors": [
+            "Farida Shehu Garki",
+            "Abdulmumini Yakubu Musah",
+            "Esther Omolara Abiodun",
+            "Oludare Isaac Abiodun",
+            "Agbotiname Lucky Imoize"
+          ],
+          "venue": "CRYPTO",
+          "venueId": "C17",
+          "publishedDate": "2026-10-27",
+          "url": "https://doi.org/10.1049/pbhe070f_ch10",
+          "source": "Crossref",
+          "doi": "10.1049/pbhe070f_ch10",
+          "summary": "This paper examines AI-enabled cryptographic scheme for securing the Internet of Medical Things in the post-quantum era.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Poster: Leveraging Microarchitectural Performance Counters for Secure Authentication in Virtual Reality",
+          "authors": [
+            "Hao Wan",
+            "Yicheng Zhang"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-10-26",
+          "url": "https://doi.org/10.1145/3842203.3844592",
+          "source": "Crossref",
+          "doi": "10.1145/3842203.3844592",
+          "summary": "This paper examines Poster: Leveraging Microarchitectural Performance Counters for Secure Authentication in Virtual Reality.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-26",
       "generatedAt": "2026-10-26T13:44:49.160561+03:00",
       "papers": [
@@ -2765,5 +2930,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-26T13:44:49.160561+03:00"
+  "updatedAt": "2026-10-27T13:11:40.736207+03:00"
 }
