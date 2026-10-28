@@ -25,6 +25,119 @@
   ],
   "days": [
     {
+      "date": "2026-10-28",
+      "generatedAt": "2026-10-28T13:57:18.275415+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Low-rank MERA Decomposition of 3D OCT Image Volume for Compression, Denoising, Feature Extraction and Diagnosis of Retinal Diseases",
+          "authors": [
+            "Ivica Kopriva",
+            "Fei Shi",
+            "Marija Štanfel",
+            "Qin Peng",
+            "Jianhao Bao",
+            "Gaowei Li",
+            "Xinjian Chen"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-26",
+          "url": "https://arxiv.org/abs/2610.35271",
+          "source": "arXiv",
+          "arxivId": "2610.35271",
+          "summary": "Optical coherence tomography (OCT) is a non-invasive imaging modality used for visualization of retinal tissue. However, OCT volumes are affected by speckle noise, which degrades image contrast and obscures fine structural details. Furthermore, modern clinical practice requires large field-of-view, high-resolution OCT volumes, whose storage and transmission are demanding for archiving and teleophthalmology applications. To address aforementioned challenges, we propose a low-rank multi-scale entanglement renormalization ansatz (MERA) tensor network approximation of 3D OCT image volume, where the image volume is represented as contractions of a top core factor encoding global features and multiple interacting low-rank orthogonal or semi-orthogonal factors modeling inter- and intra-B scan correlations. This representation jointly enables compression, denoising, and feature extraction. Unlike deep learning approaches, the proposed approach is training-free and processes each OCT volume independently. We evaluate the proposed framework on OCT image volumes acquired by two different scanners and demonstrate improved visual quality and reduced retinal layer segmentation errors in comparison with several competing methods. We also extract MERA features from two clinical OCT volume datasets. They are subsequently classified using a Grassmann-manifold nearest-subspace classifier. With the subspace dimension as its only hyperparameter, the classifier is theoretically shown to be robust in small-sample clinical scenario. We demonstrate competitive accuracy of classification of retinal diseases in these small-sample settings, where deep learning methods are often limited by the scarcity of labeled data. The proposed structure-aware model-driven representation learning for high-dimensional data under limited supervision provides good generalization performance while maintaining high interpretability.",
+          "contribution": "Optical coherence tomography (OCT) is a non-invasive imaging modality used for visualization of retinal tissue. However, OCT volumes are affected by speckle noise, which degrades image contrast and obscures fine structural details. Furthermore, modern clinical practice requires large field-of-view, high-resolution OCT volumes, whose storage and transmission are demanding for archiving and teleophthalmology applications. To address aforementioned challenges, we propose a low-rank multi-scale entanglement renormalization ansatz (MERA) tensor network approximation of 3D OCT image volume, where the image volume is represented as contractions of a top core factor encoding global features and multiple interacting low-rank orthogonal or semi-orthogonal factors modeling inter- and intra-B scan correlations. This representation jointly enables compression, denoising, and feature extraction. Unlike deep learning approaches, the proposed approach is training-free and processes each OCT volume independently. We evaluate the proposed framework on OCT image volumes acquired by two different scanners and demonstrate improved visual quality and reduced retinal layer segmentation errors in comparison with several competing methods. We also extract MERA features from two clinical OCT volume datasets. They are subsequently classified using a Grassmann-manifold nearest-subspace classifier. With the subspace dimension as its only hyperparameter, the classifier is theoretically shown to be robust in small-sample clinical scenario. We demonstrate competitive accuracy of classification of retinal diseases in these small-sample settings, where deep learning methods are often limited by the scarcity of labeled data. The proposed structure-aware model-driven representation learning for high-dimensional data under limited supervision provides good generalization performance while maintaining high interpretability.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "HqcLethe: Streaming HQC Encapsulation for Tiny Stateless Servers",
+          "authors": [
+            "Wind Wong",
+            "Klaus v. Gleissenthall"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-27",
+          "url": "https://arxiv.org/abs/2610.36808",
+          "source": "arXiv",
+          "arxivId": "2610.36808",
+          "summary": "Stateless post-quantum authenticated key exchanges such as post-quantum WireGuard hedge against unexpected cryptanalytic advances by combining a lattice KEM with code-based Classic McEliece. However, recent attacks have led Germany's BSI to advise against McEliece, which leaves these protocols with lattices alone. HQC, the code-based KEM that NIST selected, could restore diversity, but its keys do not fit in a single packet, so a server would have to buffer multi-packet handshakes. This would leave an attack surface for memory exhaustion, which is what WireGuard's stateless handshake was designed to avoid in the first place. McTiny demonstrated that stateless key encapsulation for Classic McEliece is possible by streaming key blocks one-at-a-time. However, HQC's encapsulation does not split as easily into individual packets, as cyclic polynomial multiplication, unlike matrix-vector multiplication, is inherently non-local.\n  We present HqcLethe, a stateless key exchange that streams an HQC encapsulation in packet-sized pieces. It uses the Chinese remainder theorem to split the polynomial multiplication into independent remainders, one per packet, and masks them so that they reveal no more than an ordinary HQC ciphertext, which we prove in Rocq with SSProve; we also verify session secrecy, server authentication and forward secrecy in ProVerif. Client puzzles bound CPU exhaustion, and HqcLethe removes memory exhaustion: on a Raspberry Pi 3B+, each worker runs in a fixed 1.2-1.6 MiB. At category 5 it sends 27x fewer bytes and uses 9.0x less server CPU than McTiny, the earlier stateless code-based design.",
+          "contribution": "Stateless post-quantum authenticated key exchanges such as post-quantum WireGuard hedge against unexpected cryptanalytic advances by combining a lattice KEM with code-based Classic McEliece. However, recent attacks have led Germany's BSI to advise against McEliece, which leaves these protocols with lattices alone. HQC, the code-based KEM that NIST selected, could restore diversity, but its keys do not fit in a single packet, so a server would have to buffer multi-packet handshakes. This would leave an attack surface for memory exhaustion, which is what WireGuard's stateless handshake was designed to avoid in the first place. McTiny demonstrated that stateless key encapsulation for Classic McEliece is possible by streaming key blocks one-at-a-time. However, HQC's encapsulation does not split as easily into individual packets, as cyclic polynomial multiplication, unlike matrix-vector multiplication, is inherently non-local.\n  We present HqcLethe, a stateless key exchange that streams an HQC encapsulation in packet-sized pieces. It uses the Chinese remainder theorem to split the polynomial multiplication into independent remainders, one per packet, and masks them so that they reveal no more than an ordinary HQC ciphertext, which we prove in Rocq with SSProve; we also verify session secrecy, server authentication and forward secrecy in ProVerif. Client puzzles bound CPU exhaustion, and HqcLethe removes memory exhaustion: on a Raspberry Pi 3B+, each worker runs in a fixed 1.2-1.6 MiB. At category 5 it sends 27x fewer bytes and uses 9.0x less server CPU than McTiny, the earlier stateless code-based design.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Janus Vehicles: Entity-Centric Threat Modelling of Protocol-Conformant Vehicles under a Malicious-Manufacturer Assumption",
+          "authors": [
+            "Jaeung Franciskus Yoo",
+            "Huy Kang Kim"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-27",
+          "url": "https://arxiv.org/abs/2610.37059",
+          "source": "arXiv",
+          "arxivId": "2610.37059",
+          "summary": "Automotive cybersecurity commonly assumes benign end-product manufacturers and design authorities, focusing on supply-chain threats, external attacks, and compromised network participants observable through misbehaviour. This assumption overlooks malicious-by-design vehicles that remain authentic and protocol-conformant while performing undeclared sensing, communication, or context-triggered actuation. We formulate an Entity-Centric Threat Model spanning three subcomponents. The first, Malign Entity Archetypes, describes four types of malign entity: peer-benign, purpose-malicious vehicles; compromised vehicles; reappropriated genuine components; and imitated vehicles or components. The model exposes two assurance gaps: authenticity does not establish declared-purpose conformance, while malicious functionality can evade detection based on behavioural history or peer-visible evidence. Reappropriated components can remain genuine and retain usable identities or capabilities outside authorised contexts, reducing the effectiveness of signal fingerprinting and certificate-based authentication. To structure this threat space, we introduce a Behaviour-Locus Matrix that maps covert, overt, and concealment actions across hardware, software, and network loci. For peer-benign, purpose-malicious vehicles, we further present a Behavioural Interaction Model that represents how hidden capabilities are contextually activated, realised through actions, manifested within the vehicle and its environment, and potentially observed or concealed.",
+          "contribution": "Automotive cybersecurity commonly assumes benign end-product manufacturers and design authorities, focusing on supply-chain threats, external attacks, and compromised network participants observable through misbehaviour. This assumption overlooks malicious-by-design vehicles that remain authentic and protocol-conformant while performing undeclared sensing, communication, or context-triggered actuation. We formulate an Entity-Centric Threat Model spanning three subcomponents. The first, Malign Entity Archetypes, describes four types of malign entity: peer-benign, purpose-malicious vehicles; compromised vehicles; reappropriated genuine components; and imitated vehicles or components. The model exposes two assurance gaps: authenticity does not establish declared-purpose conformance, while malicious functionality can evade detection based on behavioural history or peer-visible evidence. Reappropriated components can remain genuine and retain usable identities or capabilities outside authorised contexts, reducing the effectiveness of signal fingerprinting and certificate-based authentication. To structure this threat space, we introduce a Behaviour-Locus Matrix that maps covert, overt, and concealment actions across hardware, software, and network loci. For peer-benign, purpose-malicious vehicles, we further present a Behavioural Interaction Model that represents how hidden capabilities are contextually activated, realised through actions, manifested within the vehicle and its environment, and potentially observed or concealed.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Privacy-Preserving Over-the-Air Federated Learning over Cell-Free Massive MIMO System with User-Centric Clustering",
+          "authors": [
+            "Manobendu Sarker",
+            "Soumaya Cherkaoui"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-27",
+          "url": "https://arxiv.org/abs/2610.37424",
+          "source": "arXiv",
+          "arxivId": "2610.37424",
+          "summary": "This paper investigates cross-layer design for differentially private federated learning over cell-free massive MIMO networks with over-the-air (OTA) aggregation. Distributed access points (APs) collaboratively serve user equipments (UEs) through user-centric clustering, where clipped local model updates are perturbed with Gaussian noise and simultaneously transmitted over a shared uplink for OTA averaging at a central processing unit. Exploiting channel hardening, we show that thermal noise inherent in wireless reception can act as a privacy-masking resource, reducing or even eliminating the need for artificial noise. Based on this observation, we formulate a joint optimization problem over AP-UE associations, UE transmit powers, and artificial noise variances to minimize aggregation variance subject to per-UE zero-concentrated differential privacy constraints derived from an ergodic privacy accounting framework. Analysis reveals a regime-dependent structure: stringent privacy requirements favor low transmit powers and sparse AP associations to exploit thermal noise for privacy, whereas relaxed requirements favor larger clusters to improve aggregation quality. The resulting mixed-integer nonconvex problem is solved via alternating optimization combining difference-of-convex power allocation and greedy coordinate-descent clustering. Numerical results show up to 89% lower aggregation variance than conventional baselines and enable 97% test accuracy on MNIST with consistent gains on CIFAR-10. Under strict privacy budgets, competing schemes remain near random-chance performance, while under relaxed budgets they continue to lag significantly behind the proposed design.",
+          "contribution": "This paper investigates cross-layer design for differentially private federated learning over cell-free massive MIMO networks with over-the-air (OTA) aggregation. Distributed access points (APs) collaboratively serve user equipments (UEs) through user-centric clustering, where clipped local model updates are perturbed with Gaussian noise and simultaneously transmitted over a shared uplink for OTA averaging at a central processing unit. Exploiting channel hardening, we show that thermal noise inherent in wireless reception can act as a privacy-masking resource, reducing or even eliminating the need for artificial noise. Based on this observation, we formulate a joint optimization problem over AP-UE associations, UE transmit powers, and artificial noise variances to minimize aggregation variance subject to per-UE zero-concentrated differential privacy constraints derived from an ergodic privacy accounting framework. Analysis reveals a regime-dependent structure: stringent privacy requirements favor low transmit powers and sparse AP associations to exploit thermal noise for privacy, whereas relaxed requirements favor larger clusters to improve aggregation quality. The resulting mixed-integer nonconvex problem is solved via alternating optimization combining difference-of-convex power allocation and greedy coordinate-descent clustering. Numerical results show up to 89% lower aggregation variance than conventional baselines and enable 97% test accuracy on MNIST with consistent gains on CIFAR-10. Under strict privacy budgets, competing schemes remain near random-chance performance, while under relaxed budgets they continue to lag significantly behind the proposed design.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "MRI-to-CT Translation of Spinal Images via Anatomy-Guided Pseudo-Pairing and Adversarial Diffusion",
+          "authors": [
+            "Eduardo Nieto",
+            "Ibai Genua",
+            "Davide Scorza",
+            "Karen López-Linares"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-27",
+          "url": "https://arxiv.org/abs/2610.37134",
+          "source": "arXiv",
+          "arxivId": "2610.37134",
+          "summary": "Magnetic Resonance Imaging (MRI) is routinely used to diagnose spinal disorders, but surgical planning often requires Computed Tomography (CT) for better visualization of vertebral bone anatomy. Synthesizing CT from MRI could avoid additional radiation exposure and streamline preoperative assessment.\n  We propose a three-stage framework for spine MRI-to-CT synthesis. First, an anatomy-guided vertebral matching system identifies similar sagittal MRI and CT slices using spine segmentations and aligns them through rigid registration, creating pseudo-paired data from unpaired scans. Second, these pairs train an adversarial diffusion model for MRI-to-CT translation. Third, synthesized slices are assembled into 3D volumes and refined by a network that improves inter-slice continuity and structural coherence.\n  The framework was trained on over 10,000 unpaired sagittal MRI and CT slices and evaluated on 1,911 slices from 83 MRI volumes spanning all spinal regions. Assessment combined distribution-based measures with vertebral segmentation metrics. Compared with diffusion alone, the proposed approach increased binary 3D vertebral Dice from 0.666 to 0.739. Volumetric post-processing reduced visible discontinuities between stacked slices and improved vertebral coherence in axial and coronal views.\n  Combining anatomy-guided pseudo-pairing, adversarial diffusion and 3D refinement improves spine MRI-to-CT synthesis. Vertebral matching primarily enhanced anatomical alignment and fidelity, while volumetric refinement improved 3D consistency. These findings support further development of MRI-derived CT-like visualization for preoperative planning, particularly to preserve fine intensity details while maintaining volumetric coherence.",
+          "contribution": "Magnetic Resonance Imaging (MRI) is routinely used to diagnose spinal disorders, but surgical planning often requires Computed Tomography (CT) for better visualization of vertebral bone anatomy. Synthesizing CT from MRI could avoid additional radiation exposure and streamline preoperative assessment.\n  We propose a three-stage framework for spine MRI-to-CT synthesis. First, an anatomy-guided vertebral matching system identifies similar sagittal MRI and CT slices using spine segmentations and aligns them through rigid registration, creating pseudo-paired data from unpaired scans. Second, these pairs train an adversarial diffusion model for MRI-to-CT translation. Third, synthesized slices are assembled into 3D volumes and refined by a network that improves inter-slice continuity and structural coherence.\n  The framework was trained on over 10,000 unpaired sagittal MRI and CT slices and evaluated on 1,911 slices from 83 MRI volumes spanning all spinal regions. Assessment combined distribution-based measures with vertebral segmentation metrics. Compared with diffusion alone, the proposed approach increased binary 3D vertebral Dice from 0.666 to 0.739. Volumetric post-processing reduced visible discontinuities between stacked slices and improved vertebral coherence in axial and coronal views.\n  Combining anatomy-guided pseudo-pairing, adversarial diffusion and 3D refinement improves spine MRI-to-CT synthesis. Vertebral matching primarily enhanced anatomical alignment and fidelity, while volumetric refinement improved 3D consistency. These findings support further development of MRI-derived CT-like visualization for preoperative planning, particularly to preserve fine intensity details while maintaining volumetric coherence.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
       "generatedAt": "2026-10-27T13:11:40.736207+03:00",
       "papers": [
@@ -2930,5 +3043,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-27T13:11:40.736207+03:00"
+  "updatedAt": "2026-10-28T13:57:18.275415+03:00"
 }
