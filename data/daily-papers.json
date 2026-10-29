@@ -25,6 +25,183 @@
   ],
   "days": [
     {
+      "date": "2026-10-29",
+      "generatedAt": "2026-10-29T14:17:21.631500+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Knowledge distillation across teacher architectures for compact diabetic retinopathy grading",
+          "authors": [
+            "Mossa Manisa",
+            "Habiba Jahan Priya",
+            "A. K. M. Fakhrul Hossain"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-25",
+          "url": "https://arxiv.org/abs/2610.35961",
+          "source": "arXiv",
+          "arxivId": "2610.35961",
+          "summary": "Diabetic retinopathy grading from retinal fundus photographs is important but difficult to deploy on resource-constrained hardware. We conducted a controlled study of offline response-based knowledge distillation for five-class diabetic retinopathy grading on APTOS 2019, comparing ResNet-50, MobileNetV3-Large, and Swin Transformer-Tiny (Swin-T) teachers distilled into a MobileNetV3-Small student. A 3 x 4 x 2 grid of teacher, temperature, and hard-label weight was screened at one seed, while six configurations and the no-distillation baseline were evaluated across three seeds. The highest observed single-seed quadratic weighted kappa was 0.9093 (macro-F1 0.6851) for Swin-T at temperature 4 and hard-label weight 0.7; the corresponding three-seed mean was 0.9024, compared with 0.8804 for the baseline. The student used 1.52 M parameters and 5.94 MB, representing an 18.07x parameter reduction relative to Swin-T. Temperature and hard-label weight effects were teacher- and configuration-dependent, while small performance differences were sensitive to random seed. Knowledge distillation produced a compact student with competitive performance under the evaluated protocol, but independent external validation remains necessary.",
+          "contribution": "Diabetic retinopathy grading from retinal fundus photographs is important but difficult to deploy on resource-constrained hardware. We conducted a controlled study of offline response-based knowledge distillation for five-class diabetic retinopathy grading on APTOS 2019, comparing ResNet-50, MobileNetV3-Large, and Swin Transformer-Tiny (Swin-T) teachers distilled into a MobileNetV3-Small student. A 3 x 4 x 2 grid of teacher, temperature, and hard-label weight was screened at one seed, while six configurations and the no-distillation baseline were evaluated across three seeds. The highest observed single-seed quadratic weighted kappa was 0.9093 (macro-F1 0.6851) for Swin-T at temperature 4 and hard-label weight 0.7; the corresponding three-seed mean was 0.9024, compared with 0.8804 for the baseline. The student used 1.52 M parameters and 5.94 MB, representing an 18.07x parameter reduction relative to Swin-T. Temperature and hard-label weight effects were teacher- and configuration-dependent, while small performance differences were sensitive to random seed. Knowledge distillation produced a compact student with competitive performance under the evaluated protocol, but independent external validation remains necessary.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Beyond LWE: Post-Quantum Assumptions under a Counterfactual Break of the Dihedral Coset Problem",
+          "authors": [
+            "Ramses Fernandez"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-27",
+          "url": "https://arxiv.org/abs/2610.36731",
+          "source": "arXiv",
+          "arxivId": "2610.36731",
+          "summary": "A refuted 2026 claim of an efficient quantum algorithm for the Dihedral Coset Problem (DCP) motivates this survey of the consequences of a genuine breakthrough. We distinguish a noiseless cyclic coset-state solver, a solver with a prescribed failure exponent, and an extrapolated-state solver. Regev's rare-corruption observation already makes the first hypothesis sufficient for lattice algorithms at some polynomial approximation factors; the witnessing algorithm determines the quantitative bounds. We compose unstructured reductions with explicit sample, state-preparation and success conditions, and compare their sufficient guarantees with more than thirty lattice and non-lattice assumptions. We restate the structured state conversion of Wen and Zheng and audit its forward parameter certificate; the printed bound supplies no certificate at the ML-KEM ring and modulus. We use an explicit affine embedding for heuristic gap estimates, explain the lossiness connection from decision NTRU to search Ring-LWE, and distinguish ordinary from module uniqueness. Chen's withdrawn 2024 quantum algorithm for LWE and a proposed repair of its post-processing would, if correct, reach only a many-sample, small-noise LWE regime that the failure-exponent hypothesis already covers for exponents below $1/2$, and no deployed parameter set. Tables separate rigorous consequences, heuristic comparisons and unverified applications, and distinguish solving a proof assumption from attacking a scheme. Classical structural attacks on Classic McEliece, which do not involve DCP but put the concrete security of the scheme under revision, are summarised here and analysed in detail in a companion paper. The survey closes with open questions and a scenario-planning checklist that requires a complete efficient reduction.",
+          "contribution": "A refuted 2026 claim of an efficient quantum algorithm for the Dihedral Coset Problem (DCP) motivates this survey of the consequences of a genuine breakthrough. We distinguish a noiseless cyclic coset-state solver, a solver with a prescribed failure exponent, and an extrapolated-state solver. Regev's rare-corruption observation already makes the first hypothesis sufficient for lattice algorithms at some polynomial approximation factors; the witnessing algorithm determines the quantitative bounds. We compose unstructured reductions with explicit sample, state-preparation and success conditions, and compare their sufficient guarantees with more than thirty lattice and non-lattice assumptions. We restate the structured state conversion of Wen and Zheng and audit its forward parameter certificate; the printed bound supplies no certificate at the ML-KEM ring and modulus. We use an explicit affine embedding for heuristic gap estimates, explain the lossiness connection from decision NTRU to search Ring-LWE, and distinguish ordinary from module uniqueness. Chen's withdrawn 2024 quantum algorithm for LWE and a proposed repair of its post-processing would, if correct, reach only a many-sample, small-noise LWE regime that the failure-exponent hypothesis already covers for exponents below $1/2$, and no deployed parameter set. Tables separate rigorous consequences, heuristic comparisons and unverified applications, and distinguish solving a proof assumption from attacking a scheme. Classical structural attacks on Classic McEliece, which do not involve DCP but put the concrete security of the scheme under revision, are summarised here and analysed in detail in a companion paper. The survey closes with open questions and a scenario-planning checklist that requires a complete efficient reduction.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Developing a Dynamic Multi-factor Authentication System for Securing Smart Organizations",
+          "authors": [
+            "Mohsen Saffar",
+            "Hamid Reza Naji"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-27",
+          "url": "https://arxiv.org/abs/2610.36926",
+          "source": "arXiv",
+          "doi": "10.1109/ICIS64839.2024.10887437",
+          "arxivId": "2610.36926",
+          "summary": "As smart organizations increasingly rely on technologies like AI, big data, and IoT, securing these systems is crucial. This research introduces a dynamic multi-factor authentication (MFA) system within the Zero Trust Architecture (ZTA) framework, which enforces continuous verification. The system randomly selects biometric authentication factors, such as fingerprint, iris, and face recognition using a Markov chain model to ensure adaptability and reduce predictability in security measures. Using CASIA biometric datasets and AES-128 encryption, the system securely manages user data and authentication. Performance analysis shows that the dynamic selection process balances security and efficiency, making it suitable for smart organizations, particularly in e-government contexts. This MFA system strengthens cybersecurity by providing a flexible, real-time defense against evolving threats.",
+          "contribution": "As smart organizations increasingly rely on technologies like AI, big data, and IoT, securing these systems is crucial. This research introduces a dynamic multi-factor authentication (MFA) system within the Zero Trust Architecture (ZTA) framework, which enforces continuous verification. The system randomly selects biometric authentication factors, such as fingerprint, iris, and face recognition using a Markov chain model to ensure adaptability and reduce predictability in security measures. Using CASIA biometric datasets and AES-128 encryption, the system securely manages user data and authentication. Performance analysis shows that the dynamic selection process balances security and efficiency, making it suitable for smart organizations, particularly in e-government contexts. This MFA system strengthens cybersecurity by providing a flexible, real-time defense against evolving threats.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Pricing Cross-Bank Context in Federated Anti-Money Laundering",
+          "authors": [
+            "Lidia Losavio",
+            "Dario Fenoglio",
+            "Martin Gjoreski",
+            "Marc Langheinrich"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-26",
+          "url": "https://arxiv.org/abs/2610.35996",
+          "source": "arXiv",
+          "arxivId": "2610.35996",
+          "summary": "Most graph-based Anti-Money Laundering (AML) methods assume access to a pooled transaction graph containing all accounts and payments, which in reality does not exist. Federated learning offers the necessary privacy guarantees but it remains unclear how money laundering patterns spanning separate graphs can effectively be detected. We exploit transactions already recorded by both endpoint banks to approximate remote account states locally, enabling multi-layer Graph Neural Network (GNN) computation without additional account-specific exchange. Starting from this baseline, we test whether the remaining context is worth sharing, using a disclosure ladder that adds two transaction counts per remote account or the counterparty's own GNN states. On AMLworld HI-Small, across six GNN backbones and up to 32 silos, the observable baseline yields the largest gain and keeps it as fragmentation shrinks the visible slice; counts add a robust correction, while exact remote states help only in specific regimes. In controlled privacy--utility studies, the noise needed to protect shared states erases their detection value before it buys meaningful privacy, whereas counts stay useful even under strong privacy protection. These findings support a practical rule for banks: use what they already record, and formally protect the little that must move.",
+          "contribution": "Most graph-based Anti-Money Laundering (AML) methods assume access to a pooled transaction graph containing all accounts and payments, which in reality does not exist. Federated learning offers the necessary privacy guarantees but it remains unclear how money laundering patterns spanning separate graphs can effectively be detected. We exploit transactions already recorded by both endpoint banks to approximate remote account states locally, enabling multi-layer Graph Neural Network (GNN) computation without additional account-specific exchange. Starting from this baseline, we test whether the remaining context is worth sharing, using a disclosure ladder that adds two transaction counts per remote account or the counterparty's own GNN states. On AMLworld HI-Small, across six GNN backbones and up to 32 silos, the observable baseline yields the largest gain and keeps it as fragmentation shrinks the visible slice; counts add a robust correction, while exact remote states help only in specific regimes. In controlled privacy--utility studies, the noise needed to protect shared states erases their detection value before it buys meaningful privacy, whereas counts stay useful even under strong privacy protection. These findings support a practical rule for banks: use what they already record, and formally protect the little that must move.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "MedVTok: A General-Purpose Medical Visual Tokenizer",
+          "authors": [
+            "Chenglong Ma",
+            "Yuanfeng Ji",
+            "Junzhi Ning",
+            "Jiyao Liu",
+            "Yujie Wei",
+            "Shaohao Rui",
+            "Chaoyang Zhang",
+            "Wenjie Li",
+            "Wenhao Tang",
+            "Cheng Tang",
+            "Wei Li",
+            "Shujian Gao",
+            "Yujie Zhang",
+            "Ying Chen",
+            "Zilong Li",
+            "Zongyuan Ge",
+            "Diping Song",
+            "Jin Ye",
+            "Ming Hu",
+            "Junjun He",
+            "Hongming Shan"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-26",
+          "url": "https://arxiv.org/abs/2610.35842",
+          "source": "arXiv",
+          "arxivId": "2610.35842",
+          "summary": "Multimodal medical AI requires a common visual interface for encoding heterogeneous imaging evidence for patient condition modeling. However, existing medical visual tokenizers are often tied to a specific dimension and imaging modality, forcing multimodal systems to rely on fragmented and poorly reusable representations. We introduce MedVTok, a general-purpose visual tokenizer that maps 2D images and 3D volumes from diverse imaging modalities into a unified token space. Building such a tokenizer poses two key challenges: preserving anatomical structure across dimensions and capturing clinical semantics across modalities. To this end, MedVTok introduces (i) slice differential regularization, which explicitly models inter-slice anatomical coherence missing in previous per-pixel/per-voxel supervision, and (ii) multi-expert representation alignment, which integrates knowledge from multiple medical expert encoders while retaining modality-specific complementary knowledge. Trained on 28M images and 70K volumes across 9 imaging modalities, MedVTok supports classification, retrieval, segmentation, synthesis, visual question answering, and medical report generation through a single tokenizer. Across 24 benchmarks, MedVTok achieves state-of-the-art performance, demonstrating a scalable token interface that unifies medical image dimension, modality, and task usage.",
+          "contribution": "Multimodal medical AI requires a common visual interface for encoding heterogeneous imaging evidence for patient condition modeling. However, existing medical visual tokenizers are often tied to a specific dimension and imaging modality, forcing multimodal systems to rely on fragmented and poorly reusable representations. We introduce MedVTok, a general-purpose visual tokenizer that maps 2D images and 3D volumes from diverse imaging modalities into a unified token space. Building such a tokenizer poses two key challenges: preserving anatomical structure across dimensions and capturing clinical semantics across modalities. To this end, MedVTok introduces (i) slice differential regularization, which explicitly models inter-slice anatomical coherence missing in previous per-pixel/per-voxel supervision, and (ii) multi-expert representation alignment, which integrates knowledge from multiple medical expert encoders while retaining modality-specific complementary knowledge. Trained on 28M images and 70K volumes across 9 imaging modalities, MedVTok supports classification, retrieval, segmentation, synthesis, visual question answering, and medical report generation through a single tokenizer. Across 24 benchmarks, MedVTok achieves state-of-the-art performance, demonstrating a scalable token interface that unifies medical image dimension, modality, and task usage.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "A Survey of What to Share in Federated Learning: Perspectives on Model Utility, Privacy Leakage, and Communication Efficiency",
+          "authors": [
+            "Jiawei Shao",
+            "Zijian Li",
+            "Wenqiang Sun",
+            "Tailin Zhou",
+            "Yuchang Sun",
+            "Lumin Liu",
+            "Zehong Lin",
+            "Yuyi Mao",
+            "Jun Zhang"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-28",
+          "url": "https://doi.org/10.1145/3844940",
+          "source": "Crossref",
+          "doi": "10.1145/3844940",
+          "summary": "Federated learning (FL) has emerged as a secure paradigm for collaborative training among clients. Without data centralization, FL allows clients to share local information in a privacy-preserving manner. This approach has gained considerable attention, promoting numerous surveys to summarize the related works. However, the majority of these surveys concentrate on FL methods that share model parameters during the training process, while overlooking the possibility of sharing local information in other forms. In this article, we present a systematic survey from a new perspective of\n                     what to share \n                    in FL, with an emphasis on the model utility, privacy leakage, and communication efficiency. First, we present a new taxonomy of FL methods in terms of three sharing methods, which respectively share model, synthetic data, and knowledge. Second, we analyze the vulnerability of different sharing methods to privacy attacks and review the defense mechanisms. Third, we conduct extensive experiments to compare the learning performance and communication overhead of various sharing methods in FL. Besides, we assess the potential privacy leakage through model inversion and membership inference attacks, while comparing the effectiveness of various defense approaches. Finally, we identify future research directions and conclude the survey.",
+          "contribution": "Federated learning (FL) has emerged as a secure paradigm for collaborative training among clients. Without data centralization, FL allows clients to share local information in a privacy-preserving manner. This approach has gained considerable attention, promoting numerous surveys to summarize the related works. However, the majority of these surveys concentrate on FL methods that share model parameters during the training process, while overlooking the possibility of sharing local information in other forms. In this article, we present a systematic survey from a new perspective of\n                     what to share \n                    in FL, with an emphasis on the model utility, privacy leakage, and communication efficiency. First, we present a new taxonomy of FL methods in terms of three sharing methods, which respectively share model, synthetic data, and knowledge. Second, we analyze the vulnerability of different sharing methods to privacy attacks and review the defense mechanisms. Third, we conduct extensive experiments to compare the learning performance and communication overhead of various sharing methods in FL. Besides, we assess the potential privacy leakage through model inversion and membership inference attacks, while comparing the effectiveness of various defense approaches. Finally, we identify future research directions and conclude the survey.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Automation Bias and Deskilling in Radiology AI: A                     Confidence-stratified Triage Model for Workflow Integration",
+          "authors": [
+            "Nalan Karunanayake",
+            "Javin Schefflein",
+            "Binsheng Zhao",
+            "Lawrence H. Schwartz"
+          ],
+          "venue": "Radiology: Artificial Intelligence",
+          "venueId": "J03",
+          "publishedDate": "2026-10-28",
+          "url": "https://doi.org/10.1148/ryai.260591",
+          "source": "Crossref",
+          "doi": "10.1148/ryai.260591",
+          "summary": "Radiology is adopting artificial intelligence (AI) faster than it is studying what AI does to radiologists’ perceptual expertise and interpretive skill. The question has partly shifted from whether these tools perform well on benchmark tasks to what happens to clinical judgment when use of these tools becomes routine. Two risks accompany this transition: automation bias, the tendency to follow AI suggestions without adequate scrutiny, and deskilling, the erosion of perceptual and interpretive ability through disuse, typically revealed when AI support is withdrawn. Incorrect AI output degrades accuracy regardless of experience, the benefit of assistance varies unpredictably across readers and tasks, and performance falls after AI withdrawal; neither risk has been studied longitudinally in radiology. A confidence-stratified triage model is proposed in which calibrated AI confidence, not findings alone, routes cases to low-, intermediate-, or high-confidence streams: output withheld until independent reading, shown with uncertainty signals and a checklist, or shown with random blinded audit. Demonstrated local confidence calibration is a precondition for deployment, and stream thresholds and audit rates should be weighted by task and potential clinical harm, not error probability alone. Rather than applying one workflow to every case, the model redistributes radiologist attention to where AI error is most likely and most consequential, operationalizing four principles: keeping the radiologist in the decision loop, making AI uncertainty visible, inserting targeted cognitive friction, and governing the human-AI interaction as a system. A research agenda to determine whether these countermeasures reduce automation bias and skill erosion in practice is also proposed. \n                   ©RSNA, 2026",
+          "contribution": "Radiology is adopting artificial intelligence (AI) faster than it is studying what AI does to radiologists’ perceptual expertise and interpretive skill. The question has partly shifted from whether these tools perform well on benchmark tasks to what happens to clinical judgment when use of these tools becomes routine. Two risks accompany this transition: automation bias, the tendency to follow AI suggestions without adequate scrutiny, and deskilling, the erosion of perceptual and interpretive ability through disuse, typically revealed when AI support is withdrawn. Incorrect AI output degrades accuracy regardless of experience, the benefit of assistance varies unpredictably across readers and tasks, and performance falls after AI withdrawal; neither risk has been studied longitudinally in radiology. A confidence-stratified triage model is proposed in which calibrated AI confidence, not findings alone, routes cases to low-, intermediate-, or high-confidence streams: output withheld until independent reading, shown with uncertainty signals and a checklist, or shown with random blinded audit. Demonstrated local confidence calibration is a precondition for deployment, and stream thresholds and audit rates should be weighted by task and potential clinical harm, not error probability alone. Rather than applying one workflow to every case, the model redistributes radiologist attention to where AI error is most likely and most consequential, operationalizing four principles: keeping the radiologist in the decision loop, making AI uncertainty visible, inserting targeted cognitive friction, and governing the human-AI interaction as a system. A research agenda to determine whether these countermeasures reduce automation bias and skill erosion in practice is also proposed. \n                   ©RSNA, 2026",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-28",
       "generatedAt": "2026-10-28T13:57:18.275415+03:00",
       "papers": [
@@ -3043,5 +3220,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-28T13:57:18.275415+03:00"
+  "updatedAt": "2026-10-29T14:17:21.631500+03:00"
 }
