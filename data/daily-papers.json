@@ -25,6 +25,201 @@
   ],
   "days": [
     {
+      "date": "2026-10-30",
+      "generatedAt": "2026-10-30T14:10:08.975947+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Learning Pathology-Sensitive Representations for Unsupervised Retinal OCT Anomaly Detection",
+          "authors": [
+            "Tania Haghighi",
+            "Sina Gholami",
+            "Behafarin Emam",
+            "Jennifer I Lim",
+            "Theodore Leng",
+            "Atalie C Thompson",
+            "Hamed Tabkhi",
+            "Minhaj Nur Alam"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-23",
+          "url": "https://arxiv.org/abs/2610.33143",
+          "source": "arXiv",
+          "arxivId": "2610.33143",
+          "summary": "Deep learning approaches for retinal optical coherence tomography (OCT) predominantly rely on predefined disease categories, limiting their ability to detect rare or previously unseen abnormalities. While visual foundation models provide transferable representations, their effectiveness in identifying pathological deviations from normal retinal anatomy remains insufficiently understood. In this work, we introduce an unsupervised framework for retinal OCT anomaly detection and localization that adapts pretrained visual representations to normal retinal anatomy through anatomy-aware reconstruction and contrastive triplet learning guided by synthetic structural perturbations, without requiring disease-specific annotations. We systematically investigate the influence of pretraining strategies, anatomy-aware representation adaptation, and anomaly scoring mechanisms on the detection and localization of unseen retinal abnormalities. Our findings demonstrate that adapting pretrained representations to normal retinal structure improves anomaly sensitivity, while pixel-space reconstruction errors and feature-space deviations provide complementary signals for identifying pathological changes. These findings underscore the importance of anatomy-aware representation learning and offer insights into developing generalizable retinal anomaly detection frameworks beyond predefined disease categories.",
+          "contribution": "Deep learning approaches for retinal optical coherence tomography (OCT) predominantly rely on predefined disease categories, limiting their ability to detect rare or previously unseen abnormalities. While visual foundation models provide transferable representations, their effectiveness in identifying pathological deviations from normal retinal anatomy remains insufficiently understood. In this work, we introduce an unsupervised framework for retinal OCT anomaly detection and localization that adapts pretrained visual representations to normal retinal anatomy through anatomy-aware reconstruction and contrastive triplet learning guided by synthetic structural perturbations, without requiring disease-specific annotations. We systematically investigate the influence of pretraining strategies, anatomy-aware representation adaptation, and anomaly scoring mechanisms on the detection and localization of unseen retinal abnormalities. Our findings demonstrate that adapting pretrained representations to normal retinal structure improves anomaly sensitivity, while pixel-space reconstruction errors and feature-space deviations provide complementary signals for identifying pathological changes. These findings underscore the importance of anatomy-aware representation learning and offer insights into developing generalizable retinal anomaly detection frameworks beyond predefined disease categories.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "The use of post-quantum cryptography in the automotive context",
+          "authors": [
+            "Mariana do Carmo Barata Gonçalves",
+            "Valderi Reis Quietinho Leithardt"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-28",
+          "url": "https://arxiv.org/abs/2610.38632",
+          "source": "arXiv",
+          "arxivId": "2610.38632",
+          "summary": "This study comparatively evaluates post-quantum cryptography (PQC) in automotive communication scenarios, considering the threat posed by quantum algorithms such as Shor's and Grover's algorithms. The simulations use OMNeT++, Veins, INET, and SUMO on two hardware platforms and examine ML-KEM/CRYSTALS-Kyber, ML-DSA/CRYSTALS-Dilithium, and FALCON. ML-KEM and ML-DSA are finalized NIST standards, whereas FALCON is a NIST-selected candidate pending final standardization. The evaluation considers a rural V2V scenario and an urban V2X scenario supported by a roadside unit. Kyber exhibits low {key encapsulation mechanism (KEM)}\\color{black} operation latency, Dilithium provides balanced signature performance, and FALCON has high key-generation and signing costs but efficient verification. The results are interpreted as a comparative assessment among the evaluated PQC schemes under the reported simulation conditions; {a conventional ECDSA/ECDH baseline measured in the same simulation setup is also reported for reference.}\\color{black} The resulting dataset can support future studies of cryptographic selection in automotive systems.",
+          "contribution": "This study comparatively evaluates post-quantum cryptography (PQC) in automotive communication scenarios, considering the threat posed by quantum algorithms such as Shor's and Grover's algorithms. The simulations use OMNeT++, Veins, INET, and SUMO on two hardware platforms and examine ML-KEM/CRYSTALS-Kyber, ML-DSA/CRYSTALS-Dilithium, and FALCON. ML-KEM and ML-DSA are finalized NIST standards, whereas FALCON is a NIST-selected candidate pending final standardization. The evaluation considers a rural V2V scenario and an urban V2X scenario supported by a roadside unit. Kyber exhibits low {key encapsulation mechanism (KEM)}\\color{black} operation latency, Dilithium provides balanced signature performance, and FALCON has high key-generation and signing costs but efficient verification. The results are interpreted as a comparative assessment among the evaluated PQC schemes under the reported simulation conditions; {a conventional ECDSA/ECDH baseline measured in the same simulation setup is also reported for reference.}\\color{black} The resulting dataset can support future studies of cryptographic selection in automotive systems.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Zero Trust-Enabled Adaptive Incident Response using Hierarchical Reinforcement Learning",
+          "authors": [
+            "Jisoo Lee",
+            "Bhagath Singh Bondili",
+            "Harshith Doppalapudi",
+            "Gwynith Godin",
+            "Nathaniel D. Bastian",
+            "Ankit Shah"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-28",
+          "url": "https://arxiv.org/abs/2610.38146",
+          "source": "arXiv",
+          "arxivId": "2610.38146",
+          "summary": "Modern enterprises increasingly operate through complex information systems (IS) enabled by cloud computing, remote and hybrid work practices, and digitally integrated supply chains. These structural shifts have expanded organizational attack surfaces and weakened traditional perimeter-based trust assumptions, giving rise to new and persistent forms of cyber threats. In response, adversaries have shifted toward identity-centric, trust-based intrusion techniques that exploit legitimate access within organizational systems. This evolution has created a pronounced speed asymmetry, whereby attackers can adapt and act at machine speed while defenders remain constrained by reactive or rule-based incident response (IR) processes. Drawing on design science research, we propose ZT-AIR, an adaptive IR artifact that uses zero trust architecture as its design theory and hierarchical reinforcement learning as its kernel theory. ZT-AIR learns context-aware trust decisions, separates strategic prioritization from tactical execution, encodes zero-trust controls as actions, and jointly optimizes security effectiveness and operational continuity. Experimental results across diverse adversarial strategies, network scales, and defense environments show that ZT-AIR achieves a strong balance between security and continuity through frequent, minimally disruptive interventions. Practitioner validation further confirms the design's practical viability. This study contributes to IS research by extending computational design science from threat identification to response execution, theorizing zero trust architecture for adaptive IR, and deriving reusable design principles for adaptive decision support artifacts.",
+          "contribution": "Modern enterprises increasingly operate through complex information systems (IS) enabled by cloud computing, remote and hybrid work practices, and digitally integrated supply chains. These structural shifts have expanded organizational attack surfaces and weakened traditional perimeter-based trust assumptions, giving rise to new and persistent forms of cyber threats. In response, adversaries have shifted toward identity-centric, trust-based intrusion techniques that exploit legitimate access within organizational systems. This evolution has created a pronounced speed asymmetry, whereby attackers can adapt and act at machine speed while defenders remain constrained by reactive or rule-based incident response (IR) processes. Drawing on design science research, we propose ZT-AIR, an adaptive IR artifact that uses zero trust architecture as its design theory and hierarchical reinforcement learning as its kernel theory. ZT-AIR learns context-aware trust decisions, separates strategic prioritization from tactical execution, encodes zero-trust controls as actions, and jointly optimizes security effectiveness and operational continuity. Experimental results across diverse adversarial strategies, network scales, and defense environments show that ZT-AIR achieves a strong balance between security and continuity through frequent, minimally disruptive interventions. Practitioner validation further confirms the design's practical viability. This study contributes to IS research by extending computational design science from threat identification to response execution, theorizing zero trust architecture for adaptive IR, and deriving reusable design principles for adaptive decision support artifacts.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Trustworthy Distributed Machine Learning in Cloud-Edge-IoT Systems: A Heterogeneity-Aware Survey of Security, Privacy, and Robustness",
+          "authors": [
+            "Long Dang",
+            "Ali Alfatemi",
+            "Kaiqi Xiong",
+            "Mohammed Aledhari",
+            "Abdellah Chehri",
+            "Shawqi Al-Maliki",
+            "Mohamed Rahouti"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-28",
+          "url": "https://arxiv.org/abs/2610.38793",
+          "source": "arXiv",
+          "doi": "10.1109/JIOT.2026.3742225",
+          "arxivId": "2610.38793",
+          "summary": "Distributed machine learning (DML), including conventional distributed training and federated learning (FL), enables collaborative model development across cloud-edge-IoT systems without fully centralizing raw data. However, distributing data, computation, updates, and orchestration increases the attack surface and introduces coupled challenges across privacy, robustness, reliability, fairness, and governance. This survey presents a security-centered, heterogeneity-aware roadmap for trustworthy DML, with FL treated as a prominent high-risk case. We first characterize the assets, adversaries, trust assumptions, and coordination patterns that define DML/FL security boundaries. We then analyze how statistical, system, and trust heterogeneity, including non-IID data, resource asymmetry, intermittent participation, and cross-silo/cross-device trust differences, affect convergence, fairness, attack detectability, and defense reliability. Next, we synthesize attack-defense interactions across poisoning, backdoors, Byzantine manipulation, privacy leakage, model extraction, network/orchestration attacks, Sybil behavior, and strategic participation. We further compare layered defenses, including robust aggregation, drift-aware optimization, differential privacy, secure aggregation, homomorphic encryption, secure multiparty computation, trusted execution environments, watermarking, provenance, authenticated communication, and monitoring. Finally, we discuss deployment, evaluation, governance, and open research guidelines, emphasizing reproducible, non-independent and identically distributed (non-IID) partitions, attack-aware benchmarks, privacy budgets, attack success rate, client-level disparity, latency, communication, memory, energy/carbon overhead, and auditable lifecycle artifacts.",
+          "contribution": "Distributed machine learning (DML), including conventional distributed training and federated learning (FL), enables collaborative model development across cloud-edge-IoT systems without fully centralizing raw data. However, distributing data, computation, updates, and orchestration increases the attack surface and introduces coupled challenges across privacy, robustness, reliability, fairness, and governance. This survey presents a security-centered, heterogeneity-aware roadmap for trustworthy DML, with FL treated as a prominent high-risk case. We first characterize the assets, adversaries, trust assumptions, and coordination patterns that define DML/FL security boundaries. We then analyze how statistical, system, and trust heterogeneity, including non-IID data, resource asymmetry, intermittent participation, and cross-silo/cross-device trust differences, affect convergence, fairness, attack detectability, and defense reliability. Next, we synthesize attack-defense interactions across poisoning, backdoors, Byzantine manipulation, privacy leakage, model extraction, network/orchestration attacks, Sybil behavior, and strategic participation. We further compare layered defenses, including robust aggregation, drift-aware optimization, differential privacy, secure aggregation, homomorphic encryption, secure multiparty computation, trusted execution environments, watermarking, provenance, authenticated communication, and monitoring. Finally, we discuss deployment, evaluation, governance, and open research guidelines, emphasizing reproducible, non-independent and identically distributed (non-IID) partitions, attack-aware benchmarks, privacy budgets, attack success rate, client-level disparity, latency, communication, memory, energy/carbon overhead, and auditable lifecycle artifacts.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "DINOv2 for PET: A Pre-Training Domain Benchmark Across Classification, Segmentation, and Prognosis",
+          "authors": [
+            "Roxanne De Maeyer",
+            "Yannick Brackenier",
+            "Vicky De Ridder",
+            "Simon DeKeyser",
+            "Maarten Larmuseau",
+            "Jef Vandemeulebroucke"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.40018",
+          "source": "arXiv",
+          "arxivId": "2610.40018",
+          "summary": "DINO (self-DIstillation with NO labels) has become a stan- dard for self-supervised pre-training, producing features that generalise across datasets and downstream tasks. In medical imaging it has been adopted mainly for radiology (X-ray, CT and MRI), where even natural- image DINO features transfer well. In the literature, these features have been reported to transfer worse to functional imaging such as PET. Yet PET-specific DINO models have barely been introduced, and even less validated across multiple tasks and datasets. We present PET-DINOv2-2D, the first DINOv2 model pre-trained on 2D PET, and benchmark it against open-source encoders: the origi- nal DINOv2 (pre-trained on the LVD-142M natural-image dataset) and OmniRad (pre-trained on CT, MRI and ultrasound). Using the same lightweight heads for every backbone, and despite far less pre-training data, PET-DINOv2-2D matches or outperforms both on three down- stream PET tasks: normal/abnormal classification, lesion segmentation and recurrence-free survival prognosis. Its advantage is largest when few labels are available, suggesting that PET pre-training gives more transferable, label-efficient features. Code is made available at https://github.com/nuclivision/pet-dinov2-2d/.",
+          "contribution": "DINO (self-DIstillation with NO labels) has become a stan- dard for self-supervised pre-training, producing features that generalise across datasets and downstream tasks. In medical imaging it has been adopted mainly for radiology (X-ray, CT and MRI), where even natural- image DINO features transfer well. In the literature, these features have been reported to transfer worse to functional imaging such as PET. Yet PET-specific DINO models have barely been introduced, and even less validated across multiple tasks and datasets. We present PET-DINOv2-2D, the first DINOv2 model pre-trained on 2D PET, and benchmark it against open-source encoders: the origi- nal DINOv2 (pre-trained on the LVD-142M natural-image dataset) and OmniRad (pre-trained on CT, MRI and ultrasound). Using the same lightweight heads for every backbone, and despite far less pre-training data, PET-DINOv2-2D matches or outperforms both on three down- stream PET tasks: normal/abnormal classification, lesion segmentation and recurrence-free survival prognosis. Its advantage is largest when few labels are available, suggesting that PET pre-training gives more transferable, label-efficient features. Code is made available at https://github.com/nuclivision/pet-dinov2-2d/.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "zkDuel: Characterizing SumCheck Prover Kernels across GPU Programming Models",
+          "authors": [
+            "Samarth Narang",
+            "Alhad Daftardar",
+            "Brandon Reagen"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-10-30",
+          "url": "https://doi.org/10.1145/3857307.3857312",
+          "source": "Crossref",
+          "doi": "10.1145/3857307.3857312",
+          "summary": "SumCheck is a central prover primitive in zero-knowledge proofs, exposing table-parallel work that maps naturally to GPUs but becomes increasingly arithmetic-intensive as finite fields widen. We study how this shift affects the cost of programming SumCheck in Triton rather than CUDA. Our benchmark, zkDuel, provides matched implementations of 25 zkPHIRE-derived constraints alongside diagnostic polynomials, covering 32-, 64-, 128-, and 256-bit prime fields, with independent CPU-reference validation and cross-backend checksum gating. Of 800 configurations attempted on an NVIDIA H100, 758 complete with matching checksums. CUDA's median advantage over Triton falls from 3.5x at 32 bits to 1.4x at 256 bits, and Triton is faster on 19 large-table configurations; the same convergence appears on an A100, where the gap falls from 4.4x to 1.6x. Profiling shows that the small-field gap largely reflects host launch overhead and redundant modular additions in Triton's original block reduction, whose relative costs diminish as multi-limb Montgomery work grows. Replacing that reduction with tl.reduce brings Triton's median kernel time within 8% of CUDA on both GPUs, while specialized point interpolation improves 256-bit evaluation kernels by 1.55-1.75x. At cryptographic widths, these results show that a Python-embedded DSL can approach CUDA performance, although the largest fully unrolled constraints still expose compiler-scalability limits.",
+          "contribution": "SumCheck is a central prover primitive in zero-knowledge proofs, exposing table-parallel work that maps naturally to GPUs but becomes increasingly arithmetic-intensive as finite fields widen. We study how this shift affects the cost of programming SumCheck in Triton rather than CUDA. Our benchmark, zkDuel, provides matched implementations of 25 zkPHIRE-derived constraints alongside diagnostic polynomials, covering 32-, 64-, 128-, and 256-bit prime fields, with independent CPU-reference validation and cross-backend checksum gating. Of 800 configurations attempted on an NVIDIA H100, 758 complete with matching checksums. CUDA's median advantage over Triton falls from 3.5x at 32 bits to 1.4x at 256 bits, and Triton is faster on 19 large-table configurations; the same convergence appears on an A100, where the gap falls from 4.4x to 1.6x. Profiling shows that the small-field gap largely reflects host launch overhead and redundant modular additions in Triton's original block reduction, whose relative costs diminish as multi-limb Montgomery work grows. Replacing that reduction with tl.reduce brings Triton's median kernel time within 8% of CUDA on both GPUs, while specialized point interpolation improves 256-bit evaluation kernels by 1.55-1.75x. At cryptographic widths, these results show that a Python-embedded DSL can approach CUDA performance, although the largest fully unrolled constraints still expose compiler-scalability limits.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Adversarial Attacks and Defenses of Image Classification: A Comprehensive Survey",
+          "authors": [
+            "Liang Xi",
+            "Li Zhang",
+            "Tianbo Wang"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-29",
+          "url": "https://doi.org/10.1145/3831673",
+          "source": "Crossref",
+          "doi": "10.1145/3831673",
+          "summary": "Deep neural networks (DNNs) have demonstrated remarkable performance, but significant security vulnerabilities have emerged, first observed in image classification tasks, with significant impact. The core issue of adversarial attacks lies in adversarial examples (AEs), which are crafted by introducing designed perturbations that are imperceptible to the human eye. When these perturbed examples are mixed with clean data, they can cause DNNs to make incorrect classifications. This vulnerability has been observed in various other data-driven domains, exacerbating the insecurity of DNN-based systems. Therefore, a comprehensive analysis of adversarial attacks and defenses in image classification serves as a cornerstone for addressing security issues in other scenarios involving DNNs. This article is motivated by the need to systematically examine the current state of adversarial attacks and defenses in image classification. We summarize the most representative methods in chronological order and re-organizing them into detailed categories. For each method, we analyze its strengths and weaknesses, providing insights into their practical implications. Furthermore, we offer forward-looking perspectives on potential research directions. Unlike existing surveys, we aim to provide valuable references and stimulate the creative solutions for improving the robustness of DNNs in image classification and related application scenarios.",
+          "contribution": "Deep neural networks (DNNs) have demonstrated remarkable performance, but significant security vulnerabilities have emerged, first observed in image classification tasks, with significant impact. The core issue of adversarial attacks lies in adversarial examples (AEs), which are crafted by introducing designed perturbations that are imperceptible to the human eye. When these perturbed examples are mixed with clean data, they can cause DNNs to make incorrect classifications. This vulnerability has been observed in various other data-driven domains, exacerbating the insecurity of DNN-based systems. Therefore, a comprehensive analysis of adversarial attacks and defenses in image classification serves as a cornerstone for addressing security issues in other scenarios involving DNNs. This article is motivated by the need to systematically examine the current state of adversarial attacks and defenses in image classification. We summarize the most representative methods in chronological order and re-organizing them into detailed categories. For each method, we analyze its strengths and weaknesses, providing insights into their practical implications. Furthermore, we offer forward-looking perspectives on potential research directions. Unlike existing surveys, we aim to provide valuable references and stimulate the creative solutions for improving the robustness of DNNs in image classification and related application scenarios.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Trustworthy Intelligent Vehicular Networks: A Survey",
+          "authors": [
+            "Xiao Zhang",
+            "Nishaant Madhankumar",
+            "Deniz Acikbas",
+            "Rohit Raval",
+            "Juexing Wang",
+            "Zheng Song",
+            "Xin Xia",
+            "Xinyu Lei",
+            "Di Zhang"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-29",
+          "url": "https://doi.org/10.1145/3844946",
+          "source": "Crossref",
+          "doi": "10.1145/3844946",
+          "summary": "Intelligent Vehicular Networks (IVNs) serve as a core infrastructure for next-generation smart transportation, yet their large-scale deployment is severely hindered by insufficient trustworthiness, fragmented technologies, and difficult integration of multi-domain systems. Existing IVN surveys often lack a systematic taxonomy for trustworthy design and fail to comprehensively address practical challenges in V2X deployment and emerging 6G-enabled evolution. Most prior reviews overlook the joint optimization of cognition, communication, and computation layers, and rarely conduct a unified analysis of security, privacy, ethics, and trust issues across the full IVN pipeline. They also provide limited insights into real-world indoor and outdoor use cases and long-term developmental trends toward 2030. This survey proposes a three-layer hierarchical taxonomy of trustworthy IVNs, encompassing cognition, communication, and computation, to systematically organize and evaluate state-of-the-art technologies. We review sensing, communication, and computing in IVNs, while analyzing trustworthy risks and ethical dilemmas within each layer. We further validate practical IVN implementations through representative indoor and outdoor case studies and forecast key trends including 6G, AI-native networking, intelligent reflecting surfaces, integrated sensing and communication, and large language models. This survey provides a standardized analytical framework for researchers and offers actionable references for the secure, ethical, and trustworthy development and deployment of next-generation IVNs.",
+          "contribution": "Intelligent Vehicular Networks (IVNs) serve as a core infrastructure for next-generation smart transportation, yet their large-scale deployment is severely hindered by insufficient trustworthiness, fragmented technologies, and difficult integration of multi-domain systems. Existing IVN surveys often lack a systematic taxonomy for trustworthy design and fail to comprehensively address practical challenges in V2X deployment and emerging 6G-enabled evolution. Most prior reviews overlook the joint optimization of cognition, communication, and computation layers, and rarely conduct a unified analysis of security, privacy, ethics, and trust issues across the full IVN pipeline. They also provide limited insights into real-world indoor and outdoor use cases and long-term developmental trends toward 2030. This survey proposes a three-layer hierarchical taxonomy of trustworthy IVNs, encompassing cognition, communication, and computation, to systematically organize and evaluate state-of-the-art technologies. We review sensing, communication, and computing in IVNs, while analyzing trustworthy risks and ethical dilemmas within each layer. We further validate practical IVN implementations through representative indoor and outdoor case studies and forecast key trends including 6G, AI-native networking, intelligent reflecting surfaces, integrated sensing and communication, and large language models. This survey provides a standardized analytical framework for researchers and offers actionable references for the secure, ethical, and trustworthy development and deployment of next-generation IVNs.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-29",
       "generatedAt": "2026-10-29T14:17:21.631500+03:00",
       "papers": [
@@ -3220,5 +3415,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-29T14:17:21.631500+03:00"
+  "updatedAt": "2026-10-30T14:10:08.975947+03:00"
 }
