@@ -25,6 +25,191 @@
   ],
   "days": [
     {
+      "date": "2026-10-31",
+      "generatedAt": "2026-10-31T13:43:16.681211+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Longitudinal retinal imaging and auxiliary tasks for discrete-time survival prediction of referable diabetic retinopathy and maculopathy: a retrospective cohort study",
+          "authors": [
+            "Paul Nderitu",
+            "Laura Webster",
+            "Samantha S. Mann",
+            "Christos Bergeles",
+            "Timothy L. Jackson"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-27",
+          "url": "https://arxiv.org/abs/2610.37544",
+          "source": "arXiv",
+          "arxivId": "2610.37544",
+          "summary": "Deep learning can predict progression to referable diabetic retinopathy (rDR) and referable maculopathy (rM) from screening photographs, but existing models ignore the prior images that screening programmes hold. We assessed whether multi-visit (MV) images and auxiliary objectives that model the future visit improve prognostic prediction. In this retrospective cohort study of macula-centred photographs from the South-East London Diabetic Eye Screening Programme (UK), eyes without referable disease at baseline and with a follow-up at 20-28 months were split into development (72,559 eyes, 36,648 patients) and test (17,917 eyes, 9,071 patients) sets. A time-aware discrete-time survival model predicted incident rDR (R2 or R3), rM (M1), or either (rDR/rM). We compared baseline-only input with up to three visits (MV), alone or with auxiliary supervision of future-visit age (MV+age) or future-visit latent prediction (MV+latent), using the AUROC of 28-month cumulative risk and paired DeLong tests with Benjamini-Hochberg correction. In the test set, 308 eyes (1.7%) developed rDR/rM, 58 (0.3%) rDR, and 275 (1.5%) rM. MV images increased the AUROC for rDR/rM from 0.749 to 0.786 (+0.037, 95% CI 0.012-0.061; q=0.011) and for rM from 0.749 to 0.788 (+0.039, 0.013-0.065; q=0.010). Auxiliary objectives did not improve MV model performance. In eyes with two or three visits, prior visits accounted for 30-38% of positive Grad-CAM attributions. Prior screening images improved prediction of incident maculopathy and the composite rDR/rM outcome, with gains driven by longitudinal images, not auxiliary supervision. External validation and prospective studies are required before the deployment of models to individualise screening.",
+          "contribution": "Deep learning can predict progression to referable diabetic retinopathy (rDR) and referable maculopathy (rM) from screening photographs, but existing models ignore the prior images that screening programmes hold. We assessed whether multi-visit (MV) images and auxiliary objectives that model the future visit improve prognostic prediction. In this retrospective cohort study of macula-centred photographs from the South-East London Diabetic Eye Screening Programme (UK), eyes without referable disease at baseline and with a follow-up at 20-28 months were split into development (72,559 eyes, 36,648 patients) and test (17,917 eyes, 9,071 patients) sets. A time-aware discrete-time survival model predicted incident rDR (R2 or R3), rM (M1), or either (rDR/rM). We compared baseline-only input with up to three visits (MV), alone or with auxiliary supervision of future-visit age (MV+age) or future-visit latent prediction (MV+latent), using the AUROC of 28-month cumulative risk and paired DeLong tests with Benjamini-Hochberg correction. In the test set, 308 eyes (1.7%) developed rDR/rM, 58 (0.3%) rDR, and 275 (1.5%) rM. MV images increased the AUROC for rDR/rM from 0.749 to 0.786 (+0.037, 95% CI 0.012-0.061; q=0.011) and for rM from 0.749 to 0.788 (+0.039, 0.013-0.065; q=0.010). Auxiliary objectives did not improve MV model performance. In eyes with two or three visits, prior visits accounted for 30-38% of positive Grad-CAM attributions. Prior screening images improved prediction of incident maculopathy and the composite rDR/rM outcome, with gains driven by longitudinal images, not auxiliary supervision. External validation and prospective studies are required before the deployment of models to individualise screening.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Understanding Post-Quantum Cryptography Adoption: Practices, Challenges, and Evolution in Open-Source Software",
+          "authors": [
+            "Souhardya Saha Dip",
+            "Moshood A. Fakorede",
+            "Krishna Upadhyay",
+            "Umar Farooq"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-27",
+          "url": "https://arxiv.org/abs/2610.38054",
+          "source": "arXiv",
+          "arxivId": "2610.38054",
+          "summary": "Post-quantum cryptography (PQC) standards establish algorithms for quantum-safe systems, but empirical evidence about how software projects implement and maintain PQC support remains limited. We investigate this implementation and maintenance work by mining 114,361 commits and 5,713 issues across 179 open-source repositories. We use human annotation and validated LLM classification to identify PQC algorithms in commits, classify their adoption status and deployment mode, and identify technical challenges in issue discussions. The commit classification for PQC algorithms reveals that 90% of commits concern maintenance of existing support. From the issue discussions, we construct an 11-category taxonomy of recurring technical challenges. Build, packaging, and dependency failures, along with functional defects, account for approximately half of categorized issues. To examine how PQC support evolves, we use time-series analysis and first implementations of individual algorithms within repositories around NIST standardization milestones. After the 2024 finalization, standardized algorithm names appeared in more than 80% of the PQC development changes analyzed, although earlier names such as Kyber continued to appear. Development activity increased over the observation period. Our milestone analysis, however, did not find a significant increase in first implementations. Migration plans should therefore account for sustained maintenance, prioritize build reliability and integration testing, and track both standardized and predecessor algorithm names. We make the dataset, taxonomy, annotations, and analysis pipeline publicly available.",
+          "contribution": "Post-quantum cryptography (PQC) standards establish algorithms for quantum-safe systems, but empirical evidence about how software projects implement and maintain PQC support remains limited. We investigate this implementation and maintenance work by mining 114,361 commits and 5,713 issues across 179 open-source repositories. We use human annotation and validated LLM classification to identify PQC algorithms in commits, classify their adoption status and deployment mode, and identify technical challenges in issue discussions. The commit classification for PQC algorithms reveals that 90% of commits concern maintenance of existing support. From the issue discussions, we construct an 11-category taxonomy of recurring technical challenges. Build, packaging, and dependency failures, along with functional defects, account for approximately half of categorized issues. To examine how PQC support evolves, we use time-series analysis and first implementations of individual algorithms within repositories around NIST standardization milestones. After the 2024 finalization, standardized algorithm names appeared in more than 80% of the PQC development changes analyzed, although earlier names such as Kyber continued to appear. Development activity increased over the observation period. Our milestone analysis, however, did not find a significant increase in first implementations. Migration plans should therefore account for sustained maintenance, prioritize build reliability and integration testing, and track both standardized and predecessor algorithm names. We make the dataset, taxonomy, annotations, and analysis pipeline publicly available.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "A Survey on Cyber Resilience in IoT Networks: Challenges, Mechanisms, and Future Directions",
+          "authors": [
+            "Foroozan Darbandeh",
+            "Muhammad Rizwan Asghar",
+            "Liqun Chen"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-30",
+          "url": "https://doi.org/10.1145/3845986",
+          "source": "Crossref",
+          "doi": "10.1145/3845986",
+          "summary": "The rapid expansion of the Internet of Things (IoT) across industries such as healthcare, manufacturing, transportation, and smart cities has made these networks prime targets for cyber attacks. Due to their distributed nature, device diversity, and resource constraints, traditional cyber security solutions alone are insufficient to protect against evolving threats. In addition, the increasing complexity of managing numerous interconnected devices and the limitations of realtime threat detection heighten the risk of cyber breaches. As a result, researchers and engineers are shifting beyond purely defensive cyber security approaches and focusing instead on recoverability and adaptability through cyber resilience mechanisms. The primary objective of cyber resilience in IoT networks is to go beyond conventional protective layers, ensuring long-term sustainability and strengthening resilience against persistent and sophisticated cyber threats. \n                   This survey analyses the cyber resilience concept and its steps in IoT networks and outlines challenges in providing cyber resilience in these networks. We review existing definitions of cyber resilience, highlighting their limitations in the IoT context. Also, the relationship between the key security features of IoT networks and cyber resilience is examined. We categorise proposed cyber resilience mechanisms according to their operational layers within the IoT architecture and evaluate them across multiple dimensions, including resilience phases, alignment with IoT requirements, the application domain and employed techniques. Furthermore, this survey examines several directions for future research by highlighting the diverse challenges posed by the various facets of IoT networks within this research domain. The findings of this research contribute to the existing body of knowledge on IoT security and cyber resilience while laying the groundwork for future research and development. Ultimately, this survey seeks to support the development of effective and sustainable strategies to ensure the security and resilience of IoT networks in the face of evolving cyber threats.",
+          "contribution": "The rapid expansion of the Internet of Things (IoT) across industries such as healthcare, manufacturing, transportation, and smart cities has made these networks prime targets for cyber attacks. Due to their distributed nature, device diversity, and resource constraints, traditional cyber security solutions alone are insufficient to protect against evolving threats. In addition, the increasing complexity of managing numerous interconnected devices and the limitations of realtime threat detection heighten the risk of cyber breaches. As a result, researchers and engineers are shifting beyond purely defensive cyber security approaches and focusing instead on recoverability and adaptability through cyber resilience mechanisms. The primary objective of cyber resilience in IoT networks is to go beyond conventional protective layers, ensuring long-term sustainability and strengthening resilience against persistent and sophisticated cyber threats. \n                   This survey analyses the cyber resilience concept and its steps in IoT networks and outlines challenges in providing cyber resilience in these networks. We review existing definitions of cyber resilience, highlighting their limitations in the IoT context. Also, the relationship between the key security features of IoT networks and cyber resilience is examined. We categorise proposed cyber resilience mechanisms according to their operational layers within the IoT architecture and evaluate them across multiple dimensions, including resilience phases, alignment with IoT requirements, the application domain and employed techniques. Furthermore, this survey examines several directions for future research by highlighting the diverse challenges posed by the various facets of IoT networks within this research domain. The findings of this research contribute to the existing body of knowledge on IoT security and cyber resilience while laying the groundwork for future research and development. Ultimately, this survey seeks to support the development of effective and sustainable strategies to ensure the security and resilience of IoT networks in the face of evolving cyber threats.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Unraveling the Efficacy of Neuron Coverage Criteria on Testing Large Language Models",
+          "authors": [
+            "Xiaoning Ren",
+            "Jiayang Song",
+            "Chongyang Liu",
+            "Jie Li",
+            "Lei Ma",
+            "Yinxing Xue"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.40234",
+          "source": "arXiv",
+          "doi": "10.1145/3787101",
+          "arxivId": "2610.40234",
+          "summary": "Neuron coverage criteria aim to assess test suite quality and guide test input generation, but their effectiveness for Transformer-based language models remains unclear. We evaluate six criteria, including four established and two recent criteria, across encoder-only, decoder-only, and encoder-decoder models. Our evaluation examines error-revealing capability, distribution diversity, sample fairness (category diversity), and guidance for test input generation. The results reveal uneven effectiveness. Erroneous samples provide only 0.32% additional coverage over noise samples, indicating limited sensitivity to adversarial errors. By contrast, coverage criteria effectively assess distribution diversity and sample fairness in 26 and 30 of 33 configurations, respectively. Incorporating neuron-wise coverage guidance into test input generation increases adversarial sample production by only 4.56%. These findings suggest that existing coverage criteria can serve as an antidote for assessing diversity but remain largely a placebo for revealing adversarial errors, particularly when used individually. Their practical value therefore depends on whether these limited benefits justify the computational overhead of testing large Transformer-based models. Our study highlights the need for more robust and efficient coverage criteria tailored to these models, with stronger error-revealing capability and greater value for test generation.",
+          "contribution": "Neuron coverage criteria aim to assess test suite quality and guide test input generation, but their effectiveness for Transformer-based language models remains unclear. We evaluate six criteria, including four established and two recent criteria, across encoder-only, decoder-only, and encoder-decoder models. Our evaluation examines error-revealing capability, distribution diversity, sample fairness (category diversity), and guidance for test input generation. The results reveal uneven effectiveness. Erroneous samples provide only 0.32% additional coverage over noise samples, indicating limited sensitivity to adversarial errors. By contrast, coverage criteria effectively assess distribution diversity and sample fairness in 26 and 30 of 33 configurations, respectively. Incorporating neuron-wise coverage guidance into test input generation increases adversarial sample production by only 4.56%. These findings suggest that existing coverage criteria can serve as an antidote for assessing diversity but remain largely a placebo for revealing adversarial errors, particularly when used individually. Their practical value therefore depends on whether these limited benefits justify the computational overhead of testing large Transformer-based models. Our study highlights the need for more robust and efficient coverage criteria tailored to these models, with stronger error-revealing capability and greater value for test generation.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "RepConTUR: A Report-Conditioned Volumetric Multimodal Model for Abdominal Tumor Segmentation",
+          "authors": [
+            "Seunghwan Lee",
+            "Sangjoon Park",
+            "Jongmin Lee",
+            "Yoon Jo Kim",
+            "Wonyoung Cho",
+            "Jin Sung Kim",
+            "Han Joo Chae"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.40094",
+          "source": "arXiv",
+          "arxivId": "2610.40094",
+          "summary": "Tumor delineation is required for radiotherapy planning, yet automatic segmentation is limited by errors, predominantly false positives, that distort dose and increase editing time. The radiology report accompanies the scan and localizes disease at the suborgan level, but existing text-promptable models condition on short referring phrases, and most operate in 2D. We present RepConTUR, a single native-3D early-fusion multimodal model that conditions volumetric abdominal tumor segmentation on the narrative report. We extend AbdomenAtlas 3.0 to a suborgan-level promptable segmentation dataset and generate report-based VQA pairs, yielding four report-derived tasks on the same annotations: referring segmentation (RES), report-grounded segmentation (GSEG), report generation (RRG), and visual question answering (VQA). We train RepConTUR, comprising a 3D CT encoder, an early-fusion language model, and a native-3D segmentation module, jointly on the four tasks. Across liver, kidney and pancreas, RepConTUR attains the highest Dice similarity coefficient (DSC), instance-wise precision, and detection F1 among the text-promptable baselines, and adding the report raises mean precision while leaving recall comparable. Against two vision-only specialists, nnU-Net and the report-supervised R-Super, RepConTUR attains the highest value on every in-domain metric for liver and pancreas and the highest mean DSC, recall, precision, and detection F1 over the four out-of-distribution public cohorts. Ablations indicate that conditioning on the narrative report raises detection F1 from 0.499 to 0.528 within the same model, that joint GSEG training raises RES F1 from 0.450 to 0.482, and that the native-3D segmentation module raises GSEG F1 from 0.139 to 0.528 over its 2D counterpart. Code is available at https://github.com/Oncosoft-Research/RepConTUR.",
+          "contribution": "Tumor delineation is required for radiotherapy planning, yet automatic segmentation is limited by errors, predominantly false positives, that distort dose and increase editing time. The radiology report accompanies the scan and localizes disease at the suborgan level, but existing text-promptable models condition on short referring phrases, and most operate in 2D. We present RepConTUR, a single native-3D early-fusion multimodal model that conditions volumetric abdominal tumor segmentation on the narrative report. We extend AbdomenAtlas 3.0 to a suborgan-level promptable segmentation dataset and generate report-based VQA pairs, yielding four report-derived tasks on the same annotations: referring segmentation (RES), report-grounded segmentation (GSEG), report generation (RRG), and visual question answering (VQA). We train RepConTUR, comprising a 3D CT encoder, an early-fusion language model, and a native-3D segmentation module, jointly on the four tasks. Across liver, kidney and pancreas, RepConTUR attains the highest Dice similarity coefficient (DSC), instance-wise precision, and detection F1 among the text-promptable baselines, and adding the report raises mean precision while leaving recall comparable. Against two vision-only specialists, nnU-Net and the report-supervised R-Super, RepConTUR attains the highest value on every in-domain metric for liver and pancreas and the highest mean DSC, recall, precision, and detection F1 over the four out-of-distribution public cohorts. Ablations indicate that conditioning on the narrative report raises detection F1 from 0.499 to 0.528 within the same model, that joint GSEG training raises RES F1 from 0.450 to 0.482, and that the native-3D segmentation module raises GSEG F1 from 0.139 to 0.528 over its 2D counterpart. Code is available at https://github.com/Oncosoft-Research/RepConTUR.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Luggage re-identification: A study of strategies towards a real-world application",
+          "authors": [
+            "Quentin Dhôte",
+            "Romaric Audigier"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.40643",
+          "source": "arXiv",
+          "arxivId": "2610.40643",
+          "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint camera views in complex environments such as airports, train stations and border crossing. While existing approaches primarily focus on appearance-based cropped image matching under relatively clean conditions, real-world scenarios are characterized by frequent occlusions, cluttered background and crowded scenes which significantly degrade performance. Yet, strategies leveraging the complementarity of multiple shots and views from different video streams is overlooked. In this paper, we study strategies for an end-to-end pipeline that operates from multiple video streams to detect and re-identify luggage. We evaluate different variants on a benchmark dataset acquired in real-world environments to address the questions of selecting and merging different views and shots of the same luggage as well as training on different environment datasets for an overall ReID performance improvement in practical applications.",
+          "contribution": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint camera views in complex environments such as airports, train stations and border crossing. While existing approaches primarily focus on appearance-based cropped image matching under relatively clean conditions, real-world scenarios are characterized by frequent occlusions, cluttered background and crowded scenes which significantly degrade performance. Yet, strategies leveraging the complementarity of multiple shots and views from different video streams is overlooked. In this paper, we study strategies for an end-to-end pipeline that operates from multiple video streams to detect and re-identify luggage. We evaluate different variants on a benchmark dataset acquired in real-world environments to address the questions of selecting and merging different views and shots of the same luggage as well as training on different environment datasets for an overall ReID performance improvement in practical applications.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Recent Advances in 3D Object and Scene Generation: A Survey",
+          "authors": [
+            "Xiang Tang",
+            "Ruotong Li",
+            "Xiaopeng Fan"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-30",
+          "url": "https://doi.org/10.1145/3843767",
+          "source": "Crossref",
+          "doi": "10.1145/3843767",
+          "summary": "In recent years, the demand for 3D content has grown exponentially with the intelligent upgrade of interactive media, extended reality (XR), and Metaverse industries. In order to overcome the limitations of traditional manual modeling approaches, such as labor-intensive workflows and prolonged production cycles, revolutionary advances have been achieved through the convergence of novel 3D representation paradigms and artificial intelligence generative technologies. In this survey, we conduct a systematic review of the cutting-edge achievements in static 3D object and scene generation, as well as establish a comprehensive technical framework through systematic categorization. We start our analysis with mainstream 3D object representations. Subsequently, we delve into the technical pathways of 3D object generation based on four mainstream deep generative models: Variational Autoencoders, Generative Adversarial Networks, Autoregressive Models, and Diffusion Models. Regarding scene generation, we focus on three dominant paradigms: layout-guided generation, lifting based on 2D priors, and rule-driven modeling. Finally, we critically examine persistent challenges in 3D generation and propose potential research directions for future investigation. This survey aims to provide readers with a structured understanding of state-of-the-art 3D generation technologies while inspiring researchers to undertake more exploration in this domain. Project page: Awesome-3D-Object-and-Scene-Generation.",
+          "contribution": "In recent years, the demand for 3D content has grown exponentially with the intelligent upgrade of interactive media, extended reality (XR), and Metaverse industries. In order to overcome the limitations of traditional manual modeling approaches, such as labor-intensive workflows and prolonged production cycles, revolutionary advances have been achieved through the convergence of novel 3D representation paradigms and artificial intelligence generative technologies. In this survey, we conduct a systematic review of the cutting-edge achievements in static 3D object and scene generation, as well as establish a comprehensive technical framework through systematic categorization. We start our analysis with mainstream 3D object representations. Subsequently, we delve into the technical pathways of 3D object generation based on four mainstream deep generative models: Variational Autoencoders, Generative Adversarial Networks, Autoregressive Models, and Diffusion Models. Regarding scene generation, we focus on three dominant paradigms: layout-guided generation, lifting based on 2D priors, and rule-driven modeling. Finally, we critically examine persistent challenges in 3D generation and propose potential research directions for future investigation. This survey aims to provide readers with a structured understanding of state-of-the-art 3D generation technologies while inspiring researchers to undertake more exploration in this domain. Project page: Awesome-3D-Object-and-Scene-Generation.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Deep generative virtual staining for breast cancer: from H&amp;E histology to HER2 immunohistochemistry",
+          "authors": [
+            "Asmaa Yaser",
+            "Samar Elbedwehy",
+            "Azza Abdel-Aziz",
+            "Abeer Twakol Khalil"
+          ],
+          "venue": "SPIE Medical Imaging",
+          "venueId": "C04",
+          "publishedDate": "2026-10-31",
+          "url": "https://doi.org/10.1186/s12880-026-02834-x",
+          "source": "Crossref",
+          "doi": "10.1186/s12880-026-02834-x",
+          "summary": "Abstract \n                   \n                    Immunohistochemistry (IHC) remains the clinical gold standard for molecular profiling in breast cancer; however, traditional workflows are hindered by high costs, reagent dependency, and tissue exhaustion. Virtual staining has emerged as a computational alternative; however, prevailing virtual staining models often fail to preserve high-frequency structural details critical for perceptual and histological fidelity. We present a novel chemically-informed, two-stage conditional Generative Adversarial Network (cGAN) framework designed for high-fidelity H&amp;E-to-IHC translation. Our approach uniquely decouples chemical stain extraction from high-resolution textural refinement through a specialized StainMapper (G₁) and a score-conditioned RefineGenerator (G₂). By integrating multi-scale hierarchical score conditioning with a hybrid loss function including adversarial, perceptual, Sobel edge, and stain-consistency terms, the framework enforces both global distributional realism and local morphological precision. Evaluated on the BCI and HER2match benchmarks, our model achieves state-of-the-art performance, reaching a Fréchet Inception Distance (FID) of\n                     59.67 \n                    , PSNR of\n                     22.50 dB \n                    , SSIM of\n                     0.4773 \n                    , LPIPS of\n                     0.5279 \n                    and KID of\n                     0.0264 ± 0.0086 \n                    on BCI; PSNR of\n                     20.66 dB \n                    , LPIPS of\n                     0.4486 \n                    , FID of\n                     20.42 \n                    , and KID of\n                     0.0124 ± 0.0092 \n                    on HER2match, outperforming all baselines on distributional and perceptual metrics. These results demonstrate that incorporating histopathological priors and structural attention mechanisms improves the histological and perceptual fidelity of virtual IHC synthesis, providing a methodological foundation for potential secondary applications such as stain standardization, dataset augmentation, and pathology education in settings where HER2 score is already known.",
+          "contribution": "Abstract \n                   \n                    Immunohistochemistry (IHC) remains the clinical gold standard for molecular profiling in breast cancer; however, traditional workflows are hindered by high costs, reagent dependency, and tissue exhaustion. Virtual staining has emerged as a computational alternative; however, prevailing virtual staining models often fail to preserve high-frequency structural details critical for perceptual and histological fidelity. We present a novel chemically-informed, two-stage conditional Generative Adversarial Network (cGAN) framework designed for high-fidelity H&amp;E-to-IHC translation. Our approach uniquely decouples chemical stain extraction from high-resolution textural refinement through a specialized StainMapper (G₁) and a score-conditioned RefineGenerator (G₂). By integrating multi-scale hierarchical score conditioning with a hybrid loss function including adversarial, perceptual, Sobel edge, and stain-consistency terms, the framework enforces both global distributional realism and local morphological precision. Evaluated on the BCI and HER2match benchmarks, our model achieves state-of-the-art performance, reaching a Fréchet Inception Distance (FID) of\n                     59.67 \n                    , PSNR of\n                     22.50 dB \n                    , SSIM of\n                     0.4773 \n                    , LPIPS of\n                     0.5279 \n                    and KID of\n                     0.0264 ± 0.0086 \n                    on BCI; PSNR of\n                     20.66 dB \n                    , LPIPS of\n                     0.4486 \n                    , FID of\n                     20.42 \n                    , and KID of\n                     0.0124 ± 0.0092 \n                    on HER2match, outperforming all baselines on distributional and perceptual metrics. These results demonstrate that incorporating histopathological priors and structural attention mechanisms improves the histological and perceptual fidelity of virtual IHC synthesis, providing a methodological foundation for potential secondary applications such as stain standardization, dataset augmentation, and pathology education in settings where HER2 score is already known.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-30",
       "generatedAt": "2026-10-30T14:10:08.975947+03:00",
       "papers": [
@@ -3415,5 +3600,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-30T14:10:08.975947+03:00"
+  "updatedAt": "2026-10-31T13:43:16.681211+03:00"
 }
