@@ -25,6 +25,196 @@
   ],
   "days": [
     {
+      "date": "2026-11-01",
+      "generatedAt": "2026-11-01T14:39:48.719274+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Comprehensive empirical evaluation of feature extractors in computer vision",
+          "authors": [
+            "Murat Isik"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.39551",
+          "source": "arXiv",
+          "doi": "10.7717/peerj-cs.2415",
+          "arxivId": "2610.39551",
+          "summary": "Feature detection and matching are fundamental components in computer vision, underpinning a broad spectrum of applications. This study offers a comprehensive evaluation of traditional feature detections and descriptors, analyzing methods such as Scale Invariant Feature Transform (SIFT), Speeded-Up Robust Features (SURF), Binary Robust Independent Elementary Features (BRIEF), Oriented FAST and Rotated BRIEF (ORB), Binary Robust Invariant Scalable Keypoints (BRISK), KAZE, Accelerated KAZE (AKAZE), Fast Retina Keypoint (FREAK), Dense and Accurate Invariant Scalable descriptor for Yale (DAISY), Features from Accelerated Segment Test (FAST), and STAR. Each feature extractor was assessed based on its architectural design and complexity, focusing on how these factors influence computational efficiency and robustness under various transformations. Utilizing the Image Matching Challenge Photo Tourism 2020 dataset, which includes over 1.5 million images, the study identifies the FAST algorithm as the most efficient detector when paired with the ORB descriptor and Brute-Force (BF) matcher, offering the fastest feature extraction and matching process. ORB is notably effective on affine transformed and brightened images, while AKAZE excels in conditions involving blurring, fisheye distortion, image rotation, and perspective distortions. Through more than 2 million comparisons, the study highlights the feature extractors that demonstrate superior resilience across various conditions, including rotation, scaling, blurring, brightening, affine transformations, perspective distortions, fisheye distortion, and salt-and-pepper noise",
+          "contribution": "Feature detection and matching are fundamental components in computer vision, underpinning a broad spectrum of applications. This study offers a comprehensive evaluation of traditional feature detections and descriptors, analyzing methods such as Scale Invariant Feature Transform (SIFT), Speeded-Up Robust Features (SURF), Binary Robust Independent Elementary Features (BRIEF), Oriented FAST and Rotated BRIEF (ORB), Binary Robust Invariant Scalable Keypoints (BRISK), KAZE, Accelerated KAZE (AKAZE), Fast Retina Keypoint (FREAK), Dense and Accurate Invariant Scalable descriptor for Yale (DAISY), Features from Accelerated Segment Test (FAST), and STAR. Each feature extractor was assessed based on its architectural design and complexity, focusing on how these factors influence computational efficiency and robustness under various transformations. Utilizing the Image Matching Challenge Photo Tourism 2020 dataset, which includes over 1.5 million images, the study identifies the FAST algorithm as the most efficient detector when paired with the ORB descriptor and Brute-Force (BF) matcher, offering the fastest feature extraction and matching process. ORB is notably effective on affine transformed and brightened images, while AKAZE excels in conditions involving blurring, fisheye distortion, image rotation, and perspective distortions. Through more than 2 million comparisons, the study highlights the feature extractors that demonstrate superior resilience across various conditions, including rotation, scaling, blurring, brightening, affine transformations, perspective distortions, fisheye distortion, and salt-and-pepper noise",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Recurrent Bipartite Graph Neural Networks for QC-MDPC Error Decoding in McEliece Cryptosystems",
+          "authors": [
+            "Parth Rajeshkumar Tandel",
+            "Elisabeth Fink"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-28",
+          "url": "https://arxiv.org/abs/2610.38479",
+          "source": "arXiv",
+          "arxivId": "2610.38479",
+          "summary": "As the advent of large-scale quantum computing threatens classical encryption, Quasi-Cyclic Moderate Density Parity-Check (QC-MDPC) codes have emerged as a foundational element of Post-Quantum Cryptography (PQC). However, decoding these relatively dense codes using classical Belief Propagation algorithms often leads to failures caused by short graph cycles that stall the decoder. In cryptographic applications, these failures are severe security vulnerabilities that leak secret key information. To address this, this paper proposes a Recurrent Bipartite Graph Neural Network (R-BGNN) as proof of concept. By integrating Gated Recurrent Units (GRUs) into the message-passing framework and employing a multi-topology curriculum training strategy, the R-BGNN actively learns to break limit-cycle oscillations. Evaluated across 20 unseen matrix topologies, the proposed architecture significantly outperforms classical Bit-Flipping and Min-Sum baselines, reducing the Decoding Failure Rate (DFR) by 63.7\\% at moderate noise levels ($t=10$) while converging in fewer iterations.",
+          "contribution": "As the advent of large-scale quantum computing threatens classical encryption, Quasi-Cyclic Moderate Density Parity-Check (QC-MDPC) codes have emerged as a foundational element of Post-Quantum Cryptography (PQC). However, decoding these relatively dense codes using classical Belief Propagation algorithms often leads to failures caused by short graph cycles that stall the decoder. In cryptographic applications, these failures are severe security vulnerabilities that leak secret key information. To address this, this paper proposes a Recurrent Bipartite Graph Neural Network (R-BGNN) as proof of concept. By integrating Gated Recurrent Units (GRUs) into the message-passing framework and employing a multi-topology curriculum training strategy, the R-BGNN actively learns to break limit-cycle oscillations. Evaluated across 20 unseen matrix topologies, the proposed architecture significantly outperforms classical Bit-Flipping and Min-Sum baselines, reducing the Decoding Failure Rate (DFR) by 63.7\\% at moderate noise levels ($t=10$) while converging in fewer iterations.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "RecHash: Segmented Hash-Entangled Chains for Stateful Sequential Authentication",
+          "authors": [
+            "Luis Adrián Lizama-Pérez"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.40507",
+          "source": "arXiv",
+          "arxivId": "2610.40507",
+          "summary": "RecHash is a stateful sequential authentication construction based on paired hash-chain openings and an authenticated record history. It develops the decreasing position relation of the 2019 hash-entangled construction, whose exact integer normalization yields a two-coordinate constant-sum antichain. Direct proportional reuse is constrained by integer capacity and multiplicative contraction. The main construction instead assigns each record to a predetermined chain segment, with complementary positions encoding each digest block. All digests fit every scheduled slot, independently of preceding messages. For an $\\ell$-bit digest distributed over $k$ equal-length chain pairs, balanced allocation gives $\\lfloor L/(2^{\\lceil\\ell/k\\rceil}+1)\\rfloor$ slots. A 256-bit digest, 32 pairs, and length 65535 provide 254 application records followed by a renewal certificate, with 2048 bytes of openings per record for 256-bit chain outputs. We give a complete segmented state transition, a worked trace, exact allocation and resource results, and a renewal-free security-composition theorem conditional on authenticated history and an adaptive one-step guarantee. The analysis relates the construction to constant-sum encodings and standardized hash-based signatures; a concrete post-quantum reduction and security across renewal remain open.",
+          "contribution": "RecHash is a stateful sequential authentication construction based on paired hash-chain openings and an authenticated record history. It develops the decreasing position relation of the 2019 hash-entangled construction, whose exact integer normalization yields a two-coordinate constant-sum antichain. Direct proportional reuse is constrained by integer capacity and multiplicative contraction. The main construction instead assigns each record to a predetermined chain segment, with complementary positions encoding each digest block. All digests fit every scheduled slot, independently of preceding messages. For an $\\ell$-bit digest distributed over $k$ equal-length chain pairs, balanced allocation gives $\\lfloor L/(2^{\\lceil\\ell/k\\rceil}+1)\\rfloor$ slots. A 256-bit digest, 32 pairs, and length 65535 provide 254 application records followed by a renewal certificate, with 2048 bytes of openings per record for 256-bit chain outputs. We give a complete segmented state transition, a worked trace, exact allocation and resource results, and a renewal-free security-composition theorem conditional on authenticated history and an adaptive one-step guarantee. The analysis relates the construction to constant-sum encodings and standardized hash-based signatures; a concrete post-quantum reduction and security across renewal remain open.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Device-Induced Mobility Heterogeneity and Its Impact on Federated Next-Location Prediction",
+          "authors": [
+            "André Felipe Zanella",
+            "Paula Delgado de Santos",
+            "José Suárez-Varela",
+            "David Solans Noguero",
+            "Andra Lutu",
+            "Jesus Omaña-Iglesias"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.39791",
+          "source": "arXiv",
+          "arxivId": "2610.39791",
+          "summary": "Predicting human mobility is central to network management, urban planning, and location-based services, yet privacy concerns are increasingly pushing such tasks toward federated learning. A key challenge in this setting is the strong heterogeneity of mobility data across users, which leads to non-IID data distributions and can significantly impact model performance and fairness. In this paper, we present a large-scale measurement study of device-level mobility heterogeneity using data from a major MNO in a dense European capital. Our dataset comprises mobility traces derived from network events, covering over 50,000 UEs across 178 smartphone models. We group devices into tiers based on their market segment and show that mobility characteristics, such as spatial range and regularity, vary systematically across these tiers, revealing a previously underexplored source of bias in mobility data. We investigate the implications of this heterogeneity on the use case of federated next-location prediction. In particular, we find that balancing device tiers across silos through tier-aware client selection yields the best results, improving fairness by up to 34.49% without degrading accuracy. In contrast, a FedProx-only approach achieves a 21.46% fairness improvement, offering a reasonable alternative when device information is unavailable, though with lower overall gains.",
+          "contribution": "Predicting human mobility is central to network management, urban planning, and location-based services, yet privacy concerns are increasingly pushing such tasks toward federated learning. A key challenge in this setting is the strong heterogeneity of mobility data across users, which leads to non-IID data distributions and can significantly impact model performance and fairness. In this paper, we present a large-scale measurement study of device-level mobility heterogeneity using data from a major MNO in a dense European capital. Our dataset comprises mobility traces derived from network events, covering over 50,000 UEs across 178 smartphone models. We group devices into tiers based on their market segment and show that mobility characteristics, such as spatial range and regularity, vary systematically across these tiers, revealing a previously underexplored source of bias in mobility data. We investigate the implications of this heterogeneity on the use case of federated next-location prediction. In particular, we find that balancing device tiers across silos through tier-aware client selection yields the best results, improving fairness by up to 34.49% without degrading accuracy. In contrast, a FedProx-only approach achieves a 21.46% fairness improvement, offering a reasonable alternative when device information is unavailable, though with lower overall gains.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "LoRe-MIM: Lost-or-Replaced Masked Image Modeling for Self-Supervised Representation Learning in Whole-Body PET/CT",
+          "authors": [
+            "Amartya Bhattacharya",
+            "Bashirul Azam Biswas",
+            "Biratal Raj Wagle",
+            "Michael S. Leapman",
+            "Matthew E. Maeder",
+            "James B. Yu",
+            "Indrani Bhattacharya"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-29",
+          "url": "https://arxiv.org/abs/2610.40284",
+          "source": "arXiv",
+          "arxivId": "2610.40284",
+          "summary": "Deep learning models for whole-body positron emission tomography/computed tomography (PET/CT) hold significant clinical potential for disease detection, treatment planning, and response assessment. However, the time and cost associated with expert annotations remain major bottlenecks in developing robust and generalizable models. Although self-supervised learning (SSL) has emerged as a promising approach to mitigating annotation scarcity, its application to whole-body PET/CT remains relatively underexplored due to the limited availability of large-scale datasets and the challenges associated with learning complementary cross-modal representations. To address these limitations, we curate a heterogeneous, multi-tracer, multi-institutional cohort comprising 6,531 whole-body PET/CT scans and propose LoRe-MIM (Lost-Or-Replaced Masked Image Modelling), a novel self-supervised framework designed to learn multimodal representations through masked image reconstruction. Specifically, LoRe-MIM introduces a masking strategy in which image regions are either replaced with zeros (Lost) or substituted with corresponding complementary imaging modality (Replaced), encouraging the model to capture both modality-specific characteristics and cross-modal relationships. We evaluate the learned representations across multiple downstream tasks, including multimodal PET/CT image reconstruction, patch-based classification into cancer vs. non-cancer, whole-body lesion segmentation, label-efficient training, and robustness assessment. Experimental results demonstrate that LoRe-MIM consistently outperforms the corresponding state-of-the-art baselines across these tasks, highlighting its potential as a scalable and generalizable self-supervised learning framework for whole-body PET/CT analysis.",
+          "contribution": "Deep learning models for whole-body positron emission tomography/computed tomography (PET/CT) hold significant clinical potential for disease detection, treatment planning, and response assessment. However, the time and cost associated with expert annotations remain major bottlenecks in developing robust and generalizable models. Although self-supervised learning (SSL) has emerged as a promising approach to mitigating annotation scarcity, its application to whole-body PET/CT remains relatively underexplored due to the limited availability of large-scale datasets and the challenges associated with learning complementary cross-modal representations. To address these limitations, we curate a heterogeneous, multi-tracer, multi-institutional cohort comprising 6,531 whole-body PET/CT scans and propose LoRe-MIM (Lost-Or-Replaced Masked Image Modelling), a novel self-supervised framework designed to learn multimodal representations through masked image reconstruction. Specifically, LoRe-MIM introduces a masking strategy in which image regions are either replaced with zeros (Lost) or substituted with corresponding complementary imaging modality (Replaced), encouraging the model to capture both modality-specific characteristics and cross-modal relationships. We evaluate the learned representations across multiple downstream tasks, including multimodal PET/CT image reconstruction, patch-based classification into cancer vs. non-cancer, whole-body lesion segmentation, label-efficient training, and robustness assessment. Experimental results demonstrate that LoRe-MIM consistently outperforms the corresponding state-of-the-art baselines across these tasks, highlighting its potential as a scalable and generalizable self-supervised learning framework for whole-body PET/CT analysis.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "A Systematic Review of Digital Twins and Security for Cyber-Physical Systems",
+          "authors": [
+            "Arda Goknil",
+            "Ivan Kurtev",
+            "Leonard Tudorache",
+            "Adela Nedisan Videsjorden",
+            "Rustem Dautov",
+            "Hui Song",
+            "Dumitru Roman",
+            "Mihai Gheorghe",
+            "Ahmet Soylu"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-31",
+          "url": "https://doi.org/10.1145/3856206",
+          "source": "Crossref",
+          "doi": "10.1145/3856206",
+          "summary": "The rapid growth of Cyber-Physical Systems (CPS) has increased interest in digital twins (DTs) as virtual representations of physical systems to improve efficiency, monitoring, and security. However, as DTs become integral components of CPS, ensuring their own security also becomes critical. In this article, we present a systematic literature review (SLR) on DTs and security for CPS. Following a standard SLR methodology, we defined three research questions, performed a structured search in four publication databases complemented by forward snowballing, applied inclusion and exclusion criteria, and extracted and synthesized data from the selected studies. The review examines both how DTs are used to enhance CPS security and how DTs themselves are secured within CPS. Our main results are: (i) a classification of CPS security challenges, threats, and vulnerabilities addressed using DTs; (ii) a mapping of security mechanisms, application domains, and emerging trends in using DTs for CPS security; (iii) a classification of DT security challenges, threats, and vulnerabilities across architectural, operational, data, and trust dimensions; (iv) a synthesis of state-of-the-art approaches for securing DTs; and (v) an analysis of open research problems and future directions for advancing both CPS security through DTs and the security in DTs themselves.",
+          "contribution": "The rapid growth of Cyber-Physical Systems (CPS) has increased interest in digital twins (DTs) as virtual representations of physical systems to improve efficiency, monitoring, and security. However, as DTs become integral components of CPS, ensuring their own security also becomes critical. In this article, we present a systematic literature review (SLR) on DTs and security for CPS. Following a standard SLR methodology, we defined three research questions, performed a structured search in four publication databases complemented by forward snowballing, applied inclusion and exclusion criteria, and extracted and synthesized data from the selected studies. The review examines both how DTs are used to enhance CPS security and how DTs themselves are secured within CPS. Our main results are: (i) a classification of CPS security challenges, threats, and vulnerabilities addressed using DTs; (ii) a mapping of security mechanisms, application domains, and emerging trends in using DTs for CPS security; (iii) a classification of DT security challenges, threats, and vulnerabilities across architectural, operational, data, and trust dimensions; (iv) a synthesis of state-of-the-art approaches for securing DTs; and (v) an analysis of open research problems and future directions for advancing both CPS security through DTs and the security in DTs themselves.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "HECA-YOLOv11: A High-Accuracy Hybrid Attention Network for Real-Time Monkeypox Skin Lesion Detection with Interpretability",
+          "authors": [
+            "Xianghong Deng",
+            "Chonlatee Photong"
+          ],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-11-01",
+          "url": "https://doi.org/10.2174/0126662558410961251119062849",
+          "source": "Crossref",
+          "doi": "10.2174/0126662558410961251119062849",
+          "summary": "Introduction: \n                     The global outbreak risk of monkeypox necessitates efficient diagnostic\ntools. Current methods are slow and struggle to differentiate similar skin lesions, while deep\nlearning models lack both accuracy and interpretability for multi-class classification. This study\naims to develop a high-performance, real-time screening tool for early detection of monkeypox\nand similar conditions. \n                   \n                   \n                     Methods: \n                     This study proposes an enhanced architecture that incorporates the Highly Efficient\nChannel Attention (HECA) mechanism into YOLOv11 to improve feature selection. HECA\nperforms Global Average Pooling (GAP) and Max Average Pooling (MAP) on input feature\nmaps. Using spatial transformations and pixel-domain enhancements, the research establishes\nand augments a four-class dataset containing monkeypox, measles, chickenpox, and normal\nskin images. Gradient-Weighted Class Activation Mapping (Grad-CAM) generates heatmaps\nfor lesion localization visualization, while a PyQt5-based interactive diagnostic interface\nstreamlines clinical workflows. \n                   \n                   \n                     Results: \n                     Experimental results demonstrate the proposed model’s superior performance compared\nto existing approaches (EfficientNet-v2-l, GoogLeNet, ResNet50, VGG19, MobileNetv2,\nDenseNet201, and YOLOv11s) on the test set, with enhanced detection speed, accuracy\n(98.9%), precision (99%), recall (99.3%), and F1-score (99.1%). HECA-YOLOv11 outperforms\nSE-YOLOv11 and ECA-YOLOv11 by over 5.1% across all evaluation metrics. Heatmap\nanalysis confirms the model’s focus on lesion regions, aligning with medical reasoning. \n                   \n                   \n                     Discussion: \n                     The integrated attention mechanism and interpretability techniques effectively address\nkey limitations in automated skin lesion detection. The high performance and low latency\nsignify a major advancement towards reliable clinical decision support, with important implications\nfor early outbreak containment. \n                   \n                   \n                     Conclusion: \n                     The HECA-YOLOv11 framework provides a highly accurate and efficient tool for\nearly monkeypox screening. Its standardized interface holds significant potential to accelerate\npublic health responses and improve global control of emerging infectious diseases.",
+          "contribution": "Introduction: \n                     The global outbreak risk of monkeypox necessitates efficient diagnostic\ntools. Current methods are slow and struggle to differentiate similar skin lesions, while deep\nlearning models lack both accuracy and interpretability for multi-class classification. This study\naims to develop a high-performance, real-time screening tool for early detection of monkeypox\nand similar conditions. \n                   \n                   \n                     Methods: \n                     This study proposes an enhanced architecture that incorporates the Highly Efficient\nChannel Attention (HECA) mechanism into YOLOv11 to improve feature selection. HECA\nperforms Global Average Pooling (GAP) and Max Average Pooling (MAP) on input feature\nmaps. Using spatial transformations and pixel-domain enhancements, the research establishes\nand augments a four-class dataset containing monkeypox, measles, chickenpox, and normal\nskin images. Gradient-Weighted Class Activation Mapping (Grad-CAM) generates heatmaps\nfor lesion localization visualization, while a PyQt5-based interactive diagnostic interface\nstreamlines clinical workflows. \n                   \n                   \n                     Results: \n                     Experimental results demonstrate the proposed model’s superior performance compared\nto existing approaches (EfficientNet-v2-l, GoogLeNet, ResNet50, VGG19, MobileNetv2,\nDenseNet201, and YOLOv11s) on the test set, with enhanced detection speed, accuracy\n(98.9%), precision (99%), recall (99.3%), and F1-score (99.1%). HECA-YOLOv11 outperforms\nSE-YOLOv11 and ECA-YOLOv11 by over 5.1% across all evaluation metrics. Heatmap\nanalysis confirms the model’s focus on lesion regions, aligning with medical reasoning. \n                   \n                   \n                     Discussion: \n                     The integrated attention mechanism and interpretability techniques effectively address\nkey limitations in automated skin lesion detection. The high performance and low latency\nsignify a major advancement towards reliable clinical decision support, with important implications\nfor early outbreak containment. \n                   \n                   \n                     Conclusion: \n                     The HECA-YOLOv11 framework provides a highly accurate and efficient tool for\nearly monkeypox screening. Its standardized interface holds significant potential to accelerate\npublic health responses and improve global control of emerging infectious diseases.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "DeepVEST: Deep Learning–based Vessel Segmentation and Erasure                     on Breast MR Images for Improved Lesion Assessment",
+          "authors": [
+            "Marco Cantone",
+            "Tianyu Zhang",
+            "Claudio Marrocco",
+            "Luyi Han",
+            "Antonio Portaluri",
+            "Jarek van Dijk",
+            "Carla Sitges Puigivila",
+            "Miguel Braga",
+            "Noemi Schmidt",
+            "Alessandro Bria",
+            "Ritse M. Mann"
+          ],
+          "venue": "Radiology: Artificial Intelligence",
+          "venueId": "J03",
+          "publishedDate": "2026-11-01",
+          "url": "https://doi.org/10.1148/ryai.250630",
+          "source": "Crossref",
+          "doi": "10.1148/ryai.250630",
+          "summary": "DeepVEST, a deep learning model for breast MRI vessel segmentation and removal, produced vessel-free maximum intensity projection images that radiologists rated as effective, with minimal artifacts and substantial interreader agreement.",
+          "contribution": "DeepVEST, a deep learning model for breast MRI vessel segmentation and removal, produced vessel-free maximum intensity projection images that radiologists rated as effective, with minimal artifacts and substantial interreader agreement.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-10-31",
       "generatedAt": "2026-10-31T13:43:16.681211+03:00",
       "papers": [
@@ -3600,5 +3790,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-31T13:43:16.681211+03:00"
+  "updatedAt": "2026-11-01T14:39:48.719274+03:00"
 }
