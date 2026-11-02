@@ -25,6 +25,147 @@
   ],
   "days": [
     {
+      "date": "2026-11-02",
+      "generatedAt": "2026-11-02T16:04:17.923256+03:00",
+      "papers": [
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "A Systematic Review of Modern Machine Learning in Query Optimization",
+          "authors": [
+            "Emmanouil Limnaios",
+            "Haridimos Kondylakis"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-31",
+          "url": "https://doi.org/10.1145/3847509",
+          "source": "Crossref",
+          "doi": "10.1145/3847509",
+          "summary": "Traditional query optimization struggles with modern, heterogeneous workloads. This PRISMA-guided survey examines 27 recent studies (2018–2025) on machine learning for query optimization, addressing two research questions:\n                     (RQ1) \n                    how learning-based approaches intervene across the classical optimization pipeline and what tradeoffs characterize each stage, and\n                     (RQ2) \n                    what limitations persist in generalization, benchmark standardization, and deployment readiness. We synthesize the literature across five intervention points: component-level estimation, learned enumeration, hint steering, end-to-end optimization, and emerging trends. Results show a paradigm shift from isolated predictors to integrated optimizers, while gaps in generalization and standardized evaluation persist. We conclude with a roadmap for robust and reproducible data-driven query optimization.",
+          "contribution": "Traditional query optimization struggles with modern, heterogeneous workloads. This PRISMA-guided survey examines 27 recent studies (2018–2025) on machine learning for query optimization, addressing two research questions:\n                     (RQ1) \n                    how learning-based approaches intervene across the classical optimization pipeline and what tradeoffs characterize each stage, and\n                     (RQ2) \n                    what limitations persist in generalization, benchmark standardization, and deployment readiness. We synthesize the literature across five intervention points: component-level estimation, learned enumeration, hint steering, end-to-end optimization, and emerging trends. Results show a paradigm shift from isolated predictors to integrated optimizers, while gaps in generalization and standardized evaluation persist. We conclude with a roadmap for robust and reproducible data-driven query optimization.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "From Per-Examination Savings to Project-level Breakeven in Expert-guided Segmentation",
+          "authors": [
+            "Yuhan Liang",
+            "Zekai Yu",
+            "Haoyang Hu"
+          ],
+          "venue": "Radiology: Artificial Intelligence",
+          "venueId": "J03",
+          "publishedDate": "2026-11-01",
+          "url": "https://doi.org/10.1148/ryai.260801",
+          "source": "Crossref",
+          "doi": "10.1148/ryai.260801",
+          "summary": "This paper examines From Per-Examination Savings to Project-level Breakeven in Expert-guided Segmentation.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Survey of Context Caching Techniques for IoT: Challenges, and Future Directions",
+          "authors": [
+            "Ashish Manchanda",
+            "Prem Jayaraman",
+            "Abhik Banerjee",
+            "Kaneez Fizza",
+            "Arkady Zaslavsky"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-30",
+          "url": "https://doi.org/10.1145/3861063",
+          "source": "Crossref",
+          "doi": "10.1145/3861063",
+          "summary": "The proliferation of context-aware IoT applications has intensified the need for efficient strategies for caching context. The novel contribution of this survey is a taxonomy of context caching parameters that maps every lifecycle decision (placement, refresh, replacement, eviction) to the variables that drive it. Unlike traditional caching, which often handles static content, context caching must cope with challenges such as high data volatility, short validity windows, heterogeneous data sources, and application-specific freshness requirements. As IoT applications scale in complexity, their demand for timely and relevant context grows accordingly. The survey critically examines the current state of the art in context caching for IoT by analyzing how caching techniques must evolve to handle semantically inferred, multi-source context under constraints of freshness, utility, and cost. To structure the review, we adopt a lifecycle-based approach comprising four stages, namely placement, refresh, replacement, and eviction. The proposed taxonomy enables systematic decision-making at each lifecycle stage and encompasses parameters such as context volatility (how frequently context changes), access probability (likelihood of future requests), semantic relevance, and Quality of Context (QoC), providing a unified framework for monitoring, prioritizing, and evaluating cached context. Building on this taxonomy, we contribute a comparative analysis of recent context caching works (2019–2025) mapped to lifecycle stages, monitored parameters, evaluation metrics, and adaptivity mechanisms, and discuss the privacy, security, and multi-tenancy concerns that traditional caching surveys do not address. Our analysis shows that traditional IoT data caching methods, although designed for dynamic data, cannot adequately address the challenges of caching context, which is transient and semantically inferred from multiple IoT data sources. Finally, we identify unresolved challenges in context cache management and present them as open research questions.",
+          "contribution": "The proliferation of context-aware IoT applications has intensified the need for efficient strategies for caching context. The novel contribution of this survey is a taxonomy of context caching parameters that maps every lifecycle decision (placement, refresh, replacement, eviction) to the variables that drive it. Unlike traditional caching, which often handles static content, context caching must cope with challenges such as high data volatility, short validity windows, heterogeneous data sources, and application-specific freshness requirements. As IoT applications scale in complexity, their demand for timely and relevant context grows accordingly. The survey critically examines the current state of the art in context caching for IoT by analyzing how caching techniques must evolve to handle semantically inferred, multi-source context under constraints of freshness, utility, and cost. To structure the review, we adopt a lifecycle-based approach comprising four stages, namely placement, refresh, replacement, and eviction. The proposed taxonomy enables systematic decision-making at each lifecycle stage and encompasses parameters such as context volatility (how frequently context changes), access probability (likelihood of future requests), semantic relevance, and Quality of Context (QoC), providing a unified framework for monitoring, prioritizing, and evaluating cached context. Building on this taxonomy, we contribute a comparative analysis of recent context caching works (2019–2025) mapped to lifecycle stages, monitored parameters, evaluation metrics, and adaptivity mechanisms, and discuss the privacy, security, and multi-tenancy concerns that traditional caching surveys do not address. Our analysis shows that traditional IoT data caching methods, although designed for dynamic data, cannot adequately address the challenges of caching context, which is transient and semantically inferred from multiple IoT data sources. Finally, we identify unresolved challenges in context cache management and present them as open research questions.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "A Survey on the Evolution and Future Trajectory of Flow Cytometry Analysis",
+          "authors": [
+            "Tony Xu",
+            "Givanna Putri",
+            "Aaron Chuah",
+            "Robin Vlieger",
+            "Anne Brüstle"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-28",
+          "url": "https://doi.org/10.1145/3845984",
+          "source": "Crossref",
+          "doi": "10.1145/3845984",
+          "summary": "Flow cytometry is a powerful analytical technique that generates high-dimensional single-cell data widely used in biological research and clinical diagnostics. This survey traces the evolution of flow cytometry analysis from traditional manual gating to modern algorithmic approaches and explores emerging deep-learning (DL) paradigms. We delineate three distinct analysis paradigms: traditional (manual gating), modern (algorithm-assisted population identification), and future (direct cell-to-sample DL models). While the modern paradigm employs sophisticated computational methods to identify cell populations and derive features, the emerging future paradigm bypasses discrete population identification entirely, utilizing DL to directly connect cellular information to sample-level insights. We discuss key technical challenges including batch effects, panel variations, and data availability that currently limit widespread adoption of more advanced analytical approaches. The survey also examines promising solutions such as transfer learning, data augmentation, and self-supervised learning techniques. As flow cytometry technology continues to advance, particularly with spectral cytometry enabling higher-dimensional analysis, these computational methods will become increasingly essential for extracting maximum biological insight from complex datasets. The development of standardized data repositories, robust batch correction tools, and comprehensive benchmarking frameworks will be crucial for realizing the full potential of these advanced analytical approaches.",
+          "contribution": "Flow cytometry is a powerful analytical technique that generates high-dimensional single-cell data widely used in biological research and clinical diagnostics. This survey traces the evolution of flow cytometry analysis from traditional manual gating to modern algorithmic approaches and explores emerging deep-learning (DL) paradigms. We delineate three distinct analysis paradigms: traditional (manual gating), modern (algorithm-assisted population identification), and future (direct cell-to-sample DL models). While the modern paradigm employs sophisticated computational methods to identify cell populations and derive features, the emerging future paradigm bypasses discrete population identification entirely, utilizing DL to directly connect cellular information to sample-level insights. We discuss key technical challenges including batch effects, panel variations, and data availability that currently limit widespread adoption of more advanced analytical approaches. The survey also examines promising solutions such as transfer learning, data augmentation, and self-supervised learning techniques. As flow cytometry technology continues to advance, particularly with spectral cytometry enabling higher-dimensional analysis, these computational methods will become increasingly essential for extracting maximum biological insight from complex datasets. The development of standardized data repositories, robust batch correction tools, and comprehensive benchmarking frameworks will be crucial for realizing the full potential of these advanced analytical approaches.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Structure-Aware Attention Prototype Network for Cross-Modality Few-Shot Brain Tumor Segmentation",
+          "authors": [
+            "Liang Sun",
+            "Lingyao Zhu",
+            "Junyong Zhao",
+            "Dingwei Fan",
+            "Mingliang Wang",
+            "Jiashuang Huang",
+            "Wei Shao",
+            "Daoqiang Zhang"
+          ],
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "venueId": "J04",
+          "publishedDate": "2026-11-01",
+          "url": "https://doi.org/10.1109/tpami.2026.3717881",
+          "source": "Crossref",
+          "doi": "10.1109/tpami.2026.3717881",
+          "summary": "This paper examines Structure-Aware Attention Prototype Network for Cross-Modality Few-Shot Brain Tumor Segmentation.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Publish/Subscribe for Edge Intelligence: Systematic Review and Future Prospects",
+          "authors": [
+            "Alaa Saleh",
+            "Sasu Tarkoma",
+            "Susanna Pirttikangas",
+            "Lauri Lovén"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-10-30",
+          "url": "https://doi.org/10.1145/3849800",
+          "source": "Crossref",
+          "doi": "10.1145/3849800",
+          "summary": "The exponential growth of IoT has led to billions of devices generating massive data streams. However, the resource-limited nature of IoT devices, coupled with the rise of interactive applications, requires efficient processing across the Device-Edge-Cloud continuum. The publish/subscribe (pub/sub) model has emerged as a preferred paradigm due to its scalability and flexibility. This review critically analyzes pub/sub systems, examining their architectures, security mechanisms, protocols, and real-world implementations. Unlike previous surveys, we explore their role in EdgeOps and real-time applications, identifying key limitations and opportunities for enhancement. Furthermore, we highlight underexplored challenges, such as adaptive message routing, and discuss how AI-driven pub/sub frameworks could improve system autonomy and responsiveness. This survey provides a roadmap for advancing pub/sub mechanisms to meet the demands of interactive distributed computing environments. Additionally, we propose the integration of agentic AI to enhance adaptability and autonomy. We further identify several key challenges that have the potential to shape the future of the pub/sub model, and we present these as important open issues for further exploration.",
+          "contribution": "The exponential growth of IoT has led to billions of devices generating massive data streams. However, the resource-limited nature of IoT devices, coupled with the rise of interactive applications, requires efficient processing across the Device-Edge-Cloud continuum. The publish/subscribe (pub/sub) model has emerged as a preferred paradigm due to its scalability and flexibility. This review critically analyzes pub/sub systems, examining their architectures, security mechanisms, protocols, and real-world implementations. Unlike previous surveys, we explore their role in EdgeOps and real-time applications, identifying key limitations and opportunities for enhancement. Furthermore, we highlight underexplored challenges, such as adaptive message routing, and discuss how AI-driven pub/sub frameworks could improve system autonomy and responsiveness. This survey provides a roadmap for advancing pub/sub mechanisms to meet the demands of interactive distributed computing environments. Additionally, we propose the integration of agentic AI to enhance adaptability and autonomy. We further identify several key challenges that have the potential to shape the future of the pub/sub model, and we present these as important open issues for further exploration.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-01",
       "generatedAt": "2026-11-01T14:39:48.719274+03:00",
       "papers": [
@@ -3790,5 +3931,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-01T14:39:48.719274+03:00"
+  "updatedAt": "2026-11-02T16:04:17.923256+03:00"
 }
