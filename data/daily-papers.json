@@ -25,6 +25,168 @@
   ],
   "days": [
     {
+      "date": "2026-11-04",
+      "generatedAt": "2026-11-04T15:46:25.440820+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "DR-LiteNet: A Lightweight Explainable Hybrid CNN Framework for Imbalanced Diabetic Retinopathy Grading via Adaptive SMOTE Fusion",
+          "authors": [
+            "Nishi Kanta Paul",
+            "Md Shihabul Islam Shovo",
+            "Audrija Chowdhury",
+            "Israt Jahan Esha"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-03",
+          "url": "https://arxiv.org/abs/2611.04405",
+          "source": "arXiv",
+          "arxivId": "2611.04405",
+          "summary": "Automated diabetic retinopathy (DR) grading from colour fundus photographs is held back by two compounding challenges: severe class imbalance across five severity grades and the heavy computational cost of large scale architectures in resource constrained clinical settings. We introduce DR-LiteNet, a dual branch hybrid convolutional neural network that tackles both problems at once. The CNN branch extracts 1,280 dimensional deep features through EfficientNetB0, while the handcrafted (HC) branch produces a compact 51 dimensional lesion descriptor capturing vessel density, exudate intensity, texture entropy, and HSV colour histograms. Concatenating both branches yields a 1,331-d hybrid embedding, on which Adaptive SMOTE (ADASYN) is applied during training to synthesise minority class feature vectors, correcting distributional skew without touching the image space. A two phase training protocol first warms up the classification head on balanced features, then fine tunes the full network end to end. Grad CAM saliency maps deliver post-hoc clinical explainability. Tested on APTOS 2019 under five fold stratified cross validation, DR-LiteNet reaches 88.77% +/- 0.61 accuracy, a quadratic weighted kappa (QWK) of 0.884 +/- 0.010, and a macro F1 of 0.792 +/- 0.008 with only 4.69 M parameters beating ResNet50 (23.5 M) by DeltaQWK = 0.022 while staying practical on a single Google Colab T4 GPU. The source code of this project is available at: https://github.com/Nishi-Kanta-Paul/DR-LiteNet.",
+          "contribution": "Automated diabetic retinopathy (DR) grading from colour fundus photographs is held back by two compounding challenges: severe class imbalance across five severity grades and the heavy computational cost of large scale architectures in resource constrained clinical settings. We introduce DR-LiteNet, a dual branch hybrid convolutional neural network that tackles both problems at once. The CNN branch extracts 1,280 dimensional deep features through EfficientNetB0, while the handcrafted (HC) branch produces a compact 51 dimensional lesion descriptor capturing vessel density, exudate intensity, texture entropy, and HSV colour histograms. Concatenating both branches yields a 1,331-d hybrid embedding, on which Adaptive SMOTE (ADASYN) is applied during training to synthesise minority class feature vectors, correcting distributional skew without touching the image space. A two phase training protocol first warms up the classification head on balanced features, then fine tunes the full network end to end. Grad CAM saliency maps deliver post-hoc clinical explainability. Tested on APTOS 2019 under five fold stratified cross validation, DR-LiteNet reaches 88.77% +/- 0.61 accuracy, a quadratic weighted kappa (QWK) of 0.884 +/- 0.010, and a macro F1 of 0.792 +/- 0.008 with only 4.69 M parameters beating ResNet50 (23.5 M) by DeltaQWK = 0.022 while staying practical on a single Google Colab T4 GPU. The source code of this project is available at: https://github.com/Nishi-Kanta-Paul/DR-LiteNet.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Information Loss Is All You Need: $TC^0$ Pseudorandomness from Worst-Case Lattices",
+          "authors": [
+            "Chen Qian"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-03",
+          "url": "https://arxiv.org/abs/2611.05136",
+          "source": "arXiv",
+          "arxivId": "2611.05136",
+          "summary": "Can deterministic information loss yield post-quantum pseudorandomness with $TC^0$ evaluation? We show that deterministic rounding achieves this under quantum worst-case lattice hardness, with fixed polynomial parameters and no predetermined sample bound.\n  We introduce learning with algebraic rounding (LAR), which applies an explicit integer rounding map to blocks of secret-dependent linear measurements and encodes the result in a lattice quotient. For one fixed family with polynomially bounded modulus and dimensions, deterministic labels on exactly uniform, secret-independent public matrices are computationally indistinguishable from independent uniform labels for every polynomial number of classical random examples. Our classical reduction from Gaussian LWE, combined with the quantum worst-case reduction to LWE, bases LAR on GapSVP and SIVP over general lattices at approximation factor $\\widetilde{O}(q)$, where $q$ is the modulus.\n  The proof uses source-independent affine transport: public affine maps sampled independently of the hidden errors transport the Gaussian error law close to uniform on the rounding map's zero-label fiber while preserving exactly uniform public matrices. For every fixed inverse-polynomial accuracy, we give a polynomial-time sampler for the same public parameter family.\n  This yields the first post-quantum weak pseudorandom function with joint key-and-input evaluation in $TC^0$, secure against uniform quantum polynomial-time distinguishers given any polynomial number of classical uniform random examples. We also prove hardness of learning polynomial-size two-hidden-layer ReLU networks from noiseless uniform random examples, even for quantum polynomial-time improper learners.",
+          "contribution": "Can deterministic information loss yield post-quantum pseudorandomness with $TC^0$ evaluation? We show that deterministic rounding achieves this under quantum worst-case lattice hardness, with fixed polynomial parameters and no predetermined sample bound.\n  We introduce learning with algebraic rounding (LAR), which applies an explicit integer rounding map to blocks of secret-dependent linear measurements and encodes the result in a lattice quotient. For one fixed family with polynomially bounded modulus and dimensions, deterministic labels on exactly uniform, secret-independent public matrices are computationally indistinguishable from independent uniform labels for every polynomial number of classical random examples. Our classical reduction from Gaussian LWE, combined with the quantum worst-case reduction to LWE, bases LAR on GapSVP and SIVP over general lattices at approximation factor $\\widetilde{O}(q)$, where $q$ is the modulus.\n  The proof uses source-independent affine transport: public affine maps sampled independently of the hidden errors transport the Gaussian error law close to uniform on the rounding map's zero-label fiber while preserving exactly uniform public matrices. For every fixed inverse-polynomial accuracy, we give a polynomial-time sampler for the same public parameter family.\n  This yields the first post-quantum weak pseudorandom function with joint key-and-input evaluation in $TC^0$, secure against uniform quantum polynomial-time distinguishers given any polynomial number of classical uniform random examples. We also prove hardness of learning polynomial-size two-hidden-layer ReLU networks from noiseless uniform random examples, even for quantum polynomial-time improper learners.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "TrafficInstruct: A Multi-Task Network Traffic Dataset and Benchmark for Instruction Tuning",
+          "authors": [
+            "Zhengdao Li",
+            "Hui Wen",
+            "Zixuan Wan",
+            "Weifeng Zhang",
+            "Yan Wu",
+            "Benlong Wu",
+            "Nenghai Yu",
+            "Weiming Zhang",
+            "Kejiang Chen"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-02",
+          "url": "https://arxiv.org/abs/2611.03319",
+          "source": "arXiv",
+          "arxivId": "2611.03319",
+          "summary": "Instruction tuning for multi-task network traffic analysis requires data with clearly defined sources, supervision targets, and evaluation conditions. We introduce TrafficInstruct, a newly collected dataset comprising raw packet captures and 55,000 structured supervised fine-tuning records across ten tasks: malware traffic detection, botnet detection, malicious DNS-over-HTTPS detection, Web attack detection, advanced persistent threat detection, encrypted VPN detection, Tor behavior detection, encrypted application/service classification, website fingerprinting, and application classification under concept drift. An automated workflow captures traffic from controlled software executions, attack experiments, and application activities. Labels are supported by task-specific collection evidence, including process or socket attribution, activity records, and execution outcomes. Filtering, sanitization, and task-specific transformations produce instructions, traffic observations, and structured answers. We verify sample sources and partition the dataset by complete collection sessions, keeping all samples from the same session within one partition. The benchmark defines allowed inputs, deterministic label mappings, fixed training/validation/test partitions, and task-wise scoring rules. We evaluate majority-class, random-forest, and ET-BERT baselines, an unadapted 27B language model, and independently trained task-specific LoRA adapters on a shared frozen base. Adapters are selected using validation data and evaluated on the corresponding test sets. Task-specific adaptation improves classification performance, supporting instruction tuning across diverse traffic-analysis tasks.",
+          "contribution": "Instruction tuning for multi-task network traffic analysis requires data with clearly defined sources, supervision targets, and evaluation conditions. We introduce TrafficInstruct, a newly collected dataset comprising raw packet captures and 55,000 structured supervised fine-tuning records across ten tasks: malware traffic detection, botnet detection, malicious DNS-over-HTTPS detection, Web attack detection, advanced persistent threat detection, encrypted VPN detection, Tor behavior detection, encrypted application/service classification, website fingerprinting, and application classification under concept drift. An automated workflow captures traffic from controlled software executions, attack experiments, and application activities. Labels are supported by task-specific collection evidence, including process or socket attribution, activity records, and execution outcomes. Filtering, sanitization, and task-specific transformations produce instructions, traffic observations, and structured answers. We verify sample sources and partition the dataset by complete collection sessions, keeping all samples from the same session within one partition. The benchmark defines allowed inputs, deterministic label mappings, fixed training/validation/test partitions, and task-wise scoring rules. We evaluate majority-class, random-forest, and ET-BERT baselines, an unadapted 27B language model, and independently trained task-specific LoRA adapters on a shared frozen base. Adapters are selected using validation data and evaluated on the corresponding test sets. Task-specific adaptation improves classification performance, supporting instruction tuning across diverse traffic-analysis tasks.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "FedCSGA: Client Selection Based on Genetic Algorithm for Federated Learning",
+          "authors": [
+            "Ghani Haider",
+            "Majid Kundroo",
+            "Leo Zhang",
+            "Jinchul Choi",
+            "Taehong Kim"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-03",
+          "url": "https://arxiv.org/abs/2611.04667",
+          "source": "arXiv",
+          "arxivId": "2611.04667",
+          "summary": "Federated Learning (FL) enables collaborative training of machine learning models across distributed clients while preserving data privacy. In practical deployments, FL relies on selecting a subset of clients in each communication round to reduce communication cost, mitigate stragglers, and improve training efficiency under heterogeneous data and system conditions. In heterogeneous edge computing environments, both statistical heterogeneity and system heterogeneity significantly affect convergence efficiency and model performance. However, existing client selection methods often address these factors independently, overlooking their coupled and dynamic impact across communication rounds. To address this limitation, we propose FedCSGA, a Client Selection method for Federated learning based on a Genetic Algorithm. FedCSGA encodes client subsets as chromosomes and evaluates these subsets through a non-linear fitness function that jointly integrates resource-aware metrics and history-aware participation weighting. This design captures subset-level interactions, mitigates persistent selection bias, and balances statistical utility with system efficiency. Extensive experiments on FMNIST, CIFAR-10, CIFAR- 100, and Tiny-ImageNet demonstrate that FedCSGA consistently outperforms state-of-the-art baselines across diverse heterogeneity settings, achieving accuracy improvements of up to 7.0% and faster convergence with fewer communication rounds. These results validate the effectiveness of jointly modeling statistical and system factors to achieve robust and efficient learning in heterogeneous federated environments.",
+          "contribution": "Federated Learning (FL) enables collaborative training of machine learning models across distributed clients while preserving data privacy. In practical deployments, FL relies on selecting a subset of clients in each communication round to reduce communication cost, mitigate stragglers, and improve training efficiency under heterogeneous data and system conditions. In heterogeneous edge computing environments, both statistical heterogeneity and system heterogeneity significantly affect convergence efficiency and model performance. However, existing client selection methods often address these factors independently, overlooking their coupled and dynamic impact across communication rounds. To address this limitation, we propose FedCSGA, a Client Selection method for Federated learning based on a Genetic Algorithm. FedCSGA encodes client subsets as chromosomes and evaluates these subsets through a non-linear fitness function that jointly integrates resource-aware metrics and history-aware participation weighting. This design captures subset-level interactions, mitigates persistent selection bias, and balances statistical utility with system efficiency. Extensive experiments on FMNIST, CIFAR-10, CIFAR- 100, and Tiny-ImageNet demonstrate that FedCSGA consistently outperforms state-of-the-art baselines across diverse heterogeneity settings, achieving accuracy improvements of up to 7.0% and faster convergence with fewer communication rounds. These results validate the effectiveness of jointly modeling statistical and system factors to achieve robust and efficient learning in heterogeneous federated environments.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "From Natural Images to Medical Scans: Transferability of Diffusion Models for Medical Image Generation",
+          "authors": [
+            "Efthymios Georgiou",
+            "Ioannis Kakogeorgiou",
+            "Sarah Brüningk"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-03",
+          "url": "https://arxiv.org/abs/2611.05192",
+          "source": "arXiv",
+          "arxivId": "2611.05192",
+          "summary": "Transfer learning from natural images is standard in supervised and increasingly adopted in self-supervised medical image analysis, but its role in generative modelling, and in particular diffusion denoisers, remains underexplored. Medical diffusion models typically train the denoiser from scratch, with no systematic evaluation of natural-image transfer. We analyse this across latent and pixel paradigms, model sizes (131M-952M) and two radiology datasets (RadImageNet, BraTS), and ask which aspects of transfer support generation. We find that: i) Natural-image initialisation consistently improves generation, by 21-34% relative gFID in pixel space against 14% in latent space, where the tokeniser supplies much of the prior. gFID gains mirror downstream pathology classification and radiomic-feature FD, both proxies for clinical fidelity. ii) Benefits reflect spatial structure, not semantics: semantic probing does not predict generation quality, whereas a spatial-structure metric adapted to internal denoiser representations tracks gFID at $|r|=0.85$, positioning spatial organisation as a channel through which pretraining manifests. iii) Mixed-domain denoiser training shows that natural and medical images share similar layer-wise representations up to the late blocks, and mixing natural images into medical training improves fidelity. iv) Transfer benefit is tied to natural image initialisation, outperforming in-domain medical pretraining and several reinitialisation schemes. Overall, natural image denoisers transfer positively to medical ones in our setup. Code is available at https://github.com/CAIROLab-Bern/rad-dit",
+          "contribution": "Transfer learning from natural images is standard in supervised and increasingly adopted in self-supervised medical image analysis, but its role in generative modelling, and in particular diffusion denoisers, remains underexplored. Medical diffusion models typically train the denoiser from scratch, with no systematic evaluation of natural-image transfer. We analyse this across latent and pixel paradigms, model sizes (131M-952M) and two radiology datasets (RadImageNet, BraTS), and ask which aspects of transfer support generation. We find that: i) Natural-image initialisation consistently improves generation, by 21-34% relative gFID in pixel space against 14% in latent space, where the tokeniser supplies much of the prior. gFID gains mirror downstream pathology classification and radiomic-feature FD, both proxies for clinical fidelity. ii) Benefits reflect spatial structure, not semantics: semantic probing does not predict generation quality, whereas a spatial-structure metric adapted to internal denoiser representations tracks gFID at $|r|=0.85$, positioning spatial organisation as a channel through which pretraining manifests. iii) Mixed-domain denoiser training shows that natural and medical images share similar layer-wise representations up to the late blocks, and mixing natural images into medical training improves fidelity. iv) Transfer benefit is tied to natural image initialisation, outperforming in-domain medical pretraining and several reinitialisation schemes. Overall, natural image denoisers transfer positively to medical ones in our setup. Code is available at https://github.com/CAIROLab-Bern/rad-dit",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Blockchain-Based Ecosystems for Digital Art: A Survey of NFT Technologies, Adoption Barriers, and Implementation Challenges",
+          "authors": [
+            "Ruiqiang Li",
+            "Brian Yecies",
+            "Qin Wang",
+            "Shiping Chen",
+            "Jun Shen"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-04",
+          "url": "https://doi.org/10.1145/3861038",
+          "source": "Crossref",
+          "doi": "10.1145/3861038",
+          "summary": "This paper examines the transformative impact of blockchain technology and non-fungible tokens on the visual arts sector. We explore how NFT innovations are reshaping digital art creation, distribution, and monetization through a thorough literature review. The study investigates how NFTs address traditional challenges faced by visual artists, including ownership verification, fair compensation, and intermediary dependencies, by providing unique digital certificates of authenticity stored on blockchain networks. We examine key socio-cultural aspects of NFT adoption, showing how artists use decentralized marketplaces to connect with collectors, retain more revenue, and earn recurring royalties via smart contracts. However, our systematic analysis on existing studies reveals significant barriers to widespread adoption, including security vulnerabilities in smart contracts and privacy concerns related to transparent blockchain ledgers. Critically, we identify socio-economic barriers for artists with lower digital literacy, whose steep learning curves and market unfamiliarity risk reinforcing art world inequalities. While NFTs demonstrate considerable potential for democratizing art creation and trading in Web3 environments, addressing security, privacy, scalability, interoperability, and digital inclusion challenges remains essential for achieving equitable and sustainable transformation of the creative industries. The study concludes with topical suggestions for future research, including user experiences and potential of the remix paradigm, which is attracting more attention from the art NFT community.",
+          "contribution": "This paper examines the transformative impact of blockchain technology and non-fungible tokens on the visual arts sector. We explore how NFT innovations are reshaping digital art creation, distribution, and monetization through a thorough literature review. The study investigates how NFTs address traditional challenges faced by visual artists, including ownership verification, fair compensation, and intermediary dependencies, by providing unique digital certificates of authenticity stored on blockchain networks. We examine key socio-cultural aspects of NFT adoption, showing how artists use decentralized marketplaces to connect with collectors, retain more revenue, and earn recurring royalties via smart contracts. However, our systematic analysis on existing studies reveals significant barriers to widespread adoption, including security vulnerabilities in smart contracts and privacy concerns related to transparent blockchain ledgers. Critically, we identify socio-economic barriers for artists with lower digital literacy, whose steep learning curves and market unfamiliarity risk reinforcing art world inequalities. While NFTs demonstrate considerable potential for democratizing art creation and trading in Web3 environments, addressing security, privacy, scalability, interoperability, and digital inclusion challenges remains essential for achieving equitable and sustainable transformation of the creative industries. The study concludes with topical suggestions for future research, including user experiences and potential of the remix paradigm, which is attracting more attention from the art NFT community.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "A Novel End-to-End Low-Light Image Segmentation Method and Its Application to Robotic Perception",
+          "authors": [
+            "Zhengcai Cao",
+            "Hongmin Mu",
+            "MengChu Zhou"
+          ],
+          "venue": "IEEE Transactions on Cybernetics",
+          "venueId": "J08",
+          "publishedDate": "2026-11-01",
+          "url": "https://doi.org/10.1109/tcyb.2026.3716034",
+          "source": "Crossref",
+          "doi": "10.1109/tcyb.2026.3716034",
+          "summary": "This paper examines A Novel End-to-End Low-Light Image Segmentation Method and Its Application to Robotic Perception.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-03",
       "generatedAt": "2026-11-03T15:36:12.101262+03:00",
       "papers": [
@@ -4107,5 +4269,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-03T15:36:12.101262+03:00"
+  "updatedAt": "2026-11-04T15:46:25.440820+03:00"
 }
