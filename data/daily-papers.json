@@ -25,6 +25,195 @@
   ],
   "days": [
     {
+      "date": "2026-11-05",
+      "generatedAt": "2026-11-05T15:55:11.179684+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Cross-Dataset Generalization of Glaucoma Detection CNNs: Effects of Operating Threshold, Multi-Source Training, and Color Normalization",
+          "authors": [
+            "Al-Amin Rahman",
+            "Saifuddin Ahmed",
+            "Resalat Ahmed"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-01",
+          "url": "https://arxiv.org/abs/2611.01992",
+          "source": "arXiv",
+          "arxivId": "2611.01992",
+          "summary": "Deep learning models for glaucoma detection are usually tested on images from the same dataset used for training. That says little about how they will work at a new hospital or with a new camera. We fine-tuned five ImageNet-pretrained CNNs (ResNet50, DenseNet121, MobileNetV2, EfficientNet-B0, InceptionV3) with identical settings on one of three public fundus datasets (ACRIMA, ORIGA, RIM-ONE DL). Each was tested on a held-out part of its own dataset and on the other two datasets in full. We used three random seeds and report mean and SD over seeds. Mean in-domain AUC was 0.913 and cross-source AUC was 0.702, a drop of 0.211 (SD 0.030; 95% CI 0.135 to 0.286). After correction for multiple comparisons we found no evidence that any architecture did better, though three seeds give low power. At thresholds set on the source validation data, specificity fell from 0.870 to 0.506 and sensitivity from 0.831 to 0.726. Resetting the threshold on 10% of the target images raised specificity to 0.670 but lowered sensitivity to 0.609, and balanced accuracy rose only from 0.616 to 0.639. Training on two sources together did not help (held-out AUC 0.695 versus 0.702). LAB reference normalization (cross-source AUC 0.755) and strong color augmentation (0.754) gave similar gains, cutting the drop to about 0.16. Ben Graham normalization (0.733) and CLAHE (0.712) helped less, and gray-world (0.696) did not help. The two best methods raised specificity but lowered sensitivity. On G1020, used only for testing, AUC stayed near 0.5 in every condition, and networks trained within G1020 were also close to chance. Strong in-domain results do not show that a glaucoma model will work on new data. Normalization and color augmentation reduce the drop but do not remove it. Studies should report external validation and check the operating threshold, not only AUC.",
+          "contribution": "Deep learning models for glaucoma detection are usually tested on images from the same dataset used for training. That says little about how they will work at a new hospital or with a new camera. We fine-tuned five ImageNet-pretrained CNNs (ResNet50, DenseNet121, MobileNetV2, EfficientNet-B0, InceptionV3) with identical settings on one of three public fundus datasets (ACRIMA, ORIGA, RIM-ONE DL). Each was tested on a held-out part of its own dataset and on the other two datasets in full. We used three random seeds and report mean and SD over seeds. Mean in-domain AUC was 0.913 and cross-source AUC was 0.702, a drop of 0.211 (SD 0.030; 95% CI 0.135 to 0.286). After correction for multiple comparisons we found no evidence that any architecture did better, though three seeds give low power. At thresholds set on the source validation data, specificity fell from 0.870 to 0.506 and sensitivity from 0.831 to 0.726. Resetting the threshold on 10% of the target images raised specificity to 0.670 but lowered sensitivity to 0.609, and balanced accuracy rose only from 0.616 to 0.639. Training on two sources together did not help (held-out AUC 0.695 versus 0.702). LAB reference normalization (cross-source AUC 0.755) and strong color augmentation (0.754) gave similar gains, cutting the drop to about 0.16. Ben Graham normalization (0.733) and CLAHE (0.712) helped less, and gray-world (0.696) did not help. The two best methods raised specificity but lowered sensitivity. On G1020, used only for testing, AUC stayed near 0.5 in every condition, and networks trained within G1020 were also close to chance. Strong in-domain results do not show that a glaucoma model will work on new data. Normalization and color augmentation reduce the drop but do not remove it. Studies should report external validation and check the operating threshold, not only AUC.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Enhancing Edge AI System Security with a Stacked Hardware Security Controller for Robust and Energy-Efficient Anomaly Detectio",
+          "authors": [
+            "Carl Benda",
+            "Eren Kurshan",
+            "Paul Franzon"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-31",
+          "url": "https://arxiv.org/abs/2611.01150",
+          "source": "arXiv",
+          "arxivId": "2611.01150",
+          "summary": "In recent years, the growing adoption of Edge AI systems has been accompanied by a surge in security threats. Edge AI deployments face an rapidly evolving spectrum of security threats, from side-channel information leakage to ad- versarial model manipulation and physical device tampering. Conventional security mechanisms such as malware scanners and resource-intensive firewall solutions are unsuitable due to edge AIs typically limited computational resources, strict energy budgets and thermal constraints especially in battery-powered and field-deployed environments. This paper proposes a stacked, hardware-based security mechanism that enables low-overhead, continuous detection of anomalous execution patterns. Anomaly detection utilizing hard- ware performance counters and physical sensors outperforms software-based alternatives by providing key capabilities such as tamper-resistant root-of-trust isolation, negligible runtime overhead, and resilience against compromised operating systems. Experimental analysis shows that adversarial or malicious ap- plications produce observable deviations in sensor and thermal readings on Edge AI systems and hardware-based anomaly detection provides effective and low-overhead anomaly detection.",
+          "contribution": "In recent years, the growing adoption of Edge AI systems has been accompanied by a surge in security threats. Edge AI deployments face an rapidly evolving spectrum of security threats, from side-channel information leakage to ad- versarial model manipulation and physical device tampering. Conventional security mechanisms such as malware scanners and resource-intensive firewall solutions are unsuitable due to edge AIs typically limited computational resources, strict energy budgets and thermal constraints especially in battery-powered and field-deployed environments. This paper proposes a stacked, hardware-based security mechanism that enables low-overhead, continuous detection of anomalous execution patterns. Anomaly detection utilizing hard- ware performance counters and physical sensors outperforms software-based alternatives by providing key capabilities such as tamper-resistant root-of-trust isolation, negligible runtime overhead, and resilience against compromised operating systems. Experimental analysis shows that adversarial or malicious ap- plications produce observable deviations in sensor and thermal readings on Edge AI systems and hardware-based anomaly detection provides effective and low-overhead anomaly detection.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "SenTrojan: Revealing Analog Hardware Trojan Attacks on Sensors",
+          "authors": [
+            "Kun Wang",
+            "Ruochen Zhou",
+            "Wenjun Zhu",
+            "Shilin Xiao",
+            "Kai Wang",
+            "Chen Yan",
+            "Xiaoyu Ji",
+            "Wenyuan Xu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-04",
+          "url": "https://arxiv.org/abs/2611.06103",
+          "source": "arXiv",
+          "arxivId": "2611.06103",
+          "summary": "Sensors bridge the physical and digital worlds, making their integrity critical to cyber-physical system security. Existing sensor attacks largely exploit unintended and sensor-specific physical vulnerabilities, limiting their generalizability and motivating a different threat model, i.e., whether an adversary can implant hidden attack surfaces into sensors before deployment. In this paper, we present SenTrojan, an analog hardware Trojan framework for sensors. SenTrojan embeds malicious functionality into analog signal circuitry commonly shared across diverse sensor architectures, and activates the hidden behavior through crafted external physical signals. Once activated, SenTrojan can induce sensor malfunctions ranging from permanent denial-of-service to static or dynamic spoofing. To achieve these effects under different architectural constraints, we introduce two complementary designs. The Logic-Rule-Driven (LRD) Trojan adds lightweight analog monitoring logic to detect trigger features such as frequency and amplitude, enabling reliable activation across various sensor types. The Physical-Effect-Driven (PED) Trojan targets sensors with exploitable native analog effects, e.g., nonlinearity and rectification, and realizes attacks with minimal component insertion. We evaluate SenTrojan on 14 sensors spanning 6 transduction principles and demonstrate its effectiveness across diverse real-world scenarios. Overall, SenTrojan achieves an average successful trigger rate above 95%, maintains over 97% similarity to benign behavior, incurs zero false-trigger rate for LRD designs, and introduces less than 5% average deviation in drift, noise floor, and response time. To our knowledge, this work is the first systematic study of analog sensor Trojans, broadening sensor security from unintended physical vulnerabilities to intentional supply-chain compromise.",
+          "contribution": "Sensors bridge the physical and digital worlds, making their integrity critical to cyber-physical system security. Existing sensor attacks largely exploit unintended and sensor-specific physical vulnerabilities, limiting their generalizability and motivating a different threat model, i.e., whether an adversary can implant hidden attack surfaces into sensors before deployment. In this paper, we present SenTrojan, an analog hardware Trojan framework for sensors. SenTrojan embeds malicious functionality into analog signal circuitry commonly shared across diverse sensor architectures, and activates the hidden behavior through crafted external physical signals. Once activated, SenTrojan can induce sensor malfunctions ranging from permanent denial-of-service to static or dynamic spoofing. To achieve these effects under different architectural constraints, we introduce two complementary designs. The Logic-Rule-Driven (LRD) Trojan adds lightweight analog monitoring logic to detect trigger features such as frequency and amplitude, enabling reliable activation across various sensor types. The Physical-Effect-Driven (PED) Trojan targets sensors with exploitable native analog effects, e.g., nonlinearity and rectification, and realizes attacks with minimal component insertion. We evaluate SenTrojan on 14 sensors spanning 6 transduction principles and demonstrate its effectiveness across diverse real-world scenarios. Overall, SenTrojan achieves an average successful trigger rate above 95%, maintains over 97% similarity to benign behavior, incurs zero false-trigger rate for LRD designs, and introduces less than 5% average deviation in drift, noise floor, and response time. To our knowledge, this work is the first systematic study of analog sensor Trojans, broadening sensor security from unintended physical vulnerabilities to intentional supply-chain compromise.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "FedCSGA: Evolutionary Client Selection with Joint Statistical and System Heterogeneity in Federated Learning",
+          "authors": [
+            "Ghani Haider",
+            "Majid Kundroo",
+            "Leo Zhang",
+            "Jinchul Choi",
+            "Taehong Kim"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-03",
+          "url": "https://arxiv.org/abs/2611.04667",
+          "source": "arXiv",
+          "doi": "10.1016/j.sysarc.2026.103813",
+          "arxivId": "2611.04667",
+          "summary": "Federated Learning (FL) enables collaborative training of machine learning models across distributed clients while preserving data privacy. In practical deployments, FL relies on selecting a client subset in each communication round to reduce communication cost, mitigate stragglers, and improve training efficiency under heterogeneous data and system conditions. In heterogeneous edge computing environments, both statistical heterogeneity and system heterogeneity significantly affect convergence efficiency and model performance. However, existing client selection methods often address these factors independently, overlooking their coupled and dynamic impact across communication rounds. To address this limitation, we propose FedCSGA, a Client Selection method for Federated learning based on Genetic Algorithm. FedCSGA encodes client subsets as chromosomes and evaluates these subsets through a non-linear fitness function that jointly integrates resource-aware metrics and history-aware participation weighting. This design captures subset-level interactions, mitigates persistent selection bias, and balances statistical utility with system efficiency. Extensive experiments on FMNIST, CIFAR-10, CIFAR-100, and Tiny-ImageNet demonstrate that FedCSGA consistently outperforms state-of-the-art baselines across diverse heterogeneity settings, achieving accuracy improvements of up to 7.0% and faster convergence with fewer communication rounds. These results validate the effectiveness of jointly modeling statistical and system factors to achieve robust and efficient learning in heterogeneous federated environments.",
+          "contribution": "Federated Learning (FL) enables collaborative training of machine learning models across distributed clients while preserving data privacy. In practical deployments, FL relies on selecting a client subset in each communication round to reduce communication cost, mitigate stragglers, and improve training efficiency under heterogeneous data and system conditions. In heterogeneous edge computing environments, both statistical heterogeneity and system heterogeneity significantly affect convergence efficiency and model performance. However, existing client selection methods often address these factors independently, overlooking their coupled and dynamic impact across communication rounds. To address this limitation, we propose FedCSGA, a Client Selection method for Federated learning based on Genetic Algorithm. FedCSGA encodes client subsets as chromosomes and evaluates these subsets through a non-linear fitness function that jointly integrates resource-aware metrics and history-aware participation weighting. This design captures subset-level interactions, mitigates persistent selection bias, and balances statistical utility with system efficiency. Extensive experiments on FMNIST, CIFAR-10, CIFAR-100, and Tiny-ImageNet demonstrate that FedCSGA consistently outperforms state-of-the-art baselines across diverse heterogeneity settings, achieving accuracy improvements of up to 7.0% and faster convergence with fewer communication rounds. These results validate the effectiveness of jointly modeling statistical and system factors to achieve robust and efficient learning in heterogeneous federated environments.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Spatially and Compositionally Controlled Multimodal Glioblastoma MRI Synthesis with Latent Diffusion",
+          "authors": [
+            "Steven Glass",
+            "Max Van Puyvelde",
+            "Marija Pizurica",
+            "Mia Meyer",
+            "Olivier Gevaert",
+            "Willie Brink"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-04",
+          "url": "https://arxiv.org/abs/2611.06540",
+          "source": "arXiv",
+          "arxivId": "2611.06540",
+          "summary": "Glioblastoma exhibits substantial heterogeneity in tumour morphology and composition across MRI modalities, often making available clinical datasets highly unbalanced in terms of patient pathologies. We propose a two-stage latent diffusion model (LDM) framework for the generation of explicitly controllable 2D glioblastoma MRI scans. First, a segmentation LDM generates tumour maps conditioned on location, spatial extent, axial position, and subregion composition. Second, a modality-conditioned LDM with ControlNet generates T1, T1Gd, T2, and FLAIR images adhering to the requested segmentation. On a held-out test set, generated segmentations achieved a mean centroid error of 0.842 pixels and a subregion proportion error of 0.795 percentage points. ControlNet improved Fréchet inception distance (FID) across all four modalities, reducing pooled FID from 42.59 to 36.12. An expert reader study yielded mean quality ratings of 6.60 for real images, 6.83 for ControlNet-generated images, and 6.77 for fully synthetic images.",
+          "contribution": "Glioblastoma exhibits substantial heterogeneity in tumour morphology and composition across MRI modalities, often making available clinical datasets highly unbalanced in terms of patient pathologies. We propose a two-stage latent diffusion model (LDM) framework for the generation of explicitly controllable 2D glioblastoma MRI scans. First, a segmentation LDM generates tumour maps conditioned on location, spatial extent, axial position, and subregion composition. Second, a modality-conditioned LDM with ControlNet generates T1, T1Gd, T2, and FLAIR images adhering to the requested segmentation. On a held-out test set, generated segmentations achieved a mean centroid error of 0.842 pixels and a subregion proportion error of 0.795 percentage points. ControlNet improved Fréchet inception distance (FID) across all four modalities, reducing pooled FID from 42.59 to 36.12. An expert reader study yielded mean quality ratings of 6.60 for real images, 6.83 for ControlNet-generated images, and 6.77 for fully synthetic images.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Advancing Security with Digital Twins: A Comprehensive Survey",
+          "authors": [
+            "Blessing Airehenbuwa",
+            "Touseef Hasan",
+            "Souvika Sarkar",
+            "Ujjwal Guin"
+          ],
+          "venue": "Network and Distributed System Security Symposium (NDSS)",
+          "venueId": "C14",
+          "publishedDate": "2026-11-05",
+          "url": "https://doi.org/10.1007/s41635-026-00198-w",
+          "source": "Crossref",
+          "doi": "10.1007/s41635-026-00198-w",
+          "summary": "This paper examines Advancing Security with Digital Twins: A Comprehensive Survey.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Fractal basin geometry and the limits to predictability and reproducibility in deep learning",
+          "authors": [
+            "Andrew Ly",
+            "Pulin Gong"
+          ],
+          "venue": "Nature Machine Intelligence",
+          "venueId": "J05",
+          "publishedDate": "2026-11-05",
+          "url": "https://doi.org/10.1038/s42256-026-01336-3",
+          "source": "Crossref",
+          "doi": "10.1038/s42256-026-01336-3",
+          "summary": "Abstract \n                   Fundamental limits to predictability are central to our understanding of many physical and computational systems. In deep learning, training outcomes are often difficult to predict and reproduce even when extrinsic sources of randomness are controlled, yet the underlying mechanism remains unclear. Here we propose riddled basin geometry as a unifying dynamical systems mechanism: every initialization leading to one solution lies arbitrarily close to initializations leading to different solutions, forming a fat fractal with structure at arbitrarily fine scales. Using a minimal neural network model, we analytically establish the classical route to riddling and derive a near-zero uncertainty exponent: even sharp increases in initialization precision yield only marginal gains in outcome predictability. In deep networks, intertwined training destinations and near-zero parameter-space exponents provide robust signatures consistent with riddling across the tested architectures, optimizers and training protocols, offering a common dynamical account of otherwise disparate empirical observations. We further introduce functional uncertainty exponents, extending these diagnostics of scale-insensitive irreproducibility from parameter space to the learned functions themselves. Together, our results support riddled basin geometry as a candidate organizing principle for irreproducibility in deep learning, with practical implications for optimization and the reliable deployment of artificial intelligence.",
+          "contribution": "Abstract \n                   Fundamental limits to predictability are central to our understanding of many physical and computational systems. In deep learning, training outcomes are often difficult to predict and reproduce even when extrinsic sources of randomness are controlled, yet the underlying mechanism remains unclear. Here we propose riddled basin geometry as a unifying dynamical systems mechanism: every initialization leading to one solution lies arbitrarily close to initializations leading to different solutions, forming a fat fractal with structure at arbitrarily fine scales. Using a minimal neural network model, we analytically establish the classical route to riddling and derive a near-zero uncertainty exponent: even sharp increases in initialization precision yield only marginal gains in outcome predictability. In deep networks, intertwined training destinations and near-zero parameter-space exponents provide robust signatures consistent with riddling across the tested architectures, optimizers and training protocols, offering a common dynamical account of otherwise disparate empirical observations. We further introduce functional uncertainty exponents, extending these diagnostics of scale-insensitive irreproducibility from parameter space to the learned functions themselves. Together, our results support riddled basin geometry as a candidate organizing principle for irreproducibility in deep learning, with practical implications for optimization and the reliable deployment of artificial intelligence.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Anatomy-specific Performance of CTA-based AI for Anterior Circulation Occlusion: Systematic Review and Meta-analysis",
+          "authors": [
+            "Yike Liu",
+            "Chaofan Li",
+            "Zepeng Ren",
+            "Yuchen Hu",
+            "Chaohua Wang",
+            "Chunyan Chen",
+            "Xijin Liu"
+          ],
+          "venue": "Radiology: Artificial Intelligence",
+          "venueId": "J03",
+          "publishedDate": "2026-11-01",
+          "url": "https://doi.org/10.1148/ryai.260261",
+          "source": "Crossref",
+          "doi": "10.1148/ryai.260261",
+          "summary": "CT angiography–based artificial intelligence showed high diagnostic performance for combined internal carotid artery and first segment of the middle cerebral artery occlusions but limited sensitivity for distal second and third segments of the middle cerebral artery occlusions.",
+          "contribution": "CT angiography–based artificial intelligence showed high diagnostic performance for combined internal carotid artery and first segment of the middle cerebral artery occlusions but limited sensitivity for distal second and third segments of the middle cerebral artery occlusions.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-04",
       "generatedAt": "2026-11-04T15:46:25.440820+03:00",
       "papers": [
@@ -4269,5 +4458,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-04T15:46:25.440820+03:00"
+  "updatedAt": "2026-11-05T15:55:11.179684+03:00"
 }
