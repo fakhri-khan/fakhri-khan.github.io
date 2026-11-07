@@ -25,6 +25,121 @@
   ],
   "days": [
     {
+      "date": "2026-11-07",
+      "generatedAt": "2026-11-07T14:29:33.876757+03:00",
+      "papers": [
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "SensorGuard-RV: Sensor-to-Register Data Protection for Resource-Constrained RISC-V Devices",
+          "authors": [
+            "Hamid Noori",
+            "Carlton Shepherd"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-05",
+          "url": "https://arxiv.org/abs/2611.08380",
+          "source": "arXiv",
+          "arxivId": "2611.08380",
+          "summary": "Embedded systems rely on sensor measurements that traverse a complex hardware-firmware stack (e.g. peripheral interfaces, communication buses, memory, and drivers) before reaching the applications that use them. At worst, an attacker with access to this path may successfully intercept, overwrite, fabricate, or replay readings. This may cause systems that act on such data, such as flight controllers and industrial processes, to behave incorrectly or unsafely. Existing defences, such as trusted execution environments and trusted I/O paths, still depend on trusted driver software and correctly configured access control, which remain fragile in practice. In response, we present SensorGuard-RV, a hardware-first approach that delivers sensor samples into processor registers without trusting intermediate software, buses, or memory. After configuration, a write-once ownership switch hands the sensor to a fixed-function controller that performs hardware-level authenticated encryption on sensor samples under a key inaccessible to software. We develop a new RISC-V instruction then instructs the CPU to decrypt the sample and writes it to a register only after verifying its tag and rejecting replays, including across resets. We implement SensorGuard-RV on the NEORV32 core with an ADXL362 SPI accelerometer on an Artix-7 FPGA. At 100 MHz, a protected sample reaches a register in 5,191 cycles (51.9 $μ$s), of which the two Ascon authenticated encryption engines account for 30. Because fixed-function acquisition removes per-byte software polling, the protected loop sustains 19,015 transactions/s, 5.3% above a software-driven SPI baseline. The added logic (3,155 LUTs and 2,215 registers; 5.0% and 1.7% of the device) is dominated by the Ascon engine and preserves the 100 MHz clock, while estimated power rises from 118 to 368 mW.",
+          "contribution": "Embedded systems rely on sensor measurements that traverse a complex hardware-firmware stack (e.g. peripheral interfaces, communication buses, memory, and drivers) before reaching the applications that use them. At worst, an attacker with access to this path may successfully intercept, overwrite, fabricate, or replay readings. This may cause systems that act on such data, such as flight controllers and industrial processes, to behave incorrectly or unsafely. Existing defences, such as trusted execution environments and trusted I/O paths, still depend on trusted driver software and correctly configured access control, which remain fragile in practice. In response, we present SensorGuard-RV, a hardware-first approach that delivers sensor samples into processor registers without trusting intermediate software, buses, or memory. After configuration, a write-once ownership switch hands the sensor to a fixed-function controller that performs hardware-level authenticated encryption on sensor samples under a key inaccessible to software. We develop a new RISC-V instruction then instructs the CPU to decrypt the sample and writes it to a register only after verifying its tag and rejecting replays, including across resets. We implement SensorGuard-RV on the NEORV32 core with an ADXL362 SPI accelerometer on an Artix-7 FPGA. At 100 MHz, a protected sample reaches a register in 5,191 cycles (51.9 $μ$s), of which the two Ascon authenticated encryption engines account for 30. Because fixed-function acquisition removes per-byte software polling, the protected loop sustains 19,015 transactions/s, 5.3% above a software-driven SPI baseline. The added logic (3,155 LUTs and 2,215 registers; 5.0% and 1.7% of the device) is dominated by the Ascon engine and preserves the 100 MHz clock, while estimated power rises from 118 to 368 mW.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "CANMentor: A Large-Small Model Collaboration Framework for CAN Bus Intrusion Detection",
+          "authors": [
+            "Zhiquan Liu",
+            "Haolin Gao",
+            "Bo Wu",
+            "Jingjing Guo",
+            "Heng Sun",
+            "Jianfeng Ma"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-05",
+          "url": "https://arxiv.org/abs/2611.07853",
+          "source": "arXiv",
+          "arxivId": "2611.07853",
+          "summary": "The Controller Area Network (CAN) bus lacks built-in security mechanisms, making real-time intrusion detection necessary. However, resource and latency constraints limit vehicle-side intrusion detection systems (IDSs) to lightweight models, whose detection performance and generalization can degrade under non-independent and identically distributed (non-IID) data. Meanwhile, uploading original CAN messages to the cloud for more powerful model inference risks exposing sensitive vehicle information. We propose CANMentor, a large-small model collaboration framework in which a cloud-side large language model (LLM) teacher supervises vehicle-side lightweight IDS models for CAN bus intrusion detection. Each vehicle first performs local inference, and a privacy-aware generator then produces proxies from the original CAN messages for cloud-side teacher inference to protect data privacy. The vehicle uses the teacher prediction only when the response arrives within a prescribed latency bound and otherwise retains the local prediction; all returned teacher logits are converted into soft targets for periodic knowledge distillation. On non-IID partitions of the ROAD dataset and the HCRL Car-Hacking dataset, knowledge distillation yields maximum relative Macro F1 improvements of 25.01% and 20.79%, respectively. Teacher predictions also improve detection accuracy for CAN messages near the local decision boundary by 38.71-42.00 percentage points.",
+          "contribution": "The Controller Area Network (CAN) bus lacks built-in security mechanisms, making real-time intrusion detection necessary. However, resource and latency constraints limit vehicle-side intrusion detection systems (IDSs) to lightweight models, whose detection performance and generalization can degrade under non-independent and identically distributed (non-IID) data. Meanwhile, uploading original CAN messages to the cloud for more powerful model inference risks exposing sensitive vehicle information. We propose CANMentor, a large-small model collaboration framework in which a cloud-side large language model (LLM) teacher supervises vehicle-side lightweight IDS models for CAN bus intrusion detection. Each vehicle first performs local inference, and a privacy-aware generator then produces proxies from the original CAN messages for cloud-side teacher inference to protect data privacy. The vehicle uses the teacher prediction only when the response arrives within a prescribed latency bound and otherwise retains the local prediction; all returned teacher logits are converted into soft targets for periodic knowledge distillation. On non-IID partitions of the ROAD dataset and the HCRL Car-Hacking dataset, knowledge distillation yields maximum relative Macro F1 improvements of 25.01% and 20.79%, respectively. Teacher predictions also improve detection accuracy for CAN messages near the local decision boundary by 38.71-42.00 percentage points.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "VeilFL: Two-Stage Accountability for Anonymous Federated Learning",
+          "authors": [
+            "Varesh Mishra",
+            "Aysajan Abidin",
+            "Bart Preneel"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-10-31",
+          "url": "https://arxiv.org/abs/2611.01082",
+          "source": "arXiv",
+          "arxivId": "2611.01082",
+          "summary": "Anonymous credentials can hide which registered client participates in federated learning, but their unlinkability also makes repeated misconduct difficult to associate. We present VeilFL, a two-aggregator protocol that adds staged accountability to PINE (USENIX Security '24). Each submission binds two private PINE messages, a round-specific pseudonym, and a tracing pair to the same hidden credential secret. This design enables detection of duplicate submissions within a round without introducing a persistent identifier for normal participation. VeilFL implements accountability in two stages. After a confirmed duplicate or joint PINE rejection, a threshold tracing committee reveals a stable handle that links faults associated with the same credential. The client's registered identity is recoverable only after the public log records the requisite number of linked faults and a separate threshold committee authorizes identification. Accepted and unopened submissions remain unlinkable under the stated assumptions. This work establishes submission binding and duplicate detection, anonymity, fault non-frameability, controlled two-stage opening, and preservation of PINE's privacy and validity guarantees. In the prototype implementation, creating a submission requires a median of 2.11 ms, while verification requires 3.01 ms. Batch verification reduces the cost to 1.86 ms per submission for a batch of 1,000. The public part of each submission is 608 bytes, with 1,248 bytes of additional VeilFL protocol data across the two aggregator submissions. Each opening stage completes within 4.3 ms for the different committee configurations.",
+          "contribution": "Anonymous credentials can hide which registered client participates in federated learning, but their unlinkability also makes repeated misconduct difficult to associate. We present VeilFL, a two-aggregator protocol that adds staged accountability to PINE (USENIX Security '24). Each submission binds two private PINE messages, a round-specific pseudonym, and a tracing pair to the same hidden credential secret. This design enables detection of duplicate submissions within a round without introducing a persistent identifier for normal participation. VeilFL implements accountability in two stages. After a confirmed duplicate or joint PINE rejection, a threshold tracing committee reveals a stable handle that links faults associated with the same credential. The client's registered identity is recoverable only after the public log records the requisite number of linked faults and a separate threshold committee authorizes identification. Accepted and unopened submissions remain unlinkable under the stated assumptions. This work establishes submission binding and duplicate detection, anonymity, fault non-frameability, controlled two-stage opening, and preservation of PINE's privacy and validity guarantees. In the prototype implementation, creating a submission requires a median of 2.11 ms, while verification requires 3.01 ms. Batch verification reduces the cost to 1.86 ms per submission for a batch of 1,000. The public part of each submission is 608 bytes, with 1,248 bytes of additional VeilFL protocol data across the two aggregator submissions. Each opening stage completes within 4.3 ms for the different committee configurations.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Mitigating Spurious Invariance in Contrastive Learning: A Probabilistic Self-Supervised Learning Framework for Medical Image Analysis",
+          "authors": [
+            "Wei Wei",
+            "Yading Yuan"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-03",
+          "url": "https://arxiv.org/abs/2611.05734",
+          "source": "arXiv",
+          "doi": "10.1109/TMI.2026.3687158",
+          "arxivId": "2611.05734",
+          "summary": "Owing to the prohibitive cost of manual annotation for enormous medical images, self-supervised learning (SSL) has gained substantial attention and shown promise in various medical imaging tasks. Among SSL approaches, contrastive learning has emerged as a prominent one, encouraging models to encode semantic information that remains invariant between different augmented views. However, this invariance can be spurious for medical images, as subtle but critical medical features can be suppressed during augmentations. In this paper, we mitigate this issue by encoding the learned feature embeddings as probability distributions rather than fixed vectors, thus capturing a richer and more nuanced spectrum of information. Furthermore, we propose a unified probabilistic framework that seamlessly integrates multiple SSL approaches. Our method achieves superior performance over the state-of-the-art SSL methods on various downstream tasks across multiple datasets, including medical image segmentation and classification. We further validate the method through additional analyses of robustness to stronger augmentations, label efficiency under limited fine-tuning labels, and computational trade-offs. The code is released at https://github.com/wwzjer/ProbSSL.",
+          "contribution": "Owing to the prohibitive cost of manual annotation for enormous medical images, self-supervised learning (SSL) has gained substantial attention and shown promise in various medical imaging tasks. Among SSL approaches, contrastive learning has emerged as a prominent one, encouraging models to encode semantic information that remains invariant between different augmented views. However, this invariance can be spurious for medical images, as subtle but critical medical features can be suppressed during augmentations. In this paper, we mitigate this issue by encoding the learned feature embeddings as probability distributions rather than fixed vectors, thus capturing a richer and more nuanced spectrum of information. Furthermore, we propose a unified probabilistic framework that seamlessly integrates multiple SSL approaches. Our method achieves superior performance over the state-of-the-art SSL methods on various downstream tasks across multiple datasets, including medical image segmentation and classification. We further validate the method through additional analyses of robustness to stronger augmentations, label efficiency under limited fine-tuning labels, and computational trade-offs. The code is released at https://github.com/wwzjer/ProbSSL.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "A Lightweight Authentication and Key Agreement Scheme for PIoT Devices Based on the SM9 Algorithm",
+          "authors": [
+            "Yao Chen",
+            "Liquan Chen",
+            "Tianyu Lu",
+            "Yu Wang",
+            "Chuan He"
+          ],
+          "venue": "IEEE Internet of Things Journal",
+          "venueId": "J18",
+          "publishedDate": "2026-11-01",
+          "url": "https://doi.org/10.1109/jiot.2026.3730711",
+          "source": "Crossref",
+          "doi": "10.1109/jiot.2026.3730711",
+          "summary": "This paper examines A Lightweight Authentication and Key Agreement Scheme for PIoT Devices Based on the SM9 Algorithm.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-06",
       "generatedAt": "2026-11-06T15:42:10.902441+03:00",
       "papers": [
@@ -4595,5 +4710,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-06T15:42:10.902441+03:00"
+  "updatedAt": "2026-11-07T14:29:33.876757+03:00"
 }
