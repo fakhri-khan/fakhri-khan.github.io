@@ -25,6 +25,121 @@
   ],
   "days": [
     {
+      "date": "2026-11-08",
+      "generatedAt": "2026-11-08T14:40:24.755743+03:00",
+      "papers": [
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Zirah: A Post-Quantum True Random Number Generator Hardware Signer With an Avalanche Noise",
+          "authors": [
+            "Muhammad Shaheer Bin Junaid"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-05",
+          "url": "https://arxiv.org/abs/2611.08200",
+          "source": "arXiv",
+          "arxivId": "2611.08200",
+          "summary": "Zirah is a hardware signer built around an STM32F407 microcontroller, and its purpose is to find out, on inexpensive hardware, where a post-quantum signing key is exposed and what actually protects it. The device draws every random bit from a reverse-biased 2N3904 junction in avalanche breakdown, amplified by an LM358 and screened by SP 800-90B health tests, computes ML-DSA-65 (FIPS 204, hedged) on the STM32 with two-share arithmetic masking of the secret-key multiplications, and adds ECDSA P-256 from an ATECC608 secure element over the same digest, once a person has matched an eight-digit digest prefix on its OLED with the PC and pressed a button. A desktop application and a command-line tool drive the board and verify its output, and because only a 32-byte manifest digest reaches the device, it signs files of any type and size, returning signed copies for PDF, Office Open XML, ZIP, PNG and JPEG files and detached records for every other format. NIST's SP 800-90B tool rejected the IID assumption for 1,000,000 raw samples and assessed 6.898 bits of min-entropy per byte on the non-IID track, against the 1 bit the firmware credits, while spectral lines near 116 Hz that hold about 5 % of the variance remain unexplained. At 168 MHz the masked signature took a median of 157 ms over 20 runs and a complete signing operation under 0.8 s, and the signer matched the pq-crystals reference in 1,976 checks natively and on an emulated Cortex-M4. The ATECC608 can neither store the 4,032-byte ML-DSA-65 key nor compute with it, so that key sits in ordinary flash behind readout protection, and on an earlier board, before that protection was enabled, a debugger copied it out and the copy produced a valid ML-DSA-65 signature without the device, although the leakage results come from an instruction-level emulator and nothing here is certified.",
+          "contribution": "Zirah is a hardware signer built around an STM32F407 microcontroller, and its purpose is to find out, on inexpensive hardware, where a post-quantum signing key is exposed and what actually protects it. The device draws every random bit from a reverse-biased 2N3904 junction in avalanche breakdown, amplified by an LM358 and screened by SP 800-90B health tests, computes ML-DSA-65 (FIPS 204, hedged) on the STM32 with two-share arithmetic masking of the secret-key multiplications, and adds ECDSA P-256 from an ATECC608 secure element over the same digest, once a person has matched an eight-digit digest prefix on its OLED with the PC and pressed a button. A desktop application and a command-line tool drive the board and verify its output, and because only a 32-byte manifest digest reaches the device, it signs files of any type and size, returning signed copies for PDF, Office Open XML, ZIP, PNG and JPEG files and detached records for every other format. NIST's SP 800-90B tool rejected the IID assumption for 1,000,000 raw samples and assessed 6.898 bits of min-entropy per byte on the non-IID track, against the 1 bit the firmware credits, while spectral lines near 116 Hz that hold about 5 % of the variance remain unexplained. At 168 MHz the masked signature took a median of 157 ms over 20 runs and a complete signing operation under 0.8 s, and the signer matched the pq-crystals reference in 1,976 checks natively and on an emulated Cortex-M4. The ATECC608 can neither store the 4,032-byte ML-DSA-65 key nor compute with it, so that key sits in ordinary flash behind readout protection, and on an earlier board, before that protection was enabled, a debugger copied it out and the copy produced a valid ML-DSA-65 signature without the device, although the leakage results come from an instruction-level emulator and nothing here is certified.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Digital Security Under Compound Threats: Surveillance, Threat Reasoning, and Habituation Among North Korean Defectors in China",
+          "authors": [
+            "Yibo Meng",
+            "Bingyi Liu",
+            "Lionel Z. Wang",
+            "Hongkun Yang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-05",
+          "url": "https://arxiv.org/abs/2611.07576",
+          "source": "arXiv",
+          "arxivId": "2611.07576",
+          "summary": "North Korean defectors residing in China face persistent uncertainty regarding digital security and privacy. Through semi-structured interviews with 19 defectors, we examine how individuals understand digital threats and adapt their security behaviors. We identify three interrelated conditions: transnational surveillance pressure from North Korea, identity-linked digital infrastructure and intermediary dependency in China, and threat reasoning shaped by prior surveillance schemas. Participants developed uneven protective practices and followed two trajectories: adaptive habituation driven by knowledge acquisition and erosive habituation driven by the prolonged absence of adverse events. Our findings show how compound threats, attribution uncertainty, and constrained agency shape security reasoning among undocumented users.",
+          "contribution": "North Korean defectors residing in China face persistent uncertainty regarding digital security and privacy. Through semi-structured interviews with 19 defectors, we examine how individuals understand digital threats and adapt their security behaviors. We identify three interrelated conditions: transnational surveillance pressure from North Korea, identity-linked digital infrastructure and intermediary dependency in China, and threat reasoning shaped by prior surveillance schemas. Participants developed uneven protective practices and followed two trajectories: adaptive habituation driven by knowledge acquisition and erosive habituation driven by the prolonged absence of adverse events. Our findings show how compound threats, attribution uncertainty, and constrained agency shape security reasoning among undocumented users.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "GTAFL: Addressing Test-Agnostic Long-Tailed Federated Learning in Medical Image",
+          "authors": [
+            "Guangyu Chen",
+            "Jingyun Zeng",
+            "Hui Jiang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-05",
+          "url": "https://arxiv.org/abs/2611.08021",
+          "source": "arXiv",
+          "doi": "10.1109/JBHI.2026.3693747",
+          "arxivId": "2611.08021",
+          "summary": "In healthcare, protecting patient privacy is crucial due to the sensitivity of medical data and its extensive accessibility. Federated Learning (FL) offers a decentralized and privacy-preserving training paradigm, making it an ideal solution for healthcare applications. A critical challenge in healthcare is that real-world medical data often exhibits long-tailed distributions in local and global views. Existing methods addressing long-tailed FL problem typically assume that the model will be evaluated on uniform test data distribution. However, practical test data in healthcare systems is often agnostic and unpredictable, leading to potential model failures in real-world scenarios. In this paper, we introduce a novel task termed Test-Agnostic Long-Tailed Federated Learning and propose GTAFL, a comprehensive framework to address this challenge. During the training stage, GTAFL employs adaptive re-sampling, expert classifier retraining, and self-supervised learning to correct biased classifiers and distorted feature spaces caused by long-tailed training distributions. During the inference stage, an ensemble mechanism combines retrained expert classifiers to handle test data with unknown distributions. Extensive experiments on CIFAR10 and two medical datasets manifest that our framework outperforms other state-of-the-art methods. The code is available at https://github.com/cgy-lavine/GTAFL",
+          "contribution": "In healthcare, protecting patient privacy is crucial due to the sensitivity of medical data and its extensive accessibility. Federated Learning (FL) offers a decentralized and privacy-preserving training paradigm, making it an ideal solution for healthcare applications. A critical challenge in healthcare is that real-world medical data often exhibits long-tailed distributions in local and global views. Existing methods addressing long-tailed FL problem typically assume that the model will be evaluated on uniform test data distribution. However, practical test data in healthcare systems is often agnostic and unpredictable, leading to potential model failures in real-world scenarios. In this paper, we introduce a novel task termed Test-Agnostic Long-Tailed Federated Learning and propose GTAFL, a comprehensive framework to address this challenge. During the training stage, GTAFL employs adaptive re-sampling, expert classifier retraining, and self-supervised learning to correct biased classifiers and distorted feature spaces caused by long-tailed training distributions. During the inference stage, an ensemble mechanism combines retrained expert classifiers to handle test data with unknown distributions. Extensive experiments on CIFAR10 and two medical datasets manifest that our framework outperforms other state-of-the-art methods. The code is available at https://github.com/cgy-lavine/GTAFL",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "SphereFlow: Missing Modality Imputation via Geometric Transport on Hypersphere",
+          "authors": [
+            "Huihan Wang",
+            "Juncheng Wang",
+            "Yuxiang Feng",
+            "Wenlong Hou",
+            "Guoqi Yu",
+            "Chao Xu",
+            "Yang Liu",
+            "Baigui Sun",
+            "Shujun Wang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-03",
+          "url": "https://arxiv.org/abs/2611.04414",
+          "source": "arXiv",
+          "arxivId": "2611.04414",
+          "summary": "Missing modality imputation aims to synthesize unobserved modalities from observed ones. Existing methods treat each modality as living on its own latent manifold, forcing the generator to learn a long, unstructured jump between them. We present SphereFlow, which takes a fundamentally different view: by projecting all modalities into a shared hyperspherical latent space via a frozen self-supervised encoder, cross-modal imputation reduces to short-range geometric transport between nearby points on the sphere. Realizing this idea with flow matching, however, exposes two geometric conflicts: the standard Gaussian noise source is catastrophically mismatched with the unit-norm data manifold, and the linear interpolation path departs the sphere surface into a region where the decoder has no training signal. We resolve both with simple, geometry-aware modifications: replacing the noise source with the observed-modality latent so that the velocity field learns only the cross-modal displacement, and training the decoder with a time-weighted loss that extends its domain to the near-surface region traversed by the flow. We prove that this data-as-source formulation reduces the worst-case off-manifold deviation from a quantity that grows with the latent dimension to a small, dimension-independent bound governed by inter-modality similarity. Experiments on BraTS multi-modal MRI imputation and CT-MRI translation demonstrate state-of-the-art generation fidelity across all settings, while downstream brain tumor segmentation with our imputed data closes roughly eighty percent of the gap to the full-modality oracle. Code is available at https://github.com/WTHH031230/SphereFlow.",
+          "contribution": "Missing modality imputation aims to synthesize unobserved modalities from observed ones. Existing methods treat each modality as living on its own latent manifold, forcing the generator to learn a long, unstructured jump between them. We present SphereFlow, which takes a fundamentally different view: by projecting all modalities into a shared hyperspherical latent space via a frozen self-supervised encoder, cross-modal imputation reduces to short-range geometric transport between nearby points on the sphere. Realizing this idea with flow matching, however, exposes two geometric conflicts: the standard Gaussian noise source is catastrophically mismatched with the unit-norm data manifold, and the linear interpolation path departs the sphere surface into a region where the decoder has no training signal. We resolve both with simple, geometry-aware modifications: replacing the noise source with the observed-modality latent so that the velocity field learns only the cross-modal displacement, and training the decoder with a time-weighted loss that extends its domain to the near-surface region traversed by the flow. We prove that this data-as-source formulation reduces the worst-case off-manifold deviation from a quantity that grows with the latent dimension to a small, dimension-independent bound governed by inter-modality similarity. Experiments on BraTS multi-modal MRI imputation and CT-MRI translation demonstrate state-of-the-art generation fidelity across all settings, while downstream brain tumor segmentation with our imputed data closes roughly eighty percent of the gap to the full-modality oracle. Code is available at https://github.com/WTHH031230/SphereFlow.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Lightweight ASCON-Based Authentication for Secure Internet of Medical Things With XAI",
+          "authors": [
+            "Miada Almasre"
+          ],
+          "venue": "IEEE Internet of Things Journal",
+          "venueId": "J18",
+          "publishedDate": "2026-11-01",
+          "url": "https://doi.org/10.1109/jiot.2026.3724825",
+          "source": "Crossref",
+          "doi": "10.1109/jiot.2026.3724825",
+          "summary": "This paper examines Lightweight ASCON-Based Authentication for Secure Internet of Medical Things With XAI.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-07",
       "generatedAt": "2026-11-07T14:29:33.876757+03:00",
       "papers": [
@@ -4710,5 +4825,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-07T14:29:33.876757+03:00"
+  "updatedAt": "2026-11-08T14:40:24.755743+03:00"
 }
