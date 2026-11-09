@@ -25,6 +25,174 @@
   ],
   "days": [
     {
+      "date": "2026-11-09",
+      "generatedAt": "2026-11-09T16:36:02.412053+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Interpretable Context-Aware Multi-Label Retinal Classification with Dual-Hub Heterogeneous Graph Neural Network",
+          "authors": [
+            "Proshanto Chanda",
+            "Munib Mesinovic",
+            "Tingting Zhu",
+            "Abhirup Banerjee"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-06",
+          "url": "https://arxiv.org/abs/2611.09309",
+          "source": "arXiv",
+          "arxivId": "2611.09309",
+          "summary": "Multi-label retinal screening requires capturing co-occurring pathologies and clinical context, yet standard multimodal fusion remains opaque. We propose a dual-hub heterogeneous graph neural network (GNN) that couples spatial fundus features and structured clinical covariates through cross-modal message passing while providing inherent interpretability. Rather than relying on post-hoc saliency approximations, our architecture exposes multi-level decision pathways during forward aggregation: spatially biased self-attention captures lesion-level patch interactions, while modality-specific graph attention coefficients explicitly quantify the contribution of visual regions and clinical risk factors to each disease node. Evaluated on the BRSET dataset (16,266 photographs from 8,524 patients), the proposed model achieves 76.1% Macro-AUPRC across seven conditions, matching or exceeding image-only (75.9%) and ResNet-50+MLP fusion (75.9%) baselines, with largest contextual gains in macular edema (+3.5%) and diabetic retinopathy (+2.1%). Codebase is available at: https://github.com/proshanto-c/ca-mlc-refactor.",
+          "contribution": "Multi-label retinal screening requires capturing co-occurring pathologies and clinical context, yet standard multimodal fusion remains opaque. We propose a dual-hub heterogeneous graph neural network (GNN) that couples spatial fundus features and structured clinical covariates through cross-modal message passing while providing inherent interpretability. Rather than relying on post-hoc saliency approximations, our architecture exposes multi-level decision pathways during forward aggregation: spatially biased self-attention captures lesion-level patch interactions, while modality-specific graph attention coefficients explicitly quantify the contribution of visual regions and clinical risk factors to each disease node. Evaluated on the BRSET dataset (16,266 photographs from 8,524 patients), the proposed model achieves 76.1% Macro-AUPRC across seven conditions, matching or exceeding image-only (75.9%) and ResNet-50+MLP fusion (75.9%) baselines, with largest contextual gains in macular edema (+3.5%) and diabetic retinopathy (+2.1%). Codebase is available at: https://github.com/proshanto-c/ca-mlc-refactor.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Empirical Assessment of Post-Quantum Cryptography Adoption Status in TLS",
+          "authors": [
+            "Md Ariful Haque",
+            "Sander Vinberg",
+            "Ben Edwards",
+            "João Cruz"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-06",
+          "url": "https://arxiv.org/abs/2611.09707",
+          "source": "arXiv",
+          "arxivId": "2611.09707",
+          "summary": "Anticipating Q-day security concerns, major CDNs and cloud providers are migrating to post-quantum cryptography (PQC). While existing literature benchmarks PQC performance, empirical research evaluating real-world adoption data remains scarce. We present an empirical assessment of PQC deployment across seven critical protocols (HTTPS, LDAPS, SMTPS, IMAP-SSL, POP3-SSL, TELNETS, and RDP) using 10,000 target IP addresses per protocol. At the origin-server level, PQC algorithm support reaches 9.1% for HTTPS and 7.39% for LDAPS, while falling below 1% for all other evaluated protocols. At the entity level, PQC support is 11% for HTTPS and 5.4% for LDAPS, while the remaining protocols have less than 5% of entities supporting PQC on the hosted servers. We further correlate these adoption trends against organizational digital and financial footprint, and industry sectors, yielding a multi-dimensional empirical assessment of PQC deployment. Finally, at the domain level, we perform a comparative analysis of PQC adoption in Cloudflare-hosted domains against baseline Cloudflare datasets. Collectively, our findings provide critical insights into the current state of PQC readiness over Transport Layer Security (TLS).",
+          "contribution": "Anticipating Q-day security concerns, major CDNs and cloud providers are migrating to post-quantum cryptography (PQC). While existing literature benchmarks PQC performance, empirical research evaluating real-world adoption data remains scarce. We present an empirical assessment of PQC deployment across seven critical protocols (HTTPS, LDAPS, SMTPS, IMAP-SSL, POP3-SSL, TELNETS, and RDP) using 10,000 target IP addresses per protocol. At the origin-server level, PQC algorithm support reaches 9.1% for HTTPS and 7.39% for LDAPS, while falling below 1% for all other evaluated protocols. At the entity level, PQC support is 11% for HTTPS and 5.4% for LDAPS, while the remaining protocols have less than 5% of entities supporting PQC on the hosted servers. We further correlate these adoption trends against organizational digital and financial footprint, and industry sectors, yielding a multi-dimensional empirical assessment of PQC deployment. Finally, at the domain level, we perform a comparative analysis of PQC adoption in Cloudflare-hosted domains against baseline Cloudflare datasets. Collectively, our findings provide critical insights into the current state of PQC readiness over Transport Layer Security (TLS).",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "A Cross-Domain TARA-to-NAC Rule Mapping Methodology: From Automotive OEM Networks to Energy Storage Systems",
+          "authors": [
+            "Krishna Teja Medam",
+            "Thiago Quinelato"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-06",
+          "url": "https://arxiv.org/abs/2611.09771",
+          "source": "arXiv",
+          "arxivId": "2611.09771",
+          "summary": "Threat analysis and risk assessment under ISO/SAE 21434 ends with cybersecurity goals, but existing methods give little structured guidance for turning those goals into enforceable network access control rules. Compliance standards such as IEC 62443, ISO/SAE 21434, and ISO/IEC 27001 are usually applied as parallel efforts rather than as one enforcement architecture. This paper presents a six-step methodology that maps cybersecurity goals from a threat analysis and risk assessment to network access control rules, each placed at a named enforcement point and traceable to the threat records behind it. It also presents a unified compliance framework that treats IEC 62443 and ISO/IEC 27001 as a fixed substrate and domain-specific regulation as an interchangeable overlay. The methodology is applied to an automotive original equipment manufacturer plant network, addressing multi-tier supplier authorization and legacy operational technology devices, and then to utility-scale battery energy storage, where North American Electric Reliability Corporation Critical Infrastructure Protection standards and ISO/IEC 27019 replace the automotive-specific standard while the substrate stays constant. In the automotive example, 37 threat entries and 24 cybersecurity goals yield 23 rules covering 11 of the 13 in-scope goals; the energy example yields six rules. Three derived rules have no equivalent in the cited standards. Both examples are desk-based: the methodology is applied to them, not tested on them. The result is a reusable pattern for translating risk assessment into enforcement across critical infrastructure sectors, with empirical validation left as future work.",
+          "contribution": "Threat analysis and risk assessment under ISO/SAE 21434 ends with cybersecurity goals, but existing methods give little structured guidance for turning those goals into enforceable network access control rules. Compliance standards such as IEC 62443, ISO/SAE 21434, and ISO/IEC 27001 are usually applied as parallel efforts rather than as one enforcement architecture. This paper presents a six-step methodology that maps cybersecurity goals from a threat analysis and risk assessment to network access control rules, each placed at a named enforcement point and traceable to the threat records behind it. It also presents a unified compliance framework that treats IEC 62443 and ISO/IEC 27001 as a fixed substrate and domain-specific regulation as an interchangeable overlay. The methodology is applied to an automotive original equipment manufacturer plant network, addressing multi-tier supplier authorization and legacy operational technology devices, and then to utility-scale battery energy storage, where North American Electric Reliability Corporation Critical Infrastructure Protection standards and ISO/IEC 27019 replace the automotive-specific standard while the substrate stays constant. In the automotive example, 37 threat entries and 24 cybersecurity goals yield 23 rules covering 11 of the 13 in-scope goals; the energy example yields six rules. Three derived rules have no equivalent in the cited standards. Both examples are desk-based: the methodology is applied to them, not tested on them. The result is a reusable pattern for translating risk assessment into enforcement across critical infrastructure sectors, with empirical validation left as future work.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Breaking the Privacy Promise: Gradient Inversion Attacks on Federated Low-Rank Adapted Vision Transformers",
+          "authors": [
+            "Ritik K. Badiya",
+            "Siladittya Manna",
+            "Ashmit Sinha",
+            "M Yashwanth",
+            "Anirban Chakraborty"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-06",
+          "url": "https://arxiv.org/abs/2611.09652",
+          "source": "arXiv",
+          "arxivId": "2611.09652",
+          "summary": "Parameter-efficient fine-tuning (PEFT) has been increasingly adopted to fine-tune pretrained models with low computational cost and is therefore also preferred in the federated learning paradigm to reduce computational and communication overhead. In this work, we investigate the sparsely explored problem of the risk of private data leakage in LoRA-adapted Vision Transformers (ViTs), where low-rank updates weaken the gradient signal available to a server with access to individual client updates. We show that quality of reconstruction is limited by two coupled ambiguities: reduced information in LoRA gradients and missing spatial cues from frozen positional embeddings. To address this, we propose a spatially anchored generative inversion framework that incorporates server-prescribed trainable positional embeddings into ViT blocks during fine-tuning at clients. The resulting positional gradients act as layer-wise spatial anchors, providing additional positional cues, while the generative prior keeps reconstructions on a realistic image manifold, reducing duplicate-data and patch-permutation artifacts, {which produce similar gradients as those produced when the target client images are used}. Adding our proposed spatial anchoring to GIAS improves PSNR by 10.14 dB, SSIM by 0.45, and LPIPS by 0.098 on CIFAR-10, as well as PSNR gains of 7.83 and 11.74 dB on high-resolution CelebA and CARS datasets, respectively, in the FedSGD setting. Such gains in reconstructed image quality metrics are also maintained at higher batch sizes and in FedAvg settings. These results indicate that LoRA-based PEFT does not, by itself, prevent data leakage in FL, and carefully incorporated positional embeddings can help in exposing private information.",
+          "contribution": "Parameter-efficient fine-tuning (PEFT) has been increasingly adopted to fine-tune pretrained models with low computational cost and is therefore also preferred in the federated learning paradigm to reduce computational and communication overhead. In this work, we investigate the sparsely explored problem of the risk of private data leakage in LoRA-adapted Vision Transformers (ViTs), where low-rank updates weaken the gradient signal available to a server with access to individual client updates. We show that quality of reconstruction is limited by two coupled ambiguities: reduced information in LoRA gradients and missing spatial cues from frozen positional embeddings. To address this, we propose a spatially anchored generative inversion framework that incorporates server-prescribed trainable positional embeddings into ViT blocks during fine-tuning at clients. The resulting positional gradients act as layer-wise spatial anchors, providing additional positional cues, while the generative prior keeps reconstructions on a realistic image manifold, reducing duplicate-data and patch-permutation artifacts, {which produce similar gradients as those produced when the target client images are used}. Adding our proposed spatial anchoring to GIAS improves PSNR by 10.14 dB, SSIM by 0.45, and LPIPS by 0.098 on CIFAR-10, as well as PSNR gains of 7.83 and 11.74 dB on high-resolution CelebA and CARS datasets, respectively, in the FedSGD setting. Such gains in reconstructed image quality metrics are also maintained at higher batch sizes and in FedAvg settings. These results indicate that LoRA-based PEFT does not, by itself, prevent data leakage in FL, and carefully incorporated positional embeddings can help in exposing private information.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Region-aware error triage for medical image segmentation with groupwise conformal risk control",
+          "authors": [
+            "Nishi Kanta Paul",
+            "Md Shihabul Islam Shovo",
+            "Hoileong Lee"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-06",
+          "url": "https://arxiv.org/abs/2611.08962",
+          "source": "arXiv",
+          "arxivId": "2611.08962",
+          "summary": "Segmentation masks are increasingly reviewed rather than redrawn, which requires knowing where a mask is likely wrong. Learned error maps rank pixels by risk, but the number of pixels to warn is chosen ad hoc, and calibrating one warning threshold over all error pixels may leave errors far from the predicted contour under-flagged. We propose RACE-Triage, a post-hoc error triage framework that leaves the segmentation mask unchanged. A risk network is trained on out-of-fold predictions from backbone-independent inputs. The predicted contour partitions each image into a boundary band and a non-boundary region, and conformal risk control is applied separately in each region to bound the expected fraction of missed errors among cases with errors there. On ISIC 2018 dermoscopy and BUSI breast ultrasound (where patient identifiers are unavailable, so independence across images is assumed), pooled control met its overall target but missed on average 31.8% and 36.4% of non-boundary errors. Regional control reduced these fractions to 19.3% and 20.9% and raised the recall of size-filtered false-negative components from 0.722 to 0.818 and from 0.611 to 0.763. The mean warned area grew by 1.6 and 4.9 percentage points, and its 95th percentile reached 23.5% and 38.5%. The effect held across three seeds and a second backbone, and area-matched heuristics did not reproduce it. On the external PH$^2$ set, frozen thresholds exceeded both targets, whereas recalibration with 100 local images brought the mean over repeated splits below them. Regional calibration improves non-boundary error coverage at a measured increase in warned area.",
+          "contribution": "Segmentation masks are increasingly reviewed rather than redrawn, which requires knowing where a mask is likely wrong. Learned error maps rank pixels by risk, but the number of pixels to warn is chosen ad hoc, and calibrating one warning threshold over all error pixels may leave errors far from the predicted contour under-flagged. We propose RACE-Triage, a post-hoc error triage framework that leaves the segmentation mask unchanged. A risk network is trained on out-of-fold predictions from backbone-independent inputs. The predicted contour partitions each image into a boundary band and a non-boundary region, and conformal risk control is applied separately in each region to bound the expected fraction of missed errors among cases with errors there. On ISIC 2018 dermoscopy and BUSI breast ultrasound (where patient identifiers are unavailable, so independence across images is assumed), pooled control met its overall target but missed on average 31.8% and 36.4% of non-boundary errors. Regional control reduced these fractions to 19.3% and 20.9% and raised the recall of size-filtered false-negative components from 0.722 to 0.818 and from 0.611 to 0.763. The mean warned area grew by 1.6 and 4.9 percentage points, and its 95th percentile reached 23.5% and 38.5%. The effect held across three seeds and a second backbone, and area-matched heuristics did not reproduce it. On the external PH$^2$ set, frozen thresholds exceeded both targets, whereas recalibration with 100 local images brought the mean over repeated splits below them. Regional calibration improves non-boundary error coverage at a measured increase in warned area.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "The Expanding Battlefield of Microarchitectural Vulnerabilities: A Survey on Defining and Reducing the Timing Side-Channel Attack Surface through Vulnerability Assessment and Simulation",
+          "authors": [
+            "Mahreen Khan",
+            "Muhammad Awais",
+            "Nathanaël Simon",
+            "Maria Mushtaq",
+            "Lirida Naviner",
+            "Renaud Pacalet",
+            "Ludovic Apvrille",
+            "Jawad Haj Yahya",
+            "Florent Bruguier",
+            "Pascal Benoit"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-09",
+          "url": "https://doi.org/10.1145/3861333",
+          "source": "Crossref",
+          "doi": "10.1145/3861333",
+          "summary": "Novel Microarchitectural Timing-based Side Channel Attacks (MTSCAs) are being discovered each year, taking advantage of performance features in microarchitectures. The increasingly complex System-on-Chip (SoC) designs, the wide range of customer-available CPUs, and the rise of RISC-V are creating an ever-expanding attack surface for MTSCAs, making the detection and mitigation of MTSCAs fall short compared to the rate of newly discovered attacks. To reduce the attack surface, we recommend prioritizing the identification and analysis of the underlying vulnerabilities with the help of vulnerability assessment and simulation tools. In this work, we provide a comprehensive survey of MTSCAs, with a focus on the exploited vulnerabilities underneath. Then, we define and evaluate the attack surface of currently available architectures, and highlight the challenges to reduce it. We demonstrate that vulnerability assessment is fundamental for this objective and propose an overview of the existing techniques and frameworks available, along with their respective attack surface coverage. Finally, we identify simulation as a key direction for vulnerability assessment and highlight how gem5 simulation can provide valuable insight into attacks in order, enabling more effective vulnerability analysis.",
+          "contribution": "Novel Microarchitectural Timing-based Side Channel Attacks (MTSCAs) are being discovered each year, taking advantage of performance features in microarchitectures. The increasingly complex System-on-Chip (SoC) designs, the wide range of customer-available CPUs, and the rise of RISC-V are creating an ever-expanding attack surface for MTSCAs, making the detection and mitigation of MTSCAs fall short compared to the rate of newly discovered attacks. To reduce the attack surface, we recommend prioritizing the identification and analysis of the underlying vulnerabilities with the help of vulnerability assessment and simulation tools. In this work, we provide a comprehensive survey of MTSCAs, with a focus on the exploited vulnerabilities underneath. Then, we define and evaluate the attack surface of currently available architectures, and highlight the challenges to reduce it. We demonstrate that vulnerability assessment is fundamental for this objective and propose an overview of the existing techniques and frameworks available, along with their respective attack surface coverage. Finally, we identify simulation as a key direction for vulnerability assessment and highlight how gem5 simulation can provide valuable insight into attacks in order, enabling more effective vulnerability analysis.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Multimodal cell foundation models require synergistic integration beyond alignment",
+          "authors": [
+            "Till Richter",
+            "Eric Zimmermann",
+            "James Hall",
+            "Fabian J. Theis",
+            "Srivatsan Raghavan",
+            "Peter S. Winter",
+            "Ava P. Amini",
+            "Lorin Crawford"
+          ],
+          "venue": "Nature Machine Intelligence",
+          "venueId": "J05",
+          "publishedDate": "2026-11-09",
+          "url": "https://doi.org/10.1038/s42256-026-01328-3",
+          "source": "Crossref",
+          "doi": "10.1038/s42256-026-01328-3",
+          "summary": "Abstract \n                   Integrating measurements across modalities and scales into unified quantitative frameworks of cellular function is a central goal in computational biology. Although powerful unimodal foundation models exist, the scarcity of large-scale paired data limits joint multimodal training. This constraint favours compositional foundation models, which fuse frozen unimodal experts through a learned interface. However, it remains unclear when such fusion provides task-relevant information beyond the strongest unimodal representation rather than merely aggregating redundant signal. Here we introduce Synergistic Information Score, a metric grounded in partial information decomposition that quantifies information gain arising only from cross-modal interactions. Extending theory from self-supervised learning, we show that standard alignment-based objectives with frozen encoders collapse to detect linear redundancies, which constrains their ability to capture nonlinear synergistic states. This distinction is especially important for tasks that connect tissue morphology with gene expression. Benchmarking ten fusion methods on spatial transcriptomics datasets, we demonstrate that tasks dominated by linear redundancies are well served by unimodal baselines, whereas complex niche definitions benefit from synergy-aware integration. Finally, we perform a scaling analysis and show that fine-tuning a dominant unimodal expert is the most sample-efficient strategy for standard tasks. Together, these results suggest that progress in multimodal modelling of cellular state requires shifting from alignment-based objectives to synergy-driven integration that exploits complementary cross-modal signal.",
+          "contribution": "Abstract \n                   Integrating measurements across modalities and scales into unified quantitative frameworks of cellular function is a central goal in computational biology. Although powerful unimodal foundation models exist, the scarcity of large-scale paired data limits joint multimodal training. This constraint favours compositional foundation models, which fuse frozen unimodal experts through a learned interface. However, it remains unclear when such fusion provides task-relevant information beyond the strongest unimodal representation rather than merely aggregating redundant signal. Here we introduce Synergistic Information Score, a metric grounded in partial information decomposition that quantifies information gain arising only from cross-modal interactions. Extending theory from self-supervised learning, we show that standard alignment-based objectives with frozen encoders collapse to detect linear redundancies, which constrains their ability to capture nonlinear synergistic states. This distinction is especially important for tasks that connect tissue morphology with gene expression. Benchmarking ten fusion methods on spatial transcriptomics datasets, we demonstrate that tasks dominated by linear redundancies are well served by unimodal baselines, whereas complex niche definitions benefit from synergy-aware integration. Finally, we perform a scaling analysis and show that fine-tuning a dominant unimodal expert is the most sample-efficient strategy for standard tasks. Together, these results suggest that progress in multimodal modelling of cellular state requires shifting from alignment-based objectives to synergy-driven integration that exploits complementary cross-modal signal.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-08",
       "generatedAt": "2026-11-08T14:40:24.755743+03:00",
       "papers": [
@@ -4825,5 +4993,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-08T14:40:24.755743+03:00"
+  "updatedAt": "2026-11-09T16:36:02.412053+03:00"
 }
