@@ -25,6 +25,138 @@
   ],
   "days": [
     {
+      "date": "2026-11-10",
+      "generatedAt": "2026-11-10T16:13:54.756721+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Conditional Diffusion-Based Proxy Representation Recovery for BCVA Prediction with Missing SLO Modality",
+          "authors": [
+            "Chuyi He",
+            "Hua Zou",
+            "Fei Luo",
+            "Zixian Yang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-08",
+          "url": "https://arxiv.org/abs/2611.11326",
+          "source": "arXiv",
+          "arxivId": "2611.11326",
+          "summary": "Preoperative prediction of postoperative best-corrected visual acuity (BCVA) can support prognosis assessment and individualized decision-making in cataract surgery. Multimodal learning can integrate preoperative optical coherence tomography (OCT) images, scanning laser ophthalmoscopy (SLO) images, and clinical text to characterize patient status. However, SLO images are often missing in real-world clinical data due to acquisition or data-management issues, resulting in incomplete multimodal inputs. To address this problem, this paper proposes a conditional diffusion-based method for SLO proxy representation recovery and fusion prediction. Instead of reconstructing raw SLO images, the proposed method formulates SLO missingness as proxy representation recovery in the latent feature space. Specifically, OCT image features and clinical text features are first fused to construct an OCT-text conditional representation, which guides the reverse denoising process of the diffusion model to estimate sample-specific SLO proxy representations. The recovered SLO proxy representation is then used as a substitute for the unavailable SLO modality and incorporated into the downstream multimodal fusion prediction network for postoperative BCVA prediction. Experiments were conducted on 2,141 preoperative multimodal cataract samples, with an SLO missing rate of 58.80%. The proposed method achieved an accuracy of 0.9714 under the criterion of an absolute prediction error within 0.1 LogMAR and a mean absolute error of 0.0423, outperforming representative postoperative visual acuity prediction and missing-modality learning methods. These results indicate that representation-level proxy recovery can alleviate the impact of SLO modality missingness on postoperative BCVA prediction.",
+          "contribution": "Preoperative prediction of postoperative best-corrected visual acuity (BCVA) can support prognosis assessment and individualized decision-making in cataract surgery. Multimodal learning can integrate preoperative optical coherence tomography (OCT) images, scanning laser ophthalmoscopy (SLO) images, and clinical text to characterize patient status. However, SLO images are often missing in real-world clinical data due to acquisition or data-management issues, resulting in incomplete multimodal inputs. To address this problem, this paper proposes a conditional diffusion-based method for SLO proxy representation recovery and fusion prediction. Instead of reconstructing raw SLO images, the proposed method formulates SLO missingness as proxy representation recovery in the latent feature space. Specifically, OCT image features and clinical text features are first fused to construct an OCT-text conditional representation, which guides the reverse denoising process of the diffusion model to estimate sample-specific SLO proxy representations. The recovered SLO proxy representation is then used as a substitute for the unavailable SLO modality and incorporated into the downstream multimodal fusion prediction network for postoperative BCVA prediction. Experiments were conducted on 2,141 preoperative multimodal cataract samples, with an SLO missing rate of 58.80%. The proposed method achieved an accuracy of 0.9714 under the criterion of an absolute prediction error within 0.1 LogMAR and a mean absolute error of 0.0423, outperforming representative postoperative visual acuity prediction and missing-modality learning methods. These results indicate that representation-level proxy recovery can alleviate the impact of SLO modality missingness on postoperative BCVA prediction.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Brief introduction to post-quantum cryptography in industrial applications",
+          "authors": [
+            "Mateusz Żarski",
+            "Jarosław Miszczak",
+            "Cédric Crettaz",
+            "Adela Georgescu",
+            "Deepak V. Katkoria",
+            "Ruxandra F. Olimid",
+            "Mihai Prunescu",
+            "Maria Slim",
+            "Silviu Laurentiu Vasile",
+            "Stella Wohnig"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-09",
+          "url": "https://arxiv.org/abs/2611.12479",
+          "source": "arXiv",
+          "arxivId": "2611.12479",
+          "summary": "The development of Post-Quantum Cryptography (PQC) is directly motivated by the necessity to secure information in the face of the quantum threat. This paper provides an overview of recent developments relevant to PQC adoption across several industrial applications, including IoT, healthcare, civil and infrastructure engineering, and defense. We present a brief, self-contained overview of PQC and its market positioning. We perform implementation experiments on selected quantum-safe methods and quantify several aspects, such as the quantum resources required to break common cryptographic schemes, as well as the performance of the most well-known PQC algorithms. We also discuss the resistance of different PQC classes to quantum attacks and the status of PQC implementations in different programming languages. Finally, we present benchmark results on KEMs and signature algorithms to help select the appropriate algorithm for a specific application based on criteria such as algorithm performance, data lifetime, and level of data sensitivity.",
+          "contribution": "The development of Post-Quantum Cryptography (PQC) is directly motivated by the necessity to secure information in the face of the quantum threat. This paper provides an overview of recent developments relevant to PQC adoption across several industrial applications, including IoT, healthcare, civil and infrastructure engineering, and defense. We present a brief, self-contained overview of PQC and its market positioning. We perform implementation experiments on selected quantum-safe methods and quantify several aspects, such as the quantum resources required to break common cryptographic schemes, as well as the performance of the most well-known PQC algorithms. We also discuss the resistance of different PQC classes to quantum attacks and the status of PQC implementations in different programming languages. Finally, we present benchmark results on KEMs and signature algorithms to help select the appropriate algorithm for a specific application based on criteria such as algorithm performance, data lifetime, and level of data sensitivity.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Towards Lightweight IoT Intrusion Detection: Feature Optimization and Explainable Machine Learning for Resource-Constrained Environment",
+          "authors": [
+            "Shaker Nawasra",
+            "Munther Abualkibash"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-07",
+          "url": "https://arxiv.org/abs/2611.10707",
+          "source": "arXiv",
+          "doi": "10.1109/Cyber-AI70573.2026.11755189",
+          "arxivId": "2611.10707",
+          "summary": "Machine learning-based intrusion detection systems (IDSs) can improve IoT security but often rely on large feature sets that increase computational overhead and limit deployment on resource-constrained devices. This paper presents a resource-efficient and explainable feature optimization framework for lightweight IoT intrusion detection using the CICIoT2023 dataset. A Random Forest model was used to rank feature importance and identify compact feature subsets. Experimental results show that a three-feature model achieved an MCC of 0.9622 while reducing the feature space by 92.1%, whereas a six feature model achieved an MCC of 0.9675 with an 84.2% reduction. Furthermore, a fifteen-feature model achieved an MCC of 0.9744, preserving 99.97% of the performance of the full 38-feature baseline model while reducing the feature space by 60.5%. SHAP-based explainability analysis validated the selected features and provided interpretable insights into model decisions. The results demonstrate that lightweight, explainable, and high-performance IoT intrusion detection can be achieved using only a small subset of carefully selected features, significantly reducing resource requirements with minimal loss of detection effectiveness.",
+          "contribution": "Machine learning-based intrusion detection systems (IDSs) can improve IoT security but often rely on large feature sets that increase computational overhead and limit deployment on resource-constrained devices. This paper presents a resource-efficient and explainable feature optimization framework for lightweight IoT intrusion detection using the CICIoT2023 dataset. A Random Forest model was used to rank feature importance and identify compact feature subsets. Experimental results show that a three-feature model achieved an MCC of 0.9622 while reducing the feature space by 92.1%, whereas a six feature model achieved an MCC of 0.9675 with an 84.2% reduction. Furthermore, a fifteen-feature model achieved an MCC of 0.9744, preserving 99.97% of the performance of the full 38-feature baseline model while reducing the feature space by 60.5%. SHAP-based explainability analysis validated the selected features and provided interpretable insights into model decisions. The results demonstrate that lightweight, explainable, and high-performance IoT intrusion detection can be achieved using only a small subset of carefully selected features, significantly reducing resource requirements with minimal loss of detection effectiveness.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Optimal Byzantine-resilient Federated Learning with User-level Differential Privacy",
+          "authors": [
+            "Ming Xiang",
+            "Stratis Ioannidis",
+            "Edmund Yeh",
+            "Carlee Joe-Wong",
+            "Lili Su"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-07",
+          "url": "https://arxiv.org/abs/2611.10898",
+          "source": "arXiv",
+          "arxivId": "2611.10898",
+          "summary": "Real-world deployment of federated learning (FL) requires resilience against adversarial clients and data privacy. Byzantine fault captures the worst-case behavior of adversarial clients, while differential privacy (DP) provides statistical guarantees against privacy loss. In particular, user-level DP guards a client's entire contribution and provides more realistic protection against information leakage. Despite intensive efforts, the minimax-optimal convergence bound of Byzantine-resilient FL with user-level DP remains open. We establish an information-theoretic lower bound for any Byzantine-resilient empirical risk minimization problem under user-level DP and heterogeneous clients. We propose ByzULDP, a central DP algorithm featuring a two-level momentum across the client and server. Client-side momentum mitigates stochastic gradient variance during robust aggregation. Unlike the fault-free case, naively combining non-linear Byzantine-resilient aggregation with central DP noise can be insufficient to guarantee convergence to a bounded neighborhood of a stationary point. Our key contribution is a server-side momentum that leverages a property specific to user-level DP, where privacy sensitivity depends on how client updates are constructed, to empower convergence. ByzULDP achieves the order-optimal convergence bound for strongly-convex objectives, with vanishing error terms decaying at the optimal $O(1/T)$ and $O(1/ qrt{T})$ rates for strongly-convex and non-convex objectives, respectively. We corroborate our analysis with numerical experiments on real-world datasets across diverse privacy budgets.",
+          "contribution": "Real-world deployment of federated learning (FL) requires resilience against adversarial clients and data privacy. Byzantine fault captures the worst-case behavior of adversarial clients, while differential privacy (DP) provides statistical guarantees against privacy loss. In particular, user-level DP guards a client's entire contribution and provides more realistic protection against information leakage. Despite intensive efforts, the minimax-optimal convergence bound of Byzantine-resilient FL with user-level DP remains open. We establish an information-theoretic lower bound for any Byzantine-resilient empirical risk minimization problem under user-level DP and heterogeneous clients. We propose ByzULDP, a central DP algorithm featuring a two-level momentum across the client and server. Client-side momentum mitigates stochastic gradient variance during robust aggregation. Unlike the fault-free case, naively combining non-linear Byzantine-resilient aggregation with central DP noise can be insufficient to guarantee convergence to a bounded neighborhood of a stationary point. Our key contribution is a server-side momentum that leverages a property specific to user-level DP, where privacy sensitivity depends on how client updates are constructed, to empower convergence. ByzULDP achieves the order-optimal convergence bound for strongly-convex objectives, with vanishing error terms decaying at the optimal $O(1/T)$ and $O(1/ qrt{T})$ rates for strongly-convex and non-convex objectives, respectively. We corroborate our analysis with numerical experiments on real-world datasets across diverse privacy budgets.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Weight-Space Programming for Medical Imaging: Do We Still Need Training Data?",
+          "authors": [
+            "Maximilian Lindholz",
+            "Richard Ruppel",
+            "Annette Milnik",
+            "Sebastian Halskov",
+            "Semil Eminovic",
+            "Charlie A. Hamm",
+            "Robin Schmidt",
+            "Anika Knupfer",
+            "Jana Hutter",
+            "Johanna P. Müller",
+            "Carolina Dominguez Aleixo",
+            "Jawed Nawabi",
+            "Jens Vogel-Claussen",
+            "Tobias Penzkofer"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-09",
+          "url": "https://arxiv.org/abs/2611.12066",
+          "source": "arXiv",
+          "arxivId": "2611.12066",
+          "summary": "Can a large language model (LLM) write the parameters of a medical image classifier from medical knowledge alone, without any training data? Such classifiers normally require labelled images, which are costly and often unavailable. We investigate this question through weight-space programming (WSP), in which an LLM writes or adapts the weights and biases of a neural network directly, without optimisation on training data. Claude Opus 5.5 and GPT-6 Astra each generate the parameters of a small LeNet-style CNN in a single reply, without tool use and without access to any image. We compare these networks against zero-shot MedSigLIP and against the same architecture trained on labels using the Adam optimiser, across 7 classification tasks in four modalities: chest X-ray, breast ultrasound and abdominal CT (all from MedMNIST), and pelvic MRI (SynthUterus). The LLM-written networks perform above chance on all six MedMNIST tasks, with a mean test AUC of 0.719 for Opus and 0.711 for Astra. Both models outperform MedSigLIP on 5 of 6 tasks while using more than 10,000 times fewer parameters. However, the same network trained with Adam on only 256 labelled images achieves a higher AUC on every MedMNIST task (mean AUC 0.828). On SynthUterus, Opus attains an AUC of 0.764, whereas Astra falls below chance (AUC 0.136) owing to a systematic error. These results show that LLMs can write functional medical classifiers, but that they do not yet replace training data. We release the protocol, logs and all generated weights at https://github.com/MaximilianLindholz/weight-space-programming-medical.",
+          "contribution": "Can a large language model (LLM) write the parameters of a medical image classifier from medical knowledge alone, without any training data? Such classifiers normally require labelled images, which are costly and often unavailable. We investigate this question through weight-space programming (WSP), in which an LLM writes or adapts the weights and biases of a neural network directly, without optimisation on training data. Claude Opus 5.5 and GPT-6 Astra each generate the parameters of a small LeNet-style CNN in a single reply, without tool use and without access to any image. We compare these networks against zero-shot MedSigLIP and against the same architecture trained on labels using the Adam optimiser, across 7 classification tasks in four modalities: chest X-ray, breast ultrasound and abdominal CT (all from MedMNIST), and pelvic MRI (SynthUterus). The LLM-written networks perform above chance on all six MedMNIST tasks, with a mean test AUC of 0.719 for Opus and 0.711 for Astra. Both models outperform MedSigLIP on 5 of 6 tasks while using more than 10,000 times fewer parameters. However, the same network trained with Adam on only 256 labelled images achieves a higher AUC on every MedMNIST task (mean AUC 0.828). On SynthUterus, Opus attains an AUC of 0.764, whereas Astra falls below chance (AUC 0.136) owing to a systematic error. These results show that LLMs can write functional medical classifiers, but that they do not yet replace training data. We release the protocol, logs and all generated weights at https://github.com/MaximilianLindholz/weight-space-programming-medical.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-09",
       "generatedAt": "2026-11-09T16:36:02.412053+03:00",
       "papers": [
@@ -4993,5 +5125,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-09T16:36:02.412053+03:00"
+  "updatedAt": "2026-11-10T16:13:54.756721+03:00"
 }
