@@ -25,6 +25,149 @@
   ],
   "days": [
     {
+      "date": "2026-11-11",
+      "generatedAt": "2026-11-11T15:25:08.801485+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Evidential Deep Learning with conditional entropy for glaucoma detection",
+          "authors": [
+            "Hai Siong Tan",
+            "Kuancheng Wang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-10",
+          "url": "https://arxiv.org/abs/2611.13513",
+          "source": "arXiv",
+          "arxivId": "2611.13513",
+          "summary": "We propose a novel conditional entropy function as a basis for quantifying predictive uncertainty in Evidential Deep Learning (EDL) for glaucoma detection from retinal fundus images. Using the EyePACS-AIROGS-light-V2 and RIM-ONE-DL datasets for validation, we found that our proposed EDL model regularized by conditional entropy function produced uncertainty estimates with substantially lower calibration errors than Deep Ensembles, MC Dropout, post-hoc calibration and the conventional EDL framework based on Dempster uncertainty. To further probe our models' interpretability, we analyzed Grad-CAM heatmaps using a focus index representing spatial concentration. Compared with the other uncertainty quantification methods, EDL models exhibited greater separation between the index distributions of correctly and incorrectly classified fundus images. In particular, false negatives were associated with localized Grad-CAM activations that were displaced from the optic disc, consistent with its established clinical importance in glaucoma assessment. Overall, our findings suggest that our proposed EDL framework for glaucoma detection provides not only enhanced uncertainty calibration but also admits a more physiologically consistent interpretability.",
+          "contribution": "We propose a novel conditional entropy function as a basis for quantifying predictive uncertainty in Evidential Deep Learning (EDL) for glaucoma detection from retinal fundus images. Using the EyePACS-AIROGS-light-V2 and RIM-ONE-DL datasets for validation, we found that our proposed EDL model regularized by conditional entropy function produced uncertainty estimates with substantially lower calibration errors than Deep Ensembles, MC Dropout, post-hoc calibration and the conventional EDL framework based on Dempster uncertainty. To further probe our models' interpretability, we analyzed Grad-CAM heatmaps using a focus index representing spatial concentration. Compared with the other uncertainty quantification methods, EDL models exhibited greater separation between the index distributions of correctly and incorrectly classified fundus images. In particular, false negatives were associated with localized Grad-CAM activations that were displaced from the optic disc, consistent with its established clinical importance in glaucoma assessment. Overall, our findings suggest that our proposed EDL framework for glaucoma detection provides not only enhanced uncertainty calibration but also admits a more physiologically consistent interpretability.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "An Agile Homomorphic Encryption and ML-KEM Scheme for Privacy-Preserving Health Data Processing",
+          "authors": [
+            "Daniel Resende",
+            "Nadia El Mrabet",
+            "Ulrich K{ü}hne"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-09",
+          "url": "https://arxiv.org/abs/2611.12367",
+          "source": "arXiv",
+          "arxivId": "2611.12367",
+          "summary": "The storage and processing of health data raise serious privacy concerns; therefore, the data must be encrypted. Fully Homomorphic Encryption (FHE) allows computations on encrypted data, which makes it a very promising technology in this context. However, although the efficiency of FHE algorithms has improved in recent years, they remain very complex. The security of several prominent FHE schemes is based on variants of the Learning With Errors (LWE) problem, which is also the basis of Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), the new post-quantum standard for asymmetric encryption. In this paper, we propose an agile cryptographic scheme -combining ML-KEM and BGV -that allows efficient implementations in an embedded use case. We describe the parameter selection for the proposed scheme and show its feasibility with a proof-of-concept implementation.",
+          "contribution": "The storage and processing of health data raise serious privacy concerns; therefore, the data must be encrypted. Fully Homomorphic Encryption (FHE) allows computations on encrypted data, which makes it a very promising technology in this context. However, although the efficiency of FHE algorithms has improved in recent years, they remain very complex. The security of several prominent FHE schemes is based on variants of the Learning With Errors (LWE) problem, which is also the basis of Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), the new post-quantum standard for asymmetric encryption. In this paper, we propose an agile cryptographic scheme -combining ML-KEM and BGV -that allows efficient implementations in an embedded use case. We describe the parameter selection for the proposed scheme and show its feasibility with a proof-of-concept implementation.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "PQ-VAULT: A Post-Quantum Cybersecurity Layer for Vein Biometric Authentication with Cancelable BioHash and Multi-Layer Bloom Filters",
+          "authors": [
+            "Raniah Ali Mustafa",
+            "Tarek Abbes"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-11-11",
+          "url": "https://doi.org/10.3390/jcp6060200",
+          "source": "Crossref",
+          "doi": "10.3390/jcp6060200",
+          "summary": "Vein recognition exceeds 99% classification accuracy, yet the layer that transmits the feature vector, protects the stored template and manages the session is rarely specified. PQ-VAULT is a security layer above an arbitrary feature extractor. It combines a SIGMA-I key exchange over X25519 with Ed25519 identities and an optional ML-KEM-768 hybrid; a parametric authenticated encryption channel instantiated with Ascon-AEAD128, or with Trivium for minimum-area deployments; a cancelable BioHash stabilized by a Reed–Solomon fuzzy commitment; and a four-layer Bloom filter utilized only as a negative pre-filter, every positive confirmed against an exact set before it authorizes. Five theorems bound the guarantees, and both handshake variants are machine-verified in ProVerif. Hybridization protects key establishment only; entity authentication rests on Ed25519 and is not post-quantum. Against the legacy DH-2048 design in the same run the layer completes in 1.65±0.43 ms versus 92.40±5.63 ms. On released InceptionResNet-V2 vein features, acceptance collapses to 26.7–44.8% at 23.3–44.8% false acceptance; on a provenance-controlled encoder it reaches 66.1±5.7% at 4.8±2.2% over twenty tokens on unseen identities, against 95.4±1.3% closed-set.",
+          "contribution": "Vein recognition exceeds 99% classification accuracy, yet the layer that transmits the feature vector, protects the stored template and manages the session is rarely specified. PQ-VAULT is a security layer above an arbitrary feature extractor. It combines a SIGMA-I key exchange over X25519 with Ed25519 identities and an optional ML-KEM-768 hybrid; a parametric authenticated encryption channel instantiated with Ascon-AEAD128, or with Trivium for minimum-area deployments; a cancelable BioHash stabilized by a Reed–Solomon fuzzy commitment; and a four-layer Bloom filter utilized only as a negative pre-filter, every positive confirmed against an exact set before it authorizes. Five theorems bound the guarantees, and both handshake variants are machine-verified in ProVerif. Hybridization protects key establishment only; entity authentication rests on Ed25519 and is not post-quantum. Against the legacy DH-2048 design in the same run the layer completes in 1.65±0.43 ms versus 92.40±5.63 ms. On released InceptionResNet-V2 vein features, acceptance collapses to 26.7–44.8% at 23.3–44.8% false acceptance; on a provenance-controlled encoder it reaches 66.1±5.7% at 4.8±2.2% over twenty tokens on unseen identities, against 95.4±1.3% closed-set.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Communication-Learning Co-Design for Pinching-Antenna-Assisted Federated Learning in Heterogeneous Wireless Networks",
+          "authors": [
+            "Shuai Wang",
+            "Wenxuan Sun",
+            "Mingjie Shao",
+            "Wantao Jiang",
+            "Yanqing Xu",
+            "Lingxiang Li",
+            "Zhi Chen"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-10",
+          "url": "https://arxiv.org/abs/2611.13987",
+          "source": "arXiv",
+          "arxivId": "2611.13987",
+          "summary": "Wireless federated learning (FL) suffers from two coupled bottlenecks: statistical heterogeneity across clients and communication-constrained model synchronization over unreliable wireless links. Instead of focusing on algorithmic design and/or wireless resource optimization, this paper provides a systematic study of pinching antenna (PA)-empowered FL for heterogeneous wireless networks and develops a unified communication-and-learning framework. Specifically, we integrate a segmented waveguide-enabled pinching antenna (SWAN) architecture with a heterogeneity-robust FL algorithm based on client variance reduction and dual quantization, so as to jointly mitigate communication bottlenecks and client drift. On this basis, we further develop a two-stage SWAN-assisted downlink protocol and formulate fairness-oriented uplink optimization problems for PA positioning, bandwidth allocation, and quantization design. Efficient solution frameworks are then derived for the resulting downlink and uplink optimization problems. Experimental results show the superiority of the proposed design in convergence speed and final accuracy under non-independent and identically distributed data and communication bottlenecks.",
+          "contribution": "Wireless federated learning (FL) suffers from two coupled bottlenecks: statistical heterogeneity across clients and communication-constrained model synchronization over unreliable wireless links. Instead of focusing on algorithmic design and/or wireless resource optimization, this paper provides a systematic study of pinching antenna (PA)-empowered FL for heterogeneous wireless networks and develops a unified communication-and-learning framework. Specifically, we integrate a segmented waveguide-enabled pinching antenna (SWAN) architecture with a heterogeneity-robust FL algorithm based on client variance reduction and dual quantization, so as to jointly mitigate communication bottlenecks and client drift. On this basis, we further develop a two-stage SWAN-assisted downlink protocol and formulate fairness-oriented uplink optimization problems for PA positioning, bandwidth allocation, and quantization design. Efficient solution frameworks are then derived for the resulting downlink and uplink optimization problems. Experimental results show the superiority of the proposed design in convergence speed and final accuracy under non-independent and identically distributed data and communication bottlenecks.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Anatomy-Activated Mixture-of-Experts for 3D Medical Vision-Language Pre-training",
+          "authors": [
+            "Szymon Płotka",
+            "Gizem Mert",
+            "Pedro R. A. S. Bassi",
+            "Wenxuan Li",
+            "Zongwei Zhou",
+            "Anna Marcinkiewicz",
+            "Wiktoria Romańczyk",
+            "Jarosław B. Ćwikła",
+            "Łukasz Struski",
+            "Ewa Szczurek",
+            "Jacek Tabor",
+            "Arkadiusz Sitek"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-07",
+          "url": "https://arxiv.org/abs/2611.10960",
+          "source": "arXiv",
+          "arxivId": "2611.10960",
+          "summary": "Medical Vision-Language Pre-training (VLP) leverages the semantic richness of radiology reports to learn 3D representations, yet current architectures remain fundamentally anatomy-agnostic. While clinical diagnostics rely on organ-specific context, standard encoders apply a uniform, dense parameterization to all volumetric patches, and existing Mixture-of-Experts (MoE) routers gate on isolated local features without explicit access to the organ composition of the scan or crop. We propose Anatomy-Activated Mixture-of-Experts (A$^{2}$MoE), a framework that incorporates anatomical inductive biases within the model's computational path. A$^{2}$MoE introduces two key components: (1) a Histogram Representation Router (HRR) that conditions expert selection on global visual context and a predicted anatomical composition histogram, encouraging anatomy-dependent expert weighting; and (2) an Organ-Query Multi-Scale Projector (OQMSP) that utilizes learnable queries to extract organ-level embeddings for fine-grained alignment without requiring manual annotations at inference. By routing at the patch level rather than the token level, A$^{2}$MoE reduces routing complexity by orders of magnitude while satisfying load balancing by construction. Pre-trained on over 60,000 multi-phase CT scans, A$^{2}$MoE achieves state-of-the-art performance across segmentation, classification, and detection benchmarks. Furthermore, we demonstrate that our anatomically grounded inductive biases support robust generalization to MRI and ultrasound, establishing a scalable foundation for medical representation learning. The code is available at https://github.com/gmum/A2MoE.",
+          "contribution": "Medical Vision-Language Pre-training (VLP) leverages the semantic richness of radiology reports to learn 3D representations, yet current architectures remain fundamentally anatomy-agnostic. While clinical diagnostics rely on organ-specific context, standard encoders apply a uniform, dense parameterization to all volumetric patches, and existing Mixture-of-Experts (MoE) routers gate on isolated local features without explicit access to the organ composition of the scan or crop. We propose Anatomy-Activated Mixture-of-Experts (A$^{2}$MoE), a framework that incorporates anatomical inductive biases within the model's computational path. A$^{2}$MoE introduces two key components: (1) a Histogram Representation Router (HRR) that conditions expert selection on global visual context and a predicted anatomical composition histogram, encouraging anatomy-dependent expert weighting; and (2) an Organ-Query Multi-Scale Projector (OQMSP) that utilizes learnable queries to extract organ-level embeddings for fine-grained alignment without requiring manual annotations at inference. By routing at the patch level rather than the token level, A$^{2}$MoE reduces routing complexity by orders of magnitude while satisfying load balancing by construction. Pre-trained on over 60,000 multi-phase CT scans, A$^{2}$MoE achieves state-of-the-art performance across segmentation, classification, and detection benchmarks. Furthermore, we demonstrate that our anatomically grounded inductive biases support robust generalization to MRI and ultrasound, establishing a scalable foundation for medical representation learning. The code is available at https://github.com/gmum/A2MoE.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Comparing WeChat and Telegram MiniApp Security Architectures: Toward Cross-Platform Analysis",
+          "authors": [
+            "Luca Ferrari",
+            "Billel Habbati",
+            "Luca Verderame"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-10",
+          "url": "https://arxiv.org/abs/2611.13965",
+          "source": "arXiv",
+          "arxivId": "2611.13965",
+          "summary": "MiniApps are increasingly central to super-app ecosystems, yet architectural differences complicate the transfer of security analysis techniques across platforms. Existing WeChat analyzers rely on packaged applications and platform-specific APIs, limiting their direct applicability to Telegram's web-based MiniApps. We present a qualitative comparison of WeChat Mini Programs and Telegram MiniApps, grounded in official documentation, prior research, and manual analysis of a specific Telegram Android source revision. Using a shared taxonomy of security controls, assets, and threat sources, we examine execution environments, communication paths, and trust boundaries. WeChat provides a dedicated MiniApp runtime; Telegram combines web execution with host controls. Both retain developer responsibilities for backend authentication and resource authorization. Two worked examples derive requirements for cross-platform analysis: distinguishing credential roles and validation boundaries, and associating host capabilities with concrete execution contexts and permission handlers. These findings inform future automated analysis without ranking the ecosystems by security or claiming validated vulnerability detection.",
+          "contribution": "MiniApps are increasingly central to super-app ecosystems, yet architectural differences complicate the transfer of security analysis techniques across platforms. Existing WeChat analyzers rely on packaged applications and platform-specific APIs, limiting their direct applicability to Telegram's web-based MiniApps. We present a qualitative comparison of WeChat Mini Programs and Telegram MiniApps, grounded in official documentation, prior research, and manual analysis of a specific Telegram Android source revision. Using a shared taxonomy of security controls, assets, and threat sources, we examine execution environments, communication paths, and trust boundaries. WeChat provides a dedicated MiniApp runtime; Telegram combines web execution with host controls. Both retain developer responsibilities for backend authentication and resource authorization. Two worked examples derive requirements for cross-platform analysis: distinguishing credential roles and validation boundaries, and associating host capabilities with concrete execution contexts and permission handlers. These findings inform future automated analysis without ranking the ecosystems by security or claiming validated vulnerability detection.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-10",
       "generatedAt": "2026-11-10T16:13:54.756721+03:00",
       "papers": [
@@ -5125,5 +5268,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-10T16:13:54.756721+03:00"
+  "updatedAt": "2026-11-11T15:25:08.801485+03:00"
 }
