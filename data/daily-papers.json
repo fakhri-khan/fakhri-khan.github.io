@@ -25,6 +25,185 @@
   ],
   "days": [
     {
+      "date": "2026-11-12",
+      "generatedAt": "2026-11-12T16:31:10.454450+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Comparative Evaluation of Deep Learning Models for Geographic Atrophy Segmentation in En Face OCT Images",
+          "authors": [
+            "Utkarsh Doshi",
+            "Adarsh Gadari",
+            "Sharat Chandra Vupparaboina",
+            "Joseph DeCicco",
+            "Giulia Gregori",
+            "Nicola Valsecchi",
+            "Nasiq Hasan",
+            "Elham Sadeghi",
+            "Josè-Alain Sahel",
+            "Jay Chhablani",
+            "Kiran Kumar Vupparaboina",
+            "Sandeep Chandra Bollepalli"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-09",
+          "url": "https://arxiv.org/abs/2611.13191",
+          "source": "arXiv",
+          "arxivId": "2611.13191",
+          "summary": "Background: Geographic atrophy (GA) is an advanced form of age-related macular degeneration (AMD). It causes irreversible vision loss due to progressive degeneration of the retinal pigment epithelium (RPE) and photoreceptors. Accurate segmentation of GA in en-face image is crucial for early diagnosis, monitoring disease progression, and developing personalized treatment strategies. However, existing deep learning approaches are typically evaluated using single architectures and single-device datasets, limiting insight into relative performance and cross-device robustness. Methods: We trained and systematically compared five deep learning architectures for GA segmentation: Nested U-Net, ResU-Net, nnUnet, Swin-Unet and MedSegDiff model, together with a thresholding based classical baseline. The models were trained on a dataset of en-face OCT images derived from 269 OCT volumes from two different devices, following a three-step preprocessing technique involving normalization and inpainting to enhance the quality of the en-face images. Results: On the fixed held-out validation set comprising OCT scans from both Cirrus (R) (Carl Zeiss Meditec, Inc., USA) and Spectralis (R) (Heidelberg Engineering, Germany) devices, nnUnet achieved the highest mean Dice similarity coefficient (DSC) of 0.8882 +/- 0.0033. The other models yielded the following Dice scores: Nested U-Net (0.7932 +/- 0.0423), ResU-Net (0.8453 +/- 0.0074), Swin-Unet (0.6886 +/- 0.0294), and Diffusion model (0.7959 +/- 0.0242). Conclusions: nnUnet framework, demonstrated most reliable performance for GA segmentation in en-face OCT under limited data conditions. It offers the best balance of accuracy, stability, and efficiency for GA quantification.",
+          "contribution": "Background: Geographic atrophy (GA) is an advanced form of age-related macular degeneration (AMD). It causes irreversible vision loss due to progressive degeneration of the retinal pigment epithelium (RPE) and photoreceptors. Accurate segmentation of GA in en-face image is crucial for early diagnosis, monitoring disease progression, and developing personalized treatment strategies. However, existing deep learning approaches are typically evaluated using single architectures and single-device datasets, limiting insight into relative performance and cross-device robustness. Methods: We trained and systematically compared five deep learning architectures for GA segmentation: Nested U-Net, ResU-Net, nnUnet, Swin-Unet and MedSegDiff model, together with a thresholding based classical baseline. The models were trained on a dataset of en-face OCT images derived from 269 OCT volumes from two different devices, following a three-step preprocessing technique involving normalization and inpainting to enhance the quality of the en-face images. Results: On the fixed held-out validation set comprising OCT scans from both Cirrus (R) (Carl Zeiss Meditec, Inc., USA) and Spectralis (R) (Heidelberg Engineering, Germany) devices, nnUnet achieved the highest mean Dice similarity coefficient (DSC) of 0.8882 +/- 0.0033. The other models yielded the following Dice scores: Nested U-Net (0.7932 +/- 0.0423), ResU-Net (0.8453 +/- 0.0074), Swin-Unet (0.6886 +/- 0.0294), and Diffusion model (0.7959 +/- 0.0242). Conclusions: nnUnet framework, demonstrated most reliable performance for GA segmentation in en-face OCT under limited data conditions. It offers the best balance of accuracy, stability, and efficiency for GA quantification.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Reconfiguring System-Level Protection Through Bounded Delegation in RISC-V MCUs",
+          "authors": [
+            "Luís Cunha",
+            "José Martins",
+            "Manuel Rodríguez",
+            "Tiago Gomes",
+            "Uwe Moslehner",
+            "Kai Dieffenbach",
+            "Georg Schmalz",
+            "Kajetan Nuernberger",
+            "Thomas Roecker",
+            "Sandro Pinto"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-09",
+          "url": "https://arxiv.org/abs/2611.12622",
+          "source": "arXiv",
+          "arxivId": "2611.12622",
+          "summary": "MCU-based embedded and cyber-physical systems increasingly require protection policies to change at runtime as resources, software, and system composition evolve. Yet widely used COTS MCU protection mechanisms are still largely designed around statically established policies. While they can restrict which domains modify protection primitives, they generally do not constrain what policy an authorized domain may create. As a result, domains may expand protection rules beyond their intended scope or interfere with boundaries established by other domains. We identify bounded configuration authority as a missing primitive for secure dynamic policy evolution and introduce an ownership-aware model in which explicit ownership and rule containment bound both configuration authority and recursive delegation. Changes to active protection-rule ranges are validated before commit, preserving protection boundaries without extending the normal access-checking datapath. We implement the model in an open-source RISC-V World Checker integrated into a CVA6-based SoC. Our FPGA evaluation shows no degradation in access latency or operating frequency, with 7.1% LUT and 1.2% FF overhead for eight rules. In an OTA update case study, direct reconfiguration under delegated authority reduces policy-transition latency by 89.5% over hypervisor mediation and 94.6% over trusted firmware mediation, while preserving established authority boundaries. All artifacts will be open-sourced to support the evolution of RISC-V specifications and system-level protection designs.",
+          "contribution": "MCU-based embedded and cyber-physical systems increasingly require protection policies to change at runtime as resources, software, and system composition evolve. Yet widely used COTS MCU protection mechanisms are still largely designed around statically established policies. While they can restrict which domains modify protection primitives, they generally do not constrain what policy an authorized domain may create. As a result, domains may expand protection rules beyond their intended scope or interfere with boundaries established by other domains. We identify bounded configuration authority as a missing primitive for secure dynamic policy evolution and introduce an ownership-aware model in which explicit ownership and rule containment bound both configuration authority and recursive delegation. Changes to active protection-rule ranges are validated before commit, preserving protection boundaries without extending the normal access-checking datapath. We implement the model in an open-source RISC-V World Checker integrated into a CVA6-based SoC. Our FPGA evaluation shows no degradation in access latency or operating frequency, with 7.1% LUT and 1.2% FF overhead for eight rules. In an OTA update case study, direct reconfiguration under delegated authority reduces policy-transition latency by 89.5% over hypervisor mediation and 94.6% over trusted firmware mediation, while preserving established authority boundaries. All artifacts will be open-sourced to support the evolution of RISC-V specifications and system-level protection designs.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Lightweight Vulnerability-Aware Malware Triage: Operational Value and Generalization Under Family and Temporal Shift",
+          "authors": [
+            "Mehdi Kmiti",
+            "Jallal-Eddine Moussaoui",
+            "Yassine Maleh",
+            "Khalid El Gholami"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-11-12",
+          "url": "https://doi.org/10.3390/jcp6060201",
+          "source": "Crossref",
+          "doi": "10.3390/jcp6060201",
+          "summary": "Security operations require effective prioritization of malware samples that warrant deeper investigation. This study evaluates whether five Portable Executable (PE) metadata features—Packed, Entropy, Packer, Compiler, and Linker—can support lightweight vulnerability-aware triage using PEVuln. After hash-based deduplication, 35,800 unique samples remained, including 559 vulnerability-associated samples. Leakage-safe pipelines evaluated a prior baseline, logistic regression, Random Forest, Extra Trees, and LightGBM under random, family-disjoint, and chronological holdout protocols. Hyperparameters were selected by five-fold cross-validation using Average Precision (AP), thresholds on separate validation data using F2, and uncertainty by 1000 stratified-bootstrap repetitions. Under random evaluation, tree ensembles achieved AP of 0.253–0.255, about 16 times prevalence, while a 5% Random Forest review budget recovered 50% of positives. The highest test AP fell to 0.118 under family-disjoint evaluation and 0.015 chronologically. Feature analyses showed strong complementarity: Entropy alone achieved AP 0.0212, yet removing it reduced full-model AP from 0.2553 to 0.1695. A matched cohort comparison demonstrated superior predictive performance for EMBER, while the five-feature representation retained useful ranking capability at a 5% review budget under both random and family-disjoint evaluation. This representation provides useful first-stage ranking signal but limited robustness under family and chronological shift.",
+          "contribution": "Security operations require effective prioritization of malware samples that warrant deeper investigation. This study evaluates whether five Portable Executable (PE) metadata features—Packed, Entropy, Packer, Compiler, and Linker—can support lightweight vulnerability-aware triage using PEVuln. After hash-based deduplication, 35,800 unique samples remained, including 559 vulnerability-associated samples. Leakage-safe pipelines evaluated a prior baseline, logistic regression, Random Forest, Extra Trees, and LightGBM under random, family-disjoint, and chronological holdout protocols. Hyperparameters were selected by five-fold cross-validation using Average Precision (AP), thresholds on separate validation data using F2, and uncertainty by 1000 stratified-bootstrap repetitions. Under random evaluation, tree ensembles achieved AP of 0.253–0.255, about 16 times prevalence, while a 5% Random Forest review budget recovered 50% of positives. The highest test AP fell to 0.118 under family-disjoint evaluation and 0.015 chronologically. Feature analyses showed strong complementarity: Entropy alone achieved AP 0.0212, yet removing it reduced full-model AP from 0.2553 to 0.1695. A matched cohort comparison demonstrated superior predictive performance for EMBER, while the five-feature representation retained useful ranking capability at a 5% review budget under both random and family-disjoint evaluation. This representation provides useful first-stage ranking signal but limited robustness under family and chronological shift.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Byzantine-Robust Muon: Resilient Momentum Orthogonalization for Distributed Learning",
+          "authors": [
+            "Grigory Malinovsky",
+            "Yury Demidovich",
+            "Peter Richtárik"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-09",
+          "url": "https://arxiv.org/abs/2611.13137",
+          "source": "arXiv",
+          "arxivId": "2611.13137",
+          "summary": "Optimization methods, including the Muon optimizer based on the Linear Minimization Oracle (LMO) and momentum orthogonalization, have shown strong empirical performance in large-scale and distributed learning, yet their robustness to adversarial behavior and data heterogeneity is not well understood. We study these methods within a unified first-order trust-region framework and analyze Muon-based updates with robust aggregation for Byzantine-robust distributed and federated learning. Our analysis does not rely on the i.i.d. assumption and introduces a non-Euclidean notion of heterogeneity consistent with the trust-region geometry. Under this framework, we establish convergence guarantees for both general non-convex and star-convex objectives. Our results provide a theoretical characterization of Byzantine-robust Muon-based optimization, with an additive heterogeneity error floor consistent with known impossibility results, under explicit aggregation assumptions. Under an explicit additive oracle-error condition, the guarantees also cover inexact orthogonalization, with the non-convex Byzantine terms in the bound's numerator unchanged but a smaller progress denominator. In simulated federated training with ResNet-18 and ViT-Tiny on CIFAR-10, additional image benchmarks, and a 38M-parameter byte-level language model on TinyStories, the tested Muon configuration attains higher attacked accuracy (lower perplexity) than the tested SGD and normalized-SGD configurations, and than sign updates on CIFAR-10. Fixed-honest controls further show a substantial RFA advantage over averaging under a bounded RFA-query attack, higher attacked accuracy for Muon-NS than tensorwise Euclidean normalization from shared checkpoints, and lower held-out TinyStories perplexity than a tuned AdamW baseline.",
+          "contribution": "Optimization methods, including the Muon optimizer based on the Linear Minimization Oracle (LMO) and momentum orthogonalization, have shown strong empirical performance in large-scale and distributed learning, yet their robustness to adversarial behavior and data heterogeneity is not well understood. We study these methods within a unified first-order trust-region framework and analyze Muon-based updates with robust aggregation for Byzantine-robust distributed and federated learning. Our analysis does not rely on the i.i.d. assumption and introduces a non-Euclidean notion of heterogeneity consistent with the trust-region geometry. Under this framework, we establish convergence guarantees for both general non-convex and star-convex objectives. Our results provide a theoretical characterization of Byzantine-robust Muon-based optimization, with an additive heterogeneity error floor consistent with known impossibility results, under explicit aggregation assumptions. Under an explicit additive oracle-error condition, the guarantees also cover inexact orthogonalization, with the non-convex Byzantine terms in the bound's numerator unchanged but a smaller progress denominator. In simulated federated training with ResNet-18 and ViT-Tiny on CIFAR-10, additional image benchmarks, and a 38M-parameter byte-level language model on TinyStories, the tested Muon configuration attains higher attacked accuracy (lower perplexity) than the tested SGD and normalized-SGD configurations, and than sign updates on CIFAR-10. Fixed-honest controls further show a substantial RFA advantage over averaging under a bounded RFA-query attack, higher attacked accuracy for Muon-NS than tensorwise Euclidean normalization from shared checkpoints, and lower held-out TinyStories perplexity than a tuned AdamW baseline.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Can General-Purpose Generative AI Supply Training Data for Medical Vision Models? A Multimodal Retrospective Study",
+          "authors": [
+            "Jiachuan Peng",
+            "Kyle Lam",
+            "Jierui Qu",
+            "Lin Li",
+            "Haining Zheng",
+            "Bang Zheng",
+            "Aniruddha Agarwal",
+            "Zaki Almallah",
+            "Min Chen",
+            "Vicente Grau",
+            "Hagai Rossman",
+            "Eran Segal",
+            "Jianing Qiu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-07",
+          "url": "https://arxiv.org/abs/2611.10484",
+          "source": "arXiv",
+          "arxivId": "2611.10484",
+          "summary": "Background: Well-annotated, diverse medical imaging datasets remain a major constraint for vision-based medical AI. We evaluated Nano Banana, a general-purpose image generation and editing model, as a source of synthetic medical images for model training, subgroup augmentation, and model auditing. Methods: In this retrospective study across four imaging modalities, chest radiography, fundus photography, and CT models were trained only on synthetic images and externally validated on real-world data against real-data-trained models. Carotid ultrasound models were trained on a private Human Phenotype Project cohort (aged 40-75 years) with and without synthetic augmentation. Clinicians rated image plausibility. Evaluation used AUROC, AUPR, calibration, and decision curve analysis. Findings: Synthetic-only models achieved AUROCs of 0.877 (95% CI 0.843-0.910) for pneumonia (n=14863), 0.963 (0.948-0.975) for retinal detachment (n=1149), and 0.711 (0.600-0.823) for renal calculus (n=4122), comparable to real-data-trained models, but their calibration and net benefit were not consistently more favorable. With mixed synthetic-real training, a carotid ultrasound model produced an ordinal vascular age index that stratified 633 external subjects into subgroups differing in BMI and glucose (both p<0.01), linking vascular aging to cardiometabolic health. To stress-test shortcut learning, editing a moderate tessellated pattern into fundus photographs reduced the true-class probability for central serous chorioretinopathy from 0.996 to 0.822. Clinician-guided editing raised low-quality CT plausibility from 3.10/5 to 4.30/5. Interpretation: Synthetic data can complement real data in model training, subgroup representation, and model testing via controlled editing, but its clinical value should be assessed with calibration, decision curve analysis, and clinician review, not discrimination alone.",
+          "contribution": "Background: Well-annotated, diverse medical imaging datasets remain a major constraint for vision-based medical AI. We evaluated Nano Banana, a general-purpose image generation and editing model, as a source of synthetic medical images for model training, subgroup augmentation, and model auditing. Methods: In this retrospective study across four imaging modalities, chest radiography, fundus photography, and CT models were trained only on synthetic images and externally validated on real-world data against real-data-trained models. Carotid ultrasound models were trained on a private Human Phenotype Project cohort (aged 40-75 years) with and without synthetic augmentation. Clinicians rated image plausibility. Evaluation used AUROC, AUPR, calibration, and decision curve analysis. Findings: Synthetic-only models achieved AUROCs of 0.877 (95% CI 0.843-0.910) for pneumonia (n=14863), 0.963 (0.948-0.975) for retinal detachment (n=1149), and 0.711 (0.600-0.823) for renal calculus (n=4122), comparable to real-data-trained models, but their calibration and net benefit were not consistently more favorable. With mixed synthetic-real training, a carotid ultrasound model produced an ordinal vascular age index that stratified 633 external subjects into subgroups differing in BMI and glucose (both p<0.01), linking vascular aging to cardiometabolic health. To stress-test shortcut learning, editing a moderate tessellated pattern into fundus photographs reduced the true-class probability for central serous chorioretinopathy from 0.996 to 0.822. Clinician-guided editing raised low-quality CT plausibility from 3.10/5 to 4.30/5. Interpretation: Synthetic data can complement real data in model training, subgroup representation, and model testing via controlled editing, but its clinical value should be assessed with calibration, decision curve analysis, and clinician review, not discrimination alone.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Model-Based Authoring of SOC Simulation Exercises for Cybersecurity Education",
+          "authors": [
+            "Felix Härer"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-10",
+          "url": "https://arxiv.org/abs/2611.14227",
+          "source": "arXiv",
+          "arxivId": "2611.14227",
+          "summary": "Cybersecurity training and classroom exercises with a virtual Security Operations Center (SOC) combine alerts, evidence, timeline entries, learner tasks, and assessment items that must remain consistent across an evolving incident. This paper presents a model-based authoring method in which a technical and educational specification is used to construct an incident exercise model and a large language model (LLM) generates selected scenario text based on that model. The incident exercise model combines an incident model of events, objects, and evidence with an exercise orchestration model of SOC alerts, timeline entries, learner tasks, and assessment items. The method is implemented in a Virtual SOC prototype and evaluated using a phishing-to-ransomware reference exercise. Its incident exercise model contains eight incident events, eight incident objects, six evidence items, seven alerts in five batches, 13 timeline entries including 12 learner tasks, and five representative assessment items. GLM-5.3-generated alert descriptions are inserted and a separate validator checks references, ordering, evidence links, assessment completeness, and selected fixed fields. Validation is demonstrated with reference data, resulting in true-negative outcomes for valid data and true-positive outcomes for deliberately placed inconsistencies. The resulting exercise package is executable within the Virtual SOC learner environment. Overall, the evaluation indicates consistency across the involved model elements and establishes the feasibility of the model-based and generative approach.",
+          "contribution": "Cybersecurity training and classroom exercises with a virtual Security Operations Center (SOC) combine alerts, evidence, timeline entries, learner tasks, and assessment items that must remain consistent across an evolving incident. This paper presents a model-based authoring method in which a technical and educational specification is used to construct an incident exercise model and a large language model (LLM) generates selected scenario text based on that model. The incident exercise model combines an incident model of events, objects, and evidence with an exercise orchestration model of SOC alerts, timeline entries, learner tasks, and assessment items. The method is implemented in a Virtual SOC prototype and evaluated using a phishing-to-ransomware reference exercise. Its incident exercise model contains eight incident events, eight incident objects, six evidence items, seven alerts in five batches, 13 timeline entries including 12 learner tasks, and five representative assessment items. GLM-5.3-generated alert descriptions are inserted and a separate validator checks references, ordering, evidence links, assessment completeness, and selected fixed fields. Validation is demonstrated with reference data, resulting in true-negative outcomes for valid data and true-positive outcomes for deliberately placed inconsistencies. The resulting exercise package is executable within the Virtual SOC learner environment. Overall, the evaluation indicates consistency across the involved model elements and establishes the feasibility of the model-based and generative approach.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Evaluation of a Rapid and Practical Deep Learning Framework for                     T1-weighted MRI-based Brain Age Estimation",
+          "authors": [
+            "Hyun Woo Kim",
+            "Hyun Woong Roh",
+            "Chang Hyung Hong",
+            "Sang Joon Son"
+          ],
+          "venue": "Radiology: Artificial Intelligence",
+          "venueId": "J03",
+          "publishedDate": "2026-11-11",
+          "url": "https://doi.org/10.1148/ryai.260310",
+          "source": "Crossref",
+          "doi": "10.1148/ryai.260310",
+          "summary": "Purpose To develop and evaluate a rapid brain-age estimation framework using freely available Python tools and assess the clinical relevance of brain-age gap (BAG). Materials and Methods In this retrospective study conducted from March 2025 to August 2026, T1-weighted MR images from cohorts of cognitively normal adults ( n = 4,346) were divided into training, validation, and internal test sets; two cohorts ( n = 315 and 209) served as external test sets. Clinical evaluation used the BICWALZS cohort ( n = 954; cognitively normal and various dementias). Preprocessing used freely available Python tools only. The model was trained to predict chronological age as the reference standard. Associations of the residualized BAG with diagnosis, amyloid PET positivity, white matter hyperintensity (WMH) severity, stroke history, and longitudinal clinical worsening were evaluated using ANCOVA, logistic regression, and Cox models. Results The development cohort included 4,346 cognitively normal adults (mean age, 47.0 ± 21.2 years; 2,414 women). Chronological age prediction yielded R\n                       2 \n                      = 0.95 and MAE, 3.76 years in the internal test set and R\n                       2 \n                      = 0.69–0.90 and MAE, 4.82–5.15 years in external test sets. The residualized BAG increased across diagnostic groups ( P &lt; .001) and was associated with WMH severity (odds ratio [OR], 1.64; P &lt; .001) and stroke history (OR, 1.46; P &lt; .001), but not with amyloid positivity after full adjustment ( P = .17), and predicted longitudinal clinical worsening (HR, 1.92). Conclusion The framework accurately predicted age, while residualized BAG was associated with diagnosis, cerebrovascular burden, and longitudinal clinical worsening. © RSNA, 2026",
+          "contribution": "Purpose To develop and evaluate a rapid brain-age estimation framework using freely available Python tools and assess the clinical relevance of brain-age gap (BAG). Materials and Methods In this retrospective study conducted from March 2025 to August 2026, T1-weighted MR images from cohorts of cognitively normal adults ( n = 4,346) were divided into training, validation, and internal test sets; two cohorts ( n = 315 and 209) served as external test sets. Clinical evaluation used the BICWALZS cohort ( n = 954; cognitively normal and various dementias). Preprocessing used freely available Python tools only. The model was trained to predict chronological age as the reference standard. Associations of the residualized BAG with diagnosis, amyloid PET positivity, white matter hyperintensity (WMH) severity, stroke history, and longitudinal clinical worsening were evaluated using ANCOVA, logistic regression, and Cox models. Results The development cohort included 4,346 cognitively normal adults (mean age, 47.0 ± 21.2 years; 2,414 women). Chronological age prediction yielded R\n                       2 \n                      = 0.95 and MAE, 3.76 years in the internal test set and R\n                       2 \n                      = 0.69–0.90 and MAE, 4.82–5.15 years in external test sets. The residualized BAG increased across diagnostic groups ( P &lt; .001) and was associated with WMH severity (odds ratio [OR], 1.64; P &lt; .001) and stroke history (OR, 1.46; P &lt; .001), but not with amyloid positivity after full adjustment ( P = .17), and predicted longitudinal clinical worsening (HR, 1.92). Conclusion The framework accurately predicted age, while residualized BAG was associated with diagnosis, cerebrovascular burden, and longitudinal clinical worsening. © RSNA, 2026",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-11",
       "generatedAt": "2026-11-11T15:25:08.801485+03:00",
       "papers": [
@@ -5268,5 +5447,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-11T15:25:08.801485+03:00"
+  "updatedAt": "2026-11-12T16:31:10.454450+03:00"
 }
