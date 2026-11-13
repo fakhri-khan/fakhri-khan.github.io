@@ -25,6 +25,147 @@
   ],
   "days": [
     {
+      "date": "2026-11-13",
+      "generatedAt": "2026-11-13T15:51:23.830283+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "MICRO: A Surgery-Phase Retinal Image Rigid Registration Benchmark and One-Step Frequency-Structure Similarity Registration Learning",
+          "authors": [
+            "Mingdao Gong",
+            "Yan Hu",
+            "Mingzhen Yuan",
+            "Jialu Zhang",
+            "Junming Feng",
+            "Yiming Jiang",
+            "Jing Ma",
+            "Jinghua Liu",
+            "Huazhu Fu",
+            "Hai Lu",
+            "Xiaoqing Zhang",
+            "Jiang Liu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-09",
+          "url": "https://arxiv.org/abs/2611.13045",
+          "source": "arXiv",
+          "arxivId": "2611.13045",
+          "summary": "Precise multimodal retinal image rigid registration (MRIRG) is essential for aligning cross-modal vessel structures, offering critical guidance for ophthalmic surgery. Despite its significance, the advancement of MRIRG is hindered by the lack of publicly available multimodal retinal image rigid registration datasets spanning various ophthalmic surgery phases (e.g., preoperative, intraoperative, and postoperative). To address this issue, we introduce the MICRO dataset, a large-scale MRIRG benchmark, comprising 1,365 cross-modal retinal image pairs with standardized annotations across all ophthalmic surgery phases. Moreover, existing deep registration methods achieve competitive MRIRG results via a two-step segmentation-then-detection framework, but segmentation quality heavily constrains their performance. We argue that this dependency stems from an implicit need for keypoint topology constraints, which have not been exploited for MRIRG through a one-step registration framework. Inspired by the above analysis, we propose a novel One-step Frequency-Structure Similarity Registration (OFS2Reg) learning framework for MRIRG that leverages the potential of cross-modal vessel structure similarities to construct keypoint topology constraints under a shared detection network. To be specific, OFS2Reg applies a well-designed frequency-guided structure preservation descriptor to construct coarse keypoint topology constraints in descriptors by highlighting significant vessel structures. Additionally, we develop a new cross-modal vessel structure similarity learning method that refines cross-modal keypoint topology constraints to precisely align pixel-level cross-modal vessel structures by leveraging cross-modal vessel structure similarity priors.",
+          "contribution": "Precise multimodal retinal image rigid registration (MRIRG) is essential for aligning cross-modal vessel structures, offering critical guidance for ophthalmic surgery. Despite its significance, the advancement of MRIRG is hindered by the lack of publicly available multimodal retinal image rigid registration datasets spanning various ophthalmic surgery phases (e.g., preoperative, intraoperative, and postoperative). To address this issue, we introduce the MICRO dataset, a large-scale MRIRG benchmark, comprising 1,365 cross-modal retinal image pairs with standardized annotations across all ophthalmic surgery phases. Moreover, existing deep registration methods achieve competitive MRIRG results via a two-step segmentation-then-detection framework, but segmentation quality heavily constrains their performance. We argue that this dependency stems from an implicit need for keypoint topology constraints, which have not been exploited for MRIRG through a one-step registration framework. Inspired by the above analysis, we propose a novel One-step Frequency-Structure Similarity Registration (OFS2Reg) learning framework for MRIRG that leverages the potential of cross-modal vessel structure similarities to construct keypoint topology constraints under a shared detection network. To be specific, OFS2Reg applies a well-designed frequency-guided structure preservation descriptor to construct coarse keypoint topology constraints in descriptors by highlighting significant vessel structures. Additionally, we develop a new cross-modal vessel structure similarity learning method that refines cross-modal keypoint topology constraints to precisely align pixel-level cross-modal vessel structures by leveraging cross-modal vessel structure similarity priors.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "PQC-Corpus: A Dataset of Linked Development Histories for Post-Quantum Cryptography",
+          "authors": [
+            "Souhardya Saha Dip",
+            "Moshood A. Fakorede",
+            "Umar Farooq"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-07",
+          "url": "https://arxiv.org/abs/2611.10966",
+          "source": "arXiv",
+          "arxivId": "2611.10966",
+          "summary": "As post-quantum cryptography (PQC) standards evolve, developers must adapt implementations, tests, and protocols. Studying this work requires connecting code changes to problem reports and developer reviews. We present PQC-Corpus, a dataset of linked development histories from 179 public GitHub repositories, spanning cryptographic libraries and general-purpose projects. It connects issues and closing pull requests to commits and full patches, with comments and reviews. We combine Git histories with GitHub threads, reconstruct 23 pull-request commit lists truncated at 250 entries, and check file integrity, schemas, and links. Two annotators independently assessed sampled commits and issues ($κ=0.86$ and $0.93$), labeling about seven in ten commits and two in three issues PQC-related within these samples. We provide full and filtered views with removal ledgers, and quantify how filtering reduces links from issues to commits. A patch-free view supports inspection before downloading patches, while traversal scripts follow issues to code changes. We make the dataset and collector publicly available for studies of specification changes, hybrid interoperability, cryptographic review, and migration assistance.",
+          "contribution": "As post-quantum cryptography (PQC) standards evolve, developers must adapt implementations, tests, and protocols. Studying this work requires connecting code changes to problem reports and developer reviews. We present PQC-Corpus, a dataset of linked development histories from 179 public GitHub repositories, spanning cryptographic libraries and general-purpose projects. It connects issues and closing pull requests to commits and full patches, with comments and reviews. We combine Git histories with GitHub threads, reconstruct 23 pull-request commit lists truncated at 250 entries, and check file integrity, schemas, and links. Two annotators independently assessed sampled commits and issues ($κ=0.86$ and $0.93$), labeling about seven in ten commits and two in three issues PQC-related within these samples. We provide full and filtered views with removal ledgers, and quantify how filtering reduces links from issues to commits. A patch-free view supports inspection before downloading patches, while traversal scripts follow issues to code changes. We make the dataset and collector publicly available for studies of specification changes, hybrid interoperability, cryptographic review, and migration assistance.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Browser Immune System (BIS): Innate and Adaptive Threat Detection in the Browser with a Cybersecurity Transformer",
+          "authors": [
+            "Víctor Mayoral-Vilches",
+            "Eduardo Worrel"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-11",
+          "url": "https://arxiv.org/abs/2611.15302",
+          "source": "arXiv",
+          "arxivId": "2611.15302",
+          "summary": "Security decisions about a web page are best made where the page is: in the browser, before anything leaves the machine. We present the Browser Immune System (BIS), a browser extension that screens navigation with a cybersecurity transformer running entirely on the user's GPU, and alias-web, the model that powers it: a 4B-parameter model that starts from the dual-regime cybersecurity transformer (CT0), extends its public release alias3-micro with a context-category sensor, and is quantised to 4 bits and compiled to a 2.44 GB graph for WebGPU. alias-web is the first in-browser realisation of that model's typed decision mode, System 1, with its official pieces: the marker-token mapping, the complete pointer head and the final normalisation that the exported graph omits. It answers a typed security question in about 150 ms on a laptop GPU, and the same weights generate explanations at 10.5 tokens/s on demand. BIS treats the model as an immune system: an innate response, one System 1 question per threat class, runs on every page; an adaptive response, System 2 text, explains a verdict only when the user asks. On BISBENCH-8, eight synthetic sites of which six execute real but harmless malicious behaviour and two are adversarial controls, BIS returns the expected page verdict on 7/8 sites with both controls green and a class-level micro-F1 of 0.71, scans a page in 0.9 to 6.4 s, and gives identical verdicts across samples and across Chrome and Firefox. Single-variable diagnostics trace both benchmark errors to what the model was shown and, with a first pass over eleven real public pages, show that two of the seven questions answer yes on ordinary scripts and login forms: specificity on the real web is the open problem. We report every error, the engineering obstacles between a research checkpoint and a working extension, and what the evidence does not yet support.",
+          "contribution": "Security decisions about a web page are best made where the page is: in the browser, before anything leaves the machine. We present the Browser Immune System (BIS), a browser extension that screens navigation with a cybersecurity transformer running entirely on the user's GPU, and alias-web, the model that powers it: a 4B-parameter model that starts from the dual-regime cybersecurity transformer (CT0), extends its public release alias3-micro with a context-category sensor, and is quantised to 4 bits and compiled to a 2.44 GB graph for WebGPU. alias-web is the first in-browser realisation of that model's typed decision mode, System 1, with its official pieces: the marker-token mapping, the complete pointer head and the final normalisation that the exported graph omits. It answers a typed security question in about 150 ms on a laptop GPU, and the same weights generate explanations at 10.5 tokens/s on demand. BIS treats the model as an immune system: an innate response, one System 1 question per threat class, runs on every page; an adaptive response, System 2 text, explains a verdict only when the user asks. On BISBENCH-8, eight synthetic sites of which six execute real but harmless malicious behaviour and two are adversarial controls, BIS returns the expected page verdict on 7/8 sites with both controls green and a class-level micro-F1 of 0.71, scans a page in 0.9 to 6.4 s, and gives identical verdicts across samples and across Chrome and Firefox. Single-variable diagnostics trace both benchmark errors to what the model was shown and, with a first pass over eleven real public pages, show that two of the seven questions answer yes on ordinary scripts and login forms: specificity on the real web is the open problem. We report every error, the engineering obstacles between a research checkpoint and a working extension, and what the evidence does not yet support.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Tokenized Reward Systems for Federated Learning: The Privacy vs. Fairness Tradeoff",
+          "authors": [
+            "Andreas Sendros",
+            "Nikolaos Pavlidis",
+            "Vasilios Perifanis",
+            "Pavlos S. Efraimidis"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-11",
+          "url": "https://arxiv.org/abs/2611.16065",
+          "source": "arXiv",
+          "arxivId": "2611.16065",
+          "summary": "Federated learning (FL) systems increasingly rely on blockchain based reward mechanisms to incentivize participation while preserving data privacy. We design and empirically evaluate two complementary Solidity smart contracts for FL reward distribution: the first one that allocates rewards proportionally to a publicly disclosed quality score, and a privacy preserving variant that hides individual quality scores behind a zero-knowledge (ZK) proof of a threshold condition. Both contracts mint a non transferable, use-and-burn token maintaining a trustless incentive structure. We evaluate the two designs through MNIST training with adversarial behavior, including Sybil attacks, zero gradient and random noise, across three independent random seeds.\n  Our results reveal a fundamental tradeoff between cryptographic privacy and incentive fairness. The privacy preserving architecture strictly degrades system robustness, doubling the adversary's average reward capture while introducing severe outcome variance. This vulnerability is driven by a structural self-inclusion bias within cosine-similarity scoring: as the global model converges, legitimate gradient updates naturally diminish, rendering them statistically indistinguishable from bounded noise. Adversaries exploit this dynamic to systematically breach the ZK threshold, triggering a late stage failure cascade that culminates in absolute adversary monopoly over the reward pool and the total exclusion of honest contributors. Alongside a closed-form theorem formalizing this privacy--Sybil resistance tradeoff, we map strict mainnet deployment boundaries via linear gas scaling models, explicitly incorporating the post-Fusaka EIP-7825 per transaction gas cap. Ultimately, while cryptographically secure, static threshold ZK gates fail as incentive layer fairness mechanisms under realistic FL convergence dynamics on standard benchmarks.",
+          "contribution": "Federated learning (FL) systems increasingly rely on blockchain based reward mechanisms to incentivize participation while preserving data privacy. We design and empirically evaluate two complementary Solidity smart contracts for FL reward distribution: the first one that allocates rewards proportionally to a publicly disclosed quality score, and a privacy preserving variant that hides individual quality scores behind a zero-knowledge (ZK) proof of a threshold condition. Both contracts mint a non transferable, use-and-burn token maintaining a trustless incentive structure. We evaluate the two designs through MNIST training with adversarial behavior, including Sybil attacks, zero gradient and random noise, across three independent random seeds.\n  Our results reveal a fundamental tradeoff between cryptographic privacy and incentive fairness. The privacy preserving architecture strictly degrades system robustness, doubling the adversary's average reward capture while introducing severe outcome variance. This vulnerability is driven by a structural self-inclusion bias within cosine-similarity scoring: as the global model converges, legitimate gradient updates naturally diminish, rendering them statistically indistinguishable from bounded noise. Adversaries exploit this dynamic to systematically breach the ZK threshold, triggering a late stage failure cascade that culminates in absolute adversary monopoly over the reward pool and the total exclusion of honest contributors. Alongside a closed-form theorem formalizing this privacy--Sybil resistance tradeoff, we map strict mainnet deployment boundaries via linear gas scaling models, explicitly incorporating the post-Fusaka EIP-7825 per transaction gas cap. Ultimately, while cryptographically secure, static threshold ZK gates fail as incentive layer fairness mechanisms under realistic FL convergence dynamics on standard benchmarks.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "PCLSegNet: Anatomy-Aware Deep Learning Framework for MRI-based Pancreatic Cyst Segmentation and Size Assessment",
+          "authors": [
+            "Hanyi Zhang",
+            "Tongyu Wang",
+            "Manuel Debic",
+            "Markus Wennmann",
+            "Johannes Haubold",
+            "Tamara Schikowski",
+            "Wilfried Reichardt",
+            "Fabian Bamberg",
+            "Christopher L. Schlett",
+            "Steffen Ringhof",
+            "Thoralf Niendorf",
+            "Tobias Pischon",
+            "Michael Leitzmann",
+            "Carsten Oliver Schmidt",
+            "Mark Oliver Wielpütz",
+            "Thomas Kroencke",
+            "Josua A. Decker",
+            "Stefan N. Willich",
+            "Thomas Keil",
+            "Rafael Mikolajczyk",
+            "Miriam Klauß",
+            "Hans-Ulrich Kauczor",
+            "Philipp Mayer",
+            "Bettina K. Budai"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-11",
+          "url": "https://arxiv.org/abs/2611.15278",
+          "source": "arXiv",
+          "arxivId": "2611.15278",
+          "summary": "Early detection and follow-up of pancreatic cystic lesions (PCLs) are crucial, as some of their subtypes, such as mucinous cystic neoplasms (MCNs) and intraductal papillary mucinous neoplasms, carry a significant risk of malignant transformation. Although most AI studies investigating PCLs rely on computed tomography (CT) scans, magnetic resonance imaging (MRI) offers superior soft tissue contrast, making it highly suitable for PCLs assessment. In this work, we propose an anatomy-aware two-stage deep learning framework for automated PCLs segmentation on abdominal MRI scans. First, a publicly available pancreas segmentation model is used to localize the pancreas. Then, we introduce the anatomyaware PCLSegNet, which incorporates anatomical priors as guidance for pancreas and PCLs segmentation. To address the class imbalance problem, we develop a Class-Specific ErrorWeighted (CSEW) loss function. Postprocessing is applied through anatomical constraints.Our proposed method outperforms multi-organ segmentation models such as TotalSegmentator, achieving substantially higher Dice scores for pancreas segmentation. Moreover, it also achieves a superior normalized surface Dice (NSD) and recall for PCLs segmentationcompared to other state-of-the-art models like nnU-Net, while also notably reducing the false negative rate, facilitating the automatic early detection and the noninvasive imaging-based assessment of PCLs.",
+          "contribution": "Early detection and follow-up of pancreatic cystic lesions (PCLs) are crucial, as some of their subtypes, such as mucinous cystic neoplasms (MCNs) and intraductal papillary mucinous neoplasms, carry a significant risk of malignant transformation. Although most AI studies investigating PCLs rely on computed tomography (CT) scans, magnetic resonance imaging (MRI) offers superior soft tissue contrast, making it highly suitable for PCLs assessment. In this work, we propose an anatomy-aware two-stage deep learning framework for automated PCLs segmentation on abdominal MRI scans. First, a publicly available pancreas segmentation model is used to localize the pancreas. Then, we introduce the anatomyaware PCLSegNet, which incorporates anatomical priors as guidance for pancreas and PCLs segmentation. To address the class imbalance problem, we develop a Class-Specific ErrorWeighted (CSEW) loss function. Postprocessing is applied through anatomical constraints.Our proposed method outperforms multi-organ segmentation models such as TotalSegmentator, achieving substantially higher Dice scores for pancreas segmentation. Moreover, it also achieves a superior normalized surface Dice (NSD) and recall for PCLs segmentationcompared to other state-of-the-art models like nnU-Net, while also notably reducing the false negative rate, facilitating the automatic early detection and the noninvasive imaging-based assessment of PCLs.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-12",
       "generatedAt": "2026-11-12T16:31:10.454450+03:00",
       "papers": [
@@ -5447,5 +5588,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-12T16:31:10.454450+03:00"
+  "updatedAt": "2026-11-13T15:51:23.830283+03:00"
 }
