@@ -25,6 +25,166 @@
   ],
   "days": [
     {
+      "date": "2026-11-14",
+      "generatedAt": "2026-11-14T14:55:23.923963+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Dropping Tokens Without Dropping Them: Causal Attribution for Diabetic Retinopathy",
+          "authors": [
+            "Pramath Girish Haritz",
+            "Chandra Sekhar Seelamantula"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-08",
+          "url": "https://arxiv.org/abs/2611.11547",
+          "source": "arXiv",
+          "arxivId": "2611.11547",
+          "summary": "In this work, we investigate whether attention-based attribution maps in a vision transformer provide causal explanations for diabetic retinopathy (DR) classification. We introduce a principled decomposition of attention into two attribution maps: the contribution ($c_t$), which satisfies the completeness axiom in explainable artificial intelligence (xAI), and the pull ($p_t$), which quantifies causal explanations. We define an identity relating $c_t$ and $p_t$ that characterizes when $c_t$ fails to capture causality. We test whether each map is causally faithful on the MAPLES-DR dataset by dropping/inserting tokens, and report Necessity ($N$), Sufficiency ($Su$), and Faithfulness Correlation ($FC$). The pull $p_t$ achieves the highest causal alignment ($FC = 0.53$, $N = 0.71\\%$, $Su = 3.0\\%$), outperforming Attention Rollout, Grad-CAM, and AttnLRP. Occlusion retains better sufficiency ($Su = 1.6\\%$) but is about 800 times slower. Furthermore, on MAPLES-DR, $p_t$ achieves $70\\%$ of the average precision (AP) of HRDecoder, a state-of-the-art supervised lesion segmentation model, despite the absence of pixel-level supervision. Together, these findings show that the pull $p_t$ and the contribution $c_t$ form computationally efficient attribution maps for reliable causal interpretation in safety-critical medical diagnostics. The code and demo are available at https://github.com/pramath-haritz/dr-xai.",
+          "contribution": "In this work, we investigate whether attention-based attribution maps in a vision transformer provide causal explanations for diabetic retinopathy (DR) classification. We introduce a principled decomposition of attention into two attribution maps: the contribution ($c_t$), which satisfies the completeness axiom in explainable artificial intelligence (xAI), and the pull ($p_t$), which quantifies causal explanations. We define an identity relating $c_t$ and $p_t$ that characterizes when $c_t$ fails to capture causality. We test whether each map is causally faithful on the MAPLES-DR dataset by dropping/inserting tokens, and report Necessity ($N$), Sufficiency ($Su$), and Faithfulness Correlation ($FC$). The pull $p_t$ achieves the highest causal alignment ($FC = 0.53$, $N = 0.71\\%$, $Su = 3.0\\%$), outperforming Attention Rollout, Grad-CAM, and AttnLRP. Occlusion retains better sufficiency ($Su = 1.6\\%$) but is about 800 times slower. Furthermore, on MAPLES-DR, $p_t$ achieves $70\\%$ of the average precision (AP) of HRDecoder, a state-of-the-art supervised lesion segmentation model, despite the absence of pixel-level supervision. Together, these findings show that the pull $p_t$ and the contribution $c_t$ form computationally efficient attribution maps for reliable causal interpretation in safety-critical medical diagnostics. The code and demo are available at https://github.com/pramath-haritz/dr-xai.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Maturity$^2$: Assessing the Maturity of Crypto Agility Maturity Models",
+          "authors": [
+            "Leonie Wolf",
+            "Robin Leander Schröder",
+            "Sebastian Schinzel",
+            "Fabian Ising"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-12",
+          "url": "https://arxiv.org/abs/2611.17003",
+          "source": "arXiv",
+          "arxivId": "2611.17003",
+          "summary": "Crypto agility maturity models aim to support organizations in preparing for cryptographic transitions, such as migrating to post-quantum cryptography. Recognizing the importance of measurable maturity, NIST references several such models in its guidance. Given NIST's influence on cybersecurity practice, these models may shape organizational planning and governance mechanisms. However, their design quality has not been systematically evaluated. In this work, we assess three industry-driven maturity models against established design principles. Our analysis reveals recurring weaknesses, particularly the lack of measurable, reproducible assessment criteria and limited prescriptive guidance for improving crypto agility. At the same time, we highlight individual strengths that can assist practitioners in choosing among the models and derive concrete recommendations for strengthening future crypto agility maturity models.",
+          "contribution": "Crypto agility maturity models aim to support organizations in preparing for cryptographic transitions, such as migrating to post-quantum cryptography. Recognizing the importance of measurable maturity, NIST references several such models in its guidance. Given NIST's influence on cybersecurity practice, these models may shape organizational planning and governance mechanisms. However, their design quality has not been systematically evaluated. In this work, we assess three industry-driven maturity models against established design principles. Our analysis reveals recurring weaknesses, particularly the lack of measurable, reproducible assessment criteria and limited prescriptive guidance for improving crypto agility. At the same time, we highlight individual strengths that can assist practitioners in choosing among the models and derive concrete recommendations for strengthening future crypto agility maturity models.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning",
+          "authors": [
+            "Gustavo Pinto"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-12",
+          "url": "https://arxiv.org/abs/2611.17304",
+          "source": "arXiv",
+          "arxivId": "2611.17304",
+          "summary": "Large language model (LLM) coding agents are increasingly asked not only to write code but to debug running systems from live runtime data. We report a field observation of one such agent (Claude Code) as it diagnosed eight database incidents in a production message-dispatch engine. In every incident whose root cause depended on runtime concurrency, the agent announced a cause, shipped a fix, and later walked it back, and each wrong guess cost a deploy-and-observe cycle. Mapping each incident to what the agent lacked, we find that access to production state was the most pervasive bottleneck. The missing access included live lock views, untruncated deadlock reports, read-only execution, and an explicit environment context. An access gap was present in all five concurrency-dependent incidents: alone in one, and in four combined with a reasoning error such as anchoring on an early cause, incomplete exploration of the configuration, or a misreading of the code's transaction semantics. The three incidents that did not depend on concurrency needed nothing beyond what the agent already had. Within the incidents, the agent's wrong hypotheses were consistent with the evidence it could see; they were not fabrications. We argue that the next step for production-debugging agents is a forensics layer that gives the agent the access it lacks inside existing security controls. Such a layer would combine a safe interrogation API, a lock-and-deadlock flight recorder, and a production replay harness.",
+          "contribution": "Large language model (LLM) coding agents are increasingly asked not only to write code but to debug running systems from live runtime data. We report a field observation of one such agent (Claude Code) as it diagnosed eight database incidents in a production message-dispatch engine. In every incident whose root cause depended on runtime concurrency, the agent announced a cause, shipped a fix, and later walked it back, and each wrong guess cost a deploy-and-observe cycle. Mapping each incident to what the agent lacked, we find that access to production state was the most pervasive bottleneck. The missing access included live lock views, untruncated deadlock reports, read-only execution, and an explicit environment context. An access gap was present in all five concurrency-dependent incidents: alone in one, and in four combined with a reasoning error such as anchoring on an early cause, incomplete exploration of the configuration, or a misreading of the code's transaction semantics. The three incidents that did not depend on concurrency needed nothing beyond what the agent already had. Within the incidents, the agent's wrong hypotheses were consistent with the evidence it could see; they were not fabrications. We argue that the next step for production-debugging agents is a forensics layer that gives the agent the access it lacks inside existing security controls. Such a layer would combine a safe interrogation API, a lock-and-deadlock flight recorder, and a production replay harness.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Physics-based simulation unlocks scaling laws for generalizable MRI reconstruction",
+          "authors": [
+            "Hong Shang",
+            "Zijian Zhan",
+            "Sen Jia",
+            "Xiang Fan",
+            "Jintao Meng",
+            "Yang Zhou",
+            "Xiang Zhou",
+            "Tianyu He",
+            "Xinran Chen",
+            "Qiaoling Zeng",
+            "Keyan Yu",
+            "Jianhua Yao",
+            "Dong Liang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-11",
+          "url": "https://arxiv.org/abs/2611.15758",
+          "source": "arXiv",
+          "arxivId": "2611.15758",
+          "summary": "Deep-learning-based magnetic resonance imaging (MRI) reconstruction holds great promise for accelerating acquisitions, yet its clinical translation remains bottlenecked by poor generalizability across unseen scanners, populations, anatomies, and protocols. Gathering sufficiently diverse clinical datasets to overcome this bottleneck is hindered by high acquisition costs, privacy restrictions, and institutional biases. Here, we introduce Scalable Inverse Model (SIM), a framework that systematically co-designs physics-simulated training data, model architecture, and learning paradigms around scalability--leveraging compute scaling to overcome historical data bottlenecks and achieve robust zero-shot MRI reconstruction. Across 14 public and in-house datasets--spanning seven international centers, five vendors, field strengths of 0.3-7 T, over ten anatomical regions, more than ten acquisition protocols, downstream quantitative and molecular tasks, and a 150-scan blinded radiologist study--SIM demonstrates robust zero-shot generalizability, recovering fine anatomical details while suppressing aliasing artifacts where conventional deep-learning methods fail. Attention-map analyses confirm that SIM learns physically explainable, dynamically adaptive reconstruction primitives rather than anatomy-specific priors. SIM establishes a scalable, privacy-preserving, and democratized infrastructure for universal MRI reconstruction, providing a blueprint for generalizable AI across inverse problems in medical imaging.",
+          "contribution": "Deep-learning-based magnetic resonance imaging (MRI) reconstruction holds great promise for accelerating acquisitions, yet its clinical translation remains bottlenecked by poor generalizability across unseen scanners, populations, anatomies, and protocols. Gathering sufficiently diverse clinical datasets to overcome this bottleneck is hindered by high acquisition costs, privacy restrictions, and institutional biases. Here, we introduce Scalable Inverse Model (SIM), a framework that systematically co-designs physics-simulated training data, model architecture, and learning paradigms around scalability--leveraging compute scaling to overcome historical data bottlenecks and achieve robust zero-shot MRI reconstruction. Across 14 public and in-house datasets--spanning seven international centers, five vendors, field strengths of 0.3-7 T, over ten anatomical regions, more than ten acquisition protocols, downstream quantitative and molecular tasks, and a 150-scan blinded radiologist study--SIM demonstrates robust zero-shot generalizability, recovering fine anatomical details while suppressing aliasing artifacts where conventional deep-learning methods fail. Attention-map analyses confirm that SIM learns physically explainable, dynamically adaptive reconstruction primitives rather than anatomy-specific priors. SIM establishes a scalable, privacy-preserving, and democratized infrastructure for universal MRI reconstruction, providing a blueprint for generalizable AI across inverse problems in medical imaging.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+          "authors": [
+            "Emre Kutlusan",
+            "Yongmin Li"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-10",
+          "url": "https://arxiv.org/abs/2611.14519",
+          "source": "arXiv",
+          "arxivId": "2611.14519",
+          "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be adapted, and what determines this. We adapted a foundation model, DINOv2, with strategies ranging from tuning only its bias terms to full fine-tuning, and compared it with U-Nets and ResU-Nets trained from scratch. Experiments covered colonoscopy, breast ultrasound and dermoscopy, with testing on held-out data from the training source and on independent datasets from other institutions. The adapted foundation model generalised better on every external dataset. Within the training distribution, the task-specific models remained competitive when training data were abundant, and delineated boundaries more precisely, while the foundation model more often missed small lesions. Only a small fraction of the foundation model required adaptation, and the capacity needed was determined by the imaging domain rather than by the adaptation method. A widely used polyp test set was also found to duplicate images from another benchmark. Foundation-model adaptation is therefore warranted where models must work across sites, with capacity selected on the target domain.",
+          "contribution": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be adapted, and what determines this. We adapted a foundation model, DINOv2, with strategies ranging from tuning only its bias terms to full fine-tuning, and compared it with U-Nets and ResU-Nets trained from scratch. Experiments covered colonoscopy, breast ultrasound and dermoscopy, with testing on held-out data from the training source and on independent datasets from other institutions. The adapted foundation model generalised better on every external dataset. Within the training distribution, the task-specific models remained competitive when training data were abundant, and delineated boundaries more precisely, while the foundation model more often missed small lesions. Only a small fraction of the foundation model required adaptation, and the capacity needed was determined by the imaging domain rather than by the adaptation method. A widely used polyp test set was also found to duplicate images from another benchmark. Foundation-model adaptation is therefore warranted where models must work across sites, with capacity selected on the target domain.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "POSTER: A Kinematic Root of Trust for Laser-Linked Satellites: Authentication via Delta-v Bounds over Time",
+          "authors": [
+            "Leon Birkel",
+            "Mohammad Hamad",
+            "Sebastian Steinhorst"
+          ],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-11-14",
+          "url": "https://doi.org/10.1145/3830454.3846413",
+          "source": "Crossref",
+          "doi": "10.1145/3830454.3846413",
+          "summary": "This paper examines POSTER: A Kinematic Root of Trust for Laser-Linked Satellites: Authentication via Delta-v Bounds over Time.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Fighting Fake News: A Survey of AI-based Models, Frameworks and Challenges",
+          "authors": [
+            "Li Zeng",
+            "Yizheng Huang",
+            "Jimmy Xiangji Huang"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-14",
+          "url": "https://doi.org/10.1145/3863938",
+          "source": "Crossref",
+          "doi": "10.1145/3863938",
+          "summary": "Recently, the rapid growth of digital fake news has gained significant attention in both social media and artificial intelligence (AI) due to fake news can influence daily life deeply. This survey provides a review on AI-based fake news detection (FND), beginning by introducing the theoretical foundations like fake news definition, fake news ecosystem, related terms and fake news characteristics. Then, we introduce a taxonomy that separates AI-based FND methods into two categories which are model-centric models and process-centric frameworks. We then evaluate various model-centric models ranging from traditional models to machine learning, deep learning, and trending models. A significant portion of this work focuses on AI-based FND frameworks, which include dataset, data augmentation, information extraction, model validation and refinement, and results explanation and feedback. Finally, we discuss major challenges and trends to build more reliable information environments.",
+          "contribution": "Recently, the rapid growth of digital fake news has gained significant attention in both social media and artificial intelligence (AI) due to fake news can influence daily life deeply. This survey provides a review on AI-based fake news detection (FND), beginning by introducing the theoretical foundations like fake news definition, fake news ecosystem, related terms and fake news characteristics. Then, we introduce a taxonomy that separates AI-based FND methods into two categories which are model-centric models and process-centric frameworks. We then evaluate various model-centric models ranging from traditional models to machine learning, deep learning, and trending models. A significant portion of this work focuses on AI-based FND frameworks, which include dataset, data augmentation, information extraction, model validation and refinement, and results explanation and feedback. Finally, we discuss major challenges and trends to build more reliable information environments.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
       "generatedAt": "2026-11-13T15:51:23.830283+03:00",
       "papers": [
@@ -5588,5 +5748,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-13T15:51:23.830283+03:00"
+  "updatedAt": "2026-11-14T14:55:23.923963+03:00"
 }
