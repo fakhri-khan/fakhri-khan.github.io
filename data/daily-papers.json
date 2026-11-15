@@ -25,6 +25,100 @@
   ],
   "days": [
     {
+      "date": "2026-11-15",
+      "generatedAt": "2026-11-15T15:29:03.245119+03:00",
+      "papers": [
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Entire sig-jump-diffusions, their expected signature and applications to score-based generative modeling",
+          "authors": [
+            "Christa Cuchiero",
+            "Francesca Primavera",
+            "Sara Svaluto-Ferro"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-12",
+          "url": "https://arxiv.org/abs/2611.16995",
+          "source": "arXiv",
+          "arxivId": "2611.16995",
+          "summary": "We develop score-based generative models for time series and standard finite-dimensional data, building on the analytical computation of the expected signature of a new class of jump-diffusions, called entire sig-jump-diffusions. These are semimartingales whose characteristics are given by linear combinations of potentially infinitely many components of their own signature. We show that their expected signature can be computed by solving linear ODEs in the extended tensor algebra, providing a tractable foundation for learning procedures. Specifically, the learning of a generalized score function for jump diffusions, a key ingredient of our generative modeling framework, can be reduced to solving linear ODEs and a deterministic optimization problem.\n  We further prove that polynomial jump-diffusions can be embedded into this framework, and that their expected signature reduces to a finite-dimensional system of linear ODEs. Building on this result, we develop an alternative approach for finite-dimensional data, based on inverse signature matching, a method that learns the score by matching the expected signature of the reverse process with that of the inverse forward signature.",
+          "contribution": "We develop score-based generative models for time series and standard finite-dimensional data, building on the analytical computation of the expected signature of a new class of jump-diffusions, called entire sig-jump-diffusions. These are semimartingales whose characteristics are given by linear combinations of potentially infinitely many components of their own signature. We show that their expected signature can be computed by solving linear ODEs in the extended tensor algebra, providing a tractable foundation for learning procedures. Specifically, the learning of a generalized score function for jump diffusions, a key ingredient of our generative modeling framework, can be reduced to solving linear ODEs and a deterministic optimization problem.\n  We further prove that polynomial jump-diffusions can be embedded into this framework, and that their expected signature reduces to a finite-dimensional system of linear ODEs. Building on this result, we develop an alternative approach for finite-dimensional data, based on inverse signature matching, a method that learns the score by matching the expected signature of the reverse process with that of the inverse forward signature.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Validation-Guided Prompt Selection for Differential Morphing Attack Detection",
+          "authors": [
+            "Raghavendra Ramachandra",
+            "Hailin Li"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-12",
+          "url": "https://arxiv.org/abs/2611.17176",
+          "source": "arXiv",
+          "arxivId": "2611.17176",
+          "summary": "Differential morphing attack detection (D-MAD) compares a trusted live capture with a document image that may contain a facial morph. We investigate whether labelled validation data can improve a frozen-parameter vision-language evaluator through prompt selection rather than model fine-tuning. Version~1 generates 50 candidate prompts and selects the top-ranked instruction using a security-oriented loss that prioritises missed morph attacks (MACER) while accounting for bona fide classification errors (BSCER), response failures, parse failures, and decision inconsistency. Version~2 recursively revises prompts using aggregate validation feedback. On a subject-disjoint test set of 160 pairs spanning LMA, MIPGAN-2, and PIPE, the selected Version~1 prompt achieves a (19.17\\%) morph attack classification error rate (MACER), with (0.00\\%) observed bona fide sample classification error rate (BSCER), compared with (70.00\\%) MACER for a controlled manual prompt. The paired (50.83) percentage-point difference has a (95\\%) subject-bootstrap interval of ([43.33,58.33]). Recursive revision does not surpass the best Generation~0 validation loss; the reported revised descendant obtains (31.67\\%) test MACER. All 23 attacks missed by Version~1 are landmark-based (LMA) morphs. Overall, the results show that prompt formulation can substantially influence frozen-parameter VLM-based D-MAD performance, while also highlighting the challenge of recursive prompt refinement under a compact 10-subject validation setting.",
+          "contribution": "Differential morphing attack detection (D-MAD) compares a trusted live capture with a document image that may contain a facial morph. We investigate whether labelled validation data can improve a frozen-parameter vision-language evaluator through prompt selection rather than model fine-tuning. Version~1 generates 50 candidate prompts and selects the top-ranked instruction using a security-oriented loss that prioritises missed morph attacks (MACER) while accounting for bona fide classification errors (BSCER), response failures, parse failures, and decision inconsistency. Version~2 recursively revises prompts using aggregate validation feedback. On a subject-disjoint test set of 160 pairs spanning LMA, MIPGAN-2, and PIPE, the selected Version~1 prompt achieves a (19.17\\%) morph attack classification error rate (MACER), with (0.00\\%) observed bona fide sample classification error rate (BSCER), compared with (70.00\\%) MACER for a controlled manual prompt. The paired (50.83) percentage-point difference has a (95\\%) subject-bootstrap interval of ([43.33,58.33]). Recursive revision does not surpass the best Generation~0 validation loss; the reported revised descendant obtains (31.67\\%) test MACER. All 23 attacks missed by Version~1 are landmark-based (LMA) morphs. Overall, the results show that prompt formulation can substantially influence frozen-parameter VLM-based D-MAD performance, while also highlighting the challenge of recursive prompt refinement under a compact 10-subject validation setting.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "SecDVA: A Maliciously Secure Multi-Party Framework for Data Value Assessment in Modern Machine Learning Data Markets",
+          "authors": [
+            "Lixu Wang",
+            "Xinpeng Yang",
+            "Meng Hao",
+            "Guangyi Zhang",
+            "Tianwei Zhang",
+            "Wei Dong",
+            "Chenkai Weng"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-11",
+          "url": "https://arxiv.org/abs/2611.15373",
+          "source": "arXiv",
+          "arxivId": "2611.15373",
+          "summary": "Data Value Assessment (DVA) plays a critical role in modern data markets by enabling buyers to evaluate how a seller's data would improve model performance before purchase. However, existing DVA approaches require one party to reveal the data or model, exposing participants to privacy leakage, strategic manipulation, and high deployment costs. These limitations motivate a DVA protocol that is secure, reliable, widely applicable, and efficient enough for practical deployment in modern data markets. In this paper, we present SecDVA, the first maliciously secure multi-party computation (MPC) framework for reliable and practical DVA in modern machine learning data markets. SecDVA ensures that neither the seller's data nor the buyer's model and test data are disclosed beyond the final DVA outcome, while remaining robust against malicious behavior. To address the efficiency and applicability challenges of DVA for large models, we use the neural tangent kernel theory to linearize model updates and introduce lightweight mini-batch approximations to significantly reduce computation overhead. We further design a (2+1)-party MPC protocol based on function secret sharing, together with optimized non-linear primitives. In addition, we optimize the underlying MPC backends, the distributed point function, and the distributed comparison function, reducing the number of Advanced Encryption Standard calls to improve efficiency. Extensive experiments demonstrate that SecDVA outperforms existing baselines in the plaintext setting and enables DVA for large-scale models in a reasonable time under MPC.",
+          "contribution": "Data Value Assessment (DVA) plays a critical role in modern data markets by enabling buyers to evaluate how a seller's data would improve model performance before purchase. However, existing DVA approaches require one party to reveal the data or model, exposing participants to privacy leakage, strategic manipulation, and high deployment costs. These limitations motivate a DVA protocol that is secure, reliable, widely applicable, and efficient enough for practical deployment in modern data markets. In this paper, we present SecDVA, the first maliciously secure multi-party computation (MPC) framework for reliable and practical DVA in modern machine learning data markets. SecDVA ensures that neither the seller's data nor the buyer's model and test data are disclosed beyond the final DVA outcome, while remaining robust against malicious behavior. To address the efficiency and applicability challenges of DVA for large models, we use the neural tangent kernel theory to linearize model updates and introduce lightweight mini-batch approximations to significantly reduce computation overhead. We further design a (2+1)-party MPC protocol based on function secret sharing, together with optimized non-linear primitives. In addition, we optimize the underlying MPC backends, the distributed point function, and the distributed comparison function, reducing the number of Advanced Encryption Standard calls to improve efficiency. Extensive experiments demonstrate that SecDVA outperforms existing baselines in the plaintext setting and enables DVA for large-scale models in a reasonable time under MPC.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Counterfactual Analysis of Extent Leakage from Annotation-Derived Prompts in Vision-Language Medical Image Segmentation",
+          "authors": [
+            "Niran Nataraj",
+            "Ankita Das",
+            "C. Krishna Mohan",
+            "Kenji Kawashima"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-10",
+          "url": "https://arxiv.org/abs/2611.13970",
+          "source": "arXiv",
+          "arxivId": "2611.13970",
+          "summary": "Text-guided segmentation models receive an image and a short caption about the lesion, and on public benchmarks the caption improves accuracy considerably. On colonoscopy and breast ultrasound, however, the size, count and location words of each caption were computed from the mask that later scores the prediction, and the chest X-ray captions were written by benchmark annotators. We tested what two published models take from them. On colonoscopy and chest X-ray, it is mostly the lesion's extent. Keeping only the size word or the lung-zone phrase recovers 84 to 98 percent of the improvement over an empty caption, and removing it loses 52 to 77 percent. The rest matters little, and a polyp called a rock is segmented just as well. We call this extent leakage. On breast ultrasound, nearly half the captions also name the diagnosis, which carries part of the benefit. Retraining on three datasets shows that models pick up this habit from their training captions, though only partly on breast ultrasound, and that it weakens their segmentation from the image alone. The leak can be measured without training a model, since caption words alone predict lesion area (coefficient of determination 0.54 to 0.77 on six of seven test sets). Without the test mask, the best method we tested, which estimates extent from the image, reaches 74.59 Dice on colonoscopy against the published 77.23. We propose an evaluation protocol that keeps what a caption says about the image apart from what it copies from the label.",
+          "contribution": "Text-guided segmentation models receive an image and a short caption about the lesion, and on public benchmarks the caption improves accuracy considerably. On colonoscopy and breast ultrasound, however, the size, count and location words of each caption were computed from the mask that later scores the prediction, and the chest X-ray captions were written by benchmark annotators. We tested what two published models take from them. On colonoscopy and chest X-ray, it is mostly the lesion's extent. Keeping only the size word or the lung-zone phrase recovers 84 to 98 percent of the improvement over an empty caption, and removing it loses 52 to 77 percent. The rest matters little, and a polyp called a rock is segmented just as well. We call this extent leakage. On breast ultrasound, nearly half the captions also name the diagnosis, which carries part of the benefit. Retraining on three datasets shows that models pick up this habit from their training captions, though only partly on breast ultrasound, and that it weakens their segmentation from the image alone. The leak can be measured without training a model, since caption words alone predict lesion area (coefficient of determination 0.54 to 0.77 on six of seven test sets). Without the test mask, the best method we tested, which estimates extent from the image, reaches 74.59 Dice on colonoscopy against the published 77.23. We propose an evaluation protocol that keeps what a caption says about the image apart from what it copies from the label.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-14",
       "generatedAt": "2026-11-14T14:55:23.923963+03:00",
       "papers": [
@@ -5748,5 +5842,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-14T14:55:23.923963+03:00"
+  "updatedAt": "2026-11-15T15:29:03.245119+03:00"
 }
