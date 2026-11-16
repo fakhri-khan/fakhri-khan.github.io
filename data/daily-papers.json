@@ -25,6 +25,170 @@
   ],
   "days": [
     {
+      "date": "2026-11-16",
+      "generatedAt": "2026-11-16T16:20:26.436904+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Where to Predict in Retinal OCT? Anatomy-Guided Target Selection for I-JEPA",
+          "authors": [
+            "Yunchu Feng",
+            "Wai Tak Lau",
+            "Kaveri A. Thakoor"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-12",
+          "url": "https://arxiv.org/abs/2611.17586",
+          "source": "arXiv",
+          "arxivId": "2611.17586",
+          "summary": "Self-supervised learning aims to learn meaningful representations from unlabeled data, potentially allowing models to capture subtle anatomical variations across patients and reduce the amount of labeled data needed. Image-based Joint-Embedding Predictive Architecture (I-JEPA) learns by predicting target-region representations from visible context rather than reconstructing pixels. However, its uniform target placement does not account for the anatomical structure of retinal OCT, where retinal tissue occupies only part of each B-scan. We investigate anatomy-guided target selection using image intensity and predicted retinal segmentation while retaining the I-JEPA architecture and latent prediction objective. We compare anatomy-guided rectangular targets, anatomy-shaped targets and coverage-constrained placement with uniform masking, and evaluate the learned representations using linear probing for glaucoma classification on FairVision. We found that rectangular targets guided by image intensity achieved the highest linear-probe AUC in our comparisons. We show that anatomically meaningful target selection is promising for retinal OCT representation learning, while greater anatomical specificity did not consistently improve performance.",
+          "contribution": "Self-supervised learning aims to learn meaningful representations from unlabeled data, potentially allowing models to capture subtle anatomical variations across patients and reduce the amount of labeled data needed. Image-based Joint-Embedding Predictive Architecture (I-JEPA) learns by predicting target-region representations from visible context rather than reconstructing pixels. However, its uniform target placement does not account for the anatomical structure of retinal OCT, where retinal tissue occupies only part of each B-scan. We investigate anatomy-guided target selection using image intensity and predicted retinal segmentation while retaining the I-JEPA architecture and latent prediction objective. We compare anatomy-guided rectangular targets, anatomy-shaped targets and coverage-constrained placement with uniform masking, and evaluate the learned representations using linear probing for glaucoma classification on FairVision. We found that rectangular targets guided by image intensity achieved the highest linear-probe AUC in our comparisons. We show that anatomically meaningful target selection is promising for retinal OCT representation learning, while greater anatomical specificity did not consistently improve performance.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "EventSpikeSeg: Memory-Aware Mixed-Signal Architecture for Event-Camera Spiking Segmentation",
+          "authors": [
+            "Amir Mohammad Khadem Hosseini",
+            "Sattar Mirzakuchaki"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-13",
+          "url": "https://arxiv.org/abs/2611.18524",
+          "source": "arXiv",
+          "arxivId": "2611.18524",
+          "summary": "Event-camera segmentation requires persistent neural state despite sparse input events, making memory organization a central constraint on embedded implementation. We present EventSpikeSeg, a mixed-signal architecture combining resident capacitor memory with shared analog processing in GF180MCU 180-nm CMOS. Its 25-population spiking encoder-decoder has 143,824 synaptic weights but requires 30,976,000 membrane states at 440 x 640 resolution. The mapping specifies chronological 5-ms model updates, digital event/address services and 64-state capacitor banks. Characterization covers 22 module families and 74 operating points, distinguishing transistor simulations from digital-library estimates. Nominal results include 41.711 microwatts biased neuron-core power, 3.338-pJ positive terminal energy for a 1.4-microsecond cell read, and 0.531-mV selected-state drift over a 5-ms extracted-tile hold. Commit and coupling errors are reported separately. The software checkpoint records 27.976% mean intersection-over-union on a held-out six-class DSEC split; this is not hardware accuracy. Component layouts and simulation evidence quantify local implementation costs and expose storage replication and service scheduling as scaling constraints. A detailed SPICE-calibrated behavioral forward simulation of one full-resolution DSEC frame achieves 24.26% mean intersection-over-union, versus 26.22% for the matched PyTorch reference, using a compact 5-fF bank variant and external count/voltage calibration. Physical full-network operation, system energy and mismatch robustness remain unverified.",
+          "contribution": "Event-camera segmentation requires persistent neural state despite sparse input events, making memory organization a central constraint on embedded implementation. We present EventSpikeSeg, a mixed-signal architecture combining resident capacitor memory with shared analog processing in GF180MCU 180-nm CMOS. Its 25-population spiking encoder-decoder has 143,824 synaptic weights but requires 30,976,000 membrane states at 440 x 640 resolution. The mapping specifies chronological 5-ms model updates, digital event/address services and 64-state capacitor banks. Characterization covers 22 module families and 74 operating points, distinguishing transistor simulations from digital-library estimates. Nominal results include 41.711 microwatts biased neuron-core power, 3.338-pJ positive terminal energy for a 1.4-microsecond cell read, and 0.531-mV selected-state drift over a 5-ms extracted-tile hold. Commit and coupling errors are reported separately. The software checkpoint records 27.976% mean intersection-over-union on a held-out six-class DSEC split; this is not hardware accuracy. Component layouts and simulation evidence quantify local implementation costs and expose storage replication and service scheduling as scaling constraints. A detailed SPICE-calibrated behavioral forward simulation of one full-resolution DSEC frame achieves 24.26% mean intersection-over-union, versus 26.22% for the matched PyTorch reference, using a compact 5-fF bank variant and external count/voltage calibration. Physical full-network operation, system energy and mismatch robustness remain unverified.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "SSCS: Secure and self-authenticating coverless steganography via DDIM and reversible data hiding",
+          "authors": [
+            "Mingyu Yu",
+            "Haonan Miao",
+            "Zhengping Jin",
+            "Sujuan Qin"
+          ],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-11-16",
+          "url": "https://doi.org/10.1177/0926227x261509538",
+          "source": "Crossref",
+          "doi": "10.1177/0926227x261509538",
+          "summary": "Generation-based coverless steganography has shown great potential for image-to-image concealment. However, existing methods require frequent transmission of image descriptions and are vulnerable to substitution attacks, resulting in limited security guarantees. To address these issues, this paper proposes SSCS: Secure and Self-Authenticating Coverless Steganography via DDIM and reversible data hiding (RDH). Our method integrates chaotic encryption and RDH into a diffusion-based generation framework, realizing symmetric steganography with a single key for embedding and extraction, thereby eliminating the need for repeated description sharing and enhancing security by decoupling the shared key from the secret image. Moreover, by embedding authentication cues into the stego-object using the reversibility of RDH, SSCS enables self-authentication. Experimental results show that SSCS achieves superior security and robustness against substitution attacks over the previous scheme.",
+          "contribution": "Generation-based coverless steganography has shown great potential for image-to-image concealment. However, existing methods require frequent transmission of image descriptions and are vulnerable to substitution attacks, resulting in limited security guarantees. To address these issues, this paper proposes SSCS: Secure and Self-Authenticating Coverless Steganography via DDIM and reversible data hiding (RDH). Our method integrates chaotic encryption and RDH into a diffusion-based generation framework, realizing symmetric steganography with a single key for embedding and extraction, thereby eliminating the need for repeated description sharing and enhancing security by decoupling the shared key from the secret image. Moreover, by embedding authentication cues into the stego-object using the reversibility of RDH, SSCS enables self-authentication. Experimental results show that SSCS achieves superior security and robustness against substitution attacks over the previous scheme.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Differentially Private Federated Class-Incremental Learning for EEG Mental State Classification",
+          "authors": [
+            "Baran Can Gül",
+            "Ali Gülümser",
+            "Nasser Jazdi",
+            "Michael Weyrich"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-13",
+          "url": "https://arxiv.org/abs/2611.17944",
+          "source": "arXiv",
+          "arxivId": "2611.17944",
+          "summary": "Federated learning (FL) under differential privacy (DP) is typically evaluated on large client cohorts, where subsampling and cross-client averaging amplify privacy and smooth injected noise. Personal biosignal applications such as wearable EEG instead involve small federations of a handful of subjects, a regime whose interaction with formal client-level DP is largely uncharacterized. We study differentially private federated class-incremental learning in this small-cohort regime, combining a public EEG dataset with a custom four-channel MUSE 2 recording set into a K=5-client federation, and give a masked per-class training protocol that avoids degenerate gradients and missing negative supervision under class-incremental streaming. We propose FedEEG, combining Synaptic-Intelligence consolidation with a lagged adaptive FedProx term, and show it reduces catastrophic forgetting relative to FedAvg, FedProx, and a federated Learning-without-Forgetting baseline; on-device balanced-batch replay reduces mean forgetting by a further 56.7%. A class-scoping diagnosis yields $50.5\\%\\pm3.6\\%$ accuracy with 6 seeds and 2.02 times chance. We also introduce head-scoped client-level DP, which protects the classification head and alone reduces the achievable $\\varepsilon$ by 200 times at a matched round budget; combined with fewer communication rounds it reaches $\\varepsilon\\!\\approx\\!10.4$ with utility not statistically distinguishable from non-private training.",
+          "contribution": "Federated learning (FL) under differential privacy (DP) is typically evaluated on large client cohorts, where subsampling and cross-client averaging amplify privacy and smooth injected noise. Personal biosignal applications such as wearable EEG instead involve small federations of a handful of subjects, a regime whose interaction with formal client-level DP is largely uncharacterized. We study differentially private federated class-incremental learning in this small-cohort regime, combining a public EEG dataset with a custom four-channel MUSE 2 recording set into a K=5-client federation, and give a masked per-class training protocol that avoids degenerate gradients and missing negative supervision under class-incremental streaming. We propose FedEEG, combining Synaptic-Intelligence consolidation with a lagged adaptive FedProx term, and show it reduces catastrophic forgetting relative to FedAvg, FedProx, and a federated Learning-without-Forgetting baseline; on-device balanced-batch replay reduces mean forgetting by a further 56.7%. A class-scoping diagnosis yields $50.5\\%\\pm3.6\\%$ accuracy with 6 seeds and 2.02 times chance. We also introduce head-scoped client-level DP, which protects the classification head and alone reduces the achievable $\\varepsilon$ by 200 times at a matched round budget; combined with fewer communication rounds it reaches $\\varepsilon\\!\\approx\\!10.4$ with utility not statistically distinguishable from non-private training.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "A Tumour-Aware Multimodal Framework for Explainable Prediction of IDH Mutation in Gliomas from Multi-Sequence MRI",
+          "authors": [
+            "Tahsien Al-Quraishi",
+            "Waseem Alwan Zaboon",
+            "O. S. Albahri",
+            "Raza Nowrozy"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-13",
+          "url": "https://arxiv.org/abs/2611.17712",
+          "source": "arXiv",
+          "arxivId": "2611.17712",
+          "summary": "Accurate prediction of isocitrate dehydrogenase (IDH) mutation status is essential for glioma diagnosis, prognosis, and treatment planning. Although recent deep learning approaches have demonstrated promising performance, many rely on whole-brain feature extraction and provide limited interpretability. This study proposes a tumour-aware multimodal framework for explainable, non-invasive prediction of IDH mutation status from multiparametric magnetic resonance imaging (MRI). The proposed framework integrates four MRI sequences (T1, T1CE, T2, and FLAIR), tumour subregion segmentation, quantitative radiomic descriptors, and clinical information within a unified deep learning architecture. An ablation study was conducted to evaluate the contribution of tumour-aware learning, radiomic features, and clinical variables. Model performance was assessed using multiple complementary evaluation metrics, including accuracy, precision, recall, F1-score, balanced accuracy, receiver operating characteristic analysis, confusion matrix evaluation, and Grad-CAM visualisation. Experimental results demonstrated that the proposed multimodal framework consistently outperformed the baseline MRI-only model, with the Clinical Fusion model achieving the strongest overall predictive performance. The integration of tumour-aware learning, radiomic descriptors, and clinical information progressively improved classification performance, while Grad-CAM visualisations indicated that the model predominantly focused on biologically relevant tumour regions. These findings suggest that tumour-aware multimodal feature integration enables accurate, interpretable, and non-invasive molecular profiling of gliomas and provides a promising foundation for future clinical decision support in precision neuro-oncology.",
+          "contribution": "Accurate prediction of isocitrate dehydrogenase (IDH) mutation status is essential for glioma diagnosis, prognosis, and treatment planning. Although recent deep learning approaches have demonstrated promising performance, many rely on whole-brain feature extraction and provide limited interpretability. This study proposes a tumour-aware multimodal framework for explainable, non-invasive prediction of IDH mutation status from multiparametric magnetic resonance imaging (MRI). The proposed framework integrates four MRI sequences (T1, T1CE, T2, and FLAIR), tumour subregion segmentation, quantitative radiomic descriptors, and clinical information within a unified deep learning architecture. An ablation study was conducted to evaluate the contribution of tumour-aware learning, radiomic features, and clinical variables. Model performance was assessed using multiple complementary evaluation metrics, including accuracy, precision, recall, F1-score, balanced accuracy, receiver operating characteristic analysis, confusion matrix evaluation, and Grad-CAM visualisation. Experimental results demonstrated that the proposed multimodal framework consistently outperformed the baseline MRI-only model, with the Clinical Fusion model achieving the strongest overall predictive performance. The integration of tumour-aware learning, radiomic descriptors, and clinical information progressively improved classification performance, while Grad-CAM visualisations indicated that the model predominantly focused on biologically relevant tumour regions. These findings suggest that tumour-aware multimodal feature integration enables accurate, interpretable, and non-invasive molecular profiling of gliomas and provides a promising foundation for future clinical decision support in precision neuro-oncology.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Hello Again: Exploiting Replay Protected Monotonic Counters to Brute-Force Windows Hello PINs",
+          "authors": [
+            "Christian Werling",
+            "Matti Finder",
+            "Hans Niklas Jacob",
+            "Julian Prein",
+            "Niclas Kühnapfel",
+            "Jean-Pierre Seifert"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-13",
+          "url": "https://arxiv.org/abs/2611.18126",
+          "source": "arXiv",
+          "doi": "10.1145/3830454.3846631",
+          "arxivId": "2611.18126",
+          "summary": "Windows Hello is the primary authentication mechanism on over one billion Windows 11 devices, supporting PINs as short as four digits. Such low-entropy PINs are viable only because the TPM's anti-hammering protection mitigates brute-force attacks. Most modern x86 platforms rely on firmware TPMs (fTPMs) that persist their non-volatile (NV) state, including the lockout state, to SPI flash. On newer platforms, rollback prevention of this state is delegated to the flash chip via Replay Protected Monotonic Counters (RPMCs), a JEDEC-standardized mechanism operating over a physically accessible bus.\n  We present the first practical security analysis of RPMC in shipping x86 systems. Using low-cost interposer hardware, we identify multiple implementation flaws, two of which fundamentally undermine RPMC's security model: First, Winbond SPI flash - the leading NOR flash vendor with over 25% market share - leaks its HMAC key under voltage glitching, enabling arbitrary counter forgery. Second, AMD's NV controller does not verify RPMC increments, so an interposer can suppress them unnoticed. Moreover, AMD platforms without RPMC flash appear to lack NV rollback protection altogether: on two AMD desktops, reflashing an old image resets the fTPM's lockout counters.\n  Both flaws enable rollbacks of the fTPM's NV state (AMD, Intel, or Pluton), including its lockout counters. We demonstrate this end-to-end on locked, encrypted hardware: our setup finds a 4-digit Windows Hello PIN in 40 hours instead of 69 days. A compromised PIN also grants access to device-bound keys and Hello-based enterprise SSO. The same primitive defeats BitLocker's TPM+PIN pre-boot protector, reducing the worst-case time for a default-length 6-digit PIN from 19 years to 20 days.",
+          "contribution": "Windows Hello is the primary authentication mechanism on over one billion Windows 11 devices, supporting PINs as short as four digits. Such low-entropy PINs are viable only because the TPM's anti-hammering protection mitigates brute-force attacks. Most modern x86 platforms rely on firmware TPMs (fTPMs) that persist their non-volatile (NV) state, including the lockout state, to SPI flash. On newer platforms, rollback prevention of this state is delegated to the flash chip via Replay Protected Monotonic Counters (RPMCs), a JEDEC-standardized mechanism operating over a physically accessible bus.\n  We present the first practical security analysis of RPMC in shipping x86 systems. Using low-cost interposer hardware, we identify multiple implementation flaws, two of which fundamentally undermine RPMC's security model: First, Winbond SPI flash - the leading NOR flash vendor with over 25% market share - leaks its HMAC key under voltage glitching, enabling arbitrary counter forgery. Second, AMD's NV controller does not verify RPMC increments, so an interposer can suppress them unnoticed. Moreover, AMD platforms without RPMC flash appear to lack NV rollback protection altogether: on two AMD desktops, reflashing an old image resets the fTPM's lockout counters.\n  Both flaws enable rollbacks of the fTPM's NV state (AMD, Intel, or Pluton), including its lockout counters. We demonstrate this end-to-end on locked, encrypted hardware: our setup finds a 4-digit Windows Hello PIN in 40 hours instead of 69 days. A compromised PIN also grants access to device-bound keys and Hello-based enterprise SSO. The same primitive defeats BitLocker's TPM+PIN pre-boot protector, reducing the worst-case time for a default-length 6-digit PIN from 19 years to 20 days.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Multimodal Healthcare Foundation Models: Techniques, Challenges, and Opportunities",
+          "authors": [
+            "Ciyuan Peng",
+            "Shan Jin",
+            "Jing Ren",
+            "Mujie Liu",
+            "Shuo Yu",
+            "Lianhua Chi",
+            "Ibrahim Khalil",
+            "Feng Xia"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-16",
+          "url": "https://doi.org/10.1145/3863944",
+          "source": "Crossref",
+          "doi": "10.1145/3863944",
+          "summary": "With the rapid advance of multimodal foundation models, multimodal healthcare foundation models (MHFMs) are increasingly being adopted for reliable, intelligent clinical applications. They promise to advance precision medicine, streamline clinical workflows, and ultimately improve patient outcomes. Yet the healthcare domain imposes stringent requirements, including accuracy, safety, transparency, and trustworthiness, that demand techniques beyond those used for general-purpose multimodal foundation models. However, existing surveys largely take application-centric or data-oriented views and often underplay the technical underpinnings and domain-specific adaptations. To fill this gap, this survey explores and summarizes MHFMs from a technical perspective. Specifically, we provide a systematical taxonomy of MHFMs based on their methodologies, summarizing multimodal foundation model techniques that are applicable to the healthcare domain. In addition, we synthesize the key challenges and opportunities for deploying MHFMs in real-world healthcare settings, providing a roadmap for future research.",
+          "contribution": "With the rapid advance of multimodal foundation models, multimodal healthcare foundation models (MHFMs) are increasingly being adopted for reliable, intelligent clinical applications. They promise to advance precision medicine, streamline clinical workflows, and ultimately improve patient outcomes. Yet the healthcare domain imposes stringent requirements, including accuracy, safety, transparency, and trustworthiness, that demand techniques beyond those used for general-purpose multimodal foundation models. However, existing surveys largely take application-centric or data-oriented views and often underplay the technical underpinnings and domain-specific adaptations. To fill this gap, this survey explores and summarizes MHFMs from a technical perspective. Specifically, we provide a systematical taxonomy of MHFMs based on their methodologies, summarizing multimodal foundation model techniques that are applicable to the healthcare domain. In addition, we synthesize the key challenges and opportunities for deploying MHFMs in real-world healthcare settings, providing a roadmap for future research.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-15",
       "generatedAt": "2026-11-15T15:29:03.245119+03:00",
       "papers": [
@@ -5842,5 +6006,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-15T15:29:03.245119+03:00"
+  "updatedAt": "2026-11-16T16:20:26.436904+03:00"
 }
