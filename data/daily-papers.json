@@ -25,6 +25,201 @@
   ],
   "days": [
     {
+      "date": "2026-11-17",
+      "generatedAt": "2026-11-17T17:05:47.280914+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Lesion-Aware Explainable AI for Diabetic Retinopathy Grading from Fundus Images",
+          "authors": [
+            "Truong Thinh Nguyen",
+            "Hai Phong Nguyen",
+            "Truong Thanh Hung Nguyen",
+            "Giang Son Tran",
+            "Hung Cao"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-14",
+          "url": "https://arxiv.org/abs/2611.19550",
+          "source": "arXiv",
+          "arxivId": "2611.19550",
+          "summary": "Post-hoc explanations of deep-learning models for diabetic retinopathy (DR) grading are difficult to trust because different attribution methods highlight different retinal regions for the same image, and a visually plausible heatmap does not show that the highlighted pixels drive the prediction. We propose the Consensus-Calibrated Explanation Map (CCEM), which fuses Grad-CAM++, Ada-SISE, and SmoothGrad Integrated Gradients (SG-IG) using image-specific weights derived from annotation-free reliability cues: deletion sensitivity, inter-method agreement, compactness, retinal containment, and peak structure. CCEM explains a frozen ordinal grader, an EfficientNet-B7 with CBAM and a scalar regression head, pre-trained on EyePACS 2015 in Stage 1 and fine-tuned on APTOS 2019 in Stage 2 with quadratic weighted kappa (QWK)-optimized thresholds; it reaches a QWK of 0.920 on the hidden Kaggle test set and 0.559 on the external MAPLES-DR cohort. Explanations are evaluated on MAPLES-DR, 198 MESSIDOR images with expert pixel-level lesion annotations that are never used for training, threshold fitting, or fusion. On the 193 images with annotated lesions, CCEM obtains the highest Soft Pointing Game score (69.61%; 95% CI 63.7-75.3), defined as the ratio of the strongest lesion-supported saliency to the global map maximum rather than a lesion detection rate, together with the lowest deletion AUC (0.570) and the best deletion-insertion balance (0.115); each gain is significant against the strongest single explainer on paired tests. Annotation-free, per-image reliability weighting therefore turns three disagreeing explainers into one map whose peak evidence is more lesion-supported and more faithful to the model than that of any single explainer.",
+          "contribution": "Post-hoc explanations of deep-learning models for diabetic retinopathy (DR) grading are difficult to trust because different attribution methods highlight different retinal regions for the same image, and a visually plausible heatmap does not show that the highlighted pixels drive the prediction. We propose the Consensus-Calibrated Explanation Map (CCEM), which fuses Grad-CAM++, Ada-SISE, and SmoothGrad Integrated Gradients (SG-IG) using image-specific weights derived from annotation-free reliability cues: deletion sensitivity, inter-method agreement, compactness, retinal containment, and peak structure. CCEM explains a frozen ordinal grader, an EfficientNet-B7 with CBAM and a scalar regression head, pre-trained on EyePACS 2015 in Stage 1 and fine-tuned on APTOS 2019 in Stage 2 with quadratic weighted kappa (QWK)-optimized thresholds; it reaches a QWK of 0.920 on the hidden Kaggle test set and 0.559 on the external MAPLES-DR cohort. Explanations are evaluated on MAPLES-DR, 198 MESSIDOR images with expert pixel-level lesion annotations that are never used for training, threshold fitting, or fusion. On the 193 images with annotated lesions, CCEM obtains the highest Soft Pointing Game score (69.61%; 95% CI 63.7-75.3), defined as the ratio of the strongest lesion-supported saliency to the global map maximum rather than a lesion detection rate, together with the lowest deletion AUC (0.570) and the best deletion-insertion balance (0.115); each gain is significant against the strongest single explainer on paired tests. Annotation-free, per-image reliability weighting therefore turns three disagreeing explainers into one map whose peak evidence is more lesion-supported and more faithful to the model than that of any single explainer.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "PQC Migration: End-to-End Performance Profiling of Post Quantum Cryptographic Algorithms in mTLS",
+          "authors": [
+            " Rahul",
+            "Manjesh K. Hanawal",
+            "Sameer G. Kulkarni",
+            "Saravanan V",
+            "K. Tirumaleswar Reddy"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-16",
+          "url": "https://arxiv.org/abs/2611.21206",
+          "source": "arXiv",
+          "arxivId": "2611.21206",
+          "summary": "Emerging quantum computers threaten to break the classical key exchange algorithms. To safeguard against these threats, migration to new quantum-safe algorithms is underway and expected to be expedited. Though resistant to attacks, the quantum safe algorithms may impact the real-world performance due to their large key lengths. In this work, we analyze the end-to-end performance of the Transport Layer Security (TLS) protocol with the post-quantum (PQ) and hybrid cryptographic algorithms standardized by NIST. We develop a test setup to evaluate the performance of TLS connections between a client and a server under various network conditions. We focus on the impact of the new algorithms on the speed (throughput, connection time) and sustainability (energy, CPU cycles) of TLS 1.3. Our analysis demonstrates that the standardized post-quantum algorithms do not introduce any measurable performance degradations in TLS 1.3, despite their larger key lengths. However, hybrid algorithms introduce noticeable performance degradation, which becomes increasingly pronounced under adverse network conditions. Our analysis suggests that migration to hybrid algorithms should be ``network condition aware'' as poor network conditions can severely degrade performance in TLS 1.3. We provide anonymised link to the code and a web interface to analyse performance of various combination of algorithms.",
+          "contribution": "Emerging quantum computers threaten to break the classical key exchange algorithms. To safeguard against these threats, migration to new quantum-safe algorithms is underway and expected to be expedited. Though resistant to attacks, the quantum safe algorithms may impact the real-world performance due to their large key lengths. In this work, we analyze the end-to-end performance of the Transport Layer Security (TLS) protocol with the post-quantum (PQ) and hybrid cryptographic algorithms standardized by NIST. We develop a test setup to evaluate the performance of TLS connections between a client and a server under various network conditions. We focus on the impact of the new algorithms on the speed (throughput, connection time) and sustainability (energy, CPU cycles) of TLS 1.3. Our analysis demonstrates that the standardized post-quantum algorithms do not introduce any measurable performance degradations in TLS 1.3, despite their larger key lengths. However, hybrid algorithms introduce noticeable performance degradation, which becomes increasingly pronounced under adverse network conditions. Our analysis suggests that migration to hybrid algorithms should be ``network condition aware'' as poor network conditions can severely degrade performance in TLS 1.3. We provide anonymised link to the code and a web interface to analyse performance of various combination of algorithms.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "The CYBER-BRIDGE project: An AI-Powered Platform for Cross-Border Cybersecurity, Compliance and Forensics in the EU",
+          "authors": [
+            "Nikolaos Kekatos",
+            "Georgios Koutidis",
+            "Charalampos Bratsas",
+            "Stefan Bucur",
+            "Alexandra-Mihaela Chirlejan",
+            "Mihaela Curcă",
+            "Angelos Fountoulakis",
+            "Michael Ioannou",
+            "Paul Lacatus",
+            "Alexios Lekidis",
+            "Emilios Charalambous",
+            "Avgi Michael",
+            "Tom Nianios",
+            "Simona Purcaru",
+            "Antonis Voulgaridis"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-16",
+          "url": "https://arxiv.org/abs/2611.21497",
+          "source": "arXiv",
+          "arxivId": "2611.21497",
+          "summary": "Cross-border cyber attacks on European SMEs and critical-infrastructure operators expose a structural cyber-resilience gap: cybersecurity (threat sharing, detection, response), compliance (framework assessment, certification) and digital forensics (cross-jurisdictional evidence) are jointly regulated by NIS2, the CRA, GDPR and the LED, yet their tooling evolved in silos and rarely interoperates across Member States. The EU-funded CYBER-BRIDGE project integrates the three domains under one architecture and a hash-chained evidence layer: AI-driven CTI sharing with ENISA-aligned notification, multi-framework assessments with retrieval-augmented advisory, and RFC 3161-anchored custody with lawful GDPR/LED exchange, all aligned with MITRE ATT&CK. A sanitised replica of the back-end image hosts a Cyber-Range for upskilling. The contribution is not the individual tools but the reconciliation mechanism that lets one incident produce, from a single evidence record, a cross-border CTI advisory, the regulatory notifications its deadlines demand and a re-verifiable forensic pack; we set out why binding three differently regulated evidence regimes onto one record is non-trivial and how the shared evidence layer resolves the resulting tensions. This paper introduces the project's scope, requirements, pilots, architecture and toolkits; quantitative KPIs follow in later deliverables.",
+          "contribution": "Cross-border cyber attacks on European SMEs and critical-infrastructure operators expose a structural cyber-resilience gap: cybersecurity (threat sharing, detection, response), compliance (framework assessment, certification) and digital forensics (cross-jurisdictional evidence) are jointly regulated by NIS2, the CRA, GDPR and the LED, yet their tooling evolved in silos and rarely interoperates across Member States. The EU-funded CYBER-BRIDGE project integrates the three domains under one architecture and a hash-chained evidence layer: AI-driven CTI sharing with ENISA-aligned notification, multi-framework assessments with retrieval-augmented advisory, and RFC 3161-anchored custody with lawful GDPR/LED exchange, all aligned with MITRE ATT&CK. A sanitised replica of the back-end image hosts a Cyber-Range for upskilling. The contribution is not the individual tools but the reconciliation mechanism that lets one incident produce, from a single evidence record, a cross-border CTI advisory, the regulatory notifications its deadlines demand and a re-verifiable forensic pack; we set out why binding three differently regulated evidence regimes onto one record is non-trivial and how the shared evidence layer resolves the resulting tensions. This paper introduces the project's scope, requirements, pilots, architecture and toolkits; quantitative KPIs follow in later deliverables.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Explainable Federated Learning via Global-Local Attribution Alignment",
+          "authors": [
+            "Dawood Wasif",
+            "Terrence J. Moore",
+            "Chang-Tien Lu",
+            "Jin-Hee Cho"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-16",
+          "url": "https://arxiv.org/abs/2611.20445",
+          "source": "arXiv",
+          "arxivId": "2611.20445",
+          "summary": "Federated learning enables on-device training without centralizing data, yet existing systems still struggle to provide explanations that are both locally faithful and globally consistent under strict privacy and bandwidth constraints. Prior approaches either keep explanations siloed across clients, transmit heavy or sensitive artifacts, or replace expressive task models with interpretable surrogates that sacrifice accuracy. We propose xFedAlign, a model-agnostic framework that decouples task optimization in parameter space from explanation coordination in a compact group space. Each client distills a lightweight surrogate to produce private, per-class top-k attribution artifacts, which are robustly aggregated by the server into a Global Explanation Prior that softly aligns client explanations without constraining task learning. Across image, text, and tabular benchmarks with IID and non-IID partitions, xFedAlign matches FedAvg accuracy while consistently reducing explanation drift and improving deletion and insertion AUC relative to Local-XAI, FedAttr-Agg, and Fed-XAI, with only a few kilobytes of additional communication per round. Privacy and robustness evaluations further demonstrate reduced membership inference advantage and increased resistance to attribution poisoning, enabling consistent and trustworthy explanations in federated learning.",
+          "contribution": "Federated learning enables on-device training without centralizing data, yet existing systems still struggle to provide explanations that are both locally faithful and globally consistent under strict privacy and bandwidth constraints. Prior approaches either keep explanations siloed across clients, transmit heavy or sensitive artifacts, or replace expressive task models with interpretable surrogates that sacrifice accuracy. We propose xFedAlign, a model-agnostic framework that decouples task optimization in parameter space from explanation coordination in a compact group space. Each client distills a lightweight surrogate to produce private, per-class top-k attribution artifacts, which are robustly aggregated by the server into a Global Explanation Prior that softly aligns client explanations without constraining task learning. Across image, text, and tabular benchmarks with IID and non-IID partitions, xFedAlign matches FedAvg accuracy while consistently reducing explanation drift and improving deletion and insertion AUC relative to Local-XAI, FedAttr-Agg, and Fed-XAI, with only a few kilobytes of additional communication per round. Privacy and robustness evaluations further demonstrate reduced membership inference advantage and increased resistance to attribution poisoning, enabling consistent and trustworthy explanations in federated learning.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities",
+          "authors": [
+            "Jawaher Al-Tuweity",
+            "João Paulo Papa"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-13",
+          "url": "https://arxiv.org/abs/2611.18793",
+          "source": "arXiv",
+          "arxivId": "2611.18793",
+          "summary": "Purpose: Multimodal medical imaging fusion (MMIF) is an increasingly important approach to breast cancer detection (BCD), as different imaging modalities rely on different physical principles and provide complementary information. No single modality can capture all the structural, functional, and biological information needed for accurate diagnosis and characterization. Methods: This review examines more than 15 imaging modalities used in breast cancer detection, including conventional techniques such as mammography, ultrasound, and magnetic resonance imaging (MRI), as well as emerging approaches such as thermal imaging, photoacoustic imaging, microwave imaging, and multimodal microscopy. Results: Mammography, ultrasound, and MRI remain among the most widely used modalities, providing complementary structural and functional information. Recent AI advances have enabled fusion at the data, feature, and decision levels, with applications in detection, classification, segmentation, prognosis, and personalized cancer management. Multimodal approaches increasingly combine imaging data with clinical, histopathological, and genomic information. However, important challenges remain, including limited availability of large and diverse multimodal datasets, variations in imaging protocols, missing modalities, limited external validation, and the need for interpretable and clinically reliable AI models. Conclusion: MMIF offers promising opportunities to improve breast cancer detection and characterization by combining complementary imaging and non-imaging information. Future research should prioritize robust fusion strategies, standardized and diverse datasets, multicenter validation, explainable and privacy-preserving AI, and the integration of imaging with clinical and molecular data to facilitate reliable translation into clinical practice.",
+          "contribution": "Purpose: Multimodal medical imaging fusion (MMIF) is an increasingly important approach to breast cancer detection (BCD), as different imaging modalities rely on different physical principles and provide complementary information. No single modality can capture all the structural, functional, and biological information needed for accurate diagnosis and characterization. Methods: This review examines more than 15 imaging modalities used in breast cancer detection, including conventional techniques such as mammography, ultrasound, and magnetic resonance imaging (MRI), as well as emerging approaches such as thermal imaging, photoacoustic imaging, microwave imaging, and multimodal microscopy. Results: Mammography, ultrasound, and MRI remain among the most widely used modalities, providing complementary structural and functional information. Recent AI advances have enabled fusion at the data, feature, and decision levels, with applications in detection, classification, segmentation, prognosis, and personalized cancer management. Multimodal approaches increasingly combine imaging data with clinical, histopathological, and genomic information. However, important challenges remain, including limited availability of large and diverse multimodal datasets, variations in imaging protocols, missing modalities, limited external validation, and the need for interpretable and clinically reliable AI models. Conclusion: MMIF offers promising opportunities to improve breast cancer detection and characterization by combining complementary imaging and non-imaging information. Future research should prioritize robust fusion strategies, standardized and diverse datasets, multicenter validation, explainable and privacy-preserving AI, and the integration of imaging with clinical and molecular data to facilitate reliable translation into clinical practice.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Security of Keyless Entry Systems in Modern Automobiles",
+          "authors": [
+            "Kyungho Joo",
+            "Yeongjae Seo",
+            "Wonsuk Choi"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-16",
+          "url": "https://doi.org/10.1145/3863940",
+          "source": "Crossref",
+          "doi": "10.1145/3863940",
+          "summary": "Automotive keyless entry systems have evolved through several generations, including immobilizers, Remote Keyless Entry (RKE), Passive Keyless Entry and Start (PKES), and smartphone-based Digital Key. Innovations enhance convenience and defense against theft, yet critical threats such as Denial of Service (DoS) and distance reduction attacks persist. In particular, although Ultra-Wideband (UWB) technology in Digital Keys aims to counter relay attacks, emerging physical-layer exploits continue to jeopardize vehicle security. In this paper, we present the first comprehensive survey of the automotive keyless entry security landscape using a unified layer-centric framework. We systematically categorize 103 academic publications into physical, protocol, context, and application layers, identifying 44 attack techniques and 59 defense mechanisms. Beyond traditional proximity verification, we expand our scope to the next-generation Digital Key ecosystem, analyzing vulnerabilities in key sharing and backend infrastructure. Finally, we identify essential technical challenges and propose strategic pathways for designing robust keyless entry systems that ensure both high security and practical reliability.",
+          "contribution": "Automotive keyless entry systems have evolved through several generations, including immobilizers, Remote Keyless Entry (RKE), Passive Keyless Entry and Start (PKES), and smartphone-based Digital Key. Innovations enhance convenience and defense against theft, yet critical threats such as Denial of Service (DoS) and distance reduction attacks persist. In particular, although Ultra-Wideband (UWB) technology in Digital Keys aims to counter relay attacks, emerging physical-layer exploits continue to jeopardize vehicle security. In this paper, we present the first comprehensive survey of the automotive keyless entry security landscape using a unified layer-centric framework. We systematically categorize 103 academic publications into physical, protocol, context, and application layers, identifying 44 attack techniques and 59 defense mechanisms. Beyond traditional proximity verification, we expand our scope to the next-generation Digital Key ecosystem, analyzing vulnerabilities in key sharing and backend infrastructure. Finally, we identify essential technical challenges and propose strategic pathways for designing robust keyless entry systems that ensure both high security and practical reliability.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Uncertainty Gating for Cost-Aware Explainable Artificial Intelligence",
+          "authors": [
+            "Georgii Mikriukov",
+            "Grégoire Montavon",
+            "Marina M.-C. Höhne"
+          ],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-11-17",
+          "url": "https://doi.org/10.1007/978-3-032-45467-6_16",
+          "source": "Crossref",
+          "doi": "10.1007/978-3-032-45467-6_16",
+          "summary": "This paper examines Uncertainty Gating for Cost-Aware Explainable Artificial Intelligence.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Deep learning image reconstruction at incremental weightings (20–80%) for high–resolution coronary CT angiography: a prospective image quality study",
+          "authors": [
+            "Guorong Ren",
+            "Panpan An",
+            "Tong Su",
+            "Xiaona Xia",
+            "Qingguo Ren",
+            "Lian He",
+            "Xiangshui Meng",
+            "Hui Li"
+          ],
+          "venue": "SPIE Medical Imaging",
+          "venueId": "C04",
+          "publishedDate": "2026-11-17",
+          "url": "https://doi.org/10.1186/s12880-026-03010-x",
+          "source": "Crossref",
+          "doi": "10.1186/s12880-026-03010-x",
+          "summary": "This paper examines Deep learning image reconstruction at incremental weightings (20–80%) for high–resolution coronary CT angiography: a prospective image quality study.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-16",
       "generatedAt": "2026-11-16T16:20:26.436904+03:00",
       "papers": [
@@ -6006,5 +6201,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-16T16:20:26.436904+03:00"
+  "updatedAt": "2026-11-17T17:05:47.280914+03:00"
 }
