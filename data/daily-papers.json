@@ -25,6 +25,184 @@
   ],
   "days": [
     {
+      "date": "2026-11-18",
+      "generatedAt": "2026-11-18T16:39:09.130930+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Information about Optic Nerve Head Biomechanics is Already Coded in Your Clinical Charts and Can be Used to Predict Glaucoma Progression",
+          "authors": [
+            "Yibo Chen",
+            "Patipol Tiyajamorn",
+            "Charis Y. N. Chiang",
+            "Deepta Ghate",
+            "Thanadet Chuangsuwanich",
+            "Michaël J. A. Girard"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-11",
+          "url": "https://arxiv.org/abs/2611.18760",
+          "source": "arXiv",
+          "arxivId": "2611.18760",
+          "summary": "Glaucoma patients routinely undergo optical coherence tomography (OCT) imaging and intraocular pressure (IOP) assessment as part of standard care. Because IOP typically differs across visits, it is possible to map visit-to-visit ONH strains by registering OCT volumes acquired under different IOPs. These strains reflect ONH elasticity and, over longer intervals, also capture growth and remodeling of the ONH. In this study, we evaluated whether such visit-to-visit ONH strain signatures could serve as predictors of glaucoma progression. We retrospectively analyzed 525 eyes from 430 glaucoma patients (238 fast and 287 slow progressors), defining fast progression by a visual field index slope of -1.5% per year or worse. 3D strain maps were derived from baseline and follow-up OCT scans using AI. Predictions using T=1 to T=4 follow-up visits were evaluated by five-fold cross-validation in a long-term cohort (T=1: 1.30 years; T=4: 5.26 years) and short-term testing (T=1: 0.46 years; T=4: 1.25 years). Overall, IOP differed between paired visits in 92% of cases. Long-term T=1 prediction achieved an area under the receiver operating characteristic curve (AUC) of 0.74 and accuracy of 0.72. A single short-term follow-up (T=1) yielded an AUC of 0.75 and accuracy of 0.71; four follow-ups yielded an AUC of 0.87 and accuracy of 0.82. SHapley Additive exPlanations (SHAP) identified neuroretinal rim compression and prelaminar elongation associated with fast progression, with substantial inter-eye variability. Overall, visit-to-visit ONH strains derived from routine OCT predicted glaucoma progression after a single follow-up visit at a mean interval of 0.46 years. These findings suggest that short-term OCT/IOP assessments could provide valuable insights into ONH biomechanics, identify eyes at risk of rapid progression, and reveal distinct strain signatures associated with disease progression.",
+          "contribution": "Glaucoma patients routinely undergo optical coherence tomography (OCT) imaging and intraocular pressure (IOP) assessment as part of standard care. Because IOP typically differs across visits, it is possible to map visit-to-visit ONH strains by registering OCT volumes acquired under different IOPs. These strains reflect ONH elasticity and, over longer intervals, also capture growth and remodeling of the ONH. In this study, we evaluated whether such visit-to-visit ONH strain signatures could serve as predictors of glaucoma progression. We retrospectively analyzed 525 eyes from 430 glaucoma patients (238 fast and 287 slow progressors), defining fast progression by a visual field index slope of -1.5% per year or worse. 3D strain maps were derived from baseline and follow-up OCT scans using AI. Predictions using T=1 to T=4 follow-up visits were evaluated by five-fold cross-validation in a long-term cohort (T=1: 1.30 years; T=4: 5.26 years) and short-term testing (T=1: 0.46 years; T=4: 1.25 years). Overall, IOP differed between paired visits in 92% of cases. Long-term T=1 prediction achieved an area under the receiver operating characteristic curve (AUC) of 0.74 and accuracy of 0.72. A single short-term follow-up (T=1) yielded an AUC of 0.75 and accuracy of 0.71; four follow-ups yielded an AUC of 0.87 and accuracy of 0.82. SHapley Additive exPlanations (SHAP) identified neuroretinal rim compression and prelaminar elongation associated with fast progression, with substantial inter-eye variability. Overall, visit-to-visit ONH strains derived from routine OCT predicted glaucoma progression after a single follow-up visit at a mean interval of 0.46 years. These findings suggest that short-term OCT/IOP assessments could provide valuable insights into ONH biomechanics, identify eyes at risk of rapid progression, and reveal distinct strain signatures associated with disease progression.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Cyber-Secure Wearable, Ultra-Low-Power Networked Sensors for Soldier Health Monitoring: Insights from the CAPSARII project",
+          "authors": [
+            "Luciano Bozzi",
+            "Christian Celidonio",
+            "Umberto Nuzzi",
+            "Massimo Biagini",
+            "Stefano Cherubin",
+            "Asbjørn Djupdal",
+            "Tor Andre Haugdahl",
+            "Andrea Aliverti",
+            "Alessandra Angelucci",
+            "Giovanni Agosta",
+            "Gerardo Pelosi",
+            "Paolo Belluco",
+            "Samuele Polistina",
+            "Gaia Strada",
+            "Luigi Sossi Ortega",
+            "Alexandra-Ioana Albu",
+            "Riccardo Volpi",
+            "Luigi Malagò",
+            "Michael Schneider",
+            "Xabier Eguiluz",
+            "Haritz Saiz",
+            "María Viqueria"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-15",
+          "url": "https://arxiv.org/abs/2611.20187",
+          "source": "arXiv",
+          "doi": "10.1016/j.micpro.2026.105355",
+          "arxivId": "2611.20187",
+          "summary": "The CAPSARII project advances a cyber-secure, ultra-low-power wearable platform and Internet of Battlefield Things (IoBT) framework to support real-time monitoring of military personnel and data-driven decision support. The architecture integrates smart-textile sensing, a body/squad area mesh, edge-deployed AI on secure RISC-V microcontrollers, and cloud/federated analytics for cross-mission learning and comparative studies. Two representative use cases--pilot fatigue and warfighters operating in harsh environments--guide requirements, validation, and interface design (including HUD and haptic feedback).\n  As an initial step toward embedded models, we benchmark stress classification on a public wearable dataset: tree-ensemble baselines achieve state-of-the-art performance for accuracy and F1 (e.g., XGBoost: $\\mathrm{Accuracy}=0.901\\!\\pm\\!0.023$, $\\mathrm{F1}=0.920\\!\\pm\\!0.019$), while a feature-based Transformer attains the highest AUC ($0.963\\!\\pm\\!0.025$), informing feature-engineering and compression choices for edge deployment. Building on these results, CAPSARII employs HW/SW co-design, model compression (pruning, quantization, distillation), and precision tuning to meet stringent energy and memory budgets; it further investigates Processing-in-Memory accelerators for future efficiency gains.\n  A structured gap analysis highlights the remaining challenges: establishing validation standards for physiological signal quality and textile durability; achieving low-latency, scalable BAN/SAN communications under mobility and interference; and deploying hybrid lightweight/post-quantum cryptography with robust device identity and side-channel resilience on constrained endpoints. By consolidating these elements into a coherent, secure IoBT stack, CAPSARII delineates a practical roadmap from laboratory baselines to mission-ready soldier monitoring in both training and operational scenarios.",
+          "contribution": "The CAPSARII project advances a cyber-secure, ultra-low-power wearable platform and Internet of Battlefield Things (IoBT) framework to support real-time monitoring of military personnel and data-driven decision support. The architecture integrates smart-textile sensing, a body/squad area mesh, edge-deployed AI on secure RISC-V microcontrollers, and cloud/federated analytics for cross-mission learning and comparative studies. Two representative use cases--pilot fatigue and warfighters operating in harsh environments--guide requirements, validation, and interface design (including HUD and haptic feedback).\n  As an initial step toward embedded models, we benchmark stress classification on a public wearable dataset: tree-ensemble baselines achieve state-of-the-art performance for accuracy and F1 (e.g., XGBoost: $\\mathrm{Accuracy}=0.901\\!\\pm\\!0.023$, $\\mathrm{F1}=0.920\\!\\pm\\!0.019$), while a feature-based Transformer attains the highest AUC ($0.963\\!\\pm\\!0.025$), informing feature-engineering and compression choices for edge deployment. Building on these results, CAPSARII employs HW/SW co-design, model compression (pruning, quantization, distillation), and precision tuning to meet stringent energy and memory budgets; it further investigates Processing-in-Memory accelerators for future efficiency gains.\n  A structured gap analysis highlights the remaining challenges: establishing validation standards for physiological signal quality and textile durability; achieving low-latency, scalable BAN/SAN communications under mobility and interference; and deploying hybrid lightweight/post-quantum cryptography with robust device identity and side-channel resilience on constrained endpoints. By consolidating these elements into a coherent, secure IoBT stack, CAPSARII delineates a practical roadmap from laboratory baselines to mission-ready soldier monitoring in both training and operational scenarios.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Hierarchical Personalized Federated Learning for Fine-Grained Intrusion Detection: A Multi-Class Analysis in Heterogeneous Attack Environments",
+          "authors": [
+            "Abul Kalam Azad",
+            "Travis Atkison"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-16",
+          "url": "https://arxiv.org/abs/2611.21970",
+          "source": "arXiv",
+          "arxivId": "2611.21970",
+          "summary": "Intrusion Detection Systems (IDS) play a vital role in protecting modern network infrastructures. Although Federated Learning (FL) enables collaborative training without sharing raw network traffic, global models struggle with non-IID attack distributions. Moreover, practical security operations require fine-grained attack classification for targeted threat responses. To address these challenges, this paper investigates the convergence dynamics and performance of Hierarchical Personalized Federated Learning (HPFL), which combines multi-tier aggregation with client-level personalization, for 8-class, 6-class, and 4-class intrusion detection using Multi-Layer Perceptron (MLP) models implemented in NVIDIA FLARE on the CICIDS2017 dataset. Experimental results show that personalized HPFL models achieve micro F1-scores up to 0.9911 in the 6-class task, while the overall local accuracy reaches 0.9975 in the 8-class task. On 8-class local test sets, HPFL achieves a micro F1-score of 0.9901 and a macro F1-score of 0.8324, outperforming FedAvg (0.7176) and FedProx (0.5624) in macro F1. Cross-client evaluations demonstrate out-of-distribution generalization, with HPFL achieving a 4-class micro F1-score of 0.9294 compared with 0.9140 for standalone local models. Furthermore, distance-weighted network analysis estimates a 48.9% reduction in transmission overhead compared with conventional FL (194.4 MB vs. 380.3 MB for the 8-class task). These findings demonstrate HPFLs potential as an accurate, privacy-preserving, and communication-efficient approach to fine-grained intrusion detection in heterogeneous networks.",
+          "contribution": "Intrusion Detection Systems (IDS) play a vital role in protecting modern network infrastructures. Although Federated Learning (FL) enables collaborative training without sharing raw network traffic, global models struggle with non-IID attack distributions. Moreover, practical security operations require fine-grained attack classification for targeted threat responses. To address these challenges, this paper investigates the convergence dynamics and performance of Hierarchical Personalized Federated Learning (HPFL), which combines multi-tier aggregation with client-level personalization, for 8-class, 6-class, and 4-class intrusion detection using Multi-Layer Perceptron (MLP) models implemented in NVIDIA FLARE on the CICIDS2017 dataset. Experimental results show that personalized HPFL models achieve micro F1-scores up to 0.9911 in the 6-class task, while the overall local accuracy reaches 0.9975 in the 8-class task. On 8-class local test sets, HPFL achieves a micro F1-score of 0.9901 and a macro F1-score of 0.8324, outperforming FedAvg (0.7176) and FedProx (0.5624) in macro F1. Cross-client evaluations demonstrate out-of-distribution generalization, with HPFL achieving a 4-class micro F1-score of 0.9294 compared with 0.9140 for standalone local models. Furthermore, distance-weighted network analysis estimates a 48.9% reduction in transmission overhead compared with conventional FL (194.4 MB vs. 380.3 MB for the 8-class task). These findings demonstrate HPFLs potential as an accurate, privacy-preserving, and communication-efficient approach to fine-grained intrusion detection in heterogeneous networks.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Who Pays for Byzantine Robustness? Validity, Data-Share Dictatorships, and Fairness When Only a Few Hospitals Collaborate",
+          "authors": [
+            "Adnan Malkani"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-17",
+          "url": "https://arxiv.org/abs/2611.22904",
+          "source": "arXiv",
+          "arxivId": "2611.22904",
+          "summary": "Clinical federated learning (FL) collaborations typically connect only three to six hospitals, yet Byzantine-robust aggregation rules are designed and benchmarked on synthetic partitions across dozens of equal-sized clients. We conduct an empirical audit of eight standard aggregation rules: FedAvg, coordinate-wise median, trimmed mean, Krum, Multi-Krum, Bulyan, geometric median (GeoMed), and Centered Clipping (CC). We evaluate both unweighted and sample-size-weighted variants across three cross-silo medical datasets from the FLamby benchmark: Fed-Heart-Disease ($n = 4$ hospitals), Fed-TCGA-BRCA ($n = 6$ regions), and Fed-ISIC2019 ($n = 6$ centres). We execute 54,214 training runs across enumerated attacker coalitions ($f \\in \\{1, 2\\}$) paired with exact-twin leave-out controls that decompose performance drops into honest data loss versus adversarial attack damage.\n  We report three findings. First, client-count validity checks fail to capture breakdown in skewed medical consortia: while $n = 6, f = 1$ satisfies every count condition except Bulyan's, assigning sample-size weights turns median and GeoMed into a clean-model dictatorship whenever a single hospital holds more than half the training data, and causes weighted median, GeoMed, and CC to collapse when that dominant centre attacks. Second, exact-twin leave-out controls reveal that when the largest hospital attacks, the apparent failure of count-based robust rules is predominantly caused by the loss of honest training data (7.5 to 10.4 points on ISIC) rather than adversarial perturbation (2.3 to 3.8 points on ISIC). Conversely, weight-dependent rules suffer large true attack damage (16.1 to 25.1 points on ISIC). Third, unweighted robust rules consistently discount whichever institution generates the most atypical parameter updates, penalizing the smallest hospital on Heart but penalizing larger institutions on TCGA and ISIC.",
+          "contribution": "Clinical federated learning (FL) collaborations typically connect only three to six hospitals, yet Byzantine-robust aggregation rules are designed and benchmarked on synthetic partitions across dozens of equal-sized clients. We conduct an empirical audit of eight standard aggregation rules: FedAvg, coordinate-wise median, trimmed mean, Krum, Multi-Krum, Bulyan, geometric median (GeoMed), and Centered Clipping (CC). We evaluate both unweighted and sample-size-weighted variants across three cross-silo medical datasets from the FLamby benchmark: Fed-Heart-Disease ($n = 4$ hospitals), Fed-TCGA-BRCA ($n = 6$ regions), and Fed-ISIC2019 ($n = 6$ centres). We execute 54,214 training runs across enumerated attacker coalitions ($f \\in \\{1, 2\\}$) paired with exact-twin leave-out controls that decompose performance drops into honest data loss versus adversarial attack damage.\n  We report three findings. First, client-count validity checks fail to capture breakdown in skewed medical consortia: while $n = 6, f = 1$ satisfies every count condition except Bulyan's, assigning sample-size weights turns median and GeoMed into a clean-model dictatorship whenever a single hospital holds more than half the training data, and causes weighted median, GeoMed, and CC to collapse when that dominant centre attacks. Second, exact-twin leave-out controls reveal that when the largest hospital attacks, the apparent failure of count-based robust rules is predominantly caused by the loss of honest training data (7.5 to 10.4 points on ISIC) rather than adversarial perturbation (2.3 to 3.8 points on ISIC). Conversely, weight-dependent rules suffer large true attack damage (16.1 to 25.1 points on ISIC). Third, unweighted robust rules consistently discount whichever institution generates the most atypical parameter updates, penalizing the smallest hospital on Heart but penalizing larger institutions on TCGA and ISIC.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Retrieval-Augmented Correction for Generalist Medical Image Segmentation",
+          "authors": [
+            "Vincenzo Marcianò",
+            "Xiaoming Zhang",
+            "Michela Antonelli",
+            "Sebastien Ourselin",
+            "Maria A Zuluaga"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-17",
+          "url": "https://arxiv.org/abs/2611.23189",
+          "source": "arXiv",
+          "arxivId": "2611.23189",
+          "summary": "Automated segmentation is routinely used as the first step in quantitative image-based clinical workflows, where predicted masks are subsequently reviewed and corrected by human operators. Automated correction of the residual structural errors is currently addressed one anatomy at a time, so the number of trained correctors scales with the number of segmentation targets. We present GRACE, a retrieval-augmented refiner that edits an input mask under context drawn from a shared knowledge base of verified prior cases. The refiner is trained once on a multi-organ corpus spanning compact organs, cavities, branching vessels, and tumour lesions. In the held-out dataset-transfer evaluation, three held-out datasets query a fixed knowledge base built from training data only. A separate leave-one-anatomy-out experiment tests parameter-free index extension: verified cases of an unseen solid organ enter the knowledge base, and the refiner stays frozen. A light shape-aware projection head on a frozen multimodal encoder maps embedding similarity to the shape agreement of the masks, so the knowledge base returns cases that the refiner can use as a shape prior. We evaluate GRACE on 18 public datasets spanning CT, MRI and ultrasound, using nine refinement configurations and seven upstream segmentors that span weak, mid, and strong operating regimes. We report each change with the DSC of its input mask. On the weak tier, the input DSC is 0.386 and GRACE adds up to +0.35 DSC. On a strong segmentor, the input DSC is 0.932 and the mean change is small. Transfer to an imaging modality that is absent from training and from the index is partial and depends on the anatomy, and remains an open research direction. Our results suggest retrieval-conditioned refinement is a practical alternative to anatomy-specific correction models. Code: https://github.com/robustml-eurecom/grace",
+          "contribution": "Automated segmentation is routinely used as the first step in quantitative image-based clinical workflows, where predicted masks are subsequently reviewed and corrected by human operators. Automated correction of the residual structural errors is currently addressed one anatomy at a time, so the number of trained correctors scales with the number of segmentation targets. We present GRACE, a retrieval-augmented refiner that edits an input mask under context drawn from a shared knowledge base of verified prior cases. The refiner is trained once on a multi-organ corpus spanning compact organs, cavities, branching vessels, and tumour lesions. In the held-out dataset-transfer evaluation, three held-out datasets query a fixed knowledge base built from training data only. A separate leave-one-anatomy-out experiment tests parameter-free index extension: verified cases of an unseen solid organ enter the knowledge base, and the refiner stays frozen. A light shape-aware projection head on a frozen multimodal encoder maps embedding similarity to the shape agreement of the masks, so the knowledge base returns cases that the refiner can use as a shape prior. We evaluate GRACE on 18 public datasets spanning CT, MRI and ultrasound, using nine refinement configurations and seven upstream segmentors that span weak, mid, and strong operating regimes. We report each change with the DSC of its input mask. On the weak tier, the input DSC is 0.386 and GRACE adds up to +0.35 DSC. On a strong segmentor, the input DSC is 0.932 and the mean change is small. Transfer to an imaging modality that is absent from training and from the index is partial and depends on the anatomy, and remains an open research direction. Our results suggest retrieval-conditioned refinement is a practical alternative to anatomy-specific correction models. Code: https://github.com/robustml-eurecom/grace",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "AI-Driven Reliable SFC Deployment: Challenges, Opportunities, and Perspectives",
+          "authors": [
+            "Yihan Zhong",
+            "Danyang Zheng",
+            "Chao Wang",
+            "Anubha Mittal",
+            "Xiaojun Cao"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-17",
+          "url": "https://doi.org/10.1145/3840282",
+          "source": "Crossref",
+          "doi": "10.1145/3840282",
+          "summary": "Artificial Intelligence (AI) techniques are driving increasing volumes of reliability-sensitive Service Function Chain (SFC) requests from applications such as autonomous driving, smart manufacturing, and intelligent healthcare. These applications require not only feasible deployment but also continuous service availability under failures, disruptions, and uncertainty. Existing reliable SFC deployment studies have largely relied on rule-based approaches, which provide explicit formulations and interpretable decision rules but often struggle with dynamic, large-scale, and multi-objective requirements involving reliability, latency, cost, and security. AI-driven solutions therefore offer a promising direction for enabling adaptive and data-driven deployment decisions. This survey first clarifies the workflow of SFC deployment and the distinction between conventional and reliable SFC deployment. We then review rule-based reliable SFC deployment, analyzing its major design rationales, representative solution paradigms, and limitations. Building on this analysis, we examine AI-driven methodologies for reliable SFC deployment, with a particular focus on deep reinforcement learning approaches, which dominate the existing literature. Finally, we discuss open challenges and future directions toward adaptive, robust, and scalable reliable SFC deployment.",
+          "contribution": "Artificial Intelligence (AI) techniques are driving increasing volumes of reliability-sensitive Service Function Chain (SFC) requests from applications such as autonomous driving, smart manufacturing, and intelligent healthcare. These applications require not only feasible deployment but also continuous service availability under failures, disruptions, and uncertainty. Existing reliable SFC deployment studies have largely relied on rule-based approaches, which provide explicit formulations and interpretable decision rules but often struggle with dynamic, large-scale, and multi-objective requirements involving reliability, latency, cost, and security. AI-driven solutions therefore offer a promising direction for enabling adaptive and data-driven deployment decisions. This survey first clarifies the workflow of SFC deployment and the distinction between conventional and reliable SFC deployment. We then review rule-based reliable SFC deployment, analyzing its major design rationales, representative solution paradigms, and limitations. Building on this analysis, we examine AI-driven methodologies for reliable SFC deployment, with a particular focus on deep reinforcement learning approaches, which dominate the existing literature. Finally, we discuss open challenges and future directions toward adaptive, robust, and scalable reliable SFC deployment.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Survey on Verifiable Machine Learning",
+          "authors": [
+            "He Lyu",
+            "Xikun Jiang",
+            "Boris Düdder",
+            "Yuya Sasaki"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-17",
+          "url": "https://doi.org/10.1145/3847111",
+          "source": "Crossref",
+          "doi": "10.1145/3847111",
+          "summary": "Verifiable Machine Learning (VML) provides provable guarantees for ML systems and is becoming a foundation for trust in critical applications. This survey organizes 222 papers published between 2010 and August 2026 along a three-axis taxonomy of verification objectives, technique families, and architectural paradigms. Cryptographic proofs of inference, training, and aggregation account for roughly half of the corpus; robustness and safety verification through formal methods accounts for another large fraction; fairness, unlearning, and ownership form smaller but rapidly growing branches. The survey highlights cross-cutting trust assumptions, scalability versus rigor tradeoffs, and deployment barriers, and outlines future directions for trustworthy ML.",
+          "contribution": "Verifiable Machine Learning (VML) provides provable guarantees for ML systems and is becoming a foundation for trust in critical applications. This survey organizes 222 papers published between 2010 and August 2026 along a three-axis taxonomy of verification objectives, technique families, and architectural paradigms. Cryptographic proofs of inference, training, and aggregation account for roughly half of the corpus; robustness and safety verification through formal methods accounts for another large fraction; fairness, unlearning, and ownership form smaller but rapidly growing branches. The survey highlights cross-cutting trust assumptions, scalability versus rigor tradeoffs, and deployment barriers, and outlines future directions for trustworthy ML.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "generatedAt": "2026-11-17T17:05:47.280914+03:00",
       "papers": [
@@ -6201,5 +6379,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-17T17:05:47.280914+03:00"
+  "updatedAt": "2026-11-18T16:39:09.130930+03:00"
 }
