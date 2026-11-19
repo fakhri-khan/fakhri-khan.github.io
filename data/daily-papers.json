@@ -25,6 +25,145 @@
   ],
   "days": [
     {
+      "date": "2026-11-19",
+      "generatedAt": "2026-11-19T17:06:26.803929+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Beyond Accuracy: Benchmarking Uncertainty Quantification in Retinal Disease Screening",
+          "authors": [
+            "Mahvash Jebeli",
+            "Mohammad Eslami",
+            "Nazlee Zebardast",
+            "Lucia Sobrin",
+            "Tobias Elze"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-17",
+          "url": "https://arxiv.org/abs/2611.23344",
+          "source": "arXiv",
+          "arxivId": "2611.23344",
+          "summary": "Reliable uncertainty quantification (UQ) is essential for evaluating retinal AI systems beyond classification accuracy, yet it remains unclear whether existing UQ strategies generalize across diseases, model architectures, and reliability criteria. We introduce a large-scale, multi-disease benchmark comprising over $242,000$ fundus photographs from $32$ datasets covering diabetic retinopathy, age-related macular degeneration, and glaucoma. We evaluate six representative UQ strategies across three Vision Transformer configurations, assessing discrimination, probabilistic calibration, selective prediction, and conformal prediction-set coverage. Our findings reveal no universally superior model or UQ strategy: methods that improve reliability in one disease or architecture may underperform in another, while improvements in discrimination, calibration, and selective prediction do not necessarily align. Notably, computationally intensive methods do not consistently outperform simple confidence scores, and domain-specific foundation models and calibration-oriented loss functions do not guarantee greater reliability. In contrast, conformal prediction provides a complementary framework for achieving near-nominal marginal prediction-set coverage across diverse settings, subject to its statistical assumptions. These findings challenge universal UQ recommendations and highlight the need for disease-specific, model-specific, and multidimensional reliability evaluation before clinical deployment. We release standardized dataset splits, trained checkpoints, evaluation code, and an interactive research demonstration to support reproducible benchmarking.",
+          "contribution": "Reliable uncertainty quantification (UQ) is essential for evaluating retinal AI systems beyond classification accuracy, yet it remains unclear whether existing UQ strategies generalize across diseases, model architectures, and reliability criteria. We introduce a large-scale, multi-disease benchmark comprising over $242,000$ fundus photographs from $32$ datasets covering diabetic retinopathy, age-related macular degeneration, and glaucoma. We evaluate six representative UQ strategies across three Vision Transformer configurations, assessing discrimination, probabilistic calibration, selective prediction, and conformal prediction-set coverage. Our findings reveal no universally superior model or UQ strategy: methods that improve reliability in one disease or architecture may underperform in another, while improvements in discrimination, calibration, and selective prediction do not necessarily align. Notably, computationally intensive methods do not consistently outperform simple confidence scores, and domain-specific foundation models and calibration-oriented loss functions do not guarantee greater reliability. In contrast, conformal prediction provides a complementary framework for achieving near-nominal marginal prediction-set coverage across diverse settings, subject to its statistical assumptions. These findings challenge universal UQ recommendations and highlight the need for disease-specific, model-specific, and multidimensional reliability evaluation before clinical deployment. We release standardized dataset splits, trained checkpoints, evaluation code, and an interactive research demonstration to support reproducible benchmarking.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "EmbedGym: Letting Coding Agents Develop and Debug Embedded Firmware Without Physical Hardware",
+          "authors": [
+            "Minghui Zhao",
+            "Yiming Li",
+            "Sophie Zhu",
+            "Maxwell Khor",
+            "Lauren Ouyang",
+            "Hai \"Helen\" Li",
+            "Yiran Chen",
+            "Tingjun Chen"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-16",
+          "url": "https://arxiv.org/abs/2611.21845",
+          "source": "arXiv",
+          "arxivId": "2611.21845",
+          "summary": "Modern coding agents perform well on general software benchmarks because they can run code and unit tests in a closed loop. Embedded firmware development, however, breaks this loop: a program that compiles can still fail on real hardware due to pin polarity, bus protocol, timing, or networking bugs that an agent at a text terminal cannot observe. Existing embedded coding agents either skip hardware execution, drive GPIO-only simulators with multi-second delays, or test on physical boards in a static environment. In this paper, we present EmbedGym, an interactive virtual hardware environment that lets coding agents develop and debug embedded firmware without physical hardware. EmbedGym uses instruction-level microcontroller unit (MCU) emulators to execute the same binary that would be flashed onto a physical board, connects them to 41 peripheral models, an analog circuit simulator, and virtual WiFi/Bluetooth Low Energy (BLE) endpoints, and exposes an interface for agents to change sensor inputs, press buttons, and inspect hardware states. On top of it, we build EmbedGym-Bench, which consists of 598 tasks across 6 MCU-framework pairs graded by hidden timed test vectors, using a five-stage multi-agent workflow that synthesizes peripheral models and tasks from datasheets and driver libraries. We expose EmbedGym to a coding agent at three levels and evaluate eight models over more than 14K trajectories. Even when compilation succeeds 99.7% of the time, 19.9% of compiled firmwares fail at runtime (up to 73% on individual targets). In contrast, interactive hardware testing in EmbedGym increases pass rates across models by +4.9% to +14.7% (up to +31% on individual targets). Our results also show that an agent with EmbedGym outperforms prior embedded agent frameworks, and lightweight models with EmbedGym match frontier models without it at 30-70x lower cost.",
+          "contribution": "Modern coding agents perform well on general software benchmarks because they can run code and unit tests in a closed loop. Embedded firmware development, however, breaks this loop: a program that compiles can still fail on real hardware due to pin polarity, bus protocol, timing, or networking bugs that an agent at a text terminal cannot observe. Existing embedded coding agents either skip hardware execution, drive GPIO-only simulators with multi-second delays, or test on physical boards in a static environment. In this paper, we present EmbedGym, an interactive virtual hardware environment that lets coding agents develop and debug embedded firmware without physical hardware. EmbedGym uses instruction-level microcontroller unit (MCU) emulators to execute the same binary that would be flashed onto a physical board, connects them to 41 peripheral models, an analog circuit simulator, and virtual WiFi/Bluetooth Low Energy (BLE) endpoints, and exposes an interface for agents to change sensor inputs, press buttons, and inspect hardware states. On top of it, we build EmbedGym-Bench, which consists of 598 tasks across 6 MCU-framework pairs graded by hidden timed test vectors, using a five-stage multi-agent workflow that synthesizes peripheral models and tasks from datasheets and driver libraries. We expose EmbedGym to a coding agent at three levels and evaluate eight models over more than 14K trajectories. Even when compilation succeeds 99.7% of the time, 19.9% of compiled firmwares fail at runtime (up to 73% on individual targets). In contrast, interactive hardware testing in EmbedGym increases pass rates across models by +4.9% to +14.7% (up to +31% on individual targets). Our results also show that an agent with EmbedGym outperforms prior embedded agent frameworks, and lightweight models with EmbedGym match frontier models without it at 30-70x lower cost.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "The Cybersecurity Dataset Observatory: Which Data for AI in Cybersecurity?",
+          "authors": [
+            "Francesco Cerasuolo",
+            "Gabriele Mangiacapre",
+            "Antonio Pescapè"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-16",
+          "url": "https://arxiv.org/abs/2611.20812",
+          "source": "arXiv",
+          "arxivId": "2611.20812",
+          "summary": "AI is increasingly used for cybersecurity tasks such as intrusion and malware detection, in enterprise, industrial, vehicular and mobile networks. Its effectiveness depends on data: models need representative network traffic, both to be trained and to be evaluated realistically. Public datasets of cybersecurity network traffic, however, are scattered across laboratory pages, repositories and aggregators, and are continuously released, corrected and withdrawn: 92 of the 234 datasets we catalog were released in 2023 or later. At this pace, surveys that list them are outdated soon after publication, since they describe the field only as it was when they were written. We present the Cybersecurity dataset observatory, a public and continuously updated catalog of cybersecurity datasets based on network traffic. New datasets are added as they are found or submitted, every record is periodically re-checked against its original source, to which it links rather than hosting the data, and every change is recorded in a public change log. This paper documents the first release: we define a traffic-centered scope and a seven-axis taxonomy, and review 234 datasets (204 original captures and 30 derivatives) across 14 domains. The review shows a field that grows quickly but unevenly, where 91 datasets distribute only processed records, a few laboratories produce a large share of the data, and UAV, wireless and V2X networks have little public evidence, while 5G has few real captures. We then relate the catalog to common uses in AI research, outline a procedure for selecting datasets, and discuss benchmark pitfalls and open gaps.",
+          "contribution": "AI is increasingly used for cybersecurity tasks such as intrusion and malware detection, in enterprise, industrial, vehicular and mobile networks. Its effectiveness depends on data: models need representative network traffic, both to be trained and to be evaluated realistically. Public datasets of cybersecurity network traffic, however, are scattered across laboratory pages, repositories and aggregators, and are continuously released, corrected and withdrawn: 92 of the 234 datasets we catalog were released in 2023 or later. At this pace, surveys that list them are outdated soon after publication, since they describe the field only as it was when they were written. We present the Cybersecurity dataset observatory, a public and continuously updated catalog of cybersecurity datasets based on network traffic. New datasets are added as they are found or submitted, every record is periodically re-checked against its original source, to which it links rather than hosting the data, and every change is recorded in a public change log. This paper documents the first release: we define a traffic-centered scope and a seven-axis taxonomy, and review 234 datasets (204 original captures and 30 derivatives) across 14 domains. The review shows a field that grows quickly but unevenly, where 91 datasets distribute only processed records, a few laboratories produce a large share of the data, and UAV, wireless and V2X networks have little public evidence, while 5G has few real captures. We then relate the catalog to common uses in AI research, outline a procedure for selecting datasets, and discuss benchmark pitfalls and open gaps.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Personalized and Adaptive Federated Learning for Canine Cardiomegaly Keypoint Prediction",
+          "authors": [
+            "Jialu Li",
+            "Youshan Zhang",
+            "Honggang Wang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-13",
+          "url": "https://arxiv.org/abs/2611.18789",
+          "source": "arXiv",
+          "arxivId": "2611.18789",
+          "summary": "In the field of medical imaging, limited data and cross-institutional heterogeneity remain major challenges for training robust deep learning models. Federated learning (FL) has emerged as a promising approach that enables collaborative training across institutions while preserving data privacy by keeping datasets local. In this work, we propose a structure-aware personalized and adaptive federated learning framework, PAFL, for automatic vertebral heart score (VHS) estimation and cardiomegaly classification from canine thoracic X-rays. Our method treats the task as anatomical keypoint prediction followed by geometry-based VHS computation, introducing implicit structural consistency and improving interpretability. To address cross-institutional heterogeneity, we adopt a parameter-decomposed architecture that separates shared feature representations from client-specific adaptation modules. Furthermore, we introduce an adaptive, quality-aware aggregation strategy that dynamically weights client contributions based on both dataset size and model quality, thereby enhancing robustness to non-IID data distributions. Experimental results demonstrate that the proposed PAFL framework improves models' predictive performance compared to isolated training and to conventional and existing personalized federated learning (PFL) methods. Our results demonstrate the potential of integrating structure-aware modeling with PFL for reliable and interpretable medical image analysis.",
+          "contribution": "In the field of medical imaging, limited data and cross-institutional heterogeneity remain major challenges for training robust deep learning models. Federated learning (FL) has emerged as a promising approach that enables collaborative training across institutions while preserving data privacy by keeping datasets local. In this work, we propose a structure-aware personalized and adaptive federated learning framework, PAFL, for automatic vertebral heart score (VHS) estimation and cardiomegaly classification from canine thoracic X-rays. Our method treats the task as anatomical keypoint prediction followed by geometry-based VHS computation, introducing implicit structural consistency and improving interpretability. To address cross-institutional heterogeneity, we adopt a parameter-decomposed architecture that separates shared feature representations from client-specific adaptation modules. Furthermore, we introduce an adaptive, quality-aware aggregation strategy that dynamically weights client contributions based on both dataset size and model quality, thereby enhancing robustness to non-IID data distributions. Experimental results demonstrate that the proposed PAFL framework improves models' predictive performance compared to isolated training and to conventional and existing personalized federated learning (PFL) methods. Our results demonstrate the potential of integrating structure-aware modeling with PFL for reliable and interpretable medical image analysis.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "MedImgAnnotator: batch wise medical image annotation and preprocessing tool",
+          "authors": [
+            "Ewunate Assaye Kassaw",
+            "Amit Mehndiratta",
+            "Peush Sahni",
+            "Anup Singh"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-17",
+          "url": "https://arxiv.org/abs/2611.22450",
+          "source": "arXiv",
+          "arxivId": "2611.22450",
+          "summary": "The curation of large cohort datasets for developing deep learning models demands annotating or editing over the AI-predicted labels. However, openly available annotation tools are time-consuming, as they involve complex navigational steps and do not support batch processing. This study aimed to develop a simple, fast, semiautomated batch-annotation tool named MedImgAnnotator. The tool was created by integrating editing tools, image mask pair matching logic, preprocessing functions, object detection tool, and a plugin management system. Its performance was evaluated in terms of active annotation time and ease of use by the developer and 12 users using open-source MR and CT scans. Additionally, the tool had been used by the MICCAI 2026 CARE Challenge liver segmentation best performance winner to annotate liver masks from 6412 MRI volumes. The evaluation results showed that MedImgAnnotator reduced active annotation time from 206.5+/-32.87 (average active annotation time of openly available tools) seconds to 59 seconds. The Wilcoxon signed-rank test of 12 users evaluation results recorded P values of 0.032 and 0.008 for the active annotation time and higher ease of use rating metrics, respectively, indicating that the current tool significantly reduces annotation time and enhances ease of use. Moreover, the tool utilization for annotating different regions of interest from different modality scans and body regions shows its usability across modalities and areas of interest. MedImgAnnotator, which significantly reduces active annotation time for large imaging cohorts, is available as an executable file and as a Python script. Access link: https://ewunateassaye.github.io/developed-tools/medimgannotator.html",
+          "contribution": "The curation of large cohort datasets for developing deep learning models demands annotating or editing over the AI-predicted labels. However, openly available annotation tools are time-consuming, as they involve complex navigational steps and do not support batch processing. This study aimed to develop a simple, fast, semiautomated batch-annotation tool named MedImgAnnotator. The tool was created by integrating editing tools, image mask pair matching logic, preprocessing functions, object detection tool, and a plugin management system. Its performance was evaluated in terms of active annotation time and ease of use by the developer and 12 users using open-source MR and CT scans. Additionally, the tool had been used by the MICCAI 2026 CARE Challenge liver segmentation best performance winner to annotate liver masks from 6412 MRI volumes. The evaluation results showed that MedImgAnnotator reduced active annotation time from 206.5+/-32.87 (average active annotation time of openly available tools) seconds to 59 seconds. The Wilcoxon signed-rank test of 12 users evaluation results recorded P values of 0.032 and 0.008 for the active annotation time and higher ease of use rating metrics, respectively, indicating that the current tool significantly reduces annotation time and enhances ease of use. Moreover, the tool utilization for annotating different regions of interest from different modality scans and body regions shows its usability across modalities and areas of interest. MedImgAnnotator, which significantly reduces active annotation time for large imaging cohorts, is available as an executable file and as a Python script. Access link: https://ewunateassaye.github.io/developed-tools/medimgannotator.html",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Recent Advances in Medical Imaging Segmentation: Generative, Few-Shot, Foundation and Universal Models",
+          "authors": [
+            "Fares Bougourzi",
+            "Abdenour Hadid"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-17",
+          "url": "https://doi.org/10.1145/3849846",
+          "source": "Crossref",
+          "doi": "10.1145/3849846",
+          "summary": "Medical imaging is a cornerstone of modern healthcare, driving advancements in diagnosis, treatment planning, and patient care. Among its various tasks, segmentation remains one of the most challenging problems due to factors such as data accessibility, annotation complexity, structural variability, variation in medical imaging modalities, and privacy constraints. Despite recent progress, achieving robust generalization and domain adaptation remains a significant hurdle, particularly given the resource-intensive nature of some proposed models and their reliance on domain expertise. This survey explores cutting-edge advancements in medical image segmentation, focusing on methodologies such as Generative AI, Few-Shot Learning, Foundation Models, and Universal Models. These approaches offer promising solutions to longstanding challenges. We provide a comprehensive overview of the theoretical foundations, state-of-the-art techniques, and recent applications of these methods. Finally, we discuss inherent limitations, unresolved issues, and future research directions aimed at enhancing the practicality and accessibility of segmentation models in medical imaging. We maintain a GitHub Repository\n to continue tracking and updating innovations in this field.",
+          "contribution": "Medical imaging is a cornerstone of modern healthcare, driving advancements in diagnosis, treatment planning, and patient care. Among its various tasks, segmentation remains one of the most challenging problems due to factors such as data accessibility, annotation complexity, structural variability, variation in medical imaging modalities, and privacy constraints. Despite recent progress, achieving robust generalization and domain adaptation remains a significant hurdle, particularly given the resource-intensive nature of some proposed models and their reliance on domain expertise. This survey explores cutting-edge advancements in medical image segmentation, focusing on methodologies such as Generative AI, Few-Shot Learning, Foundation Models, and Universal Models. These approaches offer promising solutions to longstanding challenges. We provide a comprehensive overview of the theoretical foundations, state-of-the-art techniques, and recent applications of these methods. Finally, we discuss inherent limitations, unresolved issues, and future research directions aimed at enhancing the practicality and accessibility of segmentation models in medical imaging. We maintain a GitHub Repository\n to continue tracking and updating innovations in this field.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-18",
       "generatedAt": "2026-11-18T16:39:09.130930+03:00",
       "papers": [
@@ -6379,5 +6518,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-18T16:39:09.130930+03:00"
+  "updatedAt": "2026-11-19T17:06:26.803929+03:00"
 }
