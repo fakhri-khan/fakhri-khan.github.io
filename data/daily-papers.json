@@ -25,6 +25,182 @@
   ],
   "days": [
     {
+      "date": "2026-11-20",
+      "generatedAt": "2026-11-20T16:48:19.754674+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "EyeDiT: Anatomy-Grounded Multi-Modal Eye Generation and Simulation",
+          "authors": [
+            "Yonghan Lee",
+            "Zachary Willms",
+            "Kun Liu",
+            "Pushkar Anand",
+            "Ali Behrooz",
+            "Dmitri Model",
+            "Dinesh Manocha",
+            "Yatong An"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-18",
+          "url": "https://arxiv.org/abs/2611.23670",
+          "source": "arXiv",
+          "arxivId": "2611.23670",
+          "summary": "Synthetic eye data are critical for rapid development of eye tracking (ET) in AR/VR applications. However, existing synthetic eye generators are largely image-centric and lack a high-quality underlying 3D anatomy of the eye, which limits their control mainly to the gaze and provides no anatomical labels. To address this problem, we propose EyeDiT, an anatomy-grounded, multi-modal 3D eye generation and simulation model trained with optical coherence tomography (OCT), labeled anatomy point clouds and near-eye images. Our pipeline first trains a Multi-Modal Anatomy Variational Autoencoder (VAE), which encodes an anatomy-aware latent representation from all input modalities. Then, our Eye Latent DiT is trained to generate latent samples conditioned on the optical axis, the pupil position and radius, and the subject identity. Together with Gaussian decoders for novel-view simulation, our model enables control over the pupil, subject identity and viewpoint for data synthesis. We show that our model outperforms previous eye image synthesis models in novel-view synthesis (24.9 against 21.8 dB PSNR from a single view), and that a public ET neural network trained on our synthetic data shows a smaller sim-to-real gap than when trained on data from other generators (3.5$^\\circ$ vs. 8.4$^\\circ$ gaze error), approaches a network trained on real data, and further improves ET performance when combined with real data (2.3$^\\circ$ vs. 2.6$^\\circ$). More information is available on the project page: https://lyhan12.github.io/eyedit",
+          "contribution": "Synthetic eye data are critical for rapid development of eye tracking (ET) in AR/VR applications. However, existing synthetic eye generators are largely image-centric and lack a high-quality underlying 3D anatomy of the eye, which limits their control mainly to the gaze and provides no anatomical labels. To address this problem, we propose EyeDiT, an anatomy-grounded, multi-modal 3D eye generation and simulation model trained with optical coherence tomography (OCT), labeled anatomy point clouds and near-eye images. Our pipeline first trains a Multi-Modal Anatomy Variational Autoencoder (VAE), which encodes an anatomy-aware latent representation from all input modalities. Then, our Eye Latent DiT is trained to generate latent samples conditioned on the optical axis, the pupil position and radius, and the subject identity. Together with Gaussian decoders for novel-view simulation, our model enables control over the pupil, subject identity and viewpoint for data synthesis. We show that our model outperforms previous eye image synthesis models in novel-view synthesis (24.9 against 21.8 dB PSNR from a single view), and that a public ET neural network trained on our synthetic data shows a smaller sim-to-real gap than when trained on data from other generators (3.5$^\\circ$ vs. 8.4$^\\circ$ gaze error), approaches a network trained on real data, and further improves ET performance when combined with real data (2.3$^\\circ$ vs. 2.6$^\\circ$). More information is available on the project page: https://lyhan12.github.io/eyedit",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Technical Report of Auriga's 1:10 Scale Autonomous Vehicle Robot",
+          "authors": [
+            "Marya Sabouri Dodaran",
+            "Ali Taheri Garakani",
+            "Mandana Shabanzadeh Nasrollah-Abadi",
+            "Yousef Ashrafi",
+            "Mohammad Mahdi Azimi",
+            "Erfan Nekouei Ghahfarokhi",
+            "Amirhossein Kheiri Holighi",
+            "Seyyed Sobhan Hosseini Hajibakandeh",
+            "Matin Jamshidi",
+            "Amirhossein Gholizadeh Behbahani",
+            "Mohammad Hossein Moaiyeri"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-13",
+          "url": "https://arxiv.org/abs/2611.18855",
+          "source": "arXiv",
+          "arxivId": "2611.18855",
+          "summary": "This report presents the design and implementation of Auriga Robotics' 1:10 scale autonomous vehicle, developed at Shahid Beheshti University's Robotics and Intelligent Automation Laboratory. The platform integrates a custom mechanical chassis, a distributed embedded system based on ESP32 microcontrollers, and a Jetson Orin NX module for high-level perception and control. The embedded layer manages sensor interfacing, real-time data acquisition, and actuator control, while the Jetson handles environment perception through deep-learning--based lane, sign, and traffic light detection, as well as decision-making and trajectory control. System communication is achieved via structured UART links, ensuring synchronized operation between perception and control subsystems. The vehicle's software stack incorporates ROS, modular firmware design, and multiple control algorithms---Stanley, PID, and Pure Pursuit---to achieve stable autonomous navigation in structured driving scenarios. The overall system demonstrates robust performance and reliability in urban-like environments, serving as a modular research platform for future autonomous driving studies.",
+          "contribution": "This report presents the design and implementation of Auriga Robotics' 1:10 scale autonomous vehicle, developed at Shahid Beheshti University's Robotics and Intelligent Automation Laboratory. The platform integrates a custom mechanical chassis, a distributed embedded system based on ESP32 microcontrollers, and a Jetson Orin NX module for high-level perception and control. The embedded layer manages sensor interfacing, real-time data acquisition, and actuator control, while the Jetson handles environment perception through deep-learning--based lane, sign, and traffic light detection, as well as decision-making and trajectory control. System communication is achieved via structured UART links, ensuring synchronized operation between perception and control subsystems. The vehicle's software stack incorporates ROS, modular firmware design, and multiple control algorithms---Stanley, PID, and Pure Pursuit---to achieve stable autonomous navigation in structured driving scenarios. The overall system demonstrates robust performance and reliability in urban-like environments, serving as a modular research platform for future autonomous driving studies.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Measuring Hallucination in Large Language Models for Cyber Threat Intelligence: An Exploratory Study",
+          "authors": [
+            "Seungho Song",
+            "Donggyu Lee",
+            "Jaehan Kim",
+            "Jiyoung Choi",
+            "Jinwoo Kim"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-19",
+          "url": "https://arxiv.org/abs/2611.25590",
+          "source": "arXiv",
+          "arxivId": "2611.25590",
+          "summary": "Large language models (LLMs) are increasingly used in cyber threat intelligence (CTI) tasks, such as summarization and question answering. However, they may produce hallucinations, false or misleading content not grounded in the source text, which can mislead analysts and corrupt downstream security decisions. This paper presents an exploratory measurement study of hallucinations in LLM-based CTI. We introduce HalluVision, a reproducible framework that generates LLM outputs, extracts domain-specific entities using a fine-tuned named entity recognition model, and evaluates factual consistency using multiple similarity metrics. Using 4,940 real-world cybersecurity articles, we measure hallucinations in outputs from two commercial LLMs and one open-weight LLM. Measurements are validated against 100 human-annotated outputs and two established faithfulness detectors. Results show that semantic similarity aligns with human judgments, whereas entity-based metrics exhibit limited agreement. Differences between models are concentrated in question answering, while entity extraction quality limits what entity-level metrics can reveal.",
+          "contribution": "Large language models (LLMs) are increasingly used in cyber threat intelligence (CTI) tasks, such as summarization and question answering. However, they may produce hallucinations, false or misleading content not grounded in the source text, which can mislead analysts and corrupt downstream security decisions. This paper presents an exploratory measurement study of hallucinations in LLM-based CTI. We introduce HalluVision, a reproducible framework that generates LLM outputs, extracts domain-specific entities using a fine-tuned named entity recognition model, and evaluates factual consistency using multiple similarity metrics. Using 4,940 real-world cybersecurity articles, we measure hallucinations in outputs from two commercial LLMs and one open-weight LLM. Measurements are validated against 100 human-annotated outputs and two established faithfulness detectors. Results show that semantic similarity aligns with human judgments, whereas entity-based metrics exhibit limited agreement. Differences between models are concentrated in question answering, while entity extraction quality limits what entity-level metrics can reveal.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Beyond Reconstruction: A Unified Framework for Trustworthy and Explainable EEG Artifact Removal Evaluation",
+          "authors": [
+            "Phat Lam",
+            "Hung Nguyen",
+            "Lam Pham",
+            "Huy Phan",
+            "Dat Tran",
+            "Ian McLoughlin",
+            "Roozbeh Razavi-Far",
+            "Hung Cao"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-16",
+          "url": "https://arxiv.org/abs/2611.21781",
+          "source": "arXiv",
+          "arxivId": "2611.21781",
+          "summary": "Deep-learning methods have achieved strong performance in EEG artifact removal, but evaluation remains dominated by reconstruction metrics such as error, correlation, and signal-to-noise ratio. Although these metrics assess similarity to clean EEG, they do not establish whether models effectively suppress artifacts, preserve neural activity, or provide reliable explanations. To address these limitations, we propose TriX-EEG, a three-level framework for trustworthy and explainable EEG artifact removal. Level 1, Signal Validity (SV), evaluates reconstruction quality and neural band-power preservation. Level 2, Removal Faithfulness (RF), assesses the removed component through artifact error and residual artifact/neural leakage. Level 3, Explanation Reliability (ER), examines model behavior through temporal alignment, causal relevance, and stability. We evaluate TriX-EEG using nine published neural denoisers across three public benchmarks derived from EEGDenoiseNet and the PhysioNet Motion Artifact Contaminated EEG Dataset, covering EOG, EMG, and motion artifacts. Results show that reconstruction metrics alone are insufficient for trustworthy denoiser assessment: RF complements it by revealing whether errors stem from residual artifact or suppressed neural activity, while ER captures distinct aspects of explanation behavior, supporting joint evaluation of three aspects within a unified framework rather than reliance on any single factor. External validation on an independent EEG/EOG dataset and the BCI Competition IV-2a motor-imagery dataset further demonstrates broadly consistent rankings under dataset shift. Higher-ranked denoisers generally preserve more task-relevant information or cause less downstream performance degradation. Overall, TriX-EEG provides a comprehensive basis for EEG denoiser assessment, encouraging models that are not only accurate but also faithful and explainable.",
+          "contribution": "Deep-learning methods have achieved strong performance in EEG artifact removal, but evaluation remains dominated by reconstruction metrics such as error, correlation, and signal-to-noise ratio. Although these metrics assess similarity to clean EEG, they do not establish whether models effectively suppress artifacts, preserve neural activity, or provide reliable explanations. To address these limitations, we propose TriX-EEG, a three-level framework for trustworthy and explainable EEG artifact removal. Level 1, Signal Validity (SV), evaluates reconstruction quality and neural band-power preservation. Level 2, Removal Faithfulness (RF), assesses the removed component through artifact error and residual artifact/neural leakage. Level 3, Explanation Reliability (ER), examines model behavior through temporal alignment, causal relevance, and stability. We evaluate TriX-EEG using nine published neural denoisers across three public benchmarks derived from EEGDenoiseNet and the PhysioNet Motion Artifact Contaminated EEG Dataset, covering EOG, EMG, and motion artifacts. Results show that reconstruction metrics alone are insufficient for trustworthy denoiser assessment: RF complements it by revealing whether errors stem from residual artifact or suppressed neural activity, while ER captures distinct aspects of explanation behavior, supporting joint evaluation of three aspects within a unified framework rather than reliance on any single factor. External validation on an independent EEG/EOG dataset and the BCI Competition IV-2a motor-imagery dataset further demonstrates broadly consistent rankings under dataset shift. Higher-ranked denoisers generally preserve more task-relevant information or cause less downstream performance degradation. Overall, TriX-EEG provides a comprehensive basis for EEG denoiser assessment, encouraging models that are not only accurate but also faithful and explainable.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Unsupervised Multi-modal Medical Image Registration via Invertible Translation",
+          "authors": [
+            "Mengjie Guo",
+            "Jinming Duan"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-17",
+          "url": "https://arxiv.org/abs/2611.22152",
+          "source": "arXiv",
+          "arxivId": "2611.22152",
+          "summary": "In medical imaging, the alignment of multi-modal images plays a critical role in providing comprehensive information for image-guided therapies. Despite its importance, multi-modal image registration poses significant challenges due to the complex and often unknown spatial relationships between different image modalities. To address this, we introduce a novel unsupervised translation-based multi-modal registration method, termed Invertible Neural Network-based Registration (INNReg). INNReg consists of an image-to-image translation network that converts multi-modal images into mono-modal counterparts and a registration network that uses the translated mono-modal images to align the multi-modal images. Specifically, to ensure the preservation of geometric consistency after image translation, we introduce an Invertible Neural Network (INN) that leverages a dynamic depthwise convolution-based local attention mechanism. Additionally, we design a novel barrier loss function based on Normalized Mutual Information to impose constraints on the registration network, which enhances the registration accuracy. The superior performance of INNReg is demonstrated through experiments on two public multi-modal medical image datasets, including MRI T1/T2 and MRI/CT pairs. The code is available at https://github.com/MeggieGuo/INNReg",
+          "contribution": "In medical imaging, the alignment of multi-modal images plays a critical role in providing comprehensive information for image-guided therapies. Despite its importance, multi-modal image registration poses significant challenges due to the complex and often unknown spatial relationships between different image modalities. To address this, we introduce a novel unsupervised translation-based multi-modal registration method, termed Invertible Neural Network-based Registration (INNReg). INNReg consists of an image-to-image translation network that converts multi-modal images into mono-modal counterparts and a registration network that uses the translated mono-modal images to align the multi-modal images. Specifically, to ensure the preservation of geometric consistency after image translation, we introduce an Invertible Neural Network (INN) that leverages a dynamic depthwise convolution-based local attention mechanism. Additionally, we design a novel barrier loss function based on Normalized Mutual Information to impose constraints on the registration network, which enhances the registration accuracy. The superior performance of INNReg is demonstrated through experiments on two public multi-modal medical image datasets, including MRI T1/T2 and MRI/CT pairs. The code is available at https://github.com/MeggieGuo/INNReg",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "A Review of Attacks on Hardware Implementations of Cryptographic Algorithms",
+          "authors": [
+            "Shanooja M.A.",
+            "Anil Kumar M.N."
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-20",
+          "url": "https://doi.org/10.1145/3871035",
+          "source": "Crossref",
+          "doi": "10.1145/3871035",
+          "summary": "With the increase in online data exchange, transactions, and payments, cryptographic techniques for securing communication over networks have become an area of concern. The vast majority of cryptographic algorithm designs are intended to be mathematically secure and resistant to known cryptanalytic attacks. However, when designers focus more on algorithm performance than on the security of its practical implementation, implementation-dependent vulnerabilities may arise, creating opportunities for a new class of attacks targeting hardware implementations of cryptographic algorithms. These attacks exploit weaknesses in cryptographic implementations rather than their underlying mathematical design. Their rapid growth and increasing sophistication make it essential for designers to understand their potential impact and available mitigation techniques. Therefore, this paper reviews popular and recent attacks on cryptographic hardware, with particular emphasis on side-channel attacks (SCAs), fault injection attacks (FIAs), and FPGA-specific attacks. FPGAs receive particular attention because they are widely employed for hardware-based implementations of cryptographic algorithms. It is important to clarify that the authors do not aim to offer an extensive examination of attack methods and their countermeasures. Instead, this article is designed to present the basic concepts, classifications, and characteristics of attacks on cryptographic hardware from a beginner's perspective.",
+          "contribution": "With the increase in online data exchange, transactions, and payments, cryptographic techniques for securing communication over networks have become an area of concern. The vast majority of cryptographic algorithm designs are intended to be mathematically secure and resistant to known cryptanalytic attacks. However, when designers focus more on algorithm performance than on the security of its practical implementation, implementation-dependent vulnerabilities may arise, creating opportunities for a new class of attacks targeting hardware implementations of cryptographic algorithms. These attacks exploit weaknesses in cryptographic implementations rather than their underlying mathematical design. Their rapid growth and increasing sophistication make it essential for designers to understand their potential impact and available mitigation techniques. Therefore, this paper reviews popular and recent attacks on cryptographic hardware, with particular emphasis on side-channel attacks (SCAs), fault injection attacks (FIAs), and FPGA-specific attacks. FPGAs receive particular attention because they are widely employed for hardware-based implementations of cryptographic algorithms. It is important to clarify that the authors do not aim to offer an extensive examination of attack methods and their countermeasures. Instead, this article is designed to present the basic concepts, classifications, and characteristics of attacks on cryptographic hardware from a beginner's perspective.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "A Survey on Deep Learning in Spine Image Segmentation",
+          "authors": [
+            "Syed Furqan Qadri",
+            "Linlin Shen",
+            "Mubashir Ahmad",
+            "Salman Qadri",
+            "Syeda Shamaila Zareen",
+            "Salabat Khan",
+            "Md Belal Bin Heyat",
+            "Muhammad Azeem Akbar"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-19",
+          "url": "https://doi.org/10.1145/3863935",
+          "source": "Crossref",
+          "doi": "10.1145/3863935",
+          "summary": "Deep learning has become the dominant paradigm for spine image segmentation, playing a critical role in computer-aided diagnosis, surgical planning, and postoperative evaluation. Despite rapid progress across CT, MRI, X-ray, and ultrasound, the literature remains fragmented across diverse architectures, datasets, and evaluation protocols. This fragmentation hinders objective comparison and obstructs clinical translation. Existing surveys do not fully capture recent methodological shifts, leaving a gap in the collective understanding of the field. To address this, our survey paper provides a systematic review of 172 studies published between 2014 and 2026. We consolidate research across five imaging modalities and three anatomical regions (cervical, thoracic, lumbar). Our primary contribution is a structured taxonomy that organizes deep learning methods by architectural paradigm: encoder-decoder networks, multi-stage frameworks, direct segmentation methods, unsupervised feature extractors, and emerging transformer and Mamba-based methods. We also present the most extensive compilation of publicly available spine datasets to date, accompanied by a summary of quantitative results to establish clear benchmarks and support reproducible research. This survey offers a structured synthesis of the field's evolution and provides concrete guidance for future research aimed at developing robust, generalizable, and clinically deployable spine segmentation systems.",
+          "contribution": "Deep learning has become the dominant paradigm for spine image segmentation, playing a critical role in computer-aided diagnosis, surgical planning, and postoperative evaluation. Despite rapid progress across CT, MRI, X-ray, and ultrasound, the literature remains fragmented across diverse architectures, datasets, and evaluation protocols. This fragmentation hinders objective comparison and obstructs clinical translation. Existing surveys do not fully capture recent methodological shifts, leaving a gap in the collective understanding of the field. To address this, our survey paper provides a systematic review of 172 studies published between 2014 and 2026. We consolidate research across five imaging modalities and three anatomical regions (cervical, thoracic, lumbar). Our primary contribution is a structured taxonomy that organizes deep learning methods by architectural paradigm: encoder-decoder networks, multi-stage frameworks, direct segmentation methods, unsupervised feature extractors, and emerging transformer and Mamba-based methods. We also present the most extensive compilation of publicly available spine datasets to date, accompanied by a summary of quantitative results to establish clear benchmarks and support reproducible research. This survey offers a structured synthesis of the field's evolution and provides concrete guidance for future research aimed at developing robust, generalizable, and clinically deployable spine segmentation systems.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "generatedAt": "2026-11-19T17:06:26.803929+03:00",
       "papers": [
@@ -6518,5 +6694,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-19T17:06:26.803929+03:00"
+  "updatedAt": "2026-11-20T16:48:19.754674+03:00"
 }
