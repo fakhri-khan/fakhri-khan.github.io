@@ -25,6 +25,175 @@
   ],
   "days": [
     {
+      "date": "2026-11-21",
+      "generatedAt": "2026-11-21T16:13:33.755754+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "MADJEPA: Enhanced Multi-Stage Joint-Embedding Predictive Architecture for Medical Anomaly Detection",
+          "authors": [
+            "Ioana-Sabina Stoian",
+            "Florinel-Alin Croitoru",
+            "Vlad Hondru",
+            "Andreea Iuliana Ionescu",
+            "Andrei Paun",
+            "Radu Tudor Ionescu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-18",
+          "url": "https://arxiv.org/abs/2611.25194",
+          "source": "arXiv",
+          "arxivId": "2611.25194",
+          "summary": "Anomaly detection in medical images is a complex task, requiring the development of a robust model using only healthy patient data. Without access to labeled data, modern approaches typically employ self-supervised learning to obtain a model of normality. Since world models promise to build strong internal representations of their environment, we consider them as suitable candidates for the medical anomaly detection environment, namely medical investigations of healthy patients. To this end, we propose MADJEPA, a medical anomaly detector based on an enhanced multi-stage joint-embedding predictive architecture (JEPA). We design a multi-stage training pipeline to produce a robust detector: (1) image-based JEPA (I-JEPA) training aims to learn a strong representation of normal training data; (2) target encoder distillation aims to modulate over-generalization of I-JEPA representations to abnormal data; (3) pseudo-anomaly classification aims to calibrate anomaly predictions by learning a tight boundary around the normal data manifold. To demonstrate our design, we carry out comprehensive experiments on six datasets covering various medical image domains (e.g.~MRI, OCT, X-ray, histopathology), comparing our MADJEPA with numerous state-of-the-art methods. The results show that our carefully designed world model, MADJEPA, attains competitive results, ranking first on three datasets. Our ablation studies further confirm the utility of each training stage, indicating that I-JEPA alone is not sufficient to obtain competitive results in medical anomaly detection. We publicly release our code at https://github.com/Sabina085/madjepa.",
+          "contribution": "Anomaly detection in medical images is a complex task, requiring the development of a robust model using only healthy patient data. Without access to labeled data, modern approaches typically employ self-supervised learning to obtain a model of normality. Since world models promise to build strong internal representations of their environment, we consider them as suitable candidates for the medical anomaly detection environment, namely medical investigations of healthy patients. To this end, we propose MADJEPA, a medical anomaly detector based on an enhanced multi-stage joint-embedding predictive architecture (JEPA). We design a multi-stage training pipeline to produce a robust detector: (1) image-based JEPA (I-JEPA) training aims to learn a strong representation of normal training data; (2) target encoder distillation aims to modulate over-generalization of I-JEPA representations to abnormal data; (3) pseudo-anomaly classification aims to calibrate anomaly predictions by learning a tight boundary around the normal data manifold. To demonstrate our design, we carry out comprehensive experiments on six datasets covering various medical image domains (e.g.~MRI, OCT, X-ray, histopathology), comparing our MADJEPA with numerous state-of-the-art methods. The results show that our carefully designed world model, MADJEPA, attains competitive results, ranking first on three datasets. Our ablation studies further confirm the utility of each training stage, indicating that I-JEPA alone is not sufficient to obtain competitive results in medical anomaly detection. We publicly release our code at https://github.com/Sabina085/madjepa.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "FEA solver integration of a composite World Model with a Spiking Neural Network memory Block for computationally efficient modelling of defects and variabilities",
+          "authors": [
+            "Bassam El Said",
+            "Adam Sobey"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-19",
+          "url": "https://arxiv.org/abs/2611.26419",
+          "source": "arXiv",
+          "arxivId": "2611.26419",
+          "summary": "Each fibre-reinforced composite structure has a unique material architecture. The manufacturing methods used and the presence of defects lead to local variations which require material-scale models that can resolve the response in real time at every location in the structure. Concurrent multi-scale schemes provide this capability, but at a prohibitive computational cost for large structures as the number of integration points and time increments scales with size. Surrogates have been studied extensively as replacements for material-scale models to mitigate these computational limitations. A surrogate must represent an arbitrary local architecture including defects, track the irreversible material state over an unknown number of increments, remain stable when driven recursively by its own predictions, and fit within the memory available at every integration point. Here, a Composites World Model based on a Multi-Modal Spiking Transformer architecture is designed to meet these requirements. The proposed architecture combines a material encoder, a Spiking Neural Network memory block that tracks the long-term internal state of the material, and transformer blocks that learn the short-term applied strain state. The system is trained in three stages: material architecture encoding, base training on short time windows, and recursive fine-tuning with scheduled sampling to suppress cumulative error drift. The trained model is disassembled at inference and coupled to a non-linear FE solver, enabling structural scale simulation of composites containing embedded defects. Benchmarks against experimental results for IM7/8552 laminates under tension, compression and transverse shear, for pristine and wrinkled composites, show that the SNN memory block successfully tracks the material internal state and results in prediction errors between 0.4% and 4.8%.",
+          "contribution": "Each fibre-reinforced composite structure has a unique material architecture. The manufacturing methods used and the presence of defects lead to local variations which require material-scale models that can resolve the response in real time at every location in the structure. Concurrent multi-scale schemes provide this capability, but at a prohibitive computational cost for large structures as the number of integration points and time increments scales with size. Surrogates have been studied extensively as replacements for material-scale models to mitigate these computational limitations. A surrogate must represent an arbitrary local architecture including defects, track the irreversible material state over an unknown number of increments, remain stable when driven recursively by its own predictions, and fit within the memory available at every integration point. Here, a Composites World Model based on a Multi-Modal Spiking Transformer architecture is designed to meet these requirements. The proposed architecture combines a material encoder, a Spiking Neural Network memory block that tracks the long-term internal state of the material, and transformer blocks that learn the short-term applied strain state. The system is trained in three stages: material architecture encoding, base training on short time windows, and recursive fine-tuning with scheduled sampling to suppress cumulative error drift. The trained model is disassembled at inference and coupled to a non-linear FE solver, enabling structural scale simulation of composites containing embedded defects. Benchmarks against experimental results for IM7/8552 laminates under tension, compression and transverse shear, for pristine and wrinkled composites, show that the SNN memory block successfully tracks the material internal state and results in prediction errors between 0.4% and 4.8%.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "CHERI under Fault Injection: An Emulation-Based Security Evaluation of Capability Hardware Enhanced RISC Instructions",
+          "authors": [
+            "Eva Sophia Schreyer"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-15",
+          "url": "https://arxiv.org/abs/2611.19915",
+          "source": "arXiv",
+          "arxivId": "2611.19915",
+          "summary": "Memory-safety vulnerabilities continue to dominate real-world exploit chains despite decades of research into software mitigations. CHERI is a hardware architecture that enforces spatial and temporal memory safety by augmenting pointers with hardware-checked metadata, thus preventing software-based exploitation, but its threat model explicitly excludes fault injection. This thesis investigates whether targeted fault injection can undermine CHERI's memory-safety guarantees in a pure-capability CHERI-RISC-V environment. Two fault classes are considered: bit flips corrupting capability metadata, and fault-induced check skipping on capability store instructions.\n  We implement fault injection primitives in a QEMU-based emulation environment, which enables deterministic, repeatable experiments without specialised hardware. With them, we demonstrate four attack scenarios: buffer overflows, control-flow hijacking, data-only attacks, and use-after-free. Each succeeds with one or two targeted faults (lower bounds under the emulation-based setting). Check skipping offers an alternative route to control-flow hijacking and data-only attacks, with a minimum of one fault.\n  These results show that CHERI's guarantees depend on the physical integrity of capability metadata, the uninterrupted execution of metadata checks, and the integrity of the revocation bitmap: a single targeted fault can circumvent spatial safety, temporal safety, or control-flow integrity. CHERI still raises the cost of exploitation, since fault injection is a prerequisite for every attack and the sentry mechanism forces an attacker to supply a valid tagged capability or spend a second fault restoring the tag. Based on these findings, we propose mitigations: ECC-protected capability memory, capability field authentication codes, redundant execution of security-critical checks, and revocation bitmap integrity verification.",
+          "contribution": "Memory-safety vulnerabilities continue to dominate real-world exploit chains despite decades of research into software mitigations. CHERI is a hardware architecture that enforces spatial and temporal memory safety by augmenting pointers with hardware-checked metadata, thus preventing software-based exploitation, but its threat model explicitly excludes fault injection. This thesis investigates whether targeted fault injection can undermine CHERI's memory-safety guarantees in a pure-capability CHERI-RISC-V environment. Two fault classes are considered: bit flips corrupting capability metadata, and fault-induced check skipping on capability store instructions.\n  We implement fault injection primitives in a QEMU-based emulation environment, which enables deterministic, repeatable experiments without specialised hardware. With them, we demonstrate four attack scenarios: buffer overflows, control-flow hijacking, data-only attacks, and use-after-free. Each succeeds with one or two targeted faults (lower bounds under the emulation-based setting). Check skipping offers an alternative route to control-flow hijacking and data-only attacks, with a minimum of one fault.\n  These results show that CHERI's guarantees depend on the physical integrity of capability metadata, the uninterrupted execution of metadata checks, and the integrity of the revocation bitmap: a single targeted fault can circumvent spatial safety, temporal safety, or control-flow integrity. CHERI still raises the cost of exploitation, since fault injection is a prerequisite for every attack and the sentry mechanism forces an attacker to supply a valid tagged capability or spend a second fault restoring the tag. Based on these findings, we propose mitigations: ECC-protected capability memory, capability field authentication codes, redundant execution of security-critical checks, and revocation bitmap integrity verification.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Adversarial Attacks on Vision-Language Multimodal Systems: A Survey",
+          "authors": [
+            "Yaguan Qian",
+            "Zhihao Chen",
+            "Qiqi Bao",
+            "Yan Gan",
+            "Chenhao Lin",
+            "Shuo Wang",
+            "Jiali Yin",
+            "Hegui Zhu",
+            "Shouling Ji",
+            "Wei Wang",
+            "Bin Wang",
+            "Zhaoquan Gu"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-11-21",
+          "url": "https://doi.org/10.1145/3871040",
+          "source": "Crossref",
+          "doi": "10.1145/3871040",
+          "summary": "With the boom of artificial intelligence, multimodal deep learning, especially large language models (LLMs), has advanced remarkably and found wide applications. However, adversarial security issues hamper further development on LLMs. This paper comprehensively reviews adversarial attacks on vision-language multimodal systems (VLMS), covering key aspects such as pretrained models, large language models, adversarial attack methodologies, defense strategies, benchmark datasets, downstream tasks, and evaluation metrics. It first details multimodal deep-learning key technologies and the features of relevant models. Then, it deeply analyzes the adversarial vulnerabilities of VLMS. Next, it systematically reviews various adversarial attack methods and defend strategies in multimodal systems, covering task-specific attacks and attacks on different models, with a detailed analysis of their principles, implementations, and effects. Finally, it looks ahead to the future of multimodal adversarial attacks, suggesting research directions like improving attack universality and compliance considerations. This review offers technical references, promotes research on multimodal adversarial attacks, and helps enhance VLMS security for reliable real-world applications. The latest papers on VLMS adversarial attacks are continuously collected in https://github.com/chilljudaoren/A-Survey-of-Adversarial-Attack.",
+          "contribution": "With the boom of artificial intelligence, multimodal deep learning, especially large language models (LLMs), has advanced remarkably and found wide applications. However, adversarial security issues hamper further development on LLMs. This paper comprehensively reviews adversarial attacks on vision-language multimodal systems (VLMS), covering key aspects such as pretrained models, large language models, adversarial attack methodologies, defense strategies, benchmark datasets, downstream tasks, and evaluation metrics. It first details multimodal deep-learning key technologies and the features of relevant models. Then, it deeply analyzes the adversarial vulnerabilities of VLMS. Next, it systematically reviews various adversarial attack methods and defend strategies in multimodal systems, covering task-specific attacks and attacks on different models, with a detailed analysis of their principles, implementations, and effects. Finally, it looks ahead to the future of multimodal adversarial attacks, suggesting research directions like improving attack universality and compliance considerations. This review offers technical references, promotes research on multimodal adversarial attacks, and helps enhance VLMS security for reliable real-world applications. The latest papers on VLMS adversarial attacks are continuously collected in https://github.com/chilljudaoren/A-Survey-of-Adversarial-Attack.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "VoxForge: A Unified Foundation Model for Dense 3D Features Across MRI, CT and PET",
+          "authors": [
+            "Rushil Anirudh",
+            "Jayaraman J. Thiagarajan"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-19",
+          "url": "https://arxiv.org/abs/2611.25309",
+          "source": "arXiv",
+          "arxivId": "2611.25309",
+          "summary": "A unified 3D medical foundation model promises reusable, frozen features that serve a wide variety of tasks such as segmentation, classification and registration on MRI, CT and PET as well as specialist models do. Generalist models still need separate backbones for localized and global tasks, specialist models are confined to a single modality, with the concern that spanning modalities under-emphasizes fine anatomy, and both typically rely on end-to-end fine-tuning to be competitive. We present VoxForge, a single encoder that integrates recent advances in 3D architecture, self-distillation and cross-modal curricula to learn transferable features from permissively licensed MRI and CT volumes. We evaluate it strictly frozen, the test a reusable foundation model must pass, against state-of-the-art generalist and specialist models on segmentation, classification and registration across MRI and CT, and on PET, which it never sees. VoxForge has the best or tied-best average rank in every task group, serves localized and global tasks across modalities at the level of state-of-the-art specialists, and is extremely label-efficient, matching top-performing models on TotalSegmentator CT with a tenth of the labels.",
+          "contribution": "A unified 3D medical foundation model promises reusable, frozen features that serve a wide variety of tasks such as segmentation, classification and registration on MRI, CT and PET as well as specialist models do. Generalist models still need separate backbones for localized and global tasks, specialist models are confined to a single modality, with the concern that spanning modalities under-emphasizes fine anatomy, and both typically rely on end-to-end fine-tuning to be competitive. We present VoxForge, a single encoder that integrates recent advances in 3D architecture, self-distillation and cross-modal curricula to learn transferable features from permissively licensed MRI and CT volumes. We evaluate it strictly frozen, the test a reusable foundation model must pass, against state-of-the-art generalist and specialist models on segmentation, classification and registration across MRI and CT, and on PET, which it never sees. VoxForge has the best or tied-best average rank in every task group, serves localized and global tasks across modalities at the level of state-of-the-art specialists, and is extremely label-efficient, matching top-performing models on TotalSegmentator CT with a tenth of the labels.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "DailySafe: Benchmarking Dynamic Safety Awareness in Everyday Multi-Turn Multimodal Interactions",
+          "authors": [
+            "Xuankun Rong",
+            "Xinhao Deng",
+            "Wenzhang Jiang",
+            "Ziheng Peng",
+            "Siyuan Liang",
+            "Wenke Huang",
+            "Pablo Arbelaez",
+            "Mang Ye"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-19",
+          "url": "https://arxiv.org/abs/2611.26298",
+          "source": "arXiv",
+          "arxivId": "2611.26298",
+          "summary": "As multimodal large language models (MLLMs) become increasingly integrated into everyday life, their ability to provide safe and reliable assistance in realistic daily activities remains insufficiently explored. Existing safety benchmarks primarily focus on isolated harmful requests or adversarial scenarios, overlooking the safety risks that may arise as ordinary tasks unfold. In practice, users pursue legitimate goals through multi-turn, multimodal interactions, where seemingly benign requests may become safety-critical when considered alongside earlier actions and visual observations. This calls for Dynamic Safety Awareness, the ability to track evolving task conditions, recognize implicit contextual risks, and provide safe and helpful assistance. To systematically evaluate this capability, we introduce DailySafe, a benchmark comprising 195 naturalistic multi-turn, multi-image interactions across 10 everyday domains and 42 task categories. Grounded in authentic user dialogue topics and documented safety knowledge, DailySafe captures realistic scenarios where safety-critical evidence is progressively revealed across conversational turns and visual observations. Using case-specific safety annotations, DailySafe assesses whether MLLMs can recognize and appropriately address evolving risks while supporting users' legitimate goals, bringing multimodal safety evaluation closer to real-world everyday AI assistance. DailySafe is publicly available at: https://github.com/XuankunRong/DailySafe.",
+          "contribution": "As multimodal large language models (MLLMs) become increasingly integrated into everyday life, their ability to provide safe and reliable assistance in realistic daily activities remains insufficiently explored. Existing safety benchmarks primarily focus on isolated harmful requests or adversarial scenarios, overlooking the safety risks that may arise as ordinary tasks unfold. In practice, users pursue legitimate goals through multi-turn, multimodal interactions, where seemingly benign requests may become safety-critical when considered alongside earlier actions and visual observations. This calls for Dynamic Safety Awareness, the ability to track evolving task conditions, recognize implicit contextual risks, and provide safe and helpful assistance. To systematically evaluate this capability, we introduce DailySafe, a benchmark comprising 195 naturalistic multi-turn, multi-image interactions across 10 everyday domains and 42 task categories. Grounded in authentic user dialogue topics and documented safety knowledge, DailySafe captures realistic scenarios where safety-critical evidence is progressively revealed across conversational turns and visual observations. Using case-specific safety annotations, DailySafe assesses whether MLLMs can recognize and appropriately address evolving risks while supporting users' legitimate goals, bringing multimodal safety evaluation closer to real-world everyday AI assistance. DailySafe is publicly available at: https://github.com/XuankunRong/DailySafe.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Light-Sheet Microscopy\nbeyond 3D Imaging: Scalable\nand Quantitative Measurement across Biomedical and Analytical Sciences",
+          "authors": [
+            "Sooyeon Kim",
+            "Takuya Hidaka",
+            "Latiefa Kamarulzaman",
+            "Misaki Tsuchida",
+            "Asuma Kubono",
+            "Yuichi Taniguchi"
+          ],
+          "venue": "IEEE International Symposium on Biomedical Imaging (ISBI)",
+          "venueId": "C03",
+          "publishedDate": "2026-11-21",
+          "url": "https://doi.org/10.1021/cbmi.6c00167",
+          "source": "Crossref",
+          "doi": "10.1021/cbmi.6c00167",
+          "summary": "Abstract \n                   Light-sheet microscopy (LSM) has transformed fluorescence imaging by combining optical sectioning and rapid volumetric acquisition with reduced photobleaching and phototoxicity. Originally developed for imaging transparent model organisms, LSM has evolved into a versatile platform that spans molecular, cellular, tissue, and whole-organism scales. This Review summarizes recent advances in LSM technologies, with an emphasis on developments that have expanded both imaging performance and practical accessibility. We first outline the historical evolution of LSM and the limitations of conventional lateral-illumination geometries and then introduce major technical trends, including open-top architectures, optical designs for multiscale imaging, data-processing frameworks, and the adoption of artificial intelligence (AI). Finally, we highlight emerging applications of cutting-edge LSM across disciplines: long-term live imaging of embryos and organoids, molecular inspection of subcellular dynamics, tissue and whole-organism atlasing, slide-free 3D pathology, and quantitative bioassays including single-cell molecular profiling. Altogether, these advances position LSM not merely as a specialized imaging modality but as an increasingly accessible, intelligent, and quantitative platform for multiscale biological and analytical sciences.",
+          "contribution": "Abstract \n                   Light-sheet microscopy (LSM) has transformed fluorescence imaging by combining optical sectioning and rapid volumetric acquisition with reduced photobleaching and phototoxicity. Originally developed for imaging transparent model organisms, LSM has evolved into a versatile platform that spans molecular, cellular, tissue, and whole-organism scales. This Review summarizes recent advances in LSM technologies, with an emphasis on developments that have expanded both imaging performance and practical accessibility. We first outline the historical evolution of LSM and the limitations of conventional lateral-illumination geometries and then introduce major technical trends, including open-top architectures, optical designs for multiscale imaging, data-processing frameworks, and the adoption of artificial intelligence (AI). Finally, we highlight emerging applications of cutting-edge LSM across disciplines: long-term live imaging of embryos and organoids, molecular inspection of subcellular dynamics, tissue and whole-organism atlasing, slide-free 3D pathology, and quantitative bioassays including single-cell molecular profiling. Altogether, these advances position LSM not merely as a specialized imaging modality but as an increasingly accessible, intelligent, and quantitative platform for multiscale biological and analytical sciences.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-20",
       "generatedAt": "2026-11-20T16:48:19.754674+03:00",
       "papers": [
@@ -6694,5 +6863,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T16:48:19.754674+03:00"
+  "updatedAt": "2026-11-21T16:13:33.755754+03:00"
 }
