@@ -25,6 +25,127 @@
   ],
   "days": [
     {
+      "date": "2026-11-23",
+      "generatedAt": "2026-11-23T18:39:58.005276+03:00",
+      "papers": [
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Metadata-Private Voice Communication over Tor using Post-Quantum Key Encapsulation",
+          "authors": [
+            "Noah Zeinali Yazdi",
+            "Samuel Zeinali Yazdi"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-20",
+          "url": "https://arxiv.org/abs/2611.27909",
+          "source": "arXiv",
+          "arxivId": "2611.27909",
+          "summary": "Encrypted voice communication systems commonly protect call content but expose significant metadata, including the network identities of both parties, call timing, and traffic patterns. Simultaneously, advances in quantum computing threaten the asymmetric primitives underlying conventional key exchange, creating a harvest-now, decrypt-later risk for long-lived sensitive communications. Existing systems address at most one of these concerns: secure VoIP applications such as Signal and Wire rely on centralized infrastructure and classical cryptography, while anonymous communication tools built on the Tor network support only text messaging and lack post-quantum key encapsulation. This paper presents SAPEC (Secure Anonymous Peer Exchange Communicator), a peer-to-peer voice communication system that simultaneously addresses anonymity, decentralization, and quantum resistance. SAPEC routes all traffic exclusively through Tor hidden services, concealing the IP addresses of both parties, and augments the standard TLS handshake with a custom protocol layer that performs ML-KEM-1024 key establishment, a settle on AES-256 symmetrical keys and mutual Dilithium identity verification before any audio is transmitted. All audio is subsequently encrypted under AES-256. A removable Crypto Ignition Key prevents identity key material from being stored on the device. Empirical evaluation across 45 independently circuit-rebuilt test runs yielded a median one-way audio delay of 355 milliseconds and a median connection setup time of 7.61 seconds on same-region Tor circuits, demonstrating that interactive voice communication over onion routing is practically achievable.",
+          "contribution": "Encrypted voice communication systems commonly protect call content but expose significant metadata, including the network identities of both parties, call timing, and traffic patterns. Simultaneously, advances in quantum computing threaten the asymmetric primitives underlying conventional key exchange, creating a harvest-now, decrypt-later risk for long-lived sensitive communications. Existing systems address at most one of these concerns: secure VoIP applications such as Signal and Wire rely on centralized infrastructure and classical cryptography, while anonymous communication tools built on the Tor network support only text messaging and lack post-quantum key encapsulation. This paper presents SAPEC (Secure Anonymous Peer Exchange Communicator), a peer-to-peer voice communication system that simultaneously addresses anonymity, decentralization, and quantum resistance. SAPEC routes all traffic exclusively through Tor hidden services, concealing the IP addresses of both parties, and augments the standard TLS handshake with a custom protocol layer that performs ML-KEM-1024 key establishment, a settle on AES-256 symmetrical keys and mutual Dilithium identity verification before any audio is transmitted. All audio is subsequently encrypted under AES-256. A removable Crypto Ignition Key prevents identity key material from being stored on the device. Empirical evaluation across 45 independently circuit-rebuilt test runs yielded a median one-way audio delay of 355 milliseconds and a median connection setup time of 7.61 seconds on same-region Tor circuits, demonstrating that interactive voice communication over onion routing is practically achievable.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "A Unified Framework for Intelligent Cyber Attack Detection and Alert Correlation",
+          "authors": [
+            "Miguel Silva",
+            "João Vitorino",
+            "Daniela Pinto",
+            "Eva Maia",
+            "Ivone Amorim",
+            "Isabel Praça"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-19",
+          "url": "https://arxiv.org/abs/2611.26824",
+          "source": "arXiv",
+          "arxivId": "2611.26824",
+          "summary": "A Security Operations Center (SOC) plays a critical role in detecting, correlating, and responding to modern cyber threats. However, SOCs continue to face challenges related to alert overload, fragmented detection capabilities, and limited collaboration between analysts and automated systems. These issues often result in delayed incident response, analyst fatigue, and an increased risk of overlooking sophisticated, multi-stage attacks that unfold gradually across different layers of the network. To address these challenges, this paper proposes a unified framework for network traffic classification and alert correlation through the use of signature rules, machine learning, and sequential pattern mining algorithms. The solution was evaluated in a controlled testbed environment emulating realistic, multi-stage attack scenarios, including malware exploitation, lateral movement, reconnaissance, and data exfiltration. The obtained results demonstrate the effectiveness of the proposed framework in detecting and correlating complex attack behaviors, while providing analysts with actionable insights in line with a human-in-the-loop approach to SOC operations.",
+          "contribution": "A Security Operations Center (SOC) plays a critical role in detecting, correlating, and responding to modern cyber threats. However, SOCs continue to face challenges related to alert overload, fragmented detection capabilities, and limited collaboration between analysts and automated systems. These issues often result in delayed incident response, analyst fatigue, and an increased risk of overlooking sophisticated, multi-stage attacks that unfold gradually across different layers of the network. To address these challenges, this paper proposes a unified framework for network traffic classification and alert correlation through the use of signature rules, machine learning, and sequential pattern mining algorithms. The solution was evaluated in a controlled testbed environment emulating realistic, multi-stage attack scenarios, including malware exploitation, lateral movement, reconnaissance, and data exfiltration. The obtained results demonstrate the effectiveness of the proposed framework in detecting and correlating complex attack behaviors, while providing analysts with actionable insights in line with a human-in-the-loop approach to SOC operations.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Communication-Efficient Federated Learning of Latent Patient Representations from Multi-Institutional EHRs",
+          "authors": [
+            "Zhiyu Yan",
+            "Shiao Liu",
+            "Rahul Mahajan",
+            "Anand Viswanathan",
+            "Christopher D. Anderson",
+            "Rui Duan"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-20",
+          "url": "https://arxiv.org/abs/2611.27900",
+          "source": "arXiv",
+          "arxivId": "2611.27900",
+          "summary": "Electronic health records (EHRs) contain rich health information for uncovering latent patient representations and clinically meaningful subgroups. Learning from EHR data across institutions is valuable because representations learned at a single site may reflect local data patterns and lack generalizability, yet pooling patient-level records across institutions is often impractical because of privacy constraints and communication costs. We propose a communication-efficient, non-iterative federated spectral method for learning shared latent representation components from multi-institutional EHRs, in which each institution shares aggregate marginal frequencies and a low-rank spectral summary while keeping patient-level records local. A central server aggregates these summaries with the pooled marginal frequencies to recover both the shared low-rank structure and the canonical row-normalization direction required for interpretable representation recovery. We prove row-wise recovery guarantees and error bounds, with a leading federated variance term matching a corresponding lower bound under explicit regularity conditions. Simulations show that our method closely matches pooled analysis in estimating latent representation components, improves as more sites contribute summaries, and outperforms single-site and existing federated benchmarks across a range of data settings. Applied to real-world multi-facility EHR data for stroke patients, the method learns interpretable patient representations that highlight clinically distinct subgroups and could help inform subgroup-specific care.",
+          "contribution": "Electronic health records (EHRs) contain rich health information for uncovering latent patient representations and clinically meaningful subgroups. Learning from EHR data across institutions is valuable because representations learned at a single site may reflect local data patterns and lack generalizability, yet pooling patient-level records across institutions is often impractical because of privacy constraints and communication costs. We propose a communication-efficient, non-iterative federated spectral method for learning shared latent representation components from multi-institutional EHRs, in which each institution shares aggregate marginal frequencies and a low-rank spectral summary while keeping patient-level records local. A central server aggregates these summaries with the pooled marginal frequencies to recover both the shared low-rank structure and the canonical row-normalization direction required for interpretable representation recovery. We prove row-wise recovery guarantees and error bounds, with a leading federated variance term matching a corresponding lower bound under explicit regularity conditions. Simulations show that our method closely matches pooled analysis in estimating latent representation components, improves as more sites contribute summaries, and outperforms single-site and existing federated benchmarks across a range of data settings. Applied to real-world multi-facility EHR data for stroke patients, the method learns interpretable patient representations that highlight clinically distinct subgroups and could help inform subgroup-specific care.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Towards Text-Mask Consistency in Medical Image Segmentation",
+          "authors": [
+            "Jie Gui",
+            "Hang Tu",
+            "Wen Sha",
+            "Xiuquan Du"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-20",
+          "url": "https://arxiv.org/abs/2611.27050",
+          "source": "arXiv",
+          "arxivId": "2611.27050",
+          "summary": "Vision-language models for medical image segmentation often produce masks that conflict with the accompanying text, especially under multi-site/multi-lesion descriptions. We trace this failure to two factors: (i) highly templated and repetitive clinical language causes one-to-one hard contrastive learning to yield numerous false negatives, weakening cross-modal alignment; and (ii) predominantly vision-driven, one-way cross-attention lacks a language-dominant, spatially aware pathway, hindering effective injection of textual semantics into the spatial visual domain. To this end, we propose Consistency-enhanced Two-stage Segmentation (C2Seg). In the pretraining stage, Cluster-aware Contrastive Learning uses a frozen strong baseline to construct an intra-batch text similarity matrix as soft labels, thereby alleviating false negative conflicts and producing more discriminative visual representations. In the fusion stage, we introduce a Bidirectional Complementary Attention Module, where each modality dominates attention along its own path, fostering deep interaction and structural consistency between visual and textual representations. In order to enhance the expressive power of multimodal features, we further adopt KAN-based Attention Gating. Without updating the language encoder, our approach significantly improves text-mask consistency and segmentation accuracy on four public medical imaging datasets. The source code is available at https://github.com/JGuiidev/C2Seg.",
+          "contribution": "Vision-language models for medical image segmentation often produce masks that conflict with the accompanying text, especially under multi-site/multi-lesion descriptions. We trace this failure to two factors: (i) highly templated and repetitive clinical language causes one-to-one hard contrastive learning to yield numerous false negatives, weakening cross-modal alignment; and (ii) predominantly vision-driven, one-way cross-attention lacks a language-dominant, spatially aware pathway, hindering effective injection of textual semantics into the spatial visual domain. To this end, we propose Consistency-enhanced Two-stage Segmentation (C2Seg). In the pretraining stage, Cluster-aware Contrastive Learning uses a frozen strong baseline to construct an intra-batch text similarity matrix as soft labels, thereby alleviating false negative conflicts and producing more discriminative visual representations. In the fusion stage, we introduce a Bidirectional Complementary Attention Module, where each modality dominates attention along its own path, fostering deep interaction and structural consistency between visual and textual representations. In order to enhance the expressive power of multimodal features, we further adopt KAN-based Attention Gating. Without updating the language encoder, our approach significantly improves text-mask consistency and segmentation accuracy on four public medical imaging datasets. The source code is available at https://github.com/JGuiidev/C2Seg.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Verifiable Federated Learning: Integrity Guarantees, Mechanisms, and Practical Trade-offs",
+          "authors": [
+            "Abla Smahi",
+            "Ahmed Ameen Fateh",
+            "Han Wang",
+            "Wenjun Li",
+            "Hui Li",
+            "Ching Chuen Chan",
+            "Nihad A. A Elhag"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-23",
+          "url": "https://doi.org/10.1145/3864448",
+          "source": "Crossref",
+          "doi": "10.1145/3864448",
+          "summary": "Federated learning (FL) trains shared models without centralizing data, but typical protocols provide little evidence that local training and aggregation followed the specification. Verifiable federated learning (VeFL) addresses this gap by attaching machine-checkable evidence to FL execution. This survey introduces a reference model for coordinator-mediated, round-based horizontal FL that locates evidence points along the FL workflow and defines four verification targets: local-training correctness, update integrity, aggregation correctness, and end-to-end auditability. Existing VeFL designs are organized into four core verification routes: cryptographic verification, system-anchored verification, audit and provenance mechanisms, and hybrid designs. Statistical and data-quality methods are treated separately as complementary assurance. The surveyed approaches are compared by verification coverage, reported system costs, scalability, and trust and deployment assumptions. Deployment implications are summarized for regulated and edge settings.",
+          "contribution": "Federated learning (FL) trains shared models without centralizing data, but typical protocols provide little evidence that local training and aggregation followed the specification. Verifiable federated learning (VeFL) addresses this gap by attaching machine-checkable evidence to FL execution. This survey introduces a reference model for coordinator-mediated, round-based horizontal FL that locates evidence points along the FL workflow and defines four verification targets: local-training correctness, update integrity, aggregation correctness, and end-to-end auditability. Existing VeFL designs are organized into four core verification routes: cryptographic verification, system-anchored verification, audit and provenance mechanisms, and hybrid designs. Statistical and data-quality methods are treated separately as complementary assurance. The surveyed approaches are compared by verification coverage, reported system costs, scalability, and trust and deployment assumptions. Deployment implications are summarized for regulated and edge settings.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-22",
       "generatedAt": "2026-11-22T16:03:23.464287+03:00",
       "papers": [
@@ -6994,5 +7115,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-22T16:03:23.464287+03:00"
+  "updatedAt": "2026-11-23T18:39:58.005276+03:00"
 }
