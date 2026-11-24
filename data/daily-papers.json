@@ -25,6 +25,144 @@
   ],
   "days": [
     {
+      "date": "2026-11-24",
+      "generatedAt": "2026-11-24T18:29:42.693432+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Data-Quality-Aware Fundus Classification with Anatomy-Guided Glaucoma Assessment and Cross-Dataset Evaluation",
+          "authors": [
+            "Imdadul Haque Sourav",
+            "Marjana Jannat Miti",
+            "Md. Jehadul Islam Mony"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-22",
+          "url": "https://arxiv.org/abs/2611.29834",
+          "source": "arXiv",
+          "arxivId": "2611.29834",
+          "summary": "Background: Deep learning fundus classifiers often perform well internally, but duplicated images, inconsistent labels, acquisition differences and poor threshold transfer can undermine their reliability. We assess nine-class classifiers beyond internal accuracy, using a data audit, frozen-model external evaluation and an anatomy-guided specialist. Methods: Nine-class experts (ConvNeXt-Small, EfficientNetV2-Small, DenseNet169) were trained with three seeds. Auditing 5,318 images for exact duplicates and cross-label conflicts removed 464 conflict groups (942 images) and six same-label copies, leaving 4,370 images. An anatomy-guided glaucoma specialist read disc-centred crops with vessel and disc/cup segmentation maps, plus cup-to-disc features. Frozen models were evaluated on RFMiD and JSIEC, and a prespecified comparison on REFUGE was replicated on ORIGA, G1020 and PAPILA. Results: ConvNeXt-Small reached an internal accuracy of 0.910, macro-F1 of 0.917 and AUC of 0.982; disc and cup Dice scores were 0.966 and 0.915. Across seeds, the fixed anatomy-guided mix left internal accuracy unchanged relative to equal soft voting (-0.001) but raised mean external closed-set accuracy by 4.9 percentage points on RFMiD (positive in two of three seeds) and 2.3 on JSIEC. On REFUGE (800 photographs) it improved balanced accuracy by 7.4 percentage points (95% CI 5.1 to 9.5), and by 2.1 on ORIGA, with positive gains on G1020 and PAPILA. Thresholds transferred poorly (REFUGE sensitivity 0.950, specificity 0.411). Conclusions: Retinal classifiers should be judged by data-quality auditing, anatomy-informed modelling and multi-cohort evaluation. Anatomy-guided fusion improved transfer at no internal cost, but gains varied by cohort and thresholds did not transfer, so internal metrics alone do not establish reliable performance.",
+          "contribution": "Background: Deep learning fundus classifiers often perform well internally, but duplicated images, inconsistent labels, acquisition differences and poor threshold transfer can undermine their reliability. We assess nine-class classifiers beyond internal accuracy, using a data audit, frozen-model external evaluation and an anatomy-guided specialist. Methods: Nine-class experts (ConvNeXt-Small, EfficientNetV2-Small, DenseNet169) were trained with three seeds. Auditing 5,318 images for exact duplicates and cross-label conflicts removed 464 conflict groups (942 images) and six same-label copies, leaving 4,370 images. An anatomy-guided glaucoma specialist read disc-centred crops with vessel and disc/cup segmentation maps, plus cup-to-disc features. Frozen models were evaluated on RFMiD and JSIEC, and a prespecified comparison on REFUGE was replicated on ORIGA, G1020 and PAPILA. Results: ConvNeXt-Small reached an internal accuracy of 0.910, macro-F1 of 0.917 and AUC of 0.982; disc and cup Dice scores were 0.966 and 0.915. Across seeds, the fixed anatomy-guided mix left internal accuracy unchanged relative to equal soft voting (-0.001) but raised mean external closed-set accuracy by 4.9 percentage points on RFMiD (positive in two of three seeds) and 2.3 on JSIEC. On REFUGE (800 photographs) it improved balanced accuracy by 7.4 percentage points (95% CI 5.1 to 9.5), and by 2.1 on ORIGA, with positive gains on G1020 and PAPILA. Thresholds transferred poorly (REFUGE sensitivity 0.950, specificity 0.411). Conclusions: Retinal classifiers should be judged by data-quality auditing, anatomy-informed modelling and multi-cohort evaluation. Anatomy-guided fusion improved transfer at no internal cost, but gains varied by cohort and thresholds did not transfer, so internal metrics alone do not establish reliable performance.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "PLATRS: A Lattice-Based Linkable Accountable Ring Signature for Permissioned Blockchains",
+          "authors": [
+            "Jie Zhang",
+            "Xiaohong Li",
+            "Honglin Mao",
+            "Ruitao Feng",
+            "Lingyun Yuan",
+            "Guangdong Bai"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-23",
+          "url": "https://arxiv.org/abs/2611.30453",
+          "source": "arXiv",
+          "arxivId": "2611.30453",
+          "summary": "Permissioned-ledger cross-domain data sharing needs anonymity and accountability: an endorsement hides its author, but a regulator must identify it on authorization reuse. Existing lattice-based schemes give these only separately: public traceability exposes signers to collision detectors; linkable non-tracing schemes cannot open; threshold schemes solve another problem. None gives post-quantum security, a signer-chosen ring, a publicly comparable per-event tag, and one-authority opening together.\n  We propose \\textsf{PLATRS}, a module-lattice linkable accountable ring signature for permissioned blockchains. Consortium-CA enrollment binds the key returned by an opening to a registered identity. The signer chooses the ring; verification is index-free; each signature has a per-event tag any verifier can compare. Tag noise derives from the signer's tracing secret and event, so linking is one comparison for honest signatures while the tag remains M-LWE without the secret. Detection is two-tier: tag mismatch is immediate; different tags on two accepted signatures for one event trigger an opening; the authority publishes the recovered public opening component, and any member recomputes the verdict against the ring. We prove CPA anonymity from M-LWE, linkability, authority-only traceability, and unforgeability from M-SIS with M-LWE in the random oracle model. At \\(N=1024\\), our open-source implementation: sign 9.886~ms, verify 3.919~ms, link 0.7~\\(μ\\)s, open 480~\\(μ\\)s; signature 107.3~KiB (log in ring size); adjudication 4.867~ms. Hyperledger Fabric: 60.5 signature submissions/s at 7.87~MB/s with 16~MiB blocks, commit-bandwidth limited. Common-harness: fastest of 5 schemes to sign/verify, second in size; vs FLLL\\(^+\\)21, signing is 3188\\(\\times\\) faster and signatures 133\\(\\times\\) shorter.",
+          "contribution": "Permissioned-ledger cross-domain data sharing needs anonymity and accountability: an endorsement hides its author, but a regulator must identify it on authorization reuse. Existing lattice-based schemes give these only separately: public traceability exposes signers to collision detectors; linkable non-tracing schemes cannot open; threshold schemes solve another problem. None gives post-quantum security, a signer-chosen ring, a publicly comparable per-event tag, and one-authority opening together.\n  We propose \\textsf{PLATRS}, a module-lattice linkable accountable ring signature for permissioned blockchains. Consortium-CA enrollment binds the key returned by an opening to a registered identity. The signer chooses the ring; verification is index-free; each signature has a per-event tag any verifier can compare. Tag noise derives from the signer's tracing secret and event, so linking is one comparison for honest signatures while the tag remains M-LWE without the secret. Detection is two-tier: tag mismatch is immediate; different tags on two accepted signatures for one event trigger an opening; the authority publishes the recovered public opening component, and any member recomputes the verdict against the ring. We prove CPA anonymity from M-LWE, linkability, authority-only traceability, and unforgeability from M-SIS with M-LWE in the random oracle model. At \\(N=1024\\), our open-source implementation: sign 9.886~ms, verify 3.919~ms, link 0.7~\\(μ\\)s, open 480~\\(μ\\)s; signature 107.3~KiB (log in ring size); adjudication 4.867~ms. Hyperledger Fabric: 60.5 signature submissions/s at 7.87~MB/s with 16~MiB blocks, commit-bandwidth limited. Common-harness: fastest of 5 schemes to sign/verify, second in size; vs FLLL\\(^+\\)21, signing is 3188\\(\\times\\) faster and signatures 133\\(\\times\\) shorter.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Malicious Traffic Detection Based on a Hybrid\n                    <scp>CNN</scp>\n                    ‐Mamba Architecture With Statistical Feature Enhancement",
+          "authors": [
+            "Tao Pan",
+            "Dixu Chen",
+            "Yunsong Li",
+            "Yang Meng"
+          ],
+          "venue": "IEEE Symposium on Security and Privacy",
+          "venueId": "C11",
+          "publishedDate": "2026-11-24",
+          "url": "https://doi.org/10.1002/spy2.70273",
+          "source": "Crossref",
+          "doi": "10.1002/spy2.70273",
+          "summary": "ABSTRACT \n                   \n                    Transformer‐based traffic analysis models can capture long‐range byte dependencies, but their quadratic attention cost limits their use in latency‐sensitive malicious traffic detection. This paper proposes a lightweight malicious traffic detection framework based on a hybrid CNN‐Mamba architecture with statistical feature enhancement. The method uses a depthwise separable 1D‐CNN front end to strengthen local byte‐pattern extraction and stacked Mamba blocks to model long‐range sequence dependencies with linear‐time sequence processing. In addition to byte‐level representations, packet length (PL) and inter‐arrival time (IAT) sequences are extracted as low‐cost flow‐level statistical metadata and fused with the semantic representation produced by the Mamba backbone. Compared with prior Mamba‐based traffic models, the contribution of this work is not the first application of Mamba to network traffic, but a task‐specific lightweight extension that investigates whether local convolutional enhancement and PL/IAT metadata can improve the accuracy‐efficiency trade‐off for malicious traffic detection. On the USTC‐TFC2016 benchmark, the task is formulated as fine‐grained multi‐class traffic recognition over both normal application classes and malware‐family classes. Under this setting, the proposed model achieves a macro\n                     F \n                    1‐score of 99.03%, a macro false positive rate of 0.0717%, and a single‐flow model‐forward latency of 0.3586 ms after preprocessing. Additional validation on CIC‐IDS‐2017, CICIoT2023, and CICAPT‐IIoT2024 further evaluates the model under broader intrusion, IoT, and APT/IIoT traffic‐security settings. Header‐sanitization analysis, expanded baseline comparisons, ablation studies, and five‐seed stability experiments indicate that the improvement is obtained without relying on identity‐related header shortcuts and with only a small increase in model size and model‐forward latency.",
+          "contribution": "ABSTRACT \n                   \n                    Transformer‐based traffic analysis models can capture long‐range byte dependencies, but their quadratic attention cost limits their use in latency‐sensitive malicious traffic detection. This paper proposes a lightweight malicious traffic detection framework based on a hybrid CNN‐Mamba architecture with statistical feature enhancement. The method uses a depthwise separable 1D‐CNN front end to strengthen local byte‐pattern extraction and stacked Mamba blocks to model long‐range sequence dependencies with linear‐time sequence processing. In addition to byte‐level representations, packet length (PL) and inter‐arrival time (IAT) sequences are extracted as low‐cost flow‐level statistical metadata and fused with the semantic representation produced by the Mamba backbone. Compared with prior Mamba‐based traffic models, the contribution of this work is not the first application of Mamba to network traffic, but a task‐specific lightweight extension that investigates whether local convolutional enhancement and PL/IAT metadata can improve the accuracy‐efficiency trade‐off for malicious traffic detection. On the USTC‐TFC2016 benchmark, the task is formulated as fine‐grained multi‐class traffic recognition over both normal application classes and malware‐family classes. Under this setting, the proposed model achieves a macro\n                     F \n                    1‐score of 99.03%, a macro false positive rate of 0.0717%, and a single‐flow model‐forward latency of 0.3586 ms after preprocessing. Additional validation on CIC‐IDS‐2017, CICIoT2023, and CICAPT‐IIoT2024 further evaluates the model under broader intrusion, IoT, and APT/IIoT traffic‐security settings. Header‐sanitization analysis, expanded baseline comparisons, ablation studies, and five‐seed stability experiments indicate that the improvement is obtained without relying on identity‐related header shortcuts and with only a small increase in model size and model‐forward latency.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Semantic Communication via Federated Learning with Knowledge-Enhanced Networks and Privacy",
+          "authors": [
+            "Hassan Touati",
+            "Rodrigo C. de Lamare"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-21",
+          "url": "https://arxiv.org/abs/2611.28920",
+          "source": "arXiv",
+          "arxivId": "2611.28920",
+          "summary": "This paper presents a novel privacy-preserving semantic communication framework that combines Federated Learning (FL) with Knowledge-Enhanced Networks (KE-NET) for distributed wireless systems. Unlike centralized semantic communication approaches that require data aggregation, our method enables multiple clients to collaboratively train a knowledge-enhanced model while keeping their data and knowledge graphs private. We develop a multi-objective federated optimization strategy that balances semantic fidelity, knowledge integration, channel robustness, and reconstruction accuracy. Theoretical analysis reveals that federated aggregation improves effective SNR for $N$ clients through noise averaging. Numerical results with AWGN and Rayleigh fading channels demonstrate that multi-client federated learning consistently outperforms both single-client and centralized baselines across all SNR conditions, with particularly significant gains in low-SNR scenarios.",
+          "contribution": "This paper presents a novel privacy-preserving semantic communication framework that combines Federated Learning (FL) with Knowledge-Enhanced Networks (KE-NET) for distributed wireless systems. Unlike centralized semantic communication approaches that require data aggregation, our method enables multiple clients to collaboratively train a knowledge-enhanced model while keeping their data and knowledge graphs private. We develop a multi-objective federated optimization strategy that balances semantic fidelity, knowledge integration, channel robustness, and reconstruction accuracy. Theoretical analysis reveals that federated aggregation improves effective SNR for $N$ clients through noise averaging. Numerical results with AWGN and Rayleigh fading channels demonstrate that multi-client federated learning consistently outperforms both single-client and centralized baselines across all SNR conditions, with particularly significant gains in low-SNR scenarios.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "A High-Compression Transformer VAE for Efficient and Controllable 3D Medical Image Generation with Diffusion Transformers",
+          "authors": [
+            "Bo Liu",
+            "Bingliang Zhang",
+            "Yubo Wang",
+            "Yunxiang Li",
+            "Yang Yang",
+            "Janine M. Lupo",
+            "Hui Lin"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-19",
+          "url": "https://arxiv.org/abs/2611.26907",
+          "source": "arXiv",
+          "arxivId": "2611.26907",
+          "summary": "Many medical image processing tasks, such as completing missing regions or correcting acquisition artifacts, can be cast as volumetric generation conditioned on observations of the same patient. Diffusion Transformers offer scalable capacity and flexible conditioning for this setting, but they operate on a learned image representation that must preserve fine anatomical and pathological detail while keeping complete three-dimensional volumes tractable. We bring Transformer variational autoencoding and multimodal diffusion together to address this challenge. Trained on BrainTumor-256K, a 249M Transformer VAE encodes and decodes $256^3$ volumes 7.6x faster than a comparably sized CNN trained on the same collection. Their PSNR difference is near zero with training-sized crop inputs, but the Transformer leads by 0.749 dB with full-volume inputs and an unchanged scoring region. Increasing Transformer capacity to 499M improves PSNR across all four brain MRI evaluation sets while retaining 3.8x lower encoding-decoding latency than the CNN. Fast encoding also allows conditions to be constructed dynamically in image space during latent diffusion training. Within the compressed representation, a shared Diffusion Transformer integrates text and spatial references for volumetric synthesis, completion and restoration. The brain-trained autoencoder further transfers to non-brain MRI and CT without target-domain fine-tuning, extending its use beyond the anatomy and modality on which it was learned. The framework provides a reusable representation and conditioning interface for efficient, controllable medical image generation. Code is available at https://github.com/OncoMMAI/brainmri-vit-vae3d.",
+          "contribution": "Many medical image processing tasks, such as completing missing regions or correcting acquisition artifacts, can be cast as volumetric generation conditioned on observations of the same patient. Diffusion Transformers offer scalable capacity and flexible conditioning for this setting, but they operate on a learned image representation that must preserve fine anatomical and pathological detail while keeping complete three-dimensional volumes tractable. We bring Transformer variational autoencoding and multimodal diffusion together to address this challenge. Trained on BrainTumor-256K, a 249M Transformer VAE encodes and decodes $256^3$ volumes 7.6x faster than a comparably sized CNN trained on the same collection. Their PSNR difference is near zero with training-sized crop inputs, but the Transformer leads by 0.749 dB with full-volume inputs and an unchanged scoring region. Increasing Transformer capacity to 499M improves PSNR across all four brain MRI evaluation sets while retaining 3.8x lower encoding-decoding latency than the CNN. Fast encoding also allows conditions to be constructed dynamically in image space during latent diffusion training. Within the compressed representation, a shared Diffusion Transformer integrates text and spatial references for volumetric synthesis, completion and restoration. The brain-trained autoencoder further transfers to non-brain MRI and CT without target-domain fine-tuning, extending its use beyond the anatomy and modality on which it was learned. The framework provides a reusable representation and conditioning interface for efficient, controllable medical image generation. Code is available at https://github.com/OncoMMAI/brainmri-vit-vae3d.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Comparative Analysis of Machine Learning Classifiers for Lightweight IoT Intrusion Detection Using Feature Reduction",
+          "authors": [
+            "Shaker Nawasra"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-23",
+          "url": "https://arxiv.org/abs/2611.29869",
+          "source": "arXiv",
+          "doi": "10.1109/AIBThings71029.2026.11771241",
+          "arxivId": "2611.29869",
+          "summary": "Machine learning-based intrusion detection systems can improve IoT security, but high-dimensional traffic features and imbalanced datasets may reduce model reliability and deployment feasibility in resource-constrained environments. This study presents a lightweight binary IoT intrusion detection framework using an approximately balanced CICIoT2023 derived dataset, feature reduction, and comparative machine learning evaluation. The original multi-class attack labels were converted into two classes: Benign and Malicious. To reduce class bias, malicious traffic was randomly undersampled to obtain an approximately balanced binary dataset. Information Gain Ratio and Gini Decrease were then used to rank traffic features and generate reduced feature subsets of 38, 30, 20, 10, 5, and 3 features. Five machine learning classifiers, including Random Forest(RF), Decision Tree(DT), Naive Bayes(NB), Logistic Regression(LR), and Support Vector Machine(SVM), were evaluated using 5-fold cross-validation. The results show that Random Forest achieved the strongest overall performance. In particular,the 20-feature subset achieved accuracy of 99.1% and MCC of 0.982, matching the full-feature model while reducing feature dimensionality by approximately 47.4%. The 10-feature subset also maintained strong performance with accuracy of 98.9% and MCC of 0.979, reducing the feature space by approximately 73.7%. These findings demonstrate that balanced binary classification and progressive feature reduction can preserve detection effectiveness while improving lightweight IDS feasibility.",
+          "contribution": "Machine learning-based intrusion detection systems can improve IoT security, but high-dimensional traffic features and imbalanced datasets may reduce model reliability and deployment feasibility in resource-constrained environments. This study presents a lightweight binary IoT intrusion detection framework using an approximately balanced CICIoT2023 derived dataset, feature reduction, and comparative machine learning evaluation. The original multi-class attack labels were converted into two classes: Benign and Malicious. To reduce class bias, malicious traffic was randomly undersampled to obtain an approximately balanced binary dataset. Information Gain Ratio and Gini Decrease were then used to rank traffic features and generate reduced feature subsets of 38, 30, 20, 10, 5, and 3 features. Five machine learning classifiers, including Random Forest(RF), Decision Tree(DT), Naive Bayes(NB), Logistic Regression(LR), and Support Vector Machine(SVM), were evaluated using 5-fold cross-validation. The results show that Random Forest achieved the strongest overall performance. In particular,the 20-feature subset achieved accuracy of 99.1% and MCC of 0.982, matching the full-feature model while reducing feature dimensionality by approximately 47.4%. The 10-feature subset also maintained strong performance with accuracy of 98.9% and MCC of 0.979, reducing the feature space by approximately 73.7%. These findings demonstrate that balanced binary classification and progressive feature reduction can preserve detection effectiveness while improving lightweight IDS feasibility.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-23",
       "generatedAt": "2026-11-23T18:39:58.005276+03:00",
       "papers": [
@@ -7115,5 +7253,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-23T18:39:58.005276+03:00"
+  "updatedAt": "2026-11-24T18:29:42.693432+03:00"
 }
