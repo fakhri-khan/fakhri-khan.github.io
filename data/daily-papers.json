@@ -25,6 +25,165 @@
   ],
   "days": [
     {
+      "date": "2026-11-25",
+      "generatedAt": "2026-11-25T18:16:49.305670+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "GlaucomaMarker - Biomarker-Grounded Glaucoma Vision-Language Model",
+          "authors": [
+            "Ahammed Sakir Nabil",
+            "Sadia Siraz",
+            "Nikita Chincholkar",
+            "Atalie C. Thompson",
+            "Jason Xiao",
+            "Theodore Leng",
+            "Jennifer I. Lim",
+            "Minhaj Nur Alam"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-20",
+          "url": "https://arxiv.org/abs/2611.28332",
+          "source": "arXiv",
+          "arxivId": "2611.28332",
+          "summary": "Glaucoma is a leading cause of irreversible blindness. In the current clinical setting, glaucoma diagnosis is generally conducted by assessing optic disc cupping and asymmetry. Vision-language models (VLMs) have been utilized in recent years for glaucoma, mostly trained on fixed templates or AI-generated captions, as no public text describes the biomarkers. Our proposed framework, GlaucomaMarker, hypothesizes that retinal structural biomarkers can ground glaucoma-based VLMs. It converts public segmentation masks into sentences describing eleven biomarkers, to teach retinal foundation models to read them. We applied this framework to RETFound (GlaucomaMarker-R) and FLAIR (GlaucomaMarker-F), training on 9,778 images that yielded 45,190 image-text pairs. On a real-world clinical cohort, GlaucomaMarker-F detects glaucoma with an AUROC of 0.905, against 0.848 for FLAIR, and both read the biomarkers where baselines stay near random guessing. Since the biomarker text is computed from existing masks, it comes at no extra cost.",
+          "contribution": "Glaucoma is a leading cause of irreversible blindness. In the current clinical setting, glaucoma diagnosis is generally conducted by assessing optic disc cupping and asymmetry. Vision-language models (VLMs) have been utilized in recent years for glaucoma, mostly trained on fixed templates or AI-generated captions, as no public text describes the biomarkers. Our proposed framework, GlaucomaMarker, hypothesizes that retinal structural biomarkers can ground glaucoma-based VLMs. It converts public segmentation masks into sentences describing eleven biomarkers, to teach retinal foundation models to read them. We applied this framework to RETFound (GlaucomaMarker-R) and FLAIR (GlaucomaMarker-F), training on 9,778 images that yielded 45,190 image-text pairs. On a real-world clinical cohort, GlaucomaMarker-F detects glaucoma with an AUROC of 0.905, against 0.848 for FLAIR, and both read the biomarkers where baselines stay near random guessing. Since the biomarker text is computed from existing masks, it comes at no extra cost.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "APQKE-DR: Entropy-Failure Analysis of a Post-Quantum-Initialized Ratcheted Channel",
+          "authors": [
+            "Muhammad Asfand Hafeez",
+            "Zain Ul Abideen",
+            "Amna Zafar",
+            "Kazi Hassan Shakib",
+            "Arslan Munir"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.32024",
+          "source": "arXiv",
+          "arxivId": "2611.32024",
+          "summary": "Long-lived secure channels for embedded and cyber-physical systems (CPSs) must resist quantum attacks and failures in endpoint randomness. While several post-quantum key exchange protocols exist, their security assumes reliable randomness at the endpoint, but this assumption is not always true in embedded devices. In this paper, we introduce the Entropy Attack Suite (EAS) to evaluate secure channels facing endpoint randomness failures, such as low-entropy boot and Random Number Generation (RNG) path subversion. As a case study, we design and implement APQKE-DR, a post-quantum secure channel. Its handshake uses ML-KEM [1] and ML-DSA [2], producing a root key for an X25519 Double Ratchet. We assess the performance of APQKE-DR and security for smart grid communication, and integrate it beneath ANSI C12.22 and DNP3 without altering payload formats.\n  On a Raspberry Pi Compute Module 5, the APQKE handshake exchanges 9,610 bytes with median latencies of 1.99 ms (node) and 0.82 ms (server). The ratcheted channel adds 31 bytes per message. With fresh randomness and ideal cryptographic primitives, ProVerif verifies the modeled secrecy and authentication properties. If randomness fails, EAS can recover the RNG stream and root key from public transcripts. Under RNG-path subversion, a weak generator exposes the root key across sessions. If subversion also affects X25519 keys, attackers may access ratchet keys and plaintexts. TPM seeding prevents early-boot attacks but not later subversion, while measured boot can block modified firmware. Secure deployment thus requires integrity along the entire entropy path, not just strong cryptographic primitives.",
+          "contribution": "Long-lived secure channels for embedded and cyber-physical systems (CPSs) must resist quantum attacks and failures in endpoint randomness. While several post-quantum key exchange protocols exist, their security assumes reliable randomness at the endpoint, but this assumption is not always true in embedded devices. In this paper, we introduce the Entropy Attack Suite (EAS) to evaluate secure channels facing endpoint randomness failures, such as low-entropy boot and Random Number Generation (RNG) path subversion. As a case study, we design and implement APQKE-DR, a post-quantum secure channel. Its handshake uses ML-KEM [1] and ML-DSA [2], producing a root key for an X25519 Double Ratchet. We assess the performance of APQKE-DR and security for smart grid communication, and integrate it beneath ANSI C12.22 and DNP3 without altering payload formats.\n  On a Raspberry Pi Compute Module 5, the APQKE handshake exchanges 9,610 bytes with median latencies of 1.99 ms (node) and 0.82 ms (server). The ratcheted channel adds 31 bytes per message. With fresh randomness and ideal cryptographic primitives, ProVerif verifies the modeled secrecy and authentication properties. If randomness fails, EAS can recover the RNG stream and root key from public transcripts. Under RNG-path subversion, a weak generator exposes the root key across sessions. If subversion also affects X25519 keys, attackers may access ratchet keys and plaintexts. TPM seeding prevents early-boot attacks but not later subversion, while measured boot can block modified firmware. Secure deployment thus requires integrity along the entire entropy path, not just strong cryptographic primitives.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "MALET & Katalina: A Large-Scale Dataset and Static Analysis of macOS Malware",
+          "authors": [
+            "Godwin Attigah",
+            "Obinna Igbe"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.31949",
+          "source": "arXiv",
+          "arxivId": "2611.31949",
+          "summary": "While malware on platforms such as Windows and Android has been extensively studied, the macOS ecosystem remains comparatively understudied. To address this gap, we present MALET, a large-scale public dataset for macOS malware analysis. MALET contains 44{,}804 malicious Mach-O binaries and 44{,}457 samples with zero antivirus detections on VirusTotal. From the undetected set, we further identify 25{,}835 high-confidence benign samples using conservative, heuristic-based filtering. We also introduce Katalina, an open-source static analysis framework that extracts macOS-specific structural features and indicators of potential behavior at scale.\n  Using MALET, we perform, to the best of our knowledge, the first large-scale static characterization of macOS malware. Our analysis reveals macOS-specific traits, including widespread misuse of security entitlements, abuse of native scripting interfaces, and irregularities in code-signing infrastructure. We find that 93.0\\% of malicious samples are unsigned, demonstrating that unsigned code continues to execute in practice through user-mediated approval mechanisms. Among CA-signed malware, 28.4\\% (816 samples) were associated with certificates that were later revoked, including samples publicly attributed to DPRK-linked threat actors, as reflected in antivirus labels and threat intelligence reports. Finally, we identify significant detection instability: in 185 structurally identical malicious samples, antivirus engines failed to provide consistent detections for 77.2\\% (143 samples). Together, these results highlight persistent blind spots in macOS malware detection and motivate improved approaches to certificate abuse analysis, similarity-based clustering, and platform-specific defense mechanisms. Based on these insights, we outline concrete steps to advance the state of macOS malware analysis and defense.",
+          "contribution": "While malware on platforms such as Windows and Android has been extensively studied, the macOS ecosystem remains comparatively understudied. To address this gap, we present MALET, a large-scale public dataset for macOS malware analysis. MALET contains 44{,}804 malicious Mach-O binaries and 44{,}457 samples with zero antivirus detections on VirusTotal. From the undetected set, we further identify 25{,}835 high-confidence benign samples using conservative, heuristic-based filtering. We also introduce Katalina, an open-source static analysis framework that extracts macOS-specific structural features and indicators of potential behavior at scale.\n  Using MALET, we perform, to the best of our knowledge, the first large-scale static characterization of macOS malware. Our analysis reveals macOS-specific traits, including widespread misuse of security entitlements, abuse of native scripting interfaces, and irregularities in code-signing infrastructure. We find that 93.0\\% of malicious samples are unsigned, demonstrating that unsigned code continues to execute in practice through user-mediated approval mechanisms. Among CA-signed malware, 28.4\\% (816 samples) were associated with certificates that were later revoked, including samples publicly attributed to DPRK-linked threat actors, as reflected in antivirus labels and threat intelligence reports. Finally, we identify significant detection instability: in 185 structurally identical malicious samples, antivirus engines failed to provide consistent detections for 77.2\\% (143 samples). Together, these results highlight persistent blind spots in macOS malware detection and motivate improved approaches to certificate abuse analysis, similarity-based clustering, and platform-specific defense mechanisms. Based on these insights, we outline concrete steps to advance the state of macOS malware analysis and defense.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Trustworthy Edge AI: Security, Privacy, and Resilience for Distributed Intelligence",
+          "authors": [
+            "Jaydip Sen",
+            "Subhasis Dasgupta"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-23",
+          "url": "https://arxiv.org/abs/2611.31331",
+          "source": "arXiv",
+          "arxivId": "2611.31331",
+          "summary": "This chapter examines the principles and emerging research directions for building secure, privacy-preserving, and resilient Edge Artificial Intelligence (Edge AI) systems. As intelligence shifts from centralized clouds to distributed edge environments, challenges arise in ensuring data integrity, privacy, and reliable operation under adversarial and uncertain conditions. The chapter analyzes Edge AI architectures, emphasizing the expanded attack surface due to heterogeneous devices, resource constraints, and dynamic networks. It reviews core security mechanisms, including hardware-rooted trust, zero-trust models, secure communication, and attestation. Privacy-preserving approaches, such as federated learning, secure aggregation, and differential privacy, enable collaborative intelligence without centralized data sharing. Resilience strategies, including fault tolerance, adversarial robustness, and adaptive orchestration, are also explored. Case studies from smart cities, autonomous vehicles, healthcare, and industrial IoT illustrate practical trade-offs. The chapter advocates a holistic, cross-layer design integrating security, privacy, and resilience for trustworthy edge intelligence.",
+          "contribution": "This chapter examines the principles and emerging research directions for building secure, privacy-preserving, and resilient Edge Artificial Intelligence (Edge AI) systems. As intelligence shifts from centralized clouds to distributed edge environments, challenges arise in ensuring data integrity, privacy, and reliable operation under adversarial and uncertain conditions. The chapter analyzes Edge AI architectures, emphasizing the expanded attack surface due to heterogeneous devices, resource constraints, and dynamic networks. It reviews core security mechanisms, including hardware-rooted trust, zero-trust models, secure communication, and attestation. Privacy-preserving approaches, such as federated learning, secure aggregation, and differential privacy, enable collaborative intelligence without centralized data sharing. Resilience strategies, including fault tolerance, adversarial robustness, and adaptive orchestration, are also explored. Case studies from smart cities, autonomous vehicles, healthcare, and industrial IoT illustrate practical trade-offs. The chapter advocates a holistic, cross-layer design integrating security, privacy, and resilience for trustworthy edge intelligence.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "IMPACT-Seg: Consistent Anatomical Segmentation and Representation Learning Across CT, CBCT, and MRI",
+          "authors": [
+            "Cédric Hémon",
+            "Valentin Boussot",
+            "Matthew McCormick",
+            "Lukas Zimmermann",
+            "Christopher Kurz",
+            "Guillaume Landry"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.32903",
+          "source": "arXiv",
+          "arxivId": "2611.32903",
+          "summary": "Computed tomography (CT), cone-beam CT (CBCT), and magnetic resonance imaging (MRI) provide complementary representations of the same underlying anatomy, yet substantial differences in image appearance challenge consistent segmentation and deformable registration in adaptive radiotherapy. We investigate whether dense anatomical segmentation supervision can promote cross-modality correspondence without explicit feature alignment. We introduce IMPACT-Seg, which segments 126 structures across CT, CBCT, and MRI using shared network parameters. A collection of 8,290 volumes was assembled from public cohorts through label harmonization, model-assisted pseudo-label completion, iterative refinement, and 2,864 physics-based CBCT simulations with voxel-aligned CT labels. Unpaired images were used to jointly train 2.5D and 3D residual-encoder networks.\n  On 139 real CBCTs, IMPACT-Seg 3D achieved a mean Dice of 0.842 versus 0.671 for the strongest comparator. On 497 voxel-aligned CT-simulated-CBCT pairs, the CT-to-CBCT Dice decrease was 0.022 versus 0.153-0.178 for competing methods. On independent pancreatic radiotherapy CBCTs, gastrointestinal Dice was 0.735 versus 0.634 for TotalSegmentator. Prediction agreement reached 0.881 on registered CT-CBCT and 0.790 on CT-MRI pairs. Adding MRI training data reduced CT-MRI encoder feature retrieval error from 36.8 to 3.2 mm. Registration pipelines incorporating IMPACT-Seg features ranked first on two multimodal Learn2Reg benchmarks. The 3D model segmented a whole-body CT in 15 s.\n  These findings show that dense anatomical segmentation supervision can support consistent anatomical representations across modalities, with applications to both segmentation and registration. Code, datasets, and pretrained models are available at https://github.com/HEMONCedric/IMPACTSeg.",
+          "contribution": "Computed tomography (CT), cone-beam CT (CBCT), and magnetic resonance imaging (MRI) provide complementary representations of the same underlying anatomy, yet substantial differences in image appearance challenge consistent segmentation and deformable registration in adaptive radiotherapy. We investigate whether dense anatomical segmentation supervision can promote cross-modality correspondence without explicit feature alignment. We introduce IMPACT-Seg, which segments 126 structures across CT, CBCT, and MRI using shared network parameters. A collection of 8,290 volumes was assembled from public cohorts through label harmonization, model-assisted pseudo-label completion, iterative refinement, and 2,864 physics-based CBCT simulations with voxel-aligned CT labels. Unpaired images were used to jointly train 2.5D and 3D residual-encoder networks.\n  On 139 real CBCTs, IMPACT-Seg 3D achieved a mean Dice of 0.842 versus 0.671 for the strongest comparator. On 497 voxel-aligned CT-simulated-CBCT pairs, the CT-to-CBCT Dice decrease was 0.022 versus 0.153-0.178 for competing methods. On independent pancreatic radiotherapy CBCTs, gastrointestinal Dice was 0.735 versus 0.634 for TotalSegmentator. Prediction agreement reached 0.881 on registered CT-CBCT and 0.790 on CT-MRI pairs. Adding MRI training data reduced CT-MRI encoder feature retrieval error from 36.8 to 3.2 mm. Registration pipelines incorporating IMPACT-Seg features ranked first on two multimodal Learn2Reg benchmarks. The 3D model segmented a whole-body CT in 15 s.\n  These findings show that dense anatomical segmentation supervision can support consistent anatomical representations across modalities, with applications to both segmentation and registration. Code, datasets, and pretrained models are available at https://github.com/HEMONCedric/IMPACTSeg.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Domain 5: Cloud Security Operations",
+          "authors": [],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-11-25",
+          "url": "https://doi.org/10.1002/9781394324477.ch05",
+          "source": "Crossref",
+          "doi": "10.1002/9781394324477.ch05",
+          "summary": "This paper examines Domain 5: Cloud Security Operations.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Dynamic Asymmetric U-Shaped Split Federated Learning",
+          "authors": [
+            "Yifan Wang",
+            "Haifeng Qian",
+            "Jiaxin Ji",
+            "Cheng Qiu",
+            "Jianbo Ye"
+          ],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-11-25",
+          "url": "https://doi.org/10.1007/978-981-92-8175-6_3",
+          "source": "Crossref",
+          "doi": "10.1007/978-981-92-8175-6_3",
+          "summary": "This paper examines Dynamic Asymmetric U-Shaped Split Federated Learning.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-24",
       "generatedAt": "2026-11-24T18:29:42.693432+03:00",
       "papers": [
@@ -7253,5 +7412,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-24T18:29:42.693432+03:00"
+  "updatedAt": "2026-11-25T18:16:49.305670+03:00"
 }
