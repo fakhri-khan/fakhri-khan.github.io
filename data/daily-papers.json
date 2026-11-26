@@ -25,6 +25,182 @@
   ],
   "days": [
     {
+      "date": "2026-11-26",
+      "generatedAt": "2026-11-26T17:42:17.726022+03:00",
+      "papers": [
+        {
+          "trackId": "retinal-ai",
+          "trackName": "Retinal AI and Computational Ophthalmology",
+          "title": "Look at What Matters: Learning Lesion Prototypes from Severity Labels for Domain-Generalized Diabetic Retinopathy Grading",
+          "authors": [
+            "Ziyang Zhang",
+            "Juming Xiong",
+            "Yanfan Zhu",
+            "Yuechen Yang",
+            "Junchao Zhu",
+            "Zhengyi Lu",
+            "Chongyu Qu",
+            "Yiming Zhong",
+            "Yalin Zheng",
+            "Yuankai Huo",
+            "He Zhao"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-25",
+          "url": "https://arxiv.org/abs/2611.33671",
+          "source": "arXiv",
+          "arxivId": "2611.33671",
+          "summary": "Deep learning models for diabetic retinopathy (DR) grading often generalize poorly to unseen imaging domains, in part because predictions may exploit correlations specific to source datasets rather than retinal pathology. We address this challenge by constructing grading decisions from lesion evidence learned using only image severity labels. Clinical implications of DR grades provide multiple instance constraints that guide competitive learning of lesion and background prototypes at multiple scales. An additive ordinal scoring model then predicts severity exclusively from individual lesion prototype responses, explicitly connecting learned evidence with grading decisions without a global feature classification pathway. To improve the reliability of this evidence, we introduce teacher guided preservation under image degradations and spatial regularization against persistent coordinate preferences. Across six public DR datasets under a leave one domain out protocol, our method attains a mean quadratic weighted kappa of 0.761, outperforming the strongest competing method by 0.036. Localization and prototype removal analyses show that the learned responses align with retinal lesions and contribute to grading decisions. Experiments across five other prototype architectures and under image degradations further demonstrate the generality and robustness of the approach.",
+          "contribution": "Deep learning models for diabetic retinopathy (DR) grading often generalize poorly to unseen imaging domains, in part because predictions may exploit correlations specific to source datasets rather than retinal pathology. We address this challenge by constructing grading decisions from lesion evidence learned using only image severity labels. Clinical implications of DR grades provide multiple instance constraints that guide competitive learning of lesion and background prototypes at multiple scales. An additive ordinal scoring model then predicts severity exclusively from individual lesion prototype responses, explicitly connecting learned evidence with grading decisions without a global feature classification pathway. To improve the reliability of this evidence, we introduce teacher guided preservation under image degradations and spatial regularization against persistent coordinate preferences. Across six public DR datasets under a leave one domain out protocol, our method attains a mean quadratic weighted kappa of 0.761, outperforming the strongest competing method by 0.036. Localization and prototype removal analyses show that the learned responses align with retinal lesions and contribute to grading decisions. Experiments across five other prototype architectures and under image degradations further demonstrate the generality and robustness of the approach.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Retinal AI and Computational Ophthalmology based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Northstar: Efficient Verifiable Negacyclic Polynomial Arithmetic with Applications to Encrypted Lattice-based Multi-Asset ERC-20 and Verifiable FHE",
+          "authors": [
+            "Yeoh Wei Zhu",
+            "Shaltiel Eloul",
+            "Yash Satsangi",
+            "Rob Otter"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-25",
+          "url": "https://arxiv.org/abs/2611.34417",
+          "source": "arXiv",
+          "arxivId": "2611.34417",
+          "summary": "Lattice-based cryptography can be used to construct a variety of post-quantum cryptographic schemes, ranging from standard cryptographic primitives such as digital signatures and encryption, to fully homomorphic encryption (FHE). However, the verification of correct lattice computations remains relatively expensive, particularly for computationally intensive FHE operations and for resource-constrained environments such as on-chain verification via smart contracts. We propose Northstar, an efficient technique for proving negacyclic arithmetic natively. When integrated with existing STARK proving frameworks, Northstar achieves the best overall performance across prover time, verifier time, and proof size compared to prior state-of-the-art approaches for verifiable FHE constructions. Furthermore, Northstar is used to construct the first verifiable encrypted multi-asset (~ 1000 assets) variant of ERC-20 that is efficiently verifiable by a smart contract, and is practically deployable in the current blockchain ecosystem.",
+          "contribution": "Lattice-based cryptography can be used to construct a variety of post-quantum cryptographic schemes, ranging from standard cryptographic primitives such as digital signatures and encryption, to fully homomorphic encryption (FHE). However, the verification of correct lattice computations remains relatively expensive, particularly for computationally intensive FHE operations and for resource-constrained environments such as on-chain verification via smart contracts. We propose Northstar, an efficient technique for proving negacyclic arithmetic natively. When integrated with existing STARK proving frameworks, Northstar achieves the best overall performance across prover time, verifier time, and proof size compared to prior state-of-the-art approaches for verifiable FHE constructions. Furthermore, Northstar is used to construct the first verifiable encrypted multi-asset (~ 1000 assets) variant of ERC-20 that is efficiently verifiable by a smart contract, and is practically deployable in the current blockchain ecosystem.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "From Models to Services: Systematizing Security Assurance for Model-as-a-Service",
+          "authors": [
+            "Jianming Zhou",
+            "Yang Luo",
+            "Guangpu Chen",
+            "Zhaoyu Chen",
+            "Yifeng Gao",
+            "Qingni Shen",
+            "Zhonghai Wu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-25",
+          "url": "https://arxiv.org/abs/2611.34623",
+          "source": "arXiv",
+          "arxivId": "2611.34623",
+          "summary": "Large language models are mainly delivered as cloud services, in which the assets of different principals are coupled within a single service pipeline, while the related security research is scattered across several fields with differing threat models. This paper systematizes this research from a service perspective. We decompose Model-as-a-Service (MaaS) into a five-layer stack and five trust boundaries, define six adversary classes and six security goals, use them to code 120 studies, and evaluate 50 defenses under a unified set of criteria. The results show that 44.2% of the studies concentrate on behavioral integrity, while service integrity, availability and cost, and accountability together account for only 13.3%. Defenses are evaluated on production services at less than half the rate of attacks, and none of the cryptographic or hardware mechanisms that protect against the provider can be adopted unilaterally by customers. Finally, we propose a research agenda by comparison with current standards and regulations.",
+          "contribution": "Large language models are mainly delivered as cloud services, in which the assets of different principals are coupled within a single service pipeline, while the related security research is scattered across several fields with differing threat models. This paper systematizes this research from a service perspective. We decompose Model-as-a-Service (MaaS) into a five-layer stack and five trust boundaries, define six adversary classes and six security goals, use them to code 120 studies, and evaluate 50 defenses under a unified set of criteria. The results show that 44.2% of the studies concentrate on behavioral integrity, while service integrity, availability and cost, and accountability together account for only 13.3%. Defenses are evaluated on production services at less than half the rate of attacks, and none of the cryptographic or hardware mechanisms that protect against the provider can be adopted unilaterally by customers. Finally, we propose a research agenda by comparison with current standards and regulations.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "PFedHASNet: A Personalized Federated Hybrid Analog-Spike Network for Multi-Subject Motor Imagery EEG Decoding",
+          "authors": [
+            "Peijia Li",
+            "Ruidong Ma",
+            "Xianghong Lin",
+            "Xiangwen Wang",
+            "Guoyong Shi",
+            "Shuai Huang",
+            "Hongqi Li"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.32019",
+          "source": "arXiv",
+          "arxivId": "2611.32019",
+          "summary": "Motor imagery electroencephalography (MI-EEG) data are often collected and stored separately across subjects or institutions, and EEG acquisition and annotation remain costly. Training models solely on individual subject data limits the use of information from other subjects, whereas centralizing raw EEG recordings raises privacy and data governance concerns. Federated learning (FL) enables collaborative model training across distributed clients without sharing raw EEG data, providing a practical approach to leveraging information from multiple subjects. Accordingly, we propose PFedHASNet, a personalized federated hybrid analog-spike network for MI-EEG decoding. The shared encoder integrates continuous-valued temporal features, leaky integrate-and-fire (LIF) spike responses, and channel-wise log-variance statistics through learnable fusion weights. Client-private residual adapters and classifiers perform subject-specific feature refinement and personalized prediction, respectively. Experiments on held-out trials from participating subjects across four public MI-EEG datasets show that PFedHASNet achieves the highest mean client macro-F1 among 18 model configurations in cross-model comparisons, while maintaining competitive decoding performance with a compact client-side model in comparisons using the same backbone. Ablation studies further examine the contributions of hybrid representations and personalization components to decoding performance.",
+          "contribution": "Motor imagery electroencephalography (MI-EEG) data are often collected and stored separately across subjects or institutions, and EEG acquisition and annotation remain costly. Training models solely on individual subject data limits the use of information from other subjects, whereas centralizing raw EEG recordings raises privacy and data governance concerns. Federated learning (FL) enables collaborative model training across distributed clients without sharing raw EEG data, providing a practical approach to leveraging information from multiple subjects. Accordingly, we propose PFedHASNet, a personalized federated hybrid analog-spike network for MI-EEG decoding. The shared encoder integrates continuous-valued temporal features, leaky integrate-and-fire (LIF) spike responses, and channel-wise log-variance statistics through learnable fusion weights. Client-private residual adapters and classifiers perform subject-specific feature refinement and personalized prediction, respectively. Experiments on held-out trials from participating subjects across four public MI-EEG datasets show that PFedHASNet achieves the highest mean client macro-F1 among 18 model configurations in cross-model comparisons, while maintaining competitive decoding performance with a compact client-side model in comparisons using the same backbone. Ablation studies further examine the contributions of hybrid representations and personalization components to decoding performance.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Can AI Design a Better nnU-Net? A Hypothesis-Driven Architecture Discovery Loop from Failures to Design Rules",
+          "authors": [
+            "Songtao Jiang",
+            "Yuan Wang",
+            "Fucheng Niu",
+            "Hualiang Wang",
+            "Jian Wu",
+            "Zuozhu Liu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.32384",
+          "source": "arXiv",
+          "arxivId": "2611.32384",
+          "summary": "Neural architecture search and LLM-driven evolution often reduce evaluation to a scalar fitness score, discarding failures that could explain why designs succeed or fail. We present a hypothesis-driven architecture discovery loop in which LLM agents diagnose structured error patterns, formulate falsifiable hypotheses, test counterfactual controls under a frozen nnU-Net pipeline, and distill validated mechanisms into executable trigger-to-action rules. Across eight search waves, the loop identifies two principles for 3D medical image segmentation. First, reallocating computation from high-resolution decoders to the mid-encoder preserves thin-anatomy boundaries while reducing cost. Second, support-confined region contrast addresses errors between nested anatomical compartments, with anatomy-dependent triggers selecting when the rule applies. These principles produce LeanNeXt (0.78 MACs and 0.92 training-step time relative to nnU-Net; +1.63 Dice points on four-fold KiTS23 cross-validation) and trigger-routed LeanNeXt+. The latter improves all 15 evaluated CT/MRI settings over nnU-Net and exceeds the 3.3 larger ResEnc-M on 12 of 15 benchmarks at 0.30 its parameter count. Relative to random sampling, one-shot LLM generation, and score-selected agent search, the loop shows how failure analysis can yield reusable design rules across modalities.",
+          "contribution": "Neural architecture search and LLM-driven evolution often reduce evaluation to a scalar fitness score, discarding failures that could explain why designs succeed or fail. We present a hypothesis-driven architecture discovery loop in which LLM agents diagnose structured error patterns, formulate falsifiable hypotheses, test counterfactual controls under a frozen nnU-Net pipeline, and distill validated mechanisms into executable trigger-to-action rules. Across eight search waves, the loop identifies two principles for 3D medical image segmentation. First, reallocating computation from high-resolution decoders to the mid-encoder preserves thin-anatomy boundaries while reducing cost. Second, support-confined region contrast addresses errors between nested anatomical compartments, with anatomy-dependent triggers selecting when the rule applies. These principles produce LeanNeXt (0.78 MACs and 0.92 training-step time relative to nnU-Net; +1.63 Dice points on four-fold KiTS23 cross-validation) and trigger-routed LeanNeXt+. The latter improves all 15 evaluated CT/MRI settings over nnU-Net and exceeds the 3.3 larger ResEnc-M on 12 of 15 benchmarks at 0.30 its parameter count. Relative to random sampling, one-shot LLM generation, and score-selected agent search, the loop shows how failure analysis can yield reusable design rules across modalities.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "CANIMA: A Hybrid Image-Based In-vehicle CAN Bus Intrusion Detection Method",
+          "authors": [
+            "Shuhan Wu",
+            "Xiao Xiao",
+            "Ziqin Sun"
+          ],
+          "venue": "ACM Conference on Computer and Communications Security (CCS)",
+          "venueId": "C12",
+          "publishedDate": "2026-11-26",
+          "url": "https://doi.org/10.1007/978-981-92-8140-4_13",
+          "source": "Crossref",
+          "doi": "10.1007/978-981-92-8140-4_13",
+          "summary": "This paper examines CANIMA: A Hybrid Image-Based In-vehicle CAN Bus Intrusion Detection Method.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "A measurement noise scaling law for cellular representation learning",
+          "authors": [
+            "Gokul Gowri",
+            "Igor Sadalski",
+            "Dan Raviv",
+            "Peng Yin",
+            "Jonathan Rosenfeld",
+            "Allon Klein"
+          ],
+          "venue": "Nature Machine Intelligence",
+          "venueId": "J05",
+          "publishedDate": "2026-11-26",
+          "url": "https://doi.org/10.1038/s42256-026-01332-7",
+          "source": "Crossref",
+          "doi": "10.1038/s42256-026-01332-7",
+          "summary": "Abstract \n                   Large genomic and imaging datasets can be used to train models that learn meaningful representations of cellular systems. Across domains, model performance improves predictably with dataset size and compute budget, providing a basis for allocating data and computation. Scientific data, however, are also limited by noise arising from factors such as molecular undersampling, sequencing errors and image resolution. Here we introduce mutual information with auxiliary signals as a metric of representation model performance and study its scaling with noise. By fitting more than 2,000 representation learning models across three data modalities (gene expression, sequence and image data), we show that noise defines a distinct axis along which performance improves. Noise scaling follows a logarithmic law. We derive the law from a model of noise propagation, and use it to define noise sensitivity and model capacity as benchmarking metrics. We show that protein-sequence representations tolerate error rates in modern sequencing data, whereas single-cell transcriptomic models remain noise limited at current measurement signal-to-noise ratio levels. Within transcriptomic cell-state representation learning models, we find that transformer-based models are more noise robust but less performant than variational autoencoders. Noise scaling metrics may support future model evaluation and experimental design.",
+          "contribution": "Abstract \n                   Large genomic and imaging datasets can be used to train models that learn meaningful representations of cellular systems. Across domains, model performance improves predictably with dataset size and compute budget, providing a basis for allocating data and computation. Scientific data, however, are also limited by noise arising from factors such as molecular undersampling, sequencing errors and image resolution. Here we introduce mutual information with auxiliary signals as a metric of representation model performance and study its scaling with noise. By fitting more than 2,000 representation learning models across three data modalities (gene expression, sequence and image data), we show that noise defines a distinct axis along which performance improves. Noise scaling follows a logarithmic law. We derive the law from a model of noise propagation, and use it to define noise sensitivity and model capacity as benchmarking metrics. We show that protein-sequence representations tolerate error rates in modern sequencing data, whereas single-cell transcriptomic models remain noise limited at current measurement signal-to-noise ratio levels. Within transcriptomic cell-state representation learning models, we find that transformer-based models are more noise robust but less performant than variational autoencoders. Noise scaling metrics may support future model evaluation and experimental design.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-25",
       "generatedAt": "2026-11-25T18:16:49.305670+03:00",
       "papers": [
@@ -7412,5 +7588,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-25T18:16:49.305670+03:00"
+  "updatedAt": "2026-11-26T17:42:17.726022+03:00"
 }
