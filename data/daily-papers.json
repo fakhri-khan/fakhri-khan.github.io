@@ -25,6 +25,146 @@
   ],
   "days": [
     {
+      "date": "2026-11-27",
+      "generatedAt": "2026-11-27T17:40:42.768767+03:00",
+      "papers": [
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "Evaluating Post-Quantum and Hybrid Signatures for Blockchains: Performance, Storage and Ledger Growth",
+          "authors": [
+            "Anthony Mikhaiel",
+            "Essam Ghadafi"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-25",
+          "url": "https://arxiv.org/abs/2611.34229",
+          "source": "arXiv",
+          "arxivId": "2611.34229",
+          "summary": "Advances in quantum computing pose a long-term threat to blockchain systems that rely on classical digital signature schemes such as ECDSA. Migrating these systems to post-quantum cryptography introduces practical costs beyond cryptographic security, including larger transactions, higher computational costs and faster ledger growth. We present an empirical evaluation of 13 signature configurations in a common simulated blockchain framework: ECDSA, ML-DSA-44/65/87, Falcon-512/1024, SLH-DSA-SHA2-128s, and six hybrids combining ECDSA with each post-quantum scheme. We measure signing and verification costs, transaction-processing throughput, and signature and public-key sizes, and project the measured overheads onto five public blockchains: Bitcoin, Ethereum, Solana, BNB Smart Chain and TRON. Verification remains inexpensive for the evaluated lattice-based schemes, with Falcon-512 achieving a verification time comparable to ECDSA (30.1 versus 32.8 $μ$s). Storage overheads, however, are substantial. Under our modelling assumptions, had the recorded transaction histories used Falcon-512, the most compact post-quantum scheme evaluated, ledger sizes would have been 79--229% larger, depending on the blockchain. Hybrid configurations introduce relatively modest additional storage overhead compared with their standalone post-quantum counterparts, while ECDSA+Falcon-512 approximately doubles the verification cost of standalone Falcon-512. Existing transaction- and script-size limits also present obstacles to straightforward migration in Bitcoin and Solana. Overall, our findings suggest that storage overhead may pose a greater challenge than signature verification costs when migrating blockchain systems to post-quantum cryptography.",
+          "contribution": "Advances in quantum computing pose a long-term threat to blockchain systems that rely on classical digital signature schemes such as ECDSA. Migrating these systems to post-quantum cryptography introduces practical costs beyond cryptographic security, including larger transactions, higher computational costs and faster ledger growth. We present an empirical evaluation of 13 signature configurations in a common simulated blockchain framework: ECDSA, ML-DSA-44/65/87, Falcon-512/1024, SLH-DSA-SHA2-128s, and six hybrids combining ECDSA with each post-quantum scheme. We measure signing and verification costs, transaction-processing throughput, and signature and public-key sizes, and project the measured overheads onto five public blockchains: Bitcoin, Ethereum, Solana, BNB Smart Chain and TRON. Verification remains inexpensive for the evaluated lattice-based schemes, with Falcon-512 achieving a verification time comparable to ECDSA (30.1 versus 32.8 $μ$s). Storage overheads, however, are substantial. Under our modelling assumptions, had the recorded transaction histories used Falcon-512, the most compact post-quantum scheme evaluated, ledger sizes would have been 79--229% larger, depending on the blockchain. Hybrid configurations introduce relatively modest additional storage overhead compared with their standalone post-quantum counterparts, while ECDSA+Falcon-512 approximately doubles the verification cost of standalone Falcon-512. Existing transaction- and script-size limits also present obstacles to straightforward migration in Bitcoin and Solana. Overall, our findings suggest that storage overhead may pose a greater challenge than signature verification costs when migrating blockchain systems to post-quantum cryptography.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "The Detour Is the Danger: Preserving Security During LLM Agent Recovery",
+          "authors": [
+            "Boyang Ma",
+            "Jinku Li",
+            "Hao Wu",
+            "Sheng Gao",
+            "Man Zhou",
+            "Minghui Xu",
+            "Yue Zhang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-25",
+          "url": "https://arxiv.org/abs/2611.33605",
+          "source": "arXiv",
+          "arxivId": "2611.33605",
+          "summary": "LLM agents increasingly rely on external tools and reusable Skills to execute complex workflows, autonomously replanning when operations fail. However, such recovery may preserve task functionality while silently discarding the security protections required by the original workflow. In this paper, we investigate workflow security downgrade, a failure-induced security threat in which agents execute sensitive operations without satisfying their original protection requirements. Unlike prompt injection, this threat exploits autonomous recovery decisions triggered by execution failures, without modifying instructions or tool definitions. We systematically evaluate this behavior through fault injection in an executable MCP/Skill environment spanning seven LLMs, twelve task templates, and three security-sensitive domains. To address this threat, we propose ARGUS, an obligation-preserving recovery framework that combines resource-bound security evidence, isolated recovery-plan validation, and execution-time enforcement. In a separate 864-run evaluation, ARGUS prevents all observed protection-loss events under enforcement, while recovery assistance yields model-dependent improvements in protected task completion over blocking alone. Our findings demonstrate that secure agent recovery requires preserving security obligations across workflow changes, rather than merely restoring task functionality.",
+          "contribution": "LLM agents increasingly rely on external tools and reusable Skills to execute complex workflows, autonomously replanning when operations fail. However, such recovery may preserve task functionality while silently discarding the security protections required by the original workflow. In this paper, we investigate workflow security downgrade, a failure-induced security threat in which agents execute sensitive operations without satisfying their original protection requirements. Unlike prompt injection, this threat exploits autonomous recovery decisions triggered by execution failures, without modifying instructions or tool definitions. We systematically evaluate this behavior through fault injection in an executable MCP/Skill environment spanning seven LLMs, twelve task templates, and three security-sensitive domains. To address this threat, we propose ARGUS, an obligation-preserving recovery framework that combines resource-bound security evidence, isolated recovery-plan validation, and execution-time enforcement. In a separate 864-run evaluation, ARGUS prevents all observed protection-loss events under enforcement, while recovery assistance yields model-dependent improvements in protected task completion over blocking alone. Our findings demonstrate that secure agent recovery requires preserving security obligations across workflow changes, rather than merely restoring task functionality.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Advancing Logical Reasoning in Large Language Models: Issues, Challenges, and Pathways Forward",
+          "authors": [
+            "Pan Liu",
+            "Yihao Li"
+          ],
+          "venue": "ACM Computing Surveys",
+          "venueId": "J14",
+          "publishedDate": "2026-11-27",
+          "url": "https://doi.org/10.1145/3862332",
+          "source": "Crossref",
+          "doi": "10.1145/3862332",
+          "summary": "Large Language Models (LLMs) have achieved remarkable fluency in natural language generation, yet they continue to struggle with structured reasoning tasks, including formal deduction, abstraction, multi-step inference, and prompt sensitivity. These limitations pose significant barriers to their deployment in high-stakes domains such as law, science, and healthcare. To address these deficiencies, this survey presents a comprehensive taxonomy of LLM reasoning deficiencies, illustrated with empirical case studies. We further examine four complementary enhancement paradigms—Chain-of-Thought prompting, training data optimization, program-aided reasoning, and mathematical model-aided inference—each targeting distinct reasoning challenges. To unify these approaches, we introduce the Adaptive Hybrid Reasoning Framework (AHRF), a modular, task-aware architecture that integrates symbolic logic, neuro-symbolic inference, program-level verification, reinforcement learning, and feedback-driven optimization. AHRF dynamically orchestrates reasoning strategies based on task structure and supports verifiable, semantically grounded inference. Guided by this framework, we identify six open challenges—scalability, interpretability, integration robustness, data dependency, ethical governance, and multimodal support—and propose corresponding research directions. This work offers a unified roadmap for advancing robust, explainable, and trustworthy reasoning in LLMs.",
+          "contribution": "Large Language Models (LLMs) have achieved remarkable fluency in natural language generation, yet they continue to struggle with structured reasoning tasks, including formal deduction, abstraction, multi-step inference, and prompt sensitivity. These limitations pose significant barriers to their deployment in high-stakes domains such as law, science, and healthcare. To address these deficiencies, this survey presents a comprehensive taxonomy of LLM reasoning deficiencies, illustrated with empirical case studies. We further examine four complementary enhancement paradigms—Chain-of-Thought prompting, training data optimization, program-aided reasoning, and mathematical model-aided inference—each targeting distinct reasoning challenges. To unify these approaches, we introduce the Adaptive Hybrid Reasoning Framework (AHRF), a modular, task-aware architecture that integrates symbolic logic, neuro-symbolic inference, program-level verification, reinforcement learning, and feedback-driven optimization. AHRF dynamically orchestrates reasoning strategies based on task structure and supports verifiable, semantically grounded inference. Guided by this framework, we identify six open challenges—scalability, interpretability, integration robustness, data dependency, ethical governance, and multimodal support—and propose corresponding research directions. This work offers a unified roadmap for advancing robust, explainable, and trustworthy reasoning in LLMs.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Where Does Free-Text 3D Grounding Fail? An Error Analysis of Report-Sentence Segmentation in Chest CT",
+          "authors": [
+            "Abdullah Arif Sheikh",
+            "Kamalaker Dadi",
+            "Raju S. Bapi"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-25",
+          "url": "https://arxiv.org/abs/2611.33958",
+          "source": "arXiv",
+          "arxivId": "2611.33958",
+          "summary": "Free-text 3D grounding, segmenting in a CT volume the region described by one sentence of the radiology report, could link reports to images at scale, but it is unclear where current models fail. We analyse the publicly released VoxTell model on all 381 findings of the 200-scan ReXGroundingCT validation set, where it grounds 53.5% of findings. Its failures are rarely about which lesion or side is meant. No miss lies on the side opposite to the one named, and findings are almost never confused with one another. Instead, predictions are too large, land on a neighbouring lesion on the correct side, or are missing for small findings, and diffuse findings are rarely grounded. Removing location words halves performance, to the level of label-only prompting, and anatomical rules derived from the sentence never improve the full-sentence output. The same pattern holds on the hidden 300-scan test set. Further progress therefore depends on extent estimation and small-lesion sensitivity rather than on anatomical post-processing.",
+          "contribution": "Free-text 3D grounding, segmenting in a CT volume the region described by one sentence of the radiology report, could link reports to images at scale, but it is unclear where current models fail. We analyse the publicly released VoxTell model on all 381 findings of the 200-scan ReXGroundingCT validation set, where it grounds 53.5% of findings. Its failures are rarely about which lesion or side is meant. No miss lies on the side opposite to the one named, and findings are almost never confused with one another. Instead, predictions are too large, land on a neighbouring lesion on the correct side, or are missing for small findings, and diffuse findings are rarely grounded. Removing location words halves performance, to the level of label-only prompting, and anatomical rules derived from the sentence never improve the full-sentence output. The same pattern holds on the hidden 300-scan test set. Further progress therefore depends on extent estimation and small-lesion sensitivity rather than on anatomical post-processing.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "Audits Need Access, Data, and Compute. But How Much?",
+          "authors": [
+            "Salil Goyal",
+            "Sarah H. Cen",
+            "Daniel E. Ho"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.31968",
+          "source": "arXiv",
+          "arxivId": "2611.31968",
+          "summary": "AI audits have garnered significant attention in recent months, as the ability to test and monitor AI models plays a crucial role in safe development and deployment. However, AI audit success hinges on an auditor's authority; in particular, what information and resources they have at their disposal. Ongoing debates have surrounded the question: How much model access is needed to conduct an AI audit? Auditors seek more model access, while companies resist it for reasons related to confidential business information (trade secrets) and privacy. This tug-of-war remains unresolved. Further, this debate misses a related question: How much data and compute do auditors need? In this work, we systematically investigate both questions. We provide a framework that varies each of these three dimensions-model access, data, and compute-and measures their joint effect on audit success. We apply this framework to three tasks. We find that (1) some model access is important, but there can be diminishing returns; (2) data and compute matter more for traditional fairness audits, but model access matters more for manipulation and lie detection; and (3) these three resources can be fungible (i.e., an exchange rate exists between them), meaning that model access is not the only salient factor. These results suggest that audit governance should jointly consider different dimensions of auditor authority (including model access, data, and compute) in relation to audit objectives. These issues are particularly salient as we consider the spectrum of auditing setups, from a small ecosystem of embedded evaluators with significant access to a large body of third-party auditors with greater independence but limited access. Our framework serves as a template that can be applied to different audit tasks and inform the degree of auditor authority.",
+          "contribution": "AI audits have garnered significant attention in recent months, as the ability to test and monitor AI models plays a crucial role in safe development and deployment. However, AI audit success hinges on an auditor's authority; in particular, what information and resources they have at their disposal. Ongoing debates have surrounded the question: How much model access is needed to conduct an AI audit? Auditors seek more model access, while companies resist it for reasons related to confidential business information (trade secrets) and privacy. This tug-of-war remains unresolved. Further, this debate misses a related question: How much data and compute do auditors need? In this work, we systematically investigate both questions. We provide a framework that varies each of these three dimensions-model access, data, and compute-and measures their joint effect on audit success. We apply this framework to three tasks. We find that (1) some model access is important, but there can be diminishing returns; (2) data and compute matter more for traditional fairness audits, but model access matters more for manipulation and lie detection; and (3) these three resources can be fungible (i.e., an exchange rate exists between them), meaning that model access is not the only salient factor. These results suggest that audit governance should jointly consider different dimensions of auditor authority (including model access, data, and compute) in relation to audit objectives. These issues are particularly salient as we consider the spectrum of auditing setups, from a small ecosystem of embedded evaluators with significant access to a large body of third-party auditors with greater independence but limited access. Our framework serves as a template that can be applied to different audit tasks and inform the degree of auditor authority.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "Generating proteins with computationally predicted functions and multiple states via multimodal diffusion",
+          "authors": [
+            "Bowen Jing",
+            "Anna Sappington",
+            "Mihir Bafna",
+            "Ravi Shah",
+            "Adrina Tang",
+            "Rohith Krishna",
+            "Adam Klivans",
+            "Daniel J. Diaz",
+            "Bonnie Berger"
+          ],
+          "venue": "Nature Machine Intelligence",
+          "venueId": "J05",
+          "publishedDate": "2026-11-27",
+          "url": "https://doi.org/10.1038/s42256-026-01329-2",
+          "source": "Crossref",
+          "doi": "10.1038/s42256-026-01329-2",
+          "summary": "This paper examines Generating proteins with computationally predicted functions and multiple states via multimodal diffusion.",
+          "contribution": "Not stated in the abstract.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-26",
       "generatedAt": "2026-11-26T17:42:17.726022+03:00",
       "papers": [
@@ -7588,5 +7728,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-26T17:42:17.726022+03:00"
+  "updatedAt": "2026-11-27T17:40:42.768767+03:00"
 }
