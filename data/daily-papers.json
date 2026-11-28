@@ -25,6 +25,131 @@
   ],
   "days": [
     {
+      "date": "2026-11-28",
+      "generatedAt": "2026-11-28T16:51:48.034840+03:00",
+      "papers": [
+        {
+          "trackId": "pqc-embedded",
+          "trackName": "Post-Quantum Cryptography and Embedded Systems Security",
+          "title": "WEPWAWET-CORE: A Hardware-Resident ML-DSA Architecture with Fabric-Generated, Fabric-Sealed Keys for Post-Quantum Avionics",
+          "authors": [
+            "Mohamed El-Hadedy",
+            "Wen-Mei Hwu"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-23",
+          "url": "https://arxiv.org/abs/2611.30396",
+          "source": "arXiv",
+          "arxivId": "2611.30396",
+          "summary": "Spacecraft that exchange commands over crosslinks need quantum-resistant signatures, for which the Module-Lattice-Based Digital Signature Algorithm (ML-DSA, FIPS 204) is the standard, yet a software signer runs its data-dependent rejection loop, and keeps its key, on cores and memory shared with attitude control and payload processing. This paper shows that for a hardware-assisted signer the cost that matters is not the arithmetic but the number of times the processor crosses into the fabric, and that the boundary which minimizes those crossings is also where the key can be sealed. A gem5-supported analysis of three control granularities over the same kernels shows that only one job per signature, with the whole rejection loop on chip, takes the processor off the critical path. WEPWAWET-CORE realizes that boundary on an XCZU3EG at 300 MHz: a ROM microsequencer runs Sign, Verify, and key generation as three programs over one datapath and a banked scratchpad, and keeps the key, the on-die entropy, and the mask seed off the processor bus. The processor-side cost of a signature falls from over a second under per-kernel control to 0.53 ms, fixed whatever the number of rejections, and the fabric's time per attempt varies by less than 0.1% under a saturating workload. Under NASA JPL's F Prime with attitude-control and imaging loads, two nodes with fabric-generated, ground-certified keys exchanged 3,575 signed frames, every frame was accepted, and no attitude deadline was missed. A cycle profile places the remaining distance to dedicated cores in two serial units.",
+          "contribution": "Spacecraft that exchange commands over crosslinks need quantum-resistant signatures, for which the Module-Lattice-Based Digital Signature Algorithm (ML-DSA, FIPS 204) is the standard, yet a software signer runs its data-dependent rejection loop, and keeps its key, on cores and memory shared with attitude control and payload processing. This paper shows that for a hardware-assisted signer the cost that matters is not the arithmetic but the number of times the processor crosses into the fabric, and that the boundary which minimizes those crossings is also where the key can be sealed. A gem5-supported analysis of three control granularities over the same kernels shows that only one job per signature, with the whole rejection loop on chip, takes the processor off the critical path. WEPWAWET-CORE realizes that boundary on an XCZU3EG at 300 MHz: a ROM microsequencer runs Sign, Verify, and key generation as three programs over one datapath and a banked scratchpad, and keeps the key, the on-die entropy, and the mask seed off the processor bus. The processor-side cost of a signature falls from over a second under per-kernel control to 0.53 ms, fixed whatever the number of rejections, and the fabric's time per attempt varies by less than 0.1% under a saturating workload. Under NASA JPL's F Prime with attitude-control and imaging loads, two nodes with fabric-generated, ground-certified keys exchanged 3,575 signed frames, every frame was accepted, and no attitude deadline was missed. A cycle profile places the remaining distance to dedicated cores in two serial units.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Post-Quantum Cryptography and Embedded Systems Security based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "secure-healthcare",
+          "trackName": "AI-Driven Cybersecurity and Secure Healthcare Systems",
+          "title": "Benchmarking Open-Ended Vulnerability Discovery in Windows Kernel Binaries",
+          "authors": [
+            "Jongseong Kim",
+            "Hwiwon Lee",
+            "Dongjun Kim",
+            "Lingming Zhang"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-24",
+          "url": "https://arxiv.org/abs/2611.33486",
+          "source": "arXiv",
+          "arxivId": "2611.33486",
+          "summary": "Frontier models are increasingly used to discover real-world security vulnerabilities, making it critical to systematically evaluate their cybersecurity capabilities. However, existing security benchmarks primarily focus on known vulnerabilities in open-source projects, largely overlooking closed-source binaries, which underpin much of the software industry. In this paper, we ask: how effective are frontier models at uncovering deep vulnerabilities in production binaries? To answer this question, we present DeepBinary, the first comprehensive benchmark for open-ended vulnerability discovery in Windows kernel binaries. Given a target binary, an agent analyzes it using a disassembler and kernel debugger in network-isolated VMs and reports each vulnerability with a crashing proof of concept (PoC). Unlike existing benchmarks, DeepBinary replays every report on fresh VMs and employs an LLM-based judge to assess its validity, uniqueness, and impact (estimated by bug bounty values). Beyond known vulnerabilities, DeepBinary also enables the discovery and validation of previously unknown (0-day) vulnerabilities. We conduct a comprehensive evaluation of representative open- and closed-weight models (including GPT-6 Sol, Claude Opus 5, and DeepSeek V4.1 Flash) across diverse coding agents (including Codex and Claude Code) on 12 target binaries. In total, they discover over 200 vulnerabilities with an estimated aggregate bounty of $661,000, including 146 distinct previously unknown vulnerabilities across all experiments. Our results further reveal substantial differences in models' ability to analyze binaries, conduct experiments, and sustain vulnerability discovery over long horizons. Overall, DeepBinary makes long-horizon, open-ended vulnerability discovery in complex binaries measurable, revealing fundamental differences in how frontier models analyze and explore such systems.",
+          "contribution": "Frontier models are increasingly used to discover real-world security vulnerabilities, making it critical to systematically evaluate their cybersecurity capabilities. However, existing security benchmarks primarily focus on known vulnerabilities in open-source projects, largely overlooking closed-source binaries, which underpin much of the software industry. In this paper, we ask: how effective are frontier models at uncovering deep vulnerabilities in production binaries? To answer this question, we present DeepBinary, the first comprehensive benchmark for open-ended vulnerability discovery in Windows kernel binaries. Given a target binary, an agent analyzes it using a disassembler and kernel debugger in network-isolated VMs and reports each vulnerability with a crashing proof of concept (PoC). Unlike existing benchmarks, DeepBinary replays every report on fresh VMs and employs an LLM-based judge to assess its validity, uniqueness, and impact (estimated by bug bounty values). Beyond known vulnerabilities, DeepBinary also enables the discovery and validation of previously unknown (0-day) vulnerabilities. We conduct a comprehensive evaluation of representative open- and closed-weight models (including GPT-6 Sol, Claude Opus 5, and DeepSeek V4.1 Flash) across diverse coding agents (including Codex and Claude Code) on 12 target binaries. In total, they discover over 200 vulnerabilities with an estimated aggregate bounty of $661,000, including 146 distinct previously unknown vulnerabilities across all experiments. Our results further reveal substantial differences in models' ability to analyze binaries, conduct experiments, and sustain vulnerability discovery over long horizons. Overall, DeepBinary makes long-horizon, open-ended vulnerability discovery in complex binaries measurable, revealing fundamental differences in how frontier models analyze and explore such systems.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to AI-Driven Cybersecurity and Secure Healthcare Systems based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "trustworthy-ai",
+          "trackName": "Trustworthy and Privacy-Preserving AI",
+          "title": "ECLIPSE: Embedding-Centered Foundation-Model Federated Knowledge Transfer for Data-Free Edge Intelligence",
+          "authors": [
+            "S. Kawa Atapour",
+            "S. Jamal Seyedmohammadi",
+            "Maryam Hosseini",
+            "S. Mohammad Sheikholeslami",
+            "Jamshid Abouei",
+            "Konstantinos Plataniotis",
+            "Arash Mohammadi"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-23",
+          "url": "https://arxiv.org/abs/2611.31527",
+          "source": "arXiv",
+          "arxivId": "2611.31527",
+          "summary": "Foundation Models (FMs) are envisioned to become an integral component of intelligent federated edge networks because of their strong representation and generalization capabilities. However, their integration into resource-constrained and privacy-sensitive edge environments remains challenging. This challenge is particularly pronounced in data-free settings, where no shared, public, or server-accessible reference dataset is available to establish a common reference space for aligning distributed knowledge. To address this challenge, we propose ECLIPSE, which is an embedding-centered FM-based federated knowledge transfer framework developed for data-free edge intelligence. ECLIPSE enables edge intelligence capitalizing on a server-hosted FM without sharing raw data, local models, or a public reference dataset. It establishes a shared embedding reference space through which edge devices encode their local task knowledge. Only the resulting embeddings are transmitted to the server for alignment and aggregation. Using the aggregated embeddings, the server constructs a task-aware surrogate dataset through an embedding-guided generative process. This surrogate dataset is then used to adapt the server-hosted FM to the downstream task. The adapted FM is subsequently distilled into a lightweight global model and distributed to the edge devices. This process allows edge devices to benefit from both distributed task knowledge and the generalization capabilities of the FM. Experimental results across diverse classification datasets show that ECLIPSE outperforms conventional Federated Learning (FL) and data-free Federated Knowledge-Transfer (FKT) baselines. It also achieves competitive performance compared with databased approaches. Furthermore, the framework remains robust under statistical and model heterogeneity across different data distributions and local architectures.",
+          "contribution": "Foundation Models (FMs) are envisioned to become an integral component of intelligent federated edge networks because of their strong representation and generalization capabilities. However, their integration into resource-constrained and privacy-sensitive edge environments remains challenging. This challenge is particularly pronounced in data-free settings, where no shared, public, or server-accessible reference dataset is available to establish a common reference space for aligning distributed knowledge. To address this challenge, we propose ECLIPSE, which is an embedding-centered FM-based federated knowledge transfer framework developed for data-free edge intelligence. ECLIPSE enables edge intelligence capitalizing on a server-hosted FM without sharing raw data, local models, or a public reference dataset. It establishes a shared embedding reference space through which edge devices encode their local task knowledge. Only the resulting embeddings are transmitted to the server for alignment and aggregation. Using the aggregated embeddings, the server constructs a task-aware surrogate dataset through an embedding-guided generative process. This surrogate dataset is then used to adapt the server-hosted FM to the downstream task. The adapted FM is subsequently distilled into a lightweight global model and distributed to the edge devices. This process allows edge devices to benefit from both distributed task knowledge and the generalization capabilities of the FM. Experimental results across diverse classification datasets show that ECLIPSE outperforms conventional Federated Learning (FL) and data-free Federated Knowledge-Transfer (FKT) baselines. It also achieves competitive performance compared with databased approaches. Furthermore, the framework remains robust under statistical and model heterogeneity across different data distributions and local architectures.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Trustworthy and Privacy-Preserving AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "CHD-Bench: Diagnosing Congenital Heart Disease through Interactive Examination",
+          "authors": [
+            "Gautham Krishnan P",
+            "Shrisharanyan Vasu",
+            "Aniketh Vijesh",
+            "Rajagopalan Rameshbabu",
+            "Harikrishnan Anil Maya",
+            "Sarin Xavier",
+            "Mahesh Kappanayil",
+            "Gilad Gressel"
+          ],
+          "venue": "arXiv preprint",
+          "venueId": "P01",
+          "publishedDate": "2026-11-25",
+          "url": "https://arxiv.org/abs/2611.33775",
+          "source": "arXiv",
+          "arxivId": "2611.33775",
+          "summary": "Diagnosis of congenital heart disease (CHD) requires understanding the spatial relationships between cardiac structures, which clinicians assess by scrolling through CT or cardiac magnetic resonance imaging (MRI) slices and rotating 3D reconstructions. Although automated methods have advanced cardiac segmentation, identifying congenital heart defects from volumetric scans remains an open challenge. The two existing approaches rely on handcrafted diagnostic rules limited to static anatomical abnormalities. We introduce CHD-Bench, the first benchmark for interactive CHD diagnosis, defining a multi-label task and evaluation protocol over 247 CT and MRI scans from three cohorts covering 38 CHD types. We also present CHD-Harness, open-source software that runs a VLM in a 3D Slicer environment through 22 tools, manages each examination, and records the resulting diagnosis and supporting views. We evaluate off-the-shelf medical, open weight, and closed weight VLMs and compare them with a 3D CNN classifier and published rule-based results. Gemini 4 Argon with CHD-Harness achieves the highest macro F1 across all three cohorts (0.63, 0.63, and 0.43). Allowing for interactive examination raises its macro F1 by up to 20 points over static views. These results establish CHD-Bench and CHD-Harness as a foundation for developing and evaluating VLMs for interactive CHD diagnosis.",
+          "contribution": "Diagnosis of congenital heart disease (CHD) requires understanding the spatial relationships between cardiac structures, which clinicians assess by scrolling through CT or cardiac magnetic resonance imaging (MRI) slices and rotating 3D reconstructions. Although automated methods have advanced cardiac segmentation, identifying congenital heart defects from volumetric scans remains an open challenge. The two existing approaches rely on handcrafted diagnostic rules limited to static anatomical abnormalities. We introduce CHD-Bench, the first benchmark for interactive CHD diagnosis, defining a multi-label task and evaluation protocol over 247 CT and MRI scans from three cohorts covering 38 CHD types. We also present CHD-Harness, open-source software that runs a VLM in a 3D Slicer environment through 22 tools, manages each examination, and records the resulting diagnosis and supporting views. We evaluate off-the-shelf medical, open weight, and closed weight VLMs and compare them with a 3D CNN classifier and published rule-based results. Gemini 4 Argon with CHD-Harness achieves the highest macro F1 across all three cohorts (0.63, 0.63, and 0.43). Allowing for interactive examination raises its macro F1 by up to 20 points over static views. These results establish CHD-Bench and CHD-Harness as a foundation for developing and evaluating VLMs for interactive CHD diagnosis.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        },
+        {
+          "trackId": "medical-imaging",
+          "trackName": "Medical Imaging and Multimodal Biomedical AI",
+          "title": "An interpretable multimodal MRI framework for Alzheimer’s disease classification using gated-attention fusion and SHAP",
+          "authors": [
+            "Chaoqi Lv",
+            "Tao Liu",
+            "Lan Zang",
+            "Maochang Huang",
+            "Weiyuan Huang",
+            "Huijuan Chen",
+            "Yihao Guo",
+            "Feng Chen"
+          ],
+          "venue": "SPIE Medical Imaging",
+          "venueId": "C04",
+          "publishedDate": "2026-11-28",
+          "url": "https://doi.org/10.1186/s12880-026-03091-8",
+          "source": "Crossref",
+          "doi": "10.1186/s12880-026-03091-8",
+          "summary": "Abstract \n                   \n                     Background \n                     Multimodal magnetic resonance imaging (MRI) captures complementary aspects of brain structure and function, but how classification models use this information can be difficult to interpret. We developed and evaluated a gated-attention model for distinguishing four clinical groups: dementia due to Alzheimer’s disease, mild cognitive impairment, subjective cognitive decline, and normal cognition. \n                   \n                   \n                     Methods \n                     The study included 495 participants from the CTPCS-HEAD cohort and 100 from the independent ADNI3 cohort. A multilayer perceptron combined 594 structural, diffusion, and resting-state functional MRI features by learning participant-specific weights for six feature sets. We evaluated all six pairwise comparisons. Internal evaluation used one out-of-fold prediction per participant from stratified five-fold cross-validation. External evaluation used each participant’s mean predicted probability across the five models. We estimated 95% confidence intervals using 1,000 participant-level bootstrap resamples stratified by diagnostic group. Post hoc analyses examined modality weights and feature attributions for the three comparisons involving dementia. \n                   \n                   \n                     Results \n                     Discrimination was strongest for dementia versus normal cognition. The area under the receiver operating characteristic curve was 96.21% internally and 96.68% externally (external 95% confidence interval, 92.21–99.57%). Internal and external values were 89.88% and 92.72% for dementia versus subjective cognitive decline and 82.91% and 84.40% for dementia versus mild cognitive impairment. External discrimination was weaker for mild cognitive impairment versus subjective cognitive decline (63.29%). In both cohorts, gray matter volume received the highest mean gating weight for dementia versus normal cognition, whereas cortical thickness received the highest mean weight for dementia versus mild cognitive impairment. Highly ranked features included hippocampal gray matter volume and cingulum diffusion measures, although rankings varied across model fits and cohorts. \n                   \n                   \n                     Conclusions \n                     The model distinguished dementia due to Alzheimer’s disease from normal cognition most clearly in both cohorts. Modality weights and feature attributions helped describe how the model used imaging information for different comparisons. Variation in feature rankings limits their interpretation as stable disease markers.",
+          "contribution": "Abstract \n                   \n                     Background \n                     Multimodal magnetic resonance imaging (MRI) captures complementary aspects of brain structure and function, but how classification models use this information can be difficult to interpret. We developed and evaluated a gated-attention model for distinguishing four clinical groups: dementia due to Alzheimer’s disease, mild cognitive impairment, subjective cognitive decline, and normal cognition. \n                   \n                   \n                     Methods \n                     The study included 495 participants from the CTPCS-HEAD cohort and 100 from the independent ADNI3 cohort. A multilayer perceptron combined 594 structural, diffusion, and resting-state functional MRI features by learning participant-specific weights for six feature sets. We evaluated all six pairwise comparisons. Internal evaluation used one out-of-fold prediction per participant from stratified five-fold cross-validation. External evaluation used each participant’s mean predicted probability across the five models. We estimated 95% confidence intervals using 1,000 participant-level bootstrap resamples stratified by diagnostic group. Post hoc analyses examined modality weights and feature attributions for the three comparisons involving dementia. \n                   \n                   \n                     Results \n                     Discrimination was strongest for dementia versus normal cognition. The area under the receiver operating characteristic curve was 96.21% internally and 96.68% externally (external 95% confidence interval, 92.21–99.57%). Internal and external values were 89.88% and 92.72% for dementia versus subjective cognitive decline and 82.91% and 84.40% for dementia versus mild cognitive impairment. External discrimination was weaker for mild cognitive impairment versus subjective cognitive decline (63.29%). In both cohorts, gray matter volume received the highest mean gating weight for dementia versus normal cognition, whereas cortical thickness received the highest mean weight for dementia versus mild cognitive impairment. Highly ranked features included hippocampal gray matter volume and cingulum diffusion measures, although rankings varied across model fits and cohorts. \n                   \n                   \n                     Conclusions \n                     The model distinguished dementia due to Alzheimer’s disease from normal cognition most clearly in both cohorts. Modality weights and feature attributions helped describe how the model used imaging information for different comparisons. Variation in feature rankings limits their interpretation as stable disease markers.",
+          "methods": "Not stated in the abstract.",
+          "relevance": "Relevant to Medical Imaging and Multimodal Biomedical AI based on the paper metadata and abstract.",
+          "limitations": "Not stated in the abstract."
+        }
+      ]
+    },
+    {
       "date": "2026-11-27",
       "generatedAt": "2026-11-27T17:40:42.768767+03:00",
       "papers": [
@@ -7728,5 +7853,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-27T17:40:42.768767+03:00"
+  "updatedAt": "2026-11-28T16:51:48.034840+03:00"
 }
